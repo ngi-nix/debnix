@@ -36,8 +36,10 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
   rust-analyzer = rustToolchainToml;
 
   nativeBuildInputs = [
+    pkgs.pkg-config
   ];
   buildInputs = [
+    pkgs.openssl
   ];
   devInputs = [
     rust-analyzer

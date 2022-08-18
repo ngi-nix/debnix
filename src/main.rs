@@ -71,15 +71,16 @@ fn main() {
 fn match_libs(input: &[&str], output: &[&str]) -> HashMap<String, String> {
     let mut res_map = HashMap::new();
     let mut input = input.to_vec();
-    let mut output = output.to_vec();
+    let mut outputs = output.to_vec();
 
-    input.retain(|lib| match match_inlib(lib, &mut output) {
+    // manual matching of the inputs
+    input.retain(|lib| match match_inlib(lib, &mut outputs) {
         (true, None) => true,
         (true, Some(_)) => true,
         (false, None) => false,
         (false, Some(outlib)) => {
             res_map.insert(String::from(*lib), outlib.clone());
-            output.retain(|lib| {
+            outputs.retain(|lib| {
                 if String::from(<&str>::clone(lib)) == outlib {
                     false
                 } else {
@@ -89,9 +90,44 @@ fn match_libs(input: &[&str], output: &[&str]) -> HashMap<String, String> {
             false
         }
     });
+    // redirect the remaining packages and match them afterwards
+    input.retain(|lib| {
+        let (redirect, _original) = debian_redirect(&lib);
+        match match_inlib(&redirect, &mut outputs) {
+            (true, None) => true,
+            (true, Some(_)) => true,
+            (false, None) => false,
+            (false, Some(outlib)) => {
+                res_map.insert(String::from(*lib), outlib.clone());
+                outputs.retain(|lib| {
+                    if String::from(<&str>::clone(&lib)) == outlib {
+                        false
+                    } else {
+                        true
+                    }
+                });
+                false
+            }
+        }
+    });
+    // redirect the remaining packages and match them afterwards match remaining packages against
+    // the full output and don't take pkgs out of the outputs (multiple binaries in one pkg)
+    input.retain(|lib| {
+        let mut outputs = output.to_vec();
+        let (redirect, _original) = debian_redirect(&lib);
+        match match_inlib(&redirect, &mut outputs) {
+            (true, None) => true,
+            (true, Some(_)) => true,
+            (false, None) => false,
+            (false, Some(outlib)) => {
+                res_map.insert(String::from(*lib), outlib.clone());
+                false
+            }
+        }
+    });
 
     println!("\nInput {:?}\n", &input);
-    println!("Output {:?}\n", &output);
+    println!("Output {:?}\n", &outputs);
 
     res_map
 }
@@ -131,29 +167,56 @@ fn match_inlib(inlib: &str, outlibs: &mut [&str]) -> (bool, Option<String>) {
     }
     // replace `-dev` && lowercase && replace - _ && replace lib
     for outlib in &mut *outlibs {
-        if ve.replace_all(&inlib
-            .replace("-dev", "")
-            .replace('-', "_")
-            .replace("lib", "")
-            .to_lowercase(),"")
-            == *outlib.to_lowercase()
+        if ve.replace_all(
+            &inlib
+                .replace("-dev", "")
+                .replace('-', "_")
+                .replace("lib", "")
+                .to_lowercase(),
+            "",
+        ) == *outlib.to_lowercase()
         {
             println!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
     // replace `-dev` && lowercase && replace - _ && don't replace lib
-    for outlib in outlibs {
-        if ve.replace_all(&inlib
-            .replace("-dev", "")
-            .replace('-', "_")
-            .to_lowercase(),"")
-            == *outlib.to_lowercase()
+    for outlib in &mut *outlibs {
+        if ve.replace_all(
+            &inlib.replace("-dev", "").replace('-', "_").to_lowercase(),
+            "",
+        ) == *outlib.to_lowercase()
         {
             println!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
-
+    // replace `-dev` && lowercase && replace - "" && don't replace lib
+    for outlib in outlibs {
+        if ve.replace_all(
+            &inlib
+                .replace("-dev", "")
+                .replace('-', "")
+                .replace("lib", "")
+                .to_lowercase(),
+            "",
+        ) == *outlib.to_lowercase()
+        {
+            println!("{:?}", inlib);
+            return (false, Some(outlib.to_string()));
+        }
+    }
     (true, None)
+}
+
+fn debian_redirect(lib: &str) -> (String, String) {
+    let tracker_site = "https://tracker.debian.org/pkg/";
+    let mut tracker_site = String::from(tracker_site);
+    tracker_site.push_str(lib);
+    let resp = reqwest::blocking::get(tracker_site).unwrap();
+
+    let pkgs = resp.url().path();
+    let pkg = pkgs.rsplit_once("/pkg/").unwrap().1;
+    // println!("{:?}", pkg);
+    (String::from(pkg), String::from(lib))
 }
