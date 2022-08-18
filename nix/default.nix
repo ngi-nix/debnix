@@ -44,7 +44,7 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
   devInputs = [
     rust-analyzer
 
-    # just a programm runner
+    # just a program runner
     pkgs.just
 
     #alternative linker

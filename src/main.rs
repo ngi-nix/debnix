@@ -1,4 +1,26 @@
+use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
+
+#[derive(Serialize, Deserialize)]
+struct DebInputs {
+    pkgs_name: Option<String>,
+    pkgs_src: Option<String>,
+    deb_name: Option<String>,
+    deb_src: Option<String>,
+    deb_inputs: Vec<String>,
+    nix_inputs: Vec<String>,
+}
+
+#[derive(Serialize, Deserialize)]
+struct DebNixOutputs {
+    pkgs_name: Option<String>,
+    pkgs_src: Option<String>,
+    deb_name: Option<String>,
+    deb_src: Option<String>,
+    deb_inputs: Vec<String>,
+    nix_inputs: Vec<String>,
+    map: HashMap<String, String>,
+}
 
 static NIXEX: [&str; 31] = [
     "pkg-config",
