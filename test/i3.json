@@ -1,0 +1,5 @@
+{
+	name: "i3",
+	output: "nixpkgs/i3",
+	input: "github:i3/i3"
+}
