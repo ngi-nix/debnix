@@ -86,7 +86,7 @@ in rec {
   };
 
   devShells = {
-    poddy = pkgs.callPackage ./devShell.nix {
+    default = pkgs.callPackage ./devShell.nix {
       inherit buildInputs pkgs;
       nativeBuildInputs = nativeBuildInputs ++ buildInputs ++ devInputs ++ fmtInputs ++ editorConfigInputs;
     };
@@ -99,6 +99,6 @@ in rec {
       nativeBuildInputs = editorConfigInputs;
     };
   };
-  devShell = devShells.poddy;
   formatter = pkgs.alejandra;
+  nixpkgs = pkgs;
 })

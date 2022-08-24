@@ -1,5 +1,15 @@
+pub mod error;
+use error::DebNixError;
+
+use clap::Parser;
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
+use std::{collections::HashMap, process::Command};
+// comment
+
+#[derive(Parser)]
+struct CliArgs {
+    pkg: Option<String>,
+}
 
 #[derive(Serialize, Deserialize)]
 struct DebInputs {
@@ -80,14 +90,112 @@ static DEBEX: [&str; 25] = [
     "libpcre2-dev",
     "libstartup-notification0-dev",
     "libcairo2-dev",
-    "libpango1.0-dev,",
+    "libpango1.0-dev",
     "libpod-simple-perl",
 ];
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct SimpleDerivation {
+    env: DerivationEnv,
+}
+
+impl SimpleDerivation {
+    fn env(&self) -> &DerivationEnv {
+        &self.env
+    }
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct DerivationEnv {
+    pname: Option<String>,
+    #[serde(rename = "buildInputs")]
+    build_inputs: Option<String>,
+    #[serde(rename = "nativeBuildInputs")]
+    native_build_inputs: Option<String>,
+}
+
+impl DerivationEnv {
+    fn pname(&self) -> Option<&String> {
+        self.pname.as_ref()
+    }
+
+    fn build_inputs(&self) -> Option<&String> {
+        self.build_inputs.as_ref()
+    }
+
+    fn native_build_inputs(&self) -> Option<&String> {
+        self.native_build_inputs.as_ref()
+    }
+}
+
+
+fn find_package_info(pkgs: &str) -> Result<SimpleDerivation, DebNixError> {
+    let output = if pkgs.starts_with('/') {
+        Command::new("nix")
+            .arg("show-derivation")
+            .arg(pkgs)
+            .output()?
+    } else {
+        Command::new("nix")
+            .arg("show-derivation")
+            .arg(format!("nixpkgs#legacyPackages.x86_64-linux.{}", pkgs))
+            .output()?
+    };
+    let serialized = std::str::from_utf8(&output.stdout).unwrap();
+    let deserialized: HashMap<String, SimpleDerivation> = serde_json::from_str(serialized)?;
+    let deserialized: SimpleDerivation = deserialized
+        .into_values()
+        .collect::<Vec<SimpleDerivation>>()
+        .first()
+        .unwrap()
+        .clone();
+    Ok(deserialized)
+}
+
 fn main() {
-    let result = match_libs(DEBEX.to_vec().as_ref(), NIXEX.to_vec().as_ref());
-    println!("{:?}", result);
-    println!("Amount: {:?}", result.keys().len());
+    let opts = CliArgs::parse();
+
+    if let Some(pkgs) = opts.pkg {
+        let derivation = find_package_info(&pkgs).unwrap();
+        let mut inputs = vec![];
+        let mut input_names = vec![];
+        inputs.extend(
+            derivation
+                .env
+                .build_inputs()
+                .unwrap()
+                .split(' ')
+                .collect::<Vec<&str>>(),
+        );
+        inputs.extend(
+            derivation
+                .env
+                .native_build_inputs()
+                .unwrap()
+                .split(' ')
+                .collect::<Vec<&str>>(),
+        );
+        println!("{:?}", inputs);
+        for drv in &inputs {
+            println!("Checking {:?}", &drv);
+            let maybe_drv = find_package_info(drv);
+            if let Ok(maybe_name) = maybe_drv {
+                if let Some(name) = maybe_name.env.pname() {
+                    input_names.push(name.clone());
+                }
+            } else {
+                println!("Error {:?}", &maybe_drv);
+            }
+        }
+        println!("{:?}", input_names);
+        println!("Amount: {:?}", input_names.len());
+        let version = get_unstable_version(&pkgs);
+        // println!("{:?}", control_file); 
+    } else {
+        let result = match_libs(DEBEX.to_vec().as_ref(), NIXEX.to_vec().as_ref());
+        println!("{:?}", result);
+        println!("Amount: {:?}", result.keys().len());
+    };
 }
 
 fn match_libs(input: &[&str], output: &[&str]) -> HashMap<String, String> {
@@ -121,13 +229,7 @@ fn match_libs(input: &[&str], output: &[&str]) -> HashMap<String, String> {
             (false, None) => false,
             (false, Some(outlib)) => {
                 res_map.insert(String::from(*lib), outlib.clone());
-                outputs.retain(|lib| {
-                    if String::from(<&str>::clone(&lib)) == outlib {
-                        false
-                    } else {
-                        true
-                    }
-                });
+                outputs.retain(|lib| String::from(<&str>::clone(&lib)) != outlib);
                 false
             }
         }
@@ -142,7 +244,7 @@ fn match_libs(input: &[&str], output: &[&str]) -> HashMap<String, String> {
             (true, Some(_)) => true,
             (false, None) => false,
             (false, Some(outlib)) => {
-                res_map.insert(String::from(*lib), outlib.clone());
+                res_map.insert(String::from(*lib), outlib);
                 false
             }
         }
@@ -241,4 +343,22 @@ fn debian_redirect(lib: &str) -> (String, String) {
     let pkg = pkgs.rsplit_once("/pkg/").unwrap().1;
     // println!("{:?}", pkg);
     (String::from(pkg), String::from(lib))
+}
+
+fn get_unstable_version(pkg: &str) -> Result<String, ()> {
+    let debian_sources = format!("https://sources.debian.org/src/{}/unstable/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources).unwrap();
+    let version_path = resp.url().path();
+    println!("{}", version_path);
+    todo!();
+}
+
+fn download_control_file(pkg: &str) -> Result<String, ()> {
+    let control_file_location = format!("https://sources.debian.org/src/{}/unstable/debian/control/", &pkg);
+    let resp = reqwest::blocking::get(control_file_location).unwrap();
+
+    let resp = resp.url().path();
+    println!("{:#?}", resp);
+
+    todo!();
 }
