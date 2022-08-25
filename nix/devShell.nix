@@ -7,7 +7,7 @@
 }:
 mkShell {
 # clangStdenv.mkDerivation {
-  name = "matchnix";
+  name = "debnix";
   inherit buildInputs nativeBuildInputs;
 
   ### ENVIRONMENT VARIABLES

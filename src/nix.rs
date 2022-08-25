@@ -21,6 +21,10 @@ pub(crate) struct DerivationEnv {
     build_inputs: Option<String>,
     #[serde(rename = "nativeBuildInputs")]
     native_build_inputs: Option<String>,
+    #[serde(rename = "propagatedBuildInputs")]
+    propagated_build_inputs: Option<String>,
+    #[serde(rename = "propagatedNativeBuildInputs")]
+    propagated_native_build_inputs: Option<String>,
 }
 
 impl DerivationEnv {
@@ -35,10 +39,18 @@ impl DerivationEnv {
     pub(crate) fn native_build_inputs(&self) -> Option<&String> {
         self.native_build_inputs.as_ref()
     }
+
+    pub(crate) fn propagated_build_inputs(&self) -> Option<&String> {
+        self.propagated_build_inputs.as_ref()
+    }
+
+    pub(crate) fn propagated_native_build_inputs(&self) -> Option<&String> {
+        self.propagated_native_build_inputs.as_ref()
+    }
 }
 
-///! Wraps the nix command in order to surface information about derivations that
-///! make up a certain package.
+/// Wraps the nix command in order to surface information about derivations that
+/// make up a certain package.
 pub(crate) fn find_package_info(pkgs: &str) -> Result<SimpleDerivation, DebNixError> {
     let output = if pkgs.starts_with('/') {
         Command::new("nix")
@@ -51,6 +63,13 @@ pub(crate) fn find_package_info(pkgs: &str) -> Result<SimpleDerivation, DebNixEr
             .arg(format!("nixpkgs#legacyPackages.x86_64-linux.{}", pkgs))
             .output()?
     };
+
+    if !output.status.success() {
+        return Err(DebNixError::Nix(
+            std::str::from_utf8(&output.stderr)?.to_string(),
+        ));
+    }
+
     let serialized = std::str::from_utf8(&output.stdout)?;
     let deserialized: HashMap<String, SimpleDerivation> = serde_json::from_str(serialized)?;
     let deserialized: SimpleDerivation = deserialized
@@ -62,38 +81,43 @@ pub(crate) fn find_package_info(pkgs: &str) -> Result<SimpleDerivation, DebNixEr
     Ok(deserialized)
 }
 
-///! Collect's all the `pnames` of the `buildInputs` and `nativeBuildInputs`
-///! of a derivation into a Vec.
+/// Collects all the `pnames` of the `buildInputs` and `nativeBuildInputs`
+/// of a derivation into a Vec.
 pub(crate) fn get_drv_inputs(pkgs: &str) -> Result<Vec<String>, DebNixError> {
     let derivation = find_package_info(pkgs)?;
+    debug!("Nix derivation:\n {:?}", derivation);
     let mut inputs = vec![];
     let mut input_names = vec![];
-    inputs.extend(
-        derivation
-            .env()
-            .build_inputs()
-            .unwrap()
-            .split(' ')
-            .collect::<Vec<&str>>(),
-    );
-    inputs.extend(
-        derivation
-            .env()
-            .native_build_inputs()
-            .unwrap()
-            .split(' ')
-            .collect::<Vec<&str>>(),
-    );
-    println!("{:?}", inputs);
+    if let Some(drv) = derivation.env().build_inputs() {
+        if !drv.is_empty() {
+            inputs.extend(drv.split(' ').collect::<Vec<&str>>())
+        }
+    }
+    if let Some(drv) = derivation.env().native_build_inputs() {
+        if !drv.is_empty() {
+            inputs.extend(drv.split(' ').collect::<Vec<&str>>())
+        }
+    }
+    if let Some(drv) = derivation.env().propagated_build_inputs() {
+        if !drv.is_empty() {
+            inputs.extend(drv.split(' ').collect::<Vec<&str>>())
+        }
+    }
+    if let Some(drv) = derivation.env().propagated_native_build_inputs() {
+        if !drv.is_empty() {
+            inputs.extend(drv.split(' ').collect::<Vec<&str>>())
+        }
+    }
+    debug!("Nix inputs:\n {:?}", inputs);
     for drv in &inputs {
-        println!("Checking {:?}", &drv);
+        debug!("Checking {:?}", &drv);
         let maybe_drv = find_package_info(drv);
         if let Ok(maybe_name) = maybe_drv {
             if let Some(name) = maybe_name.env().pname() {
                 input_names.push(name.clone());
             }
         } else {
-            println!("Error {:?}", &maybe_drv);
+            error!("Error {:?}", &maybe_drv);
         }
     }
     Ok(input_names)

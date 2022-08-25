@@ -17,4 +17,8 @@ pub enum DebNixError {
     Reqwest(#[from] reqwest::Error),
     #[error("DebControl Error")]
     DebControl(String),
+    #[error("Nix Error")]
+    Nix(String),
+    #[error("Nothing to Match: {0}")]
+    NoMatches(String),
 }

@@ -1,12 +1,23 @@
 use std::collections::HashMap;
 
-use crate::deb::debian_redirect;
+use crate::{deb::debian_redirect, error::DebNixError};
 
-/// Matches the input libraries with the output libraries
-pub(crate) fn match_libs(input: Vec<String>, output: Vec<String>) -> HashMap<String, String> {
+/// Matches the input pkgs with the output pkgs
+/// The input pkgs are assumed to come from debian and the output pkgs from nix
+pub(crate) fn match_libs(
+    input: Vec<String>,
+    output: Vec<String>,
+) -> Result<HashMap<String, String>, DebNixError> {
     let mut res_map = HashMap::new();
     let mut input = input.to_vec();
     let mut outputs = output.to_vec();
+
+    if input.is_empty() || outputs.is_empty() {
+        return Err(DebNixError::NoMatches(format!(
+            "Nothing to match, \ninput: \n{:?}, or \noutput: \n{:?} is empty!",
+            &input, &output
+        )));
+    }
 
     // manual matching of the inputs
     input.retain(|lib| match match_inlib(lib, &mut outputs) {
@@ -37,7 +48,7 @@ pub(crate) fn match_libs(input: Vec<String>, output: Vec<String>) -> HashMap<Str
     // the full output and don't take pkgs out of the outputs (multiple binaries in one pkg)
     input.retain(|lib| {
         let mut outputs = output.to_vec();
-        let redirect  = debian_redirect(lib).unwrap();
+        let redirect = debian_redirect(lib).unwrap();
         match match_inlib(&redirect, &mut outputs) {
             (true, None) => true,
             (true, Some(_)) => true,
@@ -49,10 +60,10 @@ pub(crate) fn match_libs(input: Vec<String>, output: Vec<String>) -> HashMap<Str
         }
     });
 
-    println!("\nInput {:?}\n", &input);
-    println!("Output {:?}\n", &outputs);
+    debug!("\nInput {:?}\n", &input);
+    debug!("Output {:?}\n", &outputs);
 
-    res_map
+    Ok(res_map)
 }
 
 fn match_inlib(inlib: &str, outlibs: &mut Vec<String>) -> (bool, Option<String>) {
@@ -63,28 +74,28 @@ fn match_inlib(inlib: &str, outlibs: &mut Vec<String>) -> (bool, Option<String>)
     // exact match
     for outlib in &mut *outlibs {
         if inlib == *outlib {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
     // replace `-dev`
     for outlib in &mut *outlibs {
         if inlib.replace("-dev", "") == *outlib {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
     // replace `-dev` && lowercase
     for outlib in &mut *outlibs {
         if inlib.replace("-dev", "").to_lowercase() == *outlib.to_lowercase() {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
     // replace `-dev` && lowercase && replace - _
     for outlib in &mut *outlibs {
         if inlib.replace("-dev", "").replace('-', "_").to_lowercase() == *outlib.to_lowercase() {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
@@ -99,7 +110,7 @@ fn match_inlib(inlib: &str, outlibs: &mut Vec<String>) -> (bool, Option<String>)
             "",
         ) == *outlib.to_lowercase()
         {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
@@ -110,7 +121,7 @@ fn match_inlib(inlib: &str, outlibs: &mut Vec<String>) -> (bool, Option<String>)
             "",
         ) == *outlib.to_lowercase()
         {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
@@ -125,7 +136,7 @@ fn match_inlib(inlib: &str, outlibs: &mut Vec<String>) -> (bool, Option<String>)
             "",
         ) == *outlib.to_lowercase()
         {
-            println!("{:?}", inlib);
+            debug!("{:?}", inlib);
             return (false, Some(outlib.to_string()));
         }
     }
