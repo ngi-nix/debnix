@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "python3-all", "dh-python", "python-pyinotify-doc", "python3-pyinotify"], or 
+output: 
+[] is empty!

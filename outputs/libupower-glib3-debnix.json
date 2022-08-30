@@ -1,0 +1,1 @@
+{"pkgs_name":"libupower-glib3","map":{"udev":"systemd","libimobiledevice-dev":"libimobiledevice","libgudev-1.0-dev":"libgudev","gobject-introspection":"gobject-introspection","xsltproc":"libxslt","meson":"meson","dbus":"dbus","gettext":"gettext","gtk-doc-tools":"gtk-doc","libglib2.0-dev":"glib","libgirepository1.0-dev":"gobject-introspection"}}

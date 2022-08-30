@@ -1,0 +1,1 @@
+{"pkgs_name":"libcups2","map":{"libdbus-1-dev":"dbus","libgnutls28-dev":"gnutls","libtiff-dev":"libtiff","zlib1g-dev":"zlib","libpaper-dev":"libpaper","avahi-daemon":"avahi","libavahi-common-dev":"avahi","libsystemd-dev":"systemd","udev":"systemd","libjpeg-dev":"libjpeg-turbo","libavahi-client-dev":"avahi"}}

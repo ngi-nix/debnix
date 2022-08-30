@@ -1,0 +1,1 @@
+{"pkgs_name":"libgcr-base-3-1","map":{"libgirepository1.0-dev":"gobject-introspection","libglib2.0-dev":"glib","openssh-client":"openssh","gi-docgen":"gi-docgen","libp11-kit-dev":"p11-kit","libsecret-1-dev":"libsecret","gnupg":"gnupg","libgcrypt20-dev":"libgcrypt","meson":"meson","libsystemd-dev":"systemd","valac":"vala"}}

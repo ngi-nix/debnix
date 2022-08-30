@@ -1,0 +1,1 @@
+{"pkgs_name":"dirmngr","map":{"libgnutls28-dev":"gnutls","gettext":"gettext","libreadline-dev":"readline","libassuan-dev":"libassuan","libldap2-dev":"openldap","zlib1g-dev":"zlib","texinfo":"texinfo","libnpth0-dev":"npth","libgcrypt20-dev":"libgcrypt","libksba-dev":"libksba","autopoint":"gettext","libsqlite3-dev":"sqlite","libbz2-dev":"bzip2"}}

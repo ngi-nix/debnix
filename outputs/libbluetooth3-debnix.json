@@ -1,0 +1,1 @@
+{"pkgs_name":"libbluetooth3","map":{"libdbus-1-dev":"dbus","libjson-c-dev":"json-c","udev":"systemd","systemd":"systemd","dbus-user-session":"dbus","libreadline-dev":"readline","libudev-dev":"systemd","libical-dev":"libical","libasound2-dev":"alsa-lib","libell-dev":"ell","libglib2.0-dev":"glib"}}

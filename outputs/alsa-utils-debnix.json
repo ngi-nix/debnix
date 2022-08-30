@@ -1,0 +1,1 @@
+{"pkgs_name":"alsa-utils","map":{"libatopology-dev":"alsa-lib","libsamplerate-dev":"libsamplerate","libncursesw5-dev":"ncurses","libasound2-dev":"alsa-lib"}}

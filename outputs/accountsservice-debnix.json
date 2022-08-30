@@ -1,0 +1,1 @@
+{"pkgs_name":"accountsservice","map":{"libgirepository1.0-dev":"gobject-introspection","libglib2.0-dev":"glib","meson":"meson","dbus":"dbus","libsystemd-dev":"systemd","libdbus-1-dev":"dbus","gobject-introspection":"gobject-introspection","valac":"vala"}}

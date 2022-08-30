@@ -1,0 +1,1 @@
+{"pkgs_name":"uuid-runtime","map":{"libudev-dev":"systemd","libcap-ng-dev":"libcap-ng","libncursesw5-dev":"ncurses","systemd":"systemd","libncurses5-dev":"ncurses","zlib1g-dev":"zlib","libsystemd-dev":"systemd"}}

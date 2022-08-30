@@ -1,0 +1,1 @@
+{"pkgs_name":"xdg-desktop-portal","map":{"libflatpak-dev":"flatpak","libpipewire-0.3-dev":"pipewire","libportal-dev":"libportal","libgeoclue-2-dev":"geoclue","fuse3":"fuse","libfuse3-dev":"fuse","geoclue-2.0":"geoclue","pipewire":"pipewire","libglib2.0-dev":"glib","libgdk-pixbuf-2.0-dev":"gdk-pixbuf","dbus":"dbus","libjson-glib-dev":"json-glib"}}

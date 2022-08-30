@@ -1,0 +1,1 @@
+{"pkgs_name":"at-spi2-core","map":{"libglib2.0-dev":"glib","gobject-introspection":"gobject-introspection","meson":"meson","libdbus-1-dev":"dbus","libgirepository1.0-dev":"gobject-introspection","libx11-dev":"libX11","libxtst-dev":"libXtst","dbus":"dbus"}}

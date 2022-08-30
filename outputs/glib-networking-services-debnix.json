@@ -1,0 +1,1 @@
+{"pkgs_name":"glib-networking-services","map":{"libgnutls28-dev":"gnutls","libproxy-dev":"libproxy","libglib2.0-dev":"glib","gsettings-desktop-schemas-dev":"gsettings-desktop-schemas","python3":"python3","gsettings-desktop-schemas":"gsettings-desktop-schemas","meson":"meson"}}

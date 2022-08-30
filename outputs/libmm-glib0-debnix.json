@@ -1,0 +1,1 @@
+{"pkgs_name":"libmm-glib0","map":{"python3-dbus":"dbus-python","libgudev-1.0-dev":"libgudev","libglib2.0-dev":"glib","libgirepository1.0-dev":"gobject-introspection","libglib2.0-doc":"glib","gobject-introspection":"gobject-introspection","python3-gi":"pygobject","valac":"vala","libsystemd-dev":"systemd","libqmi-glib-dev":"libqmi","libmbim-glib-dev":"libmbim"}}

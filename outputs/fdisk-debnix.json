@@ -1,0 +1,1 @@
+{"pkgs_name":"fdisk","map":{"libudev-dev":"systemd","libncurses5-dev":"ncurses","libcap-ng-dev":"libcap-ng","libncursesw5-dev":"ncurses","systemd":"systemd","libsystemd-dev":"systemd","zlib1g-dev":"zlib"}}
