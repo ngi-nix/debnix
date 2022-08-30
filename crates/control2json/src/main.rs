@@ -19,12 +19,12 @@ pub mod cli {
         input: String,
         #[clap(long, value_parser)]
         /// The path to a json map.
-        from_map: Option<String>,
+        map: Option<String>,
     }
 
     impl CliArgs {
-        pub(crate) fn from_map(&self) -> Option<&String> {
-            self.from_map.as_ref()
+        pub(crate) fn map(&self) -> Option<&String> {
+            self.map.as_ref()
         }
 
         pub(crate) fn input(&self) -> &str {
@@ -62,7 +62,7 @@ fn main() -> Result<(), Control2JsonError> {
     let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?)?;
     let mut stdout = io::stdout();
 
-    if let Some(location) = opts.from_map() {
+    if let Some(location) = opts.map() {
         let map = get_map(location)?;
         let result = match_from_map(pkgs, map)?;
         let fmt = format!("{:?}", result);
