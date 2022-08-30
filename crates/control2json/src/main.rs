@@ -4,9 +4,34 @@ use std::{
     io::{self, Read, Write},
 };
 
+use clap::Parser;
 use control_file::ControlFile;
 
 use self::error::Control2JsonError;
+
+pub mod cli {
+    use clap::Parser;
+
+    #[derive(Parser)]
+    pub(crate) struct CliArgs {
+        /// The input file, if supplied `-`,
+        /// then it will be read from stdin.
+        input: Option<String>,
+        #[clap(long, value_parser)]
+        /// The path to a json map.
+        from_map: Option<String>,
+    }
+
+    impl CliArgs {
+        pub(crate) fn input(&self) -> Option<&String> {
+            self.input.as_ref()
+        }
+
+        pub(crate) fn from_map(&self) -> Option<&String> {
+            self.from_map.as_ref()
+        }
+    }
+}
 
 mod error {
     use thiserror::Error;
@@ -20,32 +45,32 @@ mod error {
         Utf8(#[from] std::str::Utf8Error),
         #[error("Control File Error {0}")]
         ControlFile(#[from] control_file::ControlFileError),
+        #[error("Control File Error {0}")]
+        Error(std::string::String),
     }
 }
 
 fn main() -> Result<(), Control2JsonError> {
-    let args: Vec<String> = env::args().collect();
-    let input = &args[1];
-    let match_from = &args[2];
+    let opts = cli::CliArgs::parse();
 
-    let mut reader: Box<dyn io::Read> = if input == "-" {
-        Box::new(io::stdin().lock())
-    } else {
+    let mut reader: Box<dyn io::Read> = if let Some(input) = opts.input() {
         Box::new(fs::File::open(input)?)
+    } else {
+        Box::new(io::stdin().lock())
     };
 
     let mut buffer = Vec::new();
     reader.read_to_end(&mut buffer)?;
     let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?)?;
     let mut stdout = io::stdout();
-    let fmt = format!("{:?}", pkgs);
-    stdout.write_all(fmt.as_bytes())?;
 
-    if !match_from.is_empty() {
-        println!("Matching");
-        let map = get_map(match_from)?;
+    if let Some(location) = opts.from_map() {
+        let map = get_map(location)?;
         let result = match_from_map(pkgs, map)?;
         let fmt = format!("{:?}", result);
+        stdout.write_all(fmt.as_bytes())?;
+    } else {
+        let fmt = format!("{:?}", pkgs);
         stdout.write_all(fmt.as_bytes())?;
     }
 
@@ -76,5 +101,7 @@ fn match_from_map(
             result.push(matched.into());
         }
     }
+    result.sort();
+    result.dedup();
     Ok(result)
 }

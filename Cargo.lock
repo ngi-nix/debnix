@@ -162,6 +162,7 @@ dependencies = [
 name = "control2json"
 version = "0.1.0"
 dependencies = [
+ "clap",
  "control-file",
  "serde",
  "serde_json",
