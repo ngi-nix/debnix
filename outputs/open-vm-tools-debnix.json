@@ -1,1 +1,0 @@
-{"pkgs_name":"open-vm-tools","map":{"libfuse3-dev":"fuse","libxtst-dev":"libXtst","libdrm-dev":"libdrm","libprocps-dev":"procps","libx11-dev":"libX11","libssl-dev":"openssl","libxinerama-dev":"libXinerama","libgtkmm-3.0-dev":"gtkmm","fuse3":"fuse","procps":"procps","libudev-dev":"systemd","libmspack-dev":"libmspack","libgdk-pixbuf-xlib-2.0-dev":"gdk-pixbuf-xlib"}}

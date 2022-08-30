@@ -1,1 +1,0 @@
-{"pkgs_name":"upower","map":{"xsltproc":"libxslt","gobject-introspection":"gobject-introspection","dbus":"dbus","gtk-doc-tools":"gtk-doc","libgirepository1.0-dev":"gobject-introspection","libglib2.0-dev":"glib","libgudev-1.0-dev":"libgudev","gettext":"gettext","libimobiledevice-dev":"libimobiledevice","udev":"systemd","meson":"meson"}}

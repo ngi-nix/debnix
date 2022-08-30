@@ -149,6 +149,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "control-file"
+version = "0.1.0"
+dependencies = [
+ "debcontrol",
+ "log",
+ "regex",
+ "thiserror",
+]
+
+[[package]]
 name = "core-foundation"
 version = "0.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -201,6 +211,7 @@ version = "0.1.0"
 dependencies = [
  "clap",
  "clap_complete",
+ "control-file",
  "csv",
  "debcontrol",
  "log",

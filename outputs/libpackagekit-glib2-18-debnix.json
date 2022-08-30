@@ -1,1 +1,0 @@
-{"pkgs_name":"libpackagekit-glib2-18","map":{"meson":"meson","libglib2.0-bin":"glib","gtk-doc-tools":"gtk-doc","libsystemd-dev":"systemd","libglib2.0-dev":"glib","gir1.2-glib-2.0":"gobject-introspection","valac":"vala","gobject-introspection":"gobject-introspection","libsqlite3-dev":"sqlite","libgirepository1.0-dev":"gobject-introspection","systemd":"systemd"}}

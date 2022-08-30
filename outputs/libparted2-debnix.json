@@ -1,1 +1,0 @@
-{"pkgs_name":"libparted2","map":{"gettext":"gettext","autopoint":"gettext","uuid-dev":"util-linux","check":"check","libdevmapper-dev":"lvm2","libblkid-dev":"util-linux","libreadline-dev":"readline","libreadline6-dev":"readline"}}

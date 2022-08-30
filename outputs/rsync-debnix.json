@@ -1,1 +1,0 @@
-{"pkgs_name":"rsync","map":{"libxxhash-dev":"xxHash","liblz4-dev":"lz4","libzstd-dev":"zstd","libssl-dev":"openssl","libacl1-dev":"acl","libpopt-dev":"popt","zlib1g-dev":"zlib"}}

@@ -1,1 +1,0 @@
-{"pkgs_name":"cryptsetup-bin","map":{"libdevmapper-dev":"lvm2","libssl-dev":"openssl","dmsetup":"lvm2","libpopt-dev":"popt","libjson-c-dev":"json-c","dmsetup-udeb":"lvm2"}}

@@ -106,7 +106,6 @@ fn main() -> Result<(), DebNixError> {
                                 pkgs_name: Some(pkg.to_string()),
                                 map,
                             };
-                            // let destination = format!("{}/{}-debnix.json", destination, pkg);
                             let serialized = serde_json::to_string(&out)?;
                             let mut file = File::create(&destination)?;
                             file.write_all(serialized.as_bytes())?;

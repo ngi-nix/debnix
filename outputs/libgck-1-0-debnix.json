@@ -1,1 +1,0 @@
-{"pkgs_name":"libgck-1-0","map":{"libp11-kit-dev":"p11-kit","libgirepository1.0-dev":"gobject-introspection","libgcrypt20-dev":"libgcrypt","meson":"meson","valac":"vala","openssh-client":"openssh","gnupg":"gnupg","libsystemd-dev":"systemd","libglib2.0-dev":"glib","libsecret-1-dev":"libsecret","gi-docgen":"gi-docgen"}}

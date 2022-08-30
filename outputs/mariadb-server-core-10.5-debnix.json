@@ -1,1 +1,0 @@
-{"pkgs_name":"mariadb-server-core-10.5","map":{"libcurl4-openssl-dev":"curl","zlib1g-dev":"zlib","libcurl4":"curl","cmake":"cmake","libpcre2-dev":"pcre2","libssl-dev":"openssl","libncurses5-dev:native":"ncurses","libncurses5-dev":"ncurses","libcurl4-dev":"curl","libsystemd-dev":"systemd","libjemalloc-dev":"jemalloc","libkrb5-dev":"libkrb5"}}

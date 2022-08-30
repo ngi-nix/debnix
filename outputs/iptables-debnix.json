@@ -1,1 +1,0 @@
-{"pkgs_name":"iptables","map":{"libmnl-dev":"libmnl","libnfnetlink-dev":"libnfnetlink","libnetfilter-conntrack3":"libnetfilter_conntrack","bison":"bison","libnetfilter-conntrack-dev":"libnetfilter_conntrack","libnftnl-dev":"libnftnl","flex":"flex"}}

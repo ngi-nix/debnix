@@ -1,1 +1,0 @@
-{"pkgs_name":"gpg","map":{"libreadline-dev":"readline","libksba-dev":"libksba","libassuan-dev":"libassuan","texinfo":"texinfo","gettext":"gettext","libgcrypt20-dev":"libgcrypt","libsqlite3-dev":"sqlite","zlib1g-dev":"zlib","libbz2-dev":"bzip2","libldap2-dev":"openldap","libgnutls28-dev":"gnutls","autopoint":"gettext","libnpth0-dev":"npth"}}

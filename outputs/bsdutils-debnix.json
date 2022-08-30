@@ -1,1 +1,0 @@
-{"pkgs_name":"bsdutils","map":{"libcap-ng-dev":"libcap-ng","libncursesw5-dev":"ncurses","libudev-dev":"systemd","systemd":"systemd","libsystemd-dev":"systemd","zlib1g-dev":"zlib","libncurses5-dev":"ncurses"}}

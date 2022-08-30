@@ -33,3 +33,6 @@ info:
 	export RUST_LOG=info
 debug:
 	export RUST_LOG=debug
+
+prettify-json:
+	fd ".-debnix.json" outputs --exec jq . {}
