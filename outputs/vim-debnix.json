@@ -1,1 +1,6 @@
-{"pkgs_name":"vim","map":{"libncurses-dev":"ncurses"}}
+{
+  "pkgs_name": "vim",
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

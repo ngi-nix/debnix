@@ -1,1 +1,6 @@
-{"pkgs_name":"libefivar1","map":{"libpopt-dev":"popt"}}
+{
+  "pkgs_name": "libefivar1",
+  "map": {
+    "libpopt-dev": "popt"
+  }
+}

@@ -1,1 +1,4 @@
-{"pkgs_name":"dnsmasq-base","map":{}}
+{
+  "pkgs_name": "dnsmasq-base",
+  "map": {}
+}

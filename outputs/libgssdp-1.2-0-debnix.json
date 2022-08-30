@@ -1,1 +1,11 @@
-{"pkgs_name":"libgssdp-1.2-0","map":{"gir1.2-gssdp-1.2":"gssdp","meson":"meson","libgtk-4-dev":"gtk4","libsoup2.4-dev":"libsoup","libgssdp-1.2-0":"gssdp","libgssdp-doc":"gssdp"}}
+{
+  "pkgs_name": "libgssdp-1.2-0",
+  "map": {
+    "gir1.2-gssdp-1.2": "gssdp",
+    "meson": "meson",
+    "libgtk-4-dev": "gtk4",
+    "libsoup2.4-dev": "libsoup",
+    "libgssdp-1.2-0": "gssdp",
+    "libgssdp-doc": "gssdp"
+  }
+}

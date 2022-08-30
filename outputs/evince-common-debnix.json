@@ -1,1 +1,29 @@
-{"pkgs_name":"evince-common","map":{"meson":"meson","libsynctex-dev":"texlive-bin","libgxps-dev":"libgxps","libgirepository1.0-dev":"gobject-introspection","libglib2.0-dev":"glib","gobject-introspection":"gobject-introspection","libsecret-1-dev":"libsecret","libgdk-pixbuf-2.0-dev":"gdk-pixbuf","libgstreamer1.0-dev":"gstreamer","libgdk-pixbuf2.0-doc":"gdk-pixbuf","libglib2.0-doc":"glib","libdjvulibre-dev":"djvulibre","gi-docgen":"gi-docgen","itstool":"itstool","gsettings-desktop-schemas-dev":"gsettings-desktop-schemas","libarchive-dev":"libarchive","libspectre-dev":"libspectre","adwaita-icon-theme":"adwaita-icon-theme","libpango1.0-doc":"pango","libxml2-dev":"libxml2","libgnome-desktop-3-dev":"gnome-desktop","libkpathsea-dev":"texlive-bin","gsettings-desktop-schemas":"gsettings-desktop-schemas","libgspell-1-dev":"gspell"}}
+{
+  "pkgs_name": "evince-common",
+  "map": {
+    "meson": "meson",
+    "libsynctex-dev": "texlive-bin",
+    "libgxps-dev": "libgxps",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "gobject-introspection": "gobject-introspection",
+    "libsecret-1-dev": "libsecret",
+    "libgdk-pixbuf-2.0-dev": "gdk-pixbuf",
+    "libgstreamer1.0-dev": "gstreamer",
+    "libgdk-pixbuf2.0-doc": "gdk-pixbuf",
+    "libglib2.0-doc": "glib",
+    "libdjvulibre-dev": "djvulibre",
+    "gi-docgen": "gi-docgen",
+    "itstool": "itstool",
+    "gsettings-desktop-schemas-dev": "gsettings-desktop-schemas",
+    "libarchive-dev": "libarchive",
+    "libspectre-dev": "libspectre",
+    "adwaita-icon-theme": "adwaita-icon-theme",
+    "libpango1.0-doc": "pango",
+    "libxml2-dev": "libxml2",
+    "libgnome-desktop-3-dev": "gnome-desktop",
+    "libkpathsea-dev": "texlive-bin",
+    "gsettings-desktop-schemas": "gsettings-desktop-schemas",
+    "libgspell-1-dev": "gspell"
+  }
+}

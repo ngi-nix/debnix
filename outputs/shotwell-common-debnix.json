@@ -1,1 +1,24 @@
-{"pkgs_name":"shotwell-common","map":{"librest-dev":"rest","libgdata-dev":"libgdata","libgphoto2-dev":"libgphoto2","libgexiv2-dev":"gexiv2","desktop-file-utils":"desktop-file-utils","libgudev-1.0-dev":"libgudev","librsvg2-common":"librsvg","itstool":"itstool","valac":"vala","libglib2.0-dev":"glib","libexif-dev":"libexif","libgstreamer1.0-dev":"gstreamer","libsoup2.4-dev":"libsoup","libraw-dev":"libraw","libgcr-3-dev":"gcr","meson":"meson","libsqlite3-dev":"sqlite","libjson-glib-dev":"json-glib","libxml2":"libxml2"}}
+{
+  "pkgs_name": "shotwell-common",
+  "map": {
+    "librest-dev": "rest",
+    "libgdata-dev": "libgdata",
+    "libgphoto2-dev": "libgphoto2",
+    "libgexiv2-dev": "gexiv2",
+    "desktop-file-utils": "desktop-file-utils",
+    "libgudev-1.0-dev": "libgudev",
+    "librsvg2-common": "librsvg",
+    "itstool": "itstool",
+    "valac": "vala",
+    "libglib2.0-dev": "glib",
+    "libexif-dev": "libexif",
+    "libgstreamer1.0-dev": "gstreamer",
+    "libsoup2.4-dev": "libsoup",
+    "libraw-dev": "libraw",
+    "libgcr-3-dev": "gcr",
+    "meson": "meson",
+    "libsqlite3-dev": "sqlite",
+    "libjson-glib-dev": "json-glib",
+    "libxml2": "libxml2"
+  }
+}

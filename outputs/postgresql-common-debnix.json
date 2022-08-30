@@ -1,1 +1,4 @@
-{"pkgs_name":"postgresql-common","map":{}}
+{
+  "pkgs_name": "postgresql-common",
+  "map": {}
+}

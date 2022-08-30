@@ -1,1 +1,6 @@
-{"pkgs_name":"ruby-rubygems","map":{"ruby":"ruby"}}
+{
+  "pkgs_name": "ruby-rubygems",
+  "map": {
+    "ruby": "ruby"
+  }
+}

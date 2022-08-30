@@ -1,1 +1,6 @@
-{"pkgs_name":"unzip","map":{"libbz2-dev":"bzip2"}}
+{
+  "pkgs_name": "unzip",
+  "map": {
+    "libbz2-dev": "bzip2"
+  }
+}

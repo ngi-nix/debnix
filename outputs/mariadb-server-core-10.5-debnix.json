@@ -1,1 +1,17 @@
-{"pkgs_name":"mariadb-server-core-10.5","map":{"libncurses5-dev":"ncurses","libjemalloc-dev":"jemalloc","libssl-dev":"openssl","libkrb5-dev":"libkrb5","cmake":"cmake","libcurl4":"curl","zlib1g-dev":"zlib","libcurl4-dev":"curl","libncurses5-dev:native":"ncurses","libsystemd-dev":"systemd","libpcre2-dev":"pcre2","libcurl4-openssl-dev":"curl"}}
+{
+  "pkgs_name": "mariadb-server-core-10.5",
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libjemalloc-dev": "jemalloc",
+    "libssl-dev": "openssl",
+    "libkrb5-dev": "libkrb5",
+    "cmake": "cmake",
+    "libcurl4": "curl",
+    "zlib1g-dev": "zlib",
+    "libcurl4-dev": "curl",
+    "libncurses5-dev:native": "ncurses",
+    "libsystemd-dev": "systemd",
+    "libpcre2-dev": "pcre2",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

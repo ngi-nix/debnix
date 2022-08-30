@@ -1,1 +1,8 @@
-{"pkgs_name":"irqbalance","map":{"libncurses5-dev":"ncurses","libglib2.0-dev":"glib","libcap-ng-dev":"libcap-ng"}}
+{
+  "pkgs_name": "irqbalance",
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libglib2.0-dev": "glib",
+    "libcap-ng-dev": "libcap-ng"
+  }
+}

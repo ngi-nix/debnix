@@ -1,1 +1,27 @@
-{"pkgs_name":"libcamel-1.2-62","map":{"libsqlite3-dev":"sqlite","libglib2.0-doc":"glib","libkrb5-dev":"libkrb5","gperf":"gperf","libnss3-dev":"nss","libical-dev":"libical","libsoup-3.0-dev":"libsoup","cmake":"cmake","libsecret-1-dev":"libsecret","libldap2-dev":"openldap","libgirepository1.0-dev":"gobject-introspection","libgoa-1.0-dev":"gnome-online-accounts","libglib2.0-dev":"glib","libjson-glib-dev":"json-glib","libgcr-3-dev":"gcr","libxml2-dev":"libxml2","libphonenumber-dev":"phonenumber","libcanberra-gtk3-dev":"libcanberra","libdb-dev":"db","valac":"vala","libgweather-4-dev":"libgweather","libnspr4-dev":"nspr"}}
+{
+  "pkgs_name": "libcamel-1.2-62",
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libglib2.0-doc": "glib",
+    "libkrb5-dev": "libkrb5",
+    "gperf": "gperf",
+    "libnss3-dev": "nss",
+    "libical-dev": "libical",
+    "libsoup-3.0-dev": "libsoup",
+    "cmake": "cmake",
+    "libsecret-1-dev": "libsecret",
+    "libldap2-dev": "openldap",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libgoa-1.0-dev": "gnome-online-accounts",
+    "libglib2.0-dev": "glib",
+    "libjson-glib-dev": "json-glib",
+    "libgcr-3-dev": "gcr",
+    "libxml2-dev": "libxml2",
+    "libphonenumber-dev": "phonenumber",
+    "libcanberra-gtk3-dev": "libcanberra",
+    "libdb-dev": "db",
+    "valac": "vala",
+    "libgweather-4-dev": "libgweather",
+    "libnspr4-dev": "nspr"
+  }
+}

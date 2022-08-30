@@ -1,1 +1,9 @@
-{"pkgs_name":"htop","map":{"libncursesw5-dev":"ncurses","libsensors-dev":"lm-sensors","libncurses5-dev":"ncurses","lm-sensors":"lm-sensors"}}
+{
+  "pkgs_name": "htop",
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libsensors-dev": "lm-sensors",
+    "libncurses5-dev": "ncurses",
+    "lm-sensors": "lm-sensors"
+  }
+}

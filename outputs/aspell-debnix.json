@@ -1,1 +1,7 @@
-{"pkgs_name":"aspell","map":{"libncursesw5-dev":"ncurses","libncurses-dev":"ncurses"}}
+{
+  "pkgs_name": "aspell",
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libncurses-dev": "ncurses"
+  }
+}
