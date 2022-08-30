@@ -1,6 +1,6 @@
 use std::{
     env, fs,
-    io::{self, stdout, BufRead, Read, Write},
+    io::{self, Read, Write},
 };
 
 fn main() -> std::io::Result<()> {
@@ -13,27 +13,13 @@ fn main() -> std::io::Result<()> {
         reader.read_to_end(&mut buffer)?;
         let mut stdout = io::stdout();
         stdout.write_all(&buffer)?;
-        // for line in reader.lines() {
-        //     println!("{}", line?);
-        // }
     } else {
+        let mut buffer = Vec::new();
         let mut reader = fs::File::open(input).unwrap();
+        reader.read_to_end(&mut buffer)?;
+        let mut stdout = io::stdout();
+        stdout.write_all(&buffer)?;
     }
-
-    // let mut input = String::new();
-    // match io::stdin().read_line(&mut input) {
-    // for line in reader.lines() {
-    //     println!("{}", line.unwrap());
-    // }
-
-    // let mut buffer = Vec::new();
-    // // reader.read_line(&mut buffer)?;
-    // let mut output = String::new();
-    // reader.read_to_string(&mut output)?;
-    // println!("{}", output);
-    //
-    // let mut stdout = io::stdout();
-    // stdout.write_all(&buffer)?;
 
     Ok(())
 }
