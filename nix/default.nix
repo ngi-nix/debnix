@@ -19,10 +19,13 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
       path = "${CARGO_TOML}";
       name = "Cargo.toml";
     };
-    cargoLock = builtins.path {
-      path = "${CARGO_LOCK}";
+     cargoLock = {
+    lockFile = builtins.path {
+      path = src + "/Cargo.lock";
       name = "Cargo.lock";
     };
+  };
+
     cargoDeps = pkgs.rustPlatform.importCargoLock { lockFile = cargoLock; };
 
     overlays = [ (import rust-overlay) ];
@@ -118,8 +121,7 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
         pname = name;
         cargoDepsName = name;
         version = "0.1.0";
-        inherit src buildInputs nativeBuildInputs;
-        cargoLock.lockFile = cargoDeps;
+        inherit src buildInputs nativeBuildInputs cargoLock;
         buildPhase = ''
           cargo build --package ${name} --release
           mkdir -p $out/bin;
