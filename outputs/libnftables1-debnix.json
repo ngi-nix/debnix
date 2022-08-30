@@ -1,1 +1,13 @@
-{"pkgs_name":"libnftables1","map":{"flex":"flex","libxtables-dev":"iptables","libnftnl-dev":"libnftnl","libeditreadline-dev":"libedit","asciidoc-base":"asciidoc","libmnl-dev":"libmnl","bison":"bison","libjansson-dev":"jansson"}}
+{
+  "pkgs_name": "libnftables1",
+  "map": {
+    "flex": "flex",
+    "libxtables-dev": "iptables",
+    "libnftnl-dev": "libnftnl",
+    "libeditreadline-dev": "libedit",
+    "asciidoc-base": "asciidoc",
+    "libmnl-dev": "libmnl",
+    "bison": "bison",
+    "libjansson-dev": "jansson"
+  }
+}

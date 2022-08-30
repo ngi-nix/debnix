@@ -1,1 +1,11 @@
-{"pkgs_name":"chrome-gnome-shell","map":{"cmake":"cmake","gnome-shell":"gnome-shell","python3-requests":"requests","python3-gi":"pygobject","jq":"jq","python3":"python3"}}
+{
+  "pkgs_name": "chrome-gnome-shell",
+  "map": {
+    "cmake": "cmake",
+    "gnome-shell": "gnome-shell",
+    "python3-requests": "requests",
+    "python3-gi": "pygobject",
+    "jq": "jq",
+    "python3": "python3"
+  }
+}

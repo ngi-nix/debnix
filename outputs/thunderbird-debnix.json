@@ -1,1 +1,30 @@
-{"pkgs_name":"thunderbird","map":{"bzip2":"bzip2","nodejs":"nodejs","fontconfig":"fontconfig","unzip":"unzip","libdbus-glib-1-dev":"dbus-glib","libglib2.0-dev":"glib","libxt-dev":"libXt","libx11-dev":"libX11","libffi-dev":"libffi","libxft-dev":"libXft","libnspr4-dev":"nspr","python3":"python3","zlib1g-dev":"zlib","autoconf2.13":"autoconf","libfontconfig1-dev":"fontconfig","rustc":"rustc","libvpx-dev":"libvpx","cbindgen":"rust-cbindgen","nasm":"nasm","libasound2-dev":"alsa-lib","libx11-xcb-dev":"libX11","zip":"zip","libnss3-dev":"nss","cargo":"cargo","libevent-dev":"libevent"}}
+{
+  "pkgs_name": "thunderbird",
+  "map": {
+    "bzip2": "bzip2",
+    "nodejs": "nodejs",
+    "fontconfig": "fontconfig",
+    "unzip": "unzip",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libglib2.0-dev": "glib",
+    "libxt-dev": "libXt",
+    "libx11-dev": "libX11",
+    "libffi-dev": "libffi",
+    "libxft-dev": "libXft",
+    "libnspr4-dev": "nspr",
+    "python3": "python3",
+    "zlib1g-dev": "zlib",
+    "autoconf2.13": "autoconf",
+    "libfontconfig1-dev": "fontconfig",
+    "rustc": "rustc",
+    "libvpx-dev": "libvpx",
+    "cbindgen": "rust-cbindgen",
+    "nasm": "nasm",
+    "libasound2-dev": "alsa-lib",
+    "libx11-xcb-dev": "libX11",
+    "zip": "zip",
+    "libnss3-dev": "nss",
+    "cargo": "cargo",
+    "libevent-dev": "libevent"
+  }
+}

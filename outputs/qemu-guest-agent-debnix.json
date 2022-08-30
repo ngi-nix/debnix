@@ -1,1 +1,18 @@
-{"pkgs_name":"qemu-guest-agent","map":{"qemu-system-x86":"qemu","qemu-system-sparc":"qemu","qemu-block-extra":"qemu","qemu-system-misc":"qemu","qemu-system-data":"qemu","qemu-system-arm":"qemu","qemu-system-ppc":"qemu","qemu-system-gui":"qemu","qemu-user-binfmt":"qemu","qemu-system-mips":"qemu","qemu-user":"qemu","qemu-system-common":"qemu","qemu-utils":"qemu"}}
+{
+  "pkgs_name": "qemu-guest-agent",
+  "map": {
+    "qemu-system-x86": "qemu",
+    "qemu-system-sparc": "qemu",
+    "qemu-block-extra": "qemu",
+    "qemu-system-misc": "qemu",
+    "qemu-system-data": "qemu",
+    "qemu-system-arm": "qemu",
+    "qemu-system-ppc": "qemu",
+    "qemu-system-gui": "qemu",
+    "qemu-user-binfmt": "qemu",
+    "qemu-system-mips": "qemu",
+    "qemu-user": "qemu",
+    "qemu-system-common": "qemu",
+    "qemu-utils": "qemu"
+  }
+}

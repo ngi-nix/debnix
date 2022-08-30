@@ -1,1 +1,6 @@
-{"pkgs_name":"libminizip1","map":{"zlib1g-dev":"zlib"}}
+{
+  "pkgs_name": "libminizip1",
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,1 +1,25 @@
-{"pkgs_name":"hplip-data","map":{"cups":"cups","libavahi-client-dev":"avahi","libsane-dev":"sane-backends","python3-pyqt5":"PyQt5","sane-utils":"sane-backends","python3-gi":"pygobject","libsnmp-dev":"net-snmp","python3-dbus":"dbus-python","libcupsimage2-dev":"cups","python3-dbus.mainloop.pyqt5":"PyQt5","python3-dev":"python3","libjpeg-dev":"libjpeg-turbo","python3-pil":"pillow","avahi-daemon":"avahi","libdbus-1-dev":"dbus","libavahi-core-dev":"avahi","libcups2-dev":"cups","pyqt5-dev-tools":"PyQt5","libssl-dev":"openssl","libusb2-dev":"libusb"}}
+{
+  "pkgs_name": "hplip-data",
+  "map": {
+    "cups": "cups",
+    "libavahi-client-dev": "avahi",
+    "libsane-dev": "sane-backends",
+    "python3-pyqt5": "PyQt5",
+    "sane-utils": "sane-backends",
+    "python3-gi": "pygobject",
+    "libsnmp-dev": "net-snmp",
+    "python3-dbus": "dbus-python",
+    "libcupsimage2-dev": "cups",
+    "python3-dbus.mainloop.pyqt5": "PyQt5",
+    "python3-dev": "python3",
+    "libjpeg-dev": "libjpeg-turbo",
+    "python3-pil": "pillow",
+    "avahi-daemon": "avahi",
+    "libdbus-1-dev": "dbus",
+    "libavahi-core-dev": "avahi",
+    "libcups2-dev": "cups",
+    "pyqt5-dev-tools": "PyQt5",
+    "libssl-dev": "openssl",
+    "libusb2-dev": "libusb"
+  }
+}
