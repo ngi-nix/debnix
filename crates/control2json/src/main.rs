@@ -30,7 +30,7 @@ fn main() -> Result<(), Control2JsonError> {
         let mut buffer = Vec::new();
         let mut reader = io::stdin().lock();
         reader.read_to_end(&mut buffer)?;
-        let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?);
+        let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?)?;
         let mut stdout = io::stdout();
         let fmt = format!("{:?}", pkgs);
         stdout.write_all(fmt.as_bytes())?;
