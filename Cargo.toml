@@ -8,6 +8,7 @@ description = "Translate debian library names to their corresponding names in ni
 [workspace]
 members = [
     ".",
+    "crates/*",
     "lib/*",
 ]
 
