@@ -1,4 +1,5 @@
 use std::{
+    collections::HashMap,
     env, fs,
     io::{self, Read, Write},
 };
@@ -25,6 +26,7 @@ mod error {
 fn main() -> Result<(), Control2JsonError> {
     let args: Vec<String> = env::args().collect();
     let input = &args[1];
+    let match_from = &args[2];
 
     let mut reader: Box<dyn io::Read> = if input == "-" {
         Box::new(io::stdin().lock())
@@ -39,10 +41,40 @@ fn main() -> Result<(), Control2JsonError> {
     let fmt = format!("{:?}", pkgs);
     stdout.write_all(fmt.as_bytes())?;
 
+    if !match_from.is_empty() {
+        println!("Matching");
+        let map = get_map(match_from)?;
+        let result = match_from_map(pkgs, map)?;
+        let fmt = format!("{:?}", result);
+        stdout.write_all(fmt.as_bytes())?;
+    }
+
     Ok(())
 }
 
 fn pkgs_from_control_file(control_file: &str) -> Result<Vec<String>, Control2JsonError> {
     let control_file = ControlFile::from_str(control_file)?;
     Ok(control_file.get_dependencies()?)
+}
+
+fn get_map(map: &str) -> Result<HashMap<String, String>, Control2JsonError> {
+    let mut file = fs::File::open(&map)?;
+    let mut buffer = String::new();
+    file.read_to_string(&mut buffer)?;
+    let map: HashMap<String, String> = serde_json::from_str(&buffer).unwrap();
+    Ok(map)
+}
+
+fn match_from_map(
+    control: Vec<String>,
+    map: HashMap<String, String>,
+) -> Result<Vec<String>, Control2JsonError> {
+    let mut result = vec![];
+
+    for pkg in control {
+        if let Some(matched) = map.get(&pkg) {
+            result.push(matched.into());
+        }
+    }
+    Ok(result)
 }
