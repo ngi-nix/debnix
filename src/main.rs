@@ -22,6 +22,7 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
+use control_file::ControlFile;
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, path::Path};
@@ -36,7 +37,8 @@ extern crate log;
 
 use self::cli::CliArgs;
 use self::deb::get_debian_pkg_outputs;
-use crate::{deb::get_debian_deps, matcher::match_libs, nix::get_drv_inputs};
+use crate::deb::ControlFileApi;
+use crate::{matcher::match_libs, nix::get_drv_inputs};
 use clap::Parser;
 
 /// outputs/toplevel-debnix.json
@@ -49,7 +51,7 @@ pub(crate) struct DebNixOutputs {
     pkgs_name: Option<String>,
     // pkgs_src: Option<String>,
     // deb_name: Option<String>,
-    // deb_src: Option<String>,
+    control_file_hash: Option<String>,
     deb_inputs: Vec<String>,
     nix_inputs: Vec<String>,
     map: HashMap<String, String>,
@@ -122,6 +124,7 @@ fn main() -> Result<(), DebNixError> {
 }
 
 /// Try to get the inputs of a derivation from multiple possible pkg names
+/// TODO: pass in a vec of possible pkgs from outside
 fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     let mut inputs = vec![];
     let mut pkgs = vec![];
@@ -157,16 +160,21 @@ fn discover(pkgs: String) -> Result<DebNixOutputs, DebNixError> {
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());
 
-    let deb_deps = get_debian_deps(&pkgs)?;
+    let control_file_api = ControlFileApi::from_redirect(&pkgs)?;
+    let control_file_hash = String::from(control_file_api.checksum().unwrap());
+    let mut deb_deps = control_file_api.get_debian_deps()?;
+    deb_deps.sort();
+    deb_deps.dedup();
     info!("{:?}", &deb_deps);
     info!("Debian Dependency Amount: {:?}", &deb_deps.len());
     let result = match_libs(deb_deps.clone(), input_names.clone())?;
     info!("Amount: {:?}", result.keys().len());
-    Ok(DebNixOutputs{
+    Ok(DebNixOutputs {
         pkgs_name: Some(pkgs),
         map: result,
         deb_inputs: deb_deps,
         nix_inputs: input_names,
+        control_file_hash: Some(control_file_hash),
     })
 }
 

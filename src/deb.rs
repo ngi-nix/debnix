@@ -1,5 +1,5 @@
-use serde::{Deserialize, Serialize};
 use control_file::ControlFile;
+use serde::{Deserialize, Serialize};
 
 use crate::error::DebNixError;
 
@@ -45,12 +45,12 @@ pub(crate) fn get_latest_version_api(pkg: &str) -> Result<String, DebNixError> {
     Ok(version_path.to_string())
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 /// Wrapper of a subset of debians tracker api:
 /// <https://sources.debian.org/doc/>
 /// This exposes functionality for querying and downloading of
 /// the debian control file of a package.
-struct ControlFileApi {
+pub(crate) struct ControlFileApi {
     // The pkg that is being queried.
     package: Option<String>,
     // The sha256 checksum of the control file.
@@ -109,14 +109,25 @@ impl ControlFileApi {
     fn package(&self) -> Option<&String> {
         self.package.as_ref()
     }
-}
 
-pub(crate) fn get_debian_deps(pkgs: &str) -> Result<Vec<String>, DebNixError> {
-    let pkgs = debian_redirect(pkgs)?;
-    let download_control_file = ControlFileApi::new(&pkgs)?.download_control_file()?;
-    let parsed_control_file = ControlFile::from_str(&download_control_file)?.get_dependencies()?;
-    debug!("Parsed Control File: {:?}", &parsed_control_file);
-    Ok(parsed_control_file)
+    pub(crate) fn checksum(&self) -> Option<&String> {
+        self.checksum.as_ref()
+    }
+
+    /// The debian api let's us redirect from tail packages 
+    /// to the real package definitions.
+    pub(crate) fn from_redirect(pkgs: &str) -> Result<ControlFileApi, DebNixError> {
+        let pkgs = debian_redirect(pkgs)?;
+        ControlFileApi::new(&pkgs)
+    }
+
+    pub(crate) fn get_debian_deps(&self) -> Result<Vec<String>, DebNixError> {
+        let download_control_file = &self.download_control_file()?;
+        let parsed_control_file =
+            ControlFile::from_str(download_control_file)?.get_dependencies()?;
+        debug!("Parsed Control File: {:?}", &parsed_control_file);
+        Ok(parsed_control_file)
+    }
 }
 
 pub(crate) fn get_debian_pkg_outputs(pkgs: &str) -> Result<Vec<String>, DebNixError> {
