@@ -19,12 +19,12 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
       path = "${CARGO_TOML}";
       name = "Cargo.toml";
     };
-     cargoLock = {
-    lockFile = builtins.path {
-      path = src + "/Cargo.lock";
-      name = "Cargo.lock";
+    cargoLock = {
+      lockFile = builtins.path {
+        path = src + "/Cargo.lock";
+        name = "Cargo.lock";
+      };
     };
-  };
 
     cargoDeps = pkgs.rustPlatform.importCargoLock { lockFile = cargoLock; };
 
@@ -94,8 +94,7 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
       }).buildRustPackage {
         cargoDepsName = name;
         version = "0.1.0";
-        inherit src name buildInputs nativeBuildInputs postInstall;
-        cargoLock.lockFile = cargoLock;
+        inherit src name buildInputs nativeBuildInputs postInstall cargoLock;
         # checkInputs = [clippy];
         # preCheck = ''
         #   export HOME=$TMPDIR
