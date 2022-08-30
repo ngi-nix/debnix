@@ -1,0 +1,1 @@
+{"pkgs_name":"sddm","map":{"libxcb-xkb-dev":"libxcb","libpam-systemd":"systemd","cmake":"cmake","qtbase5-dev":"qtbase","systemd":"systemd","qttools5-dev":"qttools","extra-cmake-modules":"extra-cmake-modules","libxcb1-dev":"libxcb","qtdeclarative5-dev":"qtdeclarative","libsystemd-dev":"systemd"}}
