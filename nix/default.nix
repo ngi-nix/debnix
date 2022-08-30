@@ -126,11 +126,16 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
           mkdir -p $out/bin;
           cp target/release/${name} $out/bin/${name}
         '';
+        installPhase = ":";
+        checkPhase = ":";
       };
 
     # `nix run`
     apps.default = flake-utils.lib.mkApp {
       drv = packages.default;
+    };
+    apps.control2json = flake-utils.lib.mkApp {
+      drv = packages.control2json;
     };
 
     devShells = {
