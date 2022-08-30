@@ -1,1 +1,9 @@
-{"pkgs_name":"libexiv2-27","map":{"zlib1g-dev":"zlib","gettext":"gettext","libexpat1-dev":"expat","cmake":"cmake"}}
+{
+  "pkgs_name": "libexiv2-27",
+  "map": {
+    "zlib1g-dev": "zlib",
+    "gettext": "gettext",
+    "libexpat1-dev": "expat",
+    "cmake": "cmake"
+  }
+}
