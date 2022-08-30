@@ -1,0 +1,1 @@
+{"pkgs_name":"nginx-common","map":{"libpcre3-dev":"pcre","libssl-dev":"openssl","libperl-dev":"perl","libgd-dev":"gd","libexpat-dev":"expat","libxslt1-dev":"libxslt","libgeoip-dev":"geoip"}}
