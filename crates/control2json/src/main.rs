@@ -29,7 +29,7 @@ fn main() -> Result<(), Control2JsonError> {
     let mut reader: Box<dyn io::Read> = if input == "-" {
         Box::new(io::stdin().lock())
     } else {
-        Box::new(fs::File::open(input).unwrap())
+        Box::new(fs::File::open(input)?)
     };
 
     let mut buffer = Vec::new();
