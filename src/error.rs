@@ -1,5 +1,3 @@
-use std::str::Utf8Error;
-
 use thiserror::Error;
 
 #[derive(Error, Debug)]
@@ -12,7 +10,7 @@ pub enum DebNixError {
     #[error("Deserialization Error: {0}")]
     Serde(#[from] serde_json::Error),
     #[error("Utf8 Conversion Error")]
-    Utf8(#[from] Utf8Error),
+    Utf8(#[from] std::str::Utf8Error),
     /// Reqwest Error
     #[error("Reqwest Error")]
     Reqwest(#[from] reqwest::Error),
