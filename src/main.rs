@@ -50,8 +50,8 @@ pub(crate) struct DebNixOutputs {
     // pkgs_src: Option<String>,
     // deb_name: Option<String>,
     // deb_src: Option<String>,
-    // deb_inputs: Vec<String>,
-    // nix_inputs: Vec<String>,
+    deb_inputs: Vec<String>,
+    nix_inputs: Vec<String>,
     map: HashMap<String, String>,
 }
 
@@ -66,13 +66,9 @@ fn main() -> Result<(), DebNixError> {
     }
 
     if let Some(pkgs) = opts.pkg() {
-        let map = discover(pkgs.clone())?;
+        let outputs = discover(pkgs.clone())?;
         if let Some(destination) = opts.write() {
-            let out = DebNixOutputs {
-                pkgs_name: Some(pkgs.to_string()),
-                map,
-            };
-            let serialized = serde_json::to_string(&out)?;
+            let serialized = serde_json::to_string(&outputs)?;
             let mut file = File::create(destination)?;
             file.write_all(serialized.as_bytes())?;
         }
@@ -80,17 +76,14 @@ fn main() -> Result<(), DebNixError> {
 
     if let Some(location) = opts.read_popcon() {
         let result = read_popcon(location);
-        // println!("{:?}", result);
     }
 
     if let Some(location) = opts.generate_map() {
         let result = create_output_map(location)?;
-        // println!("{:?}", result);
     }
 
     if let Some(amount) = opts.discover() {
         let pop = read_popcon("./test/popcon.csv")?;
-        // println!("{:?}", &pop);
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
                 break;
@@ -101,12 +94,8 @@ fn main() -> Result<(), DebNixError> {
                 // For now don't overwrite paths, but only create them once.
                 if !Path::new(&destination).exists() && !Path::new(&error_destination).exists() {
                     match discover(pkg.to_string()) {
-                        Ok(map) => {
-                            let out = DebNixOutputs {
-                                pkgs_name: Some(pkg.to_string()),
-                                map,
-                            };
-                            let serialized = serde_json::to_string(&out)?;
+                        Ok(outputs) => {
+                            let serialized = serde_json::to_string(&outputs)?;
                             let mut file = File::create(&destination)?;
                             file.write_all(serialized.as_bytes())?;
                             error!("Written to location: {}", &destination);
@@ -163,7 +152,7 @@ fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
-fn discover(pkgs: String) -> Result<HashMap<String, String>, DebNixError> {
+fn discover(pkgs: String) -> Result<DebNixOutputs, DebNixError> {
     let input_names = drv_inputs_from_pkgs(pkgs.clone())?;
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());
@@ -171,13 +160,18 @@ fn discover(pkgs: String) -> Result<HashMap<String, String>, DebNixError> {
     let deb_deps = get_debian_deps(&pkgs)?;
     info!("{:?}", &deb_deps);
     info!("Debian Dependency Amount: {:?}", &deb_deps.len());
-    let result = match_libs(deb_deps, input_names)?;
+    let result = match_libs(deb_deps.clone(), input_names.clone())?;
     info!("Amount: {:?}", result.keys().len());
-    Ok(result)
+    Ok(DebNixOutputs{
+        pkgs_name: Some(pkgs),
+        map: result,
+        deb_inputs: deb_deps,
+        nix_inputs: input_names,
+    })
 }
 
-/// Reads the pkgs from a popcon (popularity contest) file
-/// and then collects the pkgs inside of a Vec
+/// Reads the packages from a popcon (popularity contest) file
+/// and then collects them inside of a Vec.
 fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
     let mut popcon = vec![];
     let contents = fs::read_to_string(location)?;
@@ -208,15 +202,15 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
     let mut result: HashMap<String, String> = HashMap::new();
     let outputs = Path::new("./outputs");
     for output in outputs.read_dir()?.flatten() {
-            if output.file_type()?.is_file() {
-                let mut file = File::open(output.path())?;
-                let mut contents = String::new();
-                file.read_to_string(&mut contents)?;
-                let deserialized: DebNixOutputs = serde_json::from_str(&contents)?;
-                for key in deserialized.map.keys() {
-                    if let Some((_, values)) = deserialized.map.get_key_value(key) {
-                        result.insert(key.to_string(), values.to_string());
-                    }
+        if output.file_type()?.is_file() {
+            let mut file = File::open(output.path())?;
+            let mut contents = String::new();
+            file.read_to_string(&mut contents)?;
+            let deserialized: DebNixOutputs = serde_json::from_str(&contents)?;
+            for key in deserialized.map.keys() {
+                if let Some((_, values)) = deserialized.map.get_key_value(key) {
+                    result.insert(key.to_string(), values.to_string());
+                }
             }
         }
     }

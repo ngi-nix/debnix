@@ -1,0 +1,10 @@
+{
+  "pkgs_name": "dbus-session-bus-common",
+  "map": {
+    "libexpat-dev": "expat",
+    "libapparmor-dev": "libapparmor",
+    "libaudit-dev": "audit",
+    "libx11-dev": "libX11",
+    "xmlto": "xmlto"
+  }
+}

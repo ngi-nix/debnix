@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "imagemagick-6.q16",
+  "map": {
+    "libwebp-dev": "libwebp",
+    "liblcms2-dev": "lcms2",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libltdl-dev": "libtool",
+    "librsvg2-bin": "librsvg",
+    "libheif-dev": "libheif",
+    "libfreetype6-dev": "freetype",
+    "zlib1g-dev": "zlib",
+    "libfontconfig1-dev": "fontconfig",
+    "libx11-dev": "libX11",
+    "libxt-dev": "libXt",
+    "libopenjp2-7-dev": "openjpeg",
+    "curl": "curl",
+    "libtiff-dev": "libtiff",
+    "libbz2-dev": "bzip2",
+    "libopenexr-dev": "openexr",
+    "librsvg2-dev": "librsvg",
+    "libdjvulibre-dev": "djvulibre",
+    "libxml2-dev": "libxml2"
+  }
+}

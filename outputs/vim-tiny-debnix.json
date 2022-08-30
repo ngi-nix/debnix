@@ -1,0 +1,6 @@
+{
+  "pkgs_name": "vim-tiny",
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

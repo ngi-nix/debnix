@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "mc-data",
+  "map": {
+    "libslang2-dev": "slang",
+    "libx11-dev": "libX11",
+    "file": "file",
+    "libglib2.0-dev": "glib",
+    "libssh2-1-dev": "libssh2",
+    "gettext": "gettext",
+    "zip": "zip",
+    "libgpm-dev": "gpm",
+    "autopoint": "gettext",
+    "e2fslibs-dev": "e2fsprogs",
+    "unzip": "unzip"
+  }
+}
