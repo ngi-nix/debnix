@@ -1,1 +1,0 @@
-{"pkgs_name":"qemu-guest-agent","map":{"qemu-utils":"qemu","qemu-system-data":"qemu","qemu-block-extra":"qemu","qemu-user-binfmt":"qemu","qemu-system-x86":"qemu","qemu-user":"qemu","qemu-system-misc":"qemu","qemu-system-gui":"qemu","qemu-system-mips":"qemu","qemu-system-arm":"qemu","qemu-system-ppc":"qemu","qemu-system-sparc":"qemu","qemu-system-common":"qemu"}}
