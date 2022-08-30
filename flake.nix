@@ -8,6 +8,8 @@
     flake-utils.inputs.nixpkgs.follows = "nixpkgs";
     flake-compat.url = "github:edolstra/flake-compat";
     flake-compat.flake = false;
+    crate2nix.url = "github:kolloch/crate2nix";
+    crate2nix.flake = false;
   };
 
   outputs = {...} @ args: let

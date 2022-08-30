@@ -1,3 +1,6 @@
+use debcontrol::Paragraph;
+use serde::{Deserialize, Serialize};
+
 use crate::error::DebNixError;
 
 /// Uses the redirect functionality of `tracker.debian.org` in order to find out
@@ -13,7 +16,7 @@ pub(crate) fn debian_redirect(pkgs: &str) -> Result<String, DebNixError> {
     Ok(String::from(pkg))
 }
 
-/// Get's the latest version of a package that is surfaced in debian,
+/// Get's the unstable version of a package that is surfaced in debian,
 /// relies on a redirect from `sources.debian`.
 pub(crate) fn get_unstable_version(pkg: &str) -> Result<String, DebNixError> {
     let debian_sources = format!("https://sources.debian.org/src/{}/unstable/", pkg);
@@ -23,122 +26,185 @@ pub(crate) fn get_unstable_version(pkg: &str) -> Result<String, DebNixError> {
     Ok(version)
 }
 
-/// Downloads the control file directly from `sources.debian`.
-pub(crate) fn download_control_file(pkg: &str) -> Result<String, DebNixError> {
-    let version = get_unstable_version(pkg).unwrap();
-
-    let prefix = if pkg.starts_with("lib") {
-        pkg.chars().take(4).collect::<String>()
-    } else {
-        pkg.chars().take(1).collect::<String>()
-    };
-
-    let control_file_location = format!(
-        "https://sources.debian.org/data/main/{}/{}/{}/debian/control",
-        prefix, &pkg, &version
-    );
-    match reqwest::blocking::get(control_file_location) {
-        Ok(resp) => Ok(resp.text()?),
-        Err(e) => {
-            error!("\nThis location doesn't work \n{}", e);
-            Err(DebNixError::Reqwest(e))
-        }
-    }
+/// Get's the latest version of a package that is surfaced in debian,
+/// relies on a redirect from `sources.debian`.
+pub(crate) fn get_latest_version(pkg: &str) -> Result<String, DebNixError> {
+    let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources)?;
+    let version_path = resp.url().path();
+    let version: String = version_path.split('/').rev().take(2).collect();
+    Ok(version)
 }
 
-/// Parses the various dependencies that a control file exposes.
-pub(crate) fn parse_control_file_dependencies(content: &str) -> Result<Vec<String>, DebNixError> {
-    let par = debcontrol::parse_str(content).map_err(|e| {
-        DebNixError::DebControl(format!(
-            "Control File could not be parsed: {}, {}",
-            content, e
-        ))
-    })?;
-    let mut result = vec![];
-    debug!("Full control file: \n {:?}", &par);
+/// Get's the location of a packages latest version of debians api
+/// relies on a redirect from `sources.debian`.
+pub(crate) fn get_latest_version_api(pkg: &str) -> Result<String, DebNixError> {
+    let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources)?;
+    let version_path = resp.url().path();
+    Ok(version_path.to_string())
+}
 
-    for paragraph in par {
-        for field in &paragraph.fields {
-            match field.name {
-                "Build-Depends" | "Depends" | "Recommends" | "Suggests" => {
-                    result.extend(parse_control_value(&field.value).unwrap());
+#[derive(Debug, Serialize, Deserialize)]
+/// Wrapper of a subset of debians tracker api:
+/// <https://sources.debian.org/doc/>
+/// This exposes functionality for querying and downloading of
+/// the debian control file of a package.
+struct ControlFileApi {
+    // The pkg that is being queried.
+    package: Option<String>,
+    // The sha256 checksum of the control file.
+    checksum: Option<String>,
+    // The type of the control file.
+    file: Option<String>,
+    // The location of the control file.
+    raw_url: Option<String>,
+}
+
+impl ControlFileApi {
+    fn new(pkg: &str) -> Result<Self, DebNixError> {
+        let version = get_latest_version_api(pkg).unwrap();
+        let control_file_api_location =
+            format!("https://sources.debian.org{}debian/control", &version);
+
+        match reqwest::blocking::get(control_file_api_location) {
+            Ok(resp) => Ok(serde_json::from_str::<ControlFileApi>(&resp.text()?)?),
+            Err(e) => {
+                error!("\nThis location doesn't work \n{}", e);
+                Err(DebNixError::Reqwest(e))
+            }
+        }
+    }
+
+    fn raw_url(&self) -> Option<&String> {
+        self.raw_url.as_ref()
+    }
+
+    /// Get's the actual url of the control file
+    fn url(&self) -> Option<String> {
+        self.raw_url().map_or_else(
+            || None,
+            |url| Some(format!("{}{}", "https://sources.debian.org", url)),
+        )
+    }
+    /// Downloads the control file directly from `sources.debian`.
+    pub(crate) fn download_control_file(&self) -> Result<String, DebNixError> {
+        if let Some(control_file_url) = self.url() {
+            match reqwest::blocking::get(control_file_url) {
+                Ok(resp) => {
+                    return Ok(resp.text()?);
                 }
-                _ => {}
+                Err(e) => {
+                    error!("\nThis location doesn't work \n{}", e);
+                    return Err(DebNixError::Reqwest(e));
+                }
             }
         }
+        Err(DebNixError::DebControl(format!(
+            "No raw URL for package: {:?}",
+            self.package()
+        )))
     }
-    Ok(result)
+
+    fn package(&self) -> Option<&String> {
+        self.package.as_ref()
+    }
 }
 
-/// Parses a control file, in order to surface the pkgs that are provided by the package.
-pub(crate) fn parse_control_file_pkgs(content: &str) -> Result<Vec<String>, DebNixError> {
-    let par = debcontrol::parse_str(content).map_err(|e| {
-        DebNixError::DebControl(format!(
-            "Control File could not be parsed: {}, {}",
-            content, e
-        ))
-    })?;
-    let mut result = vec![];
-    debug!("{:?}", &par);
-
-    for paragraph in par {
-        for field in &paragraph.fields {
-            if let "Package" = field.name {
-                result.extend(parse_control_value(&field.value).unwrap());
-            }
-            debug!("This was not included as a pkg output:\n {:?}", &field);
-        }
-    }
-    Ok(result)
+#[derive(Debug)]
+/// A wrapper around a Control file, and the debcontrol library.
+/// Exposes convenience methods for working with control files.
+struct ControlFile<'a> {
+    paragraphs: Vec<Paragraph<'a>>,
 }
 
-/// Parses control values, cleans them and returns them.
-fn parse_control_value(value: &str) -> Result<Vec<String>, ()> {
-    use regex::Regex;
-    // Remove version numbers
-    let ve = Regex::new(r"\(([^\)]+)\)").unwrap();
-    // Remove "<>"
-    let ve_angle = Regex::new(r"<([^\)]+)>").unwrap();
-    // Remove "${}"
-    let ve_curly = Regex::new(r"\$\{([^\)]+)\}").unwrap();
-    // Remove "[]"
-    let ve_square = Regex::new(r"\[([^\)]+)\]").unwrap();
-
-    let mut result = vec![];
-    let values = value.split(',').collect::<Vec<&str>>();
-    for value in &values {
-        let value = value.trim_matches('\n');
-        let value = ve.replace_all(value, "");
-        let value = ve_angle.replace_all(&value, "");
-        let value = ve_curly.replace_all(&value, "");
-        let value = ve_square.replace_all(&value, "");
-        let value = value.trim();
-        let optional_values = value.split('|').collect::<Vec<&str>>();
-        for optional_value in &optional_values {
-            let optional_value = optional_value.trim();
-            if !optional_value.is_empty() {
-                result.push(String::from(optional_value));
+impl<'a, 'b> ControlFile<'b> {
+    fn from_str(content: &'b str) -> Result<ControlFile<'a>, DebNixError>
+    where
+        'b: 'a,
+    {
+        Ok(Self {
+            paragraphs: debcontrol::parse_str(content).map_err(|e| {
+                DebNixError::DebControl(format!(
+                    "Control File could not be parsed: {}, {}",
+                    content, e
+                ))
+            })?,
+        })
+    }
+    fn get_pkgs(&self) -> Result<Vec<String>, DebNixError> {
+        let mut result = vec![];
+        debug!("Full control file: \n {:?}", self.paragraphs);
+        for paragraph in &self.paragraphs {
+            for field in &paragraph.fields {
+                if let "Package" = field.name {
+                    result.extend(Self::parse_control_value(&field.value));
+                }
+                debug!("This was not included as a pkg output:\n {:?}", &field);
             }
         }
-        // if !value.is_empty() {
-        //     result.push(String::from(value));
-        // }
+        Ok(result)
     }
-    Ok(result)
+    fn get_dependencies(&self) -> Result<Vec<String>, DebNixError> {
+        let mut result = vec![];
+        debug!("Full control file: \n {:?}", self.paragraphs);
+        for paragraph in &self.paragraphs {
+            for field in &paragraph.fields {
+                match field.name {
+                    "Build-Depends" | "Depends" | "Recommends" | "Suggests" => {
+                        result.extend(Self::parse_control_value(&field.value));
+                    }
+                    _ => {}
+                }
+            }
+        }
+        Ok(result)
+    }
+    /// Parses control values, cleans them and returns them.
+    fn parse_control_value(value: &str) -> Vec<String> {
+        use regex::Regex;
+        // Remove version numbers
+        let ve = Regex::new(r"\(([^\)]+)\)").unwrap();
+        // Remove "<>"
+        let ve_angle = Regex::new(r"<([^\)]+)>").unwrap();
+        // Remove "${}"
+        let ve_curly = Regex::new(r"\$\{([^\)]+)\}").unwrap();
+        // Remove "[]"
+        let ve_square = Regex::new(r"\[([^\)]+)\]").unwrap();
+
+        let mut result = vec![];
+        let values = value.split(',').collect::<Vec<&str>>();
+        for value in &values {
+            let value = value.trim_matches('\n');
+            let value = ve.replace_all(value, "");
+            let value = ve_angle.replace_all(&value, "");
+            let value = ve_curly.replace_all(&value, "");
+            let value = ve_square.replace_all(&value, "");
+            let value = value.trim();
+            let optional_values = value.split('|').collect::<Vec<&str>>();
+            for optional_value in &optional_values {
+                let optional_value = optional_value.trim();
+                if !optional_value.is_empty() {
+                    result.push(String::from(optional_value));
+                }
+            }
+        }
+        result
+    }
 }
 
 pub(crate) fn get_debian_deps(pkgs: &str) -> Result<Vec<String>, DebNixError> {
     let pkgs = debian_redirect(pkgs)?;
-    let download_control_file = download_control_file(&pkgs)?;
-    let parsed_control_file = parse_control_file_dependencies(&download_control_file)?;
+    let download_control_file = ControlFileApi::new(&pkgs)?.download_control_file()?;
+    let parsed_control_file = ControlFile::from_str(&download_control_file)?.get_dependencies()?;
     debug!("Parsed Control File: {:?}", &parsed_control_file);
     Ok(parsed_control_file)
 }
 
 pub(crate) fn get_debian_pkg_outputs(pkgs: &str) -> Result<Vec<String>, DebNixError> {
     let pkgs = debian_redirect(pkgs)?;
-    let download_control_file = download_control_file(&pkgs)?;
-    let parsed_control_file = parse_control_file_pkgs(&download_control_file)?;
+    let download_control_file = ControlFileApi::new(&pkgs)?.download_control_file()?;
+    let parsed_control_file = ControlFile::from_str(&download_control_file)?.get_pkgs()?;
     debug!("Parsed Control File: {:?}", &parsed_control_file);
     Ok(parsed_control_file)
 }

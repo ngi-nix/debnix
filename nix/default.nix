@@ -1,12 +1,14 @@
 {
   self,
   nixpkgs,
+  crate2nix,
   rust-overlay,
   flake-utils,
   flake-compat, # only here so we don't support `...`
 }:
 flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remove "aarch64-darwin" flake-utils.lib.defaultSystems)) (system: let
-  name = "poddy";
+  name = "debnix";
+  pname = name;
   root = nixpkgs.lib.cleanSource ./..;
   src = root;
   CARGO_LOCK = "${root}/Cargo.lock";
@@ -28,6 +30,16 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
     inherit system overlays;
   };
 
+  crate2nixPkgs = import nixpkgs {
+    inherit system;
+    overlays = [
+      (self: _: {
+        rustc = rustToolchainToml;
+        cargo = rustToolchainToml;
+      })
+    ];
+  };
+
   rustToolchainToml = pkgs.rust-bin.fromRustupToolchainFile "${RUST_TOOLCHAIN}";
   rustc = rustToolchainToml;
   cargo = rustToolchainToml;
@@ -37,6 +49,7 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
 
   nativeBuildInputs = [
     pkgs.pkg-config
+    pkgs.installShellFiles
   ];
   buildInputs = [
     pkgs.openssl
@@ -59,7 +72,15 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
   editorConfigInputs = [
     pkgs.editorconfig-checker
   ];
-
+  postInstall = ''
+    # explicit behavior
+    $out/bin/debnix setup --generate-completion bash > ./completions.bash
+    installShellCompletion --bash --name ${pname}.bash ./completions.bash
+    $out/bin/debnix setup --generate-completion fish > ./completions.fish
+    installShellCompletion --fish --name ${pname}.fish ./completions.fish
+    $out/bin/debnix setup --generate-completion zsh > ./completions.zsh
+    installShellCompletion --zsh --name _${pname} ./completions.zsh
+  '';
 in rec {
   # `nix build`
   packages.default =
@@ -69,7 +90,7 @@ in rec {
     .buildRustPackage {
       cargoDepsName = name;
       version = "0.1.0";
-      inherit src name buildInputs nativeBuildInputs;
+      inherit src name buildInputs nativeBuildInputs postInstall;
       cargoLock.lockFile = cargoLock;
       # checkInputs = [clippy];
       # preCheck = ''
@@ -79,6 +100,15 @@ in rec {
       #   cargo clippy
       # '';
     };
+  packages.debnix-crate = crate2nixPkgs.callPackage ./crate2nix.nix {
+    inherit
+      crate2nix
+      name
+      nativeBuildInputs
+      postInstall
+      src
+      ;
+  };
 
   # `nix run`
   apps.default = flake-utils.lib.mkApp {

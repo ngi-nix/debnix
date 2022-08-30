@@ -3,7 +3,8 @@ use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, process::Command};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-// A wrapped around the derivation output from nix
+/// Wraps the derivation output from `nix`,
+/// only few attributes are actually captured.
 pub(crate) struct SimpleDerivation {
     env: DerivationEnv,
 }
@@ -15,6 +16,7 @@ impl SimpleDerivation {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+/// Surfaces `DerivationEnv` attributes
 pub(crate) struct DerivationEnv {
     pname: Option<String>,
     #[serde(rename = "buildInputs")]

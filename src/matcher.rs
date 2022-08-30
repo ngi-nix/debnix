@@ -4,6 +4,7 @@ use crate::{deb::debian_redirect, error::DebNixError};
 
 /// Matches the input pkgs with the output pkgs
 /// The input pkgs are assumed to come from debian and the output pkgs from nix
+/// Will use simple heuristics, in order to get a possible match.
 pub(crate) fn match_libs(
     input: Vec<String>,
     output: Vec<String>,

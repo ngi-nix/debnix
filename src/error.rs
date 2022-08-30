@@ -3,6 +3,7 @@ use std::str::Utf8Error;
 use thiserror::Error;
 
 #[derive(Error, Debug)]
+/// The debnix error type
 pub enum DebNixError {
     /// Io Error
     #[error("IoError: {0}")]

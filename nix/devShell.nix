@@ -6,7 +6,7 @@
   nativeBuildInputs,
 }:
 mkShell {
-# clangStdenv.mkDerivation {
+  # clangStdenv.mkDerivation {
   name = "debnix";
   inherit buildInputs nativeBuildInputs;
 
@@ -14,5 +14,5 @@ mkShell {
   #RUSTFLAGS = "-Z macro-backtrace";
   RUST_BACKTRACE = "full";
   #########################
-  RUSTFLAGS="-C linker=clang -C link-arg=-fuse-ld=${pkgs.mold}/bin/mold -C target-cpu=native";
+  RUSTFLAGS = "-C linker=clang -C link-arg=-fuse-ld=${pkgs.mold}/bin/mold -C target-cpu=native";
 }
