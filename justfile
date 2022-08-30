@@ -36,5 +36,6 @@ debug:
 
 prettify-json:
 	fd ".-debnix.json" outputs --exec just prettify-json-exec {}
+
 prettify-json-exec FILE:
 	cat {{FILE}} | jq . {{FILE}} | sponge {{FILE}}

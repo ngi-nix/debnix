@@ -204,9 +204,6 @@ fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
 /// Reads the provided output json's and creates a single json file
 /// for easy key value lookups.
 fn create_output_map(location: &str) -> Result<(), DebNixError> {
-    // - Read from input maps
-    // - Insert into result
-    // - Write output map
     use std::io::Read;
     let mut result: HashMap<String, String> = HashMap::new();
     let outputs = Path::new("./outputs");
