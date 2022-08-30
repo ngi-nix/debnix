@@ -1,0 +1,1 @@
+{"pkgs_name":"gir1.2-goa-1.0","map":{"valac":"vala","libglib2.0-doc":"glib","meson":"meson","libgcr-3-dev":"gcr","libkrb5-dev":"libkrb5","libgirepository1.0-dev":"gobject-introspection","libjson-glib-dev":"json-glib","librest-dev":"rest","libglib2.0-dev":"glib","gtk-doc-tools":"gtk-doc","libsecret-1-dev":"libsecret","libsoup-3.0-dev":"libsoup"}}
