@@ -1,6 +1,6 @@
 use std::{
     collections::HashMap,
-    env, fs,
+    fs,
     io::{self, Read, Write},
 };
 
@@ -16,19 +16,19 @@ pub mod cli {
     pub(crate) struct CliArgs {
         /// The input file, if supplied `-`,
         /// then it will be read from stdin.
-        input: Option<String>,
+        input: String,
         #[clap(long, value_parser)]
         /// The path to a json map.
         from_map: Option<String>,
     }
 
     impl CliArgs {
-        pub(crate) fn input(&self) -> Option<&String> {
-            self.input.as_ref()
-        }
-
         pub(crate) fn from_map(&self) -> Option<&String> {
             self.from_map.as_ref()
+        }
+
+        pub(crate) fn input(&self) -> &str {
+            self.input.as_ref()
         }
     }
 }
@@ -45,18 +45,16 @@ mod error {
         Utf8(#[from] std::str::Utf8Error),
         #[error("Control File Error {0}")]
         ControlFile(#[from] control_file::ControlFileError),
-        #[error("Control File Error {0}")]
-        Error(std::string::String),
     }
 }
 
 fn main() -> Result<(), Control2JsonError> {
     let opts = cli::CliArgs::parse();
 
-    let mut reader: Box<dyn io::Read> = if let Some(input) = opts.input() {
-        Box::new(fs::File::open(input)?)
-    } else {
+    let mut reader: Box<dyn io::Read> = if let "-" = opts.input() {
         Box::new(io::stdin().lock())
+    } else {
+        Box::new(fs::File::open(opts.input())?)
     };
 
     let mut buffer = Vec::new();
