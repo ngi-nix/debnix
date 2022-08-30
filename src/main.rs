@@ -124,7 +124,7 @@ fn main() -> Result<(), DebNixError> {
 }
 
 /// Try to get the inputs of a derivation from multiple possible pkg names
-/// TODO: pass in a vec of possible pkgs from outside
+/// TODO: pass in a vec of possible pkgs from outside.
 fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     let mut inputs = vec![];
     let mut pkgs = vec![];
@@ -222,7 +222,6 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
             }
         }
     }
-    println!("{:?}", result);
     // write the result map to the target location
     let serialized = serde_json::to_string(&result)?;
     let mut file = File::create("./outputs/maps/debnix.json")?;
