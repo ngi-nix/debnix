@@ -26,21 +26,18 @@ fn main() -> Result<(), Control2JsonError> {
     let args: Vec<String> = env::args().collect();
     let input = &args[1];
 
-    if input == "-" {
-        let mut buffer = Vec::new();
-        let mut reader = io::stdin().lock();
-        reader.read_to_end(&mut buffer)?;
-        let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?)?;
-        let mut stdout = io::stdout();
-        let fmt = format!("{:?}", pkgs);
-        stdout.write_all(fmt.as_bytes())?;
+    let mut reader: Box<dyn io::Read> = if input == "-" {
+        Box::new(io::stdin().lock())
     } else {
-        let mut buffer = Vec::new();
-        let mut reader = fs::File::open(input).unwrap();
-        reader.read_to_end(&mut buffer)?;
-        let mut stdout = io::stdout();
-        stdout.write_all(&buffer)?;
-    }
+        Box::new(fs::File::open(input).unwrap())
+    };
+
+    let mut buffer = Vec::new();
+    reader.read_to_end(&mut buffer)?;
+    let pkgs = pkgs_from_control_file(std::str::from_utf8(&buffer)?)?;
+    let mut stdout = io::stdout();
+    let fmt = format!("{:?}", pkgs);
+    stdout.write_all(fmt.as_bytes())?;
 
     Ok(())
 }
