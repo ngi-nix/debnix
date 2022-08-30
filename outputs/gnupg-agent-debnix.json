@@ -1,0 +1,1 @@
+{"pkgs_name":"gnupg-agent","map":{"libgcrypt20-dev":"libgcrypt","libgnutls28-dev":"gnutls","libsqlite3-dev":"sqlite","libldap2-dev":"openldap","libreadline-dev":"readline","libassuan-dev":"libassuan","libnpth0-dev":"npth","libbz2-dev":"bzip2","gettext":"gettext","texinfo":"texinfo","zlib1g-dev":"zlib","libksba-dev":"libksba","autopoint":"gettext"}}

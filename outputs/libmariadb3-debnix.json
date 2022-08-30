@@ -1,0 +1,1 @@
+{"pkgs_name":"libmariadb3","map":{"cmake":"cmake","libjemalloc-dev":"jemalloc","libkrb5-dev":"libkrb5","libncurses5-dev":"ncurses","liburing-dev":"liburing","libcurl4":"curl","libcurl4-openssl-dev":"curl","zlib1g-dev":"zlib","libssl-dev":"openssl","libcurl4-dev":"curl","libpcre2-dev":"pcre2","libncurses5-dev:native":"ncurses","libsystemd-dev":"systemd"}}
