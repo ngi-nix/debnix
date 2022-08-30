@@ -1,1 +1,0 @@
-{"pkgs_name":"libparted-fs-resize0","map":{"uuid-dev":"util-linux","libblkid-dev":"util-linux","check":"check","libreadline6-dev":"readline","libreadline-dev":"readline","autopoint":"gettext","gettext":"gettext","libdevmapper-dev":"lvm2"}}

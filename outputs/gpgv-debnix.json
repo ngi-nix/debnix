@@ -1,1 +1,0 @@
-{"pkgs_name":"gpgv","map":{"autopoint":"gettext","libassuan-dev":"libassuan","libgcrypt20-dev":"libgcrypt","libsqlite3-dev":"sqlite","libbz2-dev":"bzip2","zlib1g-dev":"zlib","libldap2-dev":"openldap","texinfo":"texinfo","libgnutls28-dev":"gnutls","libreadline-dev":"readline","gettext":"gettext","libnpth0-dev":"npth","libksba-dev":"libksba"}}

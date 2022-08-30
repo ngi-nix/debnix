@@ -1,1 +1,0 @@
-{"pkgs_name":"pinentry-curses","map":{"libgtk2.0-dev":"gtk+","libncurses5-dev":"ncurses","libgpg-error-dev":"libgpg-error","libassuan-dev":"libassuan","libgcr-3-dev":"gcr","qtbase5-dev":"qtbase","libsecret-1-dev":"libsecret","gcr":"gcr","libncursesw5-dev":"ncurses"}}

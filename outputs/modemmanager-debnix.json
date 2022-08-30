@@ -1,1 +1,0 @@
-{"pkgs_name":"modemmanager","map":{"libmbim-glib-dev":"libmbim","libglib2.0-dev":"glib","python3-dbus":"dbus-python","libgudev-1.0-dev":"libgudev","python3-gi":"pygobject","libgirepository1.0-dev":"gobject-introspection","valac":"vala","libglib2.0-doc":"glib","libsystemd-dev":"systemd","gobject-introspection":"gobject-introspection","libqmi-glib-dev":"libqmi"}}

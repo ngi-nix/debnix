@@ -1,1 +1,0 @@
-{"pkgs_name":"libgoa-1.0-common","map":{"libsoup2.4-dev":"libsoup","libgcr-3-dev":"gcr","libgirepository1.0-dev":"gobject-introspection","valac":"vala","libsecret-1-dev":"libsecret","libglib2.0-doc":"glib","libglib2.0-dev":"glib","libjson-glib-dev":"json-glib","gtk-doc-tools":"gtk-doc","librest-dev":"rest","libkrb5-dev":"libkrb5"}}
