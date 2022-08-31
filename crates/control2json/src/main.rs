@@ -77,7 +77,10 @@ fn main() -> Result<(), Control2JsonError> {
 
 fn pkgs_from_control_file(control_file: &str) -> Result<Vec<String>, Control2JsonError> {
     let control_file = ControlFile::from_str(control_file)?;
-    Ok(control_file.get_dependencies()?)
+    let mut deps = control_file.get_dependencies()?;
+    deps.sort();
+    deps.dedup();
+    Ok(deps)
 }
 
 fn get_map(map: &str) -> Result<HashMap<String, String>, Control2JsonError> {

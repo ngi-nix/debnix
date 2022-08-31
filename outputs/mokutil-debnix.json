@@ -1,0 +1,1 @@
+{"pkgs_name":"mokutil","control_file_hash":"878e98ce385c10c5f35204ed908984a49338a70b04796ff5164e2621427eae73","deb_inputs":["debhelper","libefivar-dev","libkeyutils-dev","libssl-dev","pkg-config"],"nix_inputs":["efivar","keyutils","openssl","pkg-config-wrapper"],"map":{"libkeyutils-dev":"keyutils","libefivar-dev":"efivar","libssl-dev":"openssl"}}

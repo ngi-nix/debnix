@@ -1,0 +1,1 @@
+{"pkgs_name":"bogofilter-common","control_file_hash":"4d0128f5ec57e20385f526770779bdb5f0f13a0c2af4ab640fbba9d20e9511f0","deb_inputs":["bogofilter-bdb","bogofilter-common","bogofilter-db","db5.3-util","debhelper","dh-exec","doc-base","flex","libdb-dev","libgsl-dev","libsqlite3-dev","libtokyocabinet-dev"],"nix_inputs":["db","flex"],"map":{"db5.3-util":"db","flex":"flex"}}

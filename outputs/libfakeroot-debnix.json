@@ -1,0 +1,1 @@
+{"pkgs_name":"libfakeroot","control_file_hash":"c5305fe106d6a3a420f68c5ba7b8a6de1300227ce052a7b81c4023727e8b3b72","deb_inputs":["debhelper-compat","libacl1-dev","libcap-dev","libcap2-bin","libfakeroot","po4a","sharutils"],"nix_inputs":["getopt","gnused","libcap"],"map":{"libcap-dev":"libcap","libcap2-bin":"libcap"}}
