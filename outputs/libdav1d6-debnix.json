@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libdav1d6",
+  "control_file_hash": "e53668e9d3f358507c0b5f9f0614a333f2ff930c0e055fab7b0c8b259940d03b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdav1d6",
+    "meson",
+    "nasm",
+    "ninja-build"
+  ],
+  "nix_inputs": [
+    "meson",
+    "nasm",
+    "ninja",
+    "pkg-config-wrapper",
+    "xxHash"
+  ],
+  "map": {
+    "meson": "meson",
+    "nasm": "nasm"
+  }
+}

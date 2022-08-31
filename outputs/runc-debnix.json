@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "runc",
+  "control_file_hash": "1e6d6f77ba309403ca0a676e0b91d6cf142134d7abe1482b9d2ed5fbb6300d98",
+  "deb_inputs": [
+    "criu",
+    "debhelper-compat",
+    "dh-golang",
+    "go-md2man",
+    "golang-any",
+    "golang-dbus-dev",
+    "golang-github-checkpoint-restore-go-criu-dev",
+    "golang-github-cilium-ebpf-dev",
+    "golang-github-containerd-console-dev",
+    "golang-github-coreos-go-systemd-dev",
+    "golang-github-cyphar-filepath-securejoin-dev",
+    "golang-github-docker-go-units-dev",
+    "golang-github-moby-sys-dev",
+    "golang-github-mrunalp-fileutils-dev",
+    "golang-github-opencontainers-selinux-dev",
+    "golang-github-opencontainers-specs-dev",
+    "golang-github-seccomp-libseccomp-golang-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-github-vishvananda-netlink-dev",
+    "golang-gocapability-dev",
+    "golang-golang-x-net-dev",
+    "golang-google-protobuf-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "go-md2man",
+    "libapparmor",
+    "libseccomp",
+    "libselinux",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "go-md2man": "go-md2man"
+  }
+}

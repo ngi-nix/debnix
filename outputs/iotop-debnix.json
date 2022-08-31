@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "iotop",
+  "control_file_hash": "f04d4a5ef4b01b4ebf2380e015e6365d3288a38110423f0f751e01e4cdf6af15",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "libpython3-all-dev",
+    "python3-all:any",
+    "python3-distutils"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {}
+}
