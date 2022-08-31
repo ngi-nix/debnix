@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ldap-utils",
+  "control_file_hash": "95852fb2df6ead41cafc9d72058f5512b1cb5bb0329067cc7f3865eb7137c485",
+  "deb_inputs": [
+    "libopenldap-runtime"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "db",
+    "groff",
+    "libsodium",
+    "libtool",
+    "openssl",
+    "systemd-minimal"
+  ],
+  "map": {}
+}
