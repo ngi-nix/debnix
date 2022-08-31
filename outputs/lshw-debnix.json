@@ -1,0 +1,1 @@
+{"pkgs_name":"lshw","control_file_hash":"df10c0ebe217249fb97c76ac34082172778f8ac01896cef0292f19626da51d1d","deb_inputs":["debhelper-compat","libgtk-3-dev","libsqlite3-dev","menu","pci.ids","pciutils","usb.ids","usbutils"],"nix_inputs":["hwdata","pkg-config-wrapper"],"map":{}}
