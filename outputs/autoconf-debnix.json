@@ -1,0 +1,1 @@
+{"pkgs_name":"autoconf","control_file_hash":"82fbbf2615159c635f5983ec7b742b80d103e24aafca37f4b143c4e2170ca1d1","deb_inputs":["autoconf-archive","autoconf-doc","automake","automaken","debhelper-compat","debianutils","gettext","gnu-standards","libtool","m4","perl"],"nix_inputs":["gnum4","perl","texinfo"],"map":{"perl":"perl"}}

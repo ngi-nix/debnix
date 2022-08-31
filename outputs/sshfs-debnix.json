@@ -1,9 +1,0 @@
-{
-  "pkgs_name": "sshfs",
-  "map": {
-    "libfuse3-dev": "fuse",
-    "libglib2.0-dev": "glib",
-    "fuse3": "fuse",
-    "meson": "meson"
-  }
-}
