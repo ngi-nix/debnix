@@ -45,4 +45,8 @@ impl CliArgs {
     pub(crate) fn generate_map(&self) -> Option<&String> {
         self.generate_map.as_ref()
     }
+
+    pub(crate) fn map(&self) -> Option<&String> {
+        self.map.as_ref()
+    }
 }

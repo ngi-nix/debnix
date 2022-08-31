@@ -67,8 +67,14 @@ fn main() -> Result<(), DebNixError> {
         std::process::exit(0);
     }
 
+    let map = if let Some(location) = opts.map() {
+        Some(open_map(location)?)
+    } else {
+        None
+    };
+
     if let Some(pkgs) = opts.pkg() {
-        let outputs = discover(pkgs.clone())?;
+        let outputs = discover(pkgs.clone(), map.clone())?;
         if let Some(destination) = opts.write() {
             let serialized = serde_json::to_string(&outputs)?;
             let mut file = File::create(destination)?;
@@ -95,7 +101,7 @@ fn main() -> Result<(), DebNixError> {
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
                 if !Path::new(&destination).exists() && !Path::new(&error_destination).exists() {
-                    match discover(pkg.to_string()) {
+                    match discover(pkg.to_string(), map.clone()) {
                         Ok(outputs) => {
                             let serialized = serde_json::to_string(&outputs)?;
                             let mut file = File::create(&destination)?;
@@ -125,16 +131,8 @@ fn main() -> Result<(), DebNixError> {
 
 /// Try to get the inputs of a derivation from multiple possible pkg names
 /// TODO: pass in a vec of possible pkgs from outside.
-fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
+fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
     let mut inputs = vec![];
-    let mut pkgs = vec![];
-    if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
-        pkgs.extend(deb_inputs);
-    };
-    pkgs.push(pkg.clone());
-    let mut unwrapped = pkg;
-    unwrapped.push_str("-unwrapped");
-    pkgs.push(unwrapped);
 
     for pkg in pkgs {
         let input_names = get_drv_inputs(&pkg);
@@ -155,12 +153,31 @@ fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
-fn discover(pkgs: String, map: HashMap<String, String>,) -> Result<DebNixOutputs, DebNixError> {
-    let input_names = drv_inputs_from_pkgs(pkgs.clone())?;
+fn discover(pkg: String, map: Option<HashMap<String, String>>,) -> Result<DebNixOutputs, DebNixError> {
+    // Prepare possible names for nix pkgs definitions.
+    let mut nix_inputs = vec![];
+    nix_inputs.push(pkg.clone());
+    let mut unwrapped = pkg.clone();
+    unwrapped.push_str("-unwrapped");
+    nix_inputs.push(unwrapped);
+
+    if let Some(map) = map {
+        // Lookup in the provided map for an associated pkg name
+        if let Some(pkg) = map.get(&pkg) {
+            nix_inputs.push(pkg.to_string())
+        }
+    }
+    // Get the debian pkg outputs
+    if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
+        nix_inputs.extend(deb_inputs);
+    };
+    let input_names = drv_inputs_from_pkgs(nix_inputs)?;
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());
 
-    let control_file_api = ControlFileApi::from_redirect(&pkgs)?;
+
+    // Get the control file api for the specific package
+    let control_file_api = ControlFileApi::from_redirect(&pkg)?;
     let control_file_hash = String::from(control_file_api.checksum().unwrap());
     let mut deb_deps = control_file_api.get_debian_deps()?;
     deb_deps.sort();
@@ -170,7 +187,7 @@ fn discover(pkgs: String, map: HashMap<String, String>,) -> Result<DebNixOutputs
     let result = match_libs(deb_deps.clone(), input_names.clone())?;
     info!("Amount: {:?}", result.keys().len());
     Ok(DebNixOutputs {
-        pkgs_name: Some(pkgs),
+        pkgs_name: Some(pkg),
         map: result,
         deb_inputs: deb_deps,
         nix_inputs: input_names,
@@ -230,4 +247,13 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
     let mut file = File::create("./outputs/maps/debnix.json")?;
     file.write_all(serialized.as_bytes())?;
     Ok(())
+}
+
+fn open_map(location: &str) -> Result<HashMap<String, String>, DebNixError> {
+            use std::io::Read;
+
+            let mut file = File::open(location)?;
+            let mut contents = String::new();
+            file.read_to_string(&mut contents)?;
+            Ok(serde_json::from_str::<DebNixOutputs>(&contents)?.map)
 }

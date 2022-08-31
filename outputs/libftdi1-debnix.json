@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libftdi1",
+  "control_file_hash": "42aa9300c49c5fb3e3416151ce460d168418aac24b57f00df388091ca33f3599",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "libboost-dev",
+    "libboost-test-dev",
+    "libconfuse-dev",
+    "libftdi1-2",
+    "libftdi1-dev",
+    "libftdi1-doc",
+    "libftdipp1-3",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python3-all-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "doxygen",
+    "graphviz",
+    "libconfuse",
+    "libusb",
+    "pkg-config-wrapper",
+    "python3",
+    "swig"
+  ],
+  "map": {
+    "libconfuse-dev": "libconfuse",
+    "doxygen": "doxygen",
+    "cmake": "cmake",
+    "swig": "swig",
+    "libboost-dev": "boost"
+  }
+}
