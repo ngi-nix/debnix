@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "redis-server",
+  "control_file_hash": "d38f2ba7209bfac883dd4d007d1aba50d8326d96c25e4438a4c6447c83a96b84",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libhiredis-dev",
+    "libjemalloc-dev",
+    "liblua5.1-dev",
+    "liblzf-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "lua-bitop-dev",
+    "lua-cjson-dev",
+    "openssl",
+    "pkg-config",
+    "procps",
+    "redis-server",
+    "redis-tools",
+    "ruby-redis",
+    "tcl",
+    "tcl-tls"
+  ],
+  "nix_inputs": [
+    "lua",
+    "openssl",
+    "pkg-config-wrapper",
+    "systemd",
+    "tcl",
+    "which"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "liblua5.1-dev": "lua",
+    "libsystemd-dev": "systemd",
+    "libssl-dev": "openssl",
+    "tcl": "tcl"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "gir1.2-telepathylogger-0.2",
+  "control_file_hash": "fc41b45ad21d2c949f5fc878d6753902677535e9f4c41f87479a907f2a28bf8c",
+  "deb_inputs": [
+    "dbus",
+    "debhelper",
+    "devhelp",
+    "gir1.2-glib-2.0",
+    "gir1.2-telepathyglib-0.12",
+    "gir1.2-telepathylogger-0.2",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libsqlite3-dev",
+    "libtelepathy-glib-dev",
+    "libtelepathy-logger-doc",
+    "libtelepathy-logger3",
+    "libxml2-dev",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "dbus-glib",
+    "gobject-introspection",
+    "intltool",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python",
+    "sqlite",
+    "telepathy-glib"
+  ],
+  "map": {
+    "dbus": "dbus",
+    "intltool": "intltool",
+    "python3:any": "python",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "gir1.2-telepathyglib-0.12": "telepathy-glib",
+    "libtelepathy-glib-dev": "telepathy-glib",
+    "libsqlite3-dev": "sqlite",
+    "gobject-introspection": "gobject-introspection",
+    "libxml2-dev": "libxml2",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "libdbus-1-dev": "dbus",
+    "libgirepository1.0-dev": "gobject-introspection"
+  }
+}

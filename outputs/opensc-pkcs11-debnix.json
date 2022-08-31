@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "opensc-pkcs11",
+  "control_file_hash": "fd39367c47d94281992f0852cb8eb5b09f7b080a9f870afc81bd3a4f407e264f",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "docbook-xsl",
+    "flex",
+    "help2man",
+    "libglib2.0-dev",
+    "libltdl3-dev",
+    "libpcsclite-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "opensc-pkcs11",
+    "pcscd",
+    "pkg-config",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "libXt",
+    "libassuan",
+    "libxslt",
+    "openssl",
+    "pcsclite",
+    "pkg-config-wrapper",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libssl-dev": "openssl",
+    "xsltproc": "libxslt",
+    "pcscd": "pcsclite",
+    "libpcsclite-dev": "pcsclite",
+    "zlib1g-dev": "zlib"
+  }
+}

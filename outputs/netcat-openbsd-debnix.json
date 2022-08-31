@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "netcat-openbsd",
+  "control_file_hash": "24972264851f7bbec9bbe50d4374a096e9bd9712ae27b4eb2bff93776f8c42de",
+  "deb_inputs": [
+    "debhelper-compat",
+    "iproute2",
+    "libbsd-dev",
+    "pkg-config",
+    "procps",
+    "strace"
+  ],
+  "nix_inputs": [
+    "libbsd",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbsd-dev": "libbsd"
+  }
+}

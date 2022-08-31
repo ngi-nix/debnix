@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "automake",
+  "control_file_hash": "9d28321d37787b6d01381f9b5997c4e9342b4177e0a45a60d86832e35d30791c",
+  "deb_inputs": [
+    "autoconf",
+    "autoconf-doc",
+    "autotools-dev",
+    "debhelper-compat",
+    "gnu-standards"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "perl"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "autoconf-doc": "autoconf"
+  }
+}

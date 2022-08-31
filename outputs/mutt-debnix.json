@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "mutt",
+  "control_file_hash": "aed4975c399b9c14ca7d719a80d6029b2f88ad8ffaee9be9b149436c4b4fb71d",
+  "deb_inputs": [
+    "aspell",
+    "ca-certificates",
+    "debhelper-compat",
+    "default-mta",
+    "docbook-xml",
+    "docbook-xsl",
+    "gawk",
+    "gettext",
+    "gnupg",
+    "ispell",
+    "libgnutls28-dev",
+    "libgpgme11-dev",
+    "libgsasl-dev",
+    "libidn2-dev",
+    "libkrb5-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libtokyocabinet-dev",
+    "locales",
+    "mail-transport-agent",
+    "mailcap",
+    "openssl",
+    "pkg-config",
+    "sensible-utils",
+    "urlview",
+    "w3m",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "gdbm",
+    "gpgme",
+    "libkrb5",
+    "ncurses",
+    "openssl",
+    "perl",
+    "which"
+  ],
+  "map": {
+    "libgpgme11-dev": "gpgme",
+    "libkrb5-dev": "libkrb5",
+    "libncursesw5-dev": "ncurses",
+    "libncurses5-dev": "ncurses",
+    "openssl": "openssl"
+  }
+}
