@@ -1,0 +1,1 @@
+{"pkgs_name":"tini","control_file_hash":"35ced28ce02929b583d987b756d176d8b154be4d0abe1ecbb723cb23f4a8ab22","deb_inputs":["cmake","debhelper-compat"],"nix_inputs":["cmake"],"map":{"cmake":"cmake"}}

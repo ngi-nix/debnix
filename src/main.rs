@@ -214,11 +214,14 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
             let mut file = File::open(output.path())?;
             let mut contents = String::new();
             file.read_to_string(&mut contents)?;
-            let deserialized: DebNixOutputs = serde_json::from_str(&contents)?;
-            for key in deserialized.map.keys() {
-                if let Some((_, values)) = deserialized.map.get_key_value(key) {
-                    result.insert(key.to_string(), values.to_string());
+            if let Ok(deserialized) = serde_json::from_str::<DebNixOutputs>(&contents) {
+                for key in deserialized.map.keys() {
+                    if let Some((_, values)) = deserialized.map.get_key_value(key) {
+                        result.insert(key.to_string(), values.to_string());
+                    }
                 }
+            } else {
+                error!("Reading: {:?}", output.path());
             }
         }
     }
