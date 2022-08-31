@@ -1,1 +1,19 @@
-{"pkgs_name":"tcpdump","control_file_hash":"5db2a001aed336685ebe79249896fcb8aae477fc573e4e8a07c463e3ebb3489c","deb_inputs":["adduser","apparmor","debhelper-compat","dh-apparmor","dpkg-dev","libpcap0.8-dev","libssl-dev"],"nix_inputs":["libpcap"],"map":{"libpcap0.8-dev":"libpcap"}}
+{
+  "pkgs_name": "tcpdump",
+  "control_file_hash": "5db2a001aed336685ebe79249896fcb8aae477fc573e4e8a07c463e3ebb3489c",
+  "deb_inputs": [
+    "adduser",
+    "apparmor",
+    "debhelper-compat",
+    "dh-apparmor",
+    "dpkg-dev",
+    "libpcap0.8-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

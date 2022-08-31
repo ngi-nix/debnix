@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libopenipmi0",
+  "control_file_hash": "6de2c8ff8ccf1936392d3c901b502a557b282862ee94c9f64102c76a68a1ccd2",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "kmod",
+    "libgdbm-dev",
+    "libncurses5-dev",
+    "libopenipmi0",
+    "libpopt-dev",
+    "libreadline-dev",
+    "libsnmp-dev",
+    "libssl-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "popt",
+    "python3",
+    "readline"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libpopt-dev": "popt",
+    "libreadline-dev": "readline"
+  }
+}

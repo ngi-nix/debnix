@@ -155,7 +155,7 @@ fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
-fn discover(pkgs: String) -> Result<DebNixOutputs, DebNixError> {
+fn discover(pkgs: String, map: HashMap<String, String>,) -> Result<DebNixOutputs, DebNixError> {
     let input_names = drv_inputs_from_pkgs(pkgs.clone())?;
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());

@@ -13,3 +13,4 @@
 - add unmatched inputs and outputs to `/outputs/{}.json`
 - improve json output map:
 	- check that we are not overwriting insertions (maybe convert values to vec)
+	- use map itself as an input (if available don't redirect)
