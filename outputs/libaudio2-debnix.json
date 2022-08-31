@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libaudio2",
+  "control_file_hash": "55bfaddc356cd66b16fee5a80a584b7a64072c07c33b6a3432d2355db02153eb",
+  "deb_inputs": [
+    "audiooss",
+    "bison",
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg-dev",
+    "file",
+    "flex",
+    "libaudio2",
+    "libice-dev",
+    "libperl4-corelibs-perl",
+    "libsm-dev",
+    "libx11-dev",
+    "libxau-dev",
+    "libxaw7-dev",
+    "libxt-dev",
+    "nas",
+    "perl",
+    "po-debconf",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "gccmakedep",
+    "imake",
+    "libXau",
+    "libXaw",
+    "libXext",
+    "libXpm",
+    "libXt",
+    "xorgproto"
+  ],
+  "map": {
+    "bison": "bison",
+    "libxaw7-dev": "libXaw",
+    "flex": "flex",
+    "libxau-dev": "libXau",
+    "libxt-dev": "libXt"
+  }
+}

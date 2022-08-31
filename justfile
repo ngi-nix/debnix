@@ -5,6 +5,7 @@ alias l := lint
 alias d := doc
 alias uf := update-flake-dependencies
 alias uc := update-cargo-dependencies
+alias pj := prettify-json
 
 run:
 	cargo run 

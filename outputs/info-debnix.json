@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "info",
+  "control_file_hash": "6cb4128a8fc825f3bc030fb30a9e0518973b2119af579e15e05d9f9ba5d141e5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-file-utils",
+    "gettext",
+    "help2man",
+    "install-info",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libperl-dev",
+    "libtext-unidecode-perl",
+    "libxml-libxml-perl",
+    "tex-common",
+    "texlive-base",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}

@@ -255,5 +255,5 @@ fn open_map(location: &str) -> Result<HashMap<String, String>, DebNixError> {
             let mut file = File::open(location)?;
             let mut contents = String::new();
             file.read_to_string(&mut contents)?;
-            Ok(serde_json::from_str::<DebNixOutputs>(&contents)?.map)
+            Ok(serde_json::from_str::<HashMap<String, String>>(&contents)?)
 }

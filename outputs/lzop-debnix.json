@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "lzop",
+  "control_file_hash": "1760e343ce3e0bc0353952ae62fe8b7e30fe1f120bf41d39f17856001fc26abd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblzo2-dev"
+  ],
+  "nix_inputs": [
+    "lzo"
+  ],
+  "map": {
+    "liblzo2-dev": "lzo"
+  }
+}

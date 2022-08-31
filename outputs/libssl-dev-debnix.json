@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libssl-dev",
+  "control_file_hash": "ead737ae1c6e99b32a095a2cefc0bc4738f08e10d34ef712b2da3a414adec25c",
+  "deb_inputs": [
+    "bc",
+    "ca-certificates",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libssl-doc",
+    "libssl3",
+    "m4"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

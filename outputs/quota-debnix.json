@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "quota",
+  "control_file_hash": "6cb4f9b548e050698e1e1d08f9546dfbe68a12b82c8d275b94f19e9c9dc60c07",
+  "deb_inputs": [
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "default-mta",
+    "e2fslibs-dev",
+    "gettext",
+    "libdbus-1-dev",
+    "libldap2-dev",
+    "libnet-ldap-perl",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libtirpc-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "mail-transport-agent",
+    "po-debconf",
+    "quilt",
+    "rpcbind"
+  ],
+  "nix_inputs": [
+    "e2fsprogs",
+    "openldap",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "e2fslibs-dev": "e2fsprogs",
+    "libldap2-dev": "openldap"
+  }
+}
