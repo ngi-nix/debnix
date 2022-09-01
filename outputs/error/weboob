@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "pyqt4-dev-tools", "python-all", "python-clientform", "python-cssselect", "python-dateutil", "python-feedparser", "python-gdata", "python-html2text", "python-imaging", "python-lxml", "python-mechanize", "python-nose", "python-pillow", "python-prettytable", "python-pysqlite2", "python-qt4-phonon", "python-requests", "python-setuptools", "python-termcolor", "python-weboob", "python-yaml", "weboob"], or 
+output: 
+[] is empty!
