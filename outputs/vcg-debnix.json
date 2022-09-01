@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "vcg",
+  "control_file_hash": "40b545a58c8ff791bf112d0739a04c46f0a902da5137003a184682762b686158",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "libxext-dev",
+    "xutils"
+  ],
+  "nix_inputs": [
+    "eigen"
+  ],
+  "map": {}
+}

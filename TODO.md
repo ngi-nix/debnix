@@ -14,3 +14,7 @@
 - improve json output map:
 	- check that we are not overwriting insertions (maybe convert values to vec)
 	- use map itself as an input (if available don't redirect)
+- improve error, when debian package can't be found from source
+- pname might night always be attribute name, check with nix search nixpkgs#
+- nix eval --impure --json --expr 'builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux'
+- preparse nixpkgs -> maybe look at nixpkgs-review

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "vim-gocomplete",
+  "control_file_hash": "dd97abcf3d7e0e56c46f1b952a170723da80dfb316d6386a3dc5cd32f1f10aea",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "gocode",
+    "golang-go",
+    "vim",
+    "vim-addon-manager"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}
