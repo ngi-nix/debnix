@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "vte",
+  "control_file_hash": "28c7c8c2fe1679419f50b97968b8d06e71a64d71458d3448a0c2644d4110f945",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libncurses5-dev",
+    "libpango1.0-dev",
+    "libvte-common",
+    "libvte9",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "fribidi",
+    "gettext",
+    "glib",
+    "gnutls",
+    "gobject-introspection",
+    "gperf",
+    "gtk+3",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pango",
+    "pcre2",
+    "pkg-config-wrapper",
+    "python3",
+    "systemd",
+    "vala",
+    "zlib"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib"
+  }
+}
