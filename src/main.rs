@@ -2,7 +2,7 @@
 //!
 //! The implementation currently uses the following heuristics for matching:
 //! - exact matching & increasingly fuzzy matching
-//! - querying of the debian pkg names in a packer instance
+//! - querying of the debian pkg names in a tracker instance
 //! - matched libraries will be taken out of the potential matches
 //!
 //!
@@ -22,12 +22,14 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
+use clap::Parser;
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
-use std::{collections::HashMap, path::Path};
 use std::{
+    collections::HashMap,
     fs::{self, File},
     io::Write,
+    path::Path,
 };
 
 extern crate pretty_env_logger;
@@ -36,8 +38,9 @@ extern crate log;
 
 use self::cli::CliArgs;
 use self::deb::get_debian_pkg_outputs;
-use crate::{deb::get_debian_deps, matcher::match_libs, nix::get_drv_inputs};
-use clap::Parser;
+use crate::deb::ControlFileApi;
+use crate::matcher::match_libs;
+use crate::nix::get_drv_inputs;
 
 /// outputs/toplevel-debnix.json
 /// HashMap {deb-lib: nix-lib}
@@ -49,9 +52,9 @@ pub(crate) struct DebNixOutputs {
     pkgs_name: Option<String>,
     // pkgs_src: Option<String>,
     // deb_name: Option<String>,
-    // deb_src: Option<String>,
-    // deb_inputs: Vec<String>,
-    // nix_inputs: Vec<String>,
+    control_file_hash: Option<String>,
+    deb_inputs: Vec<String>,
+    nix_inputs: Vec<String>,
     map: HashMap<String, String>,
 }
 
@@ -65,14 +68,16 @@ fn main() -> Result<(), DebNixError> {
         std::process::exit(0);
     }
 
+    let map = if let Some(location) = opts.map() {
+        Some(open_map(location)?)
+    } else {
+        None
+    };
+
     if let Some(pkgs) = opts.pkg() {
-        let map = discover(pkgs.clone())?;
+        let outputs = discover(pkgs.clone(), map.clone())?;
         if let Some(destination) = opts.write() {
-            let out = DebNixOutputs {
-                pkgs_name: Some(pkgs.to_string()),
-                map,
-            };
-            let serialized = serde_json::to_string(&out)?;
+            let serialized = serde_json::to_string(&outputs)?;
             let mut file = File::create(destination)?;
             file.write_all(serialized.as_bytes())?;
         }
@@ -80,17 +85,15 @@ fn main() -> Result<(), DebNixError> {
 
     if let Some(location) = opts.read_popcon() {
         let result = read_popcon(location);
-        // println!("{:?}", result);
     }
 
     if let Some(location) = opts.generate_map() {
         let result = create_output_map(location)?;
-        // println!("{:?}", result);
     }
 
     if let Some(amount) = opts.discover() {
-        let pop = read_popcon("./test/popcon.csv")?;
-        // println!("{:?}", &pop);
+        let mut pop = read_popcon("./test/popcon.csv")?;
+        pop.reverse();
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
                 break;
@@ -100,14 +103,9 @@ fn main() -> Result<(), DebNixError> {
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
                 if !Path::new(&destination).exists() && !Path::new(&error_destination).exists() {
-                    match discover(pkg.to_string()) {
-                        Ok(map) => {
-                            let out = DebNixOutputs {
-                                pkgs_name: Some(pkg.to_string()),
-                                map,
-                            };
-                            // let destination = format!("{}/{}-debnix.json", destination, pkg);
-                            let serialized = serde_json::to_string(&out)?;
+                    match discover(pkg.to_string(), map.clone()) {
+                        Ok(outputs) => {
+                            let serialized = serde_json::to_string(&outputs)?;
                             let mut file = File::create(&destination)?;
                             file.write_all(serialized.as_bytes())?;
                             error!("Written to location: {}", &destination);
@@ -134,16 +132,9 @@ fn main() -> Result<(), DebNixError> {
 }
 
 /// Try to get the inputs of a derivation from multiple possible pkg names
-fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
+/// TODO: pass in a vec of possible pkgs from outside.
+fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
     let mut inputs = vec![];
-    let mut pkgs = vec![];
-    if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
-        pkgs.extend(deb_inputs);
-    };
-    pkgs.push(pkg.clone());
-    let mut unwrapped = pkg;
-    unwrapped.push_str("-unwrapped");
-    pkgs.push(unwrapped);
 
     for pkg in pkgs {
         let input_names = get_drv_inputs(&pkg);
@@ -164,21 +155,52 @@ fn drv_inputs_from_pkgs(pkg: String) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
-fn discover(pkgs: String) -> Result<HashMap<String, String>, DebNixError> {
-    let input_names = drv_inputs_from_pkgs(pkgs.clone())?;
+fn discover(
+    pkg: String,
+    map: Option<HashMap<String, String>>,
+) -> Result<DebNixOutputs, DebNixError> {
+    // Prepare possible names for nix pkgs definitions.
+    let mut nix_inputs = vec![];
+    nix_inputs.push(pkg.clone());
+    let mut unwrapped = pkg.clone();
+    unwrapped.push_str("-unwrapped");
+    nix_inputs.push(unwrapped);
+
+    if let Some(map) = map {
+        // Lookup in the provided map for an associated pkg name
+        if let Some(pkg) = map.get(&pkg) {
+            nix_inputs.push(pkg.to_string())
+        }
+    }
+    // Get the debian pkg outputs
+    if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
+        nix_inputs.extend(deb_inputs);
+    };
+    let input_names = drv_inputs_from_pkgs(nix_inputs)?;
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());
 
-    let deb_deps = get_debian_deps(&pkgs)?;
+    // Get the control file api for the specific package
+    let control_file_api = ControlFileApi::from_redirect(&pkg)?;
+    let control_file_hash = String::from(control_file_api.checksum().unwrap());
+    let mut deb_deps = control_file_api.get_debian_deps()?;
+    deb_deps.sort();
+    deb_deps.dedup();
     info!("{:?}", &deb_deps);
     info!("Debian Dependency Amount: {:?}", &deb_deps.len());
-    let result = match_libs(deb_deps, input_names)?;
+    let result = match_libs(deb_deps.clone(), input_names.clone())?;
     info!("Amount: {:?}", result.keys().len());
-    Ok(result)
+    Ok(DebNixOutputs {
+        pkgs_name: Some(pkg),
+        map: result,
+        deb_inputs: deb_deps,
+        nix_inputs: input_names,
+        control_file_hash: Some(control_file_hash),
+    })
 }
 
-/// Reads the pkgs from a popcon (popularity contest) file
-/// and then collects the pkgs inside of a Vec
+/// Reads the packages from a popcon (popularity contest) file
+/// and then collects them inside of a Vec.
 fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
     let mut popcon = vec![];
     let contents = fs::read_to_string(location)?;
@@ -205,29 +227,37 @@ fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
 /// Reads the provided output json's and creates a single json file
 /// for easy key value lookups.
 fn create_output_map(location: &str) -> Result<(), DebNixError> {
-    // - Read from input maps
-    // - Insert into result
-    // - Write output map
     use std::io::Read;
     let mut result: HashMap<String, String> = HashMap::new();
     let outputs = Path::new("./outputs");
     for output in outputs.read_dir()?.flatten() {
-            if output.file_type()?.is_file() {
-                let mut file = File::open(output.path())?;
-                let mut contents = String::new();
-                file.read_to_string(&mut contents)?;
-                let deserialized: DebNixOutputs = serde_json::from_str(&contents)?;
+        if output.file_type()?.is_file() {
+            let mut file = File::open(output.path())?;
+            let mut contents = String::new();
+            file.read_to_string(&mut contents)?;
+            if let Ok(deserialized) = serde_json::from_str::<DebNixOutputs>(&contents) {
                 for key in deserialized.map.keys() {
                     if let Some((_, values)) = deserialized.map.get_key_value(key) {
                         result.insert(key.to_string(), values.to_string());
                     }
+                }
+            } else {
+                error!("Reading: {:?}", output.path());
             }
         }
     }
-    println!("{:?}", result);
     // write the result map to the target location
     let serialized = serde_json::to_string(&result)?;
     let mut file = File::create("./outputs/maps/debnix.json")?;
     file.write_all(serialized.as_bytes())?;
     Ok(())
+}
+
+fn open_map(location: &str) -> Result<HashMap<String, String>, DebNixError> {
+    use std::io::Read;
+
+    let mut file = File::open(location)?;
+    let mut contents = String::new();
+    file.read_to_string(&mut contents)?;
+    Ok(serde_json::from_str::<HashMap<String, String>>(&contents)?)
 }

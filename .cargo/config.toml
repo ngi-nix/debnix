@@ -1,0 +1,15 @@
+parallel-compiler = true
+
+[alias]
+lint = [
+     "clippy",
+     "--",
+     "-D",
+     "clippy::pedantic",
+]
+l = [
+     "clippy",
+     "--",
+     "-D",
+     "clippy::pedantic",
+]
