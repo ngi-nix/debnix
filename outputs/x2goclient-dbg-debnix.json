@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "x2goclient-dbg",
+  "control_file_hash": "003c4a7fff6d35b3df2a7313e73a10c3b4d6689dd2a5a8cf0bcb90bd4224e2dc",
+  "deb_inputs": [
+    "apache2-dev",
+    "debhelper-compat",
+    "dpkg-dev",
+    "freerdp-x11",
+    "libcups2-dev",
+    "libldap2-dev",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "libssh-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "man2html",
+    "man2html-base",
+    "nxproxy",
+    "openssh-client",
+    "openssh-server",
+    "pinentry-x2go",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "rdesktop"
+  ],
+  "nix_inputs": [
+    "cups",
+    "libXpm",
+    "libssh",
+    "nx-libs",
+    "openldap",
+    "openssh",
+    "phonon",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "libcups2-dev": "cups",
+    "nxproxy": "nx-libs",
+    "libssh-dev": "libssh",
+    "qtbase5-dev": "qtbase",
+    "openssh-client": "openssh",
+    "openssh-server": "openssh",
+    "qttools5-dev-tools": "qttools",
+    "libxpm-dev": "libXpm",
+    "libldap2-dev": "openldap"
+  }
+}

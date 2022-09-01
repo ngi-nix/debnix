@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "wf-config",
+  "control_file_hash": "bb9a3128ced8c49f14689ebc4bfcf39c679755298f91b97b85f7dceaa75fd015",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doctest-dev",
+    "libevdev-dev",
+    "libglm-dev",
+    "libwf-config1",
+    "libxml2-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doctest",
+    "glm",
+    "libevdev",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "meson": "meson",
+    "libevdev-dev": "libevdev",
+    "doctest-dev": "doctest",
+    "libglm-dev": "glm",
+    "libxml2-dev": "libxml2"
+  }
+}

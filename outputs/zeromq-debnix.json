@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "zeromq",
+  "control_file_hash": "823b21afec097c6d5ba86d1f2df50affe8731d5708e5276ebc3e003d101cc40d",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libpgm-dev",
+    "libzmq1",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "cmake",
+    "libsodium",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

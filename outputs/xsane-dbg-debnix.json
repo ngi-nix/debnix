@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "xsane-dbg",
+  "control_file_hash": "95460a387dca7a301a7210e308fc7d96d875c2f31632bfc354bb7a13cc2ce774",
+  "deb_inputs": [
+    "cuneiform",
+    "cups-client",
+    "debhelper-compat",
+    "firefox",
+    "gettext",
+    "gimp",
+    "gocr",
+    "gv",
+    "hylafax-client",
+    "libgimp2.0-dev",
+    "libgtk-3-dev",
+    "libjpeg62-turbo-dev",
+    "liblcms2-dev",
+    "libpng-dev",
+    "libsane-dev",
+    "libtiff-dev",
+    "mgetty-fax",
+    "ocrad",
+    "sensible-utils",
+    "tesseract-ocr",
+    "www-browser",
+    "xsane",
+    "xsane-common",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libX11",
+    "libpng",
+    "libusb-compat",
+    "pkg-config-wrapper",
+    "sane-backends",
+    "sane-frontends"
+  ],
+  "map": {
+    "libgtk-3-dev": "gtk+",
+    "libpng-dev": "libpng",
+    "libsane-dev": "sane-backends"
+  }
+}

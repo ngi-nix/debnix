@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "xearth",
+  "control_file_hash": "9b4971d1610277bb9f7741e0eb3df87fefab341fb3031a1d7b29559cf536a11e",
+  "deb_inputs": [
+    "debhelper",
+    "libpng12-dev",
+    "xlibs-dev",
+    "xutils"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libXext",
+    "libXt"
+  ],
+  "map": {}
+}

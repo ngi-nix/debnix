@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "zsh-syntax-highlighting",
+  "control_file_hash": "eaf5747b1a6dccb37aa9b8243f65bbff1e2af29b0aa39d077f13d77b1e4e7fe6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "zsh"
+  ],
+  "nix_inputs": [
+    "zsh"
+  ],
+  "map": {
+    "zsh": "zsh"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "zdbsp",
+  "control_file_hash": "b80947212bb14c21824a909b82d337cbfbe078a429b6607a5b8105c79b106e60",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}

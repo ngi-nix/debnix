@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "x11vnc-data",
+  "control_file_hash": "d9e90d7f0483cff17b626896b977f447ecaf7e9bc842ae10f7e47e3b9c2a1726",
+  "deb_inputs": [
+    "automake",
+    "chrpath",
+    "debhelper-compat",
+    "libavahi-client-dev",
+    "libssl-dev",
+    "libtool",
+    "libvncserver-dev",
+    "libxdamage-dev",
+    "libxext-dev",
+    "libxfixes-dev",
+    "libxinerama-dev",
+    "libxrandr-dev",
+    "libxss-dev",
+    "libxtst-dev",
+    "openssl",
+    "tk",
+    "x11-utils"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXdamage",
+    "libXext",
+    "libXfixes",
+    "libXi",
+    "libXinerama",
+    "libXrandr",
+    "libXrender",
+    "libXtst",
+    "libjpeg-turbo",
+    "libvncserver",
+    "openssl",
+    "pkg-config-wrapper",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "libxrandr-dev": "libXrandr",
+    "libxext-dev": "libXext",
+    "libxtst-dev": "libXtst",
+    "libvncserver-dev": "libvncserver",
+    "openssl": "openssl",
+    "libxdamage-dev": "libXdamage",
+    "libssl-dev": "openssl",
+    "libxinerama-dev": "libXinerama",
+    "libxfixes-dev": "libXfixes"
+  }
+}

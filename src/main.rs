@@ -2,7 +2,7 @@
 //!
 //! The implementation currently uses the following heuristics for matching:
 //! - exact matching & increasingly fuzzy matching
-//! - querying of the debian pkg names in a packer instance
+//! - querying of the debian pkg names in a tracker instance
 //! - matched libraries will be taken out of the potential matches
 //!
 //!
@@ -22,13 +22,14 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
-use control_file::ControlFile;
+use clap::Parser;
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
-use std::{collections::HashMap, path::Path};
 use std::{
+    collections::HashMap,
     fs::{self, File},
     io::Write,
+    path::Path,
 };
 
 extern crate pretty_env_logger;
@@ -38,8 +39,8 @@ extern crate log;
 use self::cli::CliArgs;
 use self::deb::get_debian_pkg_outputs;
 use crate::deb::ControlFileApi;
-use crate::{matcher::match_libs, nix::get_drv_inputs};
-use clap::Parser;
+use crate::matcher::match_libs;
+use crate::nix::get_drv_inputs;
 
 /// outputs/toplevel-debnix.json
 /// HashMap {deb-lib: nix-lib}
@@ -91,7 +92,8 @@ fn main() -> Result<(), DebNixError> {
     }
 
     if let Some(amount) = opts.discover() {
-        let pop = read_popcon("./test/popcon.csv")?;
+        let mut pop = read_popcon("./test/popcon.csv")?;
+        pop.reverse();
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
                 break;
@@ -153,7 +155,10 @@ fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
-fn discover(pkg: String, map: Option<HashMap<String, String>>,) -> Result<DebNixOutputs, DebNixError> {
+fn discover(
+    pkg: String,
+    map: Option<HashMap<String, String>>,
+) -> Result<DebNixOutputs, DebNixError> {
     // Prepare possible names for nix pkgs definitions.
     let mut nix_inputs = vec![];
     nix_inputs.push(pkg.clone());
@@ -174,7 +179,6 @@ fn discover(pkg: String, map: Option<HashMap<String, String>>,) -> Result<DebNix
     let input_names = drv_inputs_from_pkgs(nix_inputs)?;
     info!("{:?}", input_names);
     info!("Nix Inputs Amount: {:?}", input_names.len());
-
 
     // Get the control file api for the specific package
     let control_file_api = ControlFileApi::from_redirect(&pkg)?;
@@ -250,10 +254,10 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
 }
 
 fn open_map(location: &str) -> Result<HashMap<String, String>, DebNixError> {
-            use std::io::Read;
+    use std::io::Read;
 
-            let mut file = File::open(location)?;
-            let mut contents = String::new();
-            file.read_to_string(&mut contents)?;
-            Ok(serde_json::from_str::<HashMap<String, String>>(&contents)?)
+    let mut file = File::open(location)?;
+    let mut contents = String::new();
+    file.read_to_string(&mut contents)?;
+    Ok(serde_json::from_str::<HashMap<String, String>>(&contents)?)
 }
