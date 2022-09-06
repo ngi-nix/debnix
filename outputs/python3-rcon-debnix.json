@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "python3-rcon",
+  "nix_pkg": null,
+  "control_file_hash": "033884cbc83ee8047f30d372e6bbcaac6cacc49577b3fc19ae9b7dc68258482f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "docbook-to-man",
+    "python-rcon-doc",
+    "python3-all",
+    "python3-gi",
+    "python3-pytest",
+    "python3-rcon",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme"
+  ],
+  "nix_inputs": [
+    "check",
+    "cmake",
+    "glib",
+    "libbsd",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}
