@@ -63,6 +63,8 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
 
       # just a program runner
       pkgs.just
+      # for sponge
+      pkgs.moreutils
 
       #alternative linker
       pkgs.mold
