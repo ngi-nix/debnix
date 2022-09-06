@@ -1,6 +1,6 @@
 use debcontrol::Paragraph;
-use thiserror::Error;
 use log::debug;
+use thiserror::Error;
 
 #[derive(Error, Debug)]
 /// The Control File Error Type
