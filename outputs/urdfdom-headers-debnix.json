@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "urdfdom-headers",
+  "control_file_hash": "a80c7a7a0ce9aa6826220ddc1ccf01175449cabbbc8e40f8a9e2791b5018ab38",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

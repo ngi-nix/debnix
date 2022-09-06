@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell-bin", "autotools-dev", "bison", "cdbs", "clamav", "debhelper", "dillo", "flex", "flex-old", "gettext", "jpilot", "libaspell-dev", "libclamav-dev", "libcompfaceg1-dev", "libgdk-pixbuf-dev", "libglib1.2-dev", "libgpgme-dev", "libgtk1.2-dev", "libldap2-dev", "libltdl3-dev", "libpisock-dev", "libpng12-dev", "libreadline5-dev", "libssl-dev", "libt1-dev", "libtool", "metamail", "perl", "python", "spamassassin", "sylpheed-claws", "sylpheed-claws-clamav", "sylpheed-claws-dillo-viewer", "sylpheed-claws-i18n", "sylpheed-claws-image-viewer", "sylpheed-claws-pgpmime", "sylpheed-claws-plugins", "sylpheed-claws-scripts", "sylpheed-claws-spamassassin", "sylpheed-claws-themes", "sylpheed-claws-trayicon", "sylpheed-doc", "xfonts-100dpi", "xfonts-100dpi-transcoded", "xfonts-75dpi", "xfonts-75dpi-transcoded"], or 
+output: 
+[] is empty!

@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "tnt",
+  "control_file_hash": "eb51addd0fef9ca3ce3f9928503194227bbbb7b75b632c4501dc746a57de1860",
+  "deb_inputs": [
+    "debhelper",
+    "emacs20",
+    "emacsen"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

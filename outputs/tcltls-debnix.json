@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "tcltls",
+  "control_file_hash": "2a6daa5669f897457efd55ac59161534b861286faf83b522c29f8384b75d8125",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libssl-dev",
+    "tcl-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "tcl"
+  ],
+  "map": {
+    "tcl-dev": "tcl",
+    "libssl-dev": "openssl"
+  }
+}

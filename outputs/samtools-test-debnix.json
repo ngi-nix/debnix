@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "samtools-test",
+  "nix_pkg": null,
+  "control_file_hash": "1aa046861fbb703d9bd026654bbf6d2d34508fda4e6bf7f41738ebf2f2796cb5",
+  "deb_inputs": [
+    "autoconf-archive",
+    "automake",
+    "bash-completion",
+    "cwltool",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libhts-dev",
+    "libio-pty-perl",
+    "liblzma-dev",
+    "libncurses5-dev",
+    "pkg-config",
+    "tabix",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "htslib",
+    "ncurses",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libhts-dev": "htslib",
+    "libncurses5-dev": "ncurses",
+    "tabix": "htslib"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "tangogps",
+  "control_file_hash": "7e6521f33fff9294f07766fa908a6b11f823e84a2ebb230d47626e4ceb4cc6f8",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dpatch",
+    "gpsd",
+    "libcurl4-gnutls-dev",
+    "libgconf2-dev",
+    "libgtk2.0-dev",
+    "libsqlite3-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "gpsd",
+    "gtk+",
+    "help2man",
+    "imagemagick",
+    "intltool",
+    "libexif",
+    "libglade",
+    "pkg-config-wrapper",
+    "sqlite",
+    "texinfo"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libgtk2.0-dev": "gtk+",
+    "gpsd": "gpsd",
+    "libsqlite3-dev": "sqlite"
+  }
+}

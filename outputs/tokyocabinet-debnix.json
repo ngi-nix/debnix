@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "tokyocabinet",
+  "control_file_hash": "62544fa3cfdb3c44cddf43d85da416bf032ceef6b475654f8c0814ac22b1d9d9",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libtokyocabinet9",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

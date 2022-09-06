@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "tinyxml2",
+  "control_file_hash": "f80450ffdd1984480d948fa2cf24e6a35527cb97c815f5d59f5cef1e6b5508d9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libtinyxml2-9"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

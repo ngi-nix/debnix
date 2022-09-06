@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "sipp",
+  "control_file_hash": "3765e30ad4a2ee018676ea82869b989c9c494aba8f7900ccdfc9edf8b594d112",
+  "deb_inputs": [
+    "flex",
+    "sipp",
+    "texi2html"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "git",
+    "libpcap",
+    "lksctp-tools",
+    "ncurses",
+    "openssl"
+  ],
+  "map": {}
+}

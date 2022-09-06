@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "doc-rfc-0001-0999", "doc-rfc-1000-1999", "doc-rfc-2000-2999", "doc-rfc-3000-3999", "doc-rfc-experimental", "doc-rfc-fyi-bcp", "doc-rfc-misc", "doc-rfc-old-std", "doc-rfc-std", "doc-rfc-std-proposed", "dpatch", "gmt-manpages", "man-db", "manpages", "manpages-dev", "rman", "tk8.4"], or 
+output: 
+[] is empty!

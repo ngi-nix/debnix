@@ -1,0 +1,11 @@
+{
+  "pkgs_name": "tegaki-zinnia-japanese",
+  "control_file_hash": "93ed05e37d8bfdc9c312afe8ba1564d2e39e4eb16db114682e27c6eda84fa3d6",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

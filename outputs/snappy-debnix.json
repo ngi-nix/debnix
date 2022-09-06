@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "snappy",
+  "control_file_hash": "9d637d6d12674740c421fb869776cba1c6f26e2a2481bbd4d7a4aebede537f94",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbenchmark-dev",
+    "libgmock-dev",
+    "libgtest-dev",
+    "libsnappy1v5",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

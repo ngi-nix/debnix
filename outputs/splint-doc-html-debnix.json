@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "splint-doc-html",
+  "control_file_hash": "8ea56d87d7e5e164d163982e42d71356d5612055728521abc3da833caa707758",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfl-dev",
+    "splint",
+    "splint-data",
+    "splint-doc-html"
+  ],
+  "nix_inputs": [
+    "flex"
+  ],
+  "map": {
+    "libfl-dev": "flex"
+  }
+}

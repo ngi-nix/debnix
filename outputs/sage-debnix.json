@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "sage",
+  "nix_pkg": "sage",
+  "control_file_hash": "e5590e0664c71b4570cce87421b34301a0c6c5d84bb0be69ae2b6d8a3a41d40a",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "libglu1-mesa-dev",
+    "libsage2",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "sage-tests"
+  ],
+  "map": {}
+}

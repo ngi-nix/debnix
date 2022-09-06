@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "styx-doc",
+  "control_file_hash": "9f84c1670289fdd0917197dcfadd5db2c3669f340e26063154a0505888e2c0af",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "docbook-to-man",
+    "gawk",
+    "styx",
+    "styx-dev",
+    "styx-doc"
+  ],
+  "nix_inputs": [
+    "Image-ExifTool",
+    "file",
+    "multimarkdown",
+    "parsimonious"
+  ],
+  "map": {}
+}

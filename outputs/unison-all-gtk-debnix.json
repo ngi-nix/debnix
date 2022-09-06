@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "unison-all-gtk",
+  "control_file_hash": "c979649704e6d9b73f15fb0b82f91fa60d17b6319881dd1dff4a236459584181",
+  "deb_inputs": [
+    "debhelper-compat",
+    "unison",
+    "unison-2.52",
+    "unison-2.52-gtk"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "ocaml"
+  ],
+  "map": {}
+}

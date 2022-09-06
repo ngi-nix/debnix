@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "rtmidi",
+  "nix_pkg": "rtmidi",
+  "control_file_hash": "b057ab97a0a6222d46501bbd82db19c829ab067fc093118917819df0d545f551",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjs-jquery",
+    "librtaudio-dev",
+    "librtmidi-doc",
+    "librtmidi6"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

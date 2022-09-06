@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "dh-python", "fortune-mod", "fortunes", "fortunes-bg", "fortunes-bofh-excuses", "fortunes-br", "fortunes-cs", "fortunes-de", "fortunes-debian-hints", "fortunes-eo", "fortunes-eo-ascii", "fortunes-eo-iso3", "fortunes-es", "fortunes-es-off", "fortunes-fr", "fortunes-ga", "fortunes-it", "fortunes-it-off", "fortunes-mario", "fortunes-min", "fortunes-off", "fortunes-pl", "fortunes-ru", "python"], or 
+output: 
+[] is empty!

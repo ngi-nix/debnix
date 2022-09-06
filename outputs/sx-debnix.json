@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "sx",
+  "control_file_hash": "c41e8c46a9d881831ce84382ae2a1975953c05f62d9f2d8d050c53fdfc3d1d22",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "libcurl4-openssl-dev",
+    "libdigest-hmac-perl",
+    "libfcgi-dev",
+    "libfuse-dev",
+    "libjson-xs-perl",
+    "libltdl-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libsxclient3",
+    "liburi-perl",
+    "libwww-perl",
+    "libyajl-dev",
+    "logrotate",
+    "lsb-base",
+    "nginx",
+    "openssl",
+    "pkg-config",
+    "python",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

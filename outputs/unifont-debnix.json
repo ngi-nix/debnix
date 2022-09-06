@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "unifont",
+  "control_file_hash": "0d72e3d712505014816d39f048029fc1fa7b48d751732db01d578ca195a0b67d",
+  "deb_inputs": [
+    "bdf2psf",
+    "debhelper-compat",
+    "fontforge",
+    "fonts-unifont",
+    "libgd-perl",
+    "libwx-perl",
+    "psf-unifont",
+    "texinfo",
+    "texlive",
+    "unifont",
+    "unifont-bin",
+    "xfonts-unifont",
+    "xfonts-utils"
+  ],
+  "nix_inputs": [
+    "fonttosfnt",
+    "libfaketime",
+    "mkfontscale"
+  ],
+  "map": {}
+}

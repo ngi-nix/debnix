@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "spectra",
+  "control_file_hash": "d194e1b16a42c8daefc91307a03d5638e38f4e0a48bbdf6999d3f6615ac1c4f7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libeigen3-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "eigen"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libeigen3-dev": "eigen"
+  }
+}

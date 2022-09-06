@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "testdisk-dbg",
+  "control_file_hash": "2aca4309fd957f50835d70d2ba3b645cb6c10b54bf02c51dd82d7da751baf32a",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "e2fslibs-dbg",
+    "e2fslibs-dev",
+    "libc6-dbg",
+    "libcomerr2-dbg",
+    "libjpeg-dbg",
+    "libjpeg-dev",
+    "libncurses5-dev",
+    "libncursesw5-dbg",
+    "libncursesw5-dev",
+    "libssl0.9.8-dbg",
+    "ntfs-3g",
+    "ntfs-3g-dev",
+    "pkg-config",
+    "testdisk",
+    "uuid-dev",
+    "zlib1g-dbg",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs",
+    "libewf",
+    "libjpeg-turbo",
+    "ncurses",
+    "ntfs3g",
+    "pkg-config-wrapper",
+    "util-linux-minimal",
+    "zlib"
+  ],
+  "map": {
+    "libncursesw5-dbg": "ncurses",
+    "zlib1g-dbg": "zlib",
+    "libncurses5-dev": "ncurses",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libncursesw5-dev": "ncurses",
+    "zlib1g-dev": "zlib",
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

@@ -18,3 +18,5 @@
 - pname might night always be attribute name, check with nix search nixpkgs#
 - nix eval --impure --json --expr 'builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux'
 - preparse nixpkgs -> maybe look at nixpkgs-review
+- properly log trailing path errors
+- nix eval --impure --json --expr 'builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux.python3Packages'

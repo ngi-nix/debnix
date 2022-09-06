@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "toxiproxy-dev",
+  "control_file_hash": "8951a2d5aaf88293a48494b9a802b94159fc0457be81bf9ca3527d76a4cbbed8",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "dh-exec",
+    "dh-golang",
+    "dh-systemd",
+    "golang-github-codegangsta-cli-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-go",
+    "golang-gopkg-tomb.v1-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

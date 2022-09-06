@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "seabios",
+  "control_file_hash": "34c0fb0480788d36c3dd0bff9ec172007d11f372885398b9bef4a972008253ac",
+  "deb_inputs": [
+    "acpica-tools",
+    "debhelper-compat",
+    "iasl",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "acpica-tools",
+    "python3"
+  ],
+  "map": {
+    "acpica-tools": "acpica-tools"
+  }
+}

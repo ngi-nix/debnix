@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "sbc",
+  "nix_pkg": "sbc",
+  "control_file_hash": "e0a9836cd7b4fcb283e4f9d5e7a89c46c60cd17f03099b53854689b9c442c1a7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsbc1",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

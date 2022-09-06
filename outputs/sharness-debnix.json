@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "sharness",
+  "control_file_hash": "829f339018e8773d371199a2fa4045e5a588254b32cd71831ff44fe509a69189",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "IO-Tty",
+    "perl"
+  ],
+  "map": {}
+}

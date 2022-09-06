@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "sumatra",
+  "control_file_hash": "0434386c3ca73be592e9f1197fae180bdcd927592bc5090e2d6c90e5d6f889bd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsuma-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "sumalibs",
+    "zlib"
+  ],
+  "map": {
+    "libsuma-dev": "sumalibs",
+    "zlib1g-dev": "zlib"
+  }
+}

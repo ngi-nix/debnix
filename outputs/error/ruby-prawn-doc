@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["coderay", "debhelper-compat", "doc-base", "fonts-arphic-gkai00mp", "fonts-dejavu-core", "gem2deb", "ruby-mocha", "ruby-pdf-core", "ruby-pdf-inspector", "ruby-pdf-reader", "ruby-prawn", "ruby-prawn-doc", "ruby-prawn-manual-builder", "ruby-rspec", "ruby-ttfunk"], or 
+output: 
+[] is empty!

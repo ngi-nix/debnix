@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "sumaclust",
+  "control_file_hash": "cdc1111f7ca172de89b05d9631a1329799c51d679988773bfe4901425522bdda",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsuma-dev"
+  ],
+  "nix_inputs": [
+    "sumalibs"
+  ],
+  "map": {
+    "libsuma-dev": "sumalibs"
+  }
+}

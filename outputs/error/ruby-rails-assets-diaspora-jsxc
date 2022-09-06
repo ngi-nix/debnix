@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "gem2deb", "libjs-i18next", "libjs-jquery", "libjs-jsxc", "libjs-strophe", "ruby-rails-assets-emojione", "ruby-rails-assets-favico.js", "ruby-rails-assets-jquery", "ruby-rails-assets-jquery-colorbox", "ruby-rails-assets-jquery-fullscreen-plugin", "ruby-rails-assets-jquery-ui", "ruby-rails-assets-jquery.slimscroll"], or 
+output: 
+[] is empty!

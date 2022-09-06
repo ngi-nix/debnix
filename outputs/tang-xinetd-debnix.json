@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "tang-xinetd",
+  "control_file_hash": "3eba25b83e6db6d8115a7828e553769db5791478f9f1b01643c55608ae287d7d",
+  "deb_inputs": [
+    "adduser",
+    "asciidoctor",
+    "curl",
+    "debhelper-compat",
+    "jose",
+    "libhttp-parser-dev",
+    "libjansson-dev",
+    "libjansson4",
+    "libjose-dev",
+    "meson",
+    "moreutils",
+    "pkg-config",
+    "systemd",
+    "tang-common",
+    "xinetd"
+  ],
+  "nix_inputs": [
+    "asciidoc-full",
+    "http-parser",
+    "jansson",
+    "jose",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "jose": "jose",
+    "libjansson4": "jansson",
+    "libjansson-dev": "jansson",
+    "libjose-dev": "jose",
+    "systemd": "systemd",
+    "libhttp-parser-dev": "http-parser"
+  }
+}
