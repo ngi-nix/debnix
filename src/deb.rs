@@ -114,7 +114,7 @@ impl ControlFileApi {
         self.checksum.as_ref()
     }
 
-    /// The debian api let's us redirect from tail packages 
+    /// The debian api let's us redirect from tail packages
     /// to the real package definitions.
     pub(crate) fn from_redirect(pkgs: &str) -> Result<ControlFileApi, DebNixError> {
         let pkgs = debian_redirect(pkgs)?;
