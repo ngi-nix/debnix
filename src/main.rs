@@ -52,6 +52,7 @@ pub(crate) struct DebNixOutputs {
     pkgs_name: Option<String>,
     // pkgs_src: Option<String>,
     // deb_name: Option<String>,
+    nix_pkg: Option<String>,
     control_file_hash: Option<String>,
     deb_inputs: Vec<String>,
     nix_inputs: Vec<String>,
@@ -64,6 +65,7 @@ fn main() -> Result<(), DebNixError> {
 
     // Generate completion scripts
     if let Some(shell) = opts.generate_completion() {
+        println!("{:?}", &*nix::NIX_ATTRIBUTES);
         setup::generate_completion(&shell.to_string());
         std::process::exit(0);
     }
@@ -112,9 +114,12 @@ fn main() -> Result<(), DebNixError> {
                         }
                         Err(e) => {
                             error!("Discover Error: {}", e);
-                            let mut file = File::create(&error_destination)?;
-                            file.write_all(e.to_string().as_bytes())?;
-                            error!("Written to location: {}", &error_destination);
+                            if let Ok(mut file) = File::create(&error_destination) {
+                                file.write_all(e.to_string().as_bytes())?;
+                                error!("Written to location: {}", &error_destination);
+                            } else {
+                                error!("Could not write to error location: {}", &error_destination);
+                            }
                         }
                     }
                 } else {
@@ -155,12 +160,19 @@ fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
     Ok(inputs)
 }
 
+/// This is the main discovery function, for a single package.
 fn discover(
     pkg: String,
     map: Option<HashMap<String, String>>,
 ) -> Result<DebNixOutputs, DebNixError> {
     // Prepare possible names for nix pkgs definitions.
     let mut nix_inputs = vec![];
+    let mut nix_pkg = None;
+
+    if nix::NIX_ATTRIBUTES.contains(&pkg) {
+        nix_pkg = Some(pkg.clone());
+    }
+
     nix_inputs.push(pkg.clone());
     let mut unwrapped = pkg.clone();
     unwrapped.push_str("-unwrapped");
@@ -181,8 +193,13 @@ fn discover(
     info!("Nix Inputs Amount: {:?}", input_names.len());
 
     // Get the control file api for the specific package
+    info!("Getting Control file for {:?}", &pkg);
     let control_file_api = ControlFileApi::from_redirect(&pkg)?;
-    let control_file_hash = String::from(control_file_api.checksum().unwrap());
+    let control_file_hash = String::from(
+        control_file_api
+            .checksum()
+            .ok_or_else(|| DebNixError::DebControl("Couldn't get Control file Hash.".into()))?,
+    );
     let mut deb_deps = control_file_api.get_debian_deps()?;
     deb_deps.sort();
     deb_deps.dedup();
@@ -192,10 +209,11 @@ fn discover(
     info!("Amount: {:?}", result.keys().len());
     Ok(DebNixOutputs {
         pkgs_name: Some(pkg),
-        map: result,
+        nix_pkg,
+        control_file_hash: Some(control_file_hash),
         deb_inputs: deb_deps,
         nix_inputs: input_names,
-        control_file_hash: Some(control_file_hash),
+        map: result,
     })
 }
 
@@ -236,6 +254,11 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
             let mut contents = String::new();
             file.read_to_string(&mut contents)?;
             if let Ok(deserialized) = serde_json::from_str::<DebNixOutputs>(&contents) {
+                if let Some(deb_name) = deserialized.pkgs_name {
+                    if let Some(nix_name) = deserialized.nix_pkg {
+                        result.insert(deb_name.to_string(), nix_name.to_string());
+                    }
+                }
                 for key in deserialized.map.keys() {
                     if let Some((_, values)) = deserialized.map.get_key_value(key) {
                         result.insert(key.to_string(), values.to_string());
@@ -253,6 +276,7 @@ fn create_output_map(location: &str) -> Result<(), DebNixError> {
     Ok(())
 }
 
+/// Open a json map from a specified location and read it.
 fn open_map(location: &str) -> Result<HashMap<String, String>, DebNixError> {
     use std::io::Read;
 
