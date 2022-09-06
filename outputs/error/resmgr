@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "dpatch", "libpam0g-dev", "libresmgr1", "resmgr"], or 
+output: 
+[] is empty!

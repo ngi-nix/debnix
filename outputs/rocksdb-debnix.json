@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "rocksdb",
+  "nix_pkg": "rocksdb",
+  "control_file_hash": "49db0e1196e978060817bb6181f944914233ed3aaca047e9cbdc59d2de2c0048",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libgflags-dev",
+    "liblz4-dev",
+    "librocksdb7.5",
+    "libsnappy-dev",
+    "libzstd-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "cmake",
+    "lz4",
+    "ninja",
+    "snappy",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libsnappy-dev": "snappy",
+    "libzstd-dev": "zstd",
+    "libbz2-dev": "bzip2",
+    "liblz4-dev": "lz4",
+    "zlib1g-dev": "zlib"
+  }
+}

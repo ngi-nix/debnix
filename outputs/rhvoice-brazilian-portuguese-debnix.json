@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "rhvoice-brazilian-portuguese",
+  "nix_pkg": null,
+  "control_file_hash": "28be46501093b1f6792958550bafb9c73a6d947c8aafa240fe41c3c607d128e7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev",
+    "libboost-dev",
+    "libglibmm-2.4-dev",
+    "libpulse-dev",
+    "librapidxml-dev",
+    "librhvoice-audio2",
+    "librhvoice-core7",
+    "librhvoice5",
+    "libsonic-dev",
+    "libspeechd-dev",
+    "libtclap-dev",
+    "libutfcpp-dev",
+    "portaudio19-dev",
+    "rhvoice-english",
+    "rhvoice-voice",
+    "scons",
+    "speech-dispatcher"
+  ],
+  "nix_inputs": [
+    "glibmm",
+    "libao",
+    "libpulseaudio",
+    "pkg-config-wrapper",
+    "scons",
+    "speech-dispatcher"
+  ],
+  "map": {
+    "libspeechd-dev": "speech-dispatcher",
+    "speech-dispatcher": "speech-dispatcher",
+    "libao-dev": "libao",
+    "scons": "scons",
+    "libglibmm-2.4-dev": "glibmm"
+  }
+}
