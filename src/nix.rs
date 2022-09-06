@@ -2,6 +2,27 @@ use crate::error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, process::Command};
 
+lazy_static::lazy_static! {
+    /// Attribute names, that are exposed for the x86_64-linux
+    /// platform on the nixpkgs side.
+    pub static ref NIX_ATTRIBUTES: Vec<String> = {
+        let output = Command::new("nix")
+            .arg("eval")
+            .arg("--impure")
+            .arg("--json")
+            .arg("--expr")
+            .arg(r#"builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux"#)
+            .output()
+            .expect("Nix eval is broken.");
+    let serialized = std::str::from_utf8(&output.stdout)
+            .expect("NIX_ATTRIBUTES are not generated correctly.");
+        serialized.to_string();
+    let deserialized: Vec<String> = serde_json::from_str(serialized)
+            .expect("Serializing from NIX_ATTRIBUTES broken.");
+        deserialized
+    };
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 /// Wraps the derivation output from `nix`,
 /// only few attributes are actually captured.
