@@ -40,3 +40,8 @@ prettify-json:
 
 prettify-json-exec FILE:
 	cat {{FILE}} | jq . {{FILE}} | sponge {{FILE}}
+
+# regenerate all generated inputs
+regenerate:
+	just prettify-json
+	cargo run --release -- --generate-map ./outputs/
