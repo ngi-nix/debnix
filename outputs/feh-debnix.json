@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "feh",
+  "nix_pkg": "feh",
+  "control_file_hash": "4cf604d464d2ee3f12b619116946e540d7ee183c9f9dc4299371798ee365b144",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcurl-dev",
+    "libcurl4-openssl-dev",
+    "libexif-dev",
+    "libimlib2-dev",
+    "libjpeg-progs",
+    "libtest-command-perl",
+    "libx11-dev",
+    "libxinerama-dev",
+    "libxt-dev",
+    "perl",
+    "yudit-common"
+  ],
+  "nix_inputs": [
+    "curl",
+    "imlib2",
+    "libX11",
+    "libXinerama",
+    "libXt",
+    "libexif",
+    "libjpeg-turbo",
+    "libpng-apng"
+  ],
+  "map": {
+    "libxt-dev": "libXt",
+    "libx11-dev": "libX11",
+    "libexif-dev": "libexif",
+    "libxinerama-dev": "libXinerama",
+    "libcurl4-openssl-dev": "curl",
+    "libcurl-dev": "curl"
+  }
+}

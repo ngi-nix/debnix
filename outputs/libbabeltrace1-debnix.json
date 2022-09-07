@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libbabeltrace1",
+  "nix_pkg": null,
+  "control_file_hash": "44dbb989e0ddccf61e6366faa22d6cab8a84cd53d8cb58712532929c53f26325",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libbabeltrace-dev",
+    "libbabeltrace1",
+    "libdw-dev",
+    "libelf-dev",
+    "libglib2.0-dev",
+    "libpopt-dev",
+    "python3-all-dev",
+    "swig",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "elfutils",
+    "glib",
+    "pkg-config-wrapper",
+    "popt",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libelf-dev": "elfutils",
+    "libglib2.0-dev": "glib",
+    "libdw-dev": "elfutils",
+    "libpopt-dev": "popt"
+  }
+}

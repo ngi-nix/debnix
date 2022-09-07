@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "tlp",
+  "nix_pkg": "tlp",
+  "control_file_hash": "090385ff769776641ec5bc84794eddb92d035677142ff2461b077db91c25322d",
+  "deb_inputs": [
+    "acpi-call-dkms",
+    "debhelper-compat",
+    "ethtool",
+    "hdparm",
+    "iw",
+    "network-manager",
+    "pciutils",
+    "rfkill",
+    "smartmontools",
+    "tlp",
+    "tlp-rdw",
+    "tp-smapi-dkms",
+    "usbutils"
+  ],
+  "nix_inputs": [
+    "Perl-Critic",
+    "checkbashisms",
+    "perl",
+    "shellcheck"
+  ],
+  "map": {}
+}

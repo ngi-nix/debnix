@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "powertop",
+  "nix_pkg": "powertop",
+  "control_file_hash": "4a07ad1533cb19dc542c667355732876054661030b5c6c574c1961510df689db",
+  "deb_inputs": [
+    "autoconf-archive",
+    "cpufrequtils",
+    "debhelper-compat",
+    "laptop-mode-tools",
+    "libncurses-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libpci-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libnl",
+    "ncurses",
+    "pciutils",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libnl-genl-3-dev": "libnl",
+    "libncurses-dev": "ncurses",
+    "libnl-3-dev": "libnl",
+    "libpci-dev": "pciutils"
+  }
+}

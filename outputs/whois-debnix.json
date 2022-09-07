@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "whois",
+  "nix_pkg": "whois",
+  "control_file_hash": "c44a5673528b1166477de314933eb39921bfd0150aa9a6a0e648f19f00b3622e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "libidn2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gettext": "gettext"
+  }
+}

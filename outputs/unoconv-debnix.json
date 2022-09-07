@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "unoconv",
+  "nix_pkg": "unoconv",
+  "control_file_hash": "a30310dcc029d438f3852e5b0a447bf15748136f879daf3605709d1cdee11119",
+  "deb_inputs": [
+    "debhelper",
+    "libreoffice-calc",
+    "libreoffice-draw",
+    "libreoffice-impress",
+    "libreoffice-writer",
+    "python3",
+    "python3-uno"
+  ],
+  "nix_inputs": [
+    "asciidoc"
+  ],
+  "map": {}
+}

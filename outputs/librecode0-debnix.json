@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "librecode0",
+  "nix_pkg": null,
+  "control_file_hash": "fa6ab9b0b92c59b259c6792a8bb4dd2b1a0ea5289679937cb640a851168c1e57",
+  "deb_inputs": [
+    "debhelper",
+    "gettext",
+    "librecode0",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "cython",
+    "flex",
+    "intltool",
+    "perl",
+    "python3",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo"
+  }
+}

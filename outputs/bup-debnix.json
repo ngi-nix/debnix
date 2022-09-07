@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "bup",
+  "nix_pkg": "bup",
+  "control_file_hash": "de26ebd2958da8652e143cc097a12d6828a036c4b10c98ab9539200d08f53284",
+  "deb_inputs": [
+    "acl",
+    "bup-doc",
+    "dctrl-tools",
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "libacl1-dev",
+    "libreadline-dev",
+    "par2",
+    "python3",
+    "python3-dev",
+    "python3-fuse",
+    "python3-pylibacl",
+    "python3-pytest",
+    "python3-pyxattr",
+    "python3-tornado",
+    "rsync",
+    "tzdata"
+  ],
+  "nix_inputs": [
+    "git",
+    "pandoc",
+    "perl"
+  ],
+  "map": {
+    "git": "git"
+  }
+}

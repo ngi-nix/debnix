@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libopenmpt0",
+  "nix_pkg": null,
+  "control_file_hash": "9f3d91e2bffbb3c0643f38cbec4902e22d00d6db14602b7ed76165169b8e9fc9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libflac-dev",
+    "libmpg123-dev",
+    "libogg-dev",
+    "libopenmpt0",
+    "libpulse-dev",
+    "libsndfile1-dev",
+    "libvorbis-dev",
+    "pkg-config",
+    "portaudio19-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "flac",
+    "libogg",
+    "libpulseaudio",
+    "libsndfile",
+    "libvorbis",
+    "mpg123",
+    "pkg-config-wrapper",
+    "portaudio",
+    "zlib"
+  ],
+  "map": {
+    "libogg-dev": "libogg",
+    "libsndfile1-dev": "libsndfile",
+    "portaudio19-dev": "portaudio",
+    "zlib1g-dev": "zlib",
+    "libmpg123-dev": "mpg123",
+    "libvorbis-dev": "libvorbis",
+    "libflac-dev": "flac"
+  }
+}

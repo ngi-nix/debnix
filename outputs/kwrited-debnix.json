@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "kwrited",
+  "nix_pkg": "kwrited",
+  "control_file_hash": "5be0af2483c638d26de419a95b249d3a5255ad3a248a2d440d09ad4df196e916",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5coreaddons-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5notifications-dev",
+    "libkf5pty-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kcoreaddons",
+    "kdbusaddons",
+    "ki18n",
+    "knotifications",
+    "kpty",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "iamerican",
+  "nix_pkg": null,
+  "control_file_hash": "9b9e436cf762d09017cba13265f79583956c42ba1f4ffee59e685484290b645e",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dictionaries-common-dev",
+    "iamerican",
+    "iamerican-huge",
+    "iamerican-insane",
+    "iamerican-large",
+    "iamerican-small",
+    "ibritish",
+    "ibritish-huge",
+    "ibritish-insane",
+    "ibritish-large",
+    "ibritish-small",
+    "ienglish-common",
+    "ispell",
+    "ispell-dictionary",
+    "libncurses5-dev",
+    "spell",
+    "wamerican",
+    "wamerican-huge",
+    "wamerican-insane",
+    "wamerican-large",
+    "wamerican-small",
+    "wbritish",
+    "wbritish-huge",
+    "wbritish-insane",
+    "wbritish-large",
+    "wbritish-small",
+    "wordlist"
+  ],
+  "nix_inputs": [
+    "bison",
+    "ncurses"
+  ],
+  "map": {
+    "bison": "bison",
+    "libncurses5-dev": "ncurses"
+  }
+}

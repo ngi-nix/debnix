@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "clipit",
+  "nix_pkg": "clipit",
+  "control_file_hash": "d5747925e5bf79612991b196bad01d2f7c1de36477cc8e07d72d79fd35d7e0a6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "diodon",
+    "intltool",
+    "libayatana-appindicator3-dev",
+    "libgtk-3-dev",
+    "xdotool",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "intltool",
+    "libayatana-appindicator-gtk3",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool"
+  }
+}

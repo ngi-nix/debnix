@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "encfs",
+  "nix_pkg": "encfs",
+  "control_file_hash": "cc70754509860714c2e96d40f19427f4a9b5a2940a1feb45e062d4a218b103b8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dpkg-dev",
+    "fuse",
+    "libfuse-dev",
+    "libssl-dev",
+    "libtinyxml2-dev",
+    "mount"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fuse",
+    "gettext",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "tinyxml-2"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "fuse": "fuse",
+    "libfuse-dev": "fuse"
+  }
+}

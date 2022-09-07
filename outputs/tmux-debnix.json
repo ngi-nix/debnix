@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "tmux",
+  "nix_pkg": "tmux",
+  "control_file_hash": "c2332c1b2cd0a79a76c6cdebfac82f4e015e683a555955bb39f7aa10cd5e0b51",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libevent-dev",
+    "libncurses5-dev",
+    "libutempter-dev",
+    "libutil-freebsd-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bison",
+    "libevent",
+    "ncurses",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "bison": "bison",
+    "libevent-dev": "libevent"
+  }
+}

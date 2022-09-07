@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "nvme-cli",
+  "nix_pkg": "nvme-cli",
+  "control_file_hash": "c9b5a4d60901e755cbaf2d5f8ff54a35a9b5dfc9e0f043105a8848b2e6ef0972",
+  "deb_inputs": [
+    "asciidoc",
+    "cmake",
+    "debhelper-compat",
+    "flake8",
+    "isort",
+    "libhugetlbfs-dev",
+    "libjson-c-dev",
+    "libnvme-dev",
+    "libssl-dev",
+    "meson",
+    "mypy",
+    "pci.ids",
+    "pkg-config",
+    "python3-autopep8",
+    "python3-nose2",
+    "uuid-dev",
+    "uuid-runtime",
+    "xmlto",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {}
+}

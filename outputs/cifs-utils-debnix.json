@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "cifs-utils",
+  "nix_pkg": "cifs-utils",
+  "control_file_hash": "65f0e0b9b6770205b72a3a2e95403620eb137d41f24cfde2fcd74684adcdb49d",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "keyutils",
+    "libcap-ng-dev",
+    "libkeyutils-dev",
+    "libkrb5-dev",
+    "libpam0g-dev",
+    "libtalloc-dev",
+    "libwbclient-dev",
+    "python3",
+    "python3-docutils",
+    "smbclient",
+    "winbind"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "keyutils",
+    "libkrb5",
+    "linux-pam",
+    "pkg-config-wrapper",
+    "python3",
+    "talloc"
+  ],
+  "map": {
+    "libtalloc-dev": "talloc",
+    "keyutils": "keyutils",
+    "libkeyutils-dev": "keyutils",
+    "python3": "python3",
+    "libkrb5-dev": "libkrb5"
+  }
+}

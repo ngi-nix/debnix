@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "jq",
+  "nix_pkg": "jq",
+  "control_file_hash": "cd6a6ab3a05d6a5cc41df1caa0545ba210f40fa675024beb3f30077dfb3920e8",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libjq1",
+    "libonig-dev",
+    "libtool",
+    "rake",
+    "ruby-ronn:native",
+    "valgrind"
+  ],
+  "nix_inputs": [
+    "onig"
+  ],
+  "map": {
+    "libonig-dev": "onig"
+  }
+}

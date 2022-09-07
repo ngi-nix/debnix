@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "daemon",
+  "nix_pkg": "daemon",
+  "control_file_hash": "9084475f598910db45ab4019a59d1f845a85c9852624b0912b3aa2a8667fe3b3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

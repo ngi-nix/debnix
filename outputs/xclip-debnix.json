@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xclip",
+  "nix_pkg": "xclip",
+  "control_file_hash": "b0eed946e1507ab4b7ec38f16235c953c6773d328daa5b35053cbac77117d461",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxmu-dev",
+    "psmisc",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "libXmu"
+  ],
+  "map": {
+    "libxmu-dev": "libXmu"
+  }
+}

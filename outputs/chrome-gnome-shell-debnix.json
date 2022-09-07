@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "chrome-gnome-shell",
+  "nix_pkg": "chrome-gnome-shell",
+  "control_file_hash": "3dcc5565cc341524413acb77bfb4d26d733cdb17e97693b1c22b97faa55d17d7",
+  "deb_inputs": [
+    "chromium",
+    "chromium-browser",
+    "cmake",
+    "debhelper",
+    "firefox",
+    "gnome-pkg-tools",
+    "gnome-shell",
+    "jq",
+    "python3",
+    "python3-distutils",
+    "python3-gi",
+    "python3-requests"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gnome-shell",
+    "gobject-introspection",
+    "jq",
+    "ninja",
+    "pygobject",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "cmake": "cmake",
+    "python3": "python3",
+    "python3-gi": "pygobject",
+    "gnome-shell": "gnome-shell",
+    "jq": "jq"
+  }
+}

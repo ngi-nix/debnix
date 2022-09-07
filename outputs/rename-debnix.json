@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "rename",
+  "nix_pkg": "rename",
+  "control_file_hash": "c1ede683ab4e78cc5801970bf13659c784f8bb0876ee17f6e6ae200c6f370b2c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmodule-build-perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "xterm",
+  "nix_pkg": "xterm",
+  "control_file_hash": "70fbbe47c33a9879dc98e56e8e97ecbe278bd953bfb3e9012278b66ba397f2bd",
+  "deb_inputs": [
+    "autoconf-dickey",
+    "bsdextrautils",
+    "bsdmainutils",
+    "debhelper",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "groff",
+    "libncurses-dev",
+    "libutempter-dev",
+    "libxaw7-dev",
+    "libxcursor-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "libxkbfile-dev",
+    "libxrender-dev",
+    "luit",
+    "lynx",
+    "x11-utils",
+    "xbitmaps",
+    "xfonts-cyrillic",
+    "xorg-docs-core"
+  ],
+  "nix_inputs": [
+    "fontconfig",
+    "freetype",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXft",
+    "libXt",
+    "luit",
+    "ncurses",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libxft-dev": "libXft",
+    "luit": "luit",
+    "libxaw7-dev": "libXaw"
+  }
+}

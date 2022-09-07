@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "unar",
+  "nix_pkg": "unar",
+  "control_file_hash": "6200732eeaa3e2f57935d24ee8e4ada075e63668020379a82345306dff63b355",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "gobjc",
+    "libbz2-dev",
+    "libgnustep-base-dev",
+    "libicu-dev",
+    "libssl-dev",
+    "libwavpack-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "gnustep-base",
+    "gnustep-make",
+    "openssl",
+    "wavpack",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "libwavpack-dev": "wavpack",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libgnustep-base-dev": "gnustep-base"
+  }
+}

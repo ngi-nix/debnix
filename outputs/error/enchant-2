@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell-dictionary", "debhelper-compat", "dh-sequence-gnome", "enchant-2", "hspell", "hunspell-dictionary", "hunspell-en-us", "ispell-dictionary", "libenchant-2-2", "libenchant-2-voikko", "libglib2.0-dev", "libhunspell-dev", "libltdl-dev", "libpspell-dev", "libunittest++-dev", "libvoikko-dev", "libz-dev", "myspell-dictionary"], or 
+output: 
+[] is empty!

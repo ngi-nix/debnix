@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bison",
+  "nix_pkg": "bison",
+  "control_file_hash": "422d5f7ccd028ad015cbd547060868a52c5f770c1fb5f7c7299e1022713e0d4c",
+  "deb_inputs": [
+    "bison",
+    "bison-doc",
+    "debhelper-compat",
+    "flex",
+    "gettext",
+    "help2man",
+    "m4"
+  ],
+  "nix_inputs": [
+    "gnum4",
+    "perl"
+  ],
+  "map": {}
+}

@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "dvdauthor",
+  "nix_pkg": "dvdauthor",
+  "control_file_hash": "5b38f65efbdecdcfd603e5c1dbe058acecbfe3e6d8faab85fcf1255c0c9aa33e",
+  "deb_inputs": [
+    "bison",
+    "cdbs",
+    "debhelper",
+    "docbook-to-man",
+    "docbook-utils",
+    "flex",
+    "libdvdread-dev",
+    "libfreetype6-dev",
+    "libfribidi-dev",
+    "libmagick++-dev",
+    "libpng-dev",
+    "libxml2-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "freetype",
+    "fribidi",
+    "imagemagick",
+    "libdvdread",
+    "libpng-apng",
+    "libxml2",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libdvdread-dev": "libdvdread",
+    "flex": "flex",
+    "bison": "bison",
+    "libfreetype6-dev": "freetype",
+    "libfribidi-dev": "fribidi",
+    "libxml2-dev": "libxml2"
+  }
+}

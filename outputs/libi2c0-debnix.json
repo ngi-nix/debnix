@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libi2c0",
+  "nix_pkg": null,
+  "control_file_hash": "464d68ea0844d4033457e2e4653c7c5c33d815208aeac6705729f44c5f8fc58d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-python",
+    "i2c-tools",
+    "libi2c-dev",
+    "libi2c0",
+    "python3-all-dev",
+    "python3-smbus",
+    "read-edid",
+    "udev"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

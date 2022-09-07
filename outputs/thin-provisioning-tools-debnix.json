@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "thin-provisioning-tools",
+  "nix_pkg": "thin-provisioning-tools",
+  "control_file_hash": "eb2d2093c33cd802760a8e68348f7d49b766293e76c937f59a9d3c2cb2253957",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-autoreconf",
+    "gawk",
+    "google-mock",
+    "libaio-dev",
+    "libboost-iostreams-dev",
+    "libexpat1-dev",
+    "libgtest-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "expat",
+    "libaio"
+  ],
+  "map": {
+    "libaio-dev": "libaio",
+    "libexpat1-dev": "expat"
+  }
+}

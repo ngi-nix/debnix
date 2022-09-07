@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "default-jdk", "default-jdk-headless", "default-jre", "default-jre-headless", "java-common"], or 
+output: 
+[] is empty!

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "geany",
+  "nix_pkg": "geany",
+  "control_file_hash": "93f4b8d25b609c94cf479f6d6c66326a813039b6d40c56defe03df627add1be1",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "dh-autoreconf",
+    "doc-base",
+    "doxygen",
+    "geany-common",
+    "intltool",
+    "libatk1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libpango1.0-dev",
+    "libvte9",
+    "python3-lxml",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "file",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "intltool",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "intltool": "intltool"
+  }
+}

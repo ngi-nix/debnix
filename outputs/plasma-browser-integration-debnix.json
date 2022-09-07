@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "plasma-browser-integration",
+  "nix_pkg": "plasma-browser-integration",
+  "control_file_hash": "f1125141af8a2bbb6c2c0731acf53ff2c1872fc6ea0bb5842a6ebbc7a98e54f7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5activities-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5filemetadata-dev",
+    "libkf5i18n-dev",
+    "libkf5jobwidgets-dev",
+    "libkf5kio-dev",
+    "libkf5notifications-dev",
+    "libkf5purpose-dev",
+    "libkf5runner-dev",
+    "pkg-kde-tools",
+    "plasma-workspace-dev",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kactivities",
+    "kconfig",
+    "kdbusaddons",
+    "kfilemetadata",
+    "ki18n",
+    "kio",
+    "knotifications",
+    "krunner",
+    "kwindowsystem",
+    "plasma-workspace",
+    "purpose",
+    "qtbase"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "plasma-workspace-dev": "plasma-workspace",
+    "qtbase5-dev": "qtbase"
+  }
+}
