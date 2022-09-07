@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "python-z3",
+  "nix_pkg": null,
+  "control_file_hash": "0f4fd5fc254a2ea4082e021855a808fa196ab4d1fc1655d75b2a47ab810031eb",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "default-jdk",
+    "dh-python",
+    "javahelper",
+    "libz3-4",
+    "libz3-dev",
+    "libz3-jni",
+    "python3",
+    "python3-pkg-resources"
+  ],
+  "nix_inputs": [
+    "python",
+    "setuptools"
+  ],
+  "map": {
+    "python3-pkg-resources": "setuptools",
+    "python3": "python"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "python-pyisomd5sum",
+  "nix_pkg": null,
+  "control_file_hash": "be3cee518ceba5943da20794a7d69d4a90ef728340861cd06a3b279e5c9fe1bb",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "libpopt-dev",
+    "python3-all-dev",
+    "xorriso"
+  ],
+  "nix_inputs": [
+    "popt",
+    "python3"
+  ],
+  "map": {
+    "libpopt-dev": "popt"
+  }
+}

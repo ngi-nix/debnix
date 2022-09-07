@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "python-link-grammar",
+  "nix_pkg": null,
+  "control_file_hash": "5f1d899b4e5ec9c58d99f2b754c40ec100ebfb2d6b99703e1d22bcf254c103f0",
+  "deb_inputs": [
+    "ant",
+    "autoconf-archive",
+    "d-shlibs",
+    "debhelper-compat",
+    "default-jdk",
+    "dh-sequence-python3",
+    "flex",
+    "hunspell",
+    "libedit-dev",
+    "libhunspell-dev",
+    "liblink-grammar5",
+    "libpcre2-dev",
+    "libsqlite3-dev",
+    "link-grammar-dictionaries-all",
+    "link-grammar-dictionaries-en",
+    "locales-all",
+    "minisat",
+    "pkg-config",
+    "python-link-grammar-examples",
+    "python3-dev",
+    "swig",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "flex",
+    "libedit",
+    "pkg-config-wrapper",
+    "python3",
+    "sqlite"
+  ],
+  "map": {
+    "flex": "flex",
+    "python3-dev": "python3",
+    "libedit-dev": "libedit",
+    "libsqlite3-dev": "sqlite"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "python-ledger",
+  "nix_pkg": null,
+  "control_file_hash": "68881a6a9ea40c4fb62ad0e7e7520b60512d37b840077cb74728fc6d56bb812d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "elpa-ledger",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-iostreams-dev",
+    "libboost-python-dev",
+    "libboost-regex-dev",
+    "libboost-serialization-dev",
+    "libboost-test-dev",
+    "libexpat1-dev",
+    "libgmp3-dev",
+    "libmpfr-dev",
+    "libofx-dev",
+    "libpcre2-dev",
+    "libutfcpp-dev",
+    "man2html-base",
+    "python3-dev",
+    "python3-ledger",
+    "texinfo",
+    "texlive",
+    "tzdata"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "gmp-with-cxx",
+    "gnused",
+    "libedit",
+    "mpfr",
+    "python3",
+    "texinfo"
+  ],
+  "map": {
+    "python3-dev": "python3",
+    "libmpfr-dev": "mpfr",
+    "texinfo": "texinfo",
+    "cmake": "cmake"
+  }
+}
