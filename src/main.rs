@@ -94,8 +94,8 @@ fn main() -> Result<(), DebNixError> {
     }
 
     if let Some(amount) = opts.discover() {
-        let mut pop = read_popcon("./test/popcon.csv")?;
-        pop.reverse();
+        let pop = read_popcon("./test/popcon.csv")?;
+        // pop.reverse();
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
                 break;

@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["dpkg-dev", "debhelper-compat", "libmspack0", "libjs-jquery", "doc-base"], or 
+["debhelper-compat", "doc-base", "dpkg-dev", "libjs-jquery", "libmspack0"], or 
 output: 
 [] is empty!

@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["cmake", "debhelper-compat", "libbz2-dev", "libssl-dev", "mandoc", "unzip", "zlib1g-dev", "libzip4", "zlib1g-dev"], or 
+["cmake", "debhelper-compat", "libbz2-dev", "libssl-dev", "libzip4", "mandoc", "unzip", "zlib1g-dev"], or 
 output: 
 [] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "chrpath", "debhelper", "default-jdk", "gem2deb", "hyperestraier", "java-virtual-machine", "libestraier8", "libfcgi-dev", "libqdbm-dev", "perl", "pkg-config", "poppler-utils", "ppthtml", "ruby-hyperestraier", "ruby-hyperestraier-doc", "wordnet", "wv", "xlhtml", "zlib1g-dev"], or 
-output: 
-[] is empty!

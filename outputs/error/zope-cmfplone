@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dpatch", "plone", "python-imaging", "zope-archetypes", "zope-atcontenttypes", "zope-atrbw", "zope-btreefolder2", "zope-cachefu", "zope-cmf1.6", "zope-cmfactionicons1.6", "zope-cmfcalendar1.6", "zope-cmfcore1.6", "zope-cmfdefault1.6", "zope-cmfdynamicviewfti", "zope-cmfformcontroller", "zope-cmfplacefulworkflow", "zope-cmfplone", "zope-cmfquickinstallertool", "zope-cmftopic1.6", "zope-dcworkflow1.6", "zope-extendedpathindex", "zope-externaleditor", "zope-genericsetup", "zope-groupuserfolder", "zope-kupu", "zope-linguaplone", "zope-pas", "zope-passwordresettool", "zope-ploneerrorreporting", "zope-plonelanguagetool", "zope-plonepas", "zope-plonetestcase", "zope-plonetranslations", "zope-pluginregistry", "zope-pts", "zope-resourceregistries", "zope-securemailhost", "zope-statusmessages"], or 
-output: 
-[] is empty!

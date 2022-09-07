@@ -1,6 +1,7 @@
 {
   "pkgs_name": "gir1.2-goa-1.0",
-  "control_file_hash": "88133c1016f079654e8aa1fde2df598819559f44f7fb534560fcdb9f36c1d528",
+  "nix_pkg": null,
+  "control_file_hash": "4d6c6d5a598d576dc3904a7a836dcd170d0ec3aa50de19735f770b9fe6c642d0",
   "deb_inputs": [
     "debhelper-compat",
     "devhelp",
@@ -55,17 +56,17 @@
     "webkitgtk"
   ],
   "map": {
-    "libglib2.0-dev": "glib",
-    "libglib2.0-doc": "glib",
-    "libgcr-3-dev": "gcr",
+    "libsecret-1-dev": "libsecret",
     "libkrb5-dev": "libkrb5",
+    "libglib2.0-doc": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "librest-dev": "rest",
+    "libglib2.0-dev": "glib",
     "gtk-doc-tools": "gtk-doc",
+    "meson": "meson",
     "libsoup-3.0-dev": "libsoup",
     "valac": "vala",
-    "libjson-glib-dev": "json-glib",
-    "librest-dev": "rest",
-    "libgirepository1.0-dev": "gobject-introspection",
-    "libsecret-1-dev": "libsecret",
-    "meson": "meson"
+    "libgcr-3-dev": "gcr",
+    "libjson-glib-dev": "json-glib"
   }
 }

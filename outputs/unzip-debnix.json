@@ -1,5 +1,6 @@
 {
   "pkgs_name": "unzip",
+  "nix_pkg": "unzip",
   "control_file_hash": "375efe42ee8daa67fcc9d91384c1b311907ad6a02b83bb9be5cda1079b92ea31",
   "deb_inputs": [
     "debhelper-compat",

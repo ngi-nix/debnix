@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autopoint", "autotools-dev", "cdbs", "debhelper", "docbook-xml", "dpkg-dev", "gnome-common", "gnome-doc-utils", "gnome-pkg-tools", "intltool", "libcanberra-gtk-dev", "libdbus-glib-1-dev", "libgconf2-dev", "libglib2.0-dev", "libgnutls-dev", "libgtk2.0-dev", "libice-dev", "libnotify-dev", "libperl-dev", "libsexy-dev", "libsm-dev", "libssl-dev", "libtool", "libxft-dev", "python-dev", "tcl8.4-dev", "xchat-gnome-common"], or 
-output: 
-[] is empty!

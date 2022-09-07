@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["dpkg-dev", "debhelper-compat", "libx11-dev", "libxext-dev", "x11proto-dev", "pkg-config", "quilt", "automake", "libtool", "xutils-dev", "libxres1", "libx11-dev", "libxext-dev", "x11proto-dev"], or 
+["automake", "debhelper-compat", "dpkg-dev", "libtool", "libx11-dev", "libxext-dev", "libxres1", "pkg-config", "quilt", "x11proto-dev", "xutils-dev"], or 
 output: 
 [] is empty!

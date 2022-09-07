@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "binutils-dev", "cdbs", "cmake", "debhelper", "default-libmysqlclient-dev", "libdr-tarantool-perl", "libiberty-dev", "libncurses5-dev", "libpq-dev", "libreadline-dev", "lsb-base", "tarantool-lts", "tarantool-lts-client", "tarantool-lts-common", "tarantool-lts-modules", "tarantool-mysql-module", "tarantool-postgresql-module", "tarantool-sophia-module", "tarantool-tls-client-dbg"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "netbase", "net-tools", "autoconf", "automake", "bison", "libreadline-dev", "libncurses-dev", "libpam0g-dev", "libwrap0-dev", "libkrb5-dev", "lsb-base", "netbase", "inetutils-syslogd", "system-log-daemon", "lsb-base", "tcpd", "update-inetd", "netbase", "netbase", "netbase", "inetutils-syslogd", "system-log-daemon", "netbase", "netbase", "inetutils-telnet", "inetutils-inetd", "inet-superserver", "inetutils-syslogd", "system-log-daemon", "netbase", "inetutils-telnetd", "update-inetd", "netbase", "inetutils-inetd", "inet-superserver", "inetutils-syslogd", "system-log-daemon", "netbase"], or 
-output: 
-[] is empty!

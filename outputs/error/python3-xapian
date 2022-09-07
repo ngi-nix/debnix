@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "dh-python", "fastjar", "javahelper", "libxapian-dev", "libxapian-jni", "python3", "python3-all-dev", "python3-sphinx", "ruby", "ruby-all-dev", "ruby-test-unit", "tcl", "tcl-dev", "tclsh", "xapian-doc"], or 
-output: 
-[] is empty!

@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "dh-sequence-gir", "meson", "libglib2.0-dev", "libgtk-3-dev", "libxml2-dev", "liboauth-dev", "libsoup2.4-dev", "libtotem-plparser-dev", "gobject-introspection", "libgirepository1.0-dev", "valac", "gtk-doc-tools", "grilo-plugins-0.3", "libgrilo-0.3-0", "gir1.2-grilo-0.3", "libxml2-dev", "libglib2.0-dev", "pkg-config", "libgrilo-0.3-doc", "devhelp"], or 
+["debhelper-compat", "devhelp", "dh-sequence-gir", "gir1.2-grilo-0.3", "gobject-introspection", "grilo-plugins-0.3", "gtk-doc-tools", "libgirepository1.0-dev", "libglib2.0-dev", "libgrilo-0.3-0", "libgrilo-0.3-doc", "libgtk-3-dev", "liboauth-dev", "libsoup2.4-dev", "libtotem-plparser-dev", "libxml2-dev", "meson", "pkg-config", "valac"], or 
 output: 
 [] is empty!

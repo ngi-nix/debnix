@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-python3", "liblz4-dev", "liblzma-dev", "libtkrzw-dev", "libzstd-dev", "python3-all", "python3-all-dev", "python3-setuptools", "tkrzw-utils"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "doxygen", "libgstreamer-plugins-base1.0-dev", "libgstreamer1.0-0", "libgstreamer1.0-dev", "libjs-jquery", "libpocketsphinx3", "libsphinxbase-dev", "pkg-config", "pocketsphinx-en-us"], or 
-output: 
-[] is empty!

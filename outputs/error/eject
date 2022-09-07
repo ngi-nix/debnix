@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["gettext", "dpkg-dev", "debhelper", "autotools-dev", "libdevmapper-dev", "libsgutils2-dev", "cdtool", "setcd"], or 
+["autotools-dev", "cdtool", "debhelper", "dpkg-dev", "gettext", "libdevmapper-dev", "libsgutils2-dev", "setcd"], or 
 output: 
 [] is empty!

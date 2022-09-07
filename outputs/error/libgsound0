@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "dh-sequence-gir", "dh-sequence-gnome", "gtk-doc-tools", "libcanberra-dev", "libgirepository1.0-dev", "libglib2.0-dev", "meson", "pkg-config", "valac", "gir1.2-gsound-1.0", "libcanberra-dev", "libglib2.0-dev", "libgsound0"], or 
+["debhelper-compat", "dh-sequence-gir", "dh-sequence-gnome", "gir1.2-gsound-1.0", "gtk-doc-tools", "libcanberra-dev", "libgirepository1.0-dev", "libglib2.0-dev", "libgsound0", "meson", "pkg-config", "valac"], or 
 output: 
 [] is empty!

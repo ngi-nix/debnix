@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "gobject-introspection", "gtk-doc-tools", "intltool", "libextutils-depends-perl", "libextutils-pkgconfig-perl", "libgirepository1.0-dev", "libglib-perl", "libxfce4util-dev", "xfce4-dev-tools", "gir1.2-xfconf-0", "libglib2.0-dev", "libxfconf-0-3", "pkg-config", "xfconf", "default-dbus-session-bus", "dbus-session-bus"], or 
+["dbus-session-bus", "debhelper-compat", "default-dbus-session-bus", "gir1.2-xfconf-0", "gobject-introspection", "gtk-doc-tools", "intltool", "libextutils-depends-perl", "libextutils-pkgconfig-perl", "libgirepository1.0-dev", "libglib-perl", "libglib2.0-dev", "libxfce4util-dev", "libxfconf-0-3", "pkg-config", "xfce4-dev-tools", "xfconf"], or 
 output: 
 [] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libdockapp-dev", "libdockapp3", "libx11-dev", "libxext-dev", "libxpm-dev", "pkg-config", "xfonts-libdockapp", "xfonts-utils"], or 
-output: 
-[] is empty!

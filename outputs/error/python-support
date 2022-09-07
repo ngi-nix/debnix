@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper", "cdbs", "python", "python-minimal", "dpkg"], or 
+["cdbs", "debhelper", "dpkg", "python", "python-minimal"], or 
 output: 
 [] is empty!

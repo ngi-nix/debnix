@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper", "cmake", "qtbase5-dev", "pkg-config", "doxygen", "libdbusmenu-qt5-2", "qtbase5-dev", "libjs-jquery", "w3m", "www-browser"], or 
+["cmake", "debhelper", "doxygen", "libdbusmenu-qt5-2", "libjs-jquery", "pkg-config", "qtbase5-dev", "w3m", "www-browser"], or 
 output: 
 [] is empty!

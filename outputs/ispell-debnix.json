@@ -1,7 +1,0 @@
-{
-  "pkgs_name": "ispell",
-  "map": {
-    "bison": "bison",
-    "libncurses5-dev": "ncurses"
-  }
-}

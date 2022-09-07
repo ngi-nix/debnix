@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "flite1-dev", "libasound2-dev", "libspeechd-dev", "pkg-kde-tools", "qtbase5-dev", "qtbase5-private-dev", "qtmultimedia5-dev", "libqt5texttospeech5", "qtbase5-dev", "qtdeclarative5-dev", "qtspeech5-speechd-plugin", "qtspeech5-flite-plugin"], or 
+["debhelper-compat", "flite1-dev", "libasound2-dev", "libqt5texttospeech5", "libspeechd-dev", "pkg-kde-tools", "qtbase5-dev", "qtbase5-private-dev", "qtdeclarative5-dev", "qtmultimedia5-dev", "qtspeech5-flite-plugin", "qtspeech5-speechd-plugin"], or 
 output: 
 [] is empty!

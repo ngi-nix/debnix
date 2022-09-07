@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "golang-any", "golang-github-gomagedon-expectate-dev", "golang-github-google-uuid-dev", "libsecsipid1", "openssl"], or 
-output: 
-[] is empty!

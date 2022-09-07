@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dbus-x11", "debhelper", "devilspie", "gnome-menus", "gstreamer0.10-plugins-good", "gstreamer0.10-pulseaudio", "imagemagick", "notification-daemon", "nxproxy", "openssh-client", "openssh-server", "python-all", "python-appindicator", "python-avahi", "python-crypto", "python-gobject-2", "python-gst0.10", "python-gtk2", "python-imaging", "python-nautilus", "python-netifaces", "python-notify", "python-packagekit", "python-pam", "python-rsvg", "python-twisted", "python-utmp", "python-xlib", "rdesktop", "vncviewer", "x11-xkb-utils", "xloadimage", "xpra"], or 
-output: 
-[] is empty!

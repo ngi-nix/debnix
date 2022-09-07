@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "libc6-dev", "tcl8.0-dev", "tk8.0", "tk8.0-doc", "x-terminal-emulator", "xlibs-dev", "xterm"], or 
-output: 
-[] is empty!

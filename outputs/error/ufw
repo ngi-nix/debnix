@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "iptables", "lsb-base", "po-debconf", "python3", "python3-distutils", "rsyslog", "ucf"], or 
-output: 
-[] is empty!

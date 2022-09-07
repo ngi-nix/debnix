@@ -1,5 +1,6 @@
 {
   "pkgs_name": "locate",
+  "nix_pkg": null,
   "control_file_hash": "09282c5da22bed23435f0df55440bc92dec0fbf6356ea1232b790829467a7370",
   "deb_inputs": [
     "bison",

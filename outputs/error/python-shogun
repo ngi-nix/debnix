@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["clang", "cmake", "debhelper", "libarpack2-dev", "libatlas-base-dev", "libblas-dev", "libbz2-dev", "libcolpack-dev", "libcurl4-gnutls-dev", "libeigen3-dev", "libglpk-dev", "libhdf5-dev", "libhdf5-serial-dev", "libjson-c-dev", "libjson0-dev", "liblapack-dev", "liblzma-dev", "liblzo2-dev", "libnlopt-dev", "libprotobuf-dev", "libreadline-dev", "libreadline5-dev", "libshogun-dev", "libshogun16", "libsnappy-dev", "libxml2-dev", "protobuf-compiler", "python-all-dev", "python-matplotlib", "python-numpy", "python-scipy", "python-shogun", "swig3.0", "zlib1g-dev"], or 
-output: 
-[] is empty!

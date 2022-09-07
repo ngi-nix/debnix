@@ -1,5 +1,6 @@
 {
   "pkgs_name": "nftables",
+  "nix_pkg": "nftables",
   "control_file_hash": "e4584035adb3887ecd4b7105743781c2f5ee3befd8dc283e3abc0b5603400924",
   "deb_inputs": [
     "asciidoc-base",
@@ -39,13 +40,13 @@
     "pkg-config-wrapper"
   ],
   "map": {
-    "libeditreadline-dev": "libedit",
-    "libjansson-dev": "jansson",
-    "flex": "flex",
     "bison": "bison",
     "asciidoc-base": "asciidoc",
-    "libnftnl-dev": "libnftnl",
+    "libjansson-dev": "jansson",
+    "libxtables-dev": "iptables",
+    "flex": "flex",
     "libmnl-dev": "libmnl",
-    "libxtables-dev": "iptables"
+    "libeditreadline-dev": "libedit",
+    "libnftnl-dev": "libnftnl"
   }
 }

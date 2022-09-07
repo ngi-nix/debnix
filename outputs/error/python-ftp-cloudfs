@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper", "lsb-base", "openstack-pkg-tools", "python-all", "python-cloudfiles", "python-daemon", "python-docutils", "python-ftp-cloudfs", "python-memcache", "python-pyftpdlib", "python-setuptools", "python-swiftclient"], or 
-output: 
-[] is empty!

@@ -1,5 +1,15 @@
 {
   "pkgs_name": "patch",
+  "nix_pkg": "patch",
+  "control_file_hash": "b3056232fbe758d27d2b89a406b3621fe5a6b73c8dd95b43a11fe81050ae88fd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "diffutils-doc",
+    "ed"
+  ],
+  "nix_inputs": [
+    "ed"
+  ],
   "map": {
     "ed": "ed"
   }

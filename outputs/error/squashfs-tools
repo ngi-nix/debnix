@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "libattr1-dev", "liblzma-dev", "liblzo2-dev", "liblz4-dev", "zlib1g-dev", "libzstd-dev", "help2man"], or 
+["debhelper-compat", "help2man", "libattr1-dev", "liblz4-dev", "liblzma-dev", "liblzo2-dev", "libzstd-dev", "zlib1g-dev"], or 
 output: 
 [] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["aspell", "bsdmainutils", "debhelper", "doc-base", "fortune", "fortune-mod", "gem2deb", "host", "libgettext-ruby1.8", "libgettext-ruby1.9.1", "libwww-mechanize-ruby1.8", "libwww-mechanize-ruby1.9.1", "rake", "ruby", "ruby-bdb", "ruby-gettext", "ruby-hpricot", "ruby-interpreter", "ruby-json", "ruby-tokyocabinet", "toilet"], or 
-output: 
-[] is empty!

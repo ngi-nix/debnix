@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["cdbs", "debhelper", "lcdf-typetools", "fonts-noto-core", "fonts-noto-cjk", "fonts-noto-cjk-extra", "fonts-noto-color-emoji", "fonts-noto-extra", "fonts-noto-mono", "fonts-noto-ui-core", "fonts-noto-ui-extra", "fonts-noto-unhinted", "fonts-noto-core", "fonts-noto-extra", "fonts-crosextra-caladea", "fonts-crosextra-carlito", "fonts-noto-core", "fonts-noto-ui-core"], or 
+["cdbs", "debhelper", "fonts-crosextra-caladea", "fonts-crosextra-carlito", "fonts-noto-cjk", "fonts-noto-cjk-extra", "fonts-noto-color-emoji", "fonts-noto-core", "fonts-noto-extra", "fonts-noto-mono", "fonts-noto-ui-core", "fonts-noto-ui-extra", "fonts-noto-unhinted", "lcdf-typetools"], or 
 output: 
 [] is empty!

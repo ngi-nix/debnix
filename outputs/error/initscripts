@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "ionit", "libcrypt-dev", "libselinux1-dev", "po-debconf", "po4a", "initscripts", "kbdcontrol", "sysv-rc", "file-rc", "openrc", "sysvinit-utils", "mount", "bootlogd", "orphan-sysvinit-scripts", "insserv", "lsb-base", "startpar", "sysvinit-utils", "lsb-base", "sysv-rc", "file-rc", "openrc", "e2fsprogs", "psmisc", "lsb-base"], or 
-output: 
-[] is empty!

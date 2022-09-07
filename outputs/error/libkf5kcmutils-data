@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["cmake", "debhelper-compat", "dh-sequence-kf5", "doxygen", "extra-cmake-modules", "libkf5configwidgets-dev", "libkf5coreaddons-dev", "libkf5declarative-dev", "libkf5guiaddons-dev", "libkf5i18n-dev", "libkf5itemviews-dev", "libkf5service-dev", "libkf5xmlgui-dev", "libqt5sql5-sqlite", "pkg-kde-tools", "qtbase5-dev", "qtdeclarative5-dev", "qttools5-dev", "qttools5-dev-tools", "xauth", "xvfb", "libkf5configwidgets-dev", "libkf5itemviews-dev", "libkf5kcmutils5", "libkf5kcmutilscore5", "libkf5kcmutils-bin", "libkf5service-dev", "libkf5xmlgui-dev", "libkf5kcmutils-doc", "libkf5kcmutils-data", "libkf5kcmutils-bin", "libkf5kcmutils-data"], or 
+["cmake", "debhelper-compat", "dh-sequence-kf5", "doxygen", "extra-cmake-modules", "libkf5configwidgets-dev", "libkf5coreaddons-dev", "libkf5declarative-dev", "libkf5guiaddons-dev", "libkf5i18n-dev", "libkf5itemviews-dev", "libkf5kcmutils-bin", "libkf5kcmutils-data", "libkf5kcmutils-doc", "libkf5kcmutils5", "libkf5kcmutilscore5", "libkf5service-dev", "libkf5xmlgui-dev", "libqt5sql5-sqlite", "pkg-kde-tools", "qtbase5-dev", "qtdeclarative5-dev", "qttools5-dev", "qttools5-dev-tools", "xauth", "xvfb"], or 
 output: 
 [] is empty!

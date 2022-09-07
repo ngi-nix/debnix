@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dpatch", "lsb-base", "lsb-release", "python", "python-all-dbg", "python-all-dev", "python-central", "python-clientform", "python-crypto-dbg", "python-dbg", "python-docutils", "python-mechanize", "python-twisted-bin-dbg", "python-twisted-conch", "python-twisted-web2", "python-tz", "python-zopeinterface", "python-zopeinterface-dbg", "python2.4", "python2.4-docutils", "zope-debhelper", "zope3", "zope3-dbg", "zope3-doc", "zope3-sandbox"], or 
-output: 
-[] is empty!

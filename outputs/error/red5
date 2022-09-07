@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "ant", "cdbs", "debhelper", "default-jdk-doc", "default-jre-headless", "glassfish-javaee", "groovy", "groovy-doc", "java6-runtime-headless", "jython", "libantlr-java", "libaopalliance-java", "libasm3-java", "libbcprov-java", "libcglib-java", "libcommons-beanutils-java", "libcommons-codec-java", "libcommons-collections3-java", "libcommons-lang3-java", "libcommons-logging-java", "libcommons-modeler-java", "libcommons-pool-java", "libehcache-java", "libhttpclient-java", "libhttpcore-java", "libjaudiotagger-java", "liblog4j1.2-java-doc", "liblogback-java", "libmina2-java", "libmina2-java-doc", "libquartz-java", "libred5-java", "librhino-java", "libslf4j-java", "libspring-aop-java", "libspring-beans-java", "libspring-context-java", "libspring-context-support-java", "libspring-core-java", "libspring-web-java", "libstax-java", "libtomcat6-java", "libxerces2-java", "libxml-commons-external-java", "libxmlrpc3-server-java", "openjdk-6-jdk"], or 
-output: 
-[] is empty!

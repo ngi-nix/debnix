@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "golang-any", "golang-github-biogo-biogo-dev", "golang-github-biogo-hts-dev", "golang-github-bsipos-thist-dev", "golang-github-cespare-xxhash-dev", "golang-github-cznic-sortutil-dev", "golang-github-dustin-go-humanize-dev", "golang-github-fsnotify-fsnotify-dev", "golang-github-iafan-cwalk-dev", "golang-github-logrusorgru-aurora-dev", "golang-github-mattn-go-colorable-dev", "golang-github-mattn-go-isatty-dev", "golang-github-mitchellh-go-homedir-dev", "golang-github-op-go-logging-dev", "golang-github-shenwei356-bio-dev", "golang-github-shenwei356-bwt-dev", "golang-github-smallfish-simpleyaml-dev", "golang-github-spf13-cobra-dev", "golang-github-tatsushid-go-prettytable-dev", "golang-github-twotwotwo-sorts-dev", "samtools"], or 
-output: 
-[] is empty!

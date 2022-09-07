@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-gnome", "ducktype", "itstool", "libxml2-dev", "libxml2-utils", "libxslt1-dev", "pkg-config", "xsltproc"], or 
-output: 
-[] is empty!

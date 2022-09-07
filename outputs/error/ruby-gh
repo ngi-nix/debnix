@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gem2deb", "rake", "ruby-activesupport", "ruby-addressable", "ruby-faraday", "ruby-faraday-middleware", "ruby-multi-json", "ruby-net-http-persistent", "ruby-net-http-pipeline", "ruby-rspec", "ruby-webmock"], or 
-output: 
-[] is empty!

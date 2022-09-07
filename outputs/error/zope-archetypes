@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "gs-common", "lynx", "pdftohtml", "ppthtml", "python-docutils", "tidy", "unrtf", "wv", "xlhtml", "xpdf-utils", "xsltproc", "zope-cmf1.4", "zope-cmf1.5", "zope-cmf1.6", "zope-cmfformcontroller", "zope-cmfplone", "zope-marshall", "zope-mimetypesregistry", "zope-portaltransforms", "zope-validation"], or 
-output: 
-[] is empty!

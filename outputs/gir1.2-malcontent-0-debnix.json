@@ -1,5 +1,6 @@
 {
   "pkgs_name": "gir1.2-malcontent-0",
+  "nix_pkg": null,
   "control_file_hash": "6c87baa71cbdf3a9c42a6ebe29e7dd360258ace38ba763c18dc86bae7164cf0f",
   "deb_inputs": [
     "accountsservice",
@@ -44,12 +45,12 @@
     "polkit"
   ],
   "map": {
-    "libdbus-1-dev": "dbus",
-    "libaccountsservice-dev": "accountsservice",
     "gir1.2-glib-2.0": "gobject-introspection",
-    "accountsservice": "accountsservice",
-    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "libaccountsservice-dev": "accountsservice",
     "meson": "meson",
-    "libglib2.0-dev": "glib"
+    "libgirepository1.0-dev": "gobject-introspection",
+    "accountsservice": "accountsservice",
+    "libdbus-1-dev": "dbus"
   }
 }

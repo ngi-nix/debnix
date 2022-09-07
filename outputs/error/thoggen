@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cdbs", "debhelper", "gstreamer0.10-plugins-base", "gstreamer0.10-plugins-good", "gstreamer0.10-plugins-ugly", "hal", "iso-codes", "libdbus-1-dev", "libdbus-glib-1-dev", "libdvdread-dev", "libglade2-dev", "libglib2.0-dev", "libgstreamer-plugins-base0.10-dev", "libgstreamer0.10-dev", "libgtk2.0-dev", "libhal-dev", "libxml-parser-perl"], or 
-output: 
-[] is empty!

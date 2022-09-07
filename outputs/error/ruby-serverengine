@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bundler", "debhelper-compat", "gem2deb", "rake", "rake-compiler", "ruby", "ruby-rspec", "ruby-sigdump"], or 
-output: 
-[] is empty!

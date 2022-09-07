@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dbus-session-bus", "debhelper-compat", "default-dbus-session-bus", "desktop-file-utils", "dh-sequence-gnome", "docbook-to-man", "docbook-xsl", "gnome-shell", "gnome-shell-common", "gnome-terminal", "gnome-terminal-data", "gsettings-desktop-schemas", "gsettings-desktop-schemas-dev", "gvfs", "itstool", "libdconf-dev", "libglib2.0-dev", "libgtk-3-dev", "libnautilus-extension-dev", "libpcre2-dev", "libvte-2.91-dev", "libx11-dev", "meson", "nautilus-extension-gnome-terminal", "uuid-dev", "xsltproc", "yelp"], or 
-output: 
-[] is empty!

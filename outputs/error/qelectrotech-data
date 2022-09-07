@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["catch2", "debhelper-compat", "googletest", "libkf5coreaddons-dev", "libkf5widgetsaddons-dev", "libpugixml-dev", "libqt5svg5-dev", "libsingleapplication-dev", "libsqlite3-dev", "pkgconf", "qelectrotech", "qelectrotech-data", "qelectrotech-examples", "qt5-qmake", "qtbase5-dev", "qttools5-dev", "qttranslations5-l10n"], or 
-output: 
-[] is empty!

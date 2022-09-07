@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "dh-sequence-python3", "fontforge", "fonttools", "python3-all-dev:any", "python3-all:any", "python3-dev:any", "python3-fontforge", "python3-libxml2", "python3:any", "xsltproc"], or 
-output: 
-[] is empty!

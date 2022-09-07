@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoc", "bash-completion", "debhelper-compat", "debian-keyring", "dh-python", "docbook-xml", "docbook-xsl", "docbook-xsl-ns", "dput-ng-doc", "gnupg", "libxml2-utils", "lintian", "openssh-client", "python3-all", "python3-coverage", "python3-debian", "python3-distro-info", "python3-distutils", "python3-dput", "python3-jsonschema", "python3-paramiko", "python3-pytest", "python3-setuptools", "python3-sphinx", "python3-twitter", "xsltproc"], or 
-output: 
-[] is empty!

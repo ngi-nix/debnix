@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "libtest-pod-coverage-perl", "libtest-pod-perl", "perl-xs-dev", "perl:native", "libclone-perl", "libmldbm-perl", "libnet-daemon-perl", "libsql-statement-perl"], or 
+["debhelper-compat", "libclone-perl", "libmldbm-perl", "libnet-daemon-perl", "libsql-statement-perl", "libtest-pod-coverage-perl", "libtest-pod-perl", "perl-xs-dev", "perl:native"], or 
 output: 
 [] is empty!

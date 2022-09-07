@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "yorick", "yorick-av", "yorick-cubeview", "yorick-curses", "yorick-dev", "yorick-doc", "yorick-gl", "yorick-gy", "yorick-gyoto", "yorick-hdf5", "yorick-imutil", "yorick-mira", "yorick-ml4", "yorick-mpeg", "yorick-mpy-mpich2", "yorick-mpy-openmpi", "yorick-optimpack", "yorick-soy", "yorick-spydr", "yorick-svipc", "yorick-yao", "yorick-yeti", "yorick-yeti-fftw", "yorick-yeti-regex", "yorick-yeti-tiff", "yorick-ygsl", "yorick-ynfft", "yorick-yutils", "yorick-z"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["civicrm-common", "civicrm-l10n", "ckeditor", "composer", "debhelper-compat", "dh-linktree", "fonts-font-awesome", "libjs-angularjs", "libjs-backbone", "libjs-d3", "libjs-jquery-datatables", "libjs-jquery-form", "libjs-jquery-mousewheel", "libjs-jquery-ui", "libjs-prettify", "libjs-qunit", "php-auth-sasl", "php-curl", "php-dompdf", "php-font-lib", "php-htmlpurifier", "php-intl", "php-log", "php-mail", "php-mail-mime", "php-mbstring", "php-net-smtp", "php-net-socket", "php-pclzip", "php-pear", "php-psr-cache", "php-psr-log", "php-psr-simple-cache", "php-seclib", "php-symfony-yaml", "php-tcpdf", "php-xml", "php-zend-stdlib", "php-zeta-base", "php-zip", "phpab", "pkg-php-tools", "wkhtmltopdf", "wordpress", "wordpress-civicrm", "xvfb"], or 
-output: 
-[] is empty!

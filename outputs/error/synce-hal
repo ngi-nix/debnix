@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "bluez-compat", "debhelper", "dhcp3-client", "hal", "libdbus-glib-1-dev", "libglib2.0-dev", "libgnet-dev", "libhal-dev", "libsynce0-dev", "net-tools", "pkg-config", "ppp", "python", "synce-hal"], or 
-output: 
-[] is empty!

@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "chrpath", "zlib1g-dev", "libtool", "geoip-database", "geoip-bin", "libgeoip1", "geoip-bin", "libnetaddr-ip-perl"], or 
+["chrpath", "debhelper-compat", "geoip-bin", "geoip-database", "libgeoip1", "libnetaddr-ip-perl", "libtool", "zlib1g-dev"], or 
 output: 
 [] is empty!

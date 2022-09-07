@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dpatch", "kdelibs4-dev", "libqt3-mt-dev", "pyqt-tools", "python", "python-all-dbg", "python-all-dev", "python-central", "python-dbg", "python-kde3", "python-qt-dev", "python-qt3", "python-qt3-dbg", "python-sip-dbg", "python-sip-dev", "qt3-apps-dev", "qt3-dev-tools"], or 
-output: 
-[] is empty!

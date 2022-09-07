@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "quilt", "debconf", "debconf-2.0", "libtext-iconv-perl", "emacsen-common", "ispell", "aspell", "hunspell", "wordlist", "debhelper", "dictionaries-common"], or 
+["aspell", "debconf", "debconf-2.0", "debhelper", "debhelper-compat", "dictionaries-common", "emacsen-common", "hunspell", "ispell", "libtext-iconv-perl", "quilt", "wordlist"], or 
 output: 
 [] is empty!

@@ -1,5 +1,6 @@
 {
   "pkgs_name": "sshfs",
+  "nix_pkg": "sshfs",
   "control_file_hash": "47fa26fad6f2b05421643e7d4efc16ffd6a31d1bcb1dd93e388bfc5799cd2ff6",
   "deb_inputs": [
     "debhelper-compat",
@@ -22,9 +23,9 @@
     "pkg-config-wrapper"
   ],
   "map": {
-    "meson": "meson",
     "fuse3": "fuse",
     "libglib2.0-dev": "glib",
-    "libfuse3-dev": "fuse"
+    "libfuse3-dev": "fuse",
+    "meson": "meson"
   }
 }

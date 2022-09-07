@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper-compat", "default-jdk", "default-jre-headless", "gradle-debian-helper", "java8-runtime-headless", "junit5", "libbcpkix-java", "libbcprov-java", "libcommons-codec-java", "libcommons-io-java", "libgoogle-gson-java", "libguava-java", "libhsqldb-java", "libhttpclient-java", "libjaxb-api-java", "libjoptsimple-java", "libjpathwatch-java", "libsemver-java", "libsimple-xml-java", "libstax-java", "libtomcat9-java", "libundertow-java"], or 
-output: 
-[] is empty!

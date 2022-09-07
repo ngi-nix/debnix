@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "default-jdk", "default-jre", "gem2deb", "java5-runtime", "ruby", "ruby-interpreter", "ruby-test-unit"], or 
-output: 
-[] is empty!

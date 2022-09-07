@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "libqt5serialbus5", "libqt5serialbus5-plugins", "libqt5serialport5-dev", "libsocketcan2", "linux-libc-dev", "pkg-kde-tools", "qtbase5-dev", "qtbase5-private-dev"], or 
-output: 
-[] is empty!

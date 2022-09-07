@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "gir1.2-glib-2.0", "gobject-introspection", "gtk-doc-tools", "libgirepository1.0-dev", "libglib2.0-dev", "libglib2.0-doc", "liblzma-dev", "meson", "shared-mime-info", "gir1.2-xmlb-2.0", "liblzma-dev", "libxmlb2", "shared-mime-info"], or 
+["debhelper-compat", "gir1.2-glib-2.0", "gir1.2-xmlb-2.0", "gobject-introspection", "gtk-doc-tools", "libgirepository1.0-dev", "libglib2.0-dev", "libglib2.0-doc", "liblzma-dev", "libxmlb2", "meson", "shared-mime-info"], or 
 output: 
 [] is empty!

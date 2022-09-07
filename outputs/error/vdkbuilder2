@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "gettext", "libglib2.0-dev", "libgtk2.0-dev", "libvdk2-dev", "libvdk2-doc", "libvdkbuilder2-dev", "libvdkbuilder2c2", "libvdkxdb2-dev", "libxbase2.0-dev", "vdk-doc"], or 
-output: 
-[] is empty!

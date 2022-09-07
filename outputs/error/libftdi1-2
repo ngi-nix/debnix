@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "cmake", "dh-python", "doxygen", "libboost-test-dev", "libconfuse-dev", "libusb-1.0-0-dev", "pkg-config", "python3-all-dev", "swig", "libftdi1-2", "libusb-1.0-0-dev", "libftdi1-doc", "libftdi1-dev", "libftdi1-doc", "libftdipp1-3", "libftdi1-dev", "libboost-dev"], or 
+["cmake", "debhelper-compat", "dh-python", "doxygen", "libboost-dev", "libboost-test-dev", "libconfuse-dev", "libftdi1-2", "libftdi1-dev", "libftdi1-doc", "libftdipp1-3", "libusb-1.0-0-dev", "pkg-config", "python3-all-dev", "swig"], or 
 output: 
 [] is empty!

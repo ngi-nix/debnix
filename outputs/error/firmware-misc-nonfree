@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper", "firmware-linux-free", "firmware-linux-nonfree", "intel-microcode", "amd64-microcode", "firmware-misc-nonfree", "firmware-amd-graphics", "intel-microcode", "amd64-microcode", "firmware-qcom-soc", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "firmware-linux-nonfree", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "firmware-atheros", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools", "initramfs-tools"], or 
+["amd64-microcode", "debhelper", "firmware-amd-graphics", "firmware-atheros", "firmware-linux-free", "firmware-linux-nonfree", "firmware-misc-nonfree", "firmware-qcom-soc", "initramfs-tools", "intel-microcode"], or 
 output: 
 [] is empty!

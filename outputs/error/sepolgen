@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["checkpolicy", "debhelper", "dh-python", "make", "python3", "python3-selinux", "python3-setools", "selinux-policy-dev"], or 
-output: 
-[] is empty!

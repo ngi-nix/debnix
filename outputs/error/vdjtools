@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "default-jre", "gradle", "gradle-debian-helper", "java-runtime", "libvdjtools-java", "maven-repo-helper", "r-cran-ape", "r-cran-circlize", "r-cran-ffield", "r-cran-ggplot2", "r-cran-gplots", "r-cran-gridbase", "r-cran-gridextra", "r-cran-mass", "r-cran-plotrix", "r-cran-rcolorbrewer", "r-cran-reshape", "r-cran-reshape2", "r-cran-scales", "r-cran-venndiagram"], or 
-output: 
-[] is empty!

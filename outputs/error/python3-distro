@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "dh-python", "python3-all", "python3-setuptools", "lsb-release"], or 
+["debhelper-compat", "dh-python", "lsb-release", "python3-all", "python3-setuptools"], or 
 output: 
 [] is empty!

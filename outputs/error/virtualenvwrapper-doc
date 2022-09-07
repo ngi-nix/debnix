@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper", "debhelper-compat", "dh-python", "python3-virtualenv", "python3-virtualenvwrapper", "virtualenv", "virtualenvwrapper", "virtualenvwrapper-doc"], or 
-output: 
-[] is empty!

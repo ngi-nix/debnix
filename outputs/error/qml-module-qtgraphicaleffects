@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "dpkg-dev", "pkg-kde-tools", "qml-module-qtquick-window2", "qml-module-qtquick2", "qtbase5-dev", "qtbase5-private-dev", "qtdeclarative5-dev-tools", "qtdeclarative5-private-dev", "qml-module-qtquick-window2", "qml-module-qtquick2"], or 
+["debhelper-compat", "dpkg-dev", "pkg-kde-tools", "qml-module-qtquick-window2", "qml-module-qtquick2", "qtbase5-dev", "qtbase5-private-dev", "qtdeclarative5-dev-tools", "qtdeclarative5-private-dev"], or 
 output: 
 [] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "golang-any", "golang-github-containerd-console-dev", "golang-github-containerd-containerd-dev", "golang-github-containerd-continuity-dev", "golang-github-containerd-go-cni-dev", "golang-github-coreos-go-systemd-dev", "golang-github-docker-docker-dev", "golang-github-docker-go-metrics-dev", "golang-github-golang-groupcache-dev", "golang-github-google-gofuzz-dev", "golang-github-hanwen-go-fuse-dev", "golang-github-hashicorp-go-multierror-dev", "golang-github-klauspost-compress-dev", "golang-github-moby-sys-dev", "golang-github-opencontainers-go-digest-dev", "golang-github-opencontainers-image-spec-dev", "golang-github-opencontainers-specs-dev", "golang-github-pelletier-go-toml-dev", "golang-github-pkg-errors-dev", "golang-github-rs-xid-dev", "golang-github-urfave-cli-dev", "golang-github-vbatts-tar-split-dev", "golang-golang-x-sync-dev", "golang-golang-x-sys-dev", "golang-google-grpc-dev", "golang-google-protobuf-dev", "golang-gopkg-inf.v0-dev", "golang-logrus-dev", "golang-prometheus-client-dev"], or 
-output: 
-[] is empty!

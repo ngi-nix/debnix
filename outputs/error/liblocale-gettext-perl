@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "perl:native", "perl-xs-dev"], or 
+["debhelper-compat", "perl-xs-dev", "perl:native"], or 
 output: 
 [] is empty!

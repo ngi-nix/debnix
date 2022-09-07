@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-[], or 
-output: 
-["asciidoc", "dbus", "docbook-xml", "docbook-xsl-nons", "gettext", "glib", "gobject-introspection", "json-glib", "libsoup", "libstemmer", "libxml2", "libxslt", "meson", "ninja", "pkg-config-wrapper", "sqlite", "systemd", "util-linux-minimal", "vala"] is empty!

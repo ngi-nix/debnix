@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["byacc", "chrpath", "cups", "cups-client", "cups-filters", "debhelper-compat", "flex", "gettext", "ghostscript-cups", "gimp", "gimp-gutenprint", "gutenprint-doc", "gutenprint-locales", "libcups2-dev", "libcupsimage2-dev", "libgimp2.0-dev", "libgutenprint-common", "libgutenprint-dev", "libgutenprint-doc", "libgutenprint9", "libgutenprintui2-2", "libijs-dev", "libjs-jquery", "libreadline-dev", "libusb-1.0-0-dev", "pkg-config", "printer-driver-gutenprint", "zlib1g-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bedtools", "bowtie", "bowtie2", "bwa", "clark", "clustalo", "clustalw", "cufflinks", "cutadapt", "debhelper-compat", "default-jre-headless", "fastqc", "hisat2", "hmmer", "hmmer2", "kalign", "kraken", "libprocps-dev", "libqt5opengl5-dev", "libqt5svg5-dev", "libqt5webkit5-dev", "libqt5websockets5-dev", "libsqlite3-dev", "libxtst-dev", "macs", "mafft", "metaphlan2", "mrbayes", "muscle", "ncbi-blast+", "phyml", "primer3", "qt5-qmake", "qtbase5-dev", "qtchooser", "qtscript5-dev", "qttools5-dev", "qtwebengine5-dev", "r-base", "samtools", "spades", "t-coffee", "trimmomatic", "ugene-data", "vcftools", "wevote", "zlib1g-dev"], or 
-output: 
-[] is empty!

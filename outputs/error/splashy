@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "cdbs", "chrpath", "console-common", "debhelper", "initramfs-tools", "libdirectfb-1.0-0", "libdirectfb-dev", "libdirectfb-extra", "libglib2.0-dev", "libmagic-dev", "libsplashy1", "libtool", "lsb-base", "perl", "quilt", "splashy-themes", "upstart"], or 
-output: 
-[] is empty!

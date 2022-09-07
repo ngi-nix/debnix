@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["awk", "debhelper", "dpkg", "gcc-multilib", "install-info", "lib32ncurses-dev", "lib32readline8", "lib64ncurses-dev", "lib64readline8", "libncurses-dev", "libreadline8", "mawk", "readline-common", "readline-common-udeb", "readline-doc", "texinfo"], or 
-output: 
-[] is empty!

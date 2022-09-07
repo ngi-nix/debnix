@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apt", "bash-completion", "debhelper-compat", "libapt-pkg-perl", "liblist-moreutils-perl", "libregexp-assemble-perl", "libtest-minimumversion-perl", "libtest-strict-perl", "perl"], or 
-output: 
-[] is empty!

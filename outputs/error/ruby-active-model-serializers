@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gem2deb", "pry", "rake", "ruby-actionpack", "ruby-activemodel", "ruby-activerecord", "ruby-case-transform", "ruby-grape", "ruby-json-schema", "ruby-jsonapi-renderer", "ruby-kaminari", "ruby-rails", "ruby-railties", "ruby-sqlite3", "ruby-timecop", "ruby-will-paginate"], or 
-output: 
-[] is empty!

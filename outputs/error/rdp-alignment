@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "ant-optional", "debhelper-compat", "default-jdk", "javahelper", "junit4", "libcommons-cli-java", "libcommons-io-java", "libcommons-lang-java", "libjaxb-api-java", "libjaxb-java", "rdp-readseq"], or 
-output: 
-[] is empty!

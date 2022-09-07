@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["binutils", "bsd-mailx", "curl", "debhelper-compat", "default-mta", "e2fsprogs", "file", "iproute2", "liburi-perl", "libwww-perl", "lsof", "mail-transport-agent", "mailutils", "mailx", "net-tools", "po-debconf", "powermgmt-base", "s-nail", "ucf", "unhide", "unhide.rb", "wget"], or 
-output: 
-[] is empty!

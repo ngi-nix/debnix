@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoc", "debhelper", "dh-python", "libbabeltrace2-0", "libbabeltrace2-python-plugin-provider", "libdw-dev", "libelf-dev", "libglib2.0-dev", "python3-all-dev", "python3-bt2", "swig", "xmlto"], or 
-output: 
-[] is empty!

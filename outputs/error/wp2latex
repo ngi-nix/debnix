@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "libjpeg-dev", "libpng-dev", "tex-common", "texlive-fonts-recommended", "texlive-lang-czechslovak", "texlive-lang-other", "texlive-latex-base", "texlive-latex-extra", "texlive-science", "wp2latex-styles"], or 
-output: 
-[] is empty!

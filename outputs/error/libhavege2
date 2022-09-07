@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper-compat", "dh-apparmor", "lsb-base", "apparmor", "libhavege2"], or 
+["apparmor", "debhelper-compat", "dh-apparmor", "libhavege2", "lsb-base"], or 
 output: 
 [] is empty!

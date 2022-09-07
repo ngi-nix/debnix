@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["astyle", "bcpp", "csstidy", "debhelper", "hindent", "indent", "libqscintilla2-qt4-dev", "libqt4-dev", "perltidy", "tidy", "uncrustify", "xmlindent"], or 
-output: 
-[] is empty!

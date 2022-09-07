@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-r", "r-base-dev", "r-cran-base64enc", "r-cran-commonmark", "r-cran-curl", "r-cran-digest", "r-cran-dplyr", "r-cran-glue", "r-cran-htmltools", "r-cran-httr", "r-cran-logger", "r-cran-magrittr", "r-cran-mime", "r-cran-purrr", "r-cran-rmarkdown", "r-cran-rvest", "r-cran-stringi", "r-cran-stringr", "r-cran-tidyr", "r-cran-urltools", "r-cran-xfun", "r-cran-xml2"], or 
-output: 
-[] is empty!

@@ -1,5 +1,6 @@
 {
   "pkgs_name": "libaudio2",
+  "nix_pkg": null,
   "control_file_hash": "55bfaddc356cd66b16fee5a80a584b7a64072c07c33b6a3432d2355db02153eb",
   "deb_inputs": [
     "audiooss",
@@ -37,10 +38,10 @@
     "xorgproto"
   ],
   "map": {
-    "bison": "bison",
-    "libxaw7-dev": "libXaw",
-    "flex": "flex",
     "libxau-dev": "libXau",
-    "libxt-dev": "libXt"
+    "libxaw7-dev": "libXaw",
+    "libxt-dev": "libXt",
+    "flex": "flex",
+    "bison": "bison"
   }
 }

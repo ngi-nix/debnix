@@ -1,5 +1,5 @@
 Nothing to Match: Nothing to match, 
 input: 
-["debhelper", "cmake", "doxygen", "libyajl2"], or 
+["cmake", "debhelper", "doxygen", "libyajl2"], or 
 output: 
 [] is empty!
