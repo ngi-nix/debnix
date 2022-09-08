@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "flameshot",
+  "nix_pkg": "flameshot",
+  "control_file_hash": "e267c1ec2b88618761275cfbe721cebed0a2614c5187b9789746b334e243bf63",
+  "deb_inputs": [
+    "ca-certificates",
+    "cmake",
+    "debhelper-compat",
+    "grim",
+    "hicolor-icon-theme",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libsingleapplication-dev",
+    "openssl",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "xdg-desktop-portal-gnome",
+    "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal-kde",
+    "xdg-desktop-portal-wlr"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

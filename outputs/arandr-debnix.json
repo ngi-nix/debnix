@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "arandr",
+  "nix_pkg": "arandr",
+  "control_file_hash": "29b10e863b68767f1b9f0883f77ffeab3558148b3d303b68d0a00b00b9b308f0",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "python3",
+    "python3-gi",
+    "python3-gi-cairo",
+    "x11-xserver-utils"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "pygobject",
+    "python3",
+    "setuptools",
+    "xrandr"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "python3-gi-cairo": "pygobject",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libgnome-menu-3-0",
+  "nix_pkg": null,
+  "control_file_hash": "637e2a341e40994680b8e57704990565d7fd7885963a8e850ced94332c370d53",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "gir1.2-gmenu-3.0",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgnome-menu-3-0",
+    "python3"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib"
+  }
+}

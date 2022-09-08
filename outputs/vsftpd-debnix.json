@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "vsftpd",
+  "nix_pkg": "vsftpd",
+  "control_file_hash": "ad7ffd3bca1cfaa1ddb5e44da0490231c08d9840f4112963591f377dc01c7fc8",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "libcap2-dev",
+    "libpam-modules",
+    "libpam0g-dev",
+    "libssl-dev",
+    "libwrap0-dev",
+    "logrotate",
+    "lsb-base",
+    "netbase",
+    "procps",
+    "ssl-cert",
+    "sysvinit-utils",
+    "vsftpd"
+  ],
+  "nix_inputs": [
+    "libcap",
+    "libseccomp",
+    "linux-pam",
+    "openssl"
+  ],
+  "map": {
+    "libcap2-dev": "libcap",
+    "libssl-dev": "openssl"
+  }
+}

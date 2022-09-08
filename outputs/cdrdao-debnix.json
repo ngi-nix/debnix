@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "cdrdao",
+  "nix_pkg": "cdrdao",
+  "control_file_hash": "faf15959ab8458cf068d4a215281aac1ed6b2a0938ab06a662a44ba5674a1f26",
+  "deb_inputs": [
+    "antlr",
+    "debhelper-compat",
+    "libao-dev",
+    "libcam-dev",
+    "libperl4-corelibs-perl",
+    "libvorbis-dev",
+    "perl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libao",
+    "libmad",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "libao-dev": "libao"
+  }
+}

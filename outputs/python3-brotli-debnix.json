@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "python3-brotli",
+  "nix_pkg": null,
+  "control_file_hash": "6803699ccef028c3ed2d853f9b0bc2c55e207a44eb72c166f12169a876f5ab61",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "libbrotli1",
+    "libpython3-all-dev",
+    "python3-all-dev:any",
+    "python3-setuptools",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

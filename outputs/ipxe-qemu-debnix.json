@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "ipxe-qemu",
+  "nix_pkg": null,
+  "control_file_hash": "4558ef4378ab46c5e5146db4fa7c0473539ff0e808e5146a67a1486b34947a4c",
+  "deb_inputs": [
+    "binutils-dev",
+    "debhelper-compat",
+    "dh-exec",
+    "dosfstools",
+    "dpkg-source-gitarchive",
+    "isolinux",
+    "liblzma-dev",
+    "mtools",
+    "syslinux-common",
+    "syslinux-utils",
+    "xorriso",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gnu-efi",
+    "mtools",
+    "openssl",
+    "perl",
+    "syslinux",
+    "xorriso",
+    "xz"
+  ],
+  "map": {
+    "isolinux": "syslinux",
+    "syslinux-common": "syslinux",
+    "xorriso": "xorriso",
+    "mtools": "mtools",
+    "syslinux-utils": "syslinux"
+  }
+}

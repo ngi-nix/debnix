@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "netpbm",
+  "nix_pkg": "netpbm",
+  "control_file_hash": "81739d85df8ace8c2bfe8af889e2c2988cef1e477366dcd3ef2cfa3a09ad22e9",
+  "deb_inputs": [
+    "d-shlibs",
+    "debhelper-compat",
+    "flex",
+    "ghostscript",
+    "libjpeg-dev",
+    "libnetpbm11",
+    "libpng-dev",
+    "libtiff5-dev",
+    "libx11-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "flex",
+    "jbigkit",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "flex": "flex",
+    "zlib1g-dev": "zlib",
+    "libtiff5-dev": "libtiff",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxml2-dev": "libxml2"
+  }
+}

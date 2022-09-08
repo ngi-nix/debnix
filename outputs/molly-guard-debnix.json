@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "molly-guard",
+  "nix_pkg": "molly-guard",
+  "control_file_hash": "2979e22ed80799c88466b054187fe28e4efd0c14a452099acb2e46512bc6509f",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xsl",
+    "procps",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "dpkg"
+  ],
+  "map": {}
+}

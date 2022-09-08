@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "policycoreutils",
+  "nix_pkg": "policycoreutils",
+  "control_file_hash": "4e0fe85bce50a97c83cfa208787eeae1c5a34663f1fa908b2c5598ea65a61ce2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gawk",
+    "gettext",
+    "libaudit-dev",
+    "libcap-ng-dev",
+    "libcap2-bin",
+    "libpam0g-dev",
+    "libselinux1-dev",
+    "libsemanage-dev",
+    "libsepol-dev",
+    "lsb-base",
+    "policycoreutils",
+    "selinux-utils"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libselinux",
+    "libsemanage",
+    "libsepol"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "selinux-utils": "libselinux",
+    "libsemanage-dev": "libsemanage",
+    "libsepol-dev": "libsepol",
+    "libselinux1-dev": "libselinux"
+  }
+}

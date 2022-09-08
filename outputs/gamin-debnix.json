@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gamin",
+  "nix_pkg": "gamin",
+  "control_file_hash": "85e4fc4bb576792797fe638227008ab907612d41264b1cdce894a6f7ab30a574",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gamin",
+    "gnome-pkg-tools",
+    "libgamin0",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

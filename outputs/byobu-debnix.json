@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "byobu",
+  "nix_pkg": "byobu",
+  "control_file_hash": "70b7c44a7a369e5b788c5f693886eb7a22e7c8b06a95459d31cf02615f8d81ee",
+  "deb_inputs": [
+    "apport",
+    "autoconf",
+    "automake",
+    "ccze",
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "dh-python",
+    "gawk",
+    "gettext-base",
+    "gnome-terminal",
+    "gnupg",
+    "iproute2",
+    "less",
+    "lsb-release",
+    "pastebinit",
+    "po-debconf",
+    "python3",
+    "python3-newt",
+    "run-one",
+    "screen",
+    "sensible-utils",
+    "speedometer",
+    "tmux",
+    "ttf-ubuntu-font-family",
+    "update-notifier-common",
+    "vim",
+    "wireless-tools",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "perl",
+    "screen",
+    "tmux"
+  ],
+  "map": {
+    "tmux": "tmux",
+    "gettext-base": "gettext",
+    "screen": "screen"
+  }
+}

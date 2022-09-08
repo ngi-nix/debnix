@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "plasma-thunderbolt",
+  "nix_pkg": "plasma-thunderbolt",
+  "control_file_hash": "424f2aae4f42e577e80b63c45003b999b10ee0e2f25c59d260c16d832bb10d0d",
+  "deb_inputs": [
+    "bolt",
+    "cmake",
+    "dbus-x11",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5coreaddons-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5declarative-dev",
+    "libkf5i18n-dev",
+    "libkf5kcmutils-dev",
+    "libkf5notifications-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qml-module-org-kde-kcm",
+    "qml-module-org-kde-kirigami2",
+    "qml-module-org-kde-kquickcontrolsaddons",
+    "qml-module-qtquick-layouts",
+    "qml-module-qtquick2",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "systemsettings",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "bolt",
+    "extra-cmake-modules",
+    "kcmutils",
+    "kcoreaddons"
+  ],
+  "map": {
+    "bolt": "bolt",
+    "libkf5kcmutils-dev": "kcmutils",
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

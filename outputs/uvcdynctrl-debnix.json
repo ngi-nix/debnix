@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "uvcdynctrl",
+  "nix_pkg": "uvcdynctrl",
+  "control_file_hash": "9e8e0ced4c52304767a0871df3a5e4e72020ca20d6f96fb5c6cfe807f0b7766f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gengetopt",
+    "libwebcam0",
+    "libxml2-dev",
+    "pkg-config",
+    "uvcdynctrl-data"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "cmake": "cmake"
+  }
+}

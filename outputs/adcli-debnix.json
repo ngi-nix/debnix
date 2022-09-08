@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "adcli",
+  "nix_pkg": "adcli",
+  "control_file_hash": "08a2793014ba6474f276130efbeeb0a72902be2b525a2ee905252a7f01cbb83f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libkrb5-dev",
+    "libldap2-dev",
+    "libsasl2-dev",
+    "libsasl2-modules-gssapi-mit",
+    "xmlto",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "docbook-xsl-nons",
+    "libkrb5",
+    "libxslt",
+    "openldap",
+    "pkg-config-wrapper",
+    "util-linux",
+    "xmlto"
+  ],
+  "map": {
+    "libldap2-dev": "openldap",
+    "xsltproc": "libxslt",
+    "libkrb5-dev": "libkrb5",
+    "xmlto": "xmlto"
+  }
+}

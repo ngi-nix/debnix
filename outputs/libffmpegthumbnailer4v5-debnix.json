@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libffmpegthumbnailer4v5",
+  "nix_pkg": null,
+  "control_file_hash": "6a7761ea232ba4f21940b2d21bb02b7570c6783506528db958d5105ebad59426",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libffmpegthumbnailer4v5",
+    "libglib2.0-0",
+    "libjpeg-dev",
+    "libpng-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ffmpeg",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libavutil-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg",
+    "libjpeg-dev": "libjpeg-turbo",
+    "cmake": "cmake",
+    "libavfilter-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg"
+  }
+}

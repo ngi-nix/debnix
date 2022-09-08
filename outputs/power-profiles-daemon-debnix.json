@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "power-profiles-daemon",
+  "nix_pkg": "power-profiles-daemon",
+  "control_file_hash": "10056622c674efe35d7073a2dd17f8f9f3e1e3f3c29901ea2abb0b49b0aafd6f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgudev-1.0-dev",
+    "libpolkit-gobject-1-dev",
+    "libudev-dev",
+    "libumockdev-dev",
+    "libupower-glib-dev",
+    "libxml2-utils",
+    "meson",
+    "python3-dbus",
+    "python3-dbusmock",
+    "python3-gi",
+    "systemd",
+    "umockdev"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "libgudev",
+    "libxml2",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "polkit",
+    "python3",
+    "systemd",
+    "umockdev",
+    "upower"
+  ],
+  "map": {
+    "systemd": "systemd",
+    "libxml2-utils": "libxml2",
+    "umockdev": "umockdev",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libgudev-1.0-dev": "libgudev",
+    "libupower-glib-dev": "upower",
+    "libudev-dev": "systemd",
+    "libumockdev-dev": "umockdev"
+  }
+}

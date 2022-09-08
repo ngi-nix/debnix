@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libgettextpo0",
+  "nix_pkg": null,
+  "control_file_hash": "b432ac3fd9b4b6c8863b1c88a6eb141ac8a08e55b6f7fc7587fb474bd53a3442",
+  "deb_inputs": [
+    "autopoint",
+    "bison",
+    "curl",
+    "debhelper-compat",
+    "default-jdk",
+    "dh-exec",
+    "file",
+    "gettext",
+    "gettext-base",
+    "gettext-doc",
+    "groff",
+    "help2man",
+    "libasprintf-dev",
+    "libasprintf0v5",
+    "libgettextpo-dev",
+    "libgettextpo0",
+    "libunistring-dev",
+    "libxml2-dev",
+    "lynx",
+    "maven-repo-helper",
+    "wget",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}

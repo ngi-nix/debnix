@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "cryfs",
+  "nix_pkg": "cryfs",
+  "control_file_hash": "094cec84a76987b71e1e9a1876895b44e6c2eca7f7f158bc1afcb10bddf0ffc8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "fuse",
+    "libboost-chrono-dev",
+    "libboost-filesystem-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libboost-thread-dev",
+    "libcrypto++-dev",
+    "libcurl4-openssl-dev",
+    "libfuse-dev",
+    "librange-v3-dev",
+    "libspdlog-dev",
+    "libssl-dev",
+    "pkg-config",
+    "python3-all"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "curl",
+    "fuse",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "range-v3",
+    "spdlog"
+  ],
+  "map": {
+    "libspdlog-dev": "spdlog",
+    "fuse": "fuse",
+    "libssl-dev": "openssl",
+    "librange-v3-dev": "range-v3",
+    "libfuse-dev": "fuse",
+    "cmake": "cmake",
+    "libcurl4-openssl-dev": "curl"
+  }
+}
