@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libstoken1",
+  "nix_pkg": null,
+  "control_file_hash": "199eb6b5b0fab945bba1661ea8b56491090d3b8d1b25cb19ad06aa80110c7047",
+  "deb_inputs": [
+    "debhelper",
+    "imagemagick",
+    "libgtk-3-dev",
+    "libstoken1",
+    "libtomcrypt-dev",
+    "libxml2-dev",
+    "qrencode",
+    "zbar-tools"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+3",
+    "libtool",
+    "libxml2",
+    "nettle",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "pdns-recursor",
+  "nix_pkg": "pdns-recursor",
+  "control_file_hash": "e4f6eaca6991a472e05b30ba4989f9db7815dcf700b8b8056fe7840f0ab6ab10",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dns-root-data",
+    "libboost-context-dev",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libboost-test-dev",
+    "libboost-thread-dev",
+    "libcap-dev",
+    "libcurl4-openssl-dev",
+    "libfstrm-dev",
+    "liblua5.3-dev",
+    "libluajit-5.1-dev",
+    "libprotobuf-dev",
+    "libsnmp-dev",
+    "libsodium-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "pkg-config",
+    "protobuf-compiler",
+    "publicsuffix",
+    "ragel",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "boost",
+    "lua",
+    "openssl",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "systemd": "systemd",
+    "libssl-dev": "openssl",
+    "libboost-dev": "boost",
+    "libsystemd-dev": "systemd",
+    "liblua5.3-dev": "lua"
+  }
+}

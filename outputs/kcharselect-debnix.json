@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "kcharselect",
+  "nix_pkg": "kcharselect",
+  "control_file_hash": "53aaec8951c7edef70c5067d0c374c920f90d3435b5faf25f4b31dc5c65416bb",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libkf5bookmarks-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kbookmarks",
+    "kconfig",
+    "kconfigwidgets",
+    "kcoreaddons",
+    "kcrash",
+    "kdoctools",
+    "ki18n",
+    "kwidgetsaddons",
+    "kxmlgui"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5widgetsaddons-dev": "kwidgetsaddons",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5xmlgui-dev": "kxmlgui",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5crash-dev": "kcrash",
+    "libkf5bookmarks-dev": "kbookmarks"
+  }
+}

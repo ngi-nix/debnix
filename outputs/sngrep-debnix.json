@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "sngrep",
+  "nix_pkg": "sngrep",
+  "control_file_hash": "807a1b940239356ff9e92674770461de9c36fc59e6b7a3bb2449731cf7f30915",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-dev",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libpcap-dev",
+    "libpcre2-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libpcap",
+    "ncurses",
+    "openssl",
+    "pcre"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre",
+    "libncurses5-dev": "ncurses",
+    "libpcap-dev": "libpcap",
+    "libncursesw5-dev": "ncurses"
+  }
+}

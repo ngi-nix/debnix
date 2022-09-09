@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "odt2txt",
+  "nix_pkg": "odt2txt",
+  "control_file_hash": "f814fb5228af28fbed09a59ba40cdba89147e3d8bae7510ac6d43d74520f1d7f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libzip-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

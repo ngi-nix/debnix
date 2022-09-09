@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "mktemp",
+  "nix_pkg": "mktemp",
+  "control_file_hash": "1a04ea73277f17c27ff7b4d8ab1471392594babc6086a035e4e6175b9470a14b",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "gettext",
+    "gperf",
+    "groff",
+    "libacl1-dev",
+    "libattr1-dev",
+    "libgmp3-dev",
+    "libselinux1-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "gmp-with-cxx-stage4",
+    "perl",
+    "xz"
+  ],
+  "map": {
+    "libattr1-dev": "attr",
+    "libacl1-dev": "acl"
+  }
+}

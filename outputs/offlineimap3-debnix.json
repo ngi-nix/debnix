@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "offlineimap3",
+  "nix_pkg": null,
+  "control_file_hash": "9696730403c88a2023b720b9b3ef1bdf69b730095effbdf782f9c64e32324710",
+  "deb_inputs": [
+    "asciidoc",
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xml",
+    "docbook-xsl",
+    "libxml2-utils",
+    "offlineimap3",
+    "python3-all",
+    "python3-distro",
+    "python3-gssapi",
+    "python3-imaplib2",
+    "python3-setuptools",
+    "python3-six",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "certifi",
+    "distro",
+    "docbook-xsl-nons",
+    "imaplib2",
+    "libxml2",
+    "libxslt",
+    "pysocks",
+    "python3",
+    "rfc6555",
+    "setuptools",
+    "urllib3"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "xsltproc": "libxslt",
+    "python3-setuptools": "setuptools",
+    "libxml2-utils": "libxml2"
+  }
+}

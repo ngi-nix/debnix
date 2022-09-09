@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "kpart5-kompare",
+  "nix_pkg": null,
+  "control_file_hash": "7440f527142735af65b6e2b5f0334767e8c09c237068a2f04172c484566ee56e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "kpart5-kompare",
+    "libkf5codecs-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5iconthemes-dev",
+    "libkf5jobwidgets-dev",
+    "libkf5parts-dev",
+    "libkf5texteditor-dev",
+    "libkf5widgetsaddons-dev",
+    "libkomparediff2-dev",
+    "libkompareinterface5",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "kiconthemes",
+    "kparts",
+    "ktexteditor",
+    "kwidgetsaddons",
+    "libkomparediff2"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5parts-dev": "kparts",
+    "libkf5texteditor-dev": "ktexteditor",
+    "libkf5widgetsaddons-dev": "kwidgetsaddons",
+    "libkomparediff2-dev": "libkomparediff2",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5iconthemes-dev": "kiconthemes"
+  }
+}

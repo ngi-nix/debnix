@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "bsdgames",
+  "nix_pkg": "bsdgames",
+  "control_file_hash": "98590dbd742da8b5bf3350353b4fc66c66218937c40ad2663fbe1f3d570a3c4e",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "groff",
+    "libfl-dev",
+    "libncurses5-dev",
+    "wamerican",
+    "wbritish",
+    "wordlist"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "ncurses",
+    "openssl"
+  ],
+  "map": {
+    "bison": "bison",
+    "libncurses5-dev": "ncurses",
+    "libfl-dev": "flex",
+    "flex": "flex"
+  }
+}

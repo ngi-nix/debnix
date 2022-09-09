@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "python3-alembic",
+  "nix_pkg": null,
+  "control_file_hash": "f8e0c8259db33665ce3ad8bd8258bd127735c45fedc06c07a545b9c20d3f9208",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-alembic",
+    "python3-all",
+    "python3-changelog",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-paramlinks"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "hdf5-threadsafe",
+    "openexr",
+    "unzip"
+  ],
+  "map": {}
+}

@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "xournalpp",
+  "nix_pkg": "xournalpp",
+  "control_file_hash": "2208a68d85f6f0d7683ee9e0cbe7b3d8471c5904dd148df2f09884cd13b404e5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libcppunit-dev",
+    "libgtk-3-dev",
+    "liblua5.3-dev",
+    "libpoppler-glib-dev",
+    "librsvg2-dev",
+    "libsndfile-dev",
+    "libsndfile1-dev",
+    "libxml2-dev",
+    "libzip-dev",
+    "lua-lgi",
+    "portaudio19-dev",
+    "texlive-base",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gettext",
+    "glib",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "librsvg",
+    "libsndfile",
+    "libxml2",
+    "libzip",
+    "lua",
+    "pcre",
+    "pkg-config-wrapper",
+    "poppler-glib",
+    "portaudio",
+    "zlib"
+  ],
+  "map": {
+    "liblua5.3-dev": "lua",
+    "libzip-dev": "libzip",
+    "libsndfile-dev": "libsndfile",
+    "libsndfile1-dev": "libsndfile",
+    "libxml2-dev": "libxml2",
+    "cmake": "cmake",
+    "portaudio19-dev": "portaudio",
+    "librsvg2-dev": "librsvg"
+  }
+}

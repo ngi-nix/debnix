@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "hexedit",
+  "nix_pkg": "hexedit",
+  "control_file_hash": "dada1b472ce9ae550cf2d74046d70dcc5fa0578c895bbf547dc584b81b3ba87e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

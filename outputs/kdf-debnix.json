@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "kdf",
+  "nix_pkg": "kdf",
+  "control_file_hash": "18f58e333db4166ea53e4b7951cfcc49bda73dceae9fcb04d6b54b682f187774",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5kcmutils-dev",
+    "libkf5kio-dev",
+    "libkf5notifications-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kcmutils",
+    "kdoctools",
+    "ki18n",
+    "kiconthemes",
+    "kio",
+    "knotifications",
+    "kxmlgui"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5kcmutils-dev": "kcmutils",
+    "libkf5kio-dev": "kio",
+    "libkf5iconthemes-dev": "kiconthemes",
+    "libkf5xmlgui-dev": "kxmlgui",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5notifications-dev": "knotifications"
+  }
+}

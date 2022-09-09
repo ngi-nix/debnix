@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "mediainfo-gui",
+  "nix_pkg": "mediainfo-gui",
+  "control_file_hash": "c6da0cdae010139c1e99adef2ce635c6d85be15514a0d5a7bdadc4cad9c92a3b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmediainfo-dev",
+    "libwxgtk3.0-gtk3-dev",
+    "libzen-dev",
+    "mediainfo-gui",
+    "pkg-config",
+    "rename",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "imagemagick",
+    "libSM",
+    "libmediainfo",
+    "libzen",
+    "pkg-config-wrapper",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "libzen-dev": "libzen",
+    "libmediainfo-dev": "libmediainfo",
+    "zlib1g-dev": "zlib"
+  }
+}
