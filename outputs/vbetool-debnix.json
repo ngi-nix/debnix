@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "vbetool",
+  "nix_pkg": "vbetool",
+  "control_file_hash": "d47cec801eb5840f5ee00db04498465b3ff6b165fa38b13df05baf2c0b17c696",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpci-dev",
+    "libx86-dev"
+  ],
+  "nix_inputs": [
+    "libx86",
+    "pciutils",
+    "zlib"
+  ],
+  "map": {
+    "libx86-dev": "libx86",
+    "libpci-dev": "pciutils"
+  }
+}

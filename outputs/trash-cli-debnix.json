@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "trash-cli",
+  "nix_pkg": "trash-cli",
+  "control_file_hash": "cde4bab839f452a801dae3c6562cfc3604efabe702ab898fefa4357abd0f81aa",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-mock",
+    "python3-nose",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mock",
+    "psutil",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-setuptools": "setuptools",
+    "python3-pkg-resources": "setuptools"
+  }
+}

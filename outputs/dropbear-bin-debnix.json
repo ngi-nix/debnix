@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "dropbear-bin",
+  "nix_pkg": null,
+  "control_file_hash": "fd22218c1b0664974a4c3e3330a86c5c1a313934c362d8da76454cd9ec1a82df",
+  "deb_inputs": [
+    "busybox",
+    "busybox-static",
+    "cryptsetup-initramfs",
+    "debhelper",
+    "debhelper-compat",
+    "dropbear",
+    "dropbear-bin",
+    "dropbear-initramfs",
+    "initramfs-tools",
+    "libtomcrypt-dev",
+    "libtommath-dev",
+    "libz-dev",
+    "lsb-base",
+    "openssh-client",
+    "runit",
+    "udev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

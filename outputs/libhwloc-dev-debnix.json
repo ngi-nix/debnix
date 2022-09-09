@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libhwloc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "83ec25a0dd885ba6b4692e9c82953c3d67f88a6544e21e9417a413af83b58295",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "libcairo2-dev",
+    "libhwloc-contrib-plugins",
+    "libhwloc-plugins",
+    "libhwloc15",
+    "libjs-jquery",
+    "libltdl-dev",
+    "libncurses5-dev",
+    "libnuma-dev",
+    "libpciaccess-dev",
+    "libudev-dev",
+    "libx11-dev",
+    "libxml2-dev",
+    "libxml2-utils",
+    "libxnvctrl-dev",
+    "ocl-icd-opencl-dev",
+    "opencl-dev",
+    "opencl-headers",
+    "pkg-config",
+    "valgrind-if-available"
+  ],
+  "nix_inputs": [
+    "expat",
+    "ncurses",
+    "numactl",
+    "pciutils",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnuma-dev": "numactl",
+    "libncurses5-dev": "ncurses"
+  }
+}

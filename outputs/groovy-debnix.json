@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "groovy",
+  "nix_pkg": "groovy",
+  "control_file_hash": "22bcb5b39853398b25d088f0ec0e6c2574e43815715f59c2ef2061f2b5804c84",
+  "deb_inputs": [
+    "ant",
+    "ant-doc",
+    "ant-optional",
+    "antlr",
+    "bnd",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre-headless",
+    "gradle-debian-helper",
+    "groovy",
+    "groovy-doc",
+    "ivy",
+    "java7-runtime-headless",
+    "junit4",
+    "junit4-doc",
+    "language-pack-en",
+    "libasm-java",
+    "libbsf-java",
+    "libcommons-cli-java",
+    "libcommons-logging-java",
+    "libgpars-groovy-java",
+    "libjansi-java",
+    "libjarjar-java",
+    "libjcommander-java",
+    "libjline2-java",
+    "libqdox-java",
+    "libservlet3.1-java",
+    "libservlet3.1-java-doc",
+    "libxstream-java",
+    "locales-all",
+    "maven-repo-helper",
+    "testng",
+    "unzip"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {
+    "unzip": "unzip"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "dict",
+  "nix_pkg": "dict",
+  "control_file_hash": "9560a168ee6f3fcdb35242584995b477249013d8ddd6774991eaceca076a00bd",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "debhelper-compat",
+    "dict",
+    "dict-client",
+    "dict-foldoc",
+    "dict-gcide",
+    "dict-jargon",
+    "dict-server",
+    "dict-wn",
+    "dictd",
+    "dictd-dictionary",
+    "dictzip",
+    "flex",
+    "gawk",
+    "libltdl-dev",
+    "libmaa-dev",
+    "libtool-bin",
+    "lsb-base",
+    "m4",
+    "netbase",
+    "recode",
+    "ucf",
+    "update-inetd",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libmaa",
+    "libtool",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "flex": "flex",
+    "zlib1g-dev": "zlib",
+    "libmaa-dev": "libmaa",
+    "bison": "bison",
+    "libltdl-dev": "libtool",
+    "libtool-bin": "libtool"
+  }
+}

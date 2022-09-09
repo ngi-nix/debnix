@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "gramps",
+  "nix_pkg": "gramps",
+  "control_file_hash": "a773c07272580d617c70ab748107ef93707e113b15631fbc378a49ce5fe2cfe1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "gir1.2-geocodeglib-1.0",
+    "gir1.2-gexiv2-0.10",
+    "gir1.2-goocanvas-2.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-gtkspell3-3.0",
+    "gir1.2-osmgpsmap-1.0",
+    "graphviz",
+    "librsvg2-2",
+    "python3-bsddb3",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-icu",
+    "python3-numpy",
+    "python3-pil",
+    "rcs",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "PyICU",
+    "bsddb3",
+    "gettext",
+    "gexiv2",
+    "ghostscript-with-X",
+    "glib-networking",
+    "gobject-introspection",
+    "graphviz",
+    "gtk+3",
+    "intltool",
+    "osm-gps-map",
+    "pango",
+    "pycairo",
+    "pygobject",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "python3-icu": "PyICU",
+    "gir1.2-gexiv2-0.10": "gexiv2",
+    "graphviz": "graphviz",
+    "python3-gi-cairo": "pygobject",
+    "gir1.2-osmgpsmap-1.0": "osm-gps-map"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libenchant1c2a",
+  "nix_pkg": null,
+  "control_file_hash": "f8e536eba0d2fa80ccef0ee65a150bea1f4b2fc4a82b9efb0ab2654f3cf708ca",
+  "deb_inputs": [
+    "aspell-dictionary",
+    "aspell-en",
+    "chrpath",
+    "debhelper",
+    "dh-autoreconf",
+    "enchant",
+    "hspell",
+    "hunspell-dictionary",
+    "ispell-dictionary",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libenchant-voikko",
+    "libenchant1c2a",
+    "libglib2.0-dev",
+    "libhunspell-dev",
+    "libpspell-dev",
+    "libvoikko-dev",
+    "libz-dev",
+    "myspell-dictionary"
+  ],
+  "nix_inputs": [
+    "aspell",
+    "glib",
+    "hunspell",
+    "nuspell",
+    "pkg-config-wrapper",
+    "unittest-cpp"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libhunspell-dev": "hunspell",
+    "libpspell-dev": "aspell"
+  }
+}

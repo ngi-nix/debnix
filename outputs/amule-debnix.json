@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "amule",
+  "nix_pkg": "amule",
+  "control_file_hash": "df71db75b3e82e22018089678c053cb6bfb21f0b4f2f60340c65cc14407700a3",
+  "deb_inputs": [
+    "amule",
+    "amule-common",
+    "amule-daemon",
+    "amule-gnome-support",
+    "amule-utils",
+    "amule-utils-gui",
+    "autoconf",
+    "automake",
+    "autopoint",
+    "autotools-dev",
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "libboost-dev",
+    "libboost-system-dev",
+    "libcrypto++-dev",
+    "libgd-dev",
+    "libgeoip-dev",
+    "libglib2.0-dev",
+    "libpng-dev",
+    "libreadline-dev",
+    "libupnp-dev",
+    "libwxgtk3.0-gtk3-dev",
+    "lsb-base",
+    "unzip",
+    "wx3.0-i18n",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "crypto++",
+    "gettext",
+    "libupnp",
+    "perl",
+    "pkg-config-wrapper",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "wx3.0-i18n": "wxwidgets",
+    "libboost-dev": "boost",
+    "libcrypto++-dev": "crypto++",
+    "libupnp-dev": "libupnp",
+    "autopoint": "gettext"
+  }
+}

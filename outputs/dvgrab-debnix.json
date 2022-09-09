@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "dvgrab",
+  "nix_pkg": "dvgrab",
+  "control_file_hash": "b743771a293d156f52a0607ea86fefa7bb5fa0974840fb058a97ea642cac0bb9",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libavc1394-dev",
+    "libdv4-dev",
+    "libiec61883-dev",
+    "libjpeg-dev",
+    "libquicktime-dev",
+    "libraw1394-dev",
+    "pkg-config",
+    "quilt",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libavc1394",
+    "libdv",
+    "libiec61883",
+    "libjpeg-turbo",
+    "libraw1394",
+    "libunwind",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libraw1394-dev": "libraw1394",
+    "libdv4-dev": "libdv",
+    "libiec61883-dev": "libiec61883",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libavc1394-dev": "libavc1394"
+  }
+}

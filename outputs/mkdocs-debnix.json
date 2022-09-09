@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "mkdocs",
+  "nix_pkg": "mkdocs",
+  "control_file_hash": "e1b56f8f14abe4dcf9741f52582fc5491f47612392fd0b68dc6d8dbfe2df20db",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-font-awesome",
+    "ghp-import",
+    "libjs-bootstrap4",
+    "libjs-jquery",
+    "libjs-lunr",
+    "libjs-modernizr",
+    "mkdocs-doc",
+    "nodejs",
+    "python3-all",
+    "python3-livereload",
+    "python3-lunr",
+    "python3-pkg-resources",
+    "sphinx-rtd-theme-common"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "babel",
+    "click",
+    "ghp-import",
+    "importlib-metadata",
+    "markdown",
+    "mergedeep",
+    "mock",
+    "packaging",
+    "python3",
+    "pyyaml",
+    "pyyaml-env-tag",
+    "setuptools",
+    "watchdog"
+  ],
+  "map": {
+    "ghp-import": "ghp-import",
+    "python3-pkg-resources": "setuptools"
+  }
+}

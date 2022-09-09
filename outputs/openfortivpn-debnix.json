@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "openfortivpn",
+  "nix_pkg": "openfortivpn",
+  "control_file_hash": "73893935959c7850c5b2a2be4e206b225eb742cd02092aa348d3e1c08086e9f0",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libssl-dev",
+    "libsystemd-dev",
+    "pkg-config",
+    "ppp"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkg-config-wrapper",
+    "ppp",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd",
+    "libssl-dev": "openssl",
+    "ppp": "ppp"
+  }
+}

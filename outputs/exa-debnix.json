@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "exa",
+  "nix_pkg": "exa",
+  "control_file_hash": "cbf38ae7b018c37618e0c926d4ad1ec906346bdfe69fb9e9f5af547e811b553e",
+  "deb_inputs": [
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-ansi-term-0.12+default-dev",
+    "librust-datetime-0.5+format-dev",
+    "librust-datetime-0.5-dev",
+    "librust-glob-0.3+default-dev",
+    "librust-lazy-static-1+default-dev",
+    "librust-libc-0.2+default-dev",
+    "librust-locale-0.2+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-natord-1+default-dev",
+    "librust-num-cpus-1+default-dev",
+    "librust-number-prefix-0.4+default-dev",
+    "librust-scoped-threadpool-0.1+default-dev",
+    "librust-term-grid-0.1+default-dev",
+    "librust-term-size-0.3+default-dev",
+    "librust-unicode-width-0.1+default-dev",
+    "librust-users-0.11+default-dev",
+    "librust-zoneinfo-compiled-0.5+default-dev",
+    "libstd-rust-dev",
+    "pandoc",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "git-minimal",
+    "nss-cacert",
+    "pandoc",
+    "pkg-config-wrapper",
+    "rustc",
+    "zlib"
+  ],
+  "map": {
+    "pandoc": "pandoc",
+    "librust-libc-0.2+default-dev": "rustc",
+    "libstd-rust-dev": "rustc"
+  }
+}

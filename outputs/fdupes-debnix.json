@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "fdupes",
+  "nix_pkg": "fdupes",
+  "control_file_hash": "dd1ef44a5ce9a6dcc95c519d7673c5486ace0c4920f8125e1fd391962a57e566",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses-dev",
+    "libpcre2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pcre2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libpcre2-dev": "pcre2"
+  }
+}

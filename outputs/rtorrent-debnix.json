@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "rtorrent",
+  "nix_pkg": "rtorrent",
+  "control_file_hash": "2625aa2c3d0634bfe1a0aa01a06e25ad1a54a82b5041e38f7e84e1370865ea5e",
+  "deb_inputs": [
+    "bc",
+    "debhelper",
+    "dtach",
+    "libcppunit-dev",
+    "libcurl4-openssl-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libtorrent-dev",
+    "libxmlrpc-core-c3-dev",
+    "pkg-config",
+    "screen"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "cppunit",
+    "curl",
+    "libsigc++",
+    "libtool",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper",
+    "rakshasa-libtorrent",
+    "xmlrpc-c",
+    "zlib"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libcurl4-openssl-dev": "curl",
+    "libxmlrpc-core-c3-dev": "xmlrpc-c",
+    "libcppunit-dev": "cppunit",
+    "libncurses5-dev": "ncurses"
+  }
+}

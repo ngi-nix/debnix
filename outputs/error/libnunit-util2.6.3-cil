@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cli-common-dev", "debhelper", "libnunit-console-runner2.6.3-cil", "libnunit-core-interfaces2.6.3-cil", "libnunit-core2.6.3-cil", "libnunit-doc", "libnunit-framework2.6.3-cil", "libnunit-mocks2.6.3-cil", "libnunit-util2.6.3-cil", "monodoc-manual", "monodoc-nunit-manual", "nuget", "nunit-console", "nunit-gui"], or 
+output: 
+[] is empty!

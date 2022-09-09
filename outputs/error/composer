@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-bash-completion", "dh-sequence-phpcomposer", "fossil", "git", "help2man", "jsonlint", "mercurial", "php-composer-ca-bundle", "php-composer-class-map-generator", "php-composer-metadata-minifier", "php-composer-pcre", "php-composer-semver", "php-composer-spdx-licenses", "php-composer-xdebug-handler", "php-curl", "php-intl", "php-json-schema", "php-mbstring", "php-psr-log", "php-react-promise", "php-seld-signal-handler", "php-symfony-console", "php-symfony-filesystem", "php-symfony-finder", "php-symfony-process", "php-zip", "phpab", "phpunit", "pkg-php-tools", "subversion", "unzip"], or 
+output: 
+[] is empty!

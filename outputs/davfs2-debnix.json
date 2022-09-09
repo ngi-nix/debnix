@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "davfs2",
+  "nix_pkg": "davfs2",
+  "control_file_hash": "d061326d16490170dc0f71dd6d3e33e1925f573a536035f6bd91e07a8363a10d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libneon27-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "neon",
+    "zlib"
+  ],
+  "map": {
+    "libneon27-dev": "neon"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "lynx-cur",
+  "nix_pkg": null,
+  "control_file_hash": "424bcd89fb8ff91de7a2ced5690150e3f87629956e1eb70af4cfd835aeb14ae9",
+  "deb_inputs": [
+    "autoconf-dickey",
+    "debhelper-compat",
+    "gettext",
+    "libbsd-dev",
+    "libbz2-dev",
+    "libgnutls28-dev",
+    "libidn2-dev",
+    "libncursesw5-dev",
+    "lynx",
+    "lynx-common",
+    "mime-support",
+    "openssh-client",
+    "pkg-config",
+    "sharutils",
+    "telnet",
+    "telnet-client",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gzip",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses"
+  }
+}

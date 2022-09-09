@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "gsmartcontrol",
+  "nix_pkg": "gsmartcontrol",
+  "control_file_hash": "cbe8e998b7b63fcd125062f2016b43aab6c7173d027cd2d67860156ef9382c9a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtkmm-3.0-dev",
+    "libpcre3-dev",
+    "smartmontools"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "gettext",
+    "gtkmm",
+    "pcre-cpp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtkmm-3.0-dev": "gtkmm"
+  }
+}
