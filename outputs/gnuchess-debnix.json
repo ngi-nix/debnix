@@ -1,0 +1,1 @@
+{"pkgs_name":"gnuchess","nix_pkg":"gnuchess","control_file_hash":"5db2d85da7aaccf059da0d23b52ad1486ab382ad71c85c1592c443b0e980b816","deb_inputs":["debhelper-compat","eboard","gnuchess-book","scid","xboard"],"nix_inputs":["flex"],"map":{}}

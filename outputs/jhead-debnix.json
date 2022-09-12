@@ -1,0 +1,1 @@
+{"pkgs_name":"jhead","nix_pkg":"jhead","control_file_hash":"3a5219b5b6ddaa42e4c6eb5dfe54135aaec81c444dd9d157d915e6721ddbb1d9","deb_inputs":["debhelper-compat","imagemagick"],"nix_inputs":["libjpeg-turbo"],"map":{}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"auctex","nix_pkg":"auctex","control_file_hash":"afe2ed3e326fb24a9de3dab8c6ae315583a98b2839ab3d2662079d8b4ea17ee8","deb_inputs":["catdvi","dvipng","emacs","emacsen-common","evince","ghostscript","lacheck","okular","preview-latex-style","procps","texlive-latex-recommended","xpdf"],"nix_inputs":["emacs","ghostscript-with-X"],"map":{"emacs":"emacs"}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"duply","nix_pkg":"duply","control_file_hash":"5084395ddedd4b1063c3fc7a75d5c1151ffd359711338a036e0ed7d8492f11bb","deb_inputs":["debhelper-compat","duplicity","gnupg","openssh-client"],"nix_inputs":["txt2man"],"map":{}}
