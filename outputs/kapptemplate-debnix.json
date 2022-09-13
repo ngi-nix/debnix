@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "kapptemplate",
+  "nix_pkg": "kapptemplate",
+  "control_file_hash": "98e2e71bbb91d22974042002de16433b923f9807a7a005ed6c00a500558585fe",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5archive-dev",
+    "libkf5completion-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5plasma-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "kactivities",
+    "qtbase"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake"
+  }
+}

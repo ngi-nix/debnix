@@ -1,1 +1,15 @@
-{"pkgs_name":"tuptime","nix_pkg":"tuptime","control_file_hash":"da7b7ce255f9801f0a0cbf009fa9cf2bd52db1bb31133e7fc5c71efff4623e1e","deb_inputs":["adduser","debhelper-compat","lsb-base","python3:any"],"nix_inputs":["python3"],"map":{}}
+{
+  "pkgs_name": "tuptime",
+  "nix_pkg": "tuptime",
+  "control_file_hash": "da7b7ce255f9801f0a0cbf009fa9cf2bd52db1bb31133e7fc5c71efff4623e1e",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "lsb-base",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

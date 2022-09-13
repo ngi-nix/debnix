@@ -1,1 +1,49 @@
-{"pkgs_name":"unbound-host","nix_pkg":null,"control_file_hash":"e9bb22e9768f75184c63682c1377d7e815dc3dc9e863249dd6a8dd1c49ab1229","deb_inputs":["adduser","apparmor","autoconf","bison","debhelper-compat","dh-apparmor","dh-sequence-python3","dns-root-data","dpkg-dev","flex","libbsd-dev","libevent-dev","libexpat1-dev","libnghttp2-dev","libprotobuf-c-dev","libpython3-dev","libssl-dev","libsystemd-dev","libtool","libunbound8","lsb-base","nettle-dev","openssl","pkg-config","protobuf-c-compiler","python3-dev:any","swig"],"nix_inputs":["bison","expat","libevent","nettle","openssl"],"map":{"libexpat1-dev":"expat","nettle-dev":"nettle","openssl":"openssl","libssl-dev":"openssl","libevent-dev":"libevent","bison":"bison"}}
+{
+  "pkgs_name": "unbound-host",
+  "nix_pkg": null,
+  "control_file_hash": "e9bb22e9768f75184c63682c1377d7e815dc3dc9e863249dd6a8dd1c49ab1229",
+  "deb_inputs": [
+    "adduser",
+    "apparmor",
+    "autoconf",
+    "bison",
+    "debhelper-compat",
+    "dh-apparmor",
+    "dh-sequence-python3",
+    "dns-root-data",
+    "dpkg-dev",
+    "flex",
+    "libbsd-dev",
+    "libevent-dev",
+    "libexpat1-dev",
+    "libnghttp2-dev",
+    "libprotobuf-c-dev",
+    "libpython3-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "libtool",
+    "libunbound8",
+    "lsb-base",
+    "nettle-dev",
+    "openssl",
+    "pkg-config",
+    "protobuf-c-compiler",
+    "python3-dev:any",
+    "swig"
+  ],
+  "nix_inputs": [
+    "bison",
+    "expat",
+    "libevent",
+    "nettle",
+    "openssl"
+  ],
+  "map": {
+    "libexpat1-dev": "expat",
+    "nettle-dev": "nettle",
+    "openssl": "openssl",
+    "libssl-dev": "openssl",
+    "libevent-dev": "libevent",
+    "bison": "bison"
+  }
+}

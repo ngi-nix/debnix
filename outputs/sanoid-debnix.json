@@ -1,1 +1,22 @@
-{"pkgs_name":"sanoid","nix_pkg":"sanoid","control_file_hash":"ef27db724fe7455d03d393c3d23ef0debc36f7a214c3683a1072d2b6b1245fb7","deb_inputs":["debhelper-compat","libcapture-tiny-perl","libconfig-inifiles-perl","lzop","mbuffer","pv","zfs-fuse","zfsutils","zfsutils-linux"],"nix_inputs":["Capture-Tiny","Config-IniFiles","perl"],"map":{}}
+{
+  "pkgs_name": "sanoid",
+  "nix_pkg": "sanoid",
+  "control_file_hash": "ef27db724fe7455d03d393c3d23ef0debc36f7a214c3683a1072d2b6b1245fb7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcapture-tiny-perl",
+    "libconfig-inifiles-perl",
+    "lzop",
+    "mbuffer",
+    "pv",
+    "zfs-fuse",
+    "zfsutils",
+    "zfsutils-linux"
+  ],
+  "nix_inputs": [
+    "Capture-Tiny",
+    "Config-IniFiles",
+    "perl"
+  ],
+  "map": {}
+}

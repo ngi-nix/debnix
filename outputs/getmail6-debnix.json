@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "getmail6",
+  "nix_pkg": "getmail6",
+  "control_file_hash": "a7a50879da261b271eee4431dfc96b546f3518c550c72e37d48fc77105520e81",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools"
+  }
+}

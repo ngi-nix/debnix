@@ -1,1 +1,32 @@
-{"pkgs_name":"nm-tray","nix_pkg":"nm-tray","control_file_hash":"793aad55c12953d6c8a980d9a8fc5e96e238b40dbc28dc5f3d43519ccb9ed90f","deb_inputs":["cmake","debhelper-compat","libkf5networkmanagerqt-dev","modemmanager-qt-dev","network-manager","nm-tray-l10n","qterminal","qttools5-dev","qttools5-dev-tools","qttranslations5-l10n","x-terminal-emulator"],"nix_inputs":["cmake","modemmanager-qt","networkmanager-qt","pkg-config-wrapper","qtbase","qttools"],"map":{"cmake":"cmake","modemmanager-qt-dev":"modemmanager-qt","libkf5networkmanagerqt-dev":"networkmanager-qt","qttools5-dev":"qttools"}}
+{
+  "pkgs_name": "nm-tray",
+  "nix_pkg": "nm-tray",
+  "control_file_hash": "793aad55c12953d6c8a980d9a8fc5e96e238b40dbc28dc5f3d43519ccb9ed90f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libkf5networkmanagerqt-dev",
+    "modemmanager-qt-dev",
+    "network-manager",
+    "nm-tray-l10n",
+    "qterminal",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "qttranslations5-l10n",
+    "x-terminal-emulator"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "modemmanager-qt",
+    "networkmanager-qt",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "modemmanager-qt-dev": "modemmanager-qt",
+    "libkf5networkmanagerqt-dev": "networkmanager-qt",
+    "qttools5-dev": "qttools"
+  }
+}

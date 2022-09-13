@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "httpie",
+  "nix_pkg": "httpie",
+  "control_file_hash": "81d77eff4a8de6e9d5396b3ffdca7ac71af91dc7f4465ad8583d802bfc4cf959",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-charset-normalizer",
+    "python3-defusedxml",
+    "python3-pkg-resources",
+    "python3-pygments",
+    "python3-requests",
+    "python3-requests-toolbelt",
+    "python3-setuptools",
+    "python3-socks"
+  ],
+  "nix_inputs": [
+    "charset-normalizer",
+    "defusedxml",
+    "multidict",
+    "pandoc",
+    "pygments",
+    "pysocks",
+    "pytest-httpbin",
+    "pytest-lazy-fixture",
+    "pytest-mock",
+    "python3",
+    "requests",
+    "requests-toolbelt",
+    "responses",
+    "rich",
+    "setuptools",
+    "werkzeug"
+  ],
+  "map": {
+    "python3-defusedxml": "defusedxml",
+    "python3-pkg-resources": "setuptools",
+    "python3-pygments": "pygments",
+    "python3-requests": "requests",
+    "python3-setuptools": "setuptools"
+  }
+}

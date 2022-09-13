@@ -1,1 +1,51 @@
-{"pkgs_name":"kaffeine","nix_pkg":"kaffeine","control_file_hash":"6b1b8ed1d955c69e4e7b2b517595d74a2af49aed14a985ff87f23433cedb0536","deb_inputs":["cmake","debhelper","extra-cmake-modules","gettext","iso-codes","kinit","libdvbv5-dev","libdvdcss2","libkf5coreaddons-dev","libkf5dbusaddons-dev","libkf5doctools-dev","libkf5i18n-dev","libkf5kio-dev","libkf5solid-dev","libkf5widgetsaddons-dev","libkf5windowsystem-dev","libkf5xmlgui-dev","libqt5sql5-sqlite","libqt5x11extras5-dev","libudev-dev","libvlc-dev","libx11-dev","libxss-dev","pkg-config","pkg-kde-tools","qtbase5-dev","vlc-plugin-base","vlc-plugin-video-output"],"nix_inputs":["cmake","extra-cmake-modules","kdelibs4support","kidletime","libX11","libXScrnSaver","libvlc","qtx11extras"],"map":{"cmake":"cmake","libx11-dev":"libX11","extra-cmake-modules":"extra-cmake-modules","libvlc-dev":"libvlc"}}
+{
+  "pkgs_name": "kaffeine",
+  "nix_pkg": "kaffeine",
+  "control_file_hash": "6b1b8ed1d955c69e4e7b2b517595d74a2af49aed14a985ff87f23433cedb0536",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "extra-cmake-modules",
+    "gettext",
+    "iso-codes",
+    "kinit",
+    "libdvbv5-dev",
+    "libdvdcss2",
+    "libkf5coreaddons-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5solid-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5windowsystem-dev",
+    "libkf5xmlgui-dev",
+    "libqt5sql5-sqlite",
+    "libqt5x11extras5-dev",
+    "libudev-dev",
+    "libvlc-dev",
+    "libx11-dev",
+    "libxss-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "vlc-plugin-base",
+    "vlc-plugin-video-output"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "kdelibs4support",
+    "kidletime",
+    "libX11",
+    "libXScrnSaver",
+    "libvlc",
+    "qtx11extras"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libx11-dev": "libX11",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libvlc-dev": "libvlc"
+  }
+}

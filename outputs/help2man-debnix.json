@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "help2man",
+  "nix_pkg": "help2man",
+  "control_file_hash": "daacf40e5eca3488c189115124239b24abd8907506a7692a3cdcfc20cc6604b4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "gettext",
+    "liblocale-gettext-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl",
+    "gettext": "gettext"
+  }
+}

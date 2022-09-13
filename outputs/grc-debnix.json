@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "grc",
+  "nix_pkg": "grc",
+  "control_file_hash": "dfe1b39661fa1de04a41dd7c8e62fd623d2a983d22cb508eb6a38423424d2e2e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

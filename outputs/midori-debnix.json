@@ -1,1 +1,57 @@
-{"pkgs_name":"midori","nix_pkg":"midori","control_file_hash":"ff366a3f09e26eac39ebd7b0133fe08a756731ec85f5a76b95eac394a95bb47c","deb_inputs":["cmake","debhelper","gnome-icon-theme","gnome-keyring","intltool","libgcr-3-dev","libjavascriptcoregtk-4.0-dev","libnotify-dev","libpeas-dev","librsvg2-bin","libsoup-gnome2.4-dev","libsqlite3-dev","libwebkit2gtk-4.0-dev","libxml2-dev","libxml2-utils","libxss-dev","libzeitgeist-2.0-dev","lsb-release","valac","xauth","xfonts-base","xvfb"],"nix_inputs":["cmake","gcr","glib-networking","gsettings-desktop-schemas","gtk+3","intltool","jq","json-glib","libarchive","libpeas","libsoup","lndir","ninja","pkg-config-wrapper","sqlite","vala","webkitgtk"],"map":{"cmake":"cmake","intltool":"intltool","libsoup-gnome2.4-dev":"libsoup","libgcr-3-dev":"gcr","valac":"vala","libpeas-dev":"libpeas","libsqlite3-dev":"sqlite"}}
+{
+  "pkgs_name": "midori",
+  "nix_pkg": "midori",
+  "control_file_hash": "ff366a3f09e26eac39ebd7b0133fe08a756731ec85f5a76b95eac394a95bb47c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "gnome-icon-theme",
+    "gnome-keyring",
+    "intltool",
+    "libgcr-3-dev",
+    "libjavascriptcoregtk-4.0-dev",
+    "libnotify-dev",
+    "libpeas-dev",
+    "librsvg2-bin",
+    "libsoup-gnome2.4-dev",
+    "libsqlite3-dev",
+    "libwebkit2gtk-4.0-dev",
+    "libxml2-dev",
+    "libxml2-utils",
+    "libxss-dev",
+    "libzeitgeist-2.0-dev",
+    "lsb-release",
+    "valac",
+    "xauth",
+    "xfonts-base",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gcr",
+    "glib-networking",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "intltool",
+    "jq",
+    "json-glib",
+    "libarchive",
+    "libpeas",
+    "libsoup",
+    "lndir",
+    "ninja",
+    "pkg-config-wrapper",
+    "sqlite",
+    "vala",
+    "webkitgtk"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "intltool": "intltool",
+    "libsoup-gnome2.4-dev": "libsoup",
+    "libgcr-3-dev": "gcr",
+    "valac": "vala",
+    "libpeas-dev": "libpeas",
+    "libsqlite3-dev": "sqlite"
+  }
+}

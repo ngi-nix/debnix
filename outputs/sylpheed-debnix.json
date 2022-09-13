@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "sylpheed",
+  "nix_pkg": "sylpheed",
+  "control_file_hash": "e37a87009126e63ea3b12ef76e4af3afb51534c7702a261e6ce5e30cca03b8b0",
+  "deb_inputs": [
+    "aspell-dictionary",
+    "aspell-en",
+    "bison",
+    "bogofilter",
+    "bsfilter",
+    "ca-certificates",
+    "claws-mail-tools",
+    "curl",
+    "debhelper-compat",
+    "dh-exec",
+    "flex",
+    "gettext",
+    "libcompfaceg1-dev",
+    "libenchant-2-dev",
+    "libglib2.0-dev",
+    "libgpgme-dev",
+    "libgtk-3-dev",
+    "libgtkspell-dev",
+    "libldap2-dev",
+    "libonig-dev",
+    "libpng-dev",
+    "libreadline6-dev",
+    "libssl-dev",
+    "pinentry-gtk2",
+    "sensible-utils",
+    "sylfilter",
+    "sylpheed",
+    "sylpheed-doc",
+    "sylpheed-i18n",
+    "sylpheed-plugins"
+  ],
+  "nix_inputs": [
+    "gpgme",
+    "gtk+",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libgpgme-dev": "gpgme",
+    "libgtk-3-dev": "gtk+"
+  }
+}

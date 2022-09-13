@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "cpuid",
+  "nix_pkg": "cpuid",
+  "control_file_hash": "3b6ab6a49e5baba4c8e874b8be64408bc4d38122c985ca8ebd3e34f0b722a63f",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

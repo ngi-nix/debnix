@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "abcde",
+  "nix_pkg": "abcde",
+  "control_file_hash": "248991b7f60d52c10aff4e70f5b812796c0954a2b8177cc0fa93ed2aa9d04fc4",
+  "deb_inputs": [
+    "atomicparsley",
+    "bsd-mailx",
+    "cd-discid",
+    "cdparanoia",
+    "debhelper",
+    "distmp3",
+    "eject",
+    "eyed3",
+    "flac",
+    "glyrc",
+    "icedax",
+    "id3",
+    "id3v2",
+    "imagemagick",
+    "lame",
+    "libdigest-sha-perl",
+    "libmusicbrainz-discid-perl",
+    "libwebservice-musicbrainz-perl",
+    "mkcue",
+    "mp3gain",
+    "musepack-tools",
+    "normalize-audio",
+    "opus-tools",
+    "sensible-utils",
+    "speex",
+    "vorbis-tools",
+    "vorbisgain",
+    "wget"
+  ],
+  "nix_inputs": [
+    "MusicBrainz-DiscID",
+    "WebService-MusicBrainz",
+    "perl"
+  ],
+  "map": {}
+}

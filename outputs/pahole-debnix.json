@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "pahole",
+  "nix_pkg": "pahole",
+  "control_file_hash": "4313bb15a4fb7dbc5546dc41ee7fbff93d2f79ffea0b575c4a36fe3f1c97c7cc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbpf-dev",
+    "libdw-dev",
+    "libelf-dev",
+    "linux-libc-dev",
+    "pahole",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "elfutils",
+    "libbpf",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libbpf-dev": "libbpf",
+    "libdw-dev": "elfutils",
+    "libelf-dev": "elfutils",
+    "zlib1g-dev": "zlib"
+  }
+}

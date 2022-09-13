@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "scons",
+  "nix_pkg": "scons",
+  "control_file_hash": "f2d7d3166a03796b01a0f407e7f38f5957af15417674f3b285e1f2c4c7a45014",
+  "deb_inputs": [
+    "biber",
+    "clang",
+    "debhelper-compat",
+    "dh-python",
+    "fop",
+    "gdc",
+    "ldc",
+    "python3-all",
+    "python3-lxml",
+    "python3-setuptools",
+    "scons"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools"
+  }
+}

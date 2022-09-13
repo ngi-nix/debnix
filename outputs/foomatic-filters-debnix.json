@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "foomatic-filters",
+  "nix_pkg": "foomatic-filters",
+  "control_file_hash": "67094830286322713b02c04cd9c8d28eba5a2c41f8bab5fe127a2cc28ffbd1f8",
+  "deb_inputs": [
+    "a2ps",
+    "autoconf",
+    "colord",
+    "cups",
+    "cups-client",
+    "debhelper-compat",
+    "enscript",
+    "ghostscript",
+    "libcups2-dev",
+    "libdbus-1-dev",
+    "lpr",
+    "lprng",
+    "paps",
+    "perl",
+    "pkg-config",
+    "po-debconf",
+    "poppler-utils",
+    "rlpr",
+    "ucf"
+  ],
+  "nix_inputs": [
+    "cups",
+    "dbus",
+    "enscript",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcups2-dev": "cups",
+    "cups": "cups",
+    "perl": "perl",
+    "cups-client": "cups",
+    "enscript": "enscript",
+    "libdbus-1-dev": "dbus"
+  }
+}

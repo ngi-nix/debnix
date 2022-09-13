@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "bpytop",
+  "nix_pkg": "bpytop",
+  "control_file_hash": "48b78737e403ffc0452ca4d561ca86c36a0eb12e845f74cd8b366b85c8d255da",
+  "deb_inputs": [
+    "debhelper-compat",
+    "python3",
+    "python3-distutils",
+    "python3-psutil"
+  ],
+  "nix_inputs": [
+    "psutil",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

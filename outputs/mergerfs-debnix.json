@@ -1,1 +1,26 @@
-{"pkgs_name":"mergerfs","nix_pkg":"mergerfs","control_file_hash":"45cfbfc1668aa9f5cc751f21366ac7cbe589fd1707517931931a0cfb2f3971d7","deb_inputs":["debhelper-compat","dpkg-dev","fuse","libattr1-dev","libfuse-dev","libfuse2"],"nix_inputs":["attr","autoconf","automake","gettext","libtool","pandoc","pkg-config-wrapper","which"],"map":{"libattr1-dev":"attr"}}
+{
+  "pkgs_name": "mergerfs",
+  "nix_pkg": "mergerfs",
+  "control_file_hash": "45cfbfc1668aa9f5cc751f21366ac7cbe589fd1707517931931a0cfb2f3971d7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "fuse",
+    "libattr1-dev",
+    "libfuse-dev",
+    "libfuse2"
+  ],
+  "nix_inputs": [
+    "attr",
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "pandoc",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libattr1-dev": "attr"
+  }
+}

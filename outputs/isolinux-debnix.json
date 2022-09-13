@@ -1,1 +1,31 @@
-{"pkgs_name":"isolinux","nix_pkg":null,"control_file_hash":"9761bce19cacdccda3798e0ecaeea689bb75abb7711aa23b10f1f77fa507d792","deb_inputs":["debhelper-compat","dosfstools","e2fslibs-dev","gcc-multilib","libc6-dev-i386","libcrypt-passwdmd5-perl","libdigest-sha-perl","mtools","nasm","python3","syslinux-common","tftpd-hpa","uuid-dev","xorriso"],"nix_inputs":["nasm","perl","python3","util-linux-minimal"],"map":{"python3":"python3","nasm":"nasm"}}
+{
+  "pkgs_name": "isolinux",
+  "nix_pkg": null,
+  "control_file_hash": "9761bce19cacdccda3798e0ecaeea689bb75abb7711aa23b10f1f77fa507d792",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dosfstools",
+    "e2fslibs-dev",
+    "gcc-multilib",
+    "libc6-dev-i386",
+    "libcrypt-passwdmd5-perl",
+    "libdigest-sha-perl",
+    "mtools",
+    "nasm",
+    "python3",
+    "syslinux-common",
+    "tftpd-hpa",
+    "uuid-dev",
+    "xorriso"
+  ],
+  "nix_inputs": [
+    "nasm",
+    "perl",
+    "python3",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "python3": "python3",
+    "nasm": "nasm"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "latex2html",
+  "nix_pkg": "latex2html",
+  "control_file_hash": "0ab501d62dc691c66407ab19844544db038c326e14d440a67984b9a801c184c2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dvipng",
+    "ghostscript-x",
+    "netpbm",
+    "perl",
+    "perl-doc",
+    "poppler-utils",
+    "texlive-base-bin",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra",
+    "texlive-latex-recommended"
+  ],
+  "nix_inputs": [
+    "ghostscript-with-X",
+    "netpbm",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl",
+    "netpbm": "netpbm",
+    "perl-doc": "perl"
+  }
+}

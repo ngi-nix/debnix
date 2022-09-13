@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "asunder",
+  "nix_pkg": "asunder",
+  "control_file_hash": "3c7e232e1f51b8b5d2e12692cd99f3e3e991b768ba5827d4e17fb9de79bb5b9c",
+  "deb_inputs": [
+    "cdparanoia",
+    "debhelper-compat",
+    "flac",
+    "intltool",
+    "lame",
+    "libcddb2-dev",
+    "libgtk2.0-dev",
+    "vorbis-tools",
+    "wavpack"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "intltool",
+    "libcddb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libcddb2-dev": "libcddb",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "calc",
+  "nix_pkg": "calc",
+  "control_file_hash": "bb35cb9d69222c499b22883e77777d65629c816ca8283e26c1ec09151deac0dc",
+  "deb_inputs": [
+    "bsdmainutils",
+    "calc",
+    "calc-common",
+    "calc-dev",
+    "debhelper",
+    "gcc",
+    "groff-base",
+    "libc6-dev",
+    "libreadline-dev",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "readline",
+    "util-linux"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "djview4",
+  "nix_pkg": "djview4",
+  "control_file_hash": "c630c6b7f84ccf6036de4efae4efeeff8f16def5f614fc8ea21f74fb419ab574",
+  "deb_inputs": [
+    "awk",
+    "debhelper-compat",
+    "djvulibre-bin",
+    "djvulibre-desktop",
+    "gawk",
+    "imagemagick",
+    "libdjvulibre-dev",
+    "libglib2.0-dev",
+    "libqt5opengl5-dev",
+    "librsvg2-bin",
+    "libtiff-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxt-dev",
+    "netpbm",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "sensible-utils",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "djvulibre",
+    "libXt",
+    "libtiff",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "libtiff-dev": "libtiff",
+    "libxt-dev": "libXt",
+    "djvulibre-desktop": "djvulibre",
+    "libdjvulibre-dev": "djvulibre",
+    "djvulibre-bin": "djvulibre",
+    "qtbase5-dev": "qtbase"
+  }
+}

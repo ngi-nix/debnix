@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "python3-setools",
+  "nix_pkg": null,
+  "control_file_hash": "96ad80af894f9782af0b629c4f0439c49f7e6fcf647053b7ccfaac54863250fe",
+  "deb_inputs": [
+    "checkpolicy",
+    "cython3",
+    "debhelper-compat",
+    "dh-python",
+    "libqt5sql5-sqlite",
+    "libselinux1-dev",
+    "libsepol-dev",
+    "python3-all-dev",
+    "python3-networkx",
+    "python3-pkg-resources",
+    "python3-pyqt5",
+    "python3-setools",
+    "python3-setoolsgui",
+    "python3-setuptools",
+    "qttools5-dev-tools",
+    "setools-gui"
+  ],
+  "nix_inputs": [
+    "checkpolicy",
+    "cython",
+    "libselinux",
+    "libsepol",
+    "networkx",
+    "python3",
+    "setuptools",
+    "tox"
+  ],
+  "map": {
+    "python3-pkg-resources": "setuptools",
+    "checkpolicy": "checkpolicy",
+    "python3-setuptools": "setuptools",
+    "cython3": "cython",
+    "libselinux1-dev": "libselinux",
+    "libsepol-dev": "libsepol",
+    "python3-networkx": "networkx"
+  }
+}
