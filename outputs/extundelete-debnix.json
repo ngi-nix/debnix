@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "extundelete",
+  "nix_pkg": "extundelete",
+  "control_file_hash": "67dbc100c731cd3f48a8cec3f0de4af98cd668994f4dd49ea4d0e4b23b36f18a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "e2fslibs-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs"
+  ],
+  "map": {
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

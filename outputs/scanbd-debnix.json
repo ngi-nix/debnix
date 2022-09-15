@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "scanbd",
+  "nix_pkg": "scanbd",
+  "control_file_hash": "e0d2ffca557f8f9a79866985baa823feddf27be3c65da506fad704fe1e1ccca3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "inet-superserver",
+    "libconfuse-dev",
+    "libdbus-1-dev",
+    "libsane-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libusb-dev",
+    "lsb-base",
+    "openbsd-inetd",
+    "pkg-config",
+    "sane-utils",
+    "update-inetd"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "libconfuse",
+    "libjpeg-turbo",
+    "pkg-config-wrapper",
+    "sane-backends",
+    "systemd"
+  ],
+  "map": {
+    "libdbus-1-dev": "dbus",
+    "libsane-dev": "sane-backends",
+    "libudev-dev": "systemd",
+    "sane-utils": "sane-backends",
+    "libconfuse-dev": "libconfuse"
+  }
+}

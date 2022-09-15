@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "scrcpy",
+  "nix_pkg": "scrcpy",
+  "control_file_hash": "27bd2ffc00a64ab3347774cf47acd57989601b1480ce2d800039acffe24ef090",
+  "deb_inputs": [
+    "adb",
+    "debhelper-compat",
+    "scrcpy-server"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "ffmpeg",
+    "libusb",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

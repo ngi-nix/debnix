@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "xxkb",
+  "nix_pkg": "xxkb",
+  "control_file_hash": "42e40e5058b57d7af86acfc5dbed795bc4cb41f081fbdf6cb17cbbd206e16a8a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxext-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libX11",
+    "libXext",
+    "libXpm",
+    "libXt"
+  ],
+  "map": {
+    "libxext-dev": "libXext",
+    "libxt-dev": "libXt",
+    "libx11-dev": "libX11",
+    "libxpm-dev": "libXpm"
+  }
+}

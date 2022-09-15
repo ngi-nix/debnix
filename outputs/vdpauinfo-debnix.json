@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "vdpauinfo",
+  "nix_pkg": "vdpauinfo",
+  "control_file_hash": "a16d91439b72b23c0f8ba8c0e8bf4a77cc69d4d3044d377abe95e4578c3faa4e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libvdpau-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libvdpau",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libvdpau-dev": "libvdpau"
+  }
+}

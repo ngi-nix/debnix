@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "convmv",
+  "nix_pkg": "convmv",
+  "control_file_hash": "2f2a8cb2bbf9fdd840a89513329990a7321c8ce8c0f58d1284c70dfcf37ecd0c",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

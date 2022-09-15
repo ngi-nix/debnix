@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "ogmtools",
+  "nix_pkg": "ogmtools",
+  "control_file_hash": "dd5ed9688378e47564f29a6c85087f95da652a3a1c004fe6183ecef55e4e895c",
+  "deb_inputs": [
+    "automake",
+    "cdbs",
+    "debhelper",
+    "libdvdread-dev",
+    "libogg0",
+    "libvorbis-dev",
+    "libvorbis0a",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "libdvdread",
+    "libogg",
+    "libvorbis"
+  ],
+  "map": {
+    "libdvdread-dev": "libdvdread",
+    "libvorbis-dev": "libvorbis",
+    "libogg0": "libogg",
+    "libvorbis0a": "libvorbis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "pydf",
+  "nix_pkg": "pydf",
+  "control_file_hash": "a137b4c175da40e66c4069ceff7e4b7cecb56379817653773177740ff8a59cc4",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {}
+}

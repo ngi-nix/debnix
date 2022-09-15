@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "python3-pymol",
+  "nix_pkg": null,
+  "control_file_hash": "ae9ee3184e08249f695fdb206ebe7bdff8360adf64095838273278c1da31ef7e",
+  "deb_inputs": [
+    "apbs",
+    "debhelper-compat",
+    "dh-python",
+    "freeglut3-dev",
+    "libfreetype6-dev",
+    "libglew-dev",
+    "libglm-dev",
+    "libnetcdf-dev",
+    "libpng-dev",
+    "libxml2-dev",
+    "pymol-data",
+    "python3-all",
+    "python3-all-dev",
+    "python3-numpy",
+    "python3-opengl",
+    "python3-pymol",
+    "python3-pyqt5",
+    "python3-pyqt5.qtopengl",
+    "texlive-latex-base"
+  ],
+  "nix_inputs": [
+    "freeglut",
+    "freetype",
+    "glew",
+    "glm",
+    "libpng-apng",
+    "libxml2",
+    "msgpack",
+    "netcdf",
+    "numpy",
+    "python3",
+    "setuptools",
+    "tk"
+  ],
+  "map": {
+    "libnetcdf-dev": "netcdf",
+    "libfreetype6-dev": "freetype",
+    "libglew-dev": "glew",
+    "python3-numpy": "numpy",
+    "freeglut3-dev": "freeglut",
+    "libxml2-dev": "libxml2",
+    "libglm-dev": "glm"
+  }
+}

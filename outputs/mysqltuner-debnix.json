@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "mysqltuner",
+  "nix_pkg": "mysqltuner",
+  "control_file_hash": "2720895cd580ddc5a73532075c7e81044908c6b9aef2b22d289a9650c3e90ee9",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "default-mysql-server",
+    "libtext-template-perl",
+    "perl",
+    "procps",
+    "virtual-mysql-server"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

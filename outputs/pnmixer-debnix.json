@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "pnmixer",
+  "nix_pkg": "pnmixer",
+  "control_file_hash": "47f3df35ed1fcef8dcc0ae4c3debaddeb602d35fc1f8acd21269724574f531e5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "gettext",
+    "libasound2-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libnotify-dev",
+    "libx11-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "gettext",
+    "glib",
+    "gtk+3",
+    "libX11",
+    "libnotify",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libglib2.0-dev": "glib",
+    "libnotify-dev": "libnotify",
+    "libx11-dev": "libX11",
+    "gettext": "gettext",
+    "cmake": "cmake"
+  }
+}

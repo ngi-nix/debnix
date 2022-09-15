@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "adminer",
+  "nix_pkg": "adminer",
+  "control_file_hash": "6d6c772feda418dc4aae612599d33d6ebb291d677c500586eadd769f15c09df6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-mysql-server",
+    "dh-apache2",
+    "libapache2-mod-php",
+    "php",
+    "php-cgi",
+    "php-cli",
+    "php-fpm",
+    "php-mysql",
+    "php-pgsql",
+    "php-sqlite3",
+    "postgresql",
+    "sqlite3",
+    "virtual-mysql-server"
+  ],
+  "nix_inputs": [
+    "php-composer"
+  ],
+  "map": {}
+}

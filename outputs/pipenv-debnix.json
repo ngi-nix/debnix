@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "pipenv",
+  "nix_pkg": "pipenv",
+  "control_file_hash": "6ba37b06ceb69d92eaa28fccb373c42f21467afbc0294a20034b5f6e8d32c4e3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-certifi",
+    "python3-mock",
+    "python3-pip",
+    "python3-pytest",
+    "python3-pytest-xdist",
+    "python3-setuptools",
+    "python3-virtualenv",
+    "python3-virtualenv-clone",
+    "python3-wheel"
+  ],
+  "nix_inputs": [
+    "certifi",
+    "pip",
+    "python3",
+    "setuptools",
+    "virtualenv",
+    "virtualenv-clone"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-virtualenv-clone": "virtualenv-clone"
+  }
+}

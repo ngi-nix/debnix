@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "python-scour",
+  "nix_pkg": null,
+  "control_file_hash": "48990e580a2c4296a1236d795d053f9e2b775650691e57022eba98a17e8d44dc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-rsvg-2.0",
+    "python3-all",
+    "python3-gi-cairo",
+    "python3-pkg-resources",
+    "python3-scour",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six",
+    "python3-pkg-resources": "setuptools",
+    "python3-setuptools": "setuptools"
+  }
+}

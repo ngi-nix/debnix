@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "peek",
+  "nix_pkg": "peek",
+  "control_file_hash": "0220480ffe759904e82ecdca1b435cc3a87fce3c662219c4e392ce115f3b68c7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-file-utils",
+    "ffmpeg",
+    "gettext",
+    "gifski",
+    "gstreamer1.0-plugins-good",
+    "gstreamer1.0-plugins-ugly",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libkeybinder-3.0-dev",
+    "libxml2-utils",
+    "meson",
+    "python3",
+    "txt2man",
+    "valac"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "cairo",
+    "desktop-file-utils",
+    "gettext",
+    "glib",
+    "gsettings-desktop-schemas",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gstreamer",
+    "gtk+3",
+    "keybinder3",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "txt2man",
+    "vala"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "gettext": "gettext",
+    "gstreamer1.0-plugins-good": "gstreamer",
+    "meson": "meson",
+    "python3": "python3",
+    "txt2man": "txt2man",
+    "libxml2-utils": "libxml2",
+    "desktop-file-utils": "desktop-file-utils",
+    "valac": "vala"
+  }
+}

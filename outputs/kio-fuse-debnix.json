@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "kio-fuse",
+  "nix_pkg": "kio-fuse",
+  "control_file_hash": "b49f67e89a85183c72a2d09354ab7d630473d50408a9343a9daac57b1b17682d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fuse3",
+    "libfuse3-dev",
+    "libkf5config-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fuse",
+    "kio"
+  ],
+  "map": {
+    "fuse3": "fuse",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kio-dev": "kio",
+    "libfuse3-dev": "fuse",
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "knetwalk",
+  "nix_pkg": "knetwalk",
+  "control_file_hash": "f739be1da94f000b29cc87d15b638596af6c679593879949fa84c1d9c387c5ab",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5textwidgets-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qml-module-org-kde-games-core",
+    "qml-module-qtquick2",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames",
+    "qml-module-org-kde-games-core": "libkdegames",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

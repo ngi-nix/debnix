@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "acpica-tools",
+  "nix_pkg": "acpica-tools",
+  "control_file_hash": "e9038b2fb2a73536f4b48ababa7796ce9db0378cd0d90e3224a7098d0df27c4a",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

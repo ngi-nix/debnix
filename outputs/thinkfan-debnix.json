@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "thinkfan",
+  "nix_pkg": "thinkfan",
+  "control_file_hash": "b52c32e626a1f83b3012fe2ec6be2cbdb88b62d6ef08aaedbf2e6165d04098d1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libatasmart-dev",
+    "libyaml-cpp-dev",
+    "pkg-config",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libyaml-cpp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libyaml-cpp-dev": "libyaml-cpp",
+    "cmake": "cmake"
+  }
+}

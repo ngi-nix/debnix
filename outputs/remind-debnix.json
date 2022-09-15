@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "remind",
+  "nix_pkg": "remind",
+  "control_file_hash": "4e19c370f6d427b1e9b835f527d1b69b48e79820d5f4785b6bb627aec05086dd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "inotify-tools",
+    "libcairo-perl",
+    "libjson-maybexs-perl",
+    "libjsonparser-dev",
+    "libpango-perl",
+    "remind",
+    "remind-tools",
+    "tcllib",
+    "tk",
+    "tkremind",
+    "wyrd"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tcllib",
+    "tk"
+  ],
+  "map": {
+    "tcllib": "tcllib",
+    "tk": "tk"
+  }
+}

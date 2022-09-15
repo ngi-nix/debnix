@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libddccontrol0",
+  "nix_pkg": null,
+  "control_file_hash": "8577eed7a7db2cf2a987479e4fd6f7e466a902487a7d6032ed3d1a5650c3d824",
+  "deb_inputs": [
+    "ddccontrol",
+    "ddccontrol-db",
+    "debhelper-compat",
+    "docbook-xsl",
+    "intltool",
+    "libddccontrol0",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libpci-dev",
+    "libxml2-dev",
+    "systemd",
+    "tidy",
+    "xml-core",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ddccontrol-db",
+    "gtk+",
+    "intltool",
+    "libxml2",
+    "pciutils",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "ddccontrol-db": "ddccontrol-db",
+    "libpci-dev": "pciutils",
+    "intltool": "intltool",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

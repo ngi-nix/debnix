@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "pulsemixer",
+  "nix_pkg": "pulsemixer",
+  "control_file_hash": "21e8d16d0196a340533bd90e23b63a9e62f26ccb600eb7994d11437f0702e2d0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libpulse0",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

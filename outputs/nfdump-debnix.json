@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "nfdump",
+  "nix_pkg": "nfdump",
+  "control_file_hash": "c0e0661c610bf6cbd2f46ebd99a8fefea68f049cad462414d8499a619cffeae8",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libbz2-dev",
+    "libpcap-dev",
+    "librrd-dev",
+    "libz-dev",
+    "lsb-base",
+    "nfdump",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "bzip2",
+    "flex",
+    "libpcap",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "flex": "flex",
+    "libpcap-dev": "libpcap",
+    "bison": "bison",
+    "libbz2-dev": "bzip2"
+  }
+}

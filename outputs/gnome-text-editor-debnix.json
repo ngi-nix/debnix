@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "gnome-text-editor",
+  "nix_pkg": "gnome-text-editor",
+  "control_file_hash": "c25d050feb66736ef2dd297985c7dd47c03ec6e2c38fdce92f90cc85eb599d59",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-sequence-gnome",
+    "itstool",
+    "libadwaita-1-dev",
+    "libeditorconfig-dev",
+    "libenchant-2-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-4-dev",
+    "libgtksourceview-5-dev",
+    "libicu-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "enchant",
+    "glib",
+    "gsettings-desktop-schemas",
+    "gtk4",
+    "gtksourceview",
+    "itstool",
+    "libadwaita",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libenchant-2-dev": "enchant",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libgtksourceview-5-dev": "gtksourceview",
+    "libgtk-4-dev": "gtk4",
+    "appstream-util": "appstream-glib",
+    "itstool": "itstool",
+    "desktop-file-utils": "desktop-file-utils"
+  }
+}

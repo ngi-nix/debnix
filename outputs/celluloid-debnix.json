@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "celluloid",
+  "nix_pkg": "celluloid",
+  "control_file_hash": "75863af72b5f4014f80628f2bef22490451756b0a1fe99d5ea0dcdaf3d7530da",
+  "deb_inputs": [
+    "appstream-util",
+    "autoconf-archive",
+    "celluloid",
+    "debhelper-compat",
+    "libepoxy-dev",
+    "libgtk-3-dev",
+    "libmpv-dev",
+    "pkg-config",
+    "python3:any",
+    "youtube-dl"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "glib",
+    "gtk4",
+    "libadwaita",
+    "libepoxy",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libepoxy-dev": "libepoxy",
+    "appstream-util": "appstream-glib"
+  }
+}

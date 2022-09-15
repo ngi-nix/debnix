@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "kig",
+  "nix_pkg": "kig",
+  "control_file_hash": "2dbbc48dfe32dee9321d0982008d46125e463265abab36429043af6be9a1bc03",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "kinit-dev",
+    "libboost-python-dev",
+    "libkf5archive-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5parts-dev",
+    "libkf5texteditor-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "libqt5xmlpatterns5-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "python3:any",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "extra-cmake-modules",
+    "karchive",
+    "kcrash",
+    "kdoctools",
+    "kiconthemes",
+    "kparts",
+    "ktexteditor",
+    "qtsvg",
+    "qtxmlpatterns"
+  ],
+  "map": {
+    "libkf5texteditor-dev": "ktexteditor",
+    "libkf5archive-dev": "karchive",
+    "libkf5crash-dev": "kcrash",
+    "libkf5parts-dev": "kparts",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5iconthemes-dev": "kiconthemes"
+  }
+}

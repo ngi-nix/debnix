@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "gkrellmd",
+  "nix_pkg": null,
+  "control_file_hash": "2f279bbc6e261e417037c60083af7d69fbd41c6a4e152a9c3bdd51248e26b742",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "gettext",
+    "libglib2.0-dev",
+    "libgnutls-openssl-dev",
+    "libgtk2.0-dev",
+    "libntlm0-dev",
+    "libsensors-dev",
+    "libsm-dev",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gtk+",
+    "libICE",
+    "libSM",
+    "libX11",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "libgtk2.0-dev": "gtk+",
+    "libsm-dev": "libSM",
+    "libglib2.0-dev": "glib"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "python3-barman",
+  "nix_pkg": null,
+  "control_file_hash": "371a15b0faf4926d959284ade9081460b17d94bb0da790deb15cb07fbad09bbd",
+  "deb_inputs": [
+    "adduser",
+    "barman-cli",
+    "barman-cli-cloud",
+    "bash-completion",
+    "debhelper",
+    "dh-python",
+    "openssh-client",
+    "openssh-server",
+    "postgresql-client",
+    "python3-all",
+    "python3-barman",
+    "python3-boto3",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "repmgr",
+    "rsync"
+  ],
+  "nix_inputs": [
+    "argcomplete",
+    "azure-identity",
+    "azure-storage-blob",
+    "boto3",
+    "google-cloud-storage",
+    "mock",
+    "psycopg2",
+    "python-dateutil",
+    "python-snappy",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-pkg-resources": "setuptools"
+  }
+}
