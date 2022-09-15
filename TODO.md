@@ -20,3 +20,4 @@
 - preparse nixpkgs -> maybe look at nixpkgs-review
 - properly log trailing path errors
 - nix eval --impure --json --expr 'builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux.python3Packages'
+- xorg toplevel example
