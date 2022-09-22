@@ -22,7 +22,6 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
-use clap::Parser;
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{
@@ -38,9 +37,10 @@ extern crate log;
 
 use self::cli::CliArgs;
 use self::deb::get_debian_pkg_outputs;
-use crate::deb::ControlFileApi;
 use crate::matcher::match_libs;
 use crate::nix::get_drv_inputs;
+use crate::{deb::ControlFileApi, nix::NIX_ATTRIBUTES_REVERSED};
+use clap::Parser;
 
 /// outputs/toplevel-debnix.json
 /// HashMap {deb-lib: nix-lib}
@@ -65,7 +65,6 @@ fn main() -> Result<(), DebNixError> {
 
     // Generate completion scripts
     if let Some(shell) = opts.generate_completion() {
-        println!("{:?}", &*nix::NIX_ATTRIBUTES);
         setup::generate_completion(&shell.to_string());
         std::process::exit(0);
     }
@@ -94,13 +93,14 @@ fn main() -> Result<(), DebNixError> {
     }
 
     if let Some(amount) = opts.discover() {
-        let mut pop = read_popcon("./test/popcon.csv")?;
-        pop.reverse();
+        let pop = read_popcon("./test/popcon.csv")?;
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
                 break;
             }
             if let Some(destination) = opts.write() {
+                // let _ = OpenOptions::new().create(true).open(format!("{destination}"))?;
+                // let _ = OpenOptions::new().create(true).open(format!("{destination}/error"))?;
                 let error_destination = format!("{}/error/{}", destination, pkg);
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
@@ -169,8 +169,8 @@ fn discover(
     let mut nix_inputs = vec![];
     let mut nix_pkg = None;
 
-    if nix::NIX_ATTRIBUTES.contains(&pkg) {
-        nix_pkg = Some(pkg.clone());
+    if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(&pkg) {
+        nix_pkg = Some(attr_path.attrpath.clone()).flatten();
     }
 
     nix_inputs.push(pkg.clone());

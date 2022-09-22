@@ -5,22 +5,46 @@ use std::{collections::HashMap, process::Command};
 lazy_static::lazy_static! {
     /// Attribute names, that are exposed for the x86_64-linux
     /// platform on the nixpkgs side.
-    pub static ref NIX_ATTRIBUTES: Vec<String> = {
-        let output = Command::new("nix")
-            .arg("eval")
-            .arg("--impure")
+    pub static ref NIX_ATTRIBUTES_NEW: HashMap<String, NixAttributes> = {
+        let output = Command::new("nix-env")
+            .arg("--query")
             .arg("--json")
-            .arg("--expr")
-            .arg(r#"builtins.attrNames (builtins.getFlake "nixpkgs").legacyPackages.x86_64-linux"#)
+            .arg("--attr-path")
+            .arg("--available")
+            // .arg("--out-path")
+            .arg("--drv-path")
             .output()
-            .expect("Nix eval is broken.");
+            .expect("Nix-env is broken, maybe there is a problem with the channel.");
     let serialized = std::str::from_utf8(&output.stdout)
             .expect("NIX_ATTRIBUTES are not generated correctly.");
-        serialized.to_string();
-    let deserialized: Vec<String> = serde_json::from_str(serialized)
+    let deserialized: HashMap<String, NixAttributes> = serde_json::from_str(serialized)
             .expect("Serializing from NIX_ATTRIBUTES broken.");
-        deserialized
+        // deserialized.iter_mut().map(|(mut k, _v)| k = &k.split_once('.').unwrap().1.to_owned()).collect::<Vec<_>>();
+        deserialized.iter().map(|(k, v)| (k.split_once('.').unwrap().1.to_owned(), v.clone())).collect::<HashMap<String, NixAttributes>>()
     };
+    pub static ref NIX_ATTRIBUTES: Vec<String> = {
+        NIX_ATTRIBUTES_NEW.values().map(|a| a.pname.clone()).collect()
+    };
+    pub static ref NIX_ATTRIBUTES_REVERSED: HashMap<String, NixAttributes> = {
+        let mut result = HashMap::new();
+        for (k, v) in NIX_ATTRIBUTES_NEW.iter() {
+            result.insert(v.pname.clone(), NixAttributes {
+                attrpath: Some(k.to_owned()),
+                name: v.name.clone(),
+                pname: v.pname.clone(),
+                version: v.version.clone(),
+            });
+        }
+            result
+    };
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct NixAttributes {
+    name: String,
+    pname: String,
+    version: String,
+    pub attrpath: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

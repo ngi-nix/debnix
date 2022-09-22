@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 
+use crate::nix::NIX_ATTRIBUTES_REVERSED;
 use crate::{deb::debian_redirect, error::DebNixError};
 
 /// Matches the input pkgs with the output pkgs
@@ -64,6 +65,16 @@ pub(crate) fn match_libs(
     debug!("\nInput {:?}\n", &input);
     debug!("Output {:?}\n", &outputs);
 
+    // Switching matched pnames from the nix matches to their corresponding attribute paths,
+    // because that is how they are likely to be consumed.
+    for value in res_map.values_mut() {
+        if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(value) {
+            if let Some(attr_path) = &attr_path.attrpath {
+                value.clear();
+                value.push_str(&*attr_path.clone())
+            }
+        }
+    }
     Ok(res_map)
 }
 
