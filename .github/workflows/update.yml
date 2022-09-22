@@ -43,7 +43,8 @@ jobs:
 
         nix run -L github:$GITHUB_REPOSITORY \
           --no-write-lock-file \
-          --discover 5000
+          -- \
+          --discover 5000 \
           --write ./outputs
 
         git add .
