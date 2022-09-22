@@ -40,6 +40,13 @@ lazy_static::lazy_static! {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+struct NixAttributes {
+    name: String,
+    pname: String,
+    version: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
 /// Wraps the derivation output from `nix`,
 /// only few attributes are actually captured.
 pub(crate) struct SimpleDerivation {
