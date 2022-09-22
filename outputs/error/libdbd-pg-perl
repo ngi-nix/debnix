@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-perl-dbi", "libdbi-perl", "libpq-dev", "libtest-simple-perl", "libversion-perl", "perl-xs-dev", "perl:native", "postgresql"], or 
-output: 
-[] is empty!

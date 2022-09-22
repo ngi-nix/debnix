@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper-compat", "dh-golang", "golang-any", "golang-github-aws-aws-sdk-go-dev", "golang-github-bshuster-repo-logrus-logstash-hook-dev", "golang-github-bugsnag-bugsnag-go-dev", "golang-github-docker-go-metrics-dev", "golang-github-docker-libtrust-dev", "golang-github-garyburd-redigo-dev", "golang-github-gorilla-handlers-dev", "golang-github-gorilla-mux-dev", "golang-github-mitchellh-mapstructure-dev", "golang-github-ncw-swift-dev", "golang-github-opencontainers-go-digest-dev", "golang-github-opencontainers-image-spec-dev", "golang-github-shopify-logrus-bugsnag-dev", "golang-github-sirupsen-logrus-dev", "golang-github-spf13-cobra-dev", "golang-golang-x-crypto-dev", "golang-gopkg-check.v1-dev", "golang-gopkg-yaml.v2-dev", "lsb-base"], or 
-output: 
-[] is empty!

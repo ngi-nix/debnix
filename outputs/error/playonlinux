@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["binutils", "bzip2", "cabextract", "curl", "debhelper-compat", "dh-sequence-python3", "gettext-base", "gnupg", "icoutils", "imagemagick", "jq", "mesa-utils", "netcat", "p7zip-full", "python3", "python3-gi", "python3-natsort", "python3-wxgtk4.0", "scrot", "ttf-mscorefonts-installer", "unzip", "wget", "winbind", "wine", "wine32", "x-terminal-emulator", "x11-utils", "xterm"], or 
-output: 
-[] is empty!

@@ -1,1 +1,0 @@
-{"pkgs_name":"wofi","nix_pkg":"wofi","control_file_hash":"2b3e56eac89fa88be83c7650856b6fb200955477eea38b81f3e4d83baa9bbe56","deb_inputs":["debhelper-compat","libgtk-3-dev","libwayland-dev","meson"],"nix_inputs":["gtk+3","meson","ninja","pkg-config-wrapper","wayland"],"map":{"libwayland-dev":"wayland","meson":"meson"}}

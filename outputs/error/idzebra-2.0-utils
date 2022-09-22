@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "debhelper-compat", "docbook-dsssl", "docbook-xml", "docbook-xsl", "idzebra-2.0-common", "idzebra-2.0-doc", "idzebra-2.0-examples", "idzebra-2.0-utils", "libbz2-dev", "libexpat1-dev", "libicu-dev", "libidzebra-2.0-0", "libidzebra-2.0-dev", "libidzebra-2.0-mod-alvis", "libidzebra-2.0-mod-dom", "libidzebra-2.0-mod-grs-marc", "libidzebra-2.0-mod-grs-regx", "libidzebra-2.0-mod-grs-xml", "libidzebra-2.0-mod-safari", "libidzebra-2.0-mod-text", "libidzebra-2.0-modules", "libncurses-dev", "libreadline-dev", "libtool", "libxslt1-dev", "libyaz-dev", "libz-dev", "pkg-config", "tcl-dev", "xsltproc", "zlib1g-dev"], or 
-output: 
-[] is empty!

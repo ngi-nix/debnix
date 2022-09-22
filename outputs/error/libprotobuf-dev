@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-elpa", "dh-sequence-python3", "gem2deb", "libgmock-dev", "libgtest-dev", "libprotobuf-dev", "libprotobuf-lite31", "libprotobuf31", "libprotoc31", "libpython3-all-dev", "pkg-php-tools", "protobuf-mode-el", "python3-all:any", "python3-setuptools", "python3-six", "rake-compiler", "ruby", "unzip", "xmlto", "zlib1g-dev"], or 
-output: 
-[] is empty!

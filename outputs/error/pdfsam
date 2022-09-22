@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "default-jre", "java9-runtime", "junit4", "libatinject-jsr330-api-java", "libbcmail-java", "libbcprov-java", "libcommons-csv-java", "libcommons-io-java", "libcommons-lang3-java", "libfontawesomefx-java", "libgettext-commons-java", "libgettext-maven-plugin-java", "libhibernate-validator4-java", "libjackson2-jr-java", "liblogback-java", "libplexus-classworlds-java", "libsambox-java", "libsejda-eventstudio-java", "libsejda-injector-java", "libsejda-java", "libslf4j-java", "maven-debian-helper", "openjfx"], or 
-output: 
-[] is empty!

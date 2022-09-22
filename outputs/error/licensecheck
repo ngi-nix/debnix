@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper-compat", "libarray-intspan-perl", "libencode-locale-perl", "libio-interactive-perl", "liblist-someutils-perl", "liblog-any-adapter-screen-perl", "liblog-any-perl", "libnamespace-clean-perl", "libobject-pad-perl", "libpath-iterator-rule-perl", "libpath-tiny-perl", "libpod-constants-perl", "libre-engine-re2-perl", "libregexp-pattern-license-perl", "libregexp-pattern-perl", "libscalar-list-utils-perl", "libsoftware-license-perl", "libstrictures-perl", "libstring-copyright-perl", "libstring-escape-perl", "libtest-command-simple-perl", "libtest-without-module-perl", "libtest2-suite-perl", "libtry-tiny-perl", "libunicode-linebreak-perl", "perl"], or 
-output: 
-[] is empty!

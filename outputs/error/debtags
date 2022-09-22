@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper", "dh-buildinfo", "dh-python", "help2man", "pyflakes3", "python3-all", "python3-apt", "python3-debian", "python3-setuptools", "tagcoll"], or 
-output: 
-[] is empty!

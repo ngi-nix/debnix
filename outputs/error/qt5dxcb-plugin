@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libcairo2-dev", "libdbus-1-dev", "libegl1-mesa-dev", "libfontconfig1-dev", "libfreetype6-dev", "libglib2.0-dev", "libmtdev-dev", "libqt5opengl5-dev", "libqt5x11extras5-dev", "libsm-dev", "libudev-dev", "libx11-xcb-dev", "libxcb-composite0-dev", "libxcb-damage0-dev", "libxcb-icccm4-dev", "libxcb-image0-dev", "libxcb-keysyms1-dev", "libxcb-randr0-dev", "libxcb-render-util0-dev", "libxcb-sync-dev", "libxcb-util-dev", "libxcb-xinerama0-dev", "libxcb-xinput-dev", "libxcb-xkb-dev", "libxi-dev", "libxkbcommon-x11-dev", "libxrender-dev", "pkg-config", "qtbase5-dev", "qtbase5-private-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "help2man", "libglib2.0-dev", "libjansson-dev", "libsearpc1", "pkg-config", "python3-all", "python3-searpc"], or 
-output: 
-[] is empty!

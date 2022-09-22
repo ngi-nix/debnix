@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "grunt", "javascript-common", "libjs-jquery", "libjs-jquery-mousewheel", "libjs-jquery-ui", "libjs-jquery-ui-docs", "node-grunt-contrib-requirejs", "node-jquery", "node-load-grunt-tasks", "node-requirejs", "uglifyjs", "yui-compressor"], or 
-output: 
-[] is empty!

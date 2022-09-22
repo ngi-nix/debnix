@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dblatex", "debhelper-compat", "dh-python", "docbook-to-man", "docbook-xml", "docbook-xsl", "gnome-pkg-tools", "meson", "pkg-config", "python3-lxml", "python3-pygments", "xsltproc"], or 
-output: 
-[] is empty!

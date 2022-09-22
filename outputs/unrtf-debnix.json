@@ -1,1 +1,0 @@
-{"pkgs_name":"unrtf","nix_pkg":"unrtf","control_file_hash":"c73877e94ba560045621b21015586f6a880ebecdba671da5a9c2244c58beab41","deb_inputs":["debhelper","dh-autoreconf"],"nix_inputs":["autoconf","automake"],"map":{}}

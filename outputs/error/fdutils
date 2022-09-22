@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "autoconf-archive", "automake", "debhelper-compat", "debianutils", "dpkg", "flex", "install-info", "mtools", "po-debconf", "texinfo", "texlive"], or 
-output: 
-[] is empty!

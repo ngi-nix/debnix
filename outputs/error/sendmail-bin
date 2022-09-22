@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "ca-certificates", "debhelper-compat", "deliver", "libdb-dev", "libldap2-dev", "liblockfile-dev", "libmilter1.0.1", "libnsl-dev", "libsasl2-dev", "libsasl2-modules", "libssl-dev", "libwrap0-dev", "linux-libc-dev", "lockfile-progs", "logcheck", "logrotate", "lsb-base", "m4", "mail-transport-agent", "maildrop", "make", "netbase", "openssl", "pkg-config", "procmail", "procps", "resolvconf", "rmail", "sasl2-bin", "sendmail-base", "sendmail-bin", "sendmail-cf", "sendmail-doc", "sensible-mda"], or 
-output: 
-[] is empty!

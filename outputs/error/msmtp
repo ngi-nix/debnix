@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "ca-certificates", "debhelper", "debhelper-compat", "dh-apparmor", "keepassxc", "kwalletmanager", "libgnutls28-dev", "libgsasl7-dev", "libkrb5-dev", "libsecret-1-dev", "libsecret-tools", "msmtp", "msmtp-mta", "po-debconf", "seahorse", "texinfo", "ucf"], or 
-output: 
-[] is empty!

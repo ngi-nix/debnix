@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "docutils-doc", "dvipng", "fonts-freefont-otf", "imagemagick-6.q16", "latexmk", "libjs-jquery", "libjs-mathjax", "libjs-sphinxdoc", "libjs-underscore", "libjson-perl", "make", "python-requests-doc", "python3-distutils", "python3-doc", "python3-lib2to3", "python3-pil", "python3-sphinx", "python3-sphinx-rtd-theme", "sphinx-common", "sphinx-doc", "tex-gyre", "texlive-fonts-recommended", "texlive-latex-extra", "texlive-latex-recommended", "texlive-plain-generic"], or 
-output: 
-[] is empty!

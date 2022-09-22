@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-python3", "gettext", "gnome-common", "ibus", "libgtk-3-dev", "libibus-1.0-dev", "libjson-glib-dev", "liblua5.4-dev", "libopencc-dev", "libpinyin13-dev", "libsoup2.4-dev", "libsqlite3-dev", "libtool", "python3-gi", "python3:any", "sqlite3", "uuid-dev"], or 
-output: 
-[] is empty!

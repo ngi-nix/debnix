@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "mocha", "node-anymatch", "node-async-each", "node-braces", "node-glob-parent", "node-inherits", "node-is-binary-path", "node-is-glob", "node-normalize-path", "node-path-is-absolute", "node-readdirp", "node-rimraf", "node-setimmediate", "node-sinon", "node-sinon-chai", "nodejs"], or 
-output: 
-[] is empty!

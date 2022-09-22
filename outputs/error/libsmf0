@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gawk", "libc-dev", "libglib2.0-dev", "libncurses5-dev", "libreadline6-dev", "libsmf0", "pkg-config"], or 
-output: 
-[] is empty!

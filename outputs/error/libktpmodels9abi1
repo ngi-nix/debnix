@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "doxygen", "extra-cmake-modules", "gettext", "kaccounts-integration", "kde-telepathy-kaccounts", "kde-telepathy-kpeople", "libaccounts-qt5-dev", "libgcrypt20-dev", "libkaccounts-dev", "libkf5config-dev", "libkf5coreaddons-dev", "libkf5iconthemes-dev", "libkf5kcmutils-dev", "libkf5kio-dev", "libkf5notifications-dev", "libkf5notifyconfig-dev", "libkf5people-dev", "libkf5people5", "libkf5texteditor-dev", "libkf5wallet-dev", "libkf5widgetsaddons-dev", "libkf5windowsystem-dev", "libotr5-dev", "libsignon-qt5-dev", "libtelepathy-logger-qt-dev", "libtelepathy-logger-qt5", "libtelepathy-qt5-dev", "pkg-kde-tools", "qtbase5-dev", "qtdeclarative5-dev", "telepathy-accounts-signon"], or 
-output: 
-[] is empty!

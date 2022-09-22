@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ack", "ack-grep", "bzr", "curl", "cvs", "darcs", "debhelper", "dgit", "dpkg-dev", "fossil", "git", "git-annex", "git-big-picture", "git-core", "git-svn", "gitk", "kdesdk-scripts", "libfile-homedir-perl", "libhtml-parser-perl", "libio-pty-easy-perl", "liburi-perl", "libwww-perl", "mercurial", "perl", "perl-doc", "stow", "subversion", "subversion-tools", "tig", "unison", "vcsh", "xdg-utils"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["check", "debhelper-compat", "libevdev-dev", "libgtk-3-dev", "libinput-bin", "libinput10", "libmtdev-dev", "libudev-dev", "libwacom-dev", "meson", "pkg-config", "python3", "python3-libevdev", "python3-pyudev"], or 
-output: 
-[] is empty!

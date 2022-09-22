@@ -1,1 +1,0 @@
-{"pkgs_name":"trayer","nix_pkg":"trayer","control_file_hash":"4340ceff906eec5ba9193a0f5ac8aeadcc8e0442c897d50314e01e58f3e323aa","deb_inputs":["debhelper-compat","libgtk2.0-dev"],"nix_inputs":["gdk-pixbuf","gtk+","pkg-config-wrapper"],"map":{"libgtk2.0-dev":"gtk+"}}

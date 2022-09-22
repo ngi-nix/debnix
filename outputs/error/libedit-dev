@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bsdmainutils", "debhelper-compat", "groff-base", "libbsd-dev", "libedit-dev", "libedit2", "libncurses-dev", "libtinfo-dev", "pkg-config"], or 
-output: 
-[] is empty!

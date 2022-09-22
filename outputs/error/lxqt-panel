@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libasound2-dev", "libdbusmenu-qt5-dev", "libicu-dev", "libkf5solid-dev", "libkf5windowsystem-dev", "liblxqt-globalkeys-ui1-dev", "liblxqt-globalkeys1-dev", "liblxqt1-dev", "libpulse-dev", "libqt5svg5-dev", "libqt5x11extras5-dev", "libsensors-dev", "libstatgrab-dev", "libsysstat-qt5-0-dev", "libx11-dev", "libxcb-composite0-dev", "libxcb-damage0-dev", "libxcb-image0-dev", "libxcb-randr0-dev", "libxcb-util0-dev", "libxcb-xkb-dev", "libxcomposite-dev", "libxdamage-dev", "libxkbcommon-dev", "libxkbcommon-x11-dev", "libxrender-dev", "libxtst-dev", "lxmenu-data", "lxqt", "lxqt-about", "lxqt-config", "lxqt-core", "lxqt-notificationd", "lxqt-panel-l10n", "lxqt-policykit", "lxqt-qtplugin", "lxqt-runner", "lxqt-session", "pavucontrol", "pavucontrol-qt", "qlipper", "qttranslations5-l10n"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg-dev", "libnspr4-dev", "libnss3", "libnss3-tools:native", "libsqlite3-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

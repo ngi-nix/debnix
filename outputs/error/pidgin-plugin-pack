@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libenchant-2-dev", "libglib2.0-dev", "libgtk2.0-dev", "libgtkspell-dev", "meson", "pidgin-dev", "pkg-config"], or 
-output: 
-[] is empty!

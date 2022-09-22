@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["catdvi", "cdbs", "debhelper", "doc-base", "ghostscript", "html2text", "httpd-cgi", "info2www", "libcgi-pm-perl", "libdata-page-perl", "libhtml-parser-perl", "liblocale-gettext-perl", "libtemplate-perl", "liburi-perl", "man2html", "poppler-utils", "ruby", "ruby-debian", "ruby-gettext", "ruby-interpreter", "sensible-utils", "swish++", "ucf", "www-browser"], or 
-output: 
-[] is empty!

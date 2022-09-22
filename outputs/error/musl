@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gcc-aarch64-linux-gnu", "gcc-arm-linux-gnueabi", "gcc-arm-linux-gnueabihf", "gcc-i686-linux-gnu", "gcc-m68k-linux-gnu", "gcc-mips-linux-gnu", "gcc-mips64el-linux-gnuabi64", "gcc-mipsel-linux-gnu", "gcc-powerpc64le-linux-gnu", "gcc-riscv64-linux-gnu", "gcc-s390x-linux-gnu", "gcc-sh4-linux-gnu", "gcc-x86-64-linux-gnu", "musl", "musl-dev"], or 
-output: 
-[] is empty!

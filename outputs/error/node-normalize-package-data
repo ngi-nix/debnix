@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "node-async", "node-hosted-git-info", "node-resolve", "node-semver", "node-tap", "node-underscore", "node-validate-npm-package-license"], or 
-output: 
-[] is empty!

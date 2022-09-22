@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bsdextrautils", "bsdmainutils", "busybox", "busybox-static", "debconf", "debhelper-compat", "file", "initramfs-tools-core", "linux-base", "lsb-base", "makedumpfile", "po-debconf", "shellcheck", "ucf"], or 
-output: 
-[] is empty!

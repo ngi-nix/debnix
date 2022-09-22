@@ -1,1 +1,0 @@
-{"pkgs_name":"jo","nix_pkg":"jo","control_file_hash":"209b50c5eed458f3df0091c96091f9f20ecce71ef3eda9e94599136884db776f","deb_inputs":["bash-completion","debhelper-compat","pandoc","pkg-config"],"nix_inputs":["pandoc","pkg-config-wrapper"],"map":{"pandoc":"pandoc"}}

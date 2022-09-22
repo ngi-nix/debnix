@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libdtkcommon", "libdtkcommon-dev", "libdtkcore5", "libgsettings-qt-dev", "libgtest-dev", "lshw", "pkg-config", "pkg-kde-tools", "qtbase5-private-dev", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

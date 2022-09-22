@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apt-xapian-index", "aptitude", "aptitude-common", "aptitude-doc", "aptitude-doc-en", "autoconf-archive", "debhelper-compat", "debtags", "dpkg-dev", "gettext", "libapt-pkg-dev", "libboost-dev", "libboost-iostreams-dev", "libboost-system-dev", "libboost-test-dev", "libcppunit-dev", "libcwidget-dev", "libdpkg-perl", "libgmock-dev", "libgtest-dev", "libncurses-dev", "libsigc++-2.0-dev", "libsqlite3-dev", "libxapian-dev", "pkg-config", "sensible-utils", "tasksel"], or 
-output: 
-[] is empty!

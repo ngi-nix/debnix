@@ -1,1 +1,0 @@
-{"pkgs_name":"spirv-tools","nix_pkg":"spirv-tools","control_file_hash":"85fc95c56a3a9753faa23e089ba47b3800faa30c197314a8604e089af3dd3e2e","deb_inputs":["cmake","debhelper-compat","python3:native","spirv-headers"],"nix_inputs":["cmake","python3"],"map":{"cmake":"cmake"}}

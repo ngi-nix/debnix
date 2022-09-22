@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apt-xapian-index", "cmake", "debhelper-compat", "extra-cmake-modules", "gettext", "libdebconf-kde-dev", "libkf5dbusaddons-dev", "libkf5i18n-dev", "libkf5iconthemes-dev", "libkf5kio-dev", "libkf5xmlgui-dev", "libqapt-dev", "libqapt3", "libqapt3-runtime", "pkg-config", "pkg-kde-tools", "qtbase5-dev"], or 
-output: 
-[] is empty!

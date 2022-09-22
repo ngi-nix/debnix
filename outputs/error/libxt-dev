@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libglib2.0-dev", "libice-dev", "libsm-dev", "libx11-dev", "libxt-doc", "libxt6", "pkg-config", "quilt", "x11proto-dev", "xmlto", "xorg-sgml-doctools", "xutils-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "extra-cmake-modules", "fcitx-config-gtk", "fcitx-config-gtk2", "fcitx-frontend-qt5", "fcitx-libs-dev", "fcitx-module-dbus", "intltool", "kde-config-fcitx", "libfcitx-qt5-1", "libfcitx-qt5-data", "pkg-config", "qt6-base-dev", "qt6-base-private-dev", "qtbase5-dev", "qtbase5-private-dev"], or 
-output: 
-[] is empty!

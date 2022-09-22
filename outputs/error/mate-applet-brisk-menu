@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg-dev", "intltool", "libglib2.0-dev", "libgtk-3-dev", "libmate-menu-dev", "libmate-panel-applet-dev", "libnotify-dev", "libxml2-utils", "mate-panel", "meson", "ninja-build", "pkg-config"], or 
-output: 
-[] is empty!

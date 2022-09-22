@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "bzip2", "cowbuilder", "cpio", "curl", "debhelper-compat", "devscripts", "dh-python", "dh-sequence-bash-completion", "dh-sequence-python3", "docbook2x", "flake8", "git", "git-buildpackage", "gtk-doc-tools", "libdistro-info-perl", "man-db", "mock", "pbuilder", "perl", "pristine-tar", "pydoctor", "python3", "python3-coverage", "python3-dateutil", "python3-mock", "python3-nose", "python3-nosexcover", "python3-notify", "python3-notify2", "python3-pkg-resources", "python3-requests", "python3-rpm", "python3-setuptools", "rpm", "sbuild", "sensible-utils", "sudo", "unzip", "xsltproc", "zipmerge"], or 
-output: 
-[] is empty!

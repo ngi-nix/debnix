@@ -1,1 +1,0 @@
-{"pkgs_name":"klavaro","nix_pkg":"klavaro","control_file_hash":"178d2ff641ebb6bd643073a33bdddaa375d59d736324f0a4ffc711108ec1f982","deb_inputs":["debhelper","intltool","libcurl4-gnutls-dev","libgtk-3-dev","pkg-config"],"nix_inputs":["curl","gtk+3","gtkdatabox","intltool","pkg-config-wrapper"],"map":{"intltool":"intltool","libcurl4-gnutls-dev":"curl"}}

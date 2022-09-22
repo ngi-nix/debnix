@@ -38,9 +38,9 @@ extern crate log;
 
 use self::cli::CliArgs;
 use self::deb::get_debian_pkg_outputs;
-use crate::deb::ControlFileApi;
 use crate::matcher::match_libs;
 use crate::nix::get_drv_inputs;
+use crate::{deb::ControlFileApi, nix::NIX_ATTRIBUTES_REVERSED};
 
 /// outputs/toplevel-debnix.json
 /// HashMap {deb-lib: nix-lib}
@@ -162,6 +162,7 @@ fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
 }
 
 /// This is the main discovery function, for a single package.
+/// pkg - Is the package from debian.
 fn discover(
     pkg: String,
     map: Option<HashMap<String, String>>,
@@ -170,8 +171,8 @@ fn discover(
     let mut nix_inputs = vec![];
     let mut nix_pkg = None;
 
-    if nix::NIX_ATTRIBUTES_NEW.contains_key(&pkg) {
-        nix_pkg = Some(pkg.clone());
+    if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(&pkg) {
+        nix_pkg = Some(attr_path.attrpath.clone()).flatten();
     }
 
     nix_inputs.push(pkg.clone());

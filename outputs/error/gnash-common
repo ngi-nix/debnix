@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "autotools-dev", "browser-plugin-gnash", "browser-plugin-lightspark", "csound", "debhelper", "default-libmysqlclient-dev", "dejagnu", "dh-buildinfo", "docbook", "docbook-xsl", "docbook2x", "doxygen", "dpkg-dev", "gnash", "gnash-common", "gnash-cygnal", "haxe", "intltool", "kdelibs5-dev", "klash", "libagg-dev", "libatk1.0-dev", "libavcodec-dev", "libavformat-dev", "libavresample-dev", "libboost-date-time-dev", "libboost-dev", "libboost-iostreams-dev", "libboost-program-options-dev", "libcurl3-gnutls-dev", "libcurl3-openssl-dev", "libcurl4-gnutls-dev", "libcurl4-openssl-dev", "libgconf2-dev", "libgif-dev", "libgtk2.0-dev", "libjemalloc-dev", "libjpeg-dev", "libltdl-dev", "libpango1.0-dev", "libpng-dev", "libqt4-dev", "libsdl1.2-dev", "libspeex-dev", "libspeexdsp-dev", "libswscale-dev", "libtool", "libxmu-dev", "libxv-dev", "mtasc", "npapi-sdk-dev", "pango-dev", "python-all-dev", "python-gtk2", "python-gtk2-dev", "qt4-qmake", "sng", "swfmill", "swftools", "xsltproc"], or 
-output: 
-[] is empty!
