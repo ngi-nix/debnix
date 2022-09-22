@@ -1,7 +1,7 @@
 name: "debnix action"
 
 on:
-  schedule:
+  # schedule:
     # run everyday at 03:00
     # - cron:  "0 3 * * *"
   workflow_dispatch:
