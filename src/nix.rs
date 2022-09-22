@@ -33,10 +33,10 @@ lazy_static::lazy_static! {
             .expect("Nix-env is broken, maybe there is a problem with the channel.");
     let serialized = std::str::from_utf8(&output.stdout)
             .expect("NIX_ATTRIBUTES are not generated correctly.");
-        serialized.to_string();
     let deserialized: HashMap<String, NixAttributes> = serde_json::from_str(serialized)
             .expect("Serializing from NIX_ATTRIBUTES broken.");
-        deserialized
+        // deserialized.iter_mut().map(|(mut k, _v)| k = &k.split_once('.').unwrap().1.to_owned()).collect::<Vec<_>>();
+        deserialized.iter().map(|(k, v)| (k.split_once('.').unwrap().1.to_owned(), v.clone())).collect::<HashMap<String, NixAttributes>>()
     };
     pub static ref NIX_ATTRIBUTES: Vec<String> = {
         NIX_ATTRIBUTES_NEW.values().map(|a| a.pname.clone()).collect()

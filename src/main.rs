@@ -102,8 +102,8 @@ fn main() -> Result<(), DebNixError> {
                 break;
             }
             if let Some(destination) = opts.write() {
-                let _ = File::create(format!("{destination}"))?;
-                let _ = File::create(format!("{destination}/error"))?;
+                // let _ = OpenOptions::new().create(true).open(format!("{destination}"))?;
+                // let _ = OpenOptions::new().create(true).open(format!("{destination}/error"))?;
                 let error_destination = format!("{}/error/{}", destination, pkg);
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.

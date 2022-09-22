@@ -13,3 +13,4 @@
 	- use map itself as an input (if available don't redirect)
 - improve error, when debian package can't be found from source
 - properly log trailing path errors
+- GitHub action to generate the JSON

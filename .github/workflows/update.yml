@@ -1,0 +1,50 @@
+name: "all cabal2json action"
+
+on:
+  schedule:
+    # run everyday at 03:00
+    - cron:  "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: update all debnix files
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v3
+      with:
+        ref: data
+        fetch-depth: 1
+
+    - name: Install/Setup - NIX
+      uses: cachix/install-nix-action@v17
+      with:
+        install_url: https://releases.nixos.org/nix/nix-2.10.3/install
+        # install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
+        # GC 30GB when free space < 3GB
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+          min-free = 3000000000
+          max-free = 30000000000
+
+    - name: run updater app
+      run: |
+        set -x
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        # create temporary directory for downloads
+        export TMP_DIR=./tmplocal
+        mkdir $TMP_DIR
+        # export WORKERS=5
+
+        nix run -L github:$GITHUB_REPOSITORY \
+          --no-write-lock-file \
+          --discover 5000
+          --write ./outputs
+
+        git add .
+        git commit -m "$(date)"
+        git push
+      shell: bash
