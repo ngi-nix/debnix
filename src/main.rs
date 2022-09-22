@@ -65,7 +65,8 @@ fn main() -> Result<(), DebNixError> {
 
     // Generate completion scripts
     if let Some(shell) = opts.generate_completion() {
-        println!("{:?}", &*nix::NIX_ATTRIBUTES);
+        // println!("{:?}", &*nix::NIX_ATTRIBUTES);
+        println!("{:?}", &*nix::NIX_ATTRIBUTES_NEW);
         setup::generate_completion(&shell.to_string());
         std::process::exit(0);
     }
@@ -169,7 +170,7 @@ fn discover(
     let mut nix_inputs = vec![];
     let mut nix_pkg = None;
 
-    if nix::NIX_ATTRIBUTES.contains(&pkg) {
+    if nix::NIX_ATTRIBUTES_NEW.contains_key(&pkg) {
         nix_pkg = Some(pkg.clone());
     }
 

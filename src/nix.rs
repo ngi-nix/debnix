@@ -21,26 +21,27 @@ lazy_static::lazy_static! {
             .expect("Serializing from NIX_ATTRIBUTES broken.");
         deserialized
     };
-    pub static ref NIX_ATTRIBUTES_NEW: Vec<String> = {
+    pub static ref NIX_ATTRIBUTES_NEW: HashMap<String, NixAttributes> = {
         let output = Command::new("nix-env")
             .arg("--query")
             .arg("--json")
             .arg("--attr-path")
-            .arg("--out-path")
+            .arg("--available")
+            // .arg("--out-path")
             .arg("--drv-path")
             .output()
             .expect("Nix-env is broken, maybe there is a problem with the channel.");
     let serialized = std::str::from_utf8(&output.stdout)
             .expect("NIX_ATTRIBUTES are not generated correctly.");
         serialized.to_string();
-    let deserialized: Vec<String> = serde_json::from_str(serialized)
+    let deserialized: HashMap<String, NixAttributes> = serde_json::from_str(serialized)
             .expect("Serializing from NIX_ATTRIBUTES broken.");
         deserialized
     };
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-struct NixAttributes {
+pub struct NixAttributes {
     name: String,
     pname: String,
     version: String,
