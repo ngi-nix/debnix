@@ -1,0 +1,1 @@
+{"pkgs_name":"xcape","nix_pkg":"xcape","control_file_hash":"fba7743a61f6f7d1bafc9dd40e74b387456b22b8edf0fda2244dbe79aebac351","deb_inputs":["debhelper","libx11-dev","libxtst-dev","pkg-config"],"nix_inputs":["libX11","libXi","libXtst","pkg-config-wrapper","xorgproto"],"map":{"libx11-dev":"libX11","libxtst-dev":"libXtst"}}

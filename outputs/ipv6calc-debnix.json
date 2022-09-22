@@ -1,0 +1,1 @@
+{"pkgs_name":"ipv6calc","nix_pkg":"ipv6calc","control_file_hash":"7fdbb3bf0330587ca9c22a059ba789940912d9fe5ac571ce5dad722f835d923c","deb_inputs":["bind9-host","debhelper","dpkg-dev","geoip-database","host","libgeoip-dev","quilt"],"nix_inputs":["geolite-legacy","getopt","ip2location-c","libmaxminddb","openssl","perl"],"map":{}}

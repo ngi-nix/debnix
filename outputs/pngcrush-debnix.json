@@ -1,0 +1,1 @@
+{"pkgs_name":"pngcrush","nix_pkg":"pngcrush","control_file_hash":"d4b981e08b93dab5ab11d743d74443bc97442d5a3bccffc0db399a508cdee687","deb_inputs":["debhelper","docbook-to-man","libpng-dev","zlib1g-dev"],"nix_inputs":["libpng-apng"],"map":{}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"libfuse-dev","nix_pkg":null,"control_file_hash":"e6159468cf621334161b42670e7b0bc07816a3d2a22bef278eec9e5a947c3926","deb_inputs":["adduser","debhelper-compat","fuse","gettext","libfuse2","libfuse2-udeb","libselinux-dev","mount","sed"],"nix_inputs":["gettext"],"map":{"gettext":"gettext"}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"ledmon","nix_pkg":"ledmon","control_file_hash":"3a3e10936333b66ba1603c49ebf338c35d5db8bdf292dba7a4e3ea0d3bc044cc","deb_inputs":["debhelper","libpci-dev","libsgutils2-dev","libudev-dev","openipmi","pkg-config","systemd"],"nix_inputs":["perl","sg3_utils","systemd"],"map":{"libsgutils2-dev":"sg3_utils","systemd":"systemd","libudev-dev":"systemd"}}

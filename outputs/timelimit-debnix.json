@@ -1,0 +1,1 @@
+{"pkgs_name":"timelimit","nix_pkg":"timelimit","control_file_hash":"89ca0a161a2daca10a72f1d084e4b65963d29ec66be18c1fae2d6b23e6b8f70f","deb_inputs":["debhelper-compat","dh-sequence-single-binary","perl"],"nix_inputs":["perl"],"map":{"perl":"perl"}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"cvsps","nix_pkg":"cvsps","control_file_hash":"9b1b145d53a23f49aa3dbfdc577a88bf1d47389cc376638680c73d13935834ee","deb_inputs":["cvs","debhelper","zlib1g-dev"],"nix_inputs":["cvs","zlib"],"map":{"zlib1g-dev":"zlib","cvs":"cvs"}}
