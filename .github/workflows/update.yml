@@ -22,10 +22,8 @@ jobs:
     - name: Install/Setup - NIX
       uses: cachix/install-nix-action@v17
       with:
-        name: kenji
         # install_url: https://releases.nixos.org/nix/nix-2.10.3/install
         # If you chose API tokens for write access OR if you have a private cache
-        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
         nix_path: nixpkgs=channel:nixos-unstable
         # install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
         # GC 30GB when free space < 3GB
@@ -33,6 +31,11 @@ jobs:
           experimental-features = nix-command flakes
           min-free = 3000000000
           max-free = 30000000000
+    - uses: cachix/cachix-action@v10
+      with:
+        name: kenji
+        # If you chose API tokens for write access OR if you have a private cache
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
     - name: run updater app
       run: |
