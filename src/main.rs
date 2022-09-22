@@ -26,7 +26,7 @@ use error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{
     collections::HashMap,
-    fs::{self, File},
+    fs::{self, File, create_dir_all},
     io::Write,
     path::Path,
 };
@@ -99,8 +99,7 @@ fn main() -> Result<(), DebNixError> {
                 break;
             }
             if let Some(destination) = opts.write() {
-                // let _ = OpenOptions::new().create(true).open(format!("{destination}"))?;
-                // let _ = OpenOptions::new().create(true).open(format!("{destination}/error"))?;
+                let _ = create_dir_all(format!("{destination}/error"));
                 let error_destination = format!("{}/error/{}", destination, pkg);
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
