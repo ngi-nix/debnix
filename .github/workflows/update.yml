@@ -11,6 +11,7 @@ jobs:
     name: update all debnix files
     runs-on: ubuntu-latest
     timeout-minutes: 600
+    environment: cachix
     steps:
 
     - uses: actions/checkout@v3
@@ -21,7 +22,10 @@ jobs:
     - name: Install/Setup - NIX
       uses: cachix/install-nix-action@v17
       with:
+        name: kenji
         # install_url: https://releases.nixos.org/nix/nix-2.10.3/install
+        # If you chose API tokens for write access OR if you have a private cache
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
         nix_path: nixpkgs=channel:nixos-unstable
         # install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
         # GC 30GB when free space < 3GB
