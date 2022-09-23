@@ -52,7 +52,7 @@ jobs:
           --no-write-lock-file \
           -- \
           --discover 100000 \
-          --timeout 4 \
+          --timeout 2 \
           --write ./outputs
 
         nix develop -L \
