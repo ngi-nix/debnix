@@ -51,9 +51,20 @@ jobs:
         nix run -L github:$GITHUB_REPOSITORY \
           --no-write-lock-file \
           -- \
-          --discover 1000 \
-          --timeout 120 \
+          --discover 100000 \
+          --timeout 4 \
           --write ./outputs
+
+        nix develop -L \
+        github:$GITHUB_REPOSITORY#ciShell \
+          --no-write-lock-file \
+          --command \
+          just prettify-json
+
+        nix run -L github:$GITHUB_REPOSITORY \
+          --no-write-lock-file \
+          -- \
+          --generate-map ./outputs
 
         git add .
         git commit -m "$(date)"

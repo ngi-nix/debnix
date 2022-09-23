@@ -75,6 +75,13 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
       pkgs.alejandra
       pkgs.treefmt
     ];
+    ciInputs = [
+      # just a program runner
+      pkgs.just
+      # for sponge
+      pkgs.moreutils
+      pkgs.fd
+    ];
     editorConfigInputs = [
       pkgs.editorconfig-checker
     ];
@@ -152,6 +159,10 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
       editorConfigShell = pkgs.mkShell {
         name = "editor-config-shell";
         nativeBuildInputs = editorConfigInputs;
+      };
+      ciShell = pkgs.mkShell {
+        name = "ci-shell";
+        nativeBuildInputs = ciInputs;
       };
     };
     formatter = pkgs.alejandra;
