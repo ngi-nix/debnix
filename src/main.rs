@@ -101,9 +101,7 @@ fn main() -> Result<(), DebNixError> {
                 break;
             }
             if let Some(destination) = opts.write() {
-                eprintln!("ABOUT TO CREATE DESTINATION/ERROR");
-                let _ = create_dir_all(format!("{destination}/error"))?;
-                eprintln!("SUCCESSFULLY CREATED DESTINATION/ERROR");
+                create_dir_all(format!("{destination}/error"))?;
                 let error_destination = format!("{}/error/{}", destination, pkg);
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
