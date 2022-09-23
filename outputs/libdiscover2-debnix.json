@@ -1,1 +1,47 @@
-{"pkgs_name":"libdiscover2","nix_pkg":null,"control_file_hash":"236a6122f8da366865f76259680f6ffa6ff9e234083e2b460b9dc9a7faa35535","deb_inputs":["autotools-dev","debhelper-compat","discover-data","libdiscover2","libexpat1-dev","libtool-bin","libusb-1.0-0-dev","lsb-base","po-debconf"],"nix_inputs":["appstream-qt","discount","extra-cmake-modules","flatpak","fwupd","gettext","karchive","kcmutils","kconfig","kcrash","kdbusaddons","kdeclarative","kdoctools","kidletime","kio","kirigami2","kitemmodels","knewstuff","kwindowsystem","kxmlgui","ostree","packagekit-qt","pcre","plasma-framework","python3","qtquickcontrols2","qtx11extras","util-linux"],"map":{}}
+{
+  "pkgs_name": "libdiscover2",
+  "nix_pkg": null,
+  "control_file_hash": "236a6122f8da366865f76259680f6ffa6ff9e234083e2b460b9dc9a7faa35535",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper-compat",
+    "discover-data",
+    "libdiscover2",
+    "libexpat1-dev",
+    "libtool-bin",
+    "libusb-1.0-0-dev",
+    "lsb-base",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "appstream-qt",
+    "discount",
+    "extra-cmake-modules",
+    "flatpak",
+    "fwupd",
+    "gettext",
+    "karchive",
+    "kcmutils",
+    "kconfig",
+    "kcrash",
+    "kdbusaddons",
+    "kdeclarative",
+    "kdoctools",
+    "kidletime",
+    "kio",
+    "kirigami2",
+    "kitemmodels",
+    "knewstuff",
+    "kwindowsystem",
+    "kxmlgui",
+    "ostree",
+    "packagekit-qt",
+    "pcre",
+    "plasma-framework",
+    "python3",
+    "qtquickcontrols2",
+    "qtx11extras",
+    "util-linux"
+  ],
+  "map": {}
+}

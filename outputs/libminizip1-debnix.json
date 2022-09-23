@@ -1,1 +1,17 @@
-{"pkgs_name":"libminizip1","nix_pkg":null,"control_file_hash":"b1a22b299c0424f4dd50d416c8ad03a78a62acc1fd3801f3d70693ac893fcc0e","deb_inputs":["debhelper","dh-autoreconf","libminizip1","zlib1g-dev"],"nix_inputs":["zlib"],"map":{"zlib1g-dev":"zlib"}}
+{
+  "pkgs_name": "libminizip1",
+  "nix_pkg": null,
+  "control_file_hash": "b1a22b299c0424f4dd50d416c8ad03a78a62acc1fd3801f3d70693ac893fcc0e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libminizip1",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

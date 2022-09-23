@@ -1,1 +1,21 @@
-{"pkgs_name":"atop","nix_pkg":null,"control_file_hash":"efd9e86593a18ece3f176c53ec401ba70f76b98a9bcad092d229e7a8439b5b04","deb_inputs":["cron","cron-daemon","debhelper-compat","libncurses5-dev","lsb-base","zlib1g-dev"],"nix_inputs":["ncurses","zlib"],"map":{"libncurses5-dev":"ncurses","zlib1g-dev":"zlib"}}
+{
+  "pkgs_name": "atop",
+  "nix_pkg": null,
+  "control_file_hash": "efd9e86593a18ece3f176c53ec401ba70f76b98a9bcad092d229e7a8439b5b04",
+  "deb_inputs": [
+    "cron",
+    "cron-daemon",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "lsb-base",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "zlib"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "zlib1g-dev": "zlib"
+  }
+}

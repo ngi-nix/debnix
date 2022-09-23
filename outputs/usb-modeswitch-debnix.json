@@ -1,1 +1,21 @@
-{"pkgs_name":"usb-modeswitch","nix_pkg":null,"control_file_hash":"9f0e12748d5abfffc05ac22e74eb47b0e369e0cae83559101fb86174d44acd6e","deb_inputs":["comgt","debhelper-compat","jimsh","libjim-dev","libusb-1.0-0-dev","pkg-config","usb-modeswitch-data","wvdial"],"nix_inputs":["libusb","pkg-config-wrapper","tcl"],"map":{}}
+{
+  "pkgs_name": "usb-modeswitch",
+  "nix_pkg": null,
+  "control_file_hash": "9f0e12748d5abfffc05ac22e74eb47b0e369e0cae83559101fb86174d44acd6e",
+  "deb_inputs": [
+    "comgt",
+    "debhelper-compat",
+    "jimsh",
+    "libjim-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "usb-modeswitch-data",
+    "wvdial"
+  ],
+  "nix_inputs": [
+    "libusb",
+    "pkg-config-wrapper",
+    "tcl"
+  ],
+  "map": {}
+}

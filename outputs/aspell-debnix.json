@@ -1,1 +1,30 @@
-{"pkgs_name":"aspell","nix_pkg":null,"control_file_hash":"83adeca8a4b3fdcf0e7b41ac1c9bb99a133b2579ef6044ffdec7a1e6882f80a1","deb_inputs":["aspell","aspell-dictionary","aspell-doc","aspell-en","aspell6a-dictionary","autopoint","debhelper-compat","dictionaries-common","libaspell-dev","libaspell15","libncurses-dev","libncursesw5-dev","lynx","spellutils","texinfo"],"nix_inputs":["ncurses","perl"],"map":{"libncurses-dev":"ncurses","libncursesw5-dev":"ncurses"}}
+{
+  "pkgs_name": "aspell",
+  "nix_pkg": null,
+  "control_file_hash": "83adeca8a4b3fdcf0e7b41ac1c9bb99a133b2579ef6044ffdec7a1e6882f80a1",
+  "deb_inputs": [
+    "aspell",
+    "aspell-dictionary",
+    "aspell-doc",
+    "aspell-en",
+    "aspell6a-dictionary",
+    "autopoint",
+    "debhelper-compat",
+    "dictionaries-common",
+    "libaspell-dev",
+    "libaspell15",
+    "libncurses-dev",
+    "libncursesw5-dev",
+    "lynx",
+    "spellutils",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libncursesw5-dev": "ncurses"
+  }
+}

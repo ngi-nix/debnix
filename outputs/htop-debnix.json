@@ -1,1 +1,32 @@
-{"pkgs_name":"htop","nix_pkg":null,"control_file_hash":"88e512609f915099cbb48429e52756e96bdcf0c6dd3481e86f39a21cae104689","deb_inputs":["debhelper-compat","dpkg-dev","libdevstat-dev","libhwloc-dev","libkvm-dev","libncurses5-dev","libncursesw5-dev","libnl-3-dev","libnl-genl-3-dev","libsensors-dev","lm-sensors","lsof","pkg-config","strace"],"nix_inputs":["lm-sensors","ncurses","systemd"],"map":{"libncursesw5-dev":"ncurses","libsensors-dev":"lm-sensors","libncurses5-dev":"ncurses","lm-sensors":"lm-sensors"}}
+{
+  "pkgs_name": "htop",
+  "nix_pkg": null,
+  "control_file_hash": "88e512609f915099cbb48429e52756e96bdcf0c6dd3481e86f39a21cae104689",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libdevstat-dev",
+    "libhwloc-dev",
+    "libkvm-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libsensors-dev",
+    "lm-sensors",
+    "lsof",
+    "pkg-config",
+    "strace"
+  ],
+  "nix_inputs": [
+    "lm-sensors",
+    "ncurses",
+    "systemd"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libsensors-dev": "lm-sensors",
+    "libncurses5-dev": "ncurses",
+    "lm-sensors": "lm-sensors"
+  }
+}

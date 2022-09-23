@@ -1,1 +1,41 @@
-{"pkgs_name":"libgssdp-1.2-0","nix_pkg":null,"control_file_hash":"c0c953df3bce51405570fba7d7e6ba9a4ef4b4f7fab10a62ed1c67b66d453759","deb_inputs":["debhelper-compat","devhelp","dh-sequence-gir","dh-sequence-gnome","gir1.2-glib-2.0","gir1.2-gssdp-1.2","gtk-doc-tools","libgirepository1.0-dev","libglib2.0-dev","libgssdp-1.2-0","libgssdp-doc","libgtk-4-dev","libsoup2.4-dev","meson","python3-jinja2","python3-toml","python3-typogrify","valac"],"nix_inputs":["gssdp","gtk4","libsoup","meson","ninja","pkg-config-wrapper"],"map":{"libsoup2.4-dev":"libsoup","libgtk-4-dev":"gtk4","gir1.2-gssdp-1.2":"gssdp","libgssdp-doc":"gssdp","meson":"meson","libgssdp-1.2-0":"gssdp"}}
+{
+  "pkgs_name": "libgssdp-1.2-0",
+  "nix_pkg": null,
+  "control_file_hash": "c0c953df3bce51405570fba7d7e6ba9a4ef4b4f7fab10a62ed1c67b66d453759",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-glib-2.0",
+    "gir1.2-gssdp-1.2",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgssdp-1.2-0",
+    "libgssdp-doc",
+    "libgtk-4-dev",
+    "libsoup2.4-dev",
+    "meson",
+    "python3-jinja2",
+    "python3-toml",
+    "python3-typogrify",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gssdp",
+    "gtk4",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsoup2.4-dev": "libsoup",
+    "libgtk-4-dev": "gtk4",
+    "gir1.2-gssdp-1.2": "gssdp",
+    "libgssdp-doc": "gssdp",
+    "meson": "meson",
+    "libgssdp-1.2-0": "gssdp"
+  }
+}

@@ -1,1 +1,43 @@
-{"pkgs_name":"libgcab-1.0-0","nix_pkg":null,"control_file_hash":"3ab5875bcc6624a1c5905eba6f311d5072e8884e36867379bdd6158528ab1c7b","deb_inputs":["debhelper-compat","devhelp","gir1.2-gcab-1.0","gnome-desktop-testing","gobject-introspection","gtk-doc-tools","intltool","libgcab-1.0-0","libgcab-doc","libgirepository1.0-dev","libglib2.0-dev","meson","pkg-config","valac"],"nix_inputs":["docbook-xml","docbook-xsl-nons","gettext","git","glib","gobject-introspection","gtk-doc","meson","ninja","pkg-config-wrapper","vala","zlib"],"map":{"meson":"meson","gtk-doc-tools":"gtk-doc","valac":"vala","gobject-introspection":"gobject-introspection","libglib2.0-dev":"glib","libgirepository1.0-dev":"gobject-introspection"}}
+{
+  "pkgs_name": "libgcab-1.0-0",
+  "nix_pkg": null,
+  "control_file_hash": "3ab5875bcc6624a1c5905eba6f311d5072e8884e36867379bdd6158528ab1c7b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-gcab-1.0",
+    "gnome-desktop-testing",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libgcab-1.0-0",
+    "libgcab-doc",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "meson",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "git",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala",
+    "zlib"
+  ],
+  "map": {
+    "meson": "meson",
+    "gtk-doc-tools": "gtk-doc",
+    "valac": "vala",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection"
+  }
+}
