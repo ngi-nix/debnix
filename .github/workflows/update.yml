@@ -52,6 +52,7 @@ jobs:
           --no-write-lock-file \
           -- \
           --discover 1000 \
+          --timeout 120 \
           --write ./outputs
 
         git add .
