@@ -52,14 +52,14 @@ jobs:
           --no-write-lock-file \
           -- \
           --discover 100000 \
-          --timeout 2 \
+          --timeout 1 \
           --write ./outputs
 
         nix develop -L \
         github:$GITHUB_REPOSITORY#ciShell \
           --no-write-lock-file \
           --command \
-          just-setup
+          just-setup > ./justfile
 
         nix develop -L \
         github:$GITHUB_REPOSITORY#ciShell \

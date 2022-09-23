@@ -84,7 +84,7 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
     (
       pkgs.writeShellScriptBin "just-setup"
       ''
-        cat << EOF >./justfile
+        cat << EOF
         prettify-json:
           fd ".-debnix.json" outputs --exec just prettify-json-exec {}
 
