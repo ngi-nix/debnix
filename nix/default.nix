@@ -77,10 +77,12 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
     ];
     ciInputs = [
       # just a program runner
-      (pkgs.runCommand "just" ''
-      pkgs.just --justfile ${self}/justfile
-      '')
       # for sponge
+      (pkgs.writeShellScriptBin
+        "just"
+        ''
+        ${pkgs.just}/bin/just --justfile ${self}/justfile "$@"
+        '')
       pkgs.moreutils
       pkgs.fd
     ];
