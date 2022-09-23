@@ -1,9 +1,9 @@
 name: "debnix action"
 
 on:
-  # schedule:
+  schedule:
     # run everyday at 03:00
-    # - cron:  "0 3 * * *"
+    - cron:  "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -51,8 +51,8 @@ jobs:
         nix run -L github:$GITHUB_REPOSITORY \
           --no-write-lock-file \
           -- \
-          --discover 100000 \
-          --timeout 1 \
+          --discover 1000000 \
+          --timeout 400 \
           --write ./outputs
 
         nix develop -L \
