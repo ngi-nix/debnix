@@ -22,7 +22,7 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
-use chrono::{DateTime, Utc};
+use chrono::Utc;
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{
