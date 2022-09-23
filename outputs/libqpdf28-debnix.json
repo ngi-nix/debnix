@@ -1,0 +1,1 @@
+{"pkgs_name":"libqpdf28","nix_pkg":null,"control_file_hash":"e9d9db2ab720196d6bfcaa1a41a046ec3805e93d1075a523ff10de3b27499552","deb_inputs":["cmake","debhelper","libgnutls28-dev","libjpeg-dev","libqpdf29","zlib1g-dev"],"nix_inputs":["libjpeg-turbo","perl","zlib"],"map":{"zlib1g-dev":"zlib","libjpeg-dev":"libjpeg-turbo"}}

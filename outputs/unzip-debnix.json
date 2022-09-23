@@ -1,0 +1,1 @@
+{"pkgs_name":"unzip","nix_pkg":null,"control_file_hash":"375efe42ee8daa67fcc9d91384c1b311907ad6a02b83bb9be5cda1079b92ea31","deb_inputs":["debhelper-compat","libbz2-dev","zip"],"nix_inputs":["bzip2"],"map":{"libbz2-dev":"bzip2"}}

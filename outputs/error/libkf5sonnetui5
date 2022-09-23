@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell", "cmake", "debhelper-compat", "doxygen", "extra-cmake-modules", "hspell", "libaspell-dev", "libhunspell-dev", "libkf5sonnet-dev-bin", "libkf5sonnet-doc", "libkf5sonnet5-data", "libkf5sonnetcore5", "libkf5sonnetui5", "libqt5sql5-sqlite", "libvoikko-dev", "pkg-config", "pkg-kde-tools", "qtbase5-dev", "qtdeclarative5-dev", "qttools5-dev", "qttools5-dev-tools", "sonnet-plugins", "xauth", "xvfb", "zlib1g-dev"], or 
+output: 
+[] is empty!
