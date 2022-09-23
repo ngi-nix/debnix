@@ -22,11 +22,12 @@ pub mod nix;
 /// Setup helpers.
 pub mod setup;
 
+use chrono::{DateTime, Utc};
 use error::DebNixError;
 use serde::{Deserialize, Serialize};
 use std::{
     collections::HashMap,
-    fs::{self, File, create_dir_all},
+    fs::{self, create_dir_all, File},
     io::Write,
     path::Path,
 };
@@ -93,6 +94,7 @@ fn main() -> Result<(), DebNixError> {
     }
 
     if let Some(amount) = opts.discover() {
+        let start_time = Utc::now().time();
         let pop = read_popcon("./test/popcon.csv")?;
         for (i, pkg) in pop.into_iter().enumerate() {
             if i == amount {
@@ -130,6 +132,17 @@ fn main() -> Result<(), DebNixError> {
                     if Path::new(&error_destination).exists() {
                         error!("Path already exists: {}", &error_destination);
                     }
+                }
+            }
+            if let Some(duration) = opts.timeout() {
+                let since_startup = Utc::now()
+                    .time()
+                    .signed_duration_since(start_time)
+                    .num_minutes();
+
+                if since_startup as usize > duration {
+                    println!("Timeout Exceeded, shutting down.");
+                    std::process::exit(0);
                 }
             }
         }

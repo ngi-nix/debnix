@@ -7,6 +7,9 @@ pub(crate) struct CliArgs {
     discover: Option<usize>,
     #[clap(long, value_parser)]
     discover_start: Option<usize>,
+    /// Set a timeout in minutes after which the program will gracefully exit
+    #[clap(long, value_parser)]
+    timeout: Option<usize>,
     #[clap(long, value_parser)]
     write: Option<String>,
     #[clap(long, value_parser)]
@@ -48,5 +51,9 @@ impl CliArgs {
 
     pub(crate) fn map(&self) -> Option<&String> {
         self.map.as_ref()
+    }
+
+    pub(crate) fn timeout(&self) -> Option<usize> {
+        self.timeout
     }
 }
