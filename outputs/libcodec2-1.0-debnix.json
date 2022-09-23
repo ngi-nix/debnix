@@ -1,0 +1,1 @@
+{"pkgs_name":"libcodec2-1.0","nix_pkg":null,"control_file_hash":"590fe77017f813c1182b60ecfbb4264d1ae170a9a5614b73f62a82135a53ae87","deb_inputs":["cmake","debhelper-compat","gnuplot-nox","libcodec2-1.0","libsamplerate0-dev","libspeexdsp-dev","octave","octave-dev","octave-signal","pkg-config","python3","sox"],"nix_inputs":["cmake"],"map":{"cmake":"cmake"}}

@@ -1,0 +1,1 @@
+{"pkgs_name":"minissdpd","nix_pkg":null,"control_file_hash":"3053caf546c905cfd033fc65d451de9684d16be778026e443068e5188bed149a","deb_inputs":["debconf","debhelper-compat","freebsd-glue","libnfnetlink-dev","lsb-base","po-debconf"],"nix_inputs":["libnfnetlink"],"map":{"libnfnetlink-dev":"libnfnetlink"}}
