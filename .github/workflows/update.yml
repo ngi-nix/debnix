@@ -59,7 +59,15 @@ jobs:
         github:$GITHUB_REPOSITORY#ciShell \
           --no-write-lock-file \
           --command \
+          just-setup
+
+        nix develop -L \
+        github:$GITHUB_REPOSITORY#ciShell \
+          --no-write-lock-file \
+          --command \
           just prettify-json
+
+        rm ./justfile
 
         nix run -L github:$GITHUB_REPOSITORY \
           --no-write-lock-file \
