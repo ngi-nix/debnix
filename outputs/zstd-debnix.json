@@ -1,0 +1,1 @@
+{"pkgs_name":"zstd","nix_pkg":null,"control_file_hash":"61ad2554c03311db550b5ba0a560386b916da69819b48fa827f72ae596f5ae01","deb_inputs":["d-shlibs","debhelper-compat","help2man","liblz4-dev","liblzma-dev","libzstd1","zlib1g-dev"],"nix_inputs":["cmake-boot","file"],"map":{}}
