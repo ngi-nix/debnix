@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "xinetd",
+  "nix_pkg": null,
+  "control_file_hash": "678d7b58e134c6544d60a4dd287f27efe9637c61f9a6902a83695c8f27b025bd",
+  "deb_inputs": [
+    "debhelper",
+    "libselinux1-dev",
+    "libwrap0-dev",
+    "logrotate",
+    "lsb-base",
+    "netbase",
+    "pkgconf",
+    "rsyslog",
+    "system-log-daemon",
+    "update-inetd"
+  ],
+  "nix_inputs": [
+    "libtirpc"
+  ],
+  "map": {}
+}

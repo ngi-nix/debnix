@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "dwz",
+  "nix_pkg": null,
+  "control_file_hash": "3f93173e814090718ec399a45cbe2c68201d7f6ecdce255caa29f5cd64ff038d",
+  "deb_inputs": [
+    "debhelper",
+    "dejagnu",
+    "elfutils",
+    "gdb",
+    "libelf-dev",
+    "libxxhash-dev"
+  ],
+  "nix_inputs": [
+    "elfutils"
+  ],
+  "map": {
+    "elfutils": "elfutils",
+    "libelf-dev": "elfutils"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "baobab",
+  "nix_pkg": null,
+  "control_file_hash": "e5146785ad10123f57bd981ea4433dba63ddd567bacdf5cf561bc46db6c04063",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "itstool",
+    "libadwaita-1-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-4-dev",
+    "meson",
+    "valac",
+    "yelp"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "gettext",
+    "glib",
+    "gtk4",
+    "itstool",
+    "libadwaita",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "vala"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgtk-4-dev": "gtk4",
+    "itstool": "itstool",
+    "meson": "meson",
+    "valac": "vala"
+  }
+}

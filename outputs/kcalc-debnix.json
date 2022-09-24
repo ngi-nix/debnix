@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "kcalc",
+  "nix_pkg": null,
+  "control_file_hash": "2010607c16b2837f8490fa4dcbac61c7c554fc90b81aea7283c2f9585b6562e7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libgmp-dev",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5guiaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5notifications-dev",
+    "libkf5xmlgui-dev",
+    "libmpfr-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "gmp-with-cxx",
+    "kconfig",
+    "kconfigwidgets",
+    "kcrash",
+    "kdoctools",
+    "kguiaddons",
+    "ki18n",
+    "kinit",
+    "knotifications",
+    "kxmlgui",
+    "mpfr"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "libmpfr-dev": "mpfr",
+    "libkf5guiaddons-dev": "kguiaddons",
+    "libkf5crash-dev": "kcrash",
+    "libkf5notifications-dev": "knotifications",
+    "libkf5config-dev": "kconfig",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5xmlgui-dev": "kxmlgui",
+    "libkf5configwidgets-dev": "kconfigwidgets"
+  }
+}

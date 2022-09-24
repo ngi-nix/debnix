@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell", "automoc", "bison", "ca-certificates", "cmake", "dbus-x11", "debhelper", "docbook-xml", "docbook-xsl", "flex", "fonts-dejavu", "gnupg", "hicolor-icon-theme", "hspell", "katepart", "kde-runtime", "kdelibs-bin", "kdelibs5-data", "kdelibs5-plugins", "kdoctools", "libacl1-dev", "libaspell-dev", "libattica-dev", "libavahi-common-dev", "libbz2-dev", "libdbusmenu-qt-dev", "libdlrestrictions-dev", "libenchant-dev", "libfam-dev", "libgif-dev", "libjpeg-dev", "libkrb5-dev", "liblzma-dev", "libpcre3-dev", "libphonon-dev", "libpng-dev", "libpolkit-qt-1-dev", "libqca2-dev", "libqt4-dev", "libqt4-opengl-dev", "libqtwebkit-dev", "libsm-dev", "libssl-dev", "libudev-dev", "libutempter-dev", "libxml2-dev", "libxml2-utils", "libxrender-dev", "libxslt1-dev", "libxss-dev", "media-player-info", "pkg-kde-tools", "shared-mime-info", "udev", "udisks2", "upower", "xauth", "xdg-utils", "zlib1g-dev"], or 
+output: 
+[] is empty!

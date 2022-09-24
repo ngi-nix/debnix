@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gnome-video-effects",
+  "nix_pkg": null,
+  "control_file_hash": "add5089ce24ca41aadda22d8870f591468f0212db391abf318a26a5162332b81",
+  "deb_inputs": [
+    "debhelper-compat",
+    "frei0r-plugins",
+    "gnome-pkg-tools",
+    "gnome-video-effects",
+    "gnome-video-effects-frei0r",
+    "gstreamer1.0-plugins-bad",
+    "gstreamer1.0-plugins-good",
+    "intltool",
+    "meson"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

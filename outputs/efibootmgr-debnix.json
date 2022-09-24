@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "efibootmgr",
+  "nix_pkg": null,
+  "control_file_hash": "313de56b6a20480f3b5d6c89ed177ae0e135c28ab39b9096ec7e834e56c896bf",
+  "deb_inputs": [
+    "debhelper",
+    "libefiboot-dev",
+    "libefivar-dev",
+    "libpopt-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "efivar",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "libefivar-dev": "efivar",
+    "libefiboot-dev": "efivar"
+  }
+}

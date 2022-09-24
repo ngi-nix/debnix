@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "minidlna",
+  "nix_pkg": null,
+  "control_file_hash": "694997663113ac3e19980d3b85521b9d3b1ac029f82074f8fc290bf4bfd31df0",
+  "deb_inputs": [
+    "adduser",
+    "autopoint",
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libexif-dev",
+    "libflac-dev",
+    "libid3tag0-dev",
+    "libjpeg-dev",
+    "libogg-dev",
+    "libsqlite3-dev",
+    "libvorbis-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "flac",
+    "gettext",
+    "libexif",
+    "libid3tag",
+    "libjpeg-turbo",
+    "libogg",
+    "libvorbis",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libjpeg-dev": "libjpeg-turbo",
+    "autopoint": "gettext",
+    "libavformat-dev": "ffmpeg",
+    "libid3tag0-dev": "libid3tag",
+    "libavutil-dev": "ffmpeg",
+    "libflac-dev": "flac",
+    "libogg-dev": "libogg",
+    "libexif-dev": "libexif",
+    "libavcodec-dev": "ffmpeg",
+    "libvorbis-dev": "libvorbis"
+  }
+}
