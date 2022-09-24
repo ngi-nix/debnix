@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "dialog",
+  "nix_pkg": null,
+  "control_file_hash": "57e7c523180f0ff9cc6ce9b400e506e14c401b74895a0d7bda53f7a835b36b33",
+  "deb_inputs": [
+    "debhelper-compat",
+    "debianutils",
+    "gettext",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

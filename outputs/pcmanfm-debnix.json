@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "pcmanfm",
+  "nix_pkg": null,
+  "control_file_hash": "c800f8854bae597772a79887c5ee90160f18e9a292409d88e3e6a25cd38893e5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnome-icon-theme",
+    "gvfs-backends",
+    "gvfs-fuse",
+    "intltool",
+    "libfm-gtk-dev",
+    "libgtk2.0-dev",
+    "lxde-icon-theme",
+    "lxpolkit",
+    "oxygen-icon-theme",
+    "pkg-config",
+    "policykit-1-gnome",
+    "polkit-1-auth-agent",
+    "shared-mime-info",
+    "tango-icon-theme"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "glib",
+    "gtk+3",
+    "intltool",
+    "libX11",
+    "libfm",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfm-gtk-dev": "libfm",
+    "intltool": "intltool"
+  }
+}

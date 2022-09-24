@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "xfsprogs",
+  "nix_pkg": null,
+  "control_file_hash": "7bcc9c96c0dc05ea001fc21af376b4e19cb01cab3de5f3c194ad89697db7a37e",
+  "deb_inputs": [
+    "acl",
+    "attr",
+    "debhelper",
+    "dh-autoreconf",
+    "gettext",
+    "libattr1-dev",
+    "libblkid-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libdevmapper-dev",
+    "libedit-dev",
+    "libicu-dev",
+    "libinih-dev",
+    "libtool",
+    "liburcu-dev",
+    "linux-libc-dev",
+    "pkg-config",
+    "python3:any",
+    "quota",
+    "uuid-dev",
+    "xfsdump",
+    "xfsprogs"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "inih",
+    "libtool",
+    "liburcu",
+    "pkg-config-wrapper",
+    "readline",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libtool": "libtool",
+    "libinih-dev": "inih",
+    "liburcu-dev": "liburcu",
+    "gettext": "gettext"
+  }
+}

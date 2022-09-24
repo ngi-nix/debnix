@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "xdotool",
+  "nix_pkg": null,
+  "control_file_hash": "6e770b6664bdd3c4e591fd49e3f0421e26de2ff5e4cb91be63d4973dc178528b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "dpkg-dev",
+    "libx11-dev",
+    "libxdo3",
+    "libxinerama-dev",
+    "libxkbcommon-dev",
+    "libxtst-dev",
+    "openbox",
+    "perl",
+    "pkg-config",
+    "procps",
+    "ruby",
+    "ruby-minitest",
+    "x11-utils",
+    "x11-xkb-utils",
+    "xauth",
+    "xfonts-base",
+    "xkb-data",
+    "xterm",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXinerama",
+    "libXtst",
+    "libxkbcommon",
+    "perl",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst",
+    "perl": "perl",
+    "libx11-dev": "libX11",
+    "libxinerama-dev": "libXinerama",
+    "libxkbcommon-dev": "libxkbcommon"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "kpartx",
+  "nix_pkg": null,
+  "control_file_hash": "f8ba675e98d38c31c6ab12a41e4aa8c93d51d2352beb30baf322593513be44b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dmsetup",
+    "initramfs-tools",
+    "kpartx",
+    "kpartx-udeb",
+    "libaio-dev",
+    "libaio1",
+    "libdevmapper-dev",
+    "libedit-dev",
+    "libjson-c-dev",
+    "libsystemd-dev",
+    "libudev-dev",
+    "liburcu-dev",
+    "linux-initramfs-tool",
+    "lsb-base",
+    "multipath-modules",
+    "multipath-tools",
+    "multipath-tools-boot",
+    "pkg-config",
+    "sg3-utils-udev",
+    "systemd",
+    "udev"
+  ],
+  "nix_inputs": [
+    "json-c",
+    "libaio",
+    "liburcu",
+    "lvm2",
+    "perl",
+    "pkg-config-wrapper",
+    "readline",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "dmsetup": "lvm2",
+    "libsystemd-dev": "systemd",
+    "libdevmapper-dev": "lvm2",
+    "libjson-c-dev": "json-c",
+    "liburcu-dev": "liburcu",
+    "libaio1": "libaio",
+    "libaio-dev": "libaio",
+    "udev": "systemd",
+    "systemd": "systemd"
+  }
+}

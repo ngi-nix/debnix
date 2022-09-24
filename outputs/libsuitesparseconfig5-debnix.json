@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libsuitesparseconfig5",
+  "nix_pkg": null,
+  "control_file_hash": "af7dfee42ad28c9b2f57cb0dd18ed7599efcdb8e08b9c2882265a774ae263e18",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gfortran",
+    "ghostscript",
+    "libamd2",
+    "libatlas-doc",
+    "libblas-dev",
+    "libblas.so",
+    "libbtf1",
+    "libcamd2",
+    "libccolamd2",
+    "libcholmod3",
+    "libcolamd2",
+    "libcxsparse3",
+    "libgmp-dev",
+    "libgraphblas-dev",
+    "libgraphblas-doc",
+    "libklu1",
+    "liblapack-dev",
+    "liblapack-doc",
+    "liblapack.so",
+    "libldl2",
+    "libmetis-dev",
+    "libmongoose2",
+    "libmpfr-dev",
+    "librbio2",
+    "libsliplu1",
+    "libspqr2",
+    "libsuitesparse-doc",
+    "libsuitesparseconfig5",
+    "libumfpack5",
+    "texlive-bibtex-extra",
+    "texlive-fonts-extra",
+    "texlive-latex-extra",
+    "texlive-plain-generic",
+    "texlive-science",
+    "texlive-xetex"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

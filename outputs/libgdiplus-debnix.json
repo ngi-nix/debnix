@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libgdiplus",
+  "nix_pkg": null,
+  "control_file_hash": "e40bedba061fa55928a7b73f3aac878cd452ac44aa829aa6509253d42232939b",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libcairo2-dev",
+    "libexif-dev",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libgif-dev",
+    "libglib2.0-dev",
+    "libjpeg-dev",
+    "libpango1.0-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libtiff5-dev",
+    "libx11-dev",
+    "libxft-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "fontconfig",
+    "giflib",
+    "glib",
+    "libXrender",
+    "libexif",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libtiff-dev": "libtiff",
+    "libexif-dev": "libexif",
+    "libglib2.0-dev": "glib",
+    "libgif-dev": "giflib",
+    "libfontconfig1-dev": "fontconfig",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libcairo2-dev": "cairo"
+  }
+}

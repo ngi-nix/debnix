@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "memcached",
+  "nix_pkg": null,
+  "control_file_hash": "e96bc0a504fdad01d4f762a07cebfdf9a248edeeaf34cbd3fd685b803560f3dc",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libanyevent-perl",
+    "libcache-memcached-perl",
+    "libevent-dev",
+    "libio-socket-ssl-perl",
+    "libmemcached",
+    "libsasl2-dev",
+    "libssl-dev",
+    "libterm-readkey-perl",
+    "libyaml-perl",
+    "lsb-base",
+    "perl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "libevent"
+  ],
+  "map": {
+    "libevent-dev": "libevent"
+  }
+}

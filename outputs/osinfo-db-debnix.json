@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "osinfo-db",
+  "nix_pkg": null,
+  "control_file_hash": "91ee33998e605217fb07296adb70c95317332e0afcfecb1bf57382405e5aedde",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "locales-all",
+    "osinfo-db-tools",
+    "python3-lxml",
+    "python3-pytest"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libxml2",
+    "osinfo-db-tools"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "osinfo-db-tools": "osinfo-db-tools"
+  }
+}

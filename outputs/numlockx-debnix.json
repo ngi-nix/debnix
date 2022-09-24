@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "numlockx",
+  "nix_pkg": null,
+  "control_file_hash": "602dc5f5a18c45d7bf59bca9ce496981d13bc2702278024f8e76b7fe5ee654d0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libice-dev",
+    "libx11-dev",
+    "libxtst-dev",
+    "x-display-manager",
+    "x11proto-xext-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "libX11",
+    "libXext"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

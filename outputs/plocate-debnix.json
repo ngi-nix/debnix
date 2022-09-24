@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "plocate",
+  "nix_pkg": null,
+  "control_file_hash": "40e3ed8295302686d538184d024147caf7ffd51db661d72a6bf6a41003acf6b1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liburing-dev",
+    "libzstd-dev",
+    "meson",
+    "ninja-build",
+    "nocache",
+    "pkg-config",
+    "plocate",
+    "powermgmt-base",
+    "systemd",
+    "systemd-sysv"
+  ],
+  "nix_inputs": [
+    "liburing",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd",
+    "zstd"
+  ],
+  "map": {
+    "libzstd-dev": "zstd",
+    "liburing-dev": "liburing",
+    "systemd": "systemd",
+    "systemd-sysv": "systemd",
+    "meson": "meson"
+  }
+}

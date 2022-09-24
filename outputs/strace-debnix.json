@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "strace",
+  "nix_pkg": null,
+  "control_file_hash": "beb9a586ecf224d8738b14610356a7b421888dec6c6111a8974845b42b46179c",
+  "deb_inputs": [
+    "debhelper",
+    "gawk",
+    "gcc-multilib",
+    "libbluetooth-dev",
+    "libc6-dev",
+    "libc6.1-dev",
+    "libiberty-dev",
+    "libunwind-dev"
+  ],
+  "nix_inputs": [
+    "libunwind",
+    "perl"
+  ],
+  "map": {
+    "libunwind-dev": "libunwind"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "moreutils",
+  "nix_pkg": null,
+  "control_file_hash": "8943073d440017ad7679723582e4337f62c9065f1416b5b087f53d63ab0b21c4",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "dpkg-dev",
+    "libipc-run-perl",
+    "libtime-duration-perl",
+    "libtimedate-perl",
+    "libxml2-utils",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "IPC-Run",
+    "Time-Duration",
+    "TimeDate",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt",
+    "perl"
+  ],
+  "map": {
+    "xsltproc": "libxslt",
+    "docbook-xml": "docbook-xml",
+    "libxml2-utils": "libxml2"
+  }
+}

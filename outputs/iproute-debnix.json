@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "iproute",
+  "nix_pkg": null,
+  "control_file_hash": "6d499c9e966db850236c63ca1c5948f2ee9fe1e913c8cd7a92b19320cf96678f",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "iproute2-doc",
+    "libatm1-dev",
+    "libbpf-dev",
+    "libbsd-dev",
+    "libcap-dev",
+    "libcap2-bin",
+    "libdb-dev",
+    "libelf-dev",
+    "libmnl-dev",
+    "libselinux1-dev",
+    "libxtables-dev",
+    "linux-libc-dev",
+    "pkg-config",
+    "po-debconf",
+    "python3:any",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "db",
+    "flex",
+    "iptables",
+    "libelf",
+    "libmnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libelf-dev": "libelf",
+    "libmnl-dev": "libmnl",
+    "libxtables-dev": "iptables",
+    "libdb-dev": "db",
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

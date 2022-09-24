@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "monit",
+  "nix_pkg": null,
+  "control_file_hash": "0f5aada887038ea4162ae5388fafe1351576e40a90ac47275b8449db432ee16b",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "default-mta",
+    "flex",
+    "libdevstat-dev",
+    "libkvm-dev",
+    "libpam-dev",
+    "libssl-dev",
+    "lsb-base",
+    "mail-transport-agent",
+    "postfix",
+    "sysvinit-core",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "linux-pam",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "flex": "flex",
+    "libssl-dev": "openssl",
+    "bison": "bison"
+  }
+}
