@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "apg",
+  "nix_pkg": null,
+  "control_file_hash": "f2a81e167754b229130c55d90e8cb1d75b2f846d41a32246a5eb8e26e3e86a7c",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {}
+}

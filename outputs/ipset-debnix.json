@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ipset",
+  "nix_pkg": null,
+  "control_file_hash": "fac8429eac4c5f15e19e4d409a6f54fadd59ed6ab016ecc63c907e077bdad57c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "iptables",
+    "libipset13",
+    "libltdl-dev",
+    "libmnl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libmnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmnl-dev": "libmnl"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "nmap",
+  "nix_pkg": null,
+  "control_file_hash": "d748a0ba4827703d8801b75d688e5228ad0f160559402a473fb7f12c359c5357",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "flex",
+    "liblinear-dev",
+    "liblua5.3-dev",
+    "libpcap0.8-dev",
+    "libpcre3-dev",
+    "libssh2-1-dev",
+    "libssl-dev",
+    "lua-lpeg-dev",
+    "ncat",
+    "ndiff",
+    "nmap",
+    "nmap-common",
+    "python3",
+    "python3-lxml",
+    "zenmap",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "libssh2",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "libssh2-1-dev": "libssh2",
+    "libpcap0.8-dev": "libpcap",
+    "libssl-dev": "openssl"
+  }
+}
