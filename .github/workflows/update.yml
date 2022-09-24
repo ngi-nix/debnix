@@ -52,8 +52,9 @@ jobs:
           --no-write-lock-file \
           -- \
           --discover 1000000 \
-          --timeout 400 \
-          --write ./outputs
+          --timeout 200 \
+          --write ./outputs \
+          --map ./outputs/maps/debnix.json
 
         nix develop -L \
         github:$GITHUB_REPOSITORY#ciShell \
