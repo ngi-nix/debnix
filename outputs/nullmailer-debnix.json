@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "nullmailer",
+  "nix_pkg": null,
+  "control_file_hash": "584700a7b3ca93106d292a1ffc0c74bf567fcb1a1cc5523928fdba168c07c637",
+  "deb_inputs": [
+    "daemontools",
+    "debhelper",
+    "libgnutls-dev",
+    "libgnutls28-dev",
+    "lsb-base",
+    "po-debconf",
+    "ucspi-tcp-ipv6"
+  ],
+  "nix_inputs": [
+    "gnutls"
+  ],
+  "map": {
+    "libgnutls-dev": "gnutls",
+    "libgnutls28-dev": "gnutls"
+  }
+}

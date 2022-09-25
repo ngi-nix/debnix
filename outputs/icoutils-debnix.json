@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "icoutils",
+  "nix_pkg": null,
+  "control_file_hash": "2fd819672fdd03bb767a7b65409cf5e2652351d1726412100c2382b015ece160",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "libterm-readline-gnu-perl",
+    "libterm-readline-perl-perl",
+    "libwww-perl"
+  ],
+  "nix_inputs": [
+    "libpng-apng",
+    "libwww-perl",
+    "perl"
+  ],
+  "map": {
+    "libwww-perl": "libwww-perl"
+  }
+}

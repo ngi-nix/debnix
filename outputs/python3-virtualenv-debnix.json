@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "python3-virtualenv",
+  "nix_pkg": null,
+  "control_file_hash": "617ab98891488814b621b1b6c8ebb3b6c03e58382ff33935f790836024f90c78",
+  "deb_inputs": [
+    "build-essential",
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-python",
+    "pybuild-plugin-pyproject",
+    "python2-pip-whl",
+    "python2-setuptools-whl",
+    "python2-wheel-whl",
+    "python3-all",
+    "python3-dev",
+    "python3-distutils",
+    "python3-pip-whl",
+    "python3-setuptools-whl",
+    "python3-virtualenv",
+    "python3-wheel-whl",
+    "unzip",
+    "zip"
+  ],
+  "nix_inputs": [
+    "backports-entry-points-selectable",
+    "cython",
+    "distlib",
+    "filelock",
+    "flaky",
+    "platformdirs",
+    "pytest-freezegun",
+    "pytest-mock",
+    "pytest-timeout",
+    "python3",
+    "setuptools",
+    "setuptools-scm",
+    "six"
+  ],
+  "map": {
+    "python3-setuptools-whl": "setuptools",
+    "python3-dev": "python3"
+  }
+}

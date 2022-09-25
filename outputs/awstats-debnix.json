@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "awstats",
+  "nix_pkg": null,
+  "control_file_hash": "fde72bfd669134c0d43d686b4a2af01edbcb3613cba5ebcf77218e617947e9c3",
+  "deb_inputs": [
+    "ant",
+    "apache2",
+    "debhelper-compat",
+    "default-jdk",
+    "httpd",
+    "libgeo-ipfree-perl",
+    "libnet-dns-perl",
+    "libnet-ip-perl",
+    "libnet-xwhois-perl",
+    "liburi-perl",
+    "sharutils"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

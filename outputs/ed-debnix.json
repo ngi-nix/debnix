@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "ed",
+  "nix_pkg": null,
+  "control_file_hash": "f36cf461122601b82fa28080757f20bfe8037507570694793847d7593499a326",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "lzip"
+  ],
+  "map": {}
+}

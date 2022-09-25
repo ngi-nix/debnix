@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "optipng",
+  "nix_pkg": null,
+  "control_file_hash": "f8af5801401356cc38ea770f2ed592d01f00334fcce89964e662ba6f326c6d1c",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libpng-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpng"
+  ],
+  "map": {
+    "libpng-dev": "libpng"
+  }
+}
