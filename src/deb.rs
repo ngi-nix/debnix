@@ -64,7 +64,7 @@ pub(crate) struct ControlFileApi {
 impl ControlFileApi {
     fn new(pkg: &str) -> Result<Self, DebNixError> {
         let control_file_api_location =
-            format!("https://sources.debian.org{}/latest/debian/control", &pkg);
+            format!("https://sources.debian.org/{}/latest/debian/control", &pkg);
 
         match reqwest::blocking::get(control_file_api_location) {
             Ok(resp) => Ok(serde_json::from_str::<ControlFileApi>(&resp.text()?)?),
