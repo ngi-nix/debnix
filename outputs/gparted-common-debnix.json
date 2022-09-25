@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "gparted-common",
+  "nix_pkg": null,
+  "control_file_hash": "c78caf4548ee0c7778b5856af76669d644b5118d472ee9730ca198ab6d4a1f17",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dmraid",
+    "dmsetup",
+    "dosfstools",
+    "e2fsprogs",
+    "exfatprogs",
+    "gpart",
+    "gparted-common",
+    "intltool",
+    "jfsutils",
+    "kpartx",
+    "libgtkmm-3.0-dev",
+    "libparted-dev",
+    "mtools",
+    "ntfs-3g",
+    "parted",
+    "pkg-config",
+    "policykit-1",
+    "reiser4progs",
+    "reiserfsprogs",
+    "udftools",
+    "uuid-dev",
+    "xfsprogs",
+    "yelp",
+    "yelp-tools"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "gettext",
+    "glib",
+    "gtkmm",
+    "intltool",
+    "libxml2",
+    "parted",
+    "pkg-config-wrapper",
+    "polkit",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libgtkmm-3.0-dev": "gtkmm",
+    "parted": "parted",
+    "libparted-dev": "parted",
+    "intltool": "intltool"
+  }
+}

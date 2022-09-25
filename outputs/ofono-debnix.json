@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "ofono",
+  "nix_pkg": null,
+  "control_file_hash": "1cf8442df44c005748020de1dfaee5077b166042d09cfead5a45aed60edf7ec0",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "libbluetooth-dev",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libudev-dev",
+    "lsb-base",
+    "mobile-broadband-provider-info",
+    "ofono",
+    "python3",
+    "python3-dbus",
+    "python3-gi",
+    "udev"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "dbus",
+    "ell",
+    "glib",
+    "mobile-broadband-provider-info",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "libdbus-1-dev": "dbus",
+    "udev": "systemd",
+    "dbus": "dbus",
+    "mobile-broadband-provider-info": "mobile-broadband-provider-info",
+    "libbluetooth-dev": "bluez",
+    "libglib2.0-dev": "glib"
+  }
+}

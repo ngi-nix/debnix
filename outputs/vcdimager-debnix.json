@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "vcdimager",
+  "nix_pkg": null,
+  "control_file_hash": "26a9f40bc371fdf6bfc0f18411905e2bb1aafeafcddac65a88f085c82f2535b7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg",
+    "dpkg-awk",
+    "help2man",
+    "install-info",
+    "libcdio-dev",
+    "libiso9660-dev",
+    "libpopt-dev",
+    "libvcdinfo0",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libcdio",
+    "libxml2",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "libcdio-dev": "libcdio",
+    "libiso9660-dev": "libcdio",
+    "libxml2-dev": "libxml2"
+  }
+}

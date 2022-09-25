@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["adduser", "debconf-utils", "debhelper", "facter", "hiera", "init-system-helpers", "lsb-base", "lsb-release", "puppet-server", "rake", "ronn", "ruby", "ruby-augeas", "ruby-concurrent", "ruby-deep-merge", "ruby-hocon", "ruby-interpreter", "ruby-rrd", "ruby-selinux", "ruby-semantic-puppet", "ruby-shadow", "ruby-sync", "yard"], or 
+output: 
+[] is empty!

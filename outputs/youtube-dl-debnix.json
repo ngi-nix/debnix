@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "youtube-dl",
+  "nix_pkg": null,
+  "control_file_hash": "03cd64661edbe356a202cb864346e9a187b859c757034c6032dda40a68d579a9",
+  "deb_inputs": [
+    "aria2",
+    "bash-completion",
+    "bidiv",
+    "ca-certificates",
+    "curl",
+    "debhelper-compat",
+    "dh-exec",
+    "dh-python",
+    "ffmpeg",
+    "flake8",
+    "libfribidi-bin",
+    "mplayer",
+    "mpv",
+    "pandoc",
+    "phantomjs",
+    "python3-nose",
+    "python3-pkg-resources",
+    "python3-pycryptodome",
+    "python3-pyxattr",
+    "python3-setuptools",
+    "rtmpdump",
+    "wget",
+    "zip"
+  ],
+  "nix_inputs": [
+    "pycryptodome",
+    "python3",
+    "setuptools",
+    "zip"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "zip": "zip",
+    "python3-pkg-resources": "setuptools",
+    "python3-pycryptodome": "pycryptodome"
+  }
+}

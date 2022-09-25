@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libffi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5fa3b1503de85e49a22e6768a603f700b5684aa26380ebe05c0172d8a64acd9f",
+  "deb_inputs": [
+    "debhelper",
+    "dejagnu",
+    "libffi8",
+    "libltdl-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "dejagnu"
+  ],
+  "map": {
+    "dejagnu": "dejagnu"
+  }
+}

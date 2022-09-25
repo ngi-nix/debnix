@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "kdialog",
+  "nix_pkg": null,
+  "control_file_hash": "a00b5e8d2df37478dc93f8eba0273ee16e7926cff9c2d8bdd1b3edfb859e4e20",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libkf5dbusaddons-dev",
+    "libkf5guiaddons-dev",
+    "libkf5iconthemes-dev",
+    "libkf5kio-dev",
+    "libkf5notifications-dev",
+    "libkf5textwidgets-dev",
+    "libkf5windowsystem-dev",
+    "libx11-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "kguiaddons",
+    "kinit",
+    "kwindowsystem"
+  ],
+  "map": {
+    "libkf5windowsystem-dev": "kwindowsystem",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5guiaddons-dev": "kguiaddons"
+  }
+}
