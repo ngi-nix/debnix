@@ -4,6 +4,8 @@ on:
   schedule:
     # run everyday at 03:00
     - cron:  "0 3 * * *"
+    # run everyday at 13:00
+    - cron:  "0 13 * * *"
   workflow_dispatch:
 
 jobs:
@@ -48,7 +50,7 @@ jobs:
         mkdir $TMP_DIR
         # export WORKERS=5
 
-        nix run -L github:$GITHUB_REPOSITORY \
+        nix run -L github:"$GITHUB_REPOSITORY" \
           --no-write-lock-file \
           -- \
           --discover 100000 \
@@ -57,20 +59,20 @@ jobs:
           --map ./outputs/maps/debnix.json
 
         nix develop -L \
-        github:$GITHUB_REPOSITORY#ciShell \
+        github:"$GITHUB_REPOSITORY"#ciShell \
           --no-write-lock-file \
           --command \
           just-setup > ./justfile
 
         nix develop -L \
-        github:$GITHUB_REPOSITORY#ciShell \
+        github:"$GITHUB_REPOSITORY"#ciShell \
           --no-write-lock-file \
           --command \
           just prettify-json
 
         rm ./justfile
 
-        nix run -L github:$GITHUB_REPOSITORY \
+        nix run -L github:"$GITHUB_REPOSITORY" \
           --no-write-lock-file \
           -- \
           --generate-map ./outputs
