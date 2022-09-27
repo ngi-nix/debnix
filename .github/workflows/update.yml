@@ -12,7 +12,7 @@ jobs:
   run:
     name: update all debnix files
     runs-on: ubuntu-latest
-    timeout-minutes: 400
+    timeout-minutes: 500
     environment: cachix
     steps:
 
@@ -54,7 +54,7 @@ jobs:
           --no-write-lock-file \
           -- \
           --discover 100000 \
-          --timeout 100 \
+          --timeout 150 \
           --write ./outputs \
           --map ./outputs/maps/debnix.json
 
