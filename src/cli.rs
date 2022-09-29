@@ -1,6 +1,6 @@
 use clap::Parser;
 
-#[derive(Parser)]
+#[derive(Parser, Clone)]
 pub(crate) struct CliArgs {
     pkg: Option<String>,
     #[clap(long, value_parser)]
@@ -11,9 +11,8 @@ pub(crate) struct CliArgs {
     #[clap(long, value_parser)]
     timeout: Option<usize>,
     #[clap(long, value_parser)]
-    write: Option<String>,
-    #[clap(long, value_parser)]
-    read_popcon: Option<String>,
+    /// The location of the generated output files.
+    output: Option<String>,
     /// Generates completion for the specified shell.
     #[clap(long, value_name = "SHELL", value_parser)]
     generate_completion: Option<String>,
@@ -35,12 +34,6 @@ impl CliArgs {
     pub(crate) fn discover_start(&self) -> Option<usize> {
         self.discover_start
     }
-    pub(crate) fn write(&self) -> Option<&String> {
-        self.write.as_ref()
-    }
-    pub(crate) fn read_popcon(&self) -> Option<&String> {
-        self.read_popcon.as_ref()
-    }
     pub(crate) fn generate_completion(&self) -> Option<&String> {
         self.generate_completion.as_ref()
     }
@@ -55,5 +48,9 @@ impl CliArgs {
 
     pub(crate) fn timeout(&self) -> Option<usize> {
         self.timeout
+    }
+
+    pub(crate) fn output(&self) -> Option<String> {
+        self.output.clone()
     }
 }
