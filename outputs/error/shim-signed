@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "grub-efi-amd64-bin", "grub-efi-arm64-bin", "grub-efi-ia32-bin", "grub2-common", "mokutil", "po-debconf", "sbsigntool", "secureboot-db", "shim-helpers-amd64-signed", "shim-helpers-arm64-signed", "shim-helpers-i386-signed", "shim-signed-common", "shim-unsigned"], or 
-output: 
-[] is empty!

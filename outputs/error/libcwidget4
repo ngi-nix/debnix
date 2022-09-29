@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gettext", "iceweasel", "libcppunit-dev", "libcwidget-dev", "libcwidget-doc", "libcwidget4", "libjs-jquery", "libncurses-dev", "libncursesw5-dev", "libsigc++-2.0-dev", "pkg-config", "www-browser"], or 
-output: 
-[] is empty!

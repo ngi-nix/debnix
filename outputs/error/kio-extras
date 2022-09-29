@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "dh-sequence-kf5", "extra-cmake-modules", "gettext", "gperf", "kio", "kio-extras-data", "libkdsoap-dev", "libkf5activities-dev", "libkf5activitiesstats-dev", "libkf5archive-dev", "libkf5bookmarks-dev", "libkf5codecs-dev", "libkf5config-dev", "libkf5configwidgets-dev", "libkf5coreaddons-dev", "libkf5dbusaddons-dev", "libkf5dnssd-dev", "libkf5doctools-dev", "libkf5guiaddons-dev", "libkf5i18n-dev", "libkf5iconthemes-dev", "libkf5kio-dev", "libkf5pty-dev", "libkf5solid-dev", "libkf5syntaxhighlighting-dev", "libmtp-dev", "libopenexr-dev", "libphonon4qt5-dev", "libphonon4qt5experimental-dev", "libqt5svg5-dev", "libsmbclient-dev", "libssh-dev", "libtag1-dev", "libtirpc-dev", "pkg-config", "qtbase5-dev", "shared-mime-info"], or 
-output: 
-[] is empty!

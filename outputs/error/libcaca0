@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "doxygen-latex", "freeglut3-dev", "libcaca0", "libimlib2-dev", "libncurses-dev", "libslang2-dev", "libx11-dev", "pkg-config", "texlive-fonts-recommended", "toilet"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "dh-sequence-kf5", "doxygen", "extra-cmake-modules", "kpackagetool5", "libkf5doctools-dev", "libkf5kirigami2-5", "libkf5kirigami2-doc", "libqt5svg5-dev", "pkg-kde-tools", "qml-module-org-kde-kirigami2", "qml-module-qtgraphicaleffects", "qml-module-qtqml-models2", "qml-module-qtquick-controls2", "qml-module-qtquick-layouts", "qml-module-qtquick-templates2", "qml-module-qtquick2", "qtbase5-dev", "qtbase5-private-dev", "qtdeclarative5-dev", "qtquickcontrols2-5-dev", "qttools5-dev", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "iptables", "nftables", "openresolv", "pkg-config", "resolvconf", "systemd", "wireguard-dkms", "wireguard-modules", "wireguard-tools"], or 
-output: 
-[] is empty!
