@@ -16,26 +16,6 @@ pub(crate) fn debian_redirect(pkgs: &str) -> Result<String, DebNixError> {
     Ok(String::from(pkg))
 }
 
-/// Get's the unstable version of a package that is surfaced in debian,
-/// relies on a redirect from `sources.debian`.
-pub(crate) fn get_unstable_version(pkg: &str) -> Result<String, DebNixError> {
-    let debian_sources = format!("https://sources.debian.org/src/{}/unstable/", pkg);
-    let resp = reqwest::blocking::get(&debian_sources)?;
-    let version_path = resp.url().path();
-    let version: String = version_path.split('/').rev().take(2).collect();
-    Ok(version)
-}
-
-/// Get's the latest version of a package that is surfaced in debian,
-/// relies on a redirect from `sources.debian`.
-pub(crate) fn get_latest_version(pkg: &str) -> Result<String, DebNixError> {
-    let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
-    let resp = reqwest::blocking::get(&debian_sources)?;
-    let version_path = resp.url().path();
-    let version: String = version_path.split('/').rev().take(2).collect();
-    Ok(version)
-}
-
 /// Get's the location of a packages latest version of debians api
 /// relies on a redirect from `sources.debian`.
 pub(crate) fn get_latest_version_api(pkg: &str) -> Result<String, DebNixError> {
