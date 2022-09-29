@@ -236,8 +236,10 @@ fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
     let contents = fs::read_to_string(location)?;
     let mut rdr = csv::Reader::from_reader(contents.as_bytes());
     for result in rdr.records().flatten() {
-        if let Some(record) = result.get(0) {
-            if !record.starts_with('#') {
+        // TODO: convert this into some error
+        if let Some(untrimmed_record) = result.get(0) {
+            let record = untrimmed_record.trim_end();
+            if !record.starts_with('#') && !record.ends_with("(Not in sid)") {
                 let name = record
                     .split(' ')
                     .into_iter()
