@@ -55,7 +55,7 @@ jobs:
           -- \
           --discover 100000 \
           --timeout 150 \
-          --write ./outputs \
+          --output ./outputs \
           --map ./outputs/maps/debnix.json
 
         nix develop -L \
