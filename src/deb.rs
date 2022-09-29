@@ -16,6 +16,35 @@ pub(crate) fn debian_redirect(pkgs: &str) -> Result<String, DebNixError> {
     Ok(String::from(pkg))
 }
 
+/// Get's the unstable version of a package that is surfaced in debian,
+/// relies on a redirect from `sources.debian`.
+pub(crate) fn get_unstable_version(pkg: &str) -> Result<String, DebNixError> {
+    let debian_sources = format!("https://sources.debian.org/src/{}/unstable/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources)?;
+    let version_path = resp.url().path();
+    let version: String = version_path.split('/').rev().take(2).collect();
+    Ok(version)
+}
+
+/// Get's the latest version of a package that is surfaced in debian,
+/// relies on a redirect from `sources.debian`.
+pub(crate) fn get_latest_version(pkg: &str) -> Result<String, DebNixError> {
+    let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources)?;
+    let version_path = resp.url().path();
+    let version: String = version_path.split('/').rev().take(2).collect();
+    Ok(version)
+}
+
+/// Get's the location of a packages latest version of debians api
+/// relies on a redirect from `sources.debian`.
+pub(crate) fn get_latest_version_api(pkg: &str) -> Result<String, DebNixError> {
+    let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
+    let resp = reqwest::blocking::get(&debian_sources)?;
+    let version_path = resp.url().path();
+    Ok(version_path.to_string())
+}
+
 #[derive(Debug, Serialize, Deserialize, Clone)]
 /// Wrapper of a subset of debians tracker api:
 /// <https://sources.debian.org/doc/>
@@ -34,8 +63,9 @@ pub(crate) struct ControlFileApi {
 
 impl ControlFileApi {
     fn new(pkg: &str) -> Result<Self, DebNixError> {
+        let version = get_latest_version_api(pkg).unwrap();
         let control_file_api_location =
-            format!("https://sources.debian.org/{}/latest/debian/control", &pkg);
+            format!("https://sources.debian.org{}debian/control", &version);
 
         match reqwest::blocking::get(control_file_api_location) {
             Ok(resp) => Ok(serde_json::from_str::<ControlFileApi>(&resp.text()?)?),
