@@ -1,3 +1,5 @@
+use std::fs;
+
 use control_file::ControlFile;
 use serde::{Deserialize, Serialize};
 
@@ -116,4 +118,31 @@ pub(crate) fn get_debian_pkg_outputs(pkgs: &str) -> Result<Vec<String>, DebNixEr
     let parsed_control_file = ControlFile::from_str(&download_control_file)?.get_pkgs()?;
     debug!("Parsed Control File: {:?}", &parsed_control_file);
     Ok(parsed_control_file)
+}
+
+/// Reads the packages from a popcon (popularity contest) file
+/// and then collects them inside of a Vec.
+pub(crate) fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
+    let mut popcon = vec![];
+    let contents = fs::read_to_string(location)?;
+    let mut rdr = csv::Reader::from_reader(contents.as_bytes());
+    for result in rdr.records().flatten() {
+        // TODO: convert this into some error
+        if let Some(untrimmed_record) = result.get(0) {
+            let record = untrimmed_record.trim_end();
+            if !record.starts_with('#') && !record.ends_with("(Not in sid)") {
+                let name = record
+                    .split(' ')
+                    .into_iter()
+                    .skip(1)
+                    .take(2)
+                    .collect::<String>();
+                let name = name.trim();
+                if !name.is_empty() {
+                    popcon.push(name.into());
+                }
+            }
+        }
+    }
+    Ok(popcon)
 }
