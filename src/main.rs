@@ -70,23 +70,28 @@ fn main() -> Result<(), DebNixError> {
                 break;
             }
             if let Some(destination) = state.output() {
-                create_dir_all(format!("{destination}/error"))?;
+                let target_destination = format!("{destination}/error");
+                create_dir_all(&target_destination)
+                    .map_err(|e| DebNixError::IoPath(format!("{e}: {target_destination}")))?;
                 let error_destination = format!("{}/error/{}", destination, pkg);
                 let destination = format!("{}/{}-debnix.json", destination, pkg);
                 // For now don't overwrite paths, but only create them once.
                 if !Path::new(&destination).exists() && !Path::new(&error_destination).exists() {
-                    match state.discover_package(pkg.clone()) {
+                    match state.discover_pkg(pkg.clone()) {
                         Ok(outputs) => {
                             let serialized = serde_json::to_string(&outputs)?;
-                            let mut file = File::create(&destination)?;
+                            let mut file = File::create(&destination)
+                                .map_err(|e| DebNixError::IoPath(format!("{e}: {destination}")))?;
                             file.write_all(serialized.as_bytes())?;
                             error!("Written to location: {}", &destination);
                         }
                         Err(e) => {
                             error!("Discover Error: {}", e);
                             if let Ok(mut file) = File::create(&error_destination) {
-                                file.write_all(e.to_string().as_bytes())?;
-                                error!("Written to location: {}", &error_destination);
+                                file.write_all(e.to_string().as_bytes()).map_err(|e| {
+                                    DebNixError::IoPath(format!("{e}: {error_destination}"))
+                                })?;
+                                error!("Written to location: {}", &error_destination)
                             } else {
                                 error!("Could not write to error location: {}", &error_destination);
                             }

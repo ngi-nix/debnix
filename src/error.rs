@@ -6,6 +6,9 @@ pub enum DebNixError {
     /// Io Error
     #[error("IoError: {0}")]
     Io(#[from] std::io::Error),
+    /// Io Error
+    #[error("IoPathError: {0}")]
+    IoPath(String),
     /// Deserialization Error
     #[error("Deserialization Error: {0}")]
     Serde(#[from] serde_json::Error),
