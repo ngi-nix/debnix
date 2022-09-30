@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "plasma-browser-integration",
+  "nix_pkg": null,
+  "control_file_hash": "d24352b792be9275fe0b7236eef5a7d7bc2e78e8565548be4bf0bbfcace6c38b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5activities-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5filemetadata-dev",
+    "libkf5i18n-dev",
+    "libkf5jobwidgets-dev",
+    "libkf5kio-dev",
+    "libkf5notifications-dev",
+    "libkf5purpose-dev",
+    "libkf5runner-dev",
+    "pkg-kde-tools",
+    "plasma-workspace-dev",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kactivities",
+    "kconfig",
+    "kdbusaddons",
+    "kfilemetadata",
+    "ki18n",
+    "kio",
+    "knotifications",
+    "krunner",
+    "kwindowsystem",
+    "plasma-workspace",
+    "purpose",
+    "qtbase"
+  ],
+  "map": {
+    "libkf5i18n-dev": "ki18n",
+    "libkf5kio-dev": "kio",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "qtbase5-dev": "qtbase",
+    "libkf5dbusaddons-dev": "kdbusaddons",
+    "libkf5purpose-dev": "purpose",
+    "plasma-workspace-dev": "plasma-workspace",
+    "libkf5runner-dev": "krunner",
+    "libkf5notifications-dev": "knotifications",
+    "libkf5config-dev": "kconfig"
+  }
+}

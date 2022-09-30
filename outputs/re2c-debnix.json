@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "re2c",
+  "nix_pkg": null,
+  "control_file_hash": "10f85ad247f52dfdad1233158ed5305147d1fe95bffd7f75d5076661dd6ce8cc",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "python3",
+    "python3-docutils",
+    "python3-pygments"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

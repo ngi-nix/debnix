@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "i3status",
+  "nix_pkg": null,
+  "control_file_hash": "3721b91f46a0d84283a84111fc1d59bfb93328a1e6f3f081b45225c7e30bf4bc",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libbsd-dev",
+    "libconfuse-dev",
+    "libnl-genl-3-dev",
+    "libpulse-dev",
+    "libyajl-dev",
+    "meson",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libconfuse",
+    "libnl",
+    "libpulseaudio",
+    "meson",
+    "ninja",
+    "perl",
+    "pkg-config-wrapper",
+    "xmlto",
+    "yajl"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "libasound2-dev": "alsa-lib",
+    "libnl-genl-3-dev": "libnl",
+    "libconfuse-dev": "libconfuse",
+    "libyajl-dev": "yajl",
+    "xmlto": "xmlto",
+    "meson": "meson"
+  }
+}

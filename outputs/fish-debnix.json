@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "fish",
+  "nix_pkg": null,
+  "control_file_hash": "770af7045b16f680d001ef778916f4eef7f4ae74c966435f3196f08d18bfe33d",
+  "deb_inputs": [
+    "bsdextrautils",
+    "cmake",
+    "debhelper-compat",
+    "doc-base",
+    "fish",
+    "fish-common",
+    "gettext",
+    "groff-base",
+    "libncurses-dev",
+    "libpcre2-dev",
+    "locales-all",
+    "lynx",
+    "man-db",
+    "ninja-build",
+    "procps",
+    "python3",
+    "python3-pexpect",
+    "python3-sphinx",
+    "www-browser",
+    "xsel"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "coreutils",
+    "gettext",
+    "gnugrep",
+    "gnused",
+    "groff",
+    "man-db",
+    "ncurses",
+    "pcre2",
+    "procps"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libncurses-dev": "ncurses",
+    "procps": "procps",
+    "gettext": "gettext",
+    "libpcre2-dev": "pcre2",
+    "man-db": "man-db",
+    "groff-base": "groff"
+  }
+}

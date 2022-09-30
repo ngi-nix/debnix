@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "libvotequorum8",
+  "nix_pkg": null,
+  "control_file_hash": "ce7003ce25cdc52d2c87b0a16a602ed78475308044320680b30bb5d6762d2c6d",
+  "deb_inputs": [
+    "adduser",
+    "corosync",
+    "dbus",
+    "dctrl-tools",
+    "debhelper-compat",
+    "dwz",
+    "groff",
+    "libcfg7",
+    "libcmap4",
+    "libcorosync-common4",
+    "libcpg4",
+    "libdbus-1-dev",
+    "libknet-dev",
+    "libnozzle-dev",
+    "libqb-dev",
+    "libquorum5",
+    "libreadline-dev",
+    "libsam4",
+    "libsnmp-dev",
+    "libstatgrab-dev",
+    "libsystemd-dev",
+    "libvotequorum8",
+    "lsb-base",
+    "pkg-config",
+    "w3m",
+    "www-browser",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "kronosnet",
+    "libqb",
+    "nspr",
+    "nss",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd",
+    "libnozzle-dev": "kronosnet",
+    "libqb-dev": "libqb",
+    "libknet-dev": "kronosnet"
+  }
+}

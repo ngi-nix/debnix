@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "webalizer",
+  "nix_pkg": null,
+  "control_file_hash": "f191cc9227dbc873ab42c34d5108f5d4d35feed47a77ff7e3ca8039f7794772c",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "fonts-dejavu-core",
+    "fonts-freefont-ttf",
+    "geoip-database",
+    "gettext",
+    "httpd",
+    "libdb-dev",
+    "libfreetype6-dev",
+    "libgd-dev",
+    "libgeoip-dev",
+    "libpng-dev",
+    "po-debconf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "db",
+    "gd",
+    "geoip",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "libdb-dev": "db",
+    "libgd-dev": "gd",
+    "zlib1g-dev": "zlib",
+    "libgeoip-dev": "geoip"
+  }
+}

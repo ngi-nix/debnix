@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "opendkim",
+  "nix_pkg": null,
+  "control_file_hash": "68885c8eadc2d26ea9f99698bfb7b13eaea698e9c24f3b8e13fd5118430ba183",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dns-root-data",
+    "libbsd-dev",
+    "libdb-dev",
+    "libldap2-dev",
+    "liblua5.3-dev",
+    "libmemcached-dev",
+    "libmilter-dev",
+    "libopendbx1-dev",
+    "libopendkim11",
+    "librbl1",
+    "libsasl2-dev",
+    "libssl-dev",
+    "libunbound-dev",
+    "libvbr2",
+    "lsb-base",
+    "opendkim-tools",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libbsd",
+    "libmilter",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbsd-dev": "libbsd",
+    "libssl-dev": "openssl",
+    "libmilter-dev": "libmilter"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libselinux1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9ce6e3211b87eb79e440a4e5a1e6d0bd70668190829610a629caa482a3e827c9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "file",
+    "gem2deb",
+    "libpcre2-dev",
+    "libselinux1",
+    "libsepol-dev",
+    "pkg-config",
+    "python3-all-dev",
+    "ruby",
+    "ruby-interpreter",
+    "swig"
+  ],
+  "nix_inputs": [
+    "libsepol",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "swig"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre",
+    "libsepol-dev": "libsepol",
+    "swig": "swig"
+  }
+}

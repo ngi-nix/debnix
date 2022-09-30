@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "xl2tpd",
+  "nix_pkg": null,
+  "control_file_hash": "2cf6f8a6337b1a1ea73cb7e8557728bdc6f798c23ee4fe047ca7cd0c848dabcf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcap0.8-dev",
+    "lsb-base",
+    "ppp"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

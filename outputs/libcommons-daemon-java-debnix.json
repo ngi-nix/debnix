@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libcommons-daemon-java",
+  "nix_pkg": null,
+  "control_file_hash": "479f68c99ab50b680b99dd7c928a67db3083c3b6882b671aefa5eaf851d980a1",
+  "deb_inputs": [
+    "ant",
+    "autoconf",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre-headless",
+    "docbook-xsl",
+    "java-virtual-machine",
+    "java2-runtime-headless",
+    "jsvc",
+    "libcap-dev",
+    "libcommons-daemon-java",
+    "maven-repo-helper",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "commons-daemon",
+    "openjdk"
+  ],
+  "map": {
+    "jsvc": "commons-daemon",
+    "libcommons-daemon-java": "commons-daemon"
+  }
+}

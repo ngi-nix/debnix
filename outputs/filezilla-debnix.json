@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "filezilla",
+  "nix_pkg": null,
+  "control_file_hash": "d9868afc0cdfae4f2541780900635ba92fd44db8310efcbdb36a5b33e69d5ccf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "filezilla-common",
+    "gettext",
+    "libdbus-1-dev",
+    "libfilezilla-dev",
+    "libgnutls28-dev",
+    "libgtk-3-dev",
+    "libpugixml-dev",
+    "libsqlite3-dev",
+    "libwxgtk3.0-gtk3-dev",
+    "nettle-dev",
+    "pkg-config",
+    "wx-common",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "gettext",
+    "gnutls",
+    "gtk+3",
+    "libfilezilla",
+    "libidn",
+    "nettle",
+    "pkg-config-wrapper",
+    "pugixml",
+    "sqlite",
+    "tinyxml",
+    "wxwidgets",
+    "xdg-utils"
+  ],
+  "map": {
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "libpugixml-dev": "pugixml",
+    "wx-common": "wxwidgets",
+    "gettext": "gettext",
+    "nettle-dev": "nettle",
+    "xdg-utils": "xdg-utils",
+    "libdbus-1-dev": "dbus",
+    "libgnutls28-dev": "gnutls",
+    "libfilezilla-dev": "libfilezilla",
+    "libsqlite3-dev": "sqlite"
+  }
+}

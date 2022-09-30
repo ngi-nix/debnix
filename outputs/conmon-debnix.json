@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "conmon",
+  "nix_pkg": null,
+  "control_file_hash": "5bffde932c7c6d9df044b893004bdff8e1588847aeca1e38e64e8100e0b0f00a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "go-md2man",
+    "golang-go",
+    "libglib2.0-dev",
+    "libseccomp-dev",
+    "libsystemd-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "glibc",
+    "libseccomp",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libseccomp-dev": "libseccomp",
+    "libsystemd-dev": "systemd",
+    "libglib2.0-dev": "glib"
+  }
+}

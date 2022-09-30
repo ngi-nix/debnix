@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "fig2dev",
+  "nix_pkg": null,
+  "control_file_hash": "19df6d5fd5fddc313f28b9c07db018e9ad97605a62298f542cbc764dd83446a3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gawk",
+    "ghostscript",
+    "libpng-dev",
+    "netpbm",
+    "texlive-font-utils",
+    "texlive-fonts-recommended",
+    "texlive-lang-german",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-pictures",
+    "x11-common",
+    "xfig",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpng-apng"
+  ],
+  "map": {}
+}
