@@ -49,16 +49,69 @@ impl State {
         })
     }
 
-    // fn discover_package(pkg_name: String) -> Result<Self, DebNixError> {
     pub fn discover_package(&self, pkg_name: String) -> Result<(), DebNixError> {
         // let outputs = discover(pkgs.clone(), state.map.clone())?;
-        let outputs = discover(pkg_name, self.map.clone())?;
+        let outputs = self.discover_pkg(pkg_name)?;
         if let Some(destination) = &self.output {
             let serialized = serde_json::to_string(&outputs)?;
-            let mut file = File::create(destination)?;
+            let mut file = File::create(destination)
+                .map_err(|e| DebNixError::IoPath(format!("{e}: {destination}")))?;
             file.write_all(serialized.as_bytes())?;
         }
         Ok(())
+    }
+
+    /// This is the main discovery function, for a single package.
+    pub fn discover_pkg(&self, pkg: String) -> Result<DebNixOutputs, DebNixError> {
+        // Prepare possible names for nix pkgs definitions.
+        let mut nix_inputs = vec![];
+        let mut nix_pkg = None;
+
+        if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(&pkg) {
+            nix_pkg = Some(attr_path.attrpath.clone()).flatten();
+        }
+
+        nix_inputs.push(pkg.clone());
+        let mut unwrapped = pkg.clone();
+        unwrapped.push_str("-unwrapped");
+        nix_inputs.push(unwrapped);
+
+        if let Some(map) = self.map() {
+            // Lookup in the provided map for an associated pkg name
+            if let Some(pkg) = map.get(&pkg) {
+                nix_inputs.push(pkg.to_string())
+            }
+        }
+        // Get the debian pkg outputs
+        if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
+            nix_inputs.extend(deb_inputs);
+        };
+        let input_names = drv_inputs_from_pkgs(nix_inputs)?;
+        info!("{:?}", input_names);
+        info!("Nix Inputs Amount: {:?}", input_names.len());
+
+        // Get the control file api for the specific package
+        info!("Getting Control file for {:?}", &pkg);
+        let control_file_api = ControlFileApi::from_redirect(&pkg)?;
+        let control_file_hash =
+            String::from(control_file_api.checksum().ok_or_else(|| {
+                DebNixError::DebControl("Couldn't get Control file Hash.".into())
+            })?);
+        let mut deb_deps = control_file_api.get_debian_deps()?;
+        deb_deps.sort();
+        deb_deps.dedup();
+        info!("{:?}", &deb_deps);
+        info!("Debian Dependency Amount: {:?}", &deb_deps.len());
+        let result = match_libs(deb_deps.clone(), input_names.clone())?;
+        info!("Amount: {:?}", result.keys().len());
+        Ok(DebNixOutputs {
+            pkgs_name: Some(pkg),
+            nix_pkg,
+            control_file_hash: Some(control_file_hash),
+            deb_inputs: deb_deps,
+            nix_inputs: input_names,
+            map: result,
+        })
     }
 
     pub(crate) fn output(&self) -> Option<&String> {
@@ -80,63 +133,6 @@ impl State {
     pub(crate) fn discover_start(&self) -> Option<usize> {
         self.discover_start
     }
-}
-
-/// This is the main discovery function, for a single package.
-pub fn discover(
-    pkg: String,
-    map: Option<HashMap<String, String>>,
-) -> Result<DebNixOutputs, DebNixError> {
-    // Prepare possible names for nix pkgs definitions.
-    let mut nix_inputs = vec![];
-    let mut nix_pkg = None;
-
-    if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(&pkg) {
-        nix_pkg = Some(attr_path.attrpath.clone()).flatten();
-    }
-
-    nix_inputs.push(pkg.clone());
-    let mut unwrapped = pkg.clone();
-    unwrapped.push_str("-unwrapped");
-    nix_inputs.push(unwrapped);
-
-    if let Some(map) = map {
-        // Lookup in the provided map for an associated pkg name
-        if let Some(pkg) = map.get(&pkg) {
-            nix_inputs.push(pkg.to_string())
-        }
-    }
-    // Get the debian pkg outputs
-    if let Ok(deb_inputs) = get_debian_pkg_outputs(&pkg) {
-        nix_inputs.extend(deb_inputs);
-    };
-    let input_names = drv_inputs_from_pkgs(nix_inputs)?;
-    info!("{:?}", input_names);
-    info!("Nix Inputs Amount: {:?}", input_names.len());
-
-    // Get the control file api for the specific package
-    info!("Getting Control file for {:?}", &pkg);
-    let control_file_api = ControlFileApi::from_redirect(&pkg)?;
-    let control_file_hash = String::from(
-        control_file_api
-            .checksum()
-            .ok_or_else(|| DebNixError::DebControl("Couldn't get Control file Hash.".into()))?,
-    );
-    let mut deb_deps = control_file_api.get_debian_deps()?;
-    deb_deps.sort();
-    deb_deps.dedup();
-    info!("{:?}", &deb_deps);
-    info!("Debian Dependency Amount: {:?}", &deb_deps.len());
-    let result = match_libs(deb_deps.clone(), input_names.clone())?;
-    info!("Amount: {:?}", result.keys().len());
-    Ok(DebNixOutputs {
-        pkgs_name: Some(pkg),
-        nix_pkg,
-        control_file_hash: Some(control_file_hash),
-        deb_inputs: deb_deps,
-        nix_inputs: input_names,
-        map: result,
-    })
 }
 
 /// Try to get the inputs of a derivation from multiple possible pkg names
@@ -192,7 +188,9 @@ pub fn create_output_map(location: &str) -> Result<(), DebNixError> {
     }
     // write the result map to the target location
     let serialized = serde_json::to_string(&result)?;
-    let mut file = File::create("./outputs/maps/debnix.json")?;
+    let target_destination = "./outputs/maps/debnix.json";
+    let mut file = File::create(target_destination)
+        .map_err(|e| DebNixError::IoPath(format!("{e}: {target_destination}")))?;
     file.write_all(serialized.as_bytes())?;
     Ok(())
 }
