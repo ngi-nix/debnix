@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "setserial",
+  "nix_pkg": null,
+  "control_file_hash": "88a905a11fea315eadcf8ca86fa900b1be9969285ac11e2396177825eddb592b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "lsb-base",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "groff"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "rdiff-backup",
+  "nix_pkg": null,
+  "control_file_hash": "ec979617547aac974443abf27f228169ae9ae3ed247d133f0a839b72e8f01402",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "librsync-dev",
+    "python3-all-dev",
+    "python3-pylibacl",
+    "python3-pyxattr",
+    "python3-setuptools",
+    "python3-setuptools-scm"
+  ],
+  "nix_inputs": [
+    "librsync",
+    "python3",
+    "setuptools-scm"
+  ],
+  "map": {
+    "librsync-dev": "librsync",
+    "python3-setuptools-scm": "setuptools-scm"
+  }
+}

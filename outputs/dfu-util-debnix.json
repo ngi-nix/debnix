@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "dfu-util",
+  "nix_pkg": null,
+  "control_file_hash": "dea013e4c4662831899205966a286ae57f96e7f747852ca3ef369bf968a2d426",
+  "deb_inputs": [
+    "debhelper",
+    "dh-exec",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python3"
+  ],
+  "nix_inputs": [
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

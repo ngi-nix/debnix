@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libhackrf0",
+  "nix_pkg": null,
+  "control_file_hash": "deaa07685dd6052514544dcbe846534d70c1fa30c95f3f266110a906b2eea65f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfftw3-dev",
+    "libhackrf0",
+    "libusb-1.0-0-dev",
+    "libusb-dev",
+    "libusb2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fftw-single",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libusb-dev": "libusb"
+  }
+}

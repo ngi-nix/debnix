@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "rsnapshot",
+  "nix_pkg": null,
+  "control_file_hash": "a9ce600684d72b919787cec9c9a753fbb6fe86be68e66847bf5b47be0212543b",
+  "deb_inputs": [
+    "anacron",
+    "cron-daemon",
+    "debhelper-compat",
+    "liblchown-perl",
+    "logrotate",
+    "openssh-client",
+    "rsync",
+    "ssh-client"
+  ],
+  "nix_inputs": [
+    "openssh",
+    "perl",
+    "rsync"
+  ],
+  "map": {
+    "rsync": "rsync",
+    "openssh-client": "openssh"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ccache",
+  "nix_pkg": null,
+  "control_file_hash": "b8c9b52979e9b7271d6013dce962f2ce530e42c0d83d090ae159bfd7c2d9a608",
+  "deb_inputs": [
+    "asciidoctor",
+    "cmake",
+    "debhelper-compat",
+    "distcc",
+    "dpkg-dev",
+    "elfutils",
+    "icecc",
+    "libhiredis-dev",
+    "libzstd-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "perl",
+    "zstd"
+  ],
+  "map": {
+    "libzstd-dev": "zstd",
+    "cmake": "cmake"
+  }
+}

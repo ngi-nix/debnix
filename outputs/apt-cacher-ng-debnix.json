@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "apt-cacher-ng",
+  "nix_pkg": null,
+  "control_file_hash": "f1fff63c479a2b06ea5c99a34e578b397988d0a68e9c374b5a95e4abf3eba724",
+  "deb_inputs": [
+    "adduser",
+    "avahi-daemon",
+    "ca-certificates",
+    "cmake",
+    "debhelper",
+    "doc-base",
+    "libbz2-dev",
+    "libc-ares-dev",
+    "libevent-dev",
+    "libfuse-dev",
+    "liblzma-dev",
+    "libpthread-stubs0-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "pkg-config",
+    "po-debconf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "c-ares",
+    "cmake",
+    "doxygen",
+    "fuse",
+    "libevent",
+    "openssl",
+    "pkg-config-wrapper",
+    "systemd",
+    "tcp-wrappers",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libfuse-dev": "fuse",
+    "libssl-dev": "openssl",
+    "libwrap0-dev": "tcp-wrappers",
+    "libc-ares-dev": "c-ares",
+    "libsystemd-dev": "systemd",
+    "libbz2-dev": "bzip2",
+    "cmake": "cmake",
+    "libevent-dev": "libevent"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "kmenuedit",
+  "nix_pkg": null,
+  "control_file_hash": "277edf1bfb8bcc7f4d72e2f3db3f03aeebe27a39c29aeb95e7966efa4c4f5ed9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khotkeys",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5globalaccel-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5itemviews-dev",
+    "libkf5kio-dev",
+    "libkf5sonnet-dev",
+    "libkf5windowsystem-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdbusaddons",
+    "kdoctools",
+    "khotkeys",
+    "ki18n",
+    "kiconthemes",
+    "kio",
+    "kxmlgui",
+    "sonnet"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "khotkeys": "khotkeys",
+    "libkf5xmlgui-dev": "kxmlgui",
+    "libkf5sonnet-dev": "sonnet",
+    "libkf5iconthemes-dev": "kiconthemes",
+    "libkf5dbusaddons-dev": "kdbusaddons",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5kio-dev": "kio"
+  }
+}

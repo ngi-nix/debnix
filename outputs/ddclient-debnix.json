@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "ddclient",
+  "nix_pkg": null,
+  "control_file_hash": "026f95d3c48269d266323af9802c09f616064d0f84b436de82a7359d437bc1da",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libdata-validate-ip-perl",
+    "libdigest-sha-perl",
+    "libio-socket-inet6-perl",
+    "libio-socket-ssl-perl",
+    "libjson-pp-perl",
+    "lsb-base",
+    "po-debconf",
+    "quilt",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "Data-Validate-IP",
+    "Digest-SHA1",
+    "IO-Socket-INET6",
+    "IO-Socket-SSL",
+    "JSON-PP",
+    "perl"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "lzip",
+  "nix_pkg": null,
+  "control_file_hash": "0c1d859db29844fc4507b37383aa5494e0db3fb73e362e759f0a782323c9416e",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo"
+  }
+}

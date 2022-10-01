@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libpixman-1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1bc1dd808dcb9644d0e502917aeb1c766b2b2ae036506483b5b35cb02339b4ce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpixman-1-0",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

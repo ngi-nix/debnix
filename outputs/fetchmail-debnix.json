@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "fetchmail",
+  "nix_pkg": null,
+  "control_file_hash": "e37fb681b1bef482a877daf95a6ad22ff7790e5e8da01d88fdf10054bb47f83e",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "ca-certificates",
+    "debhelper-compat",
+    "debianutils",
+    "default-mta",
+    "fetchmailconf",
+    "flex",
+    "libgssglue-dev",
+    "libkrb5-dev",
+    "libssl-dev",
+    "lsb-base",
+    "mail-transport-agent",
+    "pkg-config",
+    "resolvconf"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

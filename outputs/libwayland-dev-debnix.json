@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libwayland-dev",
+  "nix_pkg": null,
+  "control_file_hash": "50b0bc989f5457455100fbf5d09320c739624527e8830cf67c042388dd5fa434",
+  "deb_inputs": [
+    "debhelper",
+    "libexpat1-dev",
+    "libffi-dev",
+    "libwayland-bin",
+    "libwayland-client0",
+    "libwayland-cursor0",
+    "libwayland-doc",
+    "libwayland-egl1",
+    "libwayland-server0",
+    "libxml2-dev",
+    "meson",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "doxygen",
+    "expat",
+    "graphviz",
+    "libffi",
+    "libxml2",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "xmlto"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "meson": "meson",
+    "libffi-dev": "libffi",
+    "libexpat1-dev": "expat"
+  }
+}

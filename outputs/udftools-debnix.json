@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "udftools",
+  "nix_pkg": null,
+  "control_file_hash": "f4d10b5e0d1910a97111db240c1ef929823bb0231486ef82c928f5624233fa32",
+  "deb_inputs": [
+    "debhelper",
+    "dvd+rw-tools",
+    "libreadline-dev",
+    "pkg-config",
+    "udev",
+    "udfclient"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

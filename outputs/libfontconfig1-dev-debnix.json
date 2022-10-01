@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libfontconfig1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "80194b2f9cd722e34e4d0a95d09712003812f5b80690163d481bc0ab8cffe581",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fontconfig-config",
+    "fonts-croscore",
+    "fonts-dejavu-core",
+    "fonts-freefont-otf",
+    "fonts-freefont-ttf",
+    "fonts-liberation",
+    "fonts-liberation2",
+    "fonts-texgyre",
+    "fonts-urw-base35",
+    "gperf",
+    "libexpat1-dev",
+    "libfontconfig-dev",
+    "libfontconfig1",
+    "libfreetype6-dev",
+    "pkg-config",
+    "po-debconf",
+    "ttf-bitstream-vera",
+    "ucf",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "expat",
+    "freetype",
+    "gperf",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "gperf": "gperf",
+    "libexpat1-dev": "expat",
+    "libfreetype6-dev": "freetype"
+  }
+}

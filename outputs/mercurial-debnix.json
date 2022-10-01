@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "mercurial",
+  "nix_pkg": null,
+  "control_file_hash": "85b285eeac57800877fe8fd0d3e47b7f334c0b2c479f1bc1034ba585015242b8",
+  "deb_inputs": [
+    "bash-completion",
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-python",
+    "gettext",
+    "kdiff3",
+    "kdiff3-qt",
+    "kompare",
+    "less",
+    "meld",
+    "mercurial",
+    "mercurial-common",
+    "mgdiff",
+    "netbase",
+    "openssh-client",
+    "patchutils",
+    "python3-all-dev",
+    "python3-docutils",
+    "python3-mysqldb",
+    "python3-openssl",
+    "python3-pygments",
+    "python3-roman",
+    "qct",
+    "rename",
+    "sensible-utils",
+    "tkcvs",
+    "ucf",
+    "unzip",
+    "wish",
+    "zip"
+  ],
+  "nix_inputs": [
+    "cargo",
+    "docutils",
+    "fb-re2",
+    "gettext",
+    "python3",
+    "rustc"
+  ],
+  "map": {
+    "gettext": "gettext"
+  }
+}

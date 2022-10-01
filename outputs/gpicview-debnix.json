@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "gpicview",
+  "nix_pkg": null,
+  "control_file_hash": "22befa524ab56fb1b0523161bb9637821f56ae4569e251ba9c9cee6626e3b07d",
+  "deb_inputs": [
+    "debhelper",
+    "intltool",
+    "libgtk2.0-dev",
+    "libjpeg-dev",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "intltool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

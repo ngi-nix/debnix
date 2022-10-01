@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "mosh",
+  "nix_pkg": null,
+  "control_file_hash": "51c5f30d5bf0fe0f801e10cc4a7b5105daf99447c0a1c0ce9e7ae324156ba1ec",
+  "deb_inputs": [
+    "autotools-dev",
+    "bash-completion",
+    "debhelper",
+    "dh-autoreconf",
+    "less",
+    "libio-socket-ip-perl",
+    "libncurses5-dev",
+    "libprotobuf-dev",
+    "libssl-dev",
+    "libutempter-dev",
+    "locales",
+    "openssh-client",
+    "pkg-config",
+    "protobuf-compiler",
+    "tmux",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "libutempter",
+    "ncurses",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "protobuf",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libprotobuf-dev": "protobuf",
+    "protobuf-compiler": "protobuf",
+    "libutempter-dev": "libutempter",
+    "bash-completion": "bash-completion",
+    "libncurses5-dev": "ncurses",
+    "libssl-dev": "openssl"
+  }
+}

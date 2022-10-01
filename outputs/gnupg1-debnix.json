@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "gnupg1",
+  "nix_pkg": null,
+  "control_file_hash": "14f84e5595182bb321cbb0692abd2e5f378365066bcfc8a1a8d50baa5e6e8730",
+  "deb_inputs": [
+    "automake",
+    "debhelper",
+    "dh-exec",
+    "dpkg-dev",
+    "eog",
+    "file",
+    "gettext",
+    "gnupg",
+    "gnupg1-l10n",
+    "gpgv",
+    "gpgv1",
+    "imagemagick",
+    "libbz2-dev",
+    "libcurl4-gnutls-dev",
+    "libldap2-dev",
+    "libpcsclite1",
+    "libreadline-dev",
+    "libz-dev",
+    "parcimonie",
+    "texinfo",
+    "xloadimage"
+  ],
+  "nix_inputs": [
+    "adns",
+    "bzip2",
+    "gettext",
+    "gnutls",
+    "libassuan",
+    "libgcrypt",
+    "libksba",
+    "libusb",
+    "npth",
+    "openldap",
+    "pkg-config-wrapper",
+    "readline",
+    "sqlite",
+    "texinfo",
+    "tpm2-tss",
+    "zlib"
+  ],
+  "map": {
+    "libldap2-dev": "openldap",
+    "gettext": "gettext",
+    "texinfo": "texinfo",
+    "libreadline-dev": "readline",
+    "libbz2-dev": "bzip2"
+  }
+}

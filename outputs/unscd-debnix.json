@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "unscd",
+  "nix_pkg": null,
+  "control_file_hash": "3b8eddd16b3d5a127ff5065cef28e1aded2b0da8706ea30e574943900de53f0e",
+  "deb_inputs": [
+    "debhelper",
+    "groff-base",
+    "help2man",
+    "libsystemd-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "lftp",
+  "nix_pkg": null,
+  "control_file_hash": "4e731d5ecf932186566dc6ef585e00001617b82ba495770862447abcc78857ed",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "debhelper-compat",
+    "gawk",
+    "gettext",
+    "libgnutls28-dev",
+    "libidn2-dev",
+    "libncurses-dev",
+    "libreadline-dev",
+    "netbase",
+    "openssh-client",
+    "pkg-config",
+    "ssh-client",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gmp-with-cxx",
+    "gnutls",
+    "libunistring",
+    "pkg-config-wrapper",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libgnutls28-dev": "gnutls",
+    "gettext": "gettext",
+    "zlib1g-dev": "zlib",
+    "libreadline-dev": "readline"
+  }
+}
