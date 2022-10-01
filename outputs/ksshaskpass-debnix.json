@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "ksshaskpass",
+  "nix_pkg": null,
+  "control_file_hash": "861fb52d7561b1c5b1da87104cc2c5d1f5d1d145fb619187c1234e4cea6cde18",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "kwalletmanager",
+    "libkf5coreaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5wallet-dev",
+    "libkf5widgetsaddons-dev",
+    "openssh-client",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kcoreaddons",
+    "kdoctools",
+    "ki18n",
+    "kwallet",
+    "kwidgetsaddons",
+    "qtbase"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "qtbase5-dev": "qtbase",
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5widgetsaddons-dev": "kwidgetsaddons"
+  }
+}

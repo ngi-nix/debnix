@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "ferm",
+  "nix_pkg": null,
+  "control_file_hash": "2ec7e86b95257e710653c97704143beaae95d2d63491cf2e71c820da6b5edc6a",
+  "deb_inputs": [
+    "debconf",
+    "debhelper-compat",
+    "iptables",
+    "libnet-dns-perl",
+    "libnet-dns-resolver-mock-perl",
+    "lsb-base",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

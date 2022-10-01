@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "pinentry-qt",
+  "nix_pkg": null,
+  "control_file_hash": "5fa947c878970bd54a7d8be9b997a3e772976235f5d9fa4caa4bb72800b60f3a",
+  "deb_inputs": [
+    "dbus-user-session",
+    "debhelper-compat",
+    "gcr",
+    "libassuan-dev",
+    "libfltk1.3-dev",
+    "libgcr-3-dev",
+    "libglib2.0-dev",
+    "libgpg-error-dev",
+    "libgtk2.0-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libqt5waylandclient5-dev",
+    "libsecret-1-dev",
+    "m4",
+    "pinentry-curses",
+    "pinentry-doc",
+    "pinentry-gnome3",
+    "pinentry-gtk2",
+    "pinentry-qt4",
+    "pkg-config",
+    "qtbase5-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gcr",
+    "gtk+",
+    "libassuan",
+    "libcap",
+    "libgpg-error",
+    "libsecret",
+    "ncurses",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libncurses5-dev": "ncurses",
+    "libassuan-dev": "libassuan",
+    "libgcr-3-dev": "gcr",
+    "libsecret-1-dev": "libsecret",
+    "libgpg-error-dev": "libgpg-error",
+    "libgtk2.0-dev": "gtk+",
+    "gcr": "gcr",
+    "qtbase5-dev": "qtbase"
+  }
+}

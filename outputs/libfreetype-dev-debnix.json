@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libfreetype-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0b128c763edeaae6830512edb36f37de5e38a04db826de94c1eedd35fb022a8c",
+  "deb_inputs": [
+    "autoconf",
+    "bzip2",
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "fonts-noto-core",
+    "freetype2-doc",
+    "gettext",
+    "libbrotli-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libfreetype-dev",
+    "libfreetype6",
+    "libpng-dev",
+    "libtool",
+    "libx11-dev",
+    "libz-dev",
+    "pkg-config",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "bzip2": "bzip2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "scrot",
+  "nix_pkg": null,
+  "control_file_hash": "37b70de84988816c678a66a775f376e1a9a7344dfbf7173e1558e91622fe7be7",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libimlib2-dev",
+    "libxcomposite-dev",
+    "libxfixes-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "imlib2",
+    "libXcomposite",
+    "libXfixes",
+    "libbsd",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbsd-dev": "libbsd",
+    "libxfixes-dev": "libXfixes",
+    "libimlib2-dev": "imlib2",
+    "autoconf-archive": "autoconf-archive",
+    "libxcomposite-dev": "libXcomposite"
+  }
+}
