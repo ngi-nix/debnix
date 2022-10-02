@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "libfacter3.14.12",
+  "nix_pkg": null,
+  "control_file_hash": "57d1c34c33f98b228fc841186bbfe6a340351d64ed72c569575e1d0d085575a1",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper-compat",
+    "libblkid-dev",
+    "libboost-chrono-dev",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-locale-dev",
+    "libboost-log-dev",
+    "libboost-program-options-dev",
+    "libboost-regex-dev",
+    "libboost-system-dev",
+    "libboost-thread-dev",
+    "libcpp-hocon-dev",
+    "libcurl4-openssl-dev",
+    "libfacter3.14.12",
+    "libleatherman-dev",
+    "libssl-dev",
+    "libyaml-cpp-dev",
+    "rapidjson-dev",
+    "ruby",
+    "ruby-all-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "cpp-hocon",
+    "curl",
+    "leatherman",
+    "libwhereami",
+    "libyaml-cpp",
+    "openssl",
+    "ruby",
+    "util-linux"
+  ],
+  "map": {
+    "libleatherman-dev": "leatherman",
+    "libyaml-cpp-dev": "libyaml-cpp",
+    "cmake": "cmake",
+    "libcurl4-openssl-dev": "curl",
+    "libblkid-dev": "util-linux",
+    "libssl-dev": "openssl",
+    "ruby": "ruby",
+    "libcpp-hocon-dev": "cpp-hocon"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "pbzip2",
+  "nix_pkg": null,
+  "control_file_hash": "4aa11d300cbf8fe6a5c54f330337d2201903c296c60a67bbebaca48cd674fa2e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev"
+  ],
+  "nix_inputs": [
+    "bzip2"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2"
+  }
+}

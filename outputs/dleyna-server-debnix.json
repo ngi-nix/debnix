@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "dleyna-server",
+  "nix_pkg": null,
+  "control_file_hash": "f0948db5bc3b7055bc6b31527f95c4fc4d1db6ec0c7d78620279b8d69c90c282",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdleyna-connector-dbus-1.0-1",
+    "libdleyna-core-1.0-dev",
+    "libglib2.0-dev",
+    "libgssdp-1.2-dev",
+    "libgupnp-1.2-dev",
+    "libgupnp-av-1.0-dev",
+    "libgupnp-dlna-2.0-dev",
+    "libsoup2.4-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "dleyna-connector-dbus",
+    "dleyna-core",
+    "gssdp",
+    "gupnp",
+    "gupnp-av",
+    "gupnp-dlna",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgupnp-av-1.0-dev": "gupnp-av",
+    "libsoup2.4-dev": "libsoup",
+    "libgupnp-1.2-dev": "gupnp",
+    "libdleyna-connector-dbus-1.0-1": "dleyna-connector-dbus",
+    "libdleyna-core-1.0-dev": "dleyna-core",
+    "libgupnp-dlna-2.0-dev": "gupnp-dlna",
+    "libgssdp-1.2-dev": "gssdp"
+  }
+}

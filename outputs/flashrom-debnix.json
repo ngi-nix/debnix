@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "flashrom",
+  "nix_pkg": null,
+  "control_file_hash": "99fe6eca8a4e15a4b9e41fff9e936cc4dcf5b03a9a7440d1863bce9acf479276",
+  "deb_inputs": [
+    "debhelper",
+    "libflashrom1",
+    "libftdi1-dev",
+    "libpci-dev",
+    "libusb-1.0-0-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libftdi",
+    "libusb",
+    "pciutils",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpci-dev": "pciutils",
+    "libftdi1-dev": "libftdi"
+  }
+}

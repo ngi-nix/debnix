@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libiperf0",
+  "nix_pkg": null,
+  "control_file_hash": "6afe5ff27cb501a5cce70f60e6e313bb3e7b08a174c2a88c7cb44ed764e27973",
+  "deb_inputs": [
+    "adduser",
+    "debconf",
+    "debhelper-compat",
+    "libiperf0",
+    "libsctp-dev",
+    "libssl-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "lksctp-tools",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libsctp-dev": "lksctp-tools"
+  }
+}

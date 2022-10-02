@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "wmctrl",
+  "nix_pkg": null,
+  "control_file_hash": "360ce3c9b722369af2149c263bf170e6a7d077e2fe1e9889af4a34132da36516",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libx11-dev",
+    "libxmu-dev",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libX11",
+    "libXmu"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxmu-dev": "libXmu",
+    "libglib2.0-dev": "glib"
+  }
+}

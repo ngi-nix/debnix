@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "wakeonlan",
+  "nix_pkg": null,
+  "control_file_hash": "3c828204b9905c1ef7287680731b3993cba095dcbc2f07bbf2777dc7baffe07b",
+  "deb_inputs": [
+    "debhelper",
+    "perl"
+  ],
+  "nix_inputs": [
+    "Test-Perl-Critic",
+    "Test-Pod",
+    "Test-Pod-Coverage",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

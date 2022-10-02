@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "vpnc",
+  "nix_pkg": null,
+  "control_file_hash": "ce1045c1c8684810396a9698122071130865cf77ab1de464e1c8842737140589",
+  "deb_inputs": [
+    "debhelper-compat",
+    "iproute2",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "pkg-config",
+    "resolvconf",
+    "vpnc-scripts",
+    "vpnc:native"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libgcrypt",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt",
+    "libgnutls28-dev": "gnutls"
+  }
+}

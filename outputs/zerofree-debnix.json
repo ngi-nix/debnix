@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "zerofree",
+  "nix_pkg": null,
+  "control_file_hash": "020064bda103cce2c3ed2df802821e917c60a8bd5ce8d114e4af19f79f105c04",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "e2fslibs-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs"
+  ],
+  "map": {
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

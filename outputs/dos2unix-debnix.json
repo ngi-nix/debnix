@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "dos2unix",
+  "nix_pkg": null,
+  "control_file_hash": "9f367821af84a0a08fbee3b2f293eb69eaed04f8d543c8a2ad6f739b6da9016f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "locales-all",
+    "po4a"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "perl"
+  ],
+  "map": {}
+}

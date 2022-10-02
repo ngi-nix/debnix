@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "autossh",
+  "nix_pkg": null,
+  "control_file_hash": "b7f1070473dab2a8c30f26df2d682bfd6a9dd7591b28c5dd1df46a2c589e03bf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "openssh-client",
+    "ssh-client"
+  ],
+  "nix_inputs": [
+    "openssh"
+  ],
+  "map": {
+    "openssh-client": "openssh"
+  }
+}

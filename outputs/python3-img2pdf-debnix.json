@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "python3-img2pdf",
+  "nix_pkg": null,
+  "control_file_hash": "8071b8cd314683db26552fe065e62e0184f4b749f5a561ca8d42ab04cbabf8e8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "ghostscript",
+    "help2man",
+    "icc-profiles-free",
+    "imagemagick",
+    "libgs9-common",
+    "libimage-exiftool-perl",
+    "libtiff-tools",
+    "mupdf-tools",
+    "netpbm",
+    "poppler-utils",
+    "python3-all",
+    "python3-img2pdf",
+    "python3-numpy",
+    "python3-pikepdf",
+    "python3-pil",
+    "python3-pkg-resources",
+    "python3-pytest",
+    "python3-scipy",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "Image-ExifTool",
+    "ghostscript-with-X",
+    "imagemagick",
+    "mupdf",
+    "netpbm",
+    "numpy",
+    "pikepdf",
+    "pillow",
+    "poppler-utils",
+    "python3",
+    "scipy"
+  ],
+  "map": {
+    "python3-pikepdf": "pikepdf",
+    "netpbm": "netpbm",
+    "imagemagick": "imagemagick",
+    "python3-numpy": "numpy",
+    "poppler-utils": "poppler-utils",
+    "python3-pil": "pillow",
+    "python3-scipy": "scipy",
+    "mupdf-tools": "mupdf"
+  }
+}

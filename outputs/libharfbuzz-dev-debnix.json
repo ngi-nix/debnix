@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libharfbuzz-dev",
+  "nix_pkg": null,
+  "control_file_hash": "646e2cc6694eea11c57da037facdae48671edf085eeaab77c89d4dcca4d57b35",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "gir1.2-harfbuzz-0.0",
+    "gtk-doc-tools",
+    "libcairo2-dev",
+    "libchafa-dev",
+    "libfreetype-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgraphite2-dev",
+    "libharfbuzz-gobject0",
+    "libharfbuzz-icu0",
+    "libharfbuzz0b",
+    "libicu-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "freetype",
+    "glib",
+    "gobject-introspection",
+    "graphite2",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libgraphite2-dev": "graphite2",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "libfreetype-dev": "freetype",
+    "gtk-doc-tools": "gtk-doc",
+    "libglib2.0-dev": "glib"
+  }
+}

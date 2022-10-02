@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "virt-viewer",
+  "nix_pkg": null,
+  "control_file_hash": "800b08bf25ab85717399727013b897f21865dda01253fca450a0efc34867200b",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "libffi-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgtk-vnc-2.0-dev",
+    "libspice-client-gtk-3.0-dev",
+    "libvirt-glib-1.0-dev",
+    "libvte-2.91-dev",
+    "libxml2-dev",
+    "meson",
+    "netcat"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "gdbm",
+    "glib",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "gtk-vnc",
+    "intltool",
+    "libcap",
+    "libgovirt",
+    "libvirt",
+    "libvirt-glib",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "shared-mime-info",
+    "spice-gtk",
+    "spice-protocol",
+    "vte"
+  ],
+  "map": {
+    "libvte-2.91-dev": "vte",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libspice-client-gtk-3.0-dev": "spice-gtk",
+    "libxml2-dev": "libxml2",
+    "libgtk-vnc-2.0-dev": "gtk-vnc",
+    "bash-completion": "bash-completion",
+    "libvirt-glib-1.0-dev": "libvirt-glib"
+  }
+}

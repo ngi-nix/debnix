@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "redshift-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "f6d0cd23dee249797d0e5ad9629830f275013fee50e57172f09c533d4a31380d",
+  "deb_inputs": [
+    "at-spi2-core",
+    "debhelper-compat",
+    "dh-apparmor",
+    "dh-python",
+    "dpkg-dev",
+    "geoclue-2.0",
+    "gir1.2-ayatanaappindicator3-0.1",
+    "intltool",
+    "libdrm-dev",
+    "libglib2.0-dev",
+    "libwayland-dev",
+    "libxcb-randr0-dev",
+    "libxext-dev",
+    "libxxf86vm-dev",
+    "pkg-config",
+    "python3",
+    "python3-gi",
+    "python3-xdg",
+    "redshift"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "geoclue",
+    "gettext",
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "libappindicator-gtk3",
+    "libdrm",
+    "libtool",
+    "libxcb",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libxcb-randr0-dev": "libxcb",
+    "geoclue-2.0": "geoclue",
+    "libdrm-dev": "libdrm",
+    "intltool": "intltool",
+    "python3": "python3"
+  }
+}

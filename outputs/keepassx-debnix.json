@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "keepassx",
+  "nix_pkg": null,
+  "control_file_hash": "5354d8f01c9b2d7b2d43d3ba8af76df375ed9f9407085e587af6bc47bcbed3e7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgcrypt20-dev",
+    "libqt5x11extras5-dev",
+    "libxtst-dev",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "xauth",
+    "xvfb",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libX11",
+    "libXtst",
+    "qt",
+    "xorgproto"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst",
+    "libqt5x11extras5-dev": "qt"
+  }
+}

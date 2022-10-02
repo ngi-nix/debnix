@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "xmlstarlet",
+  "nix_pkg": null,
+  "control_file_hash": "50f603618e7e08158d20ab6ba6c21c8aadd5123f4e41339a6957b15cd45877c5",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "docbook-xsl-ns",
+    "fop",
+    "gawk",
+    "ghostscript",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "xsltproc": "libxslt",
+    "libxml2-dev": "libxml2",
+    "libxslt1-dev": "libxslt"
+  }
+}

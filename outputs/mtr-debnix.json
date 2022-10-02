@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "mtr",
+  "nix_pkg": null,
+  "control_file_hash": "02805136ddf4293a50a7fef6ed0ccd98d0ef6c43e98a5d433d10247126c42dba",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "libgtk2.0-dev",
+    "libjansson-dev",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "jansson",
+    "libcap",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libjansson-dev": "jansson"
+  }
+}

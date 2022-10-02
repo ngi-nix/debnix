@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "inxi",
+  "nix_pkg": null,
+  "control_file_hash": "20be5ada664ac60fad7d675ddac1ecf9bba23ce8076dbb27fc9af1b6abe5765c",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "dmidecode",
+    "dnsutils",
+    "doas",
+    "file",
+    "iproute2",
+    "kmod",
+    "libhttp-tiny-perl",
+    "libxml-dumper-perl",
+    "lm-sensors",
+    "mesa-utils",
+    "net-tools",
+    "pciutils",
+    "procps",
+    "sudo",
+    "tree",
+    "usbutils",
+    "wget",
+    "x11-utils",
+    "x11-xserver-utils"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

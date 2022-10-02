@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "nvi",
+  "nix_pkg": null,
+  "control_file_hash": "07daa7024551f75505bad77d59d11427be0c3b77b6fedd09fbf5916b0cc34c59",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdb-dev",
+    "libncurses-dev",
+    "nvi-doc"
+  ],
+  "nix_inputs": [
+    "db",
+    "ncurses"
+  ],
+  "map": {
+    "libdb-dev": "db",
+    "libncurses-dev": "ncurses"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libtiff-dev",
+  "nix_pkg": null,
+  "control_file_hash": "47017fe6cb4fab71f7c4523df9e366ac7700024dd8b605c87bfd836b8489e14e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freeglut3-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libdeflate-dev",
+    "libglu1-mesa-dev",
+    "libjbig-dev",
+    "libjpeg-dev",
+    "liblerc-dev",
+    "liblzma-dev",
+    "libtiff-dev",
+    "libtiff-opengl",
+    "libtiff5",
+    "libtiffxx5",
+    "libwebp-dev",
+    "libxi-dev",
+    "libzstd-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libdeflate",
+    "libjpeg-turbo",
+    "pkg-config-wrapper",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libdeflate-dev": "libdeflate",
+    "zlib1g-dev": "zlib"
+  }
+}

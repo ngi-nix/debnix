@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libwildmidi2",
+  "nix_pkg": null,
+  "control_file_hash": "00f265f616074ec62aebc9a0219342ab14686a557fdd2166fd9586067afef555",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "freepats",
+    "libasound2-dev",
+    "libwildmidi-config",
+    "libwildmidi2"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "glibc"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libasound2-dev": "alsa-lib"
+  }
+}

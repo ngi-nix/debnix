@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "munge",
+  "nix_pkg": null,
+  "control_file_hash": "5e520c4d7b6440c52913bd6a8966ad7649c683aa17a2e349137ad76f484d2d18",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "libbz2-dev",
+    "libgcrypt20-dev",
+    "libmunge2",
+    "lsb-base",
+    "procps",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libgcrypt",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib",
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

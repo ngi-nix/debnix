@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libfluidsynth3",
+  "nix_pkg": null,
+  "control_file_hash": "efd6d17c86bc33592a4d6ab607fdd39b8f6685ee7d23557d7c428e27a4b6cd7a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libdbus-1-dev",
+    "libfluidsynth3",
+    "libglib2.0-dev",
+    "libinstpatch-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libpulse-dev",
+    "libreadline-dev",
+    "libsdl2-dev",
+    "libsndfile-dev",
+    "libsystemd-dev",
+    "libtool",
+    "qsynth",
+    "sf3-soundfont-gm",
+    "timgm6mb-soundfont"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "gcc-wrapper",
+    "glib",
+    "libjack2",
+    "libpulseaudio",
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "cmake": "cmake",
+    "libglib2.0-dev": "glib",
+    "libsndfile-dev": "libsndfile"
+  }
+}

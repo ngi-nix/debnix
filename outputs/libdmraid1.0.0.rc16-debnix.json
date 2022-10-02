@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libdmraid1.0.0.rc16",
+  "nix_pkg": null,
+  "control_file_hash": "f2065af1a2af1824a00123fad0cc344aca3ae5b3c4de78f6dfc2afc58fcab6e0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dmsetup",
+    "libdevmapper-dev",
+    "libdmraid1.0.0.rc16",
+    "libklibc-dev",
+    "udev"
+  ],
+  "nix_inputs": [
+    "lvm2-with-dmeventd"
+  ],
+  "map": {}
+}

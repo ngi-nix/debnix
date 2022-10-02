@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "tix",
+  "nix_pkg": null,
+  "control_file_hash": "c581b6e4be266af0d888c0356532de51368b5de1b19210092b80fd32c93ff011",
+  "deb_inputs": [
+    "debhelper-compat",
+    "groff",
+    "perl",
+    "tcl",
+    "tcl-dev",
+    "tclsh",
+    "tix",
+    "tk-dev"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tk-dev": "tk",
+    "tcl": "tcl"
+  }
+}

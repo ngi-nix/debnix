@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "comerr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e3ba97309c17d8d05efad7a33a4f9b0966f0cea356d3fc9184488d3bdf6fcedf",
+  "deb_inputs": [
+    "bash-static",
+    "busybox-static",
+    "comerr-dev",
+    "cron",
+    "debhelper-compat",
+    "dh-exec",
+    "doc-base",
+    "e2fsck-static",
+    "e2fsprogs",
+    "e2fsprogs-l10n",
+    "fuse2fs",
+    "gettext",
+    "gpart",
+    "libblkid-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libcom-err2",
+    "libext2fs2",
+    "libfuse-dev",
+    "libss2",
+    "logsave",
+    "m4",
+    "parted",
+    "pkg-config",
+    "sash",
+    "systemd",
+    "texinfo",
+    "udev",
+    "uuid-dev",
+    "zsh-static"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "gettext",
+    "perl",
+    "pkg-config-wrapper",
+    "texinfo",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "fuse2fs": "fuse",
+    "texinfo": "texinfo",
+    "libfuse-dev": "fuse"
+  }
+}

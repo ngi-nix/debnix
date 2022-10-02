@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libreadline-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0e08ab95687ac5a2fcb476f18bfeb40f01d843931ae65c318876e29a4cf01ca3",
+  "deb_inputs": [
+    "awk",
+    "debhelper",
+    "dpkg",
+    "gcc-multilib",
+    "install-info",
+    "lib32ncurses-dev",
+    "lib32readline8",
+    "lib64ncurses-dev",
+    "lib64readline8",
+    "libncurses-dev",
+    "libreadline8",
+    "mawk",
+    "readline-common",
+    "readline-common-udeb",
+    "readline-doc",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "lib64ncurses-dev": "ncurses",
+    "libncurses-dev": "ncurses",
+    "lib32ncurses-dev": "ncurses"
+  }
+}

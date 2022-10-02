@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "privoxy",
+  "nix_pkg": null,
+  "control_file_hash": "0354a4fc3a3c25da734ec7b9d372f5136282a72f1adad4454742e7d76643464c",
+  "deb_inputs": [
+    "adduser",
+    "apparmor",
+    "autoconf",
+    "debconf",
+    "debhelper-compat",
+    "dh-apparmor",
+    "doc-base",
+    "docbook",
+    "docbook-dsssl",
+    "docbook-utils",
+    "groff",
+    "libbrotli-dev",
+    "libmbedtls-dev",
+    "libpcre3-dev",
+    "logrotate",
+    "lsb-base",
+    "man2html",
+    "opensp:native",
+    "po-debconf",
+    "sgmlspl",
+    "ucf",
+    "w3m",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "brotli",
+    "man-db",
+    "openssl",
+    "pcre",
+    "w3m",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbrotli-dev": "brotli",
+    "w3m": "w3m",
+    "libpcre3-dev": "pcre"
+  }
+}

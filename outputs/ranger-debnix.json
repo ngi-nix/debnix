@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "ranger",
+  "nix_pkg": null,
+  "control_file_hash": "3b03ce190347ae07bd7cd813975797563ceeb620ef73ba1c527187823ebdd9f2",
+  "deb_inputs": [
+    "atool",
+    "caca-utils",
+    "debhelper-compat",
+    "dh-python",
+    "elinks",
+    "elinks-lite",
+    "exiftool",
+    "file",
+    "flake8",
+    "highlight",
+    "less",
+    "lynx",
+    "mediainfo",
+    "mupdf-tools",
+    "ncurses-bin",
+    "poppler-utils",
+    "pylint",
+    "python3-all",
+    "python3-chardet",
+    "python3-pygments",
+    "python3-pytest",
+    "sensible-utils",
+    "shellcheck",
+    "sudo",
+    "unoconv",
+    "w3m",
+    "w3m-img"
+  ],
+  "nix_inputs": [
+    "chardet",
+    "file",
+    "less",
+    "pillow",
+    "pynvim",
+    "python3"
+  ],
+  "map": {
+    "python3-chardet": "chardet",
+    "file": "file",
+    "less": "less"
+  }
+}
