@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "gnome-2048",
+  "nix_pkg": null,
+  "control_file_hash": "da51e1aefa99fd655e4a6d415fce23ba133328babe6a363ac456dfc4a05d362c",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-sequence-gnome",
+    "itstool",
+    "libclutter-1.0-dev",
+    "libclutter-gtk-1.0-dev",
+    "libgee-0.8-dev",
+    "libglib2.0-dev",
+    "libgnome-games-support-1-dev",
+    "libgtk-3-dev",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "itstool",
+    "libgee",
+    "libgnome-games-support",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "itstool": "itstool",
+    "meson": "meson",
+    "valac": "vala",
+    "libgnome-games-support-1-dev": "libgnome-games-support"
+  }
+}

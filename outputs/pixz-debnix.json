@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "pixz",
+  "nix_pkg": null,
+  "control_file_hash": "1556ac15b28066be75af7a35dc448d61e32989bc236a401d85494da40593510e",
+  "deb_inputs": [
+    "asciidoc",
+    "cppcheck",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libarchive-dev",
+    "liblzma-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libarchive",
+    "libtool",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "xz"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "libarchive-dev": "libarchive",
+    "docbook-xml": "docbook-xml"
+  }
+}

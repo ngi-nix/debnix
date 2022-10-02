@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libvulkan-dev",
+  "nix_pkg": null,
+  "control_file_hash": "12d38fba0f6473997a61a60c1625cdcaec32ec53108097aa005c716a98e22653",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "googletest",
+    "libvulkan1",
+    "libwayland-dev",
+    "libx11-dev",
+    "libxcb1-dev",
+    "libxrandr-dev",
+    "mesa-vulkan-drivers",
+    "pkg-config",
+    "python3",
+    "python3:any",
+    "vulkan-icd"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libX11",
+    "libXrandr",
+    "libxcb",
+    "pkg-config-wrapper",
+    "vulkan-headers",
+    "wayland"
+  ],
+  "map": {
+    "libxcb1-dev": "libxcb",
+    "libx11-dev": "libX11",
+    "libxrandr-dev": "libXrandr",
+    "libwayland-dev": "wayland",
+    "cmake": "cmake"
+  }
+}

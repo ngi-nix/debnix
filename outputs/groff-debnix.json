@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "groff",
+  "nix_pkg": null,
+  "control_file_hash": "be806f0d2c02575b8db127b9d93b12d8004afc0f338265e9111bab36601503e6",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "ghostscript",
+    "groff",
+    "groff-base",
+    "gsfonts",
+    "imagemagick",
+    "libpaper1",
+    "libuchardet-dev",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "netpbm",
+    "perl",
+    "pkg-config",
+    "poppler-utils",
+    "psutils",
+    "texinfo",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "pkg-config-wrapper",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "perl": "perl"
+  }
+}

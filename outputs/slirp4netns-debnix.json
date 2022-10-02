@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "slirp4netns",
+  "nix_pkg": null,
+  "control_file_hash": "9bdaa6e5b16d0b8e44f9db04b7ba71dc2b0264701f3d051d8c079e8ab098ac5f",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "libcap-dev",
+    "libglib2.0-dev",
+    "libseccomp-dev",
+    "libslirp-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libcap",
+    "libseccomp",
+    "libslirp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libcap-dev": "libcap",
+    "libslirp-dev": "libslirp",
+    "libseccomp-dev": "libseccomp"
+  }
+}

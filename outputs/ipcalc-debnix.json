@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ipcalc",
+  "nix_pkg": null,
+  "control_file_hash": "0771d381aa5f67c00cf7fda89a9262a4d6709157be1e30f2c71c1e2dcd333d11",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "geoip",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "ronn"
+  ],
+  "map": {}
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "kmag",
+  "nix_pkg": null,
+  "control_file_hash": "7cc952a7843457b2caa2553a99864db171492c4dc139fc9074785cc6d9dae97b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5xmlgui-dev",
+    "libqaccessibilityclient-qt5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio"
+  ],
+  "map": {
+    "libkf5i18n-dev": "ki18n",
+    "libkf5kio-dev": "kio",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools"
+  }
+}

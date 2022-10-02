@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "timeshift",
+  "nix_pkg": null,
+  "control_file_hash": "24eda01b5c2ac27998b8f096e832b1a9e4923d4035bfd1ba8710e4976c66c357",
+  "deb_inputs": [
+    "cron",
+    "cron-daemon",
+    "debhelper-compat",
+    "libgee-0.8-dev",
+    "libgtk-3-dev",
+    "libjson-glib-dev",
+    "libvte-2.91-dev",
+    "libxapp-dev",
+    "psmisc",
+    "rsync",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gtk+3",
+    "json-glib",
+    "libgee",
+    "lndir",
+    "pkg-config-wrapper",
+    "vala",
+    "vte",
+    "which",
+    "xapp"
+  ],
+  "map": {
+    "libxapp-dev": "xapp",
+    "valac": "vala",
+    "libvte-2.91-dev": "vte",
+    "libjson-glib-dev": "json-glib"
+  }
+}

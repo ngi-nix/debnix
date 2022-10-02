@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "shorewall",
+  "nix_pkg": null,
+  "control_file_hash": "4577c3b907ce6712fab6aec414d35e562b51e55183e354a0f5ba07fb0c589edb",
+  "deb_inputs": [
+    "bc",
+    "cdebconf",
+    "debconf",
+    "debhelper",
+    "iproute",
+    "iproute2",
+    "iptables",
+    "libnetfilter-cthelper0",
+    "lsb-base",
+    "make",
+    "perl",
+    "po-debconf",
+    "shorewall-core",
+    "shorewall-doc"
+  ],
+  "nix_inputs": [
+    "Digest-SHA1",
+    "coreutils",
+    "gnugrep",
+    "gnused",
+    "iproute2",
+    "iptables",
+    "perl",
+    "util-linux"
+  ],
+  "map": {
+    "iproute2": "iproute2",
+    "perl": "perl",
+    "iptables": "iptables",
+    "iproute": "iproute2"
+  }
+}

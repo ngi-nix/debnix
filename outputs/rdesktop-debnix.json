@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "rdesktop",
+  "nix_pkg": null,
+  "control_file_hash": "c3b226cadfcb1b9e7085444bc167e937460a58f27d4b19142bb53b28cceb9bb2",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "gnutls-dev",
+    "libasound2-dev",
+    "libgssglue-dev",
+    "libkrb5-dev",
+    "libpcsclite-dev",
+    "libtasn1-dev",
+    "libx11-dev",
+    "libxcursor-dev",
+    "libxrandr-dev",
+    "libxt-dev",
+    "nettle-dev",
+    "pcscd",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "krb5",
+    "libX11",
+    "libXcursor",
+    "libtasn1",
+    "nettle",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libtasn1-dev": "libtasn1",
+    "gnutls-dev": "gnutls",
+    "libkrb5-dev": "krb5",
+    "libx11-dev": "libX11",
+    "libxcursor-dev": "libXcursor",
+    "nettle-dev": "nettle"
+  }
+}

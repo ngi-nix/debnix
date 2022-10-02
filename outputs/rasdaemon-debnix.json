@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "rasdaemon",
+  "nix_pkg": null,
+  "control_file_hash": "423dd4e6b487a15d63902947dd02e0a2065c2de5987e54063f4d884e991119a8",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "dh-exec",
+    "libdbd-sqlite3-perl",
+    "libgettextpo-dev",
+    "libsqlite3-dev",
+    "quilt",
+    "sqlite3"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "dmidecode",
+    "glibc-locales",
+    "hwdata",
+    "kmod",
+    "sqlite"
+  ],
+  "map": {
+    "sqlite3": "sqlite",
+    "libsqlite3-dev": "sqlite"
+  }
+}

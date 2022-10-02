@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "ripgrep",
+  "nix_pkg": null,
+  "control_file_hash": "c31142854a3fe7a687ede572acfc3d2091fc1bbf865f9baab77e284452555545",
+  "deb_inputs": [
+    "asciidoc",
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "docbook-xsl",
+    "librust-bstr-0.2+default-dev",
+    "librust-clap-2+suggestions-dev",
+    "librust-grep-0.2+default-dev",
+    "librust-grep-dev",
+    "librust-grep-searcher+default-dev",
+    "librust-ignore-0.4+default-dev",
+    "librust-lazy-static-1+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-num-cpus-1+default-dev",
+    "librust-regex-1+default-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-termcolor-1+default-dev",
+    "libstd-rust-dev",
+    "rustc:native",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "pcre2",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

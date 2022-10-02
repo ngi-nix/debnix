@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "xbindkeys",
+  "nix_pkg": null,
+  "control_file_hash": "b0609efc8834d14ac6c623c6dd3c39fa184d32cdec037b78b6eb925fdad2310d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0-dev",
+    "libx11-dev",
+    "libxt-dev",
+    "wish",
+    "xbindkeys-config"
+  ],
+  "nix_inputs": [
+    "guile",
+    "libX11",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "guile-3.0-dev": "guile"
+  }
+}

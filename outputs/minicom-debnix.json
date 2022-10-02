@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "minicom",
+  "nix_pkg": null,
+  "control_file_hash": "19a51a49b571d808e3289e99919f638c84b449724e455de901f4c4fdf37a3463",
+  "deb_inputs": [
+    "autotools-dev",
+    "gettext",
+    "libncurses5-dev",
+    "lrzsz"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

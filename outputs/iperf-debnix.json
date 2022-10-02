@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "iperf",
+  "nix_pkg": null,
+  "control_file_hash": "ed03fb6e0b73915aaef3ca3b64b30a0b7047c43af732476f85b95871b3d91d0f",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "lksctp-tools",
+    "openssl"
+  ],
+  "map": {}
+}

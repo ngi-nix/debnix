@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "unison",
+  "nix_pkg": null,
+  "control_file_hash": "4e2940c8e069c23a0be3b2e3b261bb406c49dd16be158f9078070b9b6d55d036",
+  "deb_inputs": [
+    "cdbs",
+    "chrpath",
+    "debhelper",
+    "dh-ocaml",
+    "imagemagick",
+    "liblablgtk2-ocaml-dev",
+    "librsvg2-bin",
+    "ocaml-nox",
+    "openssh-client",
+    "ssh-askpass",
+    "ssh-client",
+    "unison-all",
+    "unison-all-gtk"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "ocaml"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml"
+  }
+}

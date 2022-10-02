@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "sshguard",
+  "nix_pkg": null,
+  "control_file_hash": "49cd5745e6c415a1f3773bafe0c2cc6aabf54c73f473eca0563d1ae276f2908a",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "flex",
+    "lsb-base",
+    "nftables"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "flex": "flex"
+  }
+}

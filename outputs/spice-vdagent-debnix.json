@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "spice-vdagent",
+  "nix_pkg": null,
+  "control_file_hash": "1ebdfc5faffee83351fe1dc2e2ceba5cd31eb782cd54870c8bf97e0365f3465a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-file-utils",
+    "libasound2-dev",
+    "libdbus-1-dev",
+    "libdrm-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libpciaccess-dev",
+    "libspice-protocol-dev",
+    "libsystemd-dev",
+    "libx11-dev",
+    "libxfixes-dev",
+    "libxinerama-dev",
+    "libxrandr-dev",
+    "pkg-config",
+    "procps",
+    "systemd",
+    "udev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "dbus",
+    "glib",
+    "libXfixes",
+    "libXinerama",
+    "libXrandr",
+    "libdrm",
+    "libpciaccess",
+    "libxcb",
+    "pkg-config-wrapper",
+    "spice-protocol",
+    "systemd"
+  ],
+  "map": {
+    "libdbus-1-dev": "dbus",
+    "libxfixes-dev": "libXfixes",
+    "libglib2.0-dev": "glib",
+    "libspice-protocol-dev": "spice-protocol",
+    "systemd": "systemd",
+    "udev": "systemd",
+    "libsystemd-dev": "systemd",
+    "libpciaccess-dev": "libpciaccess",
+    "libdrm-dev": "libdrm",
+    "libasound2-dev": "alsa-lib",
+    "libxrandr-dev": "libXrandr",
+    "libxinerama-dev": "libXinerama"
+  }
+}

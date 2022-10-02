@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "xdelta",
+  "nix_pkg": null,
+  "control_file_hash": "62bf761c107918e7ee7dbf908db5ba37af757d0bedc20f39534c929f08c9bc77",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libxdelta2",
+    "pkg-config",
+    "pkgconf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}

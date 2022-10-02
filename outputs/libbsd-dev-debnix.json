@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libbsd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "60f2ba446eb720ee4eda782a009537886d77f9661114b85926397bf620179774",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbsd0",
+    "libmd-dev"
+  ],
+  "nix_inputs": [
+    "libmd"
+  ],
+  "map": {
+    "libmd-dev": "libmd"
+  }
+}

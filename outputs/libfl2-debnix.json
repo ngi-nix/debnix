@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libfl2",
+  "nix_pkg": null,
+  "control_file_hash": "d69008bfc25200711bdff1c74757613a85b080e900ce98b5b5aabf5207a3c2d1",
+  "deb_inputs": [
+    "bison",
+    "build-essential",
+    "c-compiler",
+    "debhelper-compat",
+    "dh-autoreconf",
+    "dpkg-dev",
+    "file",
+    "flex",
+    "flex-doc",
+    "gcc",
+    "gettext",
+    "help2man",
+    "libfl-dev",
+    "libfl2",
+    "m4",
+    "po-debconf",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "bison",
+    "gnum4",
+    "help2man"
+  ],
+  "map": {
+    "bison": "bison",
+    "help2man": "help2man"
+  }
+}

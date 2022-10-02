@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "openntpd",
+  "nix_pkg": null,
+  "control_file_hash": "2e2066a2ac119111876bb6c2b341c1a94a632977e2a200fa363a9454e7fc69d1",
+  "deb_inputs": [
+    "adduser",
+    "apparmor",
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper",
+    "dh-apparmor",
+    "dpkg-dev",
+    "libssl-dev",
+    "lsb-base",
+    "netbase"
+  ],
+  "nix_inputs": [
+    "libressl"
+  ],
+  "map": {}
+}

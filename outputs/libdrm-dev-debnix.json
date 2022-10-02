@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libdrm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "60f040360269110eb1a671fefe08815d5a40eb38e27cae814a5fa88a4b4ec8be",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdrm-amdgpu1",
+    "libdrm-common",
+    "libdrm-etnaviv1",
+    "libdrm-exynos1",
+    "libdrm-freedreno1",
+    "libdrm-intel1",
+    "libdrm-nouveau2",
+    "libdrm-omap1",
+    "libdrm-radeon1",
+    "libdrm-tegra0",
+    "libdrm2",
+    "libpciaccess-dev",
+    "libudev-dev",
+    "libx11-dev",
+    "meson",
+    "pkg-config",
+    "python3-docutils",
+    "python3-setuptools",
+    "quilt",
+    "xsltproc",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "libpciaccess",
+    "libpthread-stubs",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "valgrind"
+  ],
+  "map": {
+    "meson": "meson",
+    "libpciaccess-dev": "libpciaccess"
+  }
+}
