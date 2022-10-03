@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "openocd",
+  "nix_pkg": null,
+  "control_file_hash": "d45b4a8aa502a0be42353ee01932ceaee69aabca5236a9f15713b7628684dc63",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcapstone-dev",
+    "libftdi1-dev",
+    "libgpiod-dev",
+    "libhidapi-dev",
+    "libjaylink-dev",
+    "libjim-dev",
+    "libusb-1.0-0-dev",
+    "libusb-dev",
+    "pkg-config",
+    "texinfo",
+    "texlive"
+  ],
+  "nix_inputs": [
+    "hidapi",
+    "libftdi",
+    "libgpiod",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libhidapi-dev": "hidapi",
+    "libusb-dev": "libusb",
+    "libftdi1-dev": "libftdi",
+    "libgpiod-dev": "libgpiod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libthai-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bb97c4b186e5923bc78a9ef0e0766cf2fd28daa79f9cb02a75820b82a74170d1",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libdatrie-dev",
+    "libdatrie1-bin",
+    "libjs-jquery",
+    "libthai-data",
+    "libthai-data-udeb",
+    "libthai-doc",
+    "libthai0",
+    "pkg-config",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "libdatrie",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdatrie1-bin": "libdatrie",
+    "libdatrie-dev": "libdatrie"
+  }
+}

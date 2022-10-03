@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "speedtest-cli",
+  "nix_pkg": null,
+  "control_file_hash": "237fc2a8919eff6c3c572b0f32b5aae6cd12125bb8fd13ee11abdace64d4eba6",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

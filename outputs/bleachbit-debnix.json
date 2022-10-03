@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "bleachbit",
+  "nix_pkg": null,
+  "control_file_hash": "3370a40423d4b7f6c53dd2a37e67962f02d07e5345949d3a0719978f64adfb7c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "gir1.2-notify-0.7",
+    "libgtk-3-0",
+    "pkexec",
+    "policykit-1",
+    "python3-chardet",
+    "python3-gi",
+    "python3-requests"
+  ],
+  "nix_inputs": [
+    "chardet",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "libnotify",
+    "pygobject",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "python3-chardet": "chardet",
+    "python3-gi": "pygobject",
+    "gir1.2-notify-0.7": "libnotify"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "coturn",
+  "nix_pkg": null,
+  "control_file_hash": "5d384f943504cce784c87364290c4c6caaa55b23c33fcdbeba4d443ae13231c2",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "default-mysql-client",
+    "dpkg-dev",
+    "libevent-dev",
+    "libhiredis-dev",
+    "libpq-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "pkg-config",
+    "postgresql-client",
+    "sip-router",
+    "sqlite3",
+    "telnet",
+    "telnet-client",
+    "xmpp-server"
+  ],
+  "nix_inputs": [
+    "libevent",
+    "libmicrohttpd",
+    "libprom",
+    "libpromhttp",
+    "openssl",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "sqlite3": "sqlite",
+    "libssl-dev": "openssl",
+    "libevent-dev": "libevent"
+  }
+}

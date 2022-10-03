@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "tap-plugins",
+  "nix_pkg": null,
+  "control_file_hash": "5d1b3f3a0850dea6e832698f104436d2bee6820afdf8b09f2b4749b4133de27e",
+  "deb_inputs": [
+    "debhelper",
+    "sharutils"
+  ],
+  "nix_inputs": [
+    "ladspa-sdk"
+  ],
+  "map": {}
+}

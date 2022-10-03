@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libgpg-error-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cae9592731b5a2973be833838a24bcd4532a1a94fc17a6df9750a6bbe2610dc7",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "gettext",
+    "libgpg-error-l10n",
+    "libgpg-error0",
+    "mingw-w64",
+    "texinfo",
+    "wine"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {
+    "gettext": "gettext"
+  }
+}

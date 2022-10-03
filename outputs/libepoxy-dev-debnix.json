@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libepoxy-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6620f354a959056873989ac087fd21546d6c452ef8e28e77fbfc3b5635e43e24",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libegl-dev",
+    "libepoxy0",
+    "libgl-dev",
+    "libx11-dev",
+    "meson",
+    "pkg-config",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "libGL",
+    "libX11",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "util-macros"
+  ],
+  "map": {
+    "meson": "meson",
+    "libgl-dev": "libGL",
+    "libx11-dev": "libX11"
+  }
+}
