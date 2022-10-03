@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "lrzsz",
+  "nix_pkg": null,
+  "control_file_hash": "781387a14bcd3c6d525d3ce44adbdfb21dce94510349777a4657538261ae640e",
+  "deb_inputs": [
+    "autotools-dev",
+    "gettext",
+    "minicom"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {
+    "gettext": "gettext"
+  }
+}

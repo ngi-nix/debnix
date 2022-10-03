@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "mediainfo",
+  "nix_pkg": null,
+  "control_file_hash": "2c85a52cd1063df5e9f313df018dd6734cc047bea7f2482035918281458e86b5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmediainfo-dev",
+    "libwxgtk3.2-dev",
+    "libzen-dev",
+    "mediainfo-gui",
+    "pkg-config",
+    "rename",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "imagemagick",
+    "libSM",
+    "libmediainfo",
+    "libzen",
+    "pkg-config-wrapper",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "libmediainfo-dev": "libmediainfo",
+    "libzen-dev": "libzen",
+    "zlib1g-dev": "zlib",
+    "libwxgtk3.2-dev": "wxwidgets"
+  }
+}

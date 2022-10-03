@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "soundconverter",
+  "nix_pkg": null,
+  "control_file_hash": "7d1ed64417915534afb8b893d3095601d7ac7170e063931e60753dd1742f2088",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-glib-2.0",
+    "gir1.2-gst-plugins-base-1.0",
+    "gir1.2-gstreamer-1.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-notify-0.7",
+    "gstreamer1.0-libav",
+    "gstreamer1.0-plugins-base",
+    "gstreamer1.0-plugins-good",
+    "gstreamer1.0-plugins-ugly",
+    "python3",
+    "python3-distutils-extra",
+    "python3-gi"
+  ],
+  "nix_inputs": [
+    "distutils-extra",
+    "fdkaac",
+    "gobject-introspection",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gst-python",
+    "gtk+3",
+    "intltool",
+    "pygobject",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "python3": "python3"
+  }
+}

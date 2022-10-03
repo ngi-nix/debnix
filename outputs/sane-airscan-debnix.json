@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "sane-airscan",
+  "nix_pkg": null,
+  "control_file_hash": "43024dcdd388a508ff3ea422e2f67bf12ce326f4d875803d84cf942032451a0d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-dev",
+    "ipp-usb",
+    "libavahi-client-dev",
+    "libavahi-common-dev",
+    "libjpeg-turbo8-dev",
+    "libjpeg62-turbo-dev",
+    "libpng-dev",
+    "libsane-dev",
+    "libxml2-dev",
+    "sane-utils"
+  ],
+  "nix_inputs": [
+    "avahi",
+    "gnutls",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "sane-backends"
+  ],
+  "map": {
+    "libsane-dev": "sane-backends",
+    "libavahi-common-dev": "avahi",
+    "sane-utils": "sane-backends",
+    "libxml2-dev": "libxml2",
+    "libavahi-client-dev": "avahi",
+    "gnutls-dev": "gnutls",
+    "libjpeg62-turbo-dev": "libjpeg-turbo"
+  }
+}

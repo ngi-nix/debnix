@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "brightness-udev",
+  "nix_pkg": null,
+  "control_file_hash": "1d9b3739fc4202b900c566c83b60026944eab62486335759a4cadf23131c9bb1",
+  "deb_inputs": [
+    "brightness-udev",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {}
+}

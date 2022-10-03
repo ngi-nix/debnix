@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "fzf",
+  "nix_pkg": null,
+  "control_file_hash": "6840851f685bdf863341e7ee3772874419b0bcd364e93a36f9818de89dc30bc6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dh-golang",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-github-mattn-go-shellwords-dev",
+    "golang-github-rivo-uniseg-dev",
+    "golang-github-saracen-walker-dev",
+    "golang-go",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-term-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "ncurses"
+  ],
+  "map": {}
+}

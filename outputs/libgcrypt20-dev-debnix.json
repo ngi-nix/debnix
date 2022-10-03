@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libgcrypt20-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2b3e1b81bcab0febb590aa01bdab55c404480b323e06443f3871184c0c3d680a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libc-dev",
+    "libc6-dev",
+    "libgcrypt20",
+    "libgcrypt20-dev",
+    "libgcrypt20-doc",
+    "libgpg-error-dev",
+    "libgpg-error-mingw-w64-dev",
+    "rng-tools",
+    "wine"
+  ],
+  "nix_inputs": [
+    "libgpg-error"
+  ],
+  "map": {
+    "libgpg-error-mingw-w64-dev": "libgpg-error",
+    "libgpg-error-dev": "libgpg-error"
+  }
+}

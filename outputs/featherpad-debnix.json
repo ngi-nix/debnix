@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "featherpad",
+  "nix_pkg": null,
+  "control_file_hash": "ddbb3fe5c3aece99742381d785784fac60a1fd6a50cfe7ee75098d9fc174bef0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "featherpad-l10n",
+    "libglib2.0-bin",
+    "libhunspell-dev",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "qttranslations5-l10n"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "hunspell",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "libhunspell-dev": "hunspell",
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools"
+  }
+}

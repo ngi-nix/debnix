@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ncftp",
+  "nix_pkg": null,
+  "control_file_hash": "8855e7ef45b4f7509bce703057f0f6c09bd388f9058409caaac50f739af26686",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "wayland-protocols",
+  "nix_pkg": null,
+  "control_file_hash": "21c8677e504d8f114f5fb1ad46b7cd852b140772e0cfe0f301388b9bf761438b",
+  "deb_inputs": [
+    "debhelper",
+    "libwayland-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "python3",
+    "wayland"
+  ],
+  "map": {
+    "meson": "meson",
+    "libwayland-dev": "wayland"
+  }
+}

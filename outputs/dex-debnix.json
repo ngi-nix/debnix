@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "dex",
+  "nix_pkg": null,
+  "control_file_hash": "d5c22665387956cd07339bd6589d8ff419c394df9d88ec964613efb36232eb71",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "python3",
+    "sphinx"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-sphinx": "sphinx"
+  }
+}

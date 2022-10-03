@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "debugedit",
+  "nix_pkg": null,
+  "control_file_hash": "f740483239d7f136a21bdd503caa6a6d56ae4d76a0345d4d8ddc24328440b004",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libdw-dev",
+    "libelf-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "elfutils",
+    "help2man",
+    "pkg-config-wrapper",
+    "util-linux"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "libdw-dev": "elfutils",
+    "libelf-dev": "elfutils"
+  }
+}

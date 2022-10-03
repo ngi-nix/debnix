@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "lxtask",
+  "nix_pkg": null,
+  "control_file_hash": "03b0203aa13d13552909bf3084e4f41d70154150da0eeac3cdf7f2152fe14965",
+  "deb_inputs": [
+    "debhelper",
+    "intltool",
+    "libglib2.0-dev",
+    "libgtk2.0-dev"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "intltool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool"
+  }
+}

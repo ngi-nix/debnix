@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "fcgiwrap",
+  "nix_pkg": null,
+  "control_file_hash": "47cecb846b97a84fde6b85170a5df780471eb375cc6f54450d28a05c482b495a",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "libfcgi-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "pkg-config",
+    "spawn-fcgi",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "fcgi",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libfcgi-dev": "fcgi",
+    "libsystemd-dev": "systemd",
+    "systemd": "systemd"
+  }
+}

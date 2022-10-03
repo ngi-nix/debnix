@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "obconf",
+  "nix_pkg": null,
+  "control_file_hash": "4eb391ffc073dcc8ada5530e854e1f5642879fa54cd5f3415081c831bed48cec",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper",
+    "gettext",
+    "libcairo2-dev",
+    "libgtk-3-dev",
+    "libimlib2-dev",
+    "libsm-dev",
+    "libstartup-notification0-dev",
+    "openbox",
+    "openbox-dev"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "imlib2",
+    "libSM",
+    "libstartup-notification",
+    "libxml2",
+    "openbox",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsm-dev": "libSM",
+    "openbox": "openbox",
+    "openbox-dev": "openbox",
+    "libimlib2-dev": "imlib2"
+  }
+}

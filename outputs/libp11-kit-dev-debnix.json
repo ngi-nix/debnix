@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libp11-kit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9eba5f6725c5b6529bc7803ba6735f63ddc37f7f709b767508496c5fdc39d711",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libbsd-dev",
+    "libffi-dev",
+    "libp11-kit0",
+    "libtasn1-6-dev",
+    "p11-kit-doc",
+    "p11-kit-modules",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "gtk-doc",
+    "libffi",
+    "libtasn1",
+    "libxslt",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libffi-dev": "libffi"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "pylint",
+  "nix_pkg": null,
+  "control_file_hash": "e4bd7fb2758101a29e5c138ba6183f2e7a0be2b29ef9503d170fa1c735933c12",
+  "deb_inputs": [
+    "debhelper-compat",
+    "pybuild-plugin-pyproject",
+    "pylint-doc",
+    "python3-all",
+    "python3-astroid",
+    "python3-dill",
+    "python3-docs-theme",
+    "python3-git",
+    "python3-isort",
+    "python3-logilab-common",
+    "python3-mccabe",
+    "python3-myst-parser",
+    "python3-platformdirs",
+    "python3-pytest",
+    "python3-pytest-benchmark",
+    "python3-pytest-runner",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-reredirects",
+    "python3-tk",
+    "python3-toml",
+    "python3-tomlkit",
+    "python3-typing-extensions"
+  ],
+  "nix_inputs": [
+    "astroid",
+    "dill",
+    "gitpython",
+    "isort",
+    "mccabe",
+    "platformdirs",
+    "pytest-timeout",
+    "pytest-xdist",
+    "python3",
+    "tomli",
+    "tomlkit",
+    "typing-extensions"
+  ],
+  "map": {
+    "python3-astroid": "astroid",
+    "python3-isort": "isort",
+    "python3-dill": "dill",
+    "python3-platformdirs": "platformdirs"
+  }
+}

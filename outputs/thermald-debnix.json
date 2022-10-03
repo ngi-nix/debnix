@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "thermald",
+  "nix_pkg": null,
+  "control_file_hash": "6e484775e5ab9377164b030b06a6aeb394b2d8d340858ab2b6cb02c93d1e1d42",
+  "deb_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "debhelper",
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libevdev-dev",
+    "libglib2.0-dev",
+    "liblzma-dev",
+    "libupower-glib-dev",
+    "libxml2-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "dbus",
+    "dbus-glib",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gtk-doc",
+    "libevdev",
+    "libtool",
+    "libxml2",
+    "pkg-config-wrapper",
+    "upower",
+    "xz"
+  ],
+  "map": {
+    "libupower-glib-dev": "upower",
+    "autoconf-archive": "autoconf-archive",
+    "libevdev-dev": "libevdev",
+    "autoconf": "autoconf",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libdbus-1-dev": "dbus",
+    "gtk-doc-tools": "gtk-doc",
+    "libxml2-dev": "libxml2"
+  }
+}

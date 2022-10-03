@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "iptraf-ng",
+  "nix_pkg": null,
+  "control_file_hash": "a7c06415d66b8d852f33860bc92f43240e1eeb2f8e2c13a608325b78b70cd9fa",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-utils",
+    "libncurses5-dev",
+    "libncursesw5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libncursesw5-dev": "ncurses"
+  }
+}

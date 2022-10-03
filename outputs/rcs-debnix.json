@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "rcs",
+  "nix_pkg": null,
+  "control_file_hash": "0f2eecb613cd3106f3a72b42d7f25d9a83648a33ca451843cc6fa282b1859723",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "ed",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "lzip"
+  ],
+  "map": {}
+}

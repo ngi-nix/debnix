@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "sqlitebrowser",
+  "nix_pkg": null,
+  "control_file_hash": "ad1e8420241a68c0d336a1868dd44220705ae83fbffaef775b8190c2bf5fa882",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libantlr-dev",
+    "libqt5scintilla2-dev",
+    "libsqlite3-dev",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qttools",
+    "sqlcipher"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools"
+  }
+}

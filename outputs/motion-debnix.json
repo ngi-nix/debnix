@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "motion",
+  "nix_pkg": null,
+  "control_file_hash": "798ce39610373e3ed54287d484cd070311212510b01a7b508662269bf6a0723a",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "default-mysql-client",
+    "dpkg-dev",
+    "ffmpeg",
+    "libavcodec-dev",
+    "libavdevice-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libjpeg-dev",
+    "libmicrohttpd-dev",
+    "libpq-dev",
+    "libsdl1.2-dev",
+    "libsqlite3-dev",
+    "libswscale-dev",
+    "libv4l-dev",
+    "lsb-base",
+    "postgresql-client",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "libjpeg-turbo",
+    "libmicrohttpd",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libavformat-dev": "ffmpeg",
+    "libjpeg-dev": "libjpeg-turbo",
+    "ffmpeg": "ffmpeg",
+    "libmicrohttpd-dev": "libmicrohttpd",
+    "libavdevice-dev": "ffmpeg",
+    "libavfilter-dev": "ffmpeg",
+    "libavutil-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg",
+    "libswscale-dev": "ffmpeg"
+  }
+}

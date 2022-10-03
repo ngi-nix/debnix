@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "zam-plugins",
+  "nix_pkg": null,
+  "control_file_hash": "c3ffce457987c6062a9f99d518df8b62e974dd7584d85d12e30c9c8ee0e21b06",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ladspa-sdk",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libsamplerate0-dev",
+    "libzita-convolver-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "fftw-single",
+    "ladspa.h",
+    "libGL",
+    "libX11",
+    "libjack2",
+    "liblo",
+    "libsamplerate",
+    "libsndfile",
+    "lv2",
+    "pkg-config-wrapper",
+    "rubberband"
+  ],
+  "map": {
+    "libsamplerate0-dev": "libsamplerate",
+    "libgl-dev": "libGL",
+    "liblo-dev": "liblo"
+  }
+}

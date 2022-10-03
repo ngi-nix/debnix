@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libxslt1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "64ee0a51da6208812af92bad706ccb86d33e347edf935c118efb42e2925763fb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-xsl",
+    "libgcrypt20-dev",
+    "libxml2-dev",
+    "libxslt1.1",
+    "perl:any",
+    "pkg-config",
+    "rename"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "ncurses",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2"
+  }
+}

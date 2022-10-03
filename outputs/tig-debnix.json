@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "tig",
+  "nix_pkg": null,
+  "control_file_hash": "ce5b3e6e9302eaef81a5fd648e8142d9872261fae1fed8613d3a313fa50b0e1f",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper",
+    "docbook-utils",
+    "dpkg-dev",
+    "git",
+    "git-core",
+    "libncursesw5-dev",
+    "libpcre2-dev",
+    "libreadline-dev",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "git",
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline",
+    "xmlto"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "xmlto": "xmlto",
+    "git-core": "git",
+    "libncursesw5-dev": "ncurses",
+    "git": "git",
+    "libreadline-dev": "readline"
+  }
+}

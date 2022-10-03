@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "prosody",
+  "nix_pkg": null,
+  "control_file_hash": "ce74bcdcbb7c65f643c134597f02c0ef53c21aa4f2133feec202893a01aec209",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libicu-dev",
+    "libidn11-dev",
+    "liblua5.2-dev",
+    "libssl-dev",
+    "lsb-base",
+    "lua-busted",
+    "lua-dbi-mysql",
+    "lua-dbi-postgresql",
+    "lua-dbi-sqlite3",
+    "lua-expat",
+    "lua-filesystem",
+    "lua-zlib",
+    "lua5.2",
+    "lua5.2-bitop",
+    "lua5.2-event",
+    "lua5.2-expat",
+    "lua5.2-filesystem",
+    "lua5.2-readline",
+    "lua5.2-sec",
+    "lua5.2-socket",
+    "lua5.2-unbound",
+    "openssl",
+    "ssl-cert",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "libidn",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "openssl": "openssl",
+    "libidn11-dev": "libidn"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "lxappearance",
+  "nix_pkg": null,
+  "control_file_hash": "aca2cb0dd4446b0868251e6c5982a080fa9b13ae40aa494f218cf22a8d53c1e5",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "gtk2-engines",
+    "intltool",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libx11-dev",
+    "lxappearance",
+    "lxde-settings-daemon",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "intltool",
+    "libX11",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libx11-dev": "libX11"
+  }
+}

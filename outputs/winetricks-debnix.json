@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "winetricks",
+  "nix_pkg": null,
+  "control_file_hash": "eab3b4434af1d00f1ed433c51334ca54c391b57cba01ff9711aeaeaafc7c81b2",
+  "deb_inputs": [
+    "archivemount",
+    "aria2",
+    "binutils",
+    "cabextract",
+    "curl",
+    "debhelper-compat",
+    "fuseiso",
+    "kde-cli-tools",
+    "kdialog",
+    "p7zip-full",
+    "policykit-1",
+    "sudo",
+    "tor",
+    "unrar",
+    "unrar-free",
+    "unzip",
+    "wget",
+    "wine",
+    "x11-utils",
+    "xdg-utils",
+    "xz-utils",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "perl",
+    "which"
+  ],
+  "map": {}
+}

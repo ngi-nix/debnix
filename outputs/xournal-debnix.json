@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "xournal",
+  "nix_pkg": null,
+  "control_file_hash": "bd460c2f7a11f1f92aea751b23b445ad51761275ae32f2782a386154ecacdb2d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript-x",
+    "libgnomecanvas2-dev",
+    "libgtk2.0-dev",
+    "libpoppler-glib-dev"
+  ],
+  "nix_inputs": [
+    "atk",
+    "autoconf",
+    "automake",
+    "fontconfig",
+    "freetype",
+    "ghostscript-with-X",
+    "glib",
+    "gtk+",
+    "libX11",
+    "libgnomecanvas",
+    "libgnomeprint",
+    "libgnomeprintui",
+    "libtool",
+    "pango",
+    "pkg-config-wrapper",
+    "poppler-glib",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "libgnomecanvas2-dev": "libgnomecanvas",
+    "libgtk2.0-dev": "gtk+"
+  }
+}
