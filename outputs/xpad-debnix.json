@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "xpad",
+  "nix_pkg": null,
+  "control_file_hash": "0313e0003525e3e34a5fca4ba93e6d83e6cd21501297b145f2f59028f85426cb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext-base",
+    "libayatana-appindicator3-dev",
+    "libgl1-mesa-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgtksourceview-4-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+3",
+    "gtksourceview",
+    "intltool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtksourceview-4-dev": "gtksourceview",
+    "libglib2.0-dev": "glib"
+  }
+}

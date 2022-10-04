@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bcrelay",
+  "nix_pkg": null,
+  "control_file_hash": "68780d7ea36f18e23dcae970d70a286309985447b995993c702824856e87ece9",
+  "deb_inputs": [
+    "bcrelay",
+    "debhelper-compat",
+    "libwrap0-dev",
+    "lsb-base",
+    "netbase",
+    "ppp-dev"
+  ],
+  "nix_inputs": [
+    "ppp"
+  ],
+  "map": {
+    "ppp-dev": "ppp"
+  }
+}

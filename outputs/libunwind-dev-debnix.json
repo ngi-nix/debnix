@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libunwind-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b528fda19523e0ae6d9fdc61d054ee574d87d4f648e4a0275350ed7c941a95ac",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblzma-dev",
+    "libunwind-dev",
+    "libunwind-setjmp0",
+    "libunwind8",
+    "texlive-extra-utils"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}

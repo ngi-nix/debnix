@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libcaca-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bd3455872f993763a78f30d2c9e428ff18db112c5a227903cd12a61b0e399a4e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen-latex",
+    "freeglut3-dev",
+    "libcaca0",
+    "libimlib2-dev",
+    "libncurses-dev",
+    "libslang2-dev",
+    "libx11-dev",
+    "pkg-config",
+    "texlive-fonts-recommended",
+    "toilet"
+  ],
+  "nix_inputs": [
+    "imlib2",
+    "libX11",
+    "libXext",
+    "ncurses",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libx11-dev": "libX11",
+    "libimlib2-dev": "imlib2"
+  }
+}

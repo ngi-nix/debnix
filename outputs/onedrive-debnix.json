@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "onedrive",
+  "nix_pkg": null,
+  "control_file_hash": "a1507ea24e13b2e18eb66fe132bba697f27299e458fb2f3682957d1d32919f22",
+  "deb_inputs": [
+    "bash-completion",
+    "chrpath",
+    "debhelper-compat",
+    "init-system-helpers",
+    "ldc",
+    "libcurl4-openssl-dev",
+    "libnotify-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "curl",
+    "ldc",
+    "libnotify",
+    "pkg-config-wrapper",
+    "sqlite",
+    "systemd"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "systemd": "systemd",
+    "libnotify-dev": "libnotify",
+    "ldc": "ldc",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

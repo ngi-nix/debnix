@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "most",
+  "nix_pkg": null,
+  "control_file_hash": "f810309d2c2d4f0301f4de3d5e55ccaaf0b095fe6fdfe0bc975570aef629c798",
+  "deb_inputs": [
+    "autotools-dev",
+    "chrpath",
+    "debhelper",
+    "libslang2-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "slang"
+  ],
+  "map": {
+    "libslang2-dev": "slang"
+  }
+}

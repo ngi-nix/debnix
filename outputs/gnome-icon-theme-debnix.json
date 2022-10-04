@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "gnome-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "d46d241a5f08194382eeecfebf24c6e3ac23c2f9a3af050c0514f7ed9b019dac",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnome-pkg-tools",
+    "gtk-update-icon-cache",
+    "hicolor-icon-theme",
+    "librsvg2-common"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "icon-naming-utils",
+    "intltool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gtk-update-icon-cache": "gtk+"
+  }
+}

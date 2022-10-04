@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libevent-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1a768c242427dd7b844ec59c3882978f9ff3c0f78df89424d3553847bc7c19df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libevent-2.1-7",
+    "libevent-core-2.1-7",
+    "libevent-extra-2.1-7",
+    "libevent-openssl-2.1-7",
+    "libevent-pthreads-2.1-7",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["appstream", "debhelper-compat", "dh-sequence-python3", "gir1.2-appindicator3-0.1", "gir1.2-ayatanaappindicator3-0.1", "gir1.2-glib-2.0", "gir1.2-gtk-3.0", "gir1.2-notify-0.7", "gir1.2-rsvg-2.0", "libgtk-3-0", "nemo-python", "python3-all", "python3-bcrypt", "python3-caja", "python3-dateutil", "python3-gi", "python3-gi-cairo", "python3-nautilus", "syncthing"], or 
+output: 
+[] is empty!

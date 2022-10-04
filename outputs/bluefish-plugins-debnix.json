@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "bluefish-plugins",
+  "nix_pkg": null,
+  "control_file_hash": "74ff559f1e56908faa012fffa339b00227c9b74f51402f5788e5c6cfde9785c9",
+  "deb_inputs": [
+    "bluefish-data",
+    "bluefish-plugins",
+    "csstidy",
+    "debhelper-compat",
+    "dh-python",
+    "dos2unix",
+    "gettext",
+    "gvfs-backends",
+    "intltool",
+    "libenchant-2-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgucharmap-2-90-dev",
+    "libpango1.0-dev",
+    "libtool",
+    "libxml2-dev",
+    "libxml2-utils",
+    "php-codesniffer",
+    "pylint",
+    "python3",
+    "python3-dev",
+    "tidy",
+    "weblint",
+    "weblint-perl",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "enchant",
+    "gtk+3",
+    "gucharmap",
+    "intltool",
+    "libxml2",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "libenchant-2-dev": "enchant",
+    "libxml2-dev": "libxml2",
+    "intltool": "intltool",
+    "libxml2-utils": "libxml2",
+    "libgucharmap-2-90-dev": "gucharmap"
+  }
+}

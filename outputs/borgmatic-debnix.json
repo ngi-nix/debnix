@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "borgmatic",
+  "nix_pkg": null,
+  "control_file_hash": "4002532540ecf53d0f2ae0af0a128e0a0c752accfd8f649076d6b5b146180148",
+  "deb_inputs": [
+    "borgbackup",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "pandoc",
+    "python3-all",
+    "python3-colorama",
+    "python3-flexmock",
+    "python3-jsonschema",
+    "python3-pykwalify",
+    "python3-pytest",
+    "python3-requests",
+    "python3-ruamel.yaml",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "borgbackup",
+    "colorama",
+    "flexmock",
+    "jsonschema",
+    "pytest-cov",
+    "python3",
+    "requests",
+    "ruamel-yaml",
+    "setuptools"
+  ],
+  "map": {
+    "borgbackup": "borgbackup",
+    "python3-requests": "requests",
+    "python3-setuptools": "setuptools"
+  }
+}

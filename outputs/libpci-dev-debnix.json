@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libpci-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e09b07e495b3424928b0c777b16ee8d0293dc611e732c3230b88a6911732e33e",
+  "deb_inputs": [
+    "bzip2",
+    "curl",
+    "debhelper-compat",
+    "libkmod-dev",
+    "libpci3",
+    "libudev-dev",
+    "lynx",
+    "pci.ids",
+    "pkg-config",
+    "wget",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "kmod",
+    "pkg-config-wrapper",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libkmod-dev": "kmod"
+  }
+}

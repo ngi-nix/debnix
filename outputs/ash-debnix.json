@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ash",
+  "nix_pkg": null,
+  "control_file_hash": "0b537f5e4795710fc9f9cb08de28884444b281d0b9c28543b0350e71353b002e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "debianutils",
+    "dpkg",
+    "dpkg-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "libedit"
+  ],
+  "map": {}
+}

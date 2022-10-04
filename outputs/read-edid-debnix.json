@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "read-edid",
+  "nix_pkg": null,
+  "control_file_hash": "d9b27fb7beeaafae9c6bcfd55f624dce9ef2ef2a7b5b3bdbb0d14e16bf5a4523",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libx86-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libx86"
+  ],
+  "map": {
+    "libx86-dev": "libx86",
+    "cmake": "cmake"
+  }
+}

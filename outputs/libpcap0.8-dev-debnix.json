@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libpcap0.8-dev",
+  "nix_pkg": null,
+  "control_file_hash": "78bbeee0eef55358fee22d19e1e091e17a957008bdfdf82b1884d17a7b71a7ed",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libbluetooth-dev",
+    "libc6-dev",
+    "libdbus-1-dev",
+    "libpcap0.8",
+    "libpcap0.8-dev",
+    "linux-libc-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

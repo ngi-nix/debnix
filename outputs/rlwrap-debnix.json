@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "rlwrap",
+  "nix_pkg": null,
+  "control_file_hash": "108c919abc907ab1c40f394463b563613cb8426cbff32223145bd92173a27327",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "perl",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

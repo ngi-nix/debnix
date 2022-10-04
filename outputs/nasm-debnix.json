@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "nasm",
+  "nix_pkg": null,
+  "control_file_hash": "49b8901fdc5a127e7789e5a81826018114cac8fa8a8dc09685118a114ee71d27",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg",
+    "dpkg-dev",
+    "fontconfig",
+    "fonts-liberation2",
+    "ghostscript",
+    "install-info",
+    "libfont-ttf-perl",
+    "libsort-versions-perl",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

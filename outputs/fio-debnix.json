@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "fio",
+  "nix_pkg": null,
+  "control_file_hash": "8d42762e42415e1509662f42ffa3efce90c8ca6871db5a120c94fbda7a523aa7",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dpkg-dev",
+    "fio",
+    "flex",
+    "gfio",
+    "gnuplot",
+    "libaio-dev",
+    "libcairo2-dev",
+    "libglusterfs-dev",
+    "libgtk2.0-dev",
+    "libibverbs-dev",
+    "libnuma-dev",
+    "libpmem-dev",
+    "libpmemblk-dev",
+    "librbd-dev",
+    "librdmacm-dev",
+    "python-scipy",
+    "python3",
+    "python3-sphinx",
+    "sphinx",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libaio",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libaio-dev": "libaio",
+    "zlib1g-dev": "zlib",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "vulkan-tools",
+  "nix_pkg": null,
+  "control_file_hash": "d83cc53992745b48dc0eaeb95990e134d1e387726cad97b7e1b773e5fce2f355",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "glslang-tools",
+    "libvulkan-dev",
+    "libvulkan1",
+    "libwayland-dev",
+    "libx11-dev",
+    "libxcb1-dev",
+    "libxrandr-dev",
+    "pkg-config",
+    "python3",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glslang",
+    "libX11",
+    "libXau",
+    "libXdmcp",
+    "libXrandr",
+    "libffi",
+    "libxcb",
+    "pkg-config-wrapper",
+    "vulkan-headers",
+    "vulkan-loader",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxcb1-dev": "libxcb",
+    "cmake": "cmake",
+    "wayland-protocols": "wayland-protocols",
+    "libwayland-dev": "wayland",
+    "libxrandr-dev": "libXrandr",
+    "glslang-tools": "glslang",
+    "libvulkan-dev": "vulkan-loader",
+    "libvulkan1": "vulkan-loader"
+  }
+}

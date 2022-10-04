@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "git-cola",
+  "nix_pkg": null,
+  "control_file_hash": "af5236aa84fbdec3b1d8bf4d70f2069302cc980c04c304a07d0e275a5be56910",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "git-core",
+    "gitk",
+    "libjs-jquery",
+    "libjs-modernizr",
+    "libjs-underscore",
+    "node-html5shiv",
+    "python3-distutils",
+    "python3-pyinotify",
+    "python3-qtpy",
+    "python3-simplejson",
+    "tclsh",
+    "xxdiff"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "QtPy",
+    "gettext",
+    "git",
+    "pyinotify",
+    "python3",
+    "sip"
+  ],
+  "map": {
+    "git-core": "git",
+    "gitk": "git",
+    "python3-pyinotify": "pyinotify"
+  }
+}

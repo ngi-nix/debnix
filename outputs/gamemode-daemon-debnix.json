@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "gamemode-daemon",
+  "nix_pkg": null,
+  "control_file_hash": "7b34e0ed17753208094b7f0a340cd000a0c720d336564f5e04a805ad13991bb8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gamemode-daemon",
+    "gamemode:any",
+    "gnome-shell-extension-gamemode",
+    "libdbus-1-dev",
+    "libgamemode0",
+    "libgamemode0:i386",
+    "libgamemodeauto0",
+    "libgamemodeauto0:i386",
+    "libinih-dev",
+    "libsystemd-dev",
+    "meson",
+    "ninja-build",
+    "pkg-config",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "appstream",
+    "dbus",
+    "inih",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libinih-dev": "inih",
+    "libdbus-1-dev": "dbus",
+    "libsystemd-dev": "systemd",
+    "meson": "meson",
+    "systemd": "systemd"
+  }
+}

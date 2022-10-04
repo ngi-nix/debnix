@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libtool-bin",
+  "nix_pkg": null,
+  "control_file_hash": "2930acc9ad8abb755782712f338a9793a1485deb44744365734d98bfbef93f7b",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "automaken",
+    "autotools-dev",
+    "c-compiler",
+    "cpp",
+    "debhelper-compat",
+    "file",
+    "fortran95-compiler",
+    "gcc",
+    "gcj-jdk",
+    "gfortran",
+    "gnulib",
+    "help2man",
+    "libc-dev",
+    "libc6-dev",
+    "libltdl-dev",
+    "libltdl7",
+    "libtool",
+    "libtool-doc",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "file",
+    "gnum4",
+    "help2man",
+    "perl"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "automake": "automake",
+    "help2man": "help2man",
+    "file": "file"
+  }
+}

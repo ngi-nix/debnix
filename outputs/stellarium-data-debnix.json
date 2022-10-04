@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "stellarium-data",
+  "nix_pkg": null,
+  "control_file_hash": "cd013a88ac34e751898ec4f2590a61f161c1c497bd09b7a6016e1900c18b275e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "doxygen",
+    "fonts-dejavu-core",
+    "libqt5charts5-dev",
+    "libqt5opengl5-dev",
+    "libqt5serialport5-dev",
+    "mesa-common-dev",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtdeclarative5-dev-tools",
+    "qtmultimedia5-dev",
+    "qtpositioning5-dev",
+    "qtscript5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "stellarium",
+    "stellarium-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freetype",
+    "glu",
+    "libGL",
+    "libpng-apng",
+    "openssl",
+    "perl",
+    "qtbase",
+    "qtcharts",
+    "qtlocation",
+    "qtmultimedia",
+    "qtscript",
+    "qtserialport",
+    "qttools"
+  ],
+  "map": {
+    "qtmultimedia5-dev": "qtmultimedia",
+    "qtscript5-dev": "qtscript",
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

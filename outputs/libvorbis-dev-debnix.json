@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libvorbis-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4784fdc155a43b6ae020f45280819fc153068f9d3bd49b7c8dcab01fc2870952",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libogg-dev",
+    "libvorbis0a",
+    "libvorbisenc2",
+    "libvorbisfile3"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg"
+  }
+}

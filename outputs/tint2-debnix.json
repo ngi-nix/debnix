@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "tint2",
+  "nix_pkg": null,
+  "control_file_hash": "89590e1ea18c86fe4648cc938166a3212549a75b3d14d797925dcc9cde05eff4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libimlib2-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    "libstartup-notification0-dev",
+    "libxcomposite-dev",
+    "libxdamage-dev",
+    "libxinerama-dev",
+    "libxrandr-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "cmake",
+    "gettext",
+    "glib",
+    "gtk+3",
+    "imlib2",
+    "libX11",
+    "libXcomposite",
+    "libXdamage",
+    "libXdmcp",
+    "libXinerama",
+    "libXrandr",
+    "libXrender",
+    "libpthread-stubs",
+    "librsvg",
+    "libstartup-notification",
+    "pango",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libxdamage-dev": "libXdamage",
+    "libimlib2-dev": "imlib2",
+    "libxcomposite-dev": "libXcomposite",
+    "libxrandr-dev": "libXrandr",
+    "libcairo2-dev": "cairo",
+    "libpango1.0-dev": "pango",
+    "cmake": "cmake",
+    "libxinerama-dev": "libXinerama",
+    "librsvg2-dev": "librsvg"
+  }
+}

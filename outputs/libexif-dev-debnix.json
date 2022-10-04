@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libexif-dev",
+  "nix_pkg": null,
+  "control_file_hash": "dcce3e2f759574e72a4e0e77e38c147de684d58e89951d2b7da7c15828a70cdf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libc6-dev",
+    "libexif-doc",
+    "libexif12"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {}
+}

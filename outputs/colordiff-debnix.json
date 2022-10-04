@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "colordiff",
+  "nix_pkg": null,
+  "control_file_hash": "3521c037149ac6e4eeeffb8aa65887437f58e8d0f4ee61b8fdf5e06130c1d5bc",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "perl",
+    "w3m",
+    "xmlto"
+  ],
+  "map": {}
+}

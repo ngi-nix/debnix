@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "pmount",
+  "nix_pkg": null,
+  "control_file_hash": "a8f23d5f05b3db348f9387091f4a8a62f107040069c86fdc56c4ee3092b89196",
+  "deb_inputs": [
+    "cryptsetup",
+    "debhelper-compat",
+    "intltool",
+    "libblkid-dev",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "intltool",
+    "util-linux"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libblkid-dev": "util-linux"
+  }
+}

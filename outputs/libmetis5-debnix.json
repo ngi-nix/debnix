@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libmetis5",
+  "nix_pkg": null,
+  "control_file_hash": "711d34671ef71beea688812c5f877aaaa0b8064f007010c486615ece02e48497",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libmetis5"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "unzip"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

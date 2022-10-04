@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "tpm2-tools",
+  "nix_pkg": null,
+  "control_file_hash": "efccc148deee6b1ece12ec689d278172baf178bfaac106d7ba511bf802bdc0c5",
+  "deb_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "libcurl-ssl-dev",
+    "libcurl4-gnutls-dev",
+    "libssl-dev",
+    "libtool",
+    "libtss2-dev",
+    "pandoc",
+    "pkg-config",
+    "uuid-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "curl",
+    "openssl",
+    "pandoc",
+    "pkg-config-wrapper",
+    "tpm2-tss",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libtss2-dev": "tpm2-tss",
+    "libssl-dev": "openssl",
+    "libcurl4-gnutls-dev": "curl",
+    "pandoc": "pandoc"
+  }
+}
