@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "arc-theme",
+  "nix_pkg": null,
+  "control_file_hash": "f0e280be4df0c0baf44b5b33749abdb590ee2f945598008779b87463ec39cb3d",
+  "deb_inputs": [
+    "cinnamon",
+    "debhelper",
+    "debhelper-compat",
+    "gnome-shell",
+    "gnome-themes-extra",
+    "gtk2-engines-murrine",
+    "gtk2-engines-pixbuf",
+    "inkscape",
+    "libgtk-3-dev",
+    "libgtk-4-dev",
+    "meson",
+    "optipng",
+    "sassc"
+  ],
+  "nix_inputs": [
+    "glib",
+    "inkscape",
+    "meson",
+    "ninja",
+    "python3",
+    "sassc"
+  ],
+  "map": {
+    "meson": "meson",
+    "sassc": "sassc",
+    "inkscape": "inkscape"
+  }
+}

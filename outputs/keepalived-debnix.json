@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "keepalived",
+  "nix_pkg": null,
+  "control_file_hash": "0444b9a907a9763797483889dc19c210469611955535f76e0ae46f12c6cde7c7",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper-compat",
+    "iproute2",
+    "ipvsadm",
+    "libglib2.0-dev",
+    "libip4tc-dev",
+    "libipset-dev",
+    "libjson-c-dev",
+    "libnfnetlink-dev",
+    "libnftnl-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libnl-nf-3-dev",
+    "libpcre2-dev",
+    "libpopt-dev",
+    "libsnmp-dev",
+    "libssl-dev",
+    "libsystemd-dev",
+    "linux-libc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "file",
+    "libmnl",
+    "libnftnl",
+    "libnl",
+    "net-snmp",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnl-nf-3-dev": "libnl",
+    "libnftnl-dev": "libnftnl",
+    "libssl-dev": "openssl",
+    "libnl-genl-3-dev": "libnl",
+    "libsnmp-dev": "net-snmp",
+    "libnl-3-dev": "libnl"
+  }
+}

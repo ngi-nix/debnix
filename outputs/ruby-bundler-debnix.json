@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "ruby-bundler",
+  "nix_pkg": null,
+  "control_file_hash": "1f650049bede7f4ccfefe3f0fbd1e162f0f9262ee68ae78d3f32056a84d8aa5e",
+  "deb_inputs": [
+    "build-essential",
+    "debhelper-compat",
+    "gem2deb",
+    "less",
+    "rake",
+    "ruby",
+    "ruby-bundler",
+    "ruby-dev",
+    "ruby-rubygems",
+    "ruby-test-unit",
+    "ruby-webrick",
+    "ruby:any",
+    "rubygems-integration",
+    "sudo"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {
+    "ruby": "ruby"
+  }
+}

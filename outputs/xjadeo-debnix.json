@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "xjadeo",
+  "nix_pkg": null,
+  "control_file_hash": "8d4953357b73cee6d4df655edc91b099076318393b17781d6c96f1ca93786b49",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libfreetype6-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libimlib2-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "libltc-dev",
+    "libportmidi-dev",
+    "libsdl1.2-dev",
+    "libswscale-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libxv-dev",
+    "mencoder"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "freetype",
+    "glu",
+    "libX11",
+    "libXext",
+    "libXpm",
+    "libXv",
+    "libjack2",
+    "liblo",
+    "pkg-config-wrapper",
+    "portmidi"
+  ],
+  "map": {
+    "libavutil-dev": "ffmpeg",
+    "libxv-dev": "libXv",
+    "libglu1-mesa-dev": "glu",
+    "libswscale-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg",
+    "libx11-dev": "libX11",
+    "libavformat-dev": "ffmpeg",
+    "liblo-dev": "liblo",
+    "libfreetype6-dev": "freetype",
+    "libportmidi-dev": "portmidi",
+    "libglu-dev": "glu",
+    "libxpm-dev": "libXpm"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "toilet",
+  "nix_pkg": null,
+  "control_file_hash": "9f4d377fe06f2feccb7bbb3840c29fc9af2269d8b0acae6e6063d7af2b258f77",
+  "deb_inputs": [
+    "debhelper-compat",
+    "figlet",
+    "libcaca-dev",
+    "pkg-config",
+    "toilet",
+    "toilet-fonts",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libcaca",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcaca-dev": "libcaca"
+  }
+}

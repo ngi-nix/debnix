@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "arping",
+  "nix_pkg": null,
+  "control_file_hash": "b911e3d02c478adb6385b59cf13aecb708447cbec845e7abcde2f48c4904eb3c",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "libnet1-dev",
+    "libpcap-dev",
+    "libseccomp-dev"
+  ],
+  "nix_inputs": [
+    "libnet",
+    "libpcap"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap",
+    "libnet1-dev": "libnet"
+  }
+}

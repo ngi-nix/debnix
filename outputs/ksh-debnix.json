@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ksh",
+  "nix_pkg": null,
+  "control_file_hash": "bd3f553d7daae3ce15d8c6d0790d12aff55f843875db62eca42d8a6f43473175",
+  "deb_inputs": [
+    "binfmt-support",
+    "debhelper-compat",
+    "dh-exec"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "python3",
+    "which"
+  ],
+  "map": {}
+}

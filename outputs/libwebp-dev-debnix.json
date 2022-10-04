@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libwebp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "62790e12be50c120ea058df8c6ba0f4ab6062bb3df0646bd20f39f5ac2bbf60f",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "debhelper",
+    "freeglut3-dev",
+    "libgif-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libtiff4-dev",
+    "libtool",
+    "libwebp7",
+    "libwebpdemux2",
+    "libwebpmux3"
+  ],
+  "nix_inputs": [
+    "giflib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "libtool"
+  ],
+  "map": {
+    "libtool": "libtool",
+    "libtiff4-dev": "libtiff",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libgif-dev": "giflib",
+    "libtiff-dev": "libtiff"
+  }
+}

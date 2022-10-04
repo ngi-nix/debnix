@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "tilix",
+  "nix_pkg": null,
+  "control_file_hash": "08444b5b7e1b85c6a2d9c185fea0266f81e86aa7d755b6023a7737ff8dd2a06f",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "dh-dlang",
+    "gnome-pkg-tools",
+    "libgtkd-3-dev",
+    "librsvg2-dev",
+    "libsecret-1-dev",
+    "libunwind-dev",
+    "libvted-3-dev",
+    "meson",
+    "po4a",
+    "python3-nautilus",
+    "tilix-common"
+  ],
+  "nix_inputs": [
+    "appstream",
+    "dbus",
+    "dconf",
+    "desktop-file-utils",
+    "gettext",
+    "gsettings-desktop-schemas",
+    "gtkd",
+    "ldc",
+    "libsecret",
+    "libunwind",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libgtkd-3-dev": "gtkd",
+    "meson": "meson",
+    "appstream": "appstream",
+    "libsecret-1-dev": "libsecret",
+    "libvted-3-dev": "gtkd",
+    "libunwind-dev": "libunwind"
+  }
+}

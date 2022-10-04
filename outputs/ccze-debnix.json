@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ccze",
+  "nix_pkg": null,
+  "control_file_hash": "76035c32ed8697a76dae1e57abedca89e930b79af4f524f475a50da40e392bb0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libpcre3-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "ncurses",
+    "pcre"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "libncurses5-dev": "ncurses"
+  }
+}

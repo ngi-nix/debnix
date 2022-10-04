@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "pure-ftpd",
+  "nix_pkg": null,
+  "control_file_hash": "d4dd85444b16de71a6a6c4964c5e20042f125eceeeee284a2f1bf5cc4c420d47",
+  "deb_inputs": [
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "default-libmysqlclient-dev",
+    "inet-superserver",
+    "libcap2-dev",
+    "libldap2-dev",
+    "libpam-dev",
+    "libpam-modules",
+    "libpq-dev",
+    "libsodium-dev",
+    "libssl-dev",
+    "lsb-base",
+    "openbsd-inetd",
+    "openssl",
+    "perl",
+    "po-debconf",
+    "pure-ftpd",
+    "pure-ftpd-common"
+  ],
+  "nix_inputs": [
+    "linux-pam",
+    "openssl"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "libssl-dev": "openssl"
+  }
+}

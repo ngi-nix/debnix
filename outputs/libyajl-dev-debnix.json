@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libyajl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b0d32ee34b43836f85560c9e79c5cae70f3b204db5066ff059221610472cbbf7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "doxygen",
+    "libyajl2"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

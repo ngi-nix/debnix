@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "lsp-plugins-lv2",
+  "nix_pkg": null,
+  "control_file_hash": "25fd0d9d6709646e520a9a857b0d97df6c823f8628241e3a354d1f4254e8c5aa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dgedit",
+    "ladspa-sdk",
+    "libcairo2-dev",
+    "libexpat1-dev",
+    "libgl1-mesa-dev",
+    "libglu1-mesa-dev",
+    "libjack-jackd2-dev",
+    "libsndfile1-dev",
+    "lsp-plugins-jack",
+    "lsp-plugins-ladspa",
+    "lsp-plugins-lv2",
+    "lsp-plugins-r3d-glx",
+    "lsp-plugins-vst",
+    "lv2-dev",
+    "php-cli"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "glu",
+    "jack2",
+    "ladspa.h",
+    "libGL",
+    "libXrandr",
+    "libsndfile",
+    "lv2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglu1-mesa-dev": "glu",
+    "libgl1-mesa-dev": "libGL",
+    "libcairo2-dev": "cairo",
+    "libsndfile1-dev": "libsndfile",
+    "lv2-dev": "lv2"
+  }
+}

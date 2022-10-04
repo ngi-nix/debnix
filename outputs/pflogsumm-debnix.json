@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "pflogsumm",
+  "nix_pkg": null,
+  "control_file_hash": "04fd67fa2e3655e6c568ba428784d6f29bbae32c761faaefac7bee35c7128d8e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdate-calc-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "Date-Calc",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

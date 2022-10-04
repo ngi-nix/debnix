@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "kwayland-integration",
+  "nix_pkg": null,
+  "control_file_hash": "631b746026204a58086618436cad55ba10a7aa194d41e6a7b6e9834cdd219b8e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libkf5idletime-dev",
+    "libkf5wayland-dev",
+    "libkf5windowsystem-dev",
+    "libqt5waylandclient5-dev",
+    "libwayland-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qtwayland5-dev-tools",
+    "qtwayland5-private-dev",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kguiaddons",
+    "kidletime",
+    "kwayland",
+    "kwindowsystem",
+    "qtbase",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5windowsystem-dev": "kwindowsystem",
+    "libwayland-dev": "wayland",
+    "libkf5wayland-dev": "kwayland",
+    "qtbase5-dev": "qtbase",
+    "wayland-protocols": "wayland-protocols",
+    "libkf5idletime-dev": "kidletime"
+  }
+}

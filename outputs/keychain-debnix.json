@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "keychain",
+  "nix_pkg": null,
+  "control_file_hash": "577eab7f074b53dc29246b32a9674ac7e57bb5cb91cc003c3cb8e50fcce57337",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnupg-agent",
+    "openssh-client",
+    "ssh-askpass",
+    "ssh-client"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

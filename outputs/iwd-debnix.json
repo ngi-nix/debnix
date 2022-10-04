@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "iwd",
+  "nix_pkg": null,
+  "control_file_hash": "8b16fcd6aa3106b7a2e4bb5d10b858e29f69b86602378060db11182f5d164eaa",
+  "deb_inputs": [
+    "dbus",
+    "dbus-system-bus",
+    "debhelper-compat",
+    "libdbus-1-dev",
+    "libell-dev",
+    "libreadline-dev",
+    "openssl",
+    "python3-docutils",
+    "systemd",
+    "wireless-regdb"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "ell",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "readline"
+  ],
+  "map": {
+    "libell-dev": "ell",
+    "openssl": "openssl",
+    "libreadline-dev": "readline"
+  }
+}

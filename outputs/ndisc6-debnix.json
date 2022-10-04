@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ndisc6",
+  "nix_pkg": null,
+  "control_file_hash": "1bd606bb7e42e02c6f4304d172d62387e5bb3889a6c7eb32142ad4ce6e904ce4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "lsb-base",
+    "ndisc6",
+    "resolvconf"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

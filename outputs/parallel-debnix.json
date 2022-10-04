@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "parallel",
+  "nix_pkg": null,
+  "control_file_hash": "9fc3d3e7ba12787b2fe5232f7ebb1e8ac159e160540c538cdab346affde03a57",
+  "deb_inputs": [
+    "ash",
+    "autoconf",
+    "csh",
+    "debhelper-compat",
+    "fish",
+    "ksh",
+    "libpod-pom-view-restructured-perl",
+    "libreoffice-writer",
+    "perl",
+    "pod2pdf",
+    "procps",
+    "sysstat",
+    "tcsh",
+    "texinfo",
+    "zsh"
+  ],
+  "nix_inputs": [
+    "perl",
+    "procps"
+  ],
+  "map": {
+    "perl": "perl",
+    "procps": "procps"
+  }
+}

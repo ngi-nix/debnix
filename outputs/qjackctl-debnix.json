@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "qjackctl",
+  "nix_pkg": null,
+  "control_file_hash": "1b90d0fb18b32e0276c8ddb5301243c85a3b7fcef38e85866572028b3e61b65b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "jackd",
+    "libasound2-dev",
+    "libjack-dev",
+    "libqt5x11extras5-dev",
+    "libx11-dev",
+    "pulseaudio-utils",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "dbus",
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libasound2-dev": "alsa-lib",
+    "qttools5-dev": "qttools",
+    "cmake": "cmake"
+  }
+}

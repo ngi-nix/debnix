@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "tinc",
+  "nix_pkg": null,
+  "control_file_hash": "6e6f3e241312b85c86388eda304216a14eb0477cc2a4242d496e306a115cbe2d",
+  "deb_inputs": [
+    "debhelper",
+    "liblzo2-dev",
+    "libminiupnpc-dev",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "lzo",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "liblzo2-dev": "lzo",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

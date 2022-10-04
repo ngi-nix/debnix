@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "shellcheck",
+  "nix_pkg": null,
+  "control_file_hash": "767c8e42156873ac6f20ab06f752e03febecd21642a629e18e341663c451da97",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "ghc",
+    "ghc-prof",
+    "haskell-devscripts",
+    "libghc-aeson-dev",
+    "libghc-diff-dev",
+    "libghc-diff-prof",
+    "libghc-quickcheck2-dev",
+    "libghc-regex-tdfa-dev",
+    "libghc-regex-tdfa-prof",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "pandoc"
+  ],
+  "map": {
+    "pandoc": "pandoc"
+  }
+}

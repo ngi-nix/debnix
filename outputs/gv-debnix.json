@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "gv",
+  "nix_pkg": null,
+  "control_file_hash": "8fc370c0b595a25530ace6efa873a92925fb6db60e0b9ed3afd6bd2adf9af207",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "ghostscript-x",
+    "libx11-dev",
+    "libxinerama-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "xaw3dg-dev"
+  ],
+  "nix_inputs": [
+    "Xaw3d",
+    "ghostscript-with-X",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "xaw3dg-dev": "Xaw3d"
+  }
+}

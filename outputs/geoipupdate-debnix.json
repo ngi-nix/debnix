@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "geoipupdate",
+  "nix_pkg": null,
+  "control_file_hash": "8aaac705afdf9e7949597a0113c29b2bc27bb190571c6edea085788047b7f2fe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "mmdb-bin"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

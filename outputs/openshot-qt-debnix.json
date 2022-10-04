@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "openshot-qt",
+  "nix_pkg": null,
+  "control_file_hash": "6d946d72c20a3d791c23cb3a4534435e6d3aa58a231382c12d207c066f33b9d0",
+  "deb_inputs": [
+    "blender",
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-sphinxdoc",
+    "fonts-cantarell",
+    "inkscape",
+    "libjs-jquery",
+    "libjs-jquery-ui",
+    "libjs-underscore",
+    "openshot-qt-doc",
+    "python3",
+    "python3-openshot",
+    "python3-pkg-resources",
+    "python3-pyqt5",
+    "python3-pyqt5.qtsvg",
+    "python3-pyqt5.qtwebkit",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-zmq"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "doxygen",
+    "gtk+3",
+    "httplib2",
+    "libopenshot",
+    "python3",
+    "pyzmq",
+    "requests",
+    "sip"
+  ],
+  "map": {
+    "python3-pyqt5": "PyQt5",
+    "python3-requests": "requests",
+    "python3-pyqt5.qtsvg": "PyQt5",
+    "python3": "python3",
+    "python3-zmq": "pyzmq",
+    "python3-pyqt5.qtwebkit": "PyQt5",
+    "python3-openshot": "libopenshot"
+  }
+}

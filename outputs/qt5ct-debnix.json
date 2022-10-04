@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "qt5ct",
+  "nix_pkg": null,
+  "control_file_hash": "d5409dea4f1e605ffe8ef4abaca59fe7a66e8d1bdb29b42bf146eb42b1eed565",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libegl1-mesa-dev",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libglib2.0-dev",
+    "libmtdev-dev",
+    "libqt5svg5",
+    "libxrender-dev",
+    "qt5-style-plugins",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "qtbase",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "qtbase5-dev": "qtbase"
+  }
+}

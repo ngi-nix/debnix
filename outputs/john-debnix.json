@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "john",
+  "nix_pkg": null,
+  "control_file_hash": "2ea8aaa1c2a5579810fa7dcb51b71987d006dfb94bb55c0c3509210574f777c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "john-data",
+    "wordlist"
+  ],
+  "nix_inputs": [
+    "Compress-Raw-Lzma",
+    "Digest-MD4",
+    "Digest-SHA1",
+    "Getopt-Long",
+    "dpkt",
+    "gcc-wrapper",
+    "gmp-with-cxx",
+    "libkrb5",
+    "libpcap",
+    "lxml",
+    "nspr",
+    "nss",
+    "openssl",
+    "perl",
+    "perl-ldap",
+    "re2",
+    "scapy",
+    "zlib"
+  ],
+  "map": {}
+}

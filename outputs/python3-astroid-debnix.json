@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "python3-astroid",
+  "nix_pkg": null,
+  "control_file_hash": "35b7f52c3b79be5c44bf0ea08adc331a195cb661bcf1d3a1254f8efc85f1460d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-lazy-object-proxy",
+    "python3-pytest",
+    "python3-pytest-runner",
+    "python3-setuptools",
+    "python3-six",
+    "python3-typing-extensions",
+    "python3-wrapt"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "boost",
+    "cmake",
+    "glib-networking",
+    "gmime",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "gtkmm",
+    "libpeas",
+    "libsass",
+    "notmuch",
+    "pkg-config-wrapper",
+    "protobuf",
+    "python3",
+    "ronn",
+    "vim_configurable",
+    "webkitgtk"
+  ],
+  "map": {}
+}

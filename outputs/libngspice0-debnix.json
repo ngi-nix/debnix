@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libngspice0",
+  "nix_pkg": null,
+  "control_file_hash": "404b23d39d87dd3840cee581134e2ac54d4df26a8212f1ccf82bf22ca8d3d936",
+  "deb_inputs": [
+    "automake",
+    "bison",
+    "blt",
+    "blt-dev",
+    "debhelper-compat",
+    "dpkg",
+    "flex",
+    "gfortran",
+    "install-info",
+    "libedit-dev",
+    "libncurses5-dev",
+    "libngspice0",
+    "libtool",
+    "libxaw7-dev",
+    "ngspice",
+    "ngspice-doc",
+    "tcl8.6",
+    "tcl8.6-dev",
+    "tclspice",
+    "texinfo",
+    "tk8.6",
+    "tk8.6-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "fftw-double",
+    "flex",
+    "libICE",
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXmu",
+    "libXt",
+    "readline"
+  ],
+  "map": {
+    "libxaw7-dev": "libXaw",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

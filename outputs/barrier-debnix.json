@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "barrier",
+  "nix_pkg": null,
+  "control_file_hash": "77a1eb5cbca2edc991d58a9f1075c43733dd6fc142723aa58fbc6f74f024bae5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libavahi-compat-libdnssd-dev",
+    "libcurl-dev",
+    "libcurl4-openssl-dev",
+    "libgmock-dev",
+    "libgtest-dev",
+    "libice-dev",
+    "libsm-dev",
+    "libssl-dev",
+    "libxi-dev",
+    "libxinerama-dev",
+    "libxrandr-dev",
+    "libxtst-dev",
+    "openssl",
+    "qtbase5-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "avahi-compat",
+    "cmake",
+    "curl",
+    "libX11",
+    "libXext",
+    "libXtst",
+    "qtbase"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "libcurl-dev": "curl",
+    "libcurl4-openssl-dev": "curl",
+    "libxtst-dev": "libXtst"
+  }
+}

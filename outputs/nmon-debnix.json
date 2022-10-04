@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "nmon",
+  "nix_pkg": null,
+  "control_file_hash": "7ac279e4575f31464d37e1ba7dc75de76621433919a160d97630618e72adeae2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fdisk",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

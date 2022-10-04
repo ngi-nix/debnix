@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "telepathy-haze",
+  "nix_pkg": null,
+  "control_file_hash": "85db0eae0e2e06afc48c0c97a98024122c3b8671ad5b6e5a663e432fd992dd08",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libpurple-dev",
+    "libtelepathy-glib-dev",
+    "pkg-config",
+    "python2",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "glib",
+    "libxslt",
+    "pidgin",
+    "pkg-config-wrapper",
+    "python",
+    "telepathy-glib"
+  ],
+  "map": {
+    "libpurple-dev": "pidgin",
+    "libtelepathy-glib-dev": "telepathy-glib",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libglib2.0-dev": "glib",
+    "xsltproc": "libxslt",
+    "python2": "python"
+  }
+}

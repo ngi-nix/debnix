@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "dstat",
+  "nix_pkg": null,
+  "control_file_hash": "bcc19382fa9754ea02648f0646b9f5100297023be315983ddcd350d62e75a6f6",
+  "deb_inputs": [
+    "debhelper",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "python3",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six"
+  }
+}

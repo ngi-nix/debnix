@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gist",
+  "nix_pkg": null,
+  "control_file_hash": "37068598bb7e0ea7e8a56e09323f90d73e587a5383ecea63a531988ecb9c0a66",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gem2deb",
+    "locales",
+    "rake",
+    "ruby-json",
+    "ruby-rspec",
+    "ruby-webmock",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {}
+}

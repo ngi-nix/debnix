@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "zim",
+  "nix_pkg": null,
+  "control_file_hash": "e6f8e1e8c4a5867e269c4811c14e09654243147b7027700f48bb47fa347f8d81",
+  "deb_inputs": [
+    "bzr",
+    "debhelper-compat",
+    "dh-python",
+    "ditaa",
+    "dvipng",
+    "fossil",
+    "gir1.2-gtk-3.0",
+    "gir1.2-gtksource-3.0",
+    "gir1.2-gtkspell3-3.0",
+    "git",
+    "gnuplot",
+    "graphviz",
+    "lilypond",
+    "mercurial",
+    "python3",
+    "python3-gi",
+    "python3-xdg",
+    "python3-zeitgeist",
+    "r-base",
+    "scrot",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "gobject-introspection",
+    "gtk+3",
+    "pygobject",
+    "python3",
+    "pyxdg"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-gi": "pygobject",
+    "python3-xdg": "pyxdg"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "unpaper",
+  "nix_pkg": null,
+  "control_file_hash": "e66e0c30cd6d170f7dbf87130f9b9544276601954a40e345dbc595e1987e48bf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "discount",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "meson",
+    "pkg-config",
+    "sphinx"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "sphinx"
+  ],
+  "map": {
+    "libavutil-dev": "ffmpeg",
+    "meson": "meson",
+    "sphinx": "sphinx",
+    "libavcodec-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg"
+  }
+}

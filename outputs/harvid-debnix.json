@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "harvid",
+  "nix_pkg": null,
+  "control_file_hash": "4ce280f2e4eeb0ba28635cc237d271ea0726d7b7775db7d13bfea4cc51495ee7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libswscale-dev",
+    "pkg-config",
+    "xxd"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libavformat-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg",
+    "libswscale-dev": "ffmpeg"
+  }
+}

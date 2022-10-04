@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "nettle-dev",
+  "nix_pkg": null,
+  "control_file_hash": "55184cc21303acb917cc917c6d8bd7c80adbb80f2d0d7e62d98f96fd879f28ad",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libgmp-dev",
+    "libhogweed6",
+    "libnettle8",
+    "lsh-doc",
+    "m4",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "gnum4"
+  ],
+  "map": {}
+}

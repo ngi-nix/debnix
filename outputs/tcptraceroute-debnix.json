@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "tcptraceroute",
+  "nix_pkg": null,
+  "control_file_hash": "2f3a4daf5ab5fcc6e958b475cc46de12becf8bbbe13598a4f127b4f0b28f4f46",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnet1-dev",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libnet",
+    "libpcap"
+  ],
+  "map": {
+    "libnet1-dev": "libnet",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

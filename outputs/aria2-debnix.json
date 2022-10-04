@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "aria2",
+  "nix_pkg": null,
+  "control_file_hash": "c2c19b620df8da294f0e70eaa54c81a5f079742f301f29d8b6dc0c2cd428c73d",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libaria2-0",
+    "libc-ares-dev",
+    "libgcrypt-dev",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "libsqlite3-dev",
+    "libssh2-1-dev",
+    "libxml2-dev",
+    "libz-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "c-ares",
+    "libssh2",
+    "libxml2",
+    "openssl",
+    "pkg-config-wrapper",
+    "sphinx",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libc-ares-dev": "c-ares",
+    "zlib1g-dev": "zlib",
+    "libssh2-1-dev": "libssh2",
+    "libxml2-dev": "libxml2"
+  }
+}

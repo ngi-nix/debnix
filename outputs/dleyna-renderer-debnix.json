@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "dleyna-renderer",
+  "nix_pkg": null,
+  "control_file_hash": "94edcd702e8a9ede722f70f5b33ecb840fb56ac8589b283e1a00de8edd0c4554",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdleyna-connector-dbus-1.0-1",
+    "libdleyna-core-1.0-dev",
+    "libglib2.0-dev",
+    "libgssdp-1.2-dev",
+    "libgupnp-1.2-dev",
+    "libgupnp-av-1.0-dev",
+    "libgupnp-dlna-2.0-dev",
+    "libsoup2.4-dev"
+  ],
+  "nix_inputs": [
+    "dleyna-connector-dbus",
+    "dleyna-core",
+    "docbook-xsl-nons",
+    "gssdp",
+    "gupnp",
+    "gupnp-av",
+    "gupnp-dlna",
+    "libsoup",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgupnp-dlna-2.0-dev": "gupnp-dlna",
+    "libsoup2.4-dev": "libsoup",
+    "libgupnp-1.2-dev": "gupnp",
+    "libdleyna-core-1.0-dev": "dleyna-core",
+    "libgssdp-1.2-dev": "gssdp",
+    "libdleyna-connector-dbus-1.0-1": "dleyna-connector-dbus",
+    "libgupnp-av-1.0-dev": "gupnp-av"
+  }
+}
