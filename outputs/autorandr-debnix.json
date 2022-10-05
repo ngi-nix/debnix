@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "autorandr",
+  "nix_pkg": null,
+  "control_file_hash": "7bb147d92e169823d09d617ec506c12193b575a55c8f74c59fab183396153998",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-all",
+    "python3-setuptools",
+    "x11-xserver-utils"
+  ],
+  "nix_inputs": [
+    "packaging",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "nethogs",
+  "nix_pkg": null,
+  "control_file_hash": "f3dcef48c05846233f922ee090c3b9a02674c5ba82b81d7fbff737757902335d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "cmt",
+  "nix_pkg": null,
+  "control_file_hash": "0623fb1451636a1776bbc18afb0d8640009fc54381490abda44cf6bcfdae018b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ladspa-sdk"
+  ],
+  "nix_inputs": [
+    "ladspa.h"
+  ],
+  "map": {}
+}

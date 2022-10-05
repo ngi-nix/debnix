@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "liblcms2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "562f596991fa8e0ed9915c2ce8e559476ace96beca06b48ce16bef0c271be135",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libjpeg-dev",
+    "liblcms2-2",
+    "liblcms2-utils",
+    "libtiff-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libtiff",
+    "zlib"
+  ],
+  "map": {
+    "libtiff-dev": "libtiff",
+    "libjpeg-dev": "libjpeg-turbo",
+    "zlib1g-dev": "zlib"
+  }
+}

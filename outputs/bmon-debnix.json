@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "bmon",
+  "nix_pkg": null,
+  "control_file_hash": "44d685544caea5aedc0d4fc5d3301bf7518b4c70e18ad3fd690f00b7d5829cff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libconfuse-dev",
+    "libncurses5-dev",
+    "libnl-3-dev",
+    "libnl-route-3-dev",
+    "librrd-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libconfuse",
+    "libnl",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnl-3-dev": "libnl",
+    "libncurses5-dev": "ncurses",
+    "libconfuse-dev": "libconfuse",
+    "libnl-route-3-dev": "libnl"
+  }
+}

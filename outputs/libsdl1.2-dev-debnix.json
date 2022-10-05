@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libsdl1.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "be830e427c920a4f84b345893c47fb946c95ebe306c8d6457f1732c0a82b86f4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libcaca-dev",
+    "libgl-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libpulse-dev",
+    "libsdl1.2debian",
+    "libusbhid-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "nasm",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXrandr",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglu-dev": "glu",
+    "libxext-dev": "libXext",
+    "libglu1-mesa-dev": "glu",
+    "libgl-dev": "libGL",
+    "libasound2-dev": "alsa-lib"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "xss-lock",
+  "nix_pkg": null,
+  "control_file_hash": "7aa23efe4e06bdf1febead5c7d56ffada7c6d4df01f2a27b9df3fff07c95346c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libxcb-screensaver0-dev",
+    "libxcb-util0-dev",
+    "libxcb1-dev",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "docutils",
+    "glib",
+    "libXau",
+    "libXdmcp",
+    "libpthread-stubs",
+    "pkg-config-wrapper",
+    "xcb-util"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libxcb-util0-dev": "xcb-util",
+    "libglib2.0-dev": "glib"
+  }
+}

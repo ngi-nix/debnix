@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "tinyproxy",
+  "nix_pkg": null,
+  "control_file_hash": "3d0f19d2f763f316ff8bb6bf627cce5a6c6bf51ddb90ac406f5dbf9f0b25b11c",
+  "deb_inputs": [
+    "adduser",
+    "asciidoc",
+    "debhelper-compat",
+    "logrotate",
+    "lsb-base",
+    "tinyproxy-bin",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

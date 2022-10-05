@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "arp-scan",
+  "nix_pkg": null,
+  "control_file_hash": "057be5df061ebb42a2cfc11eb7e8d8cd25e3232c74222029e392e7877566ce85",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ieee-data",
+    "libpcap0.8-dev",
+    "libwww-perl"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "perl"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "swaybg",
+  "nix_pkg": null,
+  "control_file_hash": "3f46eaf4c16b0d221f61203f03631bea7d3eede39893e71656fef7ba32d59565",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libgdk-pixbuf2.0-dev",
+    "libwayland-dev",
+    "meson",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gdk-pixbuf",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols",
+    "scdoc": "scdoc",
+    "meson": "meson"
+  }
+}

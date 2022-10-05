@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "pdftk",
+  "nix_pkg": null,
+  "control_file_hash": "a691feac0ee9c0b37e24b5ade85c0883f90f9346035cd3c5b2f99b8818755f6c",
+  "deb_inputs": [
+    "debhelper",
+    "pdftk-java"
+  ],
+  "nix_inputs": [
+    "gradle"
+  ],
+  "map": {}
+}

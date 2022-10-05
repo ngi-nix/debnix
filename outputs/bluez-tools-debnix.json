@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "bluez-tools",
+  "nix_pkg": null,
+  "control_file_hash": "2b257c8d7fcc6cc405ee3acc86ef0a7a2487c2edac1956e2ae6282dc9e506a9d",
+  "deb_inputs": [
+    "bluez-obexd",
+    "debhelper",
+    "libbluetooth-dev",
+    "libdbus-1-dev",
+    "libglib2.0-dev",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libglib2.0-dev": "glib"
+  }
+}

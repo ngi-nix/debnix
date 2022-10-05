@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "awscli",
+  "nix_pkg": null,
+  "control_file_hash": "b217831a0cae3fe46ce2d5550e45ab98b6f143f86d16020af0e358b117f6a3e3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "groff",
+    "python3",
+    "python3-all:any",
+    "python3-botocore",
+    "python3-pyasn1",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "bcdoc",
+    "botocore",
+    "colorama",
+    "docutils",
+    "groff",
+    "less",
+    "python3",
+    "pyyaml",
+    "rsa",
+    "s3transfer",
+    "six"
+  ],
+  "map": {
+    "groff": "groff",
+    "python3": "python3"
+  }
+}

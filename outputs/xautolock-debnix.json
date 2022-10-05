@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "xautolock",
+  "nix_pkg": null,
+  "control_file_hash": "1bdaf3534a9abd8163b108ebd64a31084c6d832d42eec033791af0a0bdf96717",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "i3lock",
+    "libx11-dev",
+    "libxss-dev",
+    "suckless-tools",
+    "x11proto-core-dev",
+    "xscreensaver",
+    "xtrlock",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libXScrnSaver",
+    "xorgproto"
+  ],
+  "map": {
+    "x11proto-core-dev": "xorgproto"
+  }
+}

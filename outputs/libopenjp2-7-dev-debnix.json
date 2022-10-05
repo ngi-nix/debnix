@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libopenjp2-7-dev",
+  "nix_pkg": null,
+  "control_file_hash": "51e93234a8efa3af854676d3262288e286195c337939cd9120c16c207641cae3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-apache2",
+    "doc-base",
+    "help2man",
+    "libcurl-ssl-dev",
+    "libcurl4-gnutls-dev",
+    "libfcgi-dev",
+    "liblcms2-dev",
+    "libopenjp2-7",
+    "libopenjp2-tools",
+    "libopenjpip-dec-server",
+    "libpng-dev",
+    "libtiff-dev",
+    "libwww-perl",
+    "spawn-fcgi",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "lcms2",
+    "libpng-apng",
+    "libtiff",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "liblcms2-dev": "lcms2",
+    "libtiff-dev": "libtiff",
+    "cmake": "cmake"
+  }
+}

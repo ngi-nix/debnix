@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "scrub",
+  "nix_pkg": null,
+  "control_file_hash": "9fa53a190272a377c48be8245699fe2d8bee4dbf43488e3eeeef80a59de17da1",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "map": {}
+}

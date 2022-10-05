@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "texmaker",
+  "nix_pkg": null,
+  "control_file_hash": "68d0c77e85a7075d351ddb2c603a7a87dae1327e5fe7dcfd5276177306f1c280",
+  "deb_inputs": [
+    "aspell",
+    "asymptote",
+    "debhelper-compat",
+    "ghostscript",
+    "hunspell-dictionary",
+    "hunspell-en-us",
+    "libglib2.0-dev",
+    "libpoppler-private-dev",
+    "libpoppler-qt5-dev",
+    "libqt5opengl5-dev",
+    "libqt5webkit5-dev",
+    "libsynctex-dev",
+    "myspell-dictionary",
+    "netpbm",
+    "psutils",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qtdeclarative5-dev",
+    "qtscript5-dev",
+    "texlive-lang-all",
+    "texlive-lang-english",
+    "texlive-latex-extra",
+    "texmaker-data"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "qtbase",
+    "qtscript",
+    "qtwebengine",
+    "zlib"
+  ],
+  "map": {
+    "qtscript5-dev": "qtscript",
+    "qtbase5-dev": "qtbase"
+  }
+}

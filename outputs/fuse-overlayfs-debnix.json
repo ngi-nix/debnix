@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "fuse-overlayfs",
+  "nix_pkg": null,
+  "control_file_hash": "e5613e8ea1f61512af18e05770716e94115fd3157ace45d186400037d42156ab",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "fuse3",
+    "go-md2man",
+    "libfuse3-dev",
+    "pkg-config",
+    "pkgconf"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfuse3-dev": "fuse",
+    "fuse3": "fuse"
+  }
+}

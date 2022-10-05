@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ack",
+  "nix_pkg": null,
+  "control_file_hash": "b9f37f11942e00347b69783f5972c9dfeda674e63430b71409a8ae9eb1f6a25e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "less",
+    "libfile-next-perl",
+    "libio-pty-perl",
+    "libtest-differences-perl",
+    "libtest-pod-perl",
+    "perl",
+    "perl-doc",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "File-Next",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl",
+    "perl-doc": "perl"
+  }
+}

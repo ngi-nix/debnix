@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "lv2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ca1ece64a6b5baae36f7dfc9dfa52eae07da7ae471018fe065eb7ac883b297e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtk2.0-dev",
+    "libsndfile1-dev",
+    "pkg-config",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

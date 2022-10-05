@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "exif",
+  "nix_pkg": null,
+  "control_file_hash": "f51f3cbb1741d7a6be4cbb427487c44e991014dc796fc8754788e34193661c9d",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper-compat",
+    "libexif-dev",
+    "libpopt-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libexif",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libexif-dev": "libexif",
+    "libpopt-dev": "popt"
+  }
+}

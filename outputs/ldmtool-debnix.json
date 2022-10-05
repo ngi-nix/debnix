@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "ldmtool",
+  "nix_pkg": null,
+  "control_file_hash": "ded69e5bf4a41b472950587befb75e628fd5e51413f1e0da0c7c797289b078f3",
+  "deb_inputs": [
+    "debhelper",
+    "gtk-doc-tools",
+    "libdevmapper-dev",
+    "libglib2.0-dev",
+    "libjson-glib-dev",
+    "libldm-1.0-0",
+    "libreadline-dev",
+    "libudev-dev",
+    "pkg-config",
+    "uuid-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gobject-introspection",
+    "gtk-doc",
+    "json-glib",
+    "libtool",
+    "libxslt",
+    "lvm2",
+    "pkg-config-wrapper",
+    "readline",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "gtk-doc-tools": "gtk-doc",
+    "libdevmapper-dev": "lvm2",
+    "libjson-glib-dev": "json-glib"
+  }
+}

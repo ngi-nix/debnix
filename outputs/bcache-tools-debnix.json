@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "bcache-tools",
+  "nix_pkg": null,
+  "control_file_hash": "034e7669f98ee577dde55d664ffdfd2081436ff66db3b82871fdc3625971ce93",
+  "deb_inputs": [
+    "debhelper-compat",
+    "initramfs-tools",
+    "libblkid-dev",
+    "linux-initramfs-tool",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "util-linux"
+  ],
+  "map": {
+    "uuid-dev": "util-linux",
+    "libblkid-dev": "util-linux"
+  }
+}

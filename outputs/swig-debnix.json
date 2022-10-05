@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "swig",
+  "nix_pkg": null,
+  "control_file_hash": "48fcd73f6dd0cb4ea7aebee782eef6235268e7dcc0eaee90adad0a99cbd4bd63",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libpcre2-dev",
+    "swig-doc",
+    "swig-examples",
+    "swig4.0",
+    "swig4.0-doc",
+    "swig4.0-examples"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "libtool",
+    "pcre"
+  ],
+  "map": {
+    "bison": "bison",
+    "libpcre2-dev": "pcre"
+  }
+}

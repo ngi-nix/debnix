@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "nitrogen",
+  "nix_pkg": null,
+  "control_file_hash": "e80f8221f6e2b370f8a24d091c6250bb466d569da255749633509ec9c2e347c9",
+  "deb_inputs": [
+    "debhelper",
+    "libgtkmm-2.4-dev",
+    "libxinerama-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtkmm",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtkmm-2.4-dev": "gtkmm"
+  }
+}

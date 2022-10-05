@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libflac-dev",
+  "nix_pkg": null,
+  "control_file_hash": "83ba224ce4d0babc8ebb1622525ff8bd73e691ef7d855a39a5069f323ccac0e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doc-base",
+    "docbook-to-man",
+    "libflac++6v5",
+    "libflac-dev",
+    "libflac8",
+    "libogg-dev"
+  ],
+  "nix_inputs": [
+    "libogg"
+  ],
+  "map": {
+    "libogg-dev": "libogg"
+  }
+}

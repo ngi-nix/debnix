@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "units",
+  "nix_pkg": null,
+  "control_file_hash": "87b94716ab47c79b0cc53a7dfecbbf0327df422b9a11677a6a4e78724eb1e743",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "libreadline-dev",
+    "python3",
+    "python3-requests",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

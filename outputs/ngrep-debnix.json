@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ngrep",
+  "nix_pkg": null,
+  "control_file_hash": "fd301c0cf05660772d56de24342697603c7d1b3f013e79c55c30483c94da6735",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnet1-dev",
+    "libpcap0.8-dev",
+    "libpcre2-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "pcre"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap",
+    "libpcre2-dev": "pcre"
+  }
+}
