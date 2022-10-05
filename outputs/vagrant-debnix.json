@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "vagrant",
+  "nix_pkg": null,
+  "control_file_hash": "2e30829cf7875201fce4b9106fb52253ef01a0549e58b56ca2580b924b24851a",
+  "deb_inputs": [
+    "bash-completion",
+    "curl",
+    "debhelper-compat",
+    "gem2deb",
+    "libarchive-tools",
+    "openssh-client",
+    "rake",
+    "rsync",
+    "ruby",
+    "ruby-bcrypt-pbkdf",
+    "ruby-childprocess",
+    "ruby-ed25519",
+    "ruby-erubi",
+    "ruby-i18n",
+    "ruby-listen",
+    "ruby-log4r",
+    "ruby-mime-types",
+    "ruby-net-scp",
+    "ruby-net-sftp",
+    "ruby-net-ssh",
+    "ruby-rexml",
+    "ruby-rspec",
+    "ruby-rspec-its",
+    "ruby-vagrant-cloud",
+    "ruby-webmock",
+    "ruby-zip",
+    "vagrant-libvirt",
+    "virtualbox"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {
+    "ruby": "ruby"
+  }
+}

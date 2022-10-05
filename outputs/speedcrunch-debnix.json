@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "speedcrunch",
+  "nix_pkg": null,
+  "control_file_hash": "cce7501f6d58db2894438e1a95b3b82c92c3cb319a077e0462c6fbc8742a68b8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook2x",
+    "imagemagick",
+    "libqt5sql5-sqlite",
+    "python3",
+    "python3-quark-sphinx-theme",
+    "python3-sphinx",
+    "python3-sphinxcontrib.qthelp",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

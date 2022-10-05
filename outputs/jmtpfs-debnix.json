@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "jmtpfs",
+  "nix_pkg": null,
+  "control_file_hash": "a3b49316b138badf2003f43faed545243ef576e41b46bfbcdfa545151c163456",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fuse",
+    "libfuse-dev",
+    "libmagic-dev",
+    "libmtp-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "file",
+    "fuse",
+    "libmtp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libmagic-dev": "file",
+    "libmtp-dev": "libmtp",
+    "libfuse-dev": "fuse"
+  }
+}

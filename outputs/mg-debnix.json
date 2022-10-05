@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "mg",
+  "nix_pkg": null,
+  "control_file_hash": "aecb5b0751242a0303f6dce61b0501c13b726c84d806d0b23a52ab6712b28939",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libncurses-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}
