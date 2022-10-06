@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "teensy-loader-cli",
+  "nix_pkg": null,
+  "control_file_hash": "0c48ae3c892b9416d29f0cfe18d57778bf01b0f5699e8fb7786c5027d81eba4b",
+  "deb_inputs": [
+    "debhelper",
+    "libusb-dev"
+  ],
+  "nix_inputs": [
+    "go-md2man",
+    "libusb-compat"
+  ],
+  "map": {}
+}

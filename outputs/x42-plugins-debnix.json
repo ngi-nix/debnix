@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "x42-plugins",
+  "nix_pkg": null,
+  "control_file_hash": "be491ac667bad48fbe7f08a3c7758e7b36ee3628898560927645dfcb75c54fd8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "libcairo2-dev",
+    "libftgl-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libltc-dev",
+    "libpango1.0-dev",
+    "libpixman-1-dev",
+    "libpugl-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "libzita-convolver-dev",
+    "lv2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "fftw-single",
+    "ftgl",
+    "glu",
+    "gtk+",
+    "libjack2",
+    "libltc",
+    "libsamplerate",
+    "libsndfile",
+    "lv2",
+    "pango",
+    "pkg-config-wrapper",
+    "zita-convolver"
+  ],
+  "map": {
+    "libzita-convolver-dev": "zita-convolver",
+    "libltc-dev": "libltc",
+    "libftgl-dev": "ftgl",
+    "libcairo2-dev": "cairo",
+    "libsndfile1-dev": "libsndfile",
+    "lv2-dev": "lv2",
+    "libsamplerate0-dev": "libsamplerate",
+    "libpango1.0-dev": "pango"
+  }
+}
