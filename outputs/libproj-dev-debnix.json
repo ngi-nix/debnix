@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libproj-dev",
+  "nix_pkg": null,
+  "control_file_hash": "224fe3113b9aa3882d00217b695ae807453cecb9f76ca237926c0458f2c66b21",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcurl-ssl-dev",
+    "libcurl4-gnutls-dev",
+    "libgtest-dev",
+    "libproj25",
+    "libsqlite3-dev",
+    "libtiff-dev",
+    "pkg-kde-tools",
+    "proj-bin",
+    "proj-data",
+    "sharutils",
+    "sqlite3",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "gtest",
+    "libtiff",
+    "nlohmann_json",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libtiff-dev": "libtiff",
+    "libsqlite3-dev": "sqlite",
+    "cmake": "cmake",
+    "sqlite3": "sqlite",
+    "libgtest-dev": "gtest",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

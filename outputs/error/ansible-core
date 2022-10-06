@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ansible", "cowsay", "debhelper-compat", "dh-python", "openssh-client", "python3", "python3-argcomplete", "python3-cryptography", "python3-distutils", "python3-dnspython", "python3-docutils", "python3-httplib2", "python3-jinja2", "python3-jmespath", "python3-kerberos", "python3-libcloud", "python3-netaddr", "python3-packaging", "python3-paramiko", "python3-pycryptodome", "python3-resolvelib", "python3-selinux", "python3-setuptools", "python3-straight.plugin", "python3-winrm", "python3-xmltodict", "python3-yaml", "sshpass"], or 
+output: 
+[] is empty!

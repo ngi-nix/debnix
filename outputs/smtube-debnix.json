@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "smtube",
+  "nix_pkg": null,
+  "control_file_hash": "6d2813a89b9d3ea7d2e3fceb90f8fa17daf9a14245be0d70ea3bc7b0906c8232",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dragonplayer",
+    "libqt5webkit5-dev",
+    "mplayer",
+    "mpv",
+    "qtscript5-dev",
+    "qttools5-dev-tools",
+    "smplayer",
+    "totem",
+    "vlc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "qtscript",
+    "qtwebkit"
+  ],
+  "map": {
+    "qtscript5-dev": "qtscript"
+  }
+}

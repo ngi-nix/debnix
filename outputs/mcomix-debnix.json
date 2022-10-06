@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "mcomix",
+  "nix_pkg": null,
+  "control_file_hash": "24e776e179490b0b51f6624c166d8617f78853b77d48df30d6061f2fee929ca9",
+  "deb_inputs": [
+    "debhelper",
+    "gir1.2-gtk-3.0",
+    "libunrar5",
+    "mupdf-tools",
+    "p7zip",
+    "python3-cairo",
+    "python3-chardet",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-pil",
+    "unrar"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf",
+    "gobject-introspection",
+    "gtk+3",
+    "pillow",
+    "pycairo",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "python3-pil": "pillow",
+    "python3-gi-cairo": "pygobject",
+    "python3-cairo": "pycairo"
+  }
+}

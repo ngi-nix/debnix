@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "sbcl",
+  "nix_pkg": null,
+  "control_file_hash": "55f573276cd505219fc16c2582908c3debde7a568a940a475d690d14d5827399",
+  "deb_inputs": [
+    "binfmt-support",
+    "clisp",
+    "cm-super-minimal",
+    "debhelper",
+    "debhelper-compat",
+    "ecl",
+    "ed",
+    "ghostscript",
+    "graphviz",
+    "libzstd-dev",
+    "netbase",
+    "sbcl",
+    "sbcl-doc",
+    "sbcl-source",
+    "slime",
+    "strace",
+    "systemd",
+    "texinfo",
+    "texlive",
+    "texlive-extra-utils",
+    "texlive-font-utils",
+    "texlive-plain-generic",
+    "time"
+  ],
+  "nix_inputs": [
+    "texinfo",
+    "zstd"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "libzstd-dev": "zstd"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "enscript",
+  "nix_pkg": null,
+  "control_file_hash": "8c4f09281679aa83f1b4332cf5d743b774ae755c5db5df100b4bb2a3e55fe888",
+  "deb_inputs": [
+    "autoconf",
+    "automake1.11",
+    "autopoint",
+    "autotools-dev",
+    "debhelper",
+    "dpkg-dev",
+    "gv",
+    "libpaper-dev",
+    "lpr",
+    "postscript-viewer"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {
+    "autopoint": "gettext"
+  }
+}

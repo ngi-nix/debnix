@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "telepathy-idle",
+  "nix_pkg": null,
+  "control_file_hash": "f19fd43e1ed112d1be98589852452004dc2f8001310d76c31105826d8c9686b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libtelepathy-glib-dev",
+    "python3",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "dconf",
+    "glib",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python",
+    "telepathy-glib"
+  ],
+  "map": {
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libglib2.0-dev": "glib",
+    "python3": "python",
+    "libtelepathy-glib-dev": "telepathy-glib",
+    "xsltproc": "libxslt"
+  }
+}

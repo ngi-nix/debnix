@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "ldapvi",
+  "nix_pkg": null,
+  "control_file_hash": "8b5f0b274f01cc4699730259ab5466259adee66ed11fe375089d1b38d2cc5b1c",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libldap2-dev",
+    "libncurses5-dev",
+    "libpopt-dev",
+    "libreadline-dev",
+    "libsasl2-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "cyrus-sasl",
+    "glib",
+    "ncurses",
+    "openldap",
+    "openssl",
+    "pkg-config-wrapper",
+    "popt",
+    "readline"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libpopt-dev": "popt",
+    "libglib2.0-dev": "glib",
+    "libreadline-dev": "readline",
+    "libldap2-dev": "openldap"
+  }
+}

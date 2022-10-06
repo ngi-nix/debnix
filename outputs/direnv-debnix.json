@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "direnv",
+  "nix_pkg": null,
+  "control_file_hash": "291c5489e0a02d6b432adc5fb4d640923c4bdf13919cb67454795b737222ec8d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "elvish",
+    "fish",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-golang-x-mod-dev",
+    "golang-golang-x-sys-dev",
+    "ruby",
+    "shellcheck",
+    "tcsh",
+    "zsh"
+  ],
+  "nix_inputs": [
+    "fish",
+    "go",
+    "zsh"
+  ],
+  "map": {
+    "fish": "fish",
+    "zsh": "zsh"
+  }
+}

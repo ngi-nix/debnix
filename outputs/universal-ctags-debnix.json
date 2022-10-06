@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "universal-ctags",
+  "nix_pkg": null,
+  "control_file_hash": "128cbc77f7a8fe1298630849e7e9ca42f6a25646906feffa9cfba7c846658e06",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "emacsen",
+    "libjansson-dev",
+    "libseccomp-dev",
+    "libxml2-dev",
+    "libyaml-dev",
+    "nvi",
+    "pkg-config",
+    "python3-docutils",
+    "vile",
+    "vim"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "jansson",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjansson-dev": "jansson"
+  }
+}

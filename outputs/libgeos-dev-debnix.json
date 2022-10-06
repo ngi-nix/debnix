@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libgeos-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0bf3d13696648b491ec8942618e8a75e97ba6d1576e1cfa18d3a424116832936",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libgdal-doc",
+    "libgeos-c1v5",
+    "libgeos-dev",
+    "libgeos3.11.0",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

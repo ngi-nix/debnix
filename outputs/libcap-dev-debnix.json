@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libcap-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c78a5fc36dd7c7148eb7316eb37ab343cf24fdcca710fab97064b088b03db613",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gperf",
+    "indent",
+    "libcap2",
+    "libpam-cap",
+    "libpam-runtime",
+    "libpam0g-dev",
+    "manpages-dev"
+  ],
+  "nix_inputs": [
+    "attr",
+    "linux-pam"
+  ],
+  "map": {}
+}

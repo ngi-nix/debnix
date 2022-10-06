@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "yt-dlp",
+  "nix_pkg": null,
+  "control_file_hash": "fe4add55268aa86d2f83ab988f5eec88e65d612a71c386752b9c7df20ecf9314",
+  "deb_inputs": [
+    "aria2",
+    "bidiv",
+    "ca-certificates",
+    "curl",
+    "debhelper-compat",
+    "dh-python",
+    "ffmpeg",
+    "libfribidi-bin",
+    "mplayer",
+    "mpv",
+    "pandoc",
+    "phantomjs",
+    "python3-pkg-resources",
+    "python3-pytest",
+    "python3-pyxattr",
+    "python3-setuptools",
+    "rtmpdump",
+    "wget",
+    "zip"
+  ],
+  "nix_inputs": [
+    "brotli",
+    "certifi",
+    "mutagen",
+    "pycryptodomex",
+    "python3",
+    "websockets"
+  ],
+  "map": {}
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libwmf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b50a4d022d7102ed83d1d204cee9b706e86f59f1f0006912da5b0cd105f9f381",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-urw-base35",
+    "libfreetype-dev",
+    "libwmf-0.2-7",
+    "libwmf-0.2-7-gtk",
+    "libwmf-dev",
+    "libwmf-doc",
+    "libwmflite-0.2-7",
+    "libx11-dev",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "glib",
+    "imagemagick",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libxml2",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libfreetype-dev": "freetype",
+    "zlib1g-dev": "zlib"
+  }
+}

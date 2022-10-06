@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "dump",
+  "nix_pkg": null,
+  "control_file_hash": "336ccf08918c94a0ccb0af528edca6a57d486adc511e8d5dff2c81792fd7a39c",
+  "deb_inputs": [
+    "autoconf",
+    "comerr-dev",
+    "debhelper",
+    "e2fslibs-dev",
+    "libblkid-dev",
+    "libbz2-dev",
+    "libdevmapper-dev",
+    "liblzo2-dev",
+    "libreadline-dev",
+    "libselinux1-dev",
+    "pkg-config",
+    "tar",
+    "uuid-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs",
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "comerr-dev": "e2fsprogs",
+    "libreadline-dev": "readline",
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

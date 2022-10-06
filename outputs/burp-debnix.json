@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "burp",
+  "nix_pkg": null,
+  "control_file_hash": "275068202aad81aaa009b9c578598ac80ac2418405813b17b7fd31b8157c8067",
+  "deb_inputs": [
+    "check",
+    "debhelper",
+    "init-system-helpers",
+    "libacl1-dev",
+    "libncurses5-dev",
+    "librsync-dev",
+    "libssl-dev",
+    "libyajl-dev",
+    "libz-dev",
+    "lsb-base",
+    "openssl",
+    "pkg-config",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "librsync",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper",
+    "uthash",
+    "zlib"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libacl1-dev": "acl",
+    "librsync-dev": "librsync",
+    "uthash-dev": "uthash",
+    "openssl": "openssl",
+    "libssl-dev": "openssl"
+  }
+}

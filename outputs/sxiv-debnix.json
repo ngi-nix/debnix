@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "sxiv",
+  "nix_pkg": null,
+  "control_file_hash": "b406e8b2b52f8a5a56088351c8f073554ab04c0926b74ec38cbd1bfed7221046",
+  "deb_inputs": [
+    "debhelper-compat",
+    "imagemagick",
+    "libexif-dev",
+    "libimlib2-dev",
+    "libjpeg-progs",
+    "libxft-dev"
+  ],
+  "nix_inputs": [
+    "giflib",
+    "imlib2",
+    "libXft",
+    "libexif"
+  ],
+  "map": {
+    "libexif-dev": "libexif",
+    "libimlib2-dev": "imlib2",
+    "libxft-dev": "libXft"
+  }
+}

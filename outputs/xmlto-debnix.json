@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "xmlto",
+  "nix_pkg": null,
+  "control_file_hash": "eb92dab2e8c09669e597c60d6e59d947f0457b7721929055898297e0f8cf256e",
+  "deb_inputs": [
+    "dblatex",
+    "debhelper",
+    "debianutils",
+    "docbook-xml",
+    "docbook-xsl",
+    "fop",
+    "libpaper-utils",
+    "libxml2-utils",
+    "links",
+    "lynx-cur",
+    "sgml-base",
+    "texlive-htmlxml",
+    "w3m",
+    "xsltproc",
+    "zip"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "getopt",
+    "libxml2",
+    "libxslt"
+  ],
+  "map": {
+    "docbook-xml": "docbook-xml",
+    "xsltproc": "libxslt",
+    "libxml2-utils": "libxml2"
+  }
+}

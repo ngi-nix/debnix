@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "openrazer-driver-dkms",
+  "nix_pkg": null,
+  "control_file_hash": "0f674ed2c8941cb6747df1e0cae8b3a7fa63692811b660417aca772d7c50091a",
+  "deb_inputs": [
+    "dbus-user-session",
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-dkms",
+    "dkms",
+    "gir1.2-gtk-3.0",
+    "openrazer-daemon",
+    "openrazer-doc",
+    "openrazer-driver-dkms",
+    "python3",
+    "python3-daemonize",
+    "python3-dbus",
+    "python3-gi",
+    "python3-notify2",
+    "python3-numpy",
+    "python3-openrazer",
+    "python3-pyudev",
+    "python3-setproctitle",
+    "python3-setuptools",
+    "udev",
+    "xautomation"
+  ],
+  "nix_inputs": [
+    "daemonize",
+    "dbus-python",
+    "gobject-introspection",
+    "gtk+3",
+    "pygobject",
+    "python3",
+    "pyudev",
+    "setproctitle"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-dbus": "dbus-python",
+    "python3-pyudev": "pyudev",
+    "python3-gi": "pygobject"
+  }
+}

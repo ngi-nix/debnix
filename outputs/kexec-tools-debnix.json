@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "kexec-tools",
+  "nix_pkg": null,
+  "control_file_hash": "880c3f0793948c78ceb434a8a5a3108ad7392ec378976c17fd6c79aecf6169b7",
+  "deb_inputs": [
+    "debconf",
+    "debhelper",
+    "dpkg",
+    "gnu-efi",
+    "libz-dev",
+    "lsb-base",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

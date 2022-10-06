@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "q4wine",
+  "nix_pkg": null,
+  "control_file_hash": "091497fa3a48db4b51d431631d83d9fedfd292a0bf750efc125ee46e2796eb85",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "fuseiso",
+    "icoutils",
+    "libfuse-dev",
+    "libkvm-dev",
+    "libqt5sql5-sqlite",
+    "libqt5svg5-dev",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "sudo",
+    "wget",
+    "wine",
+    "winetricks"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "icoutils",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "sqlite"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qttools5-dev": "qttools",
+    "qtbase5-dev": "qtbase",
+    "icoutils": "icoutils"
+  }
+}

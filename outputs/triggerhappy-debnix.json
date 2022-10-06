@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "triggerhappy",
+  "nix_pkg": null,
+  "control_file_hash": "5960c5520a1a9a5633db3a540348a237164853ad5f6972656a017d733f43c6a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsystemd-dev",
+    "libsystemd0",
+    "linux-libc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "perl",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd0": "systemd",
+    "libsystemd-dev": "systemd"
+  }
+}

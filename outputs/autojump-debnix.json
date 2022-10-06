@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "autojump",
+  "nix_pkg": null,
+  "control_file_hash": "6352329cf0e460aaaf289eae7c6860f12746bf91b38c249af2fd7686b84c08f8",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

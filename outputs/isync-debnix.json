@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "isync",
+  "nix_pkg": null,
+  "control_file_hash": "14f6e87db27a18813c5ba7d1752e532a67eb62e15d6da7951b8f9ba4ba5f71e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdb-dev",
+    "libsasl2-dev",
+    "libssl-dev",
+    "mutt",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "db",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "libdb-dev": "db"
+  }
+}

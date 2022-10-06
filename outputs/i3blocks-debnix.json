@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "i3blocks",
+  "nix_pkg": null,
+  "control_file_hash": "c4c500c11d4b664174112bdac9dca51927ff823d9c3e8125bd7327f23a52fd8f",
+  "deb_inputs": [
+    "acpi",
+    "alsa-utils",
+    "debhelper",
+    "gawk",
+    "i3-wm",
+    "pandoc",
+    "sysstat"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

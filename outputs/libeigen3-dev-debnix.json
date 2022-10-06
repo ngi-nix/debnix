@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libeigen3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f5ec7eef279bd238951243d03f033cdcf3c8a27ecbb3b8c78a45854871fad8ed",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "gfortran",
+    "libeigen3-dev",
+    "libeigen3-doc",
+    "libjs-jquery",
+    "libjs-mathjax",
+    "libmpfrc++-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

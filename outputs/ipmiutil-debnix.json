@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ipmiutil",
+  "nix_pkg": null,
+  "control_file_hash": "e37846bd2656ad360c6e3edb2d3435d448d5672e7e9d6488860d6411a33d89e0",
+  "deb_inputs": [
+    "anacron",
+    "debhelper-compat",
+    "init-system-helpers",
+    "libfreeipmi-dev",
+    "libopenipmi-dev",
+    "libssl-dev",
+    "libtool-bin",
+    "lsb-base",
+    "openssl",
+    "rpcbind"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "libssl-dev": "openssl"
+  }
+}

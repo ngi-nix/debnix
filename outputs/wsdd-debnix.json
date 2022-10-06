@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "wsdd",
+  "nix_pkg": null,
+  "control_file_hash": "186356597156131e94b594a8f4087ec7e9431489fedae1bc581cc2818183593e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

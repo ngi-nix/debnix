@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "ltrace",
+  "nix_pkg": null,
+  "control_file_hash": "bb000ab8eb50500ae3dfbd0a57fd68a65c8986a10a92447b783ccbfe6a090590",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libelf-dev",
+    "libiberty-dev",
+    "libselinux1-dev"
+  ],
+  "nix_inputs": [
+    "dejagnu",
+    "elfutils"
+  ],
+  "map": {
+    "libelf-dev": "elfutils"
+  }
+}

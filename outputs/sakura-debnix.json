@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "sakura",
+  "nix_pkg": null,
+  "control_file_hash": "d3300a1b4d7ce8e9d06dd8864065d0b28a68412ed8f5bc17eedcf7c5b4d8ac34",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgtk-3-dev",
+    "libpcre2-dev",
+    "libvte-2.91-dev",
+    "perl"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glib",
+    "gtk+3",
+    "pcre2",
+    "perl",
+    "pkg-config-wrapper",
+    "vte"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libvte-2.91-dev": "vte",
+    "perl": "perl",
+    "libpcre2-dev": "pcre2"
+  }
+}

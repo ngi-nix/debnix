@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "grsync",
+  "nix_pkg": null,
+  "control_file_hash": "1dd8b9ccb126fb2064fa9faf0a386825413db8d5529acfbb3e6c9dc5c6b1df9b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "intltool",
+    "libgtk-3-dev",
+    "libxml-parser-perl",
+    "rsync",
+    "ssh-askpass"
+  ],
+  "nix_inputs": [
+    "dee",
+    "gtk+3",
+    "intltool",
+    "libdbusmenu-gtk3",
+    "libunity",
+    "pkg-config-wrapper",
+    "rsync"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "rsync": "rsync"
+  }
+}

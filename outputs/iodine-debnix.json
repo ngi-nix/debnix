@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "iodine",
+  "nix_pkg": null,
+  "control_file_hash": "1c5f1723c77bb468322a7d606e895bf479a5e52db152dc30f4f65ea9bae90523",
+  "deb_inputs": [
+    "adduser",
+    "check",
+    "debhelper-compat",
+    "dnsutils",
+    "fping",
+    "gawk",
+    "help2man",
+    "ipcalc",
+    "iproute2",
+    "libsystemd-dev",
+    "lsb-base",
+    "net-tools",
+    "network-manager-iodine",
+    "network-manager-iodine-gnome",
+    "oping",
+    "pkg-config",
+    "po-debconf",
+    "udev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

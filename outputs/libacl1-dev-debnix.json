@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libacl1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6e40ddbd96223e779d671ce70efef03f5b4f21ec6fa2f9c76cc6d7e5cef688d3",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "gettext",
+    "libacl1",
+    "libacl1-udeb",
+    "libattr1-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "attr",
+    "gettext"
+  ],
+  "map": {
+    "libattr1-dev": "attr",
+    "gettext": "gettext"
+  }
+}
