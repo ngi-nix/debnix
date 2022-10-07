@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "qsynth",
+  "nix_pkg": null,
+  "control_file_hash": "a327cb86f7fbbce629901b4822a196144deb83ab12cf66afa5987b378e40aa52",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "fluid-soundfont-gm",
+    "jackd",
+    "libfluidsynth-dev",
+    "libqt6svg6-dev",
+    "libx11-dev",
+    "pkg-config",
+    "qt6-base-dev",
+    "qt6-tools-dev",
+    "qt6-tools-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "autoconf",
+    "fluidsynth",
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "libfluidsynth-dev": "fluidsynth"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "kteatime",
+  "nix_pkg": null,
+  "control_file_hash": "555df4b84c5da687dd3bce2c896a8e0fdeb059def45776412a81632a20faab2e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5notifications-dev",
+    "libkf5notifyconfig-dev",
+    "libkf5textwidgets-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kconfig",
+    "kcrash",
+    "kdoctools",
+    "ki18n",
+    "kiconthemes",
+    "knotifyconfig"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5iconthemes-dev": "kiconthemes",
+    "libkf5config-dev": "kconfig",
+    "libkf5notifyconfig-dev": "knotifyconfig",
+    "libkf5crash-dev": "kcrash",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

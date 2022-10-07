@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "lnav",
+  "nix_pkg": null,
+  "control_file_hash": "dbc8a773cf6240124612e732a8b39474d363dcc8a037bd023efea3b799652cbd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libarchive-dev",
+    "libbz2-dev",
+    "libcurl4-gnutls-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libpcre3-dev",
+    "libreadline-dev",
+    "libsqlite3-dev",
+    "openssh-client",
+    "re2c",
+    "xz-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bzip2",
+    "curl",
+    "ncurses",
+    "pcre-cpp",
+    "readline",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libsqlite3-dev": "sqlite",
+    "libncurses5-dev": "ncurses",
+    "libreadline-dev": "readline",
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

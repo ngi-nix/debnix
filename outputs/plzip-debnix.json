@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "plzip",
+  "nix_pkg": null,
+  "control_file_hash": "bd2c094c8f24dccb4d5241d07d98803451ff0e089e5c5168d3fb9dfc68ec808d",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "liblz-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "lzip",
+    "lzlib",
+    "texinfo"
+  ],
+  "map": {
+    "liblz-dev": "lzlib",
+    "texinfo": "texinfo"
+  }
+}

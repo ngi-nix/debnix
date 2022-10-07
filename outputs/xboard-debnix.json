@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "xboard",
+  "nix_pkg": null,
+  "control_file_hash": "bc98eafb652144178cfcf015f4e441e0466df8317d880e1dfc9d17356a050e35",
+  "deb_inputs": [
+    "alsa-utils",
+    "autopoint",
+    "debhelper-compat",
+    "fairymax",
+    "libcairo2-dev",
+    "libgtk2.0-dev",
+    "librsvg2-dev",
+    "libxaw7-dev",
+    "texinfo",
+    "x-terminal-emulator",
+    "xfonts-100dpi",
+    "xfonts-75dpi"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gnuchess",
+    "gtk+",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXmu",
+    "libXpm",
+    "libXt",
+    "librsvg",
+    "pango",
+    "pkg-config-wrapper",
+    "texinfo",
+    "xorgproto"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "libgtk2.0-dev": "gtk+",
+    "librsvg2-dev": "librsvg",
+    "libcairo2-dev": "cairo",
+    "libxaw7-dev": "libXaw"
+  }
+}

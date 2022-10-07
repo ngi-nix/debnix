@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "sslh",
+  "nix_pkg": null,
+  "control_file_hash": "5e33d41fe2b86c916fd8368b0b0df636e8cfe538636cada5680c10422043b769",
+  "deb_inputs": [
+    "adduser",
+    "apache2",
+    "binutils",
+    "debconf",
+    "debhelper-compat",
+    "httpd",
+    "inet-superserver",
+    "init-system-helpers",
+    "lcov",
+    "libcap-dev",
+    "libconfig-dev",
+    "libio-socket-inet6-perl",
+    "libpcre3-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "openbsd-inetd",
+    "openssh-server",
+    "po-debconf",
+    "psmisc",
+    "ssh-server",
+    "update-inetd"
+  ],
+  "nix_inputs": [
+    "libcap",
+    "libconfig",
+    "pcre2",
+    "perl",
+    "tcp-wrappers"
+  ],
+  "map": {
+    "libcap-dev": "libcap",
+    "libconfig-dev": "libconfig",
+    "libwrap0-dev": "tcp-wrappers"
+  }
+}

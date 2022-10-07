@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libvpx-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f2a6b4edd760c62c3d75637e6d87869281da7fb3f33190e9a4e54276b33f5300",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libvpx7",
+    "lynx",
+    "www-browser",
+    "yasm"
+  ],
+  "nix_inputs": [
+    "perl",
+    "yasm"
+  ],
+  "map": {
+    "yasm": "yasm"
+  }
+}

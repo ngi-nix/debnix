@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "advancecomp",
+  "nix_pkg": null,
+  "control_file_hash": "4af627c147e112d7a0de2ef8d1aad15198d9c9283dd8f0522e53653399491771",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "tofrodos",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

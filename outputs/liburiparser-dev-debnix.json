@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "liburiparser-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a3c0dab5cf882341130939ccd4f5650c2d2b52ff68fda3256f8f506008e4fa38",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libgtest-dev",
+    "libqt5sql5-sqlite",
+    "liburiparser1",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtest"
+  ],
+  "map": {
+    "libgtest-dev": "gtest",
+    "cmake": "cmake"
+  }
+}

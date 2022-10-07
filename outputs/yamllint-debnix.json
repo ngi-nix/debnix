@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "yamllint",
+  "nix_pkg": null,
+  "control_file_hash": "ee0d84a951f3dd27b963c104f470308509cd9847998fccf9c412ce8650a6d40d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-nose",
+    "python3-pathspec",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "pathspec",
+    "python3",
+    "pyyaml"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml"
+  }
+}

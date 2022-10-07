@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mcrypt",
+  "nix_pkg": null,
+  "control_file_hash": "f9bcc211776a5d9dc8e0c856aaa3fa70507af60596a9ebab903af7d66fa3a096",
+  "deb_inputs": [
+    "bzip2",
+    "debhelper-compat",
+    "gettext",
+    "libmcrypt-dev",
+    "libmhash-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libmcrypt",
+    "mhash"
+  ],
+  "map": {
+    "libmcrypt-dev": "libmcrypt",
+    "libmhash-dev": "mhash"
+  }
+}

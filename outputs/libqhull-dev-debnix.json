@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libqhull-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0a8c7f553f2f9336f5f3d2041736690d342510e80b857c1d2037b22e3043eab0",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "geomview",
+    "libqhull-dev",
+    "libqhull-r8.0",
+    "libqhull8.0",
+    "libqhullcpp8.0",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libgeotiff-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c3ed5bfe9a22b70f6c69d9ca9b8d8689ea5970542ffe65c2e90495302d364e84",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdal-bin",
+    "geotiff-bin",
+    "libgeotiff-epsg",
+    "libgeotiff5",
+    "libjpeg-dev",
+    "libproj-dev",
+    "libtiff-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libtiff",
+    "proj"
+  ],
+  "map": {
+    "libproj-dev": "proj",
+    "libtiff-dev": "libtiff"
+  }
+}

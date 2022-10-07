@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "aircrack-ng",
+  "nix_pkg": null,
+  "control_file_hash": "d680acb0a2c9c3a295153edc585e8a2a031e87913099db27de64794ecf19b89c",
+  "deb_inputs": [
+    "aircrack-ng",
+    "debhelper-compat",
+    "dh-python",
+    "ethtool",
+    "gpsd",
+    "graphviz",
+    "hwloc",
+    "ieee-data",
+    "iproute2",
+    "iw",
+    "libcmocka-dev",
+    "libgcrypt-dev",
+    "libgcrypt11-dev",
+    "libgcrypt20-dev",
+    "libhwloc-dev",
+    "libnl-genl-3-dev",
+    "libpcap0.8-dev",
+    "libpcre3-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "python3-all",
+    "python3-setuptools",
+    "rfkill",
+    "usbutils",
+    "wireless-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ethtool",
+    "iw",
+    "libnl",
+    "libpcap",
+    "openssl",
+    "pciutils",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "ethtool": "ethtool",
+    "zlib1g-dev": "zlib",
+    "iw": "iw",
+    "libnl-genl-3-dev": "libnl",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

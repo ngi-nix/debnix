@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "sl",
+  "nix_pkg": null,
+  "control_file_hash": "87f252d9d207d5f557b6ddb60b855fb29690de467e89cd8a9d2ea7efa7412eb8",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

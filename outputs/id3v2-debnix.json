@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "id3v2",
+  "nix_pkg": null,
+  "control_file_hash": "c29b024983dcf883e5c4aa163282c8d48e72f0f8412d58261c45c286f7e85ce6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libid3-3.8.3-dev"
+  ],
+  "nix_inputs": [
+    "groff",
+    "id3lib",
+    "zlib"
+  ],
+  "map": {}
+}

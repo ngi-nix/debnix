@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libspatialite-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a2aeb65a82bd33efc3db84515c1758218a5706589500a18a19965bb9374adad8",
+  "deb_inputs": [
+    "debhelper",
+    "libexpat1-dev",
+    "libfreexl-dev",
+    "libgeos-dev",
+    "libminizip-dev",
+    "libproj-dev",
+    "libreadline-dev",
+    "librttopo-dev",
+    "libspatialite7",
+    "libsqlite3-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "freexl",
+    "geos",
+    "librttopo",
+    "libxml2",
+    "minizip",
+    "pkg-config-wrapper",
+    "proj",
+    "sqlite"
+  ],
+  "map": {
+    "librttopo-dev": "librttopo",
+    "libminizip-dev": "minizip",
+    "libsqlite3-dev": "sqlite",
+    "libxml2-dev": "libxml2",
+    "libproj-dev": "proj",
+    "libfreexl-dev": "freexl",
+    "libgeos-dev": "geos"
+  }
+}

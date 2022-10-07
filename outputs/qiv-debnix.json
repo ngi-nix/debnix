@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "qiv",
+  "nix_pkg": null,
+  "control_file_hash": "b7ec362a210e4dfb416c2ca4c7fc6911ffdf55da2b2449c007276a9eed0a2d88",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libexif-dev",
+    "libgtk2.0-dev",
+    "libimlib2-dev",
+    "liblcms2-dev",
+    "libmagic-dev",
+    "libwmf0.2-7-gtk",
+    "libx11-dev",
+    "libxinerama-dev"
+  ],
+  "nix_inputs": [
+    "file",
+    "gtk+",
+    "imlib2",
+    "lcms2",
+    "libexif",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libimlib2-dev": "imlib2",
+    "libexif-dev": "libexif",
+    "liblcms2-dev": "lcms2",
+    "libmagic-dev": "file"
+  }
+}

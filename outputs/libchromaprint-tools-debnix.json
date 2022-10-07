@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libchromaprint-tools",
+  "nix_pkg": null,
+  "control_file_hash": "2fe5eeb4b4a785707a1aca6da91ed3ccd59dc4441cbaf9e443d9d76cc7016dd7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libchromaprint1",
+    "libgtest-dev",
+    "libswresample-dev",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "ffmpeg"
+  ],
+  "map": {
+    "libavcodec-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg",
+    "cmake": "cmake",
+    "libswresample-dev": "ffmpeg"
+  }
+}

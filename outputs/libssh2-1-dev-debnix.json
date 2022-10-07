@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libssh2-1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f94368ed0300466a234120033957f6879733f24b054df5a7f5ceaff06303af89",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libssh2-1",
+    "libssl-dev",
+    "openssh-server",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

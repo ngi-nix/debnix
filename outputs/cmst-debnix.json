@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "cmst",
+  "nix_pkg": null,
+  "control_file_hash": "0b37a3ee62b5c1e137c0718ea63651e7d9f20ca4ef0b89457ac5276e909d07e1",
+  "deb_inputs": [
+    "connman",
+    "debhelper-compat",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "qtbase5-dev": "qtbase"
+  }
+}

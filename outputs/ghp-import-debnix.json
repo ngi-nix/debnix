@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ghp-import",
+  "nix_pkg": null,
+  "control_file_hash": "7278468c3c2cf4c60de188244700e126d996f3fd54e009b18cc4f3ea516fa32d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python-dateutil",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

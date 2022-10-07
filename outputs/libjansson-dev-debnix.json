@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libjansson-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f19269c6ce71bd160b55d3ff879a5585f2034e241439c2c4775f967409b1ab1c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjansson4"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

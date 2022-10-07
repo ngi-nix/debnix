@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "xfig",
+  "nix_pkg": null,
+  "control_file_hash": "7604fcc07f435d4e5e8f863f597b2a4d53766c905e58f897b4d3d4a12a476bb9",
+  "deb_inputs": [
+    "cups-client",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "fig2dev",
+    "firefox-esr",
+    "fonts-urw-base35",
+    "ghostscript",
+    "gimp",
+    "gsfonts-x11",
+    "libgs-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libx11-dev",
+    "libxi-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "lpr",
+    "netpbm",
+    "pdf-viewer",
+    "sensible-utils",
+    "spell",
+    "www-browser",
+    "xaw3dg-dev",
+    "xdg-utils",
+    "xfig",
+    "xfig-doc",
+    "xfig-libs",
+    "xpdf"
+  ],
+  "nix_inputs": [
+    "Xaw3d",
+    "imagemagick",
+    "libXaw",
+    "libXi",
+    "libXmu",
+    "libXp",
+    "libXpm"
+  ],
+  "map": {
+    "libxi-dev": "libXi",
+    "libxpm-dev": "libXpm",
+    "xaw3dg-dev": "Xaw3d"
+  }
+}

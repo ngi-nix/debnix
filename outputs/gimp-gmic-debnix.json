@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "gimp-gmic",
+  "nix_pkg": null,
+  "control_file_hash": "6f08cba2fbce9858a6e5c17d53f970b5e54259ed05ce003053e905006312d559",
+  "deb_inputs": [
+    "bash-completion",
+    "clang",
+    "cmake",
+    "debhelper",
+    "dpkg-dev",
+    "fftw3-dev",
+    "gimp",
+    "gimp-gmic",
+    "gmic",
+    "gmic-zart",
+    "krita",
+    "libcurl4-openssl-dev",
+    "libfftw3-dev",
+    "libgimp2.0-dev",
+    "libgmic1",
+    "libgraphicsmagick++1-dev",
+    "libilmbase-dev",
+    "libopencv-dev",
+    "libopenexr-dev",
+    "libx11-dev",
+    "libxrandr-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cimg",
+    "cmake",
+    "fftw-double",
+    "graphicsmagick",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "ninja",
+    "opencv",
+    "openexr",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libopenexr-dev": "openexr",
+    "libgraphicsmagick++1-dev": "graphicsmagick",
+    "cmake": "cmake",
+    "libopencv-dev": "opencv"
+  }
+}

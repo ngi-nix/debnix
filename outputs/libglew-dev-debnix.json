@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libglew-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ec6dc73310744acbebb7275f26c2768ca7c2227c3920c242f100070bd801de6b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "glew-utils",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglew2.2",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libx11-dev",
+    "libxi-dev",
+    "libxmu-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glu",
+    "libXi",
+    "libXmu"
+  ],
+  "map": {
+    "libglu1-mesa-dev": "glu",
+    "libxi-dev": "libXi",
+    "libxmu-dev": "libXmu",
+    "libglu-dev": "glu"
+  }
+}
