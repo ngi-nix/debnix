@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libseat1",
+  "nix_pkg": null,
+  "control_file_hash": "cc1f37f47dc54b68ce452f6330e7340db62d98375aa0b05d74a256f90a7c6e0d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libseat1",
+    "libsystemd-dev",
+    "logind",
+    "lsb-base",
+    "meson",
+    "pkg-config",
+    "scdoc",
+    "seatd"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "systemd"
+  ],
+  "map": {
+    "scdoc": "scdoc",
+    "libsystemd-dev": "systemd",
+    "meson": "meson"
+  }
+}

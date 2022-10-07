@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "dillo",
+  "nix_pkg": null,
+  "control_file_hash": "436550cdce684f4b5bb6bfe62b3d1eccfc35ed25dcaea320ec8fad16e062176a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libfltk1.3-dev",
+    "libglib2.0-dev",
+    "libjpeg-dev",
+    "libjpeg8-dev",
+    "libpng-dev",
+    "libssl-dev",
+    "perl",
+    "wget",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "fltk",
+    "libXcursor",
+    "libXi",
+    "libXinerama",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "mbedtls",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "perl": "perl",
+    "libfltk1.3-dev": "fltk",
+    "libssl-dev": "openssl"
+  }
+}

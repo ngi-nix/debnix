@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "mbuffer",
+  "nix_pkg": null,
+  "control_file_hash": "fa07c462126fb2fee7b30c179f47c5c8c5e67b35797b84a5c206cb63ec2ce643",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-single-binary",
+    "libgcrypt20",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "which"
+  ],
+  "map": {
+    "openssl": "openssl"
+  }
+}

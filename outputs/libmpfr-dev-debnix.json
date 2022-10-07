@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libmpfr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "df5176afef173f7451c1f6959c3b89cc48458f88232be0debc388cb945b1c5b9",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper",
+    "dpkg",
+    "install-info",
+    "libgmp-dev",
+    "libmpfr-doc",
+    "libmpfr6",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

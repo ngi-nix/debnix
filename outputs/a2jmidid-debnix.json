@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "a2jmidid",
+  "nix_pkg": null,
+  "control_file_hash": "4a2bc217863857e244a4b86b27df1402af405e45bfd091a52c833f16d041e70d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libasound2-dev",
+    "libdbus-1-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "meson",
+    "python3",
+    "python3-dbus"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "dbus",
+    "dbus-python",
+    "libjack2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libdbus-1-dev": "dbus",
+    "python3": "python3",
+    "libasound2-dev": "alsa-lib",
+    "meson": "meson",
+    "python3-dbus": "dbus-python"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "python3-mypy",
+  "nix_pkg": null,
+  "control_file_hash": "b13c63b85e8fdd8ffbea19d29b46b92f350b2d2277dcee2f1ca8cab5ca9df5da",
+  "deb_inputs": [
+    "cython-doc",
+    "debhelper-compat",
+    "dh-python",
+    "flake8",
+    "help2man",
+    "mypy-doc",
+    "pybuild-plugin-pyproject",
+    "python-attr-doc",
+    "python-setuptools-doc",
+    "python-six-doc",
+    "python3-all",
+    "python3-all-dev",
+    "python3-distutils",
+    "python3-doc",
+    "python3-lxml",
+    "python3-mypy",
+    "python3-mypy-extensions",
+    "python3-pkg-resources",
+    "python3-psutil",
+    "python3-pytest-cov",
+    "python3-pytest-xdist",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-tomli",
+    "python3-typed-ast",
+    "python3-typeshed",
+    "python3-typing-extensions",
+    "python3-virtualenv",
+    "python3-wheel",
+    "python3.10-venv"
+  ],
+  "nix_inputs": [
+    "mypy-extensions",
+    "python3",
+    "setuptools",
+    "tomli",
+    "types-setuptools",
+    "types-typed-ast",
+    "typing-extensions"
+  ],
+  "map": {
+    "python3-pkg-resources": "setuptools",
+    "python-setuptools-doc": "setuptools",
+    "python3-setuptools": "setuptools"
+  }
+}

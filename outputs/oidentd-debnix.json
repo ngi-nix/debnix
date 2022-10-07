@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "oidentd",
+  "nix_pkg": null,
+  "control_file_hash": "459cc881f5cd873d1f401270f9d75c3dcd4ccc4a70ec3d6527005a98f667bc9f",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "debhelper",
+    "flex",
+    "iproute2",
+    "libnetfilter-conntrack-dev",
+    "lsb-base",
+    "netbase"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "ubertooth",
+  "nix_pkg": null,
+  "control_file_hash": "352a0545bcb8423dad200ec3e54b15684938e1dae6d6449479cb8493baac05c8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gcc-arm-none-eabi",
+    "libbluetooth-dev",
+    "libbtbb-dev",
+    "libnewlib-arm-none-eabi",
+    "libpcap-dev",
+    "libstdc++-arm-none-eabi-newlib",
+    "libubertooth-dev",
+    "libubertooth1",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python3",
+    "python3-all:any",
+    "python3-numpy",
+    "python3-pyside2.qtcore",
+    "python3-pyside2.qtgui",
+    "python3-pyside2.qtwidgets",
+    "txt2man",
+    "ubertooth",
+    "ubertooth-firmware",
+    "ubertooth-firmware-source"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "cmake",
+    "libbtbb",
+    "libpcap",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbtbb-dev": "libbtbb",
+    "libpcap-dev": "libpcap",
+    "libbluetooth-dev": "bluez",
+    "cmake": "cmake"
+  }
+}
