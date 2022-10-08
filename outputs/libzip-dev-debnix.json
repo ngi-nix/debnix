@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libzip-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d15c650e9820dab5546e2eefc397a07c87650531690f23e5a2723bbf81b67ea3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libssl-dev",
+    "libzip4",
+    "mandoc",
+    "unzip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "groff",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}

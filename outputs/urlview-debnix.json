@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "urlview",
+  "nix_pkg": null,
+  "control_file_hash": "593b6ddb035869e0a1c105d8b87217831d2b6d09c65d970397b77cd00ff60840",
+  "deb_inputs": [
+    "debhelper",
+    "elinks",
+    "lftp",
+    "libncurses-dev",
+    "mutt",
+    "ncftp",
+    "sensible-utils",
+    "snarf",
+    "wget",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

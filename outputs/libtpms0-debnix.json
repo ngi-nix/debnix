@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libtpms0",
+  "nix_pkg": null,
+  "control_file_hash": "8cf305ad7abf6a980302769d282d73b86bc89213520b25d48908cddf64939a78",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "gawk",
+    "libssl-dev",
+    "libtool",
+    "libtpms0",
+    "openssl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "libssl-dev": "openssl"
+  }
+}

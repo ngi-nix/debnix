@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "radeontop",
+  "nix_pkg": null,
+  "control_file_hash": "68e25575c85f6da2e625d4d72c837f958c27030bb421561072abcf446d168267",
+  "deb_inputs": [
+    "debhelper",
+    "libdrm-dev",
+    "libncurses5-dev",
+    "libpciaccess-dev",
+    "libxcb-dri2-0-dev",
+    "libxcb1-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libdrm",
+    "libpciaccess",
+    "libxcb",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxcb1-dev": "libxcb",
+    "libxcb-dri2-0-dev": "libxcb",
+    "libdrm-dev": "libdrm",
+    "libpciaccess-dev": "libpciaccess",
+    "libncurses5-dev": "ncurses"
+  }
+}

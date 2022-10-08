@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "imwheel",
+  "nix_pkg": null,
+  "control_file_hash": "189556b3c577055d4869b441334bd0599776feb0426c1682ab752f15e8950a24",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxmu-dev",
+    "libxtst-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXmu",
+    "libXt",
+    "libXtst"
+  ],
+  "map": {
+    "libxmu-dev": "libXmu",
+    "libxtst-dev": "libXtst",
+    "libx11-dev": "libX11"
+  }
+}

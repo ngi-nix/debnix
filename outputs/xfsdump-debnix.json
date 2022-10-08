@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "xfsdump",
+  "nix_pkg": null,
+  "control_file_hash": "366c4497016dbccda2d4b66abb9e6174e0977caf019e9fd7fa92ff85fb11cf25",
+  "deb_inputs": [
+    "acl",
+    "attr",
+    "autoconf",
+    "autotools-dev",
+    "debhelper",
+    "gettext",
+    "libattr1-dev",
+    "libncurses-dev",
+    "libtool",
+    "quota",
+    "uuid-dev",
+    "xfslibs-dev"
+  ],
+  "nix_inputs": [
+    "attr",
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "ncurses",
+    "util-linux-minimal",
+    "xfsprogs"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "gettext": "gettext",
+    "attr": "attr",
+    "libtool": "libtool",
+    "libncurses-dev": "ncurses",
+    "libattr1-dev": "attr",
+    "xfslibs-dev": "xfsprogs"
+  }
+}

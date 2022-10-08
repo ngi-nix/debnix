@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "alsa-oss",
+  "nix_pkg": null,
+  "control_file_hash": "f28344c7f362dc3a69aec03e1799b63136e6ba828f8c44397f8b8139f69b11ab",
+  "deb_inputs": [
+    "debhelper",
+    "libasound2-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "gettext",
+    "libsamplerate",
+    "ncurses"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "mypaint-brushes",
+  "nix_pkg": null,
+  "control_file_hash": "e5c59e04723a49afa8cd39e783367ac3b92e8ecae42ea2f5c30649dd00d5252a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

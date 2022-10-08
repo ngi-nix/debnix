@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "jamin",
+  "nix_pkg": null,
+  "control_file_hash": "65f0d2a680712a2610f441711ef663d36571ecdc82d60bdae33a01ff5d8417af",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-autoreconf",
+    "dh-buildinfo",
+    "docbook-to-man",
+    "fftw3-dev",
+    "indent",
+    "intltool",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libclutter-gtk-1.0-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "libxml-parser-perl",
+    "libxml2-dev",
+    "swh-plugins"
+  ],
+  "nix_inputs": [
+    "XML-Parser",
+    "fftw-single",
+    "gtk+",
+    "libjack2",
+    "liblo",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper",
+    "swh-plugins"
+  ],
+  "map": {
+    "liblo-dev": "liblo",
+    "libxml2-dev": "libxml2",
+    "swh-plugins": "swh-plugins"
+  }
+}

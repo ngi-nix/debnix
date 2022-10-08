@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "scite",
+  "nix_pkg": null,
+  "control_file_hash": "77268386ba1b7898058f692f2e45fd4407f908ddb2d32c95cd27736b326bd5df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "liblua5.3-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk-3-dev": "gtk+"
+  }
+}

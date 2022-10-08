@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "binwalk",
+  "nix_pkg": null,
+  "control_file_hash": "5fda75d7daa99f8bbf1f305b86ae22aad4c2ddee6baad42542b12b2d4f0a2b2b",
+  "deb_inputs": [
+    "arj",
+    "bzip2",
+    "cramfsswap",
+    "debhelper-compat",
+    "dh-python",
+    "libmagic1",
+    "mtd-utils",
+    "ncompress",
+    "p7zip",
+    "p7zip-full",
+    "python3-all",
+    "python3-binwalk",
+    "python3-coverage",
+    "python3-nose",
+    "python3-pyqtgraph",
+    "python3-setuptools",
+    "sleuthkit",
+    "squashfs-tools"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "cabextract",
+    "cramfsprogs",
+    "cramfsswap",
+    "gnutar",
+    "gzip",
+    "nose",
+    "p7zip",
+    "pycrypto",
+    "python3",
+    "sasquatch",
+    "squashfs",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "bzip2": "bzip2",
+    "p7zip": "p7zip",
+    "python3-nose": "nose",
+    "p7zip-full": "p7zip",
+    "cramfsswap": "cramfsswap"
+  }
+}

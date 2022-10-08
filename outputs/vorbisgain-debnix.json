@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "vorbisgain",
+  "nix_pkg": null,
+  "control_file_hash": "411142e1838354e6af0f592fb34066cabafdfdffc1d8b07eda2f8ffaf11463a7",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libogg-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "libvorbis"
+  ],
+  "map": {
+    "libogg-dev": "libogg",
+    "libvorbis-dev": "libvorbis"
+  }
+}

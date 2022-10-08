@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "flowblade",
+  "nix_pkg": null,
+  "control_file_hash": "540e97678c7ed3e10eedd3ff0eda6bc88693d7ac5d67b6faa6d9a9dcd30b644c",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-buildinfo",
+    "dh-python",
+    "libfont-ttf-perl",
+    "libimage-exiftool-perl",
+    "libmlt-data",
+    "libregexp-assemble-perl",
+    "licensecheck",
+    "python3",
+    "python3-distutils",
+    "python3-opencv"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "frei0r-plugins",
+    "gobject-introspection",
+    "gtk+3",
+    "sox",
+    "swh-plugins"
+  ],
+  "map": {}
+}

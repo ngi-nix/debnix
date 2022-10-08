@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "xcompmgr",
+  "nix_pkg": null,
+  "control_file_hash": "1ef729c29ef7a0b09ddf5ee83f636c6b86959c7de7a457aae65b3ce7f24827ae",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "libx11-dev",
+    "libxcomposite-dev",
+    "libxdamage-dev",
+    "libxfixes-dev",
+    "libxrender-dev",
+    "pkg-config",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "libXcomposite",
+    "libXdamage",
+    "libXext",
+    "libXfixes",
+    "libXrender",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxdamage-dev": "libXdamage",
+    "libxrender-dev": "libXrender",
+    "libxcomposite-dev": "libXcomposite",
+    "libxfixes-dev": "libXfixes"
+  }
+}
