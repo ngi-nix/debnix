@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "viewnior",
+  "nix_pkg": null,
+  "control_file_hash": "f70687fddfec9c41cddf00f9a2b68492b49890c95d188bae0da0ada3d937a84f",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "intltool",
+    "libexiv2-dev",
+    "libgtk2.0-dev"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "exiv2",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gtk+",
+    "intltool",
+    "lcms",
+    "libpng-apng",
+    "meson",
+    "ninja",
+    "perl",
+    "pkg-config-wrapper",
+    "shared-mime-info"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libexiv2-dev": "exiv2",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

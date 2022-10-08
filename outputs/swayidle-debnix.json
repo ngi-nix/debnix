@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "swayidle",
+  "nix_pkg": null,
+  "control_file_hash": "1cda50027392406628143dbe09c3ea77ce23d9f1e3baf032469c9250ad458a8a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsystemd-dev",
+    "libwayland-dev",
+    "meson",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "systemd",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "wayland-protocols": "wayland-protocols",
+    "libwayland-dev": "wayland",
+    "meson": "meson",
+    "scdoc": "scdoc",
+    "libsystemd-dev": "systemd"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "pysolfc",
+  "nix_pkg": null,
+  "control_file_hash": "19ca72cf3069f987a1f628bce8683f8cdd4142b20c0e509a699f4b8192a451dd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "freecell-solver-bin",
+    "pysolfc-cardsets",
+    "python3-all",
+    "python3-configobj",
+    "python3-pil.imagetk",
+    "python3-pygame",
+    "python3-random2",
+    "python3-six",
+    "python3-tk"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "freecell-solver",
+    "pillow",
+    "pygame",
+    "python3",
+    "random2",
+    "six",
+    "tkinter"
+  ],
+  "map": {
+    "python3-pygame": "pygame",
+    "python3-six": "six",
+    "python3-pil.imagetk": "pillow",
+    "freecell-solver-bin": "freecell-solver"
+  }
+}

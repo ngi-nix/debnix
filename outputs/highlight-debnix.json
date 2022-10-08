@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "highlight",
+  "nix_pkg": null,
+  "control_file_hash": "370a057923bf527f6b61764ab3a3c977430e971860ebb484f5044db3cd84a17e",
+  "deb_inputs": [
+    "debhelper",
+    "highlight-common",
+    "libboost-dev",
+    "liblua5.2-dev",
+    "pkg-config",
+    "swig"
+  ],
+  "nix_inputs": [
+    "boost",
+    "getopt",
+    "lua",
+    "perl",
+    "pkg-config-wrapper",
+    "swig"
+  ],
+  "map": {
+    "swig": "swig",
+    "libboost-dev": "boost",
+    "liblua5.2-dev": "lua"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "jp2a",
+  "nix_pkg": null,
+  "control_file_hash": "6faf2ed4970d67b8f0149693ea5e04632b6c3ab36b921cb2c1b9bd3fb8b7dc94",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libcurl4-gnutls-dev",
+    "libjpeg-dev",
+    "libncurses5-dev",
+    "libpng-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "bash-completion",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "autoconf-archive": "autoconf-archive",
+    "libncurses5-dev": "ncurses",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

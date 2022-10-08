@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "evtest",
+  "nix_pkg": null,
+  "control_file_hash": "1a913d23caf99ac8fadf8a3177dba1ca4b49aa85027f5cc073e46bf84a32ee53",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "evemu-tools",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

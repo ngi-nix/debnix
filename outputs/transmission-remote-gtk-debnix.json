@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "transmission-remote-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "1c27e37d55773be40394f1e4452edabef4548d4c274f3d10f8c018558198ddc6",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "gettext",
+    "libappstream-glib-dev",
+    "libcurl-ssl-dev",
+    "libcurl4-openssl-dev",
+    "libgeoip-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libjson-glib-dev",
+    "libnotify-dev",
+    "libproxy-dev",
+    "meson",
+    "perl"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "curl",
+    "desktop-file-utils",
+    "geoip",
+    "gettext",
+    "glib",
+    "gtk+3",
+    "json-glib",
+    "libappindicator-gtk3",
+    "libmrss",
+    "libproxy",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjson-glib-dev": "json-glib",
+    "gettext": "gettext",
+    "libgeoip-dev": "geoip",
+    "libglib2.0-dev": "glib",
+    "appstream-util": "appstream-glib",
+    "libproxy-dev": "libproxy",
+    "libappstream-glib-dev": "appstream-glib",
+    "meson": "meson",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

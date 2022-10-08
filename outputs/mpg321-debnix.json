@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "mpg321",
+  "nix_pkg": null,
+  "control_file_hash": "8223a8d4b444f54272c3508c00d5b1d8e2aa0d26d7a3233981736a74099a5ed9",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libao-dev",
+    "libasound2-dev",
+    "libaudio-scrobbler-perl",
+    "libid3tag0-dev",
+    "libmad0-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libao",
+    "libid3tag",
+    "libmad",
+    "zlib"
+  ],
+  "map": {
+    "libao-dev": "libao",
+    "libasound2-dev": "alsa-lib",
+    "libid3tag0-dev": "libid3tag",
+    "libmad0-dev": "libmad",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "foot-terminfo",
+  "nix_pkg": null,
+  "control_file_hash": "dfc63eb1ac51a87d048395da56ec94e43582185430ea0c017d3390002e8cc22f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "foot-terminfo",
+    "foot-themes",
+    "libfcft-dev",
+    "libffi-dev",
+    "libfontconfig-dev",
+    "libfreetype6-dev",
+    "libharfbuzz-dev",
+    "libpixman-1-dev",
+    "libtllist-dev",
+    "libwayland-dev",
+    "libxkbcommon-dev",
+    "meson",
+    "ninja-build",
+    "pkg-config",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "fcft",
+    "fontconfig",
+    "freetype",
+    "libxkbcommon",
+    "meson",
+    "ncurses",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "scdoc",
+    "tllist",
+    "utf8proc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libpixman-1-dev": "pixman",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols",
+    "libfcft-dev": "fcft",
+    "libfontconfig-dev": "fontconfig",
+    "libfreetype6-dev": "freetype",
+    "meson": "meson",
+    "libtllist-dev": "tllist",
+    "scdoc": "scdoc",
+    "libxkbcommon-dev": "libxkbcommon"
+  }
+}

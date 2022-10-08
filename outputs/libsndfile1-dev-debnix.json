@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libsndfile1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "23f081a929536e7c399efb17f40889f576a0f761cf96acee647481c2a160307f",
+  "deb_inputs": [
+    "autogen",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libflac-dev",
+    "libmp3lame-dev",
+    "libmpg123-dev",
+    "libogg-dev",
+    "libopus-dev",
+    "libsndfile1",
+    "libspeex-dev",
+    "libsqlite3-dev",
+    "libvorbis-dev",
+    "pkg-config",
+    "python3:any",
+    "sndfile-tools"
+  ],
+  "nix_inputs": [
+    "autogen",
+    "flac",
+    "libogg",
+    "libopus",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libopus-dev": "libopus",
+    "libvorbis-dev": "libvorbis",
+    "autogen": "autogen",
+    "libogg-dev": "libogg",
+    "libflac-dev": "flac"
+  }
+}

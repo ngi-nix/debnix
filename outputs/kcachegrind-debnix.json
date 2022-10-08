@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "kcachegrind",
+  "nix_pkg": null,
+  "control_file_hash": "e3cf7ccc66c3b7c1f30916cc2afb4f9ea20082f0ee19af7652a19de55ab020bd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "graphviz",
+    "kcachegrind",
+    "kcachegrind-converters",
+    "khelpcenter",
+    "libkf5archive-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "php-cli",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "valgrind"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "karchive",
+    "kdbusaddons",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "perl",
+    "python3",
+    "qttools"
+  ],
+  "map": {
+    "libkf5kio-dev": "kio",
+    "qttools5-dev": "qttools",
+    "libkf5archive-dev": "karchive",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5dbusaddons-dev": "kdbusaddons",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

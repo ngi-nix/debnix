@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "unp",
+  "nix_pkg": null,
+  "control_file_hash": "cbbb8e6b7792ea37363ea5e33bfe6354947ff56bf8c902a1e4e93c988c7b96e6",
+  "deb_inputs": [
+    "bash-completion",
+    "bzip2",
+    "cabextract",
+    "debhelper",
+    "lhasa",
+    "orange",
+    "p7zip",
+    "p7zip-full",
+    "unrar",
+    "unrar-free",
+    "unzip",
+    "xdms"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

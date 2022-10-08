@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "luckybackup-data",
+  "nix_pkg": null,
+  "control_file_hash": "f832ccca204421314e9764e3f3403e62bdf77f3ed459ed0801844092385ffcdb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "luckybackup",
+    "luckybackup-data",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "rsync"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "openssh",
+    "pkg-config-wrapper",
+    "rsync"
+  ],
+  "map": {
+    "rsync": "rsync"
+  }
+}

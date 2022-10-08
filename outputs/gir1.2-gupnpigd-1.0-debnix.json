@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "gir1.2-gupnpigd-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "8fffb0a8773d69bfc651acb13f3c162b98e6d45d3b23a2be1c2b29b1b7389362",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper",
+    "gir1.2-gupnpigd-1.0",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgssdp-1.2-dev",
+    "libgupnp-1.2-dev",
+    "libgupnp-igd-1.0-4",
+    "meson"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "gupnp",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "gobject-introspection": "gobject-introspection",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "libgupnp-1.2-dev": "gupnp",
+    "libglib2.0-dev": "glib"
+  }
+}

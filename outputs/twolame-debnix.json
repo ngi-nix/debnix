@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "twolame",
+  "nix_pkg": null,
+  "control_file_hash": "cbbda6d02a5b709708bbb1a99c372a585c28b3a5b5f135d886e0d2cbdfad1201",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsndfile1-dev",
+    "libtwolame0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

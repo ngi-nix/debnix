@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "atool",
+  "nix_pkg": null,
+  "control_file_hash": "ff384779d195619b4bcbceaed847ac7327d667f736d75fd69bcbfaa8d75e5a6f",
+  "deb_inputs": [
+    "arc",
+    "arj",
+    "bash-completion",
+    "binutils",
+    "cpio",
+    "debhelper-compat",
+    "file",
+    "lbzip2",
+    "lzip",
+    "lzma",
+    "lzop",
+    "nomarch",
+    "p7zip-full",
+    "pbzip2",
+    "rar",
+    "rpm",
+    "unace",
+    "unalz",
+    "unrar",
+    "unzip",
+    "xz-utils",
+    "zip",
+    "zstd"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

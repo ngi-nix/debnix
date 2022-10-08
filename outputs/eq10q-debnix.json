@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "eq10q",
+  "nix_pkg": null,
+  "control_file_hash": "4dd705a669af6ad361b1e41a5e6245ae5b7fabe76114f0e88421a1d90b8dca67",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfftw3-dev",
+    "libgtkmm-2.4-dev",
+    "lv2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fftw-double",
+    "gtkmm",
+    "libXdmcp",
+    "libpthread-stubs",
+    "libxcb",
+    "libxshmfence",
+    "lv2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "lv2-dev": "lv2",
+    "cmake": "cmake",
+    "libgtkmm-2.4-dev": "gtkmm"
+  }
+}

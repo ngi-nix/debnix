@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "yad",
+  "nix_pkg": null,
+  "control_file_hash": "23e5901c56d373389ecc54d7d4e10da4d39e9b98aac1f72ae632c8e5af700787",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "intltool",
+    "libgtk-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "hicolor-icon-theme",
+    "intltool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool"
+  }
+}

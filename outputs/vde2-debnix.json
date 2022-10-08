@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "vde2",
+  "nix_pkg": null,
+  "control_file_hash": "5c2b39a271c847fb6da9e3555e467305eba5e561491c43da8b4bb0f308546cfe",
+  "deb_inputs": [
+    "adduser",
+    "cdbs",
+    "debhelper",
+    "libpcap-dev",
+    "libpcap0.8",
+    "libssl-dev",
+    "libvde0",
+    "libvdeplug-dev",
+    "libvdeplug2",
+    "qemu-system",
+    "quilt",
+    "vde-switch",
+    "vde-wirefilter",
+    "vde2-cryptcab",
+    "vdeplug"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "wolfssl"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap",
+    "libpcap0.8": "libpcap"
+  }
+}

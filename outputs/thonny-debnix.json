@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "thonny",
+  "nix_pkg": null,
+  "control_file_hash": "3f40ffbb82d2b41ea15d4e2b5f122055ffdb7d3aed8f58206739333933571ef7",
+  "deb_inputs": [
+    "debhelper",
+    "dh-exec",
+    "dh-python",
+    "mypy",
+    "pylint",
+    "python3-all",
+    "python3-asttokens",
+    "python3-distro",
+    "python3-docutils",
+    "python3-jedi",
+    "python3-pip",
+    "python3-pkg-resources",
+    "python3-send2trash",
+    "python3-serial",
+    "python3-setuptools",
+    "python3-tk",
+    "python3-venv",
+    "xsel",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "Send2Trash",
+    "asttokens",
+    "docutils",
+    "jedi",
+    "mypy",
+    "pylint",
+    "pyperclip",
+    "pyserial",
+    "python3",
+    "tkinter"
+  ],
+  "map": {
+    "python3-send2trash": "Send2Trash",
+    "pylint": "pylint",
+    "python3-serial": "pyserial",
+    "mypy": "mypy"
+  }
+}

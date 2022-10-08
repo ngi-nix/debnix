@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "gmrun",
+  "nix_pkg": null,
+  "control_file_hash": "beb453fb8e23136256a2c4ecf2b42a3553a8df977fc277b7f636332e9507d3f2",
+  "deb_inputs": [
+    "debhelper",
+    "libgtk2.0-dev",
+    "libpopt-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

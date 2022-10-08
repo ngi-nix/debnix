@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "pidgin-otr",
+  "nix_pkg": null,
+  "control_file_hash": "9a10409e337f16cc2b3b7f022b35d09f2e7b77228448c0d83e4b52b2a70d49a7",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg-dev",
+    "intltool",
+    "libgcrypt20-dev",
+    "libglib2.0-dev",
+    "libgpg-error-dev",
+    "libgtk2.0-dev",
+    "libotr5-dev",
+    "libxml-parser-perl",
+    "pidgin-dev"
+  ],
+  "nix_inputs": [
+    "intltool",
+    "libotr",
+    "pidgin"
+  ],
+  "map": {
+    "pidgin-dev": "pidgin",
+    "intltool": "intltool",
+    "libotr5-dev": "libotr"
+  }
+}

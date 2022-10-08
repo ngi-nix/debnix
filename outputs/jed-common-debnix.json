@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "jed-common",
+  "nix_pkg": null,
+  "control_file_hash": "4150bfef549cb92e0059b61cc39e54d3e4779f55198bf8b0d74cb01060498abc",
+  "deb_inputs": [
+    "autoconf",
+    "chrpath",
+    "debhelper",
+    "debhelper-compat",
+    "gpm",
+    "info",
+    "info-browser",
+    "jed-common",
+    "libgpm-dev",
+    "libslang2-dev",
+    "libxft-dev",
+    "libxt-dev",
+    "pkg-config",
+    "slsh"
+  ],
+  "nix_inputs": [
+    "gpm",
+    "libXext",
+    "libXft",
+    "libXt",
+    "ncurses-abi5-compat",
+    "pkg-config-wrapper",
+    "slang"
+  ],
+  "map": {
+    "gpm": "gpm",
+    "libxft-dev": "libXft",
+    "libgpm-dev": "gpm",
+    "slsh": "slang",
+    "libxt-dev": "libXt",
+    "libslang2-dev": "slang"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "fakechroot",
+  "nix_pkg": null,
+  "control_file_hash": "f602b1572df2251c98359908b46205819e476833e89914862c2094d619b3bd28",
+  "deb_inputs": [
+    "binutils",
+    "debhelper-compat",
+    "dpkg-dev",
+    "gnu-which",
+    "libfakechroot",
+    "libjemalloc-dev"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

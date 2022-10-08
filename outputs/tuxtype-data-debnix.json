@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "tuxtype-data",
+  "nix_pkg": null,
+  "control_file_hash": "7d9acdfed85feff44f072f2cf75c1590b439a04a53c989a387d4eb06ea8a6460",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-beng",
+    "fonts-deva",
+    "fonts-gujr",
+    "fonts-guru",
+    "fonts-knda",
+    "fonts-orya",
+    "fonts-sil-andika",
+    "fonts-sil-doulos",
+    "fonts-taml",
+    "fonts-telu",
+    "librsvg2-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl-net1.2-dev",
+    "libsdl-pango-dev",
+    "libsdl-ttf2.0-dev",
+    "libsdl1.2-dev",
+    "libt4k-common0-dev",
+    "tuxtype",
+    "tuxtype-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_net",
+    "SDL_ttf",
+    "librsvg",
+    "libxml2",
+    "pkg-config-wrapper",
+    "t4kcommon"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-ttf2.0-dev": "SDL_ttf",
+    "librsvg2-dev": "librsvg",
+    "libsdl-net1.2-dev": "SDL_net",
+    "libt4k-common0-dev": "t4kcommon",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

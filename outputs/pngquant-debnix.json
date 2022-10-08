@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "pngquant",
+  "nix_pkg": null,
+  "control_file_hash": "5ccca8b58f9d83af0f0d2e3d8ab43503eaa3843167164269e62510f14e42c74d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libimagequant-dev",
+    "liblcms2-dev",
+    "libpng-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "lcms2",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "liblcms2-dev": "lcms2"
+  }
+}

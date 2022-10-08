@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libcfitsio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cc83e11475a8d85dc0da65a685f377522dbd575225ee4e6e7526537e2fc8b17d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcfitsio-dev",
+    "libcfitsio-doc",
+    "libcfitsio9"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "zlib"
+  ],
+  "map": {}
+}

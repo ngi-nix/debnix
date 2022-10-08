@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "retext",
+  "nix_pkg": null,
+  "control_file_hash": "d3e4ba6f0cd227399b135c04167889eb21be28bdeea517300bf508e43910ca4b",
+  "deb_inputs": [
+    "adwaita-icon-theme",
+    "debhelper-compat",
+    "dh-python",
+    "docutils-common",
+    "gir1.2-glib-2.0",
+    "gsettings-desktop-schemas",
+    "imagemagick",
+    "libjs-mathjax",
+    "python3-all",
+    "python3-chardet",
+    "python3-docutils",
+    "python3-enchant",
+    "python3-markdown",
+    "python3-markups",
+    "python3-pygments",
+    "python3-pyqt6",
+    "python3-pyqt6.qtwebengine",
+    "python3-setuptools",
+    "qmake6",
+    "qt6-l10n-tools",
+    "qt6-qpa-plugins",
+    "shared-mime-info",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "chardet",
+    "docutils",
+    "markdown",
+    "markups",
+    "pyenchant",
+    "pygments",
+    "python3"
+  ],
+  "map": {
+    "python3-enchant": "pyenchant",
+    "python3-pygments": "pygments",
+    "python3-chardet": "chardet"
+  }
+}

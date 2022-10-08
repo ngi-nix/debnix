@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libastyle3",
+  "nix_pkg": null,
+  "control_file_hash": "5331fbd54746974fa11448b59ed382491dcbb3838e7d79daad9478feeaa399e2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "default-jdk",
+    "dh-exec",
+    "libastyle3",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

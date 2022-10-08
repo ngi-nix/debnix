@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["automake", "debhelper-compat", "gnome-common", "intltool", "libdbus-glib-1-dev", "libgtk-3-dev", "libnm-dev", "libnma-dev", "libsecret-1-dev", "network-manager", "network-manager-dev", "pkg-config", "strongswan-nm"], or 
+output: 
+[] is empty!

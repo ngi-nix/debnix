@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "rmlint",
+  "nix_pkg": null,
+  "control_file_hash": "e0cf5c8a338e9df06e7ba55bb0e0fae96c2f1367541f474de05212b9dd45e05d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "fonts-vollkorn",
+    "gir1.2-gtksource-3.0",
+    "gir1.2-polkit-1.0",
+    "gir1.2-rsvg-2.0",
+    "libblkid-dev",
+    "libelf-dev",
+    "libglib2.0-dev",
+    "libjs-bootstrap",
+    "libjs-bootswatch",
+    "libjs-jquery",
+    "libjs-mathjax",
+    "libjson-glib-dev",
+    "pkg-config",
+    "python3",
+    "python3-colorlog",
+    "python3-gi-cairo",
+    "python3-nose",
+    "python3-parameterized",
+    "python3-psutil",
+    "python3-sphinx",
+    "python3-sphinx-bootstrap-theme",
+    "rmlint-doc",
+    "rmlint-gui",
+    "rmlint:any",
+    "scons"
+  ],
+  "nix_inputs": [
+    "glib",
+    "json-glib",
+    "libelf",
+    "pkg-config-wrapper",
+    "scons",
+    "sphinx",
+    "util-linux"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "scons": "scons",
+    "libjson-glib-dev": "json-glib",
+    "python3-sphinx": "sphinx",
+    "libelf-dev": "libelf",
+    "libblkid-dev": "util-linux"
+  }
+}
