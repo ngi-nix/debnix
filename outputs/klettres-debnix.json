@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "klettres",
+  "nix_pkg": null,
+  "control_file_hash": "65706c857f466f07a5786d10b15ac8e9dcf0bd336b4a54fc5787250492943594",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "klettres-data",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5newstuff-dev",
+    "libkf5widgetsaddons-dev",
+    "libphonon4qt5-dev",
+    "libphonon4qt5experimental-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "knewstuff",
+    "phonon"
+  ],
+  "map": {
+    "libphonon4qt5experimental-dev": "phonon",
+    "libphonon4qt5-dev": "phonon",
+    "libkf5doctools-dev": "kdoctools",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5newstuff-dev": "knewstuff",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

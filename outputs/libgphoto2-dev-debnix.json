@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libgphoto2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5b2c99936e80762056d90986a77288a7cae486e6e44e1e2fe892e601100c83a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gphoto2",
+    "graphviz",
+    "libcurl4-openssl-dev",
+    "libexif-dev",
+    "libgd-dev",
+    "libgphoto2-6",
+    "libgphoto2-l10n",
+    "libjpeg-dev",
+    "libltdl-dev",
+    "libtool",
+    "libusb-1.0-0-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "rdfind",
+    "symlinks",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "gd",
+    "gettext",
+    "libexif",
+    "libjpeg-turbo",
+    "libtool",
+    "libusb",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libexif-dev": "libexif",
+    "libcurl4-openssl-dev": "curl",
+    "libxml2-dev": "libxml2",
+    "libtool": "libtool",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libltdl-dev": "libtool",
+    "libgd-dev": "gd"
+  }
+}

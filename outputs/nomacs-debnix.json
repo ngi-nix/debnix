@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "nomacs",
+  "nix_pkg": null,
+  "control_file_hash": "89d7d10f11890a3caa476be629caa863b81bc2240a985e0a02b3d1ff54242ab1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "lcov",
+    "libexiv2-dev",
+    "liblcms2-dev",
+    "libopencv-dev",
+    "libqt5svg5-dev",
+    "libquazip5-dev",
+    "libraw-dev",
+    "libtiff5-dev",
+    "libwebp-dev",
+    "nomacs-l10n",
+    "qt5-image-formats-plugins",
+    "qt5-qmake",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "exiv2",
+    "libraw",
+    "libtiff",
+    "opencv",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtimageformats",
+    "qtsvg",
+    "qttools",
+    "quazip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libquazip5-dev": "quazip",
+    "qttools5-dev": "qttools",
+    "libexiv2-dev": "exiv2",
+    "libraw-dev": "libraw",
+    "libopencv-dev": "opencv",
+    "libtiff5-dev": "libtiff"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["asciidoctor", "debhelper-compat", "gem2deb", "puma", "rainbows", "rake", "ruby-builder", "ruby-creole", "ruby-erubis", "ruby-haml", "ruby-http", "ruby-json", "ruby-kramdown", "ruby-liquid", "ruby-maruku", "ruby-minitest", "ruby-multi-json", "ruby-mustermann", "ruby-nokogiri", "ruby-rabl", "ruby-rack", "ruby-rack-test", "ruby-rdiscount", "ruby-redcarpet", "ruby-redcloth", "ruby-sass", "ruby-slim", "ruby-tilt", "ruby-wikicloth", "ruby-yajl", "thin"], or 
+output: 
+[] is empty!

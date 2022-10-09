@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "sqlite",
+  "nix_pkg": null,
+  "control_file_hash": "ae9eab56864fd13e49a33dec3c665c7d3a02a92b0f2325e558c4ac1938203de5",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "libc6-dev",
+    "libreadline-dev",
+    "libsqlite0",
+    "libtool",
+    "sqlite",
+    "sqlite-doc",
+    "sqlite3",
+    "tcl8.6-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "muon",
+  "nix_pkg": null,
+  "control_file_hash": "1fb5daad92bd5918795335854a876922e4d33c29f42486d6c6772bb757be0cc7",
+  "deb_inputs": [
+    "apt-xapian-index",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libdebconf-kde-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5kio-dev",
+    "libkf5xmlgui-dev",
+    "libqapt-dev",
+    "libqapt3",
+    "libqapt3-runtime",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "libarchive",
+    "pkgconf",
+    "pkgconf-wrapper",
+    "samurai",
+    "scdoc",
+    "zlib"
+  ],
+  "map": {}
+}

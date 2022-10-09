@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libedit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "de87c65c12e6139bcf11b32feaf77f90adee07c6c5d0d890b6a2cf602a2163d3",
+  "deb_inputs": [
+    "bsdmainutils",
+    "debhelper-compat",
+    "groff-base",
+    "libbsd-dev",
+    "libedit-dev",
+    "libedit2",
+    "libncurses-dev",
+    "libtinfo-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libtinfo-dev": "ncurses",
+    "libncurses-dev": "ncurses"
+  }
+}

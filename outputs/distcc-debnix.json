@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "distcc",
+  "nix_pkg": null,
+  "control_file_hash": "57ba242519778b58ca5ee3e6cb59ba05d8d6ed46710fa6ea0f804ae96ae027be",
+  "deb_inputs": [
+    "adduser",
+    "ccache",
+    "dbus",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "distcc",
+    "distcc-pump",
+    "distccmon-gnome",
+    "dmucs",
+    "libavahi-client-dev",
+    "libgtk-3-dev",
+    "libiberty-dev",
+    "libkrb5-dev",
+    "libpopt-dev",
+    "libzstd-dev",
+    "lsb-base",
+    "netbase",
+    "po-debconf",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "avahi",
+    "gtk+3",
+    "libiberty",
+    "pkg-config-wrapper",
+    "popt",
+    "procps",
+    "python3",
+    "which"
+  ],
+  "map": {
+    "python3-dev": "python3",
+    "libavahi-client-dev": "avahi",
+    "libpopt-dev": "popt",
+    "libiberty-dev": "libiberty"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libinput-dev",
+  "nix_pkg": null,
+  "control_file_hash": "be7728224c3a6a0937022f4dc954758893a8b87952a8a99c6ddd7668943e15ad",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "libevdev-dev",
+    "libgtk-3-dev",
+    "libinput-bin",
+    "libinput10",
+    "libmtdev-dev",
+    "libudev-dev",
+    "libwacom-dev",
+    "meson",
+    "pkg-config",
+    "python3",
+    "python3-libevdev",
+    "python3-pyudev"
+  ],
+  "nix_inputs": [
+    "libevdev",
+    "libwacom",
+    "meson",
+    "mtdev",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libevdev-dev": "libevdev",
+    "libwacom-dev": "libwacom",
+    "meson": "meson",
+    "libmtdev-dev": "mtdev",
+    "libudev-dev": "systemd"
+  }
+}

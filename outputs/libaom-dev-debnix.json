@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libaom-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c29aef5e6db9948f758e54b8892f145cbad5b4668cba52cedaec2e7ee18b22ea",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libaom3",
+    "libjs-mathjax",
+    "libyuv-dev",
+    "yasm"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libjxl",
+    "libvmaf",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "yasm"
+  ],
+  "map": {
+    "yasm": "yasm",
+    "cmake": "cmake"
+  }
+}

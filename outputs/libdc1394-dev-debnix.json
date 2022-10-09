@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libdc1394-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2390d3df4111669c73f4482f740dfacf518acbeb83a274bbf7117b02be112aea",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen-latex",
+    "libdc1394-25",
+    "libraw1394-dev",
+    "libusb-1.0-0-dev",
+    "libx11-dev",
+    "libxv-dev",
+    "pkg-config",
+    "texlive-fonts-recommended",
+    "texlive-latex-recommended"
+  ],
+  "nix_inputs": [
+    "libraw1394",
+    "libusb"
+  ],
+  "map": {
+    "libraw1394-dev": "libraw1394"
+  }
+}

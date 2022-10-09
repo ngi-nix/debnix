@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libgtest-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d12c41856c3c301619f56a1285f4a6e2aea5fed8dc25233fb158d083c312d649",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "googletest",
+    "libgtest-dev",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

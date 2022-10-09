@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libassuan-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a154e83612b8c3903701dc62b1acc4ef16836732a36cd90be08cc04d8a6e1ec7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg",
+    "libassuan0",
+    "libgpg-error-dev",
+    "libgpg-error-mingw-w64-dev",
+    "mingw-w64",
+    "wine"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "npth"
+  ],
+  "map": {}
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "drawing",
+  "nix_pkg": null,
+  "control_file_hash": "7ecbdc0a21975b791bb67122b9356d764e8bdc068d809288c900457130104851",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-sequence-python3",
+    "dh-sequence-single-binary",
+    "gir1.2-gtk-3.0",
+    "itstool",
+    "jq",
+    "libglib2.0-dev-bin",
+    "meson",
+    "pkgconf",
+    "python3-all",
+    "python3-gi-cairo"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "itstool",
+    "meson",
+    "ninja",
+    "pango",
+    "pkg-config-wrapper",
+    "pycairo",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "desktop-file-utils": "desktop-file-utils",
+    "itstool": "itstool",
+    "libglib2.0-dev-bin": "glib",
+    "meson": "meson",
+    "python3-gi-cairo": "pygobject"
+  }
+}

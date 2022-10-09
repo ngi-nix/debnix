@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "cramfsswap",
+  "nix_pkg": null,
+  "control_file_hash": "7e4bcb088b48714a6ab0f5d402f85a3abdb18d70352f23c8a63010ab194b8deb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

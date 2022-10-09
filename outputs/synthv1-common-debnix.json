@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "synthv1-common",
+  "nix_pkg": null,
+  "control_file_hash": "4b3088d4f64a0b5b943da65336d9aff3d5c4bc2483a4ccd795731f7d133142de",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libqt6svg6-dev",
+    "libsndfile1-dev",
+    "libx11-dev",
+    "lv2-dev",
+    "qt6-base-dev",
+    "qt6-tools-dev-tools",
+    "synthv1-common"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "liblo",
+    "lv2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "lv2-dev": "lv2",
+    "liblo-dev": "liblo"
+  }
+}

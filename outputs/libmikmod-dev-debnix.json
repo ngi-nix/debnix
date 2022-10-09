@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libmikmod-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fdff069d086ac24362ee9b3d8ab10b3c77f2e02f656fb71099a432e22e625284",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libc6-dev",
+    "libmikmod-dev",
+    "libmikmod3",
+    "libopenal-dev",
+    "libpulse-dev",
+    "libsdl2-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libpulseaudio",
+    "texinfo"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "texinfo": "texinfo"
+  }
+}
