@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "speex",
+  "nix_pkg": null,
+  "control_file_hash": "4e5e710b47a5da4b736363fb13317fd5ffbc0284c10e0b9bb4a1fbc68b36b45a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libogg-dev",
+    "libspeex1",
+    "pkg-config",
+    "speex",
+    "speex-doc"
+  ],
+  "nix_inputs": [
+    "fftw-single",
+    "pkg-config-wrapper",
+    "speexdsp"
+  ],
+  "map": {}
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libgd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bcf74301e9032a2f4f21879374b77394aef559a03e9d2f073e815f330024b2da",
+  "deb_inputs": [
+    "base-files",
+    "debhelper",
+    "libavif-dev",
+    "libfontconfig-dev",
+    "libfreetype6-dev",
+    "libgd-dev",
+    "libgd-tools",
+    "libgd3",
+    "libheif-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libvpx-dev",
+    "libwebp-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libz-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "fontconfig",
+    "freetype",
+    "libavif",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libwebp",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libavif-dev": "libavif",
+    "libfontconfig-dev": "fontconfig",
+    "libwebp-dev": "libwebp",
+    "libfreetype6-dev": "freetype"
+  }
+}

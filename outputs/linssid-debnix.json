@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "linssid",
+  "nix_pkg": null,
+  "control_file_hash": "ca33901c0301b32ccea1909256456c55fea610a68abcaab58f2ea77695813572",
+  "deb_inputs": [
+    "debhelper-compat",
+    "iw",
+    "libboost-regex-dev",
+    "libqt5svg5-dev",
+    "libqwt-dev",
+    "libqwt-headers",
+    "libqwt-qt5-6",
+    "policykit-1",
+    "qtbase5-dev",
+    "wireless-tools"
+  ],
+  "nix_inputs": [
+    "boost",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qwt"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libqwt-dev": "qwt",
+    "libqwt-headers": "qwt",
+    "libqwt-qt5-6": "qwt"
+  }
+}

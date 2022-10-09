@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "libva-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4831a014f59d1b3d026043aa06dcc5ec08e1ef35fd22ee38b05d4471bc1eea53",
+  "deb_inputs": [
+    "debhelper-compat",
+    "i965-va-driver",
+    "intel-media-va-driver",
+    "libdrm-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libset-scalar-perl",
+    "libva-drm2",
+    "libva-glx2",
+    "libva-wayland2",
+    "libva-x11-2",
+    "libva2",
+    "libwayland-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxfixes-dev",
+    "mesa-va-drivers",
+    "perl:any",
+    "pkg-config",
+    "va-driver",
+    "va-driver-all"
+  ],
+  "nix_inputs": [
+    "libGL",
+    "libX11",
+    "libXext",
+    "libXfixes",
+    "libdrm",
+    "libffi",
+    "libva-minimal",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "wayland"
+  ],
+  "map": {
+    "libgl-dev": "libGL",
+    "libdrm-dev": "libdrm",
+    "libxfixes-dev": "libXfixes",
+    "libwayland-dev": "wayland",
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext"
+  }
+}

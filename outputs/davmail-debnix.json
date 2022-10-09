@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "davmail",
+  "nix_pkg": null,
+  "control_file_hash": "b75d5da0410c26c747a306c16ec8122654e1027d5f798836cd7d46e77a3940d9",
+  "deb_inputs": [
+    "adduser",
+    "ant",
+    "ant-optional",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "init-system-helpers",
+    "javahelper",
+    "libopenjfx-java",
+    "libswt-cairo-gtk-4-jni",
+    "logrotate",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

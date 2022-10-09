@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "rng-tools",
+  "nix_pkg": null,
+  "control_file_hash": "cd92f838ca6d56173ce2b86f9622728484b29eae6408f0c421d96f5eb16073c6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "rng-tools-debian"
+  ],
+  "nix_inputs": [
+    "jitterentropy",
+    "libp11",
+    "librtlsdr",
+    "libtool",
+    "openssl",
+    "pkg-config-wrapper",
+    "psmisc"
+  ],
+  "map": {}
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "aumix-common",
+  "nix_pkg": null,
+  "control_file_hash": "c567a78bb4a70056b75d7fa8e2f9229863ce2a4537e19b4abccdfe4ab56ab8c9",
+  "deb_inputs": [
+    "aumix-common",
+    "autoconf",
+    "automake",
+    "bzip2",
+    "debhelper",
+    "gettext",
+    "libgpmg1-dev",
+    "libgtk2.0-dev",
+    "libncursesw5-dev",
+    "lsb-base",
+    "oss-compat"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "gettext": "gettext"
+  }
+}

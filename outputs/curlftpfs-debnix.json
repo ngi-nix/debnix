@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "curlftpfs",
+  "nix_pkg": null,
+  "control_file_hash": "28c801f53d1781d0304c03f7f2584e077f20419b80c5b6b335a5473c8fa45fea",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-autoreconf",
+    "fuse",
+    "libcurl4-gnutls-dev",
+    "libfuse-dev",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "fuse",
+    "glib",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "fuse": "fuse",
+    "libcurl4-gnutls-dev": "curl",
+    "libfuse-dev": "fuse"
+  }
+}

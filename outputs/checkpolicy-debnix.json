@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "checkpolicy",
+  "nix_pkg": null,
+  "control_file_hash": "410e99b4544c85d2908fbf1f056bfd11fc9ea1491c4f227f2d8f0d557901632b",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libsepol-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libsepol"
+  ],
+  "map": {
+    "libsepol-dev": "libsepol",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

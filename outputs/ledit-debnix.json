@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ledit",
+  "nix_pkg": null,
+  "control_file_hash": "62029c2aaa2a607ba56902df6230b89fe5aadcb0ad1ae026d21d70aebac4d950",
+  "deb_inputs": [
+    "bash-completion",
+    "camlp5",
+    "debhelper-compat",
+    "dh-ocaml",
+    "ocaml",
+    "ocaml-findlib"
+  ],
+  "nix_inputs": [
+    "camlp5",
+    "ocaml"
+  ],
+  "map": {
+    "ocaml": "ocaml",
+    "camlp5": "camlp5"
+  }
+}

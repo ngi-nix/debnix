@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libcairomm-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ccc2bd0c287f81fd82dd0c22cbc06c600a45177973b415c57a22e69143633a5a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "doxygen",
+    "graphviz",
+    "libboost-test-dev",
+    "libcairo2-dev",
+    "libcairomm-1.0-1v5",
+    "libcairomm-1.0-doc",
+    "libfontconfig-dev",
+    "libsigc++-2.0-dev",
+    "meson",
+    "mm-common",
+    "www-browser",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "fontconfig",
+    "freetype",
+    "libsigc++",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson",
+    "libfontconfig-dev": "fontconfig",
+    "libcairo2-dev": "cairo"
+  }
+}

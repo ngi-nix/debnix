@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "spacenavd",
+  "nix_pkg": null,
+  "control_file_hash": "0fbc6d64f32fc95b512a56ffab706d7378cf0c0341fb163748a6e281763ff0d4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freecad",
+    "libx11-dev",
+    "libxi-dev",
+    "libxtst-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

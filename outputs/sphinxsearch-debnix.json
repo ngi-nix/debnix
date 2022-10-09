@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "sphinxsearch",
+  "nix_pkg": null,
+  "control_file_hash": "7c668c835f25aca666cd0b524e1d14466a5846e65885559f6f6db6cfc948be7e",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "cmake",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "docbook-to-man",
+    "flex",
+    "gawk",
+    "libexpat-dev",
+    "libpq-dev",
+    "libre2-dev",
+    "libstemmer-dev",
+    "pkgconf",
+    "sysvinit-utils",
+    "unixodbc-dev"
+  ],
+  "nix_inputs": [
+    "mariadb-connector-c",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gocryptfs",
+  "nix_pkg": null,
+  "control_file_hash": "d670a75ba172823773581eedb5ea1928c19f98ee10e8824c08698d0827dbe178",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "fuse",
+    "golang-any",
+    "golang-github-hanwen-go-fuse-dev",
+    "golang-github-jacobsa-crypto-dev",
+    "golang-github-pkg-xattr-dev",
+    "golang-github-rfjakob-eme-dev",
+    "golang-github-sabhiram-go-gitignore-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-sys-dev",
+    "libfuse2",
+    "libssl-dev",
+    "pandoc",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "go",
+    "libfido2",
+    "openssl",
+    "pandoc",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "pandoc": "pandoc",
+    "libssl-dev": "openssl"
+  }
+}

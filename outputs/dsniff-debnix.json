@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dsniff",
+  "nix_pkg": null,
+  "control_file_hash": "f88d1fb16aa97cd16470c87418b014c9f9284b0f48fbb6170deb49ca345b4caa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdb-dev",
+    "libnet1-dev",
+    "libnids-dev",
+    "libpcap0.8-dev",
+    "libssl-dev",
+    "libxmu-dev",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libnsl",
+    "libtirpc",
+    "rpcsvc-proto"
+  ],
+  "map": {}
+}

@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "gtk-doc-tools",
+  "nix_pkg": null,
+  "control_file_hash": "d2ceecc71f639ac84140939db62613dd2dc6a8f338fc20859d2975ca81db944a",
+  "deb_inputs": [
+    "dblatex",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-to-man",
+    "docbook-xml",
+    "docbook-xsl",
+    "gnome-pkg-tools",
+    "meson",
+    "pkg-config",
+    "python3-lxml",
+    "python3-pygments",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "libxslt",
+    "lxml",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygments",
+    "python3"
+  ],
+  "map": {
+    "python3-lxml": "lxml",
+    "python3-pygments": "pygments",
+    "xsltproc": "libxslt",
+    "docbook-xml": "docbook-xml",
+    "meson": "meson"
+  }
+}

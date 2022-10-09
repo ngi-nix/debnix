@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "autocutsel",
+  "nix_pkg": null,
+  "control_file_hash": "3498a13eae88304f71562509d541263f19da2ec37c67dfba61cdc57df6e3882c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libxaw7-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXaw"
+  ],
+  "map": {
+    "libxaw7-dev": "libXaw"
+  }
+}

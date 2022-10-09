@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "minisat",
+  "nix_pkg": null,
+  "control_file_hash": "c2c758ba004572efa4b9d588e20d50c8845ca216d81b8fcb87de40a7742e2de1",
+  "deb_inputs": [
+    "debhelper",
+    "libz-dev",
+    "minisat"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "zlib"
+  ],
+  "map": {}
+}

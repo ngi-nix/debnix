@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libtheora-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1d1319d95af0597dd7a0d44fc8378cab95bd0e4ea99d5dff84cd0526d69af24e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libcairo2-dev",
+    "libogg-dev",
+    "libpng-dev",
+    "libsdl1.2-dev",
+    "libtheora-dev",
+    "libtheora0",
+    "libvorbis-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg",
+    "libvorbis-dev": "libvorbis"
+  }
+}

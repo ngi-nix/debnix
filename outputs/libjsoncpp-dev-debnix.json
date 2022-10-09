@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libjsoncpp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "193d1afc8e4436d2caf09e30fe611e1efd66a77db1367c86a6f019ed2ca30245",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libjsoncpp-dev",
+    "libjsoncpp25",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

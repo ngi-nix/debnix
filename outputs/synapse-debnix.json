@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "synapse",
+  "nix_pkg": null,
+  "control_file_hash": "c8addf31c77a45e2aeeb55f3de2f2ee4c545157e8d6ddaa5dc718a79c3ad96a3",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "intltool",
+    "libgee-0.8-dev",
+    "libgtk-3-dev",
+    "libjson-glib-dev",
+    "libkeybinder-3.0-dev",
+    "libnotify-dev",
+    "libzeitgeist-2.0-dev",
+    "pastebinit",
+    "pkg-config",
+    "valac",
+    "zeitgeist",
+    "zeitgeist-core"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "json-glib",
+    "keybinder3",
+    "libgee",
+    "libnotify",
+    "pkg-config-wrapper",
+    "vala",
+    "zeitgeist"
+  ],
+  "map": {
+    "libjson-glib-dev": "json-glib",
+    "libzeitgeist-2.0-dev": "zeitgeist",
+    "valac": "vala",
+    "zeitgeist": "zeitgeist",
+    "zeitgeist-core": "zeitgeist",
+    "libnotify-dev": "libnotify"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "clinfo",
+  "nix_pkg": null,
+  "control_file_hash": "3116cbad2ecf8715a63fe795cfb3534d33802ca21e9d95a3fcb2039f80d74cba",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ocl-icd-opencl-dev",
+    "opencl-dev"
+  ],
+  "nix_inputs": [
+    "ocl-icd",
+    "opencl-headers"
+  ],
+  "map": {
+    "ocl-icd-opencl-dev": "ocl-icd"
+  }
+}

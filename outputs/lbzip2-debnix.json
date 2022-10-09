@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "lbzip2",
+  "nix_pkg": null,
+  "control_file_hash": "6e44615381eea860a530887442f92e4a5204ed59dc102c6ed957719c71466b22",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "gnulib"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gnulib",
+    "perl"
+  ],
+  "map": {
+    "gnulib": "gnulib",
+    "autoconf": "autoconf",
+    "automake": "automake"
+  }
+}

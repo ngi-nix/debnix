@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "josm",
+  "nix_pkg": null,
+  "control_file_hash": "842218304da9381a100eee70a1f972ab041e888e012c9b4766abb54952d34a70",
+  "deb_inputs": [
+    "ant",
+    "ant-contrib",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "fonts-noto",
+    "gettext",
+    "java9-runtime",
+    "java9-sdk",
+    "javacc",
+    "jmapviewer",
+    "josm-l10n",
+    "libcommons-compress-java",
+    "libgettext-ant-tasks-java",
+    "libgettext-commons-java",
+    "libterm-readkey-perl",
+    "openjfx",
+    "proj-data"
+  ],
+  "nix_inputs": [
+    "openjdk"
+  ],
+  "map": {}
+}

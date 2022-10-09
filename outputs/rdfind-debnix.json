@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "rdfind",
+  "nix_pkg": null,
+  "control_file_hash": "8858be30bfe4935a4c388f0ed42b0e15de8710726dbb1785a2788eb04fa226c6",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "nettle-dev"
+  ],
+  "nix_inputs": [
+    "nettle"
+  ],
+  "map": {
+    "nettle-dev": "nettle"
+  }
+}

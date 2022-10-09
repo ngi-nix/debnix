@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "ser2net",
+  "nix_pkg": null,
+  "control_file_hash": "d9bdeee33806d2e27614c65bfd372d603cbd0feeafdd44052420759154084952",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavahi-client-dev",
+    "libgensio-dev",
+    "libopenipmi-dev",
+    "libsctp-dev",
+    "libwrap0-dev",
+    "libyaml-dev",
+    "lsb-base",
+    "pkg-config",
+    "python3-gensio",
+    "telnet",
+    "telnet-client"
+  ],
+  "nix_inputs": [
+    "gensio",
+    "libyaml",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libyaml-dev": "libyaml",
+    "libgensio-dev": "gensio",
+    "python3-gensio": "gensio"
+  }
+}

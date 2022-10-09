@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "grim",
+  "nix_pkg": null,
+  "control_file_hash": "92dbfb88176c580b6fcd8c778cd9c5e8f0b9ad29775db74040103964130155ee",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpixman-1-dev",
+    "libpng-dev",
+    "libwayland-dev",
+    "meson",
+    "pkg-config",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libpng-apng",
+    "meson",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "wayland-protocols": "wayland-protocols",
+    "libwayland-dev": "wayland",
+    "meson": "meson",
+    "scdoc": "scdoc",
+    "libpixman-1-dev": "pixman"
+  }
+}

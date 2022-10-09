@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "partclone",
+  "nix_pkg": null,
+  "control_file_hash": "5377a273f55d267467296543958482d24b1dd753bfc34be4a694119cd73d1ab6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-xsl",
+    "e2fslibs-dev",
+    "gettext",
+    "libaal-dev",
+    "libblkid-dev",
+    "libbsd-dev",
+    "libmount-dev",
+    "libncursesw5-dev",
+    "libreiser4-dev",
+    "libssl-dev",
+    "nilfs-tools",
+    "ntfs-3g-dev",
+    "pkg-config",
+    "vmfs-tools",
+    "xfslibs-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "e2fsprogs",
+    "glibc",
+    "nilfs-utils",
+    "ntfs3g",
+    "openssl",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "e2fslibs-dev": "e2fsprogs",
+    "libssl-dev": "openssl"
+  }
+}
