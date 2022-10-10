@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libxsimd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c35ccfd7dfec76975c7742acdb73454be2c41d8a85b96b331a74b022309823dd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgtest-dev",
+    "libxsimd-doc",
+    "python3-breathe",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "xtl-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtest"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libgtest-dev": "gtest"
+  }
+}

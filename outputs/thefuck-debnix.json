@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "thefuck",
+  "nix_pkg": null,
+  "control_file_hash": "3ac7bb4af8074399c472c31d41c3e91bf1b8cb9dc77ba044d9e10570b36f596c",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-colorama",
+    "python3-decorator",
+    "python3-distutils",
+    "python3-pkg-resources",
+    "python3-psutil",
+    "python3-pyte",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "decorator",
+    "go",
+    "mock",
+    "psutil",
+    "pyte",
+    "pytest-mock",
+    "python3",
+    "six"
+  ],
+  "map": {
+    "python3-pyte": "pyte",
+    "python3": "python3",
+    "python3-six": "six"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "xloadimage",
+  "nix_pkg": null,
+  "control_file_hash": "946468e684fcea09d77179a34045ce8ab79d5d65a5d7328e63085dfadcee94a3",
+  "deb_inputs": [
+    "debhelper",
+    "file",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libx11-dev",
+    "libxau-dev",
+    "libxdmcp-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXt",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxt-dev": "libXt",
+    "libx11-dev": "libX11",
+    "libtiff-dev": "libtiff"
+  }
+}

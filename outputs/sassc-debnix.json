@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "sassc",
+  "nix_pkg": null,
+  "control_file_hash": "da7625c6d6c7c627f43393ffd86e3428ac03295fefa88d1dfe6a051d5d40fdef",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libsass-dev",
+    "libsass1"
+  ],
+  "nix_inputs": [
+    "libsass"
+  ],
+  "map": {
+    "libsass-dev": "libsass",
+    "libsass1": "libsass"
+  }
+}

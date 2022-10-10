@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "znc",
+  "nix_pkg": null,
+  "control_file_hash": "c270c7cbdfda88394b07c3765884fb7d6866361db421e1f29e96096e56428ffa",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "g++",
+    "google-mock",
+    "googletest",
+    "libboost-all-dev",
+    "libcurl4-openssl-dev",
+    "libicu-dev",
+    "libperl-dev",
+    "libsasl2-dev",
+    "libssl-dev",
+    "openssl",
+    "pkg-config",
+    "python3-dev",
+    "swig",
+    "tcl-dev",
+    "zlib1g-dev",
+    "znc",
+    "znc-perl",
+    "znc-python",
+    "znc-tcl"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

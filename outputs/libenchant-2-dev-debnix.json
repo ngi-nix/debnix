@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libenchant-2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a8b66361d26b1bc001c8b7b5eeb055ca52f49c1514af6c84ef0437172a213035",
+  "deb_inputs": [
+    "aspell-dictionary",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "enchant-2",
+    "hspell",
+    "hunspell-dictionary",
+    "hunspell-en-us",
+    "ispell-dictionary",
+    "libenchant-2-2",
+    "libenchant-2-voikko",
+    "libglib2.0-dev",
+    "libhunspell-dev",
+    "libltdl-dev",
+    "libpspell-dev",
+    "libunittest++-dev",
+    "libvoikko-dev",
+    "libz-dev",
+    "myspell-dictionary"
+  ],
+  "nix_inputs": [
+    "aspell",
+    "glib",
+    "hunspell",
+    "nuspell",
+    "pkg-config-wrapper",
+    "unittest-cpp"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libpspell-dev": "aspell",
+    "libhunspell-dev": "hunspell"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "gpsprune",
+  "nix_pkg": null,
+  "control_file_hash": "441ab2ce2ab511b1b85d7ea18355d104067a66934dbde8405ccf39719a111c48",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk",
+    "fastjar",
+    "gnuplot-x11",
+    "gpsbabel",
+    "javahelper",
+    "libimage-exiftool-perl",
+    "libjava3d-java",
+    "libjava3d-jni",
+    "libvecmath-java"
+  ],
+  "nix_inputs": [
+    "openjdk"
+  ],
+  "map": {}
+}

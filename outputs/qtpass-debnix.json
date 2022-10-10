@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "qtpass",
+  "nix_pkg": null,
+  "control_file_hash": "4ec164dae3c6ebece8d4737663575e5d2f8ad5f828f609f38354acdecd4ddefd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "git",
+    "gnupg",
+    "libqt5svg5",
+    "pass",
+    "pass-extension-otp",
+    "pwgen",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "git",
+    "gnupg",
+    "password-store",
+    "qtbase",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "gnupg": "gnupg",
+    "git": "git",
+    "pass": "password-store",
+    "qttools5-dev-tools": "qttools"
+  }
+}

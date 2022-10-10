@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "mopidy",
+  "nix_pkg": null,
+  "control_file_hash": "e0b9073ddb1373783ffffefad23a7bb5dfb74886e95e09304c45a3e281954bec",
+  "deb_inputs": [
+    "adduser",
+    "debconf",
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-gst-plugins-base-1.0",
+    "gir1.2-gstreamer-1.0",
+    "gstreamer1.0-alsa",
+    "gstreamer1.0-plugins-good",
+    "gstreamer1.0-plugins-ugly",
+    "gstreamer1.0-pulseaudio",
+    "gstreamer1.0-tools",
+    "lsb-base",
+    "mopidy",
+    "mopidy-doc",
+    "po-debconf",
+    "python3",
+    "python3-gst-1.0",
+    "python3-pygraphviz",
+    "python3-pykka",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-tornado"
+  ],
+  "nix_inputs": [
+    "dbus-python",
+    "glib-networking",
+    "gobject-introspection",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gst-python",
+    "pygobject",
+    "pykka",
+    "python3",
+    "requests",
+    "setuptools",
+    "tornado"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-setuptools": "setuptools"
+  }
+}

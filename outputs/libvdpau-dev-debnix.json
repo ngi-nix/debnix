@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libvdpau-dev",
+  "nix_pkg": null,
+  "control_file_hash": "848b541df2171408c4e067e98132efec0e0b4fbad2ad04cd28f38e15076dbb9a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libvdpau-doc",
+    "libvdpau1",
+    "libx11-dev",
+    "libxext-dev",
+    "meson",
+    "pkg-config",
+    "vdpau-driver",
+    "vdpau-driver-all",
+    "x11proto-dri2-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "meson": "meson",
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext",
+    "x11proto-dri2-dev": "xorgproto"
+  }
+}
