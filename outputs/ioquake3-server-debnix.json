@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "ioquake3-server",
+  "nix_pkg": null,
+  "control_file_hash": "4f0122bf6c6ee3041f1394cfe8f212ead3c034f11f8d44b5eff7e02ba32c26f3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-apparmor",
+    "dpkg-dev",
+    "ioquake3-server",
+    "kdialog",
+    "libcurl4-gnutls-dev",
+    "libgl1",
+    "libjpeg-dev",
+    "libopenal-dev",
+    "libopus-dev",
+    "libopusfile-dev",
+    "libsdl2-dev",
+    "libvorbis-dev",
+    "x11-utils",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "curl",
+    "freetype",
+    "libGL",
+    "libjpeg-turbo",
+    "libogg",
+    "libopus",
+    "libvorbis",
+    "mumble",
+    "openal-soft",
+    "opusfile",
+    "pkg-config-wrapper",
+    "speex",
+    "which"
+  ],
+  "map": {
+    "libopusfile-dev": "opusfile",
+    "libvorbis-dev": "libvorbis",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libopus-dev": "libopus",
+    "libopenal-dev": "openal-soft",
+    "libgl1": "libGL",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "gnome-console",
+  "nix_pkg": null,
+  "control_file_hash": "7fc51193e3478acdeceaf8cfae33ae6c2c2d13e9eceb707e38ef1e92f5bdb520",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "gnome-console",
+    "gsettings-desktop-schemas",
+    "gsettings-desktop-schemas-dev",
+    "libadwaita-1-dev",
+    "libglib2.0-dev",
+    "libgtk-4-dev",
+    "libgtop2-dev",
+    "libpcre2-dev",
+    "libvte-2.91-gtk4-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "gettext",
+    "git",
+    "gtk+3",
+    "libgtop",
+    "libhandy",
+    "meson",
+    "nautilus",
+    "ninja",
+    "pcre2",
+    "pkg-config-wrapper",
+    "python3",
+    "sassc",
+    "vte"
+  ],
+  "map": {
+    "libvte-2.91-gtk4-dev": "vte",
+    "meson": "meson",
+    "libgtop2-dev": "libgtop",
+    "libpcre2-dev": "pcre2",
+    "desktop-file-utils": "desktop-file-utils",
+    "appstream-util": "appstream-glib"
+  }
+}

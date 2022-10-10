@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "wbritish-small",
+  "nix_pkg": null,
+  "control_file_hash": "5a272dafa1e8b693a5e0ceed041d783f98149d686288d586834cddb03067383f",
+  "deb_inputs": [
+    "debhelper",
+    "dictionaries-common",
+    "hunspell",
+    "libreoffice-writer",
+    "openoffice.org-core",
+    "openoffice.org-hunspell"
+  ],
+  "nix_inputs": [
+    "aspell",
+    "dos2unix",
+    "perl",
+    "unzip",
+    "zip"
+  ],
+  "map": {}
+}
