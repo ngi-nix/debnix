@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "micro",
+  "nix_pkg": null,
+  "control_file_hash": "925af586f6d95778ebc41ce3becabd914a7963a27e1205d05e229f031ee2ccf5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-blang-semver-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-flynn-json5-dev",
+    "golang-github-go-errors-errors-dev",
+    "golang-github-kballard-go-shellquote-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-robertkrimen-otto-dev",
+    "golang-github-sergi-go-diff-dev",
+    "golang-github-smartystreets-goconvey-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-xo-terminfo-dev",
+    "golang-github-yuin-gopher-lua-dev",
+    "golang-github-zyedidia-clipboard-dev",
+    "golang-github-zyedidia-glob-dev",
+    "golang-github-zyedidia-pty-dev",
+    "golang-github-zyedidia-tcell-dev",
+    "golang-github-zyedidia-terminal-dev",
+    "golang-layeh-gopher-luar-dev",
+    "golang-yaml.v2-dev",
+    "xclip"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

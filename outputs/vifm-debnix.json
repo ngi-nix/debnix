@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "vifm",
+  "nix_pkg": null,
+  "control_file_hash": "6b63aee11c5bb989391387b66a0cf04776d94831d7dfe5f5633e8503ce2cf81a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmagic-dev",
+    "libncursesw5-dev",
+    "libx11-6",
+    "libx11-dev",
+    "vim",
+    "vim-addon-manager"
+  ],
+  "nix_inputs": [
+    "file",
+    "groff",
+    "libX11",
+    "ncurses",
+    "pkg-config-wrapper",
+    "util-linux",
+    "which"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libx11-6": "libX11",
+    "libmagic-dev": "file",
+    "libncursesw5-dev": "ncurses"
+  }
+}

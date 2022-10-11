@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "pinta",
+  "nix_pkg": null,
+  "control_file_hash": "9ad9886c179e657a7e20cfbe530664c18bc043878ee1805bfd277cce7110f10a",
+  "deb_inputs": [
+    "cli-common-dev",
+    "debhelper",
+    "gnome-icon-theme"
+  ],
+  "nix_inputs": [
+    "dotnet-sdk",
+    "gtk+3",
+    "intltool",
+    "nss-cacert"
+  ],
+  "map": {}
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "xzgv",
+  "nix_pkg": null,
+  "control_file_hash": "fee0110d850f3bdbda4a4cddffbb2ecafb88092b4b0e288bad5fbfa9bc1417dc",
+  "deb_inputs": [
+    "debhelper",
+    "gawk",
+    "install-info",
+    "libexif-dev",
+    "libgtk2.0-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libexif",
+    "pkg-config-wrapper",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "libgtk2.0-dev": "gtk+",
+    "install-info": "texinfo",
+    "libexif-dev": "libexif"
+  }
+}

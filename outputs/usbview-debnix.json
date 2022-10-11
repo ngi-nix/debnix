@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "usbview",
+  "nix_pkg": null,
+  "control_file_hash": "a05d0f682bcd59d1b0257fcff2ff107b81e9ae217e9d5cd09f7255dec2f83e91",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "imagemagick",
+    "libgtk-3-dev",
+    "libmagickcore-6.q16-2-extra",
+    "librsvg2-bin",
+    "usbutils"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

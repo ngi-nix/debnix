@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "ycmd",
+  "nix_pkg": null,
+  "control_file_hash": "5bba0439c7fa00e677ac188590a3708c816445ed96ec53d816a567b4831a62a7",
+  "deb_inputs": [
+    "ccls",
+    "clangd",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "fortran-language-server",
+    "gopls",
+    "libabsl-dev",
+    "libclang-common--dev",
+    "libclang-dev",
+    "libgmock-dev",
+    "libgtest-dev",
+    "libwhereami-dev",
+    "node-typescript",
+    "pybind11-dev",
+    "python3-bottle",
+    "python3-dev",
+    "python3-frozendict",
+    "python3-future",
+    "python3-jedi",
+    "python3-regex",
+    "python3-watchdog",
+    "unicode-data",
+    "vim-youcompleteme"
+  ],
+  "nix_inputs": [
+    "abseil-cpp",
+    "boost",
+    "clang",
+    "cmake",
+    "jedi",
+    "jedi-language-server",
+    "llvm",
+    "ninja",
+    "pybind11"
+  ],
+  "map": {
+    "pybind11-dev": "pybind11",
+    "cmake": "cmake",
+    "libclang-dev": "clang"
+  }
+}

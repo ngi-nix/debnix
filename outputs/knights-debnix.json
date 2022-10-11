@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "knights",
+  "nix_pkg": null,
+  "control_file_hash": "f5e93c53c4ea663a53b8dbf15b54778b27778a2bdba2ae47ebf77bd183d81f1d",
+  "deb_inputs": [
+    "cmake",
+    "crafty",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gnuchess",
+    "libkf5configwidgets-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5kdegames-dev",
+    "libkf5kio-dev",
+    "libkf5plasma-dev",
+    "libkf5plotting-dev",
+    "libkf5textwidgets-dev",
+    "libkf5wallet-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "libqt5texttospeech5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "sjeng",
+    "stockfish"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "kplotting",
+    "libkdegames",
+    "plasma-framework"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5plotting-dev": "kplotting",
+    "libkf5kio-dev": "kio",
+    "libkf5plasma-dev": "plasma-framework"
+  }
+}

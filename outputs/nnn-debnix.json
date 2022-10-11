@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "nnn",
+  "nix_pkg": null,
+  "control_file_hash": "d5e75707c56721f5e90a98eda1cbc698f40863e0ddfe3b9fc676a89f506bf67e",
+  "deb_inputs": [
+    "atool",
+    "debhelper-compat",
+    "exiftool",
+    "file",
+    "lftp",
+    "libncurses-dev",
+    "libreadline-dev",
+    "mediainfo",
+    "patool",
+    "pkg-config",
+    "readline-common",
+    "sshfs",
+    "vlock",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "readline-common": "readline",
+    "libncurses-dev": "ncurses",
+    "libreadline-dev": "readline"
+  }
+}

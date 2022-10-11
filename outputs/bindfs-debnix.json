@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bindfs",
+  "nix_pkg": null,
+  "control_file_hash": "ab7ca850cfb4368ced2a97414a896dd9f84767b8df3b01950266b2712766a9de",
+  "deb_inputs": [
+    "debhelper",
+    "fuse",
+    "libfuse-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libfuse-dev": "fuse"
+  }
+}

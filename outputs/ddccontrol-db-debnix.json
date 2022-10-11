@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ddccontrol-db",
+  "nix_pkg": null,
+  "control_file_hash": "01ae585c3c0ae64482281392a2fb1f8dc8428740b514b219151e1eb1df37b0b9",
+  "deb_inputs": [
+    "ddccontrol",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "intltool",
+    "libtool"
+  ],
+  "map": {}
+}

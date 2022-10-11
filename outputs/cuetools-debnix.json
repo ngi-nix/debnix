@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "cuetools",
+  "nix_pkg": null,
+  "control_file_hash": "eb1857e16960d6698b2fb7c04cda32c35cdd08e9e69b1e2b9f5ee243644ed20f",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flac",
+    "flex",
+    "id3v2",
+    "python3-mutagen",
+    "vorbis-tools"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flac",
+    "flex",
+    "id3v2",
+    "vorbis-tools"
+  ],
+  "map": {
+    "id3v2": "id3v2",
+    "flac": "flac",
+    "vorbis-tools": "vorbis-tools",
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "bookletimposer",
+  "nix_pkg": null,
+  "control_file_hash": "64f081770cae8dfd8b1189b23eda8e45f31a997d6b2f33c57469b178d265518e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "intltool",
+    "pandoc",
+    "python3-all",
+    "python3-gi"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "pandoc",
+    "python3"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "pandoc": "pandoc"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libarpack2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a59682c86a89033bd18b72a1bc588663b6773d6c92a17932ab2274d4edd035ce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gfortran",
+    "libarpack2",
+    "libblas-dev",
+    "libblas.so",
+    "libeigen3-dev",
+    "liblapack-dev",
+    "liblapack.so",
+    "libparpack2",
+    "mpi-default-dev"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "eigen",
+    "gfortran-wrapper",
+    "lapack"
+  ],
+  "map": {
+    "libblas-dev": "blas",
+    "libeigen3-dev": "eigen",
+    "liblapack-dev": "lapack"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "prometheus-pushgateway",
+  "nix_pkg": null,
+  "control_file_hash": "eba928b37dfd1581954b64487e6c1afa0d1c3b98f46b7567848efd7b37eb52a7",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "fonts-glyphicons-halflings",
+    "golang-any",
+    "golang-github-go-kit-log-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-goprotobuf-dev",
+    "golang-protobuf-extensions-dev",
+    "libjs-bootstrap4",
+    "libjs-jquery"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

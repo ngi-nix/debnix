@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "kollision",
+  "nix_pkg": null,
+  "control_file_hash": "bc9f29d9ec8acf46e88de611db743eb8d16afc54bff40201c46ee978a969455b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5i18n-dev": "ki18n",
+    "libkf5doctools-dev": "kdoctools",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames"
+  }
+}

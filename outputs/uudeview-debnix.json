@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "uudeview",
+  "nix_pkg": null,
+  "control_file_hash": "fe969e0596cd47e1996e0c3b9d5cd8b57928b7c5a0530810cb492e5593d4a371",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-mta",
+    "hevea",
+    "inews",
+    "libuu0",
+    "mail-transport-agent",
+    "tcl-dev",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "tk-dev",
+    "transfig",
+    "xdeview"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tcl-dev": "tcl",
+    "tk-dev": "tk"
+  }
+}

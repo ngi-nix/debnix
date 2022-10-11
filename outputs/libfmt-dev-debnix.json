@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libfmt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e121b3d2c0b25338cfb9fb1dfee90549419f5b0c7ac905fe764eb5743422f9c6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfmt-doc",
+    "libfmt9",
+    "libjs-bootstrap"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "potrace",
+  "nix_pkg": null,
+  "control_file_hash": "f1620b6614637807e15205feee793e08bc6d03401540a17991a03f1936fc8eda",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libpotrace0",
+    "libtool",
+    "netpbm",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

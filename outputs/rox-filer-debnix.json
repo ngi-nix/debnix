@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "rox-filer",
+  "nix_pkg": null,
+  "control_file_hash": "b88a7150ef7acf866c48a411ad60c28d160b0fed738ecce1cb97d20a74579f16",
+  "deb_inputs": [
+    "debhelper",
+    "file",
+    "libatk1.0-dev",
+    "libexpat1-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libice-dev",
+    "libpango1.0-dev",
+    "libsm-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "libxi-dev",
+    "libxml2-dev",
+    "libxmu-dev",
+    "libxmuu-dev",
+    "libxpm-dev",
+    "libxrandr-dev",
+    "libxrender-dev",
+    "libxt-dev",
+    "libxtst-dev",
+    "libxv-dev",
+    "sensible-utils",
+    "shared-mime-info",
+    "x11proto-core-dev",
+    "zeroinstall-injector",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libSM",
+    "libxml2",
+    "pkg-config-wrapper",
+    "shared-mime-info"
+  ],
+  "map": {
+    "libsm-dev": "libSM",
+    "libxml2-dev": "libxml2",
+    "libgtk2.0-dev": "gtk+",
+    "shared-mime-info": "shared-mime-info"
+  }
+}

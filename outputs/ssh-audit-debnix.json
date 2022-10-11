@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ssh-audit",
+  "nix_pkg": null,
+  "control_file_hash": "fdd9cf569ff00a82bb58cefa67d32d023735228e26571ac58e9ff408ce509300",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper-compat",
+    "dh-exec",
+    "dh-python",
+    "python3",
+    "python3-pytest",
+    "python3-setuptools",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

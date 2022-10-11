@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "tcpreplay",
+  "nix_pkg": null,
+  "control_file_hash": "f611904332d7ff92c3b05e0c0249bec65e35f0273ee3ab7be14acb5a7609dd2b",
+  "deb_inputs": [
+    "autogen",
+    "debhelper-compat",
+    "libpcap0.8-dev",
+    "tcpdump"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "zile",
+  "nix_pkg": null,
+  "control_file_hash": "cb5ca90f8a8e6fa776d0d19978b062b014709e5b938c1591dbc5bfafc83c6571",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libacl1-dev",
+    "libgc-dev",
+    "libgee-0.8-dev",
+    "libglib2.0-dev",
+    "libncurses-dev",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "glib",
+    "help2man",
+    "libgee",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "valac": "vala",
+    "libglib2.0-dev": "glib",
+    "libncurses-dev": "ncurses"
+  }
+}

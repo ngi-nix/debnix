@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "kblackbox",
+  "nix_pkg": null,
+  "control_file_hash": "778f6fb0be22e0af4224c4c447b7b718338b6b734cfa928119b573a467ce8338",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5archive-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5textwidgets-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5kdegames-dev": "libkdegames"
+  }
+}

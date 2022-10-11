@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "wcalc",
+  "nix_pkg": null,
+  "control_file_hash": "4ec6a6d9173efafe1459bb91ad0893115ea5a2d74034d489ab89b6026cf74840",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dpkg-dev",
+    "flex",
+    "libgmp3-dev",
+    "libmpfr-dev",
+    "libreadline-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "mpfr",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libmpfr-dev": "mpfr"
+  }
+}

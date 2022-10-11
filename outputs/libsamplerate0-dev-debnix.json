@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libsamplerate0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "789fa79f5be221c77550f2bc891ec03ad6fa87f7113baf14b3744a66afb9dbd3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fftw3-dev",
+    "libsamplerate0",
+    "libsndfile1-dev",
+    "pkg-config",
+    "sndfile-tools"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

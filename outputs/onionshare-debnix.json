@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "onionshare",
+  "nix_pkg": null,
+  "control_file_hash": "011e513da21de6b96b5ab09bc59d8614beeeef01dc8d4866b55b3ecb40f5dedb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "obfs4proxy",
+    "python3-all",
+    "python3-distutils-extra",
+    "python3-flask",
+    "python3-flask-httpauth",
+    "python3-nautilus",
+    "python3-nose",
+    "python3-pycryptodome",
+    "python3-pyqt5",
+    "python3-pytest",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-socks",
+    "python3-stem",
+    "tor"
+  ],
+  "nix_inputs": [
+    "Flask-SocketIO",
+    "cepa",
+    "colorama",
+    "flask",
+    "flask-httpauth",
+    "obfs4",
+    "psutil",
+    "pycrypto",
+    "pynacl",
+    "python3",
+    "requests",
+    "tor",
+    "unidecode"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "tor": "tor",
+    "python3-flask": "flask"
+  }
+}

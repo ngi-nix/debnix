@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "iptstate",
+  "nix_pkg": null,
+  "control_file_hash": "cb3c18e7570d72e591eeb77208102ed3b5716e2fa7c99e563b372b4e980e1063",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses5-dev",
+    "libnetfilter-conntrack-dev"
+  ],
+  "nix_inputs": [
+    "libnetfilter_conntrack",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libnetfilter-conntrack-dev": "libnetfilter_conntrack"
+  }
+}

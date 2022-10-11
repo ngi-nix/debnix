@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "po4a",
+  "nix_pkg": null,
+  "control_file_hash": "db5446e712e18f17097eddeaf59b47bfcb03e18c6e6b3be327577adde8fd6a68",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "liblocale-gettext-perl",
+    "libmodule-build-perl",
+    "libpod-parser-perl",
+    "libsgmls-perl",
+    "libsyntax-keyword-try-perl",
+    "libterm-readkey-perl",
+    "libtext-wrapi18n-perl",
+    "libunicode-linebreak-perl",
+    "libyaml-tiny-perl",
+    "opensp"
+  ],
+  "nix_inputs": [
+    "Module-Build",
+    "Pod-Parser",
+    "SGMLSpm",
+    "Text-WrapI18N",
+    "Unicode-LineBreak",
+    "YAML-Tiny",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "docbook-xsl-ns",
+    "gettext",
+    "glibc-locales",
+    "libxslt",
+    "opensp",
+    "perl"
+  ],
+  "map": {
+    "opensp": "opensp",
+    "gettext": "gettext"
+  }
+}

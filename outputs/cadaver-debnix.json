@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "cadaver",
+  "nix_pkg": null,
+  "control_file_hash": "8f36da01b08cf933efc70f38ed90a16d7fbcb480f628df779f13b070ac971a45",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libgcrypt20-dev",
+    "libncurses5-dev",
+    "libneon27-gnutls-dev",
+    "libreadline-dev",
+    "libreadline5-dev",
+    "libxml2-dev",
+    "quilt",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "neon",
+    "openssl",
+    "pkg-config-wrapper",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libneon27-gnutls-dev": "neon",
+    "libreadline5-dev": "readline",
+    "zlib1g-dev": "zlib",
+    "libreadline-dev": "readline"
+  }
+}

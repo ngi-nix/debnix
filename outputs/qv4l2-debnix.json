@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "qv4l2",
+  "nix_pkg": null,
+  "control_file_hash": "592f173aaa75e9dfe19b9e3ecd48ea838887b3cc9744531be76efe248be1b02a",
+  "deb_inputs": [
+    "clang:native",
+    "debhelper-compat",
+    "devhelp",
+    "doxygen",
+    "gettext",
+    "graphviz",
+    "libasound2-dev",
+    "libbpf-dev",
+    "libdvbv5-0",
+    "libdvbv5-doc",
+    "libelf-dev",
+    "libjpeg-dev",
+    "libqt5opengl5-dev",
+    "libtool",
+    "libudev-dev",
+    "libv4l-0",
+    "libv4l2rds0",
+    "libv4lconvert0",
+    "libx11-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "systemd",
+    "udev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "glu",
+    "libX11",
+    "libjpeg-turbo",
+    "perl",
+    "pkg-config-wrapper",
+    "qtbase",
+    "systemd"
+  ],
+  "map": {
+    "systemd": "systemd",
+    "libasound2-dev": "alsa-lib",
+    "qtbase5-dev": "qtbase",
+    "libx11-dev": "libX11",
+    "libudev-dev": "systemd",
+    "udev": "systemd",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

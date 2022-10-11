@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cloc",
+  "nix_pkg": null,
+  "control_file_hash": "2532a63fbd94c160cecc980f6157195b71a6c67c0f2160f4f9fcf28c6fd03683",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libalgorithm-diff-perl",
+    "libparallel-forkmanager-perl",
+    "libregexp-common-perl",
+    "unzip"
+  ],
+  "nix_inputs": [
+    "Algorithm-Diff",
+    "Parallel-ForkManager",
+    "Regexp-Common",
+    "perl"
+  ],
+  "map": {}
+}

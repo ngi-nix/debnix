@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "fritzing",
+  "nix_pkg": null,
+  "control_file_hash": "dd16e5967c144acce04049cd1538343c0fd40b29f492eac768956f334edbeb5f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fritzing-data",
+    "fritzing-parts",
+    "imagemagick",
+    "libboost-dev",
+    "libgit2-dev",
+    "libqt5serialport5-dev",
+    "libqt5sql5-sqlite",
+    "libqt5svg5-dev",
+    "qtbase5-dev",
+    "sqlite3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "libgit2",
+    "libngspice",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtserialport",
+    "qtsvg",
+    "qttools",
+    "quazip"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libboost-dev": "boost",
+    "libgit2-dev": "libgit2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "mat2",
+  "nix_pkg": null,
+  "control_file_hash": "73cf69a718fe61cf4de7a9bedb34f735155c94ee08b5cc8d906dc18868c07e5c",
+  "deb_inputs": [
+    "bubblewrap",
+    "debhelper-compat",
+    "dh-python",
+    "ffmpeg",
+    "gir1.2-gdkpixbuf-2.0",
+    "gir1.2-poppler-0.18",
+    "gir1.2-rsvg-2.0",
+    "libimage-exiftool-perl",
+    "mat2",
+    "python3-all",
+    "python3-gi-cairo",
+    "python3-mutagen",
+    "python3-nautilus",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf",
+    "gobject-introspection",
+    "librsvg",
+    "mutagen",
+    "poppler-glib",
+    "pycairo",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-gi-cairo": "pygobject",
+    "gir1.2-gdkpixbuf-2.0": "gdk-pixbuf",
+    "gir1.2-rsvg-2.0": "librsvg",
+    "python3-mutagen": "mutagen"
+  }
+}

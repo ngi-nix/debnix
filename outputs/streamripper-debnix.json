@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "streamripper",
+  "nix_pkg": null,
+  "control_file_hash": "63227416c9cdc2381400698c479263928be11e51ce9ab962038c52e5bef25999",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "kstreamripper",
+    "libglib2.0-dev",
+    "libmad0-dev",
+    "libogg-dev",
+    "libtre-dev",
+    "libvorbis-dev",
+    "streamtuner"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libmad",
+    "libogg",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg",
+    "libglib2.0-dev": "glib",
+    "libmad0-dev": "libmad",
+    "libvorbis-dev": "libvorbis"
+  }
+}

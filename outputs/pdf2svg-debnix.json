@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "pdf2svg",
+  "nix_pkg": null,
+  "control_file_hash": "37ec8e1ffe603997cd82ff5907ba1d2d118fa397380c734b4e03a97c21b92097",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libpoppler-glib-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gtk+",
+    "pkg-config-wrapper",
+    "poppler-glib"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo"
+  }
+}

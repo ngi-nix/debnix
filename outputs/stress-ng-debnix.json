@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "stress-ng",
+  "nix_pkg": null,
+  "control_file_hash": "83ef758823bda54849870e85a2e8281d60186ecb3f6bf7a6dac15e751d502c1d",
+  "deb_inputs": [
+    "apparmor",
+    "debhelper",
+    "debhelper-compat",
+    "libaio-dev",
+    "libapparmor-dev",
+    "libatomic1",
+    "libbsd-dev",
+    "libcap-dev",
+    "libgbm-dev",
+    "libgcrypt20-dev",
+    "libglvnd-dev",
+    "libipsec-mb-dev",
+    "libjpeg-dev",
+    "libjudy-dev",
+    "libkeyutils-dev",
+    "libkmod-dev",
+    "libsctp-dev",
+    "libxxhash-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "attr",
+    "judy",
+    "keyutils",
+    "libaio",
+    "libapparmor",
+    "libbsd",
+    "libcap",
+    "libgcrypt",
+    "lksctp-tools",
+    "zlib"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt",
+    "libbsd-dev": "libbsd",
+    "libaio-dev": "libaio",
+    "libapparmor-dev": "libapparmor",
+    "libkeyutils-dev": "keyutils",
+    "libjudy-dev": "judy",
+    "libsctp-dev": "lksctp-tools",
+    "libcap-dev": "libcap",
+    "zlib1g-dev": "zlib"
+  }
+}

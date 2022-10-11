@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "ksquares",
+  "nix_pkg": null,
+  "control_file_hash": "62f1ab3e75ca654b50945c02b8f32c5891990b400d5308025eab07282bed80ad",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kconfig",
+    "kcrash",
+    "kdoctools",
+    "kxmlgui",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5config-dev": "kconfig",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5crash-dev": "kcrash",
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5xmlgui-dev": "kxmlgui"
+  }
+}

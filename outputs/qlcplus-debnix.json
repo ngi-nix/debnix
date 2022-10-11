@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "qlcplus",
+  "nix_pkg": null,
+  "control_file_hash": "f8d0dff7248470f54263b6b85854a7ec61fe9e9f8edf8e2ddb471f523701adba",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libftdi1-dev",
+    "libmad0",
+    "libmad0-dev",
+    "libqt5multimedia5-plugins",
+    "libsndfile1",
+    "libsndfile1-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libxml2-utils",
+    "localehelper",
+    "pkg-config",
+    "qlcplus-data",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qtscript5-dev",
+    "qttools5-dev-tools",
+    "shared-mime-info",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libftdi",
+    "libmad",
+    "libsndfile",
+    "libusb-compat",
+    "ola",
+    "pkg-config-wrapper",
+    "qtmultimedia",
+    "qtscript",
+    "systemd"
+  ],
+  "map": {
+    "libmad0": "libmad",
+    "libasound2-dev": "alsa-lib",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libsndfile1-dev": "libsndfile",
+    "libftdi1-dev": "libftdi",
+    "qtscript5-dev": "qtscript",
+    "libmad0-dev": "libmad",
+    "libudev-dev": "systemd",
+    "libsndfile1": "libsndfile"
+  }
+}

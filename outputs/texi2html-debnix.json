@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "texi2html",
+  "nix_pkg": null,
+  "control_file_hash": "f99cdcea91e4efc44bb24df603f701f4278db2ce3e305e87893d1cc8ce9ff301",
+  "deb_inputs": [
+    "debhelper-compat",
+    "latex2html",
+    "libtext-unidecode-perl",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "perl"
+  ],
+  "map": {}
+}

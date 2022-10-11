@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "partimage",
+  "nix_pkg": null,
+  "control_file_hash": "059d8e1cc4005b6d414f3136ba6994c430491fccac6f4a04469e82351ff2df1d",
+  "deb_inputs": [
+    "adduser",
+    "autotools-dev",
+    "cdbs",
+    "comerr-dev",
+    "db-util",
+    "debhelper",
+    "dh-autoreconf",
+    "e2fslibs-dev",
+    "e2fsprogs",
+    "fdisk",
+    "gettext",
+    "libbz2-dev",
+    "libnewt-dev",
+    "libpam0g-dev",
+    "libssl-dev",
+    "lsb-base",
+    "openssl",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "newt",
+    "openssl",
+    "pkg-config-wrapper",
+    "slang",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2",
+    "libssl-dev": "openssl",
+    "libnewt-dev": "newt",
+    "openssl": "openssl"
+  }
+}

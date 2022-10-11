@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "dfc",
+  "nix_pkg": null,
+  "control_file_hash": "83bb0eef00d5bb8760e3938458828bfe50e764ecdb74883fa189c0ff4218f1c2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gettext"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

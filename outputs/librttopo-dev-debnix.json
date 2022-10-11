@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "librttopo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f4e4c131b27b37bd1ca8ab6fff800ba9a6193fd769e6f9b00f385c9b654b02a2",
+  "deb_inputs": [
+    "debhelper",
+    "libgeos-dev",
+    "libjson-c-dev",
+    "libpcre3-dev",
+    "librttopo1",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "geos"
+  ],
+  "map": {
+    "libgeos-dev": "geos"
+  }
+}

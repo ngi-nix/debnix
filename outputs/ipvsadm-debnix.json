@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "ipvsadm",
+  "nix_pkg": null,
+  "control_file_hash": "4bc911d40a71bfafe88c2a4b85f11f241209d680de31e91464051e906121de6e",
+  "deb_inputs": [
+    "debhelper",
+    "heartbeat",
+    "keepalived",
+    "ldirectord",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libpopt-dev",
+    "lsb-base",
+    "pkg-config",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libnl-genl-3-dev": "libnl",
+    "libnl-3-dev": "libnl",
+    "libpopt-dev": "popt"
+  }
+}

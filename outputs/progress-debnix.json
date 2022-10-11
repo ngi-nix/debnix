@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "progress",
+  "nix_pkg": null,
+  "control_file_hash": "a2f95a15d353bd863e4ac7c5ffe3215732e722c46dc0d174d6ab910ab6672378",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libtinfo-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libtinfo-dev": "ncurses",
+    "libncurses5-dev": "ncurses"
+  }
+}

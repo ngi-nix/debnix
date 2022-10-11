@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "cool-retro-term",
+  "nix_pkg": null,
+  "control_file_hash": "312e0294b3136811a364e40f72f6977c817ae5206f36e5f5800fb7a3439d0a1b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-3270",
+    "fonts-agave",
+    "fonts-amiga",
+    "fonts-atarismall",
+    "fonts-inconsolata",
+    "fonts-pc",
+    "fonts-pc-extra",
+    "fonts-sixtyfour",
+    "qml-module-qmltermwidget",
+    "qml-module-qt-labs-folderlistmodel",
+    "qml-module-qt-labs-platform",
+    "qml-module-qt-labs-settings",
+    "qml-module-qtgraphicaleffects",
+    "qml-module-qtquick-controls",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-dialogs",
+    "qml-module-qtquick-localstorage",
+    "qml-module-qtquick-window2",
+    "qmlscene",
+    "qt5-qmake",
+    "qtchooser",
+    "qtdeclarative5-dev",
+    "qtquickcontrols2-5-dev"
+  ],
+  "nix_inputs": [
+    "qmltermwidget-unstable",
+    "qtbase",
+    "qtgraphicaleffects",
+    "qtquickcontrols"
+  ],
+  "map": {
+    "qtquickcontrols2-5-dev": "qtquickcontrols",
+    "qml-module-qt-labs-platform": "qtquickcontrols",
+    "qml-module-qtquick-controls2": "qtquickcontrols"
+  }
+}

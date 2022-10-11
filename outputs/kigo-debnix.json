@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "kigo",
+  "nix_pkg": null,
+  "control_file_hash": "1a4ae7ac81b8e52d65fe2b44cf6192c8773b49cf2fca1f05efc5f7eeb21cc683",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "gnugo",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5kio-dev",
+    "libkf5newstuff-dev",
+    "libkf5textwidgets-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5kio-dev": "kio",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5newstuff-dev": "knewstuff"
+  }
+}

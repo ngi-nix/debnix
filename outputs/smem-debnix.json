@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "smem",
+  "nix_pkg": null,
+  "control_file_hash": "31a1db4eb8121493b031b4abb3914c7d6c6c0fd52225a85085cae97807ae7665",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dpkg-dev",
+    "python3",
+    "python3-matplotlib"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

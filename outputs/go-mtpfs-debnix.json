@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "go-mtpfs",
+  "nix_pkg": null,
+  "control_file_hash": "e898185600b45d41c1ac86e3f94901224473d737e7439d41a25c4e45df949028",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-hanwen-go-fuse-dev",
+    "golang-github-hanwen-usb-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "go",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

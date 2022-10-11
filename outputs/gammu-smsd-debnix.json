@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "gammu-smsd",
+  "nix_pkg": null,
+  "control_file_hash": "34ef96f61b60dd1ca719c770f85f22af35cc8842c0ced23d612ed54b9d848a03",
+  "deb_inputs": [
+    "adduser",
+    "bash-completion",
+    "cmake",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "dh-sequence-sphinxdoc",
+    "dialog",
+    "gammu",
+    "gammu-doc",
+    "gammu-smsd",
+    "libbluetooth-dev",
+    "libcurl4-gnutls-dev",
+    "libdbd-sqlite3",
+    "libdbi-dev",
+    "libgammu-i18n",
+    "libgammu8",
+    "libglib2.0-dev",
+    "libgsmsd8",
+    "libgudev-1.0-dev",
+    "libjs-sphinxdoc",
+    "libpq-dev",
+    "libusb-1.0-0-dev",
+    "lsb-base",
+    "pkg-config",
+    "python-gammu",
+    "sqlite3",
+    "unixodbc-dev",
+    "usb-modeswitch",
+    "whiptail"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "cmake",
+    "curl",
+    "gettext",
+    "libusb",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "sqlite3": "sqlite",
+    "cmake": "cmake",
+    "libbluetooth-dev": "bluez",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

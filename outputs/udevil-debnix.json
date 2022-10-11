@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "udevil",
+  "nix_pkg": null,
+  "control_file_hash": "561b925e318ad2ea452bc4cb25d6cc947cc400da57161ec6b74dfce760797594",
+  "deb_inputs": [
+    "cifs-utils",
+    "curlftpfs",
+    "debhelper-compat",
+    "eject",
+    "intltool",
+    "libglib2.0-dev",
+    "libudev-dev",
+    "sshfs",
+    "udisks2"
+  ],
+  "nix_inputs": [
+    "glib",
+    "intltool",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libglib2.0-dev": "glib",
+    "libudev-dev": "systemd"
+  }
+}

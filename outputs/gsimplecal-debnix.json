@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gsimplecal",
+  "nix_pkg": null,
+  "control_file_hash": "267539e73fcbd9b6c256b5bc19bf194b379998d9bbef805b1166d4d94295cc72",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtk-3-dev",
+    "openbox",
+    "pkg-config",
+    "tint2"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+3",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

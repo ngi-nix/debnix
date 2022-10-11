@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "rzip",
+  "nix_pkg": null,
+  "control_file_hash": "ea66244ee193d59c7d5e09d79d4b18c6cbcbfda9928e7540621e07dc056c8860",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libbz2-dev"
+  ],
+  "nix_inputs": [
+    "bzip2"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2"
+  }
+}

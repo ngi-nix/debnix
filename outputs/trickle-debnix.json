@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "trickle",
+  "nix_pkg": null,
+  "control_file_hash": "d287e4b9735754f207e7a10d270830d2c6b068c36d3479b208e246062db68cf8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbsd-dev",
+    "libevent-dev",
+    "libtirpc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libevent",
+    "libtirpc"
+  ],
+  "map": {
+    "libtirpc-dev": "libtirpc",
+    "libevent-dev": "libevent"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "qdirstat",
+  "nix_pkg": null,
+  "control_file_hash": "c8bd8e8743842cc319b35f2eec55bd87267b3a3cfea554e27524d3db1d3b0ec3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liburi-perl",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

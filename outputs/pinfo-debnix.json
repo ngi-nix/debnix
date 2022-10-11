@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "pinfo",
+  "nix_pkg": null,
+  "control_file_hash": "b378eaf3bee0b3abf4828f9d024067d14c063488250def49ec620b7b0fb97486",
+  "deb_inputs": [
+    "debhelper",
+    "gettext",
+    "install-info",
+    "libncursesw5-dev",
+    "libreadline-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses",
+    "readline",
+    "texinfo"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "gettext": "gettext",
+    "libreadline-dev": "readline",
+    "install-info": "texinfo",
+    "texinfo": "texinfo"
+  }
+}

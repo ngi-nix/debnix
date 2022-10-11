@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "cutecom",
+  "nix_pkg": null,
+  "control_file_hash": "13ba1da58423160b844d422f514e326a5cde82a46f2bc0e9f63c4d41473715d9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libqt5serialport5-dev",
+    "lrzsz",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtserialport"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake"
+  }
+}

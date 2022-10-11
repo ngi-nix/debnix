@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libzmq3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0530b35a6505f27ff172cc2994e5fb300e2841059eab23dd950159a023f222e2",
+  "deb_inputs": [
+    "asciidoc",
+    "cppzmq-dev",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libkrb5-dev",
+    "libnorm-dev",
+    "libpgm-dev",
+    "libsodium-dev",
+    "libzmq5",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "cmake",
+    "libsodium",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsodium-dev": "libsodium",
+    "asciidoc": "asciidoc"
+  }
+}

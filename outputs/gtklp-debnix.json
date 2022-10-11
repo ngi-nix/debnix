@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "gtklp",
+  "nix_pkg": null,
+  "control_file_hash": "aed7047ef5a08e5468d150f5c03b4a27dc63803155b6afdaf6fa8ec68504cf44",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcups2-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "cups",
+    "gettext",
+    "glib",
+    "gtk+",
+    "libtool",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgtk2.0-dev": "gtk+",
+    "libcups2-dev": "cups"
+  }
+}

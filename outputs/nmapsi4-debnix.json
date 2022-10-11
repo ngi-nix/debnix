@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "nmapsi4",
+  "nix_pkg": null,
+  "control_file_hash": "a239efcfc821338860eac831503995bc86bd35b59a0b148398dcb5f387a835a4",
+  "deb_inputs": [
+    "bind9-dnsutils",
+    "cmake",
+    "debhelper-compat",
+    "nmap",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtscript5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "qtwebengine5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtscript",
+    "qtwebengine"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qtscript5-dev": "qtscript",
+    "qtwebengine5-dev": "qtwebengine"
+  }
+}

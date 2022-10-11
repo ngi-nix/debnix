@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "mp3gain",
+  "nix_pkg": null,
+  "control_file_hash": "615128fc1c269f0a0cd1471eec9d82f14461afaff99a43c8e0257ef0a8db3b2a",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "libmpg123-dev"
+  ],
+  "nix_inputs": [
+    "mpg123",
+    "unzip"
+  ],
+  "map": {
+    "libmpg123-dev": "mpg123"
+  }
+}

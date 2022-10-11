@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "direwolf",
+  "nix_pkg": null,
+  "control_file_hash": "20266541e5eb0909dbea5ed3a419155bffe9519f1eaca4015efc90ac3ee7b245",
+  "deb_inputs": [
+    "adduser",
+    "cmake",
+    "debhelper-compat",
+    "gpsd",
+    "libasound2-dev",
+    "libgps-dev",
+    "libhamlib-dev",
+    "libudev-dev",
+    "python3"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "espeak-ng",
+    "gpsd",
+    "hamlib",
+    "perl",
+    "python3",
+    "systemd"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libgps-dev": "gpsd",
+    "cmake": "cmake",
+    "libudev-dev": "systemd",
+    "libhamlib-dev": "hamlib",
+    "python3": "python3",
+    "gpsd": "gpsd"
+  }
+}

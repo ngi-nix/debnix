@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "routino-common",
+  "nix_pkg": null,
+  "control_file_hash": "3443490c4e44a032e779d5ba8bd1b773a331c1658cbf570198bc973cc96d4cdf",
+  "deb_inputs": [
+    "apache2",
+    "chrpath",
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "docbook2x",
+    "flex",
+    "gsfonts",
+    "httpd",
+    "javascript-common",
+    "libbz2-dev",
+    "libgraphics-magick-perl",
+    "libjs-leaflet",
+    "libroutino-slim0",
+    "libroutino0",
+    "routino",
+    "routino-common",
+    "sensible-utils",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

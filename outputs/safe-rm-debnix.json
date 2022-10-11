@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "safe-rm",
+  "nix_pkg": null,
+  "control_file_hash": "ad1cd258645b35b0c6bcf1c8388665981cc371683c5c04991bc88ed5e6ba172c",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper-compat",
+    "dh-cargo",
+    "librust-glob-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

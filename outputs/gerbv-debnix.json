@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "gerbv",
+  "nix_pkg": null,
+  "control_file_hash": "4697cc145e80ce14d6c342d98641cdbebac269b12a0d2fb24d853ce8bbccbfe1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "extra-xdg-menus",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libpng-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "cairo",
+    "gettext",
+    "gtk+",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libcairo2-dev": "cairo"
+  }
+}

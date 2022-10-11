@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "gpa",
+  "nix_pkg": null,
+  "control_file_hash": "2bb600cb02e9a918b929dcbf3ed3a1d68d0fa178dd9de6018c524d831c80b402",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper-compat",
+    "gnupg",
+    "gnupg2",
+    "gpgsm",
+    "libassuan-dev",
+    "libgpg-error-dev",
+    "libgpgme-dev",
+    "libgpgme11",
+    "libgtk2.0-dev"
+  ],
+  "nix_inputs": [
+    "gpgme",
+    "gtk+",
+    "intltool",
+    "libassuan",
+    "libgpg-error",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgpgme11": "gpgme",
+    "libgpgme-dev": "gpgme",
+    "libgpg-error-dev": "libgpg-error",
+    "libassuan-dev": "libassuan",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

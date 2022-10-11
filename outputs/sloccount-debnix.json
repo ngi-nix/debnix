@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "sloccount",
+  "nix_pkg": null,
+  "control_file_hash": "338c0358e89c677784c91a08c5abeb1c5dafefe0f73ed121b29c66f53d7765f0",
+  "deb_inputs": [
+    "debhelper",
+    "doc-base",
+    "flex",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

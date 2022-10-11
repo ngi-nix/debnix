@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "surf",
+  "nix_pkg": null,
+  "control_file_hash": "aba0e41aeaa1e51fbbbf14d5c3147a5afe6a716ffd7fcd050e849c07c28e6e99",
+  "deb_inputs": [
+    "apparmor",
+    "curl",
+    "debhelper-compat",
+    "dh-apparmor",
+    "libgcr-3-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libwebkit2gtk-4.1-dev",
+    "pkg-config",
+    "stterm",
+    "suckless-tools",
+    "x-terminal-emulator",
+    "x11-utils"
+  ],
+  "nix_inputs": [
+    "gcr",
+    "glib",
+    "glib-networking",
+    "gsettings-desktop-schemas",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gstreamer",
+    "gtk+",
+    "libsoup",
+    "pkg-config-wrapper",
+    "webkitgtk"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgtk-3-dev": "gtk+",
+    "libgcr-3-dev": "gcr"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "shairport-sync",
+  "nix_pkg": null,
+  "control_file_hash": "0a93e30b2ef9de9c41b856f2fa8098cffdce139e7f3256ddab73998467b63ccc",
+  "deb_inputs": [
+    "adduser",
+    "avahi-daemon",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libavahi-client-dev",
+    "libconfig-dev",
+    "libdaemon-dev",
+    "libjack-jackd2-dev",
+    "libmosquitto-dev",
+    "libpopt-dev",
+    "libpulse-dev",
+    "libsndfile1-dev",
+    "libsoxr-dev",
+    "libssl-dev",
+    "xmltoman"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "avahi",
+    "glib",
+    "libconfig",
+    "libdaemon",
+    "libpulseaudio",
+    "openssl",
+    "pkg-config-wrapper",
+    "popt",
+    "soxr"
+  ],
+  "map": {
+    "libconfig-dev": "libconfig",
+    "libdaemon-dev": "libdaemon",
+    "libavahi-client-dev": "avahi",
+    "libssl-dev": "openssl",
+    "libpopt-dev": "popt",
+    "libasound2-dev": "alsa-lib",
+    "avahi-daemon": "avahi",
+    "libsoxr-dev": "soxr"
+  }
+}
