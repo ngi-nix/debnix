@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "dbus-broker",
+  "nix_pkg": null,
+  "control_file_hash": "a319105a0a33a6ff725eed1ab6e01864743b60f387170fbc9bba33629a6e7599",
+  "deb_inputs": [
+    "dbus-bin",
+    "dbus-system-bus-common",
+    "debhelper-compat",
+    "libapparmor-dev",
+    "libaudit-dev",
+    "libcap-ng-dev",
+    "libdbus-1-dev",
+    "libexpat1-dev",
+    "libselinux1-dev",
+    "libsystemd-dev",
+    "linux-libc-dev",
+    "meson",
+    "pkg-config",
+    "python3-docutils",
+    "systemd",
+    "systemd-sysv"
+  ],
+  "nix_inputs": [
+    "c-dvar",
+    "c-ini",
+    "c-list",
+    "c-rbtree",
+    "c-shquote",
+    "c-stdaux",
+    "c-utf8",
+    "dbus",
+    "docutils",
+    "linux-headers",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "meson": "meson",
+    "systemd": "systemd",
+    "dbus-bin": "dbus",
+    "systemd-sysv": "systemd",
+    "libsystemd-dev": "systemd",
+    "libdbus-1-dev": "dbus",
+    "dbus-system-bus-common": "dbus"
+  }
+}

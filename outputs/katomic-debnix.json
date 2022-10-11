@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "katomic",
+  "nix_pkg": null,
+  "control_file_hash": "cf828262b2e63060af9b0fa4522c9dd745e800a951221de8c3da335cd1490166",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5newstuff-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5kdegames-dev": "libkdegames",
+    "libkf5newstuff-dev": "knewstuff",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

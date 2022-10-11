@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "bomber",
+  "nix_pkg": null,
+  "control_file_hash": "08914b18fbca297e2acdc487c6df1b928b94dda41bb9b2b9d9f02beb47f6f2ec",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdeclarative",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

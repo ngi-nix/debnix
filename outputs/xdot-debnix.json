@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "xdot",
+  "nix_pkg": null,
+  "control_file_hash": "646a08ef659a4f66e285e6a718f371e7b059a8c49cd46a410fef264e1bfc3a8c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "graphviz",
+    "python3",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-numpy",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "graphviz",
+    "gtk+3",
+    "numpy",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-gi-cairo": "pygobject",
+    "graphviz": "graphviz",
+    "python3": "python3",
+    "python3-numpy": "numpy",
+    "python3-gi": "pygobject"
+  }
+}

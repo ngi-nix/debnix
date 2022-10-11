@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "ddrescueview",
+  "nix_pkg": null,
+  "control_file_hash": "51fde775a9879488de6cd3d2898b6e0b48c1c17ad698a89f7d2ee1931d2315bf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fp-units-misc",
+    "lcl-gtk2",
+    "lcl-units",
+    "lcl-utils",
+    "libgtk2.0-dev"
+  ],
+  "nix_inputs": [
+    "atk",
+    "cairo",
+    "fpc",
+    "gdk-pixbuf",
+    "glib",
+    "gtk+",
+    "lazarus-gtk2",
+    "libX11",
+    "pango"
+  ],
+  "map": {
+    "fp-units-misc": "fpc",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

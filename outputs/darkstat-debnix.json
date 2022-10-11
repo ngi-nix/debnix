@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "darkstat",
+  "nix_pkg": null,
+  "control_file_hash": "b113c025ff4185b3321f6c85c56a3be486b2f6d55cbaa222038e956a407e53de",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libpcap-dev",
+    "lsb-base",
+    "po-debconf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libpcap-dev": "libpcap"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "kbounce",
+  "nix_pkg": null,
+  "control_file_hash": "636461ffbdb8d09017060b924a8a2ac5a1cd1d23f5fdf546590c1476cd5ac2e4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5completion-dev",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5kio-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kconfig",
+    "kcrash",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5config-dev": "kconfig",
+    "libkf5kio-dev": "kio",
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5crash-dev": "kcrash",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

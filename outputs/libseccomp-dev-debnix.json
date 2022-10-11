@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libseccomp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d17e3013a47644bd134248c4a4a3d826930c6f04774e6d38bb68f2f6075eed77",
+  "deb_inputs": [
+    "cython3:native",
+    "debhelper-compat",
+    "dh-python",
+    "gperf",
+    "libpython3-all-dev",
+    "libseccomp-dev",
+    "libseccomp2",
+    "linux-libc-dev",
+    "python3-all-dev:any",
+    "seccomp",
+    "valgrind"
+  ],
+  "nix_inputs": [
+    "getopt",
+    "gperf",
+    "util-linux-minimal",
+    "which"
+  ],
+  "map": {
+    "gperf": "gperf"
+  }
+}

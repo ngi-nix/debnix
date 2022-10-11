@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "mednafen",
+  "nix_pkg": null,
+  "control_file_hash": "e46ed237504ca7a091c230b9cb8b5d52b0cf12660c49c01d1ccf9465f748e7da",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libflac-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libjack-dev",
+    "liblzo2-dev",
+    "libmpcdec-dev",
+    "libsamplerate0-dev",
+    "libsdl2-dev",
+    "libtrio-dev",
+    "libvorbisidec-dev",
+    "libz-dev",
+    "libzstd-dev",
+    "mednaffe",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_net",
+    "alsa-lib",
+    "flac",
+    "freeglut",
+    "glu",
+    "libGL",
+    "libX11",
+    "libcdio",
+    "libjack2",
+    "libsamplerate",
+    "libsndfile",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libflac-dev": "flac",
+    "libsamplerate0-dev": "libsamplerate",
+    "zlib1g-dev": "zlib",
+    "libasound2-dev": "alsa-lib",
+    "libgl-dev": "libGL"
+  }
+}

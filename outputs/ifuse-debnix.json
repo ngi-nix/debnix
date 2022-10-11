@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "ifuse",
+  "nix_pkg": null,
+  "control_file_hash": "f46b9e7499ed35f39430cc73b861ee35e4171234ad98c2f79cb8c6b7ed5dc9cb",
+  "deb_inputs": [
+    "debhelper",
+    "fuse",
+    "libfuse-dev",
+    "libimobiledevice-dev",
+    "libplist-dev"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "libimobiledevice",
+    "pkg-config-wrapper",
+    "usbmuxd"
+  ],
+  "map": {
+    "libimobiledevice-dev": "libimobiledevice",
+    "fuse": "fuse",
+    "libfuse-dev": "fuse"
+  }
+}

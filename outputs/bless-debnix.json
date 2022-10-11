@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "bless",
+  "nix_pkg": null,
+  "control_file_hash": "f234b7c9b737133a225b83af679ec29d661eb37c6d5d13079220dbbc0de937f3",
+  "deb_inputs": [
+    "debhelper",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "gettext",
+    "glib",
+    "gtk+",
+    "gtk-sharp",
+    "itstool",
+    "libxslt",
+    "meson",
+    "mono",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {}
+}

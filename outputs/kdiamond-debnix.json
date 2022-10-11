@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "kdiamond",
+  "nix_pkg": null,
+  "control_file_hash": "d0770c7fc8fc341846a9ba615ac3edb94ad70906c11cccc010e27f7925e7a20d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5notifications-dev",
+    "libkf5notifyconfig-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kconfig",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "knotifyconfig",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5i18n-dev": "ki18n",
+    "libkf5doctools-dev": "kdoctools",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames",
+    "libkf5config-dev": "kconfig",
+    "libkf5notifyconfig-dev": "knotifyconfig"
+  }
+}

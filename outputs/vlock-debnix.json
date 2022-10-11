@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "vlock",
+  "nix_pkg": null,
+  "control_file_hash": "c2bf9a487b19287ac728c49e3e4d0127b370ee423af89f9974d928ef51c18ba7",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libpam-modules",
+    "libpam0g-dev"
+  ],
+  "nix_inputs": [
+    "linux-pam"
+  ],
+  "map": {}
+}

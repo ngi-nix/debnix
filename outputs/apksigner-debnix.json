@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "apksigner",
+  "nix_pkg": null,
+  "control_file_hash": "4f4635c5cc5eeb64d7c49c79e9fa74d1753332672a3c765d9fcd6a378bb48a19",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-headless",
+    "gradle-debian-helper",
+    "gradle-plugin-protobuf",
+    "javahelper",
+    "junit4",
+    "maven-repo-helper",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "gradle"
+  ],
+  "map": {}
+}

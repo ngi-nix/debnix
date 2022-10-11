@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "qpdfview-ps-plugin",
+  "nix_pkg": null,
+  "control_file_hash": "c862dcf3813dd0e19c71988e79285c719ae4a2aa68ad1cb8b6e3654563dc4880",
+  "deb_inputs": [
+    "debhelper-compat",
+    "hicolor-icon-theme",
+    "libcups2-dev",
+    "libdjvulibre-dev",
+    "libjbig2dec0-dev",
+    "libopenjp2-7-dev",
+    "libpoppler-qt5-dev",
+    "libqt5sql5-sqlite",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libspectre-dev",
+    "libsynctex-dev",
+    "pkg-config",
+    "qpdfview",
+    "qpdfview-djvu-plugin",
+    "qpdfview-pdf-poppler-plugin",
+    "qpdfview-ps-plugin",
+    "qpdfview-translations",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cups",
+    "djvulibre",
+    "file",
+    "ghostscript-with-X",
+    "libspectre",
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "qtbase",
+    "qtsvg"
+  ],
+  "map": {
+    "libcups2-dev": "cups",
+    "libdjvulibre-dev": "djvulibre",
+    "libspectre-dev": "libspectre",
+    "qtbase5-dev": "qtbase"
+  }
+}

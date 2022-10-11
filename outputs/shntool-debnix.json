@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "shntool",
+  "nix_pkg": null,
+  "control_file_hash": "27af387f74fbb2c5b4ddabb142dfe93d91bb59e567f202cf49cd8b3508480700",
+  "deb_inputs": [
+    "cuetools",
+    "debhelper",
+    "dh-autoreconf",
+    "flac",
+    "sox",
+    "wavpack"
+  ],
+  "nix_inputs": [
+    "flac"
+  ],
+  "map": {
+    "flac": "flac"
+  }
+}

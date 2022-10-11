@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "webfs",
+  "nix_pkg": null,
+  "control_file_hash": "814ad29a91e60da1e84961565dbf8b2d8732befa1681e631aba43bdb3229b28b",
+  "deb_inputs": [
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "libgnutls28-dev",
+    "lsb-base",
+    "pkg-config",
+    "po-debconf",
+    "ucf"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {}
+}

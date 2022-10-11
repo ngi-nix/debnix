@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "abook",
+  "nix_pkg": null,
+  "control_file_hash": "09cdd4765fe52bcadab7ec080316e40555093973a7145cd31b1b1fd0098f31a7",
+  "deb_inputs": [
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libncursesw5-dev",
+    "libreadline-dev",
+    "libreadline6-dev",
+    "po-debconf",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline6-dev": "readline",
+    "libreadline-dev": "readline",
+    "libncursesw5-dev": "ncurses"
+  }
+}

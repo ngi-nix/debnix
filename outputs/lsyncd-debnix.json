@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "lsyncd",
+  "nix_pkg": null,
+  "control_file_hash": "4046a7967111f8d389db91809da7bb64d684784567051585d89ef2b0ca9216ba",
+  "deb_inputs": [
+    "asciidoc",
+    "cmake",
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "dpkg-dev",
+    "liblua5.3-dev",
+    "libxml2-dev",
+    "libxml2-utils",
+    "lsb-base",
+    "lua5.3",
+    "pkg-config",
+    "rsync",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "cmake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt",
+    "lua",
+    "pkg-config-wrapper",
+    "rsync"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "rsync": "rsync",
+    "libxml2-utils": "libxml2",
+    "docbook-xml": "docbook-xml",
+    "asciidoc": "asciidoc",
+    "xsltproc": "libxslt",
+    "libxml2-dev": "libxml2",
+    "liblua5.3-dev": "lua",
+    "lua5.3": "lua"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "birdtray",
+  "nix_pkg": null,
+  "control_file_hash": "7e03aecbfab4fa10e1efb8ace6415f45074f04c3fa2b5e69a1194ab17593939e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "libx11-xcb-dev",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "thunderbird"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake"
+  }
+}

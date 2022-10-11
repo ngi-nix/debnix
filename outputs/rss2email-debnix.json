@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "rss2email",
+  "nix_pkg": null,
+  "control_file_hash": "2e312ce446d6db0de26e39f2b7eb7d34032bdf99344d5721a1abbadddfac7d38",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "esmtp",
+    "python3-all",
+    "python3-bs4",
+    "python3-distutils",
+    "python3-feedparser",
+    "python3-html2text",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "beautifulsoup4",
+    "feedparser",
+    "html2text",
+    "python3"
+  ],
+  "map": {
+    "python3-feedparser": "feedparser",
+    "python3-bs4": "beautifulsoup4"
+  }
+}

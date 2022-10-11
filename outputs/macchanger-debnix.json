@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "macchanger",
+  "nix_pkg": null,
+  "control_file_hash": "67efacecbce0de0e56edb261ba5757e58750b36303c631cc311eea8addabdef0",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg",
+    "install-info",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "install-info": "texinfo"
+  }
+}

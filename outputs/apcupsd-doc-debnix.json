@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "apcupsd-doc",
+  "nix_pkg": null,
+  "control_file_hash": "a69707104e80c4e15e7a8ed7a6b23afe347840845ccf0a3b9e902cc5f17f90b0",
+  "deb_inputs": [
+    "apache2",
+    "apcupsd",
+    "apcupsd-cgi",
+    "apcupsd-doc",
+    "awk",
+    "debhelper",
+    "httpd",
+    "libgd-dev",
+    "libmodbus-dev",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libsnmp-dev",
+    "libusb-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "mailx",
+    "mawk",
+    "pkg-config",
+    "po-debconf",
+    "python3-docutils",
+    "s-nail",
+    "tcpd",
+    "texinfo",
+    "udev"
+  ],
+  "nix_inputs": [
+    "gd",
+    "man-db",
+    "pkg-config-wrapper",
+    "util-linux"
+  ],
+  "map": {
+    "libgd-dev": "gd"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "bspwm",
+  "nix_pkg": null,
+  "control_file_hash": "de1b60bf953a288d0f42952aba2fd2a3b1e23ea9853c9c6381786672ccfa21be",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "lemonbar",
+    "libxcb-ewmh-dev",
+    "libxcb-icccm4-dev",
+    "libxcb-keysyms1-dev",
+    "libxcb-randr0-dev",
+    "libxcb-shape0-dev",
+    "libxcb-util0-dev",
+    "libxcb-xinerama0-dev",
+    "sxhkd",
+    "x11-utils",
+    "xdo"
+  ],
+  "nix_inputs": [
+    "libXinerama",
+    "libxcb",
+    "xcb-util",
+    "xcb-util-keysyms",
+    "xcb-util-wm"
+  ],
+  "map": {
+    "libxcb-ewmh-dev": "xcb-util-wm",
+    "libxcb-randr0-dev": "libxcb",
+    "libxcb-keysyms1-dev": "xcb-util-keysyms",
+    "libxcb-util0-dev": "xcb-util",
+    "libxcb-icccm4-dev": "xcb-util-wm",
+    "libxcb-shape0-dev": "libxcb",
+    "libxcb-xinerama0-dev": "libxcb"
+  }
+}

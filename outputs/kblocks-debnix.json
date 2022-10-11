@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "kblocks",
+  "nix_pkg": null,
+  "control_file_hash": "782982432a302af870c0b736c2fdcf8ecd179c7f1c3fb4214642f22c0be6f578",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5i18n-dev": "ki18n",
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools"
+  }
+}

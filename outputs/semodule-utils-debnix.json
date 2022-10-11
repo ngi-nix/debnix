@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "semodule-utils",
+  "nix_pkg": null,
+  "control_file_hash": "fa7e8a0ff83dc50108a391440dfc002a9bb7c3373d400266be9c001c3c6c3e3a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsepol-dev"
+  ],
+  "nix_inputs": [
+    "libsepol"
+  ],
+  "map": {
+    "libsepol-dev": "libsepol"
+  }
+}

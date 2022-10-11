@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "kapman",
+  "nix_pkg": null,
+  "control_file_hash": "a714f87b2ee1b0f8a5b1bdb471c60fd42df0d3c2affbb6745da462aebfd1e51d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "ki18n",
+    "kio",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5i18n-dev": "ki18n",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kdegames-dev": "libkdegames"
+  }
+}

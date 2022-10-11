@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "homebank",
+  "nix_pkg": null,
+  "control_file_hash": "6a1ec35b1658dd40379aa9ba7a4c3d1c2aa874369b58fa921756e322e8af8aac",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "homebank",
+    "homebank-data",
+    "intltool",
+    "libgtk-3-dev",
+    "libofx-dev",
+    "librsvg2-common",
+    "libsoup2.4-dev",
+    "libxml-parser-perl",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "gtk+3",
+    "intltool",
+    "libofx",
+    "libsoup",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libofx-dev": "libofx",
+    "intltool": "intltool",
+    "libsoup2.4-dev": "libsoup"
+  }
+}

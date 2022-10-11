@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "gmtp",
+  "nix_pkg": null,
+  "control_file_hash": "fb6be7edec2b20158ec26c905be518d8d5bb2f7c9a5cca33bfc07107dff39803",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libflac-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libid3tag0-dev",
+    "libmtp-dev",
+    "libvorbis-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "flac",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "libid3tag",
+    "libmtp",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmtp-dev": "libmtp",
+    "libvorbis-dev": "libvorbis",
+    "libflac-dev": "flac",
+    "libid3tag0-dev": "libid3tag"
+  }
+}

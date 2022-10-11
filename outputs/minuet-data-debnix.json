@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "minuet-data",
+  "nix_pkg": null,
+  "control_file_hash": "06e45c3ffa6ba8ff94788e6f4388e1ae69e2c3f7dcd4f8abbe40e2f1c964b43a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "freepats",
+    "gettext",
+    "libfluidsynth-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libqt5svg5-dev",
+    "minuet-data",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtquickcontrols2-5-dev",
+    "timidity"
+  ],
+  "nix_inputs": [
+    "drumstick",
+    "extra-cmake-modules",
+    "fluidsynth",
+    "gettext",
+    "kcoreaddons",
+    "kcrash",
+    "kdoctools",
+    "python3",
+    "qtdeclarative",
+    "qtquickcontrols2",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "libfluidsynth-dev": "fluidsynth",
+    "qtdeclarative5-dev": "qtdeclarative",
+    "gettext": "gettext",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5crash-dev": "kcrash"
+  }
+}

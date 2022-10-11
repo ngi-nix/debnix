@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "bovo",
+  "nix_pkg": null,
+  "control_file_hash": "76b51d574a79d1e531351f87c969082244a4339e90945f4a0528a92e69537f55",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5kdegames-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdeclarative",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

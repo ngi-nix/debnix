@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libgetdns10",
+  "nix_pkg": null,
+  "control_file_hash": "955a3f558806c42dcc95adc039a8f2e0752d5a8283c19f8fa6104ac9c5d8d49d",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper",
+    "dns-root-data",
+    "libbsd-dev",
+    "libev-dev",
+    "libevent-dev",
+    "libexpat-dev",
+    "libgetdns10",
+    "libidn2-dev",
+    "libldns-dev",
+    "libunbound-dev",
+    "libuv1-dev",
+    "libyaml-dev",
+    "stubby",
+    "unbound-anchor"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "getdns",
+    "libyaml",
+    "openssl",
+    "systemd",
+    "yq"
+  ],
+  "map": {
+    "libyaml-dev": "libyaml",
+    "cmake": "cmake",
+    "stubby": "getdns",
+    "libgetdns10": "getdns"
+  }
+}

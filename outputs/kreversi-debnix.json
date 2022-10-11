@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "kreversi",
+  "nix_pkg": null,
+  "control_file_hash": "3bad1139bc91b287241d9aa85b79786fb0516c41dda1f893f8ab33fc2837b965",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5declarative-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5iconthemes-dev",
+    "libkf5kdegames-dev",
+    "libkf5kio-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qml-module-org-kde-games-core",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdeclarative",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5declarative-dev": "kdeclarative",
+    "qml-module-org-kde-games-core": "libkdegames"
+  }
+}

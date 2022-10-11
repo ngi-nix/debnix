@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libvamp-hostsdk3v5",
+  "nix_pkg": null,
+  "control_file_hash": "13f1273c0ad9daadf26fffb6fa78d1ec8e7cd5a907832adaeaf93bc9f23a818e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "g++",
+    "graphviz",
+    "libsndfile1-dev",
+    "libvamp-hostsdk3v5",
+    "libvamp-sdk2v5"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

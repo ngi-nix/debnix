@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "s-tui",
+  "nix_pkg": null,
+  "control_file_hash": "4561b19b2cbb14314a5842c9cabb091e00aea2c960394dd3b7b09d759d0ad475",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-distutils",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "stress",
+    "stress-ng"
+  ],
+  "nix_inputs": [
+    "psutil",
+    "python3",
+    "urwid"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

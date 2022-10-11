@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libglm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fffa9c67e3a91c13caaf0a6c227ef453c16039cb61f1124e68a98393015540b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjs-highlight.js",
+    "libjs-jquery"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

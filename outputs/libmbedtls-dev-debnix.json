@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libmbedtls-dev",
+  "nix_pkg": null,
+  "control_file_hash": "aed0b66caeee4a59d67eab4cf7e0eed9520db02b8ec4fa7eb39f0affd9bd2174",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libjs-jquery",
+    "libmbedcrypto7",
+    "libmbedtls-dev",
+    "libmbedtls-doc",
+    "libmbedtls14",
+    "libmbedx509-1"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja",
+    "perl",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

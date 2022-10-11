@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "miredo",
+  "nix_pkg": null,
+  "control_file_hash": "b1dcc1079468f61ecdd1662503dcd2802719d42bcebfb68fc266b091fd83ec3a",
+  "deb_inputs": [
+    "automake",
+    "autopoint",
+    "debhelper",
+    "debhelper-compat",
+    "freebsd-net-tools",
+    "iproute2",
+    "libcap2-dev",
+    "libjudy-dev",
+    "libtool",
+    "lsb-base",
+    "miredo"
+  ],
+  "nix_inputs": [
+    "judy"
+  ],
+  "map": {
+    "libjudy-dev": "judy"
+  }
+}

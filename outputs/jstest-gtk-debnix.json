@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "jstest-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "ab85deaecb31d50da51126c505b429a95840b3b0707894962f797faa54da451b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "joystick",
+    "libexpat1-dev",
+    "libgtkmm-2.4-dev",
+    "libsigc++-2.0-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtkmm",
+    "libX11",
+    "libsigc++",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "cmake": "cmake",
+    "libgtkmm-2.4-dev": "gtkmm"
+  }
+}

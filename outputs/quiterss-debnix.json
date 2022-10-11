@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "quiterss",
+  "nix_pkg": null,
+  "control_file_hash": "961e05ceea415c272d5a9530246b8690f711b083fec6f94f04fdcd963ef0328e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5sql5-sqlite",
+    "libqt5webkit5-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtwebkit",
+    "sqlite"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "libsqlite3-dev": "sqlite"
+  }
+}

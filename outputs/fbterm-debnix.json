@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "fbterm",
+  "nix_pkg": null,
+  "control_file_hash": "4eb0d041aa0755be099eb5895a80467af790a4ef7ac93ec2127e4c51dccacb19",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libgpm-dev",
+    "libx86-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "fontconfig",
+    "freetype",
+    "gpm",
+    "libx86",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgpm-dev": "gpm",
+    "libx86-dev": "libx86",
+    "libfreetype6-dev": "freetype",
+    "libfontconfig1-dev": "fontconfig"
+  }
+}

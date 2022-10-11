@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "diffuse",
+  "nix_pkg": null,
+  "control_file_hash": "cbef5950be13c8b03433b03d73b0d908e2c139521d1c7cd79b125277989f8392",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-python",
+    "gettext",
+    "meson",
+    "python3-all",
+    "python3-gi",
+    "python3-gi-cairo"
+  ],
+  "nix_inputs": [
+    "atk",
+    "gdk-pixbuf",
+    "gettext",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pango",
+    "pycairo",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson",
+    "python3-gi": "pygobject",
+    "python3-gi-cairo": "pygobject",
+    "gettext": "gettext"
+  }
+}

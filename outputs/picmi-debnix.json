@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "picmi",
+  "nix_pkg": null,
+  "control_file_hash": "f30e5bdd9dbb2cb66afeed763ef4af4a279b9481d2c15462503955a372b8c7af",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5declarative-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5kio-dev",
+    "libkf5newstuff-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdeclarative",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "libkf5kdegames-dev": "libkdegames",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5declarative-dev": "kdeclarative",
+    "libkf5newstuff-dev": "knewstuff"
+  }
+}

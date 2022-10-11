@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "wxmaxima",
+  "nix_pkg": null,
+  "control_file_hash": "cdc90a425630d2b0b24e648a43a6f69182425049de283fa2221dfb9d722d5856",
+  "deb_inputs": [
+    "appstream-util",
+    "cmake",
+    "cmake3",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "fonts-jsmath",
+    "ibus-gtk3",
+    "libwxgtk3.0-gtk3-dev",
+    "maxima",
+    "maxima-doc",
+    "netcat-openbsd",
+    "texlive-latex-extra",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "cmake",
+    "gettext",
+    "maxima",
+    "wxwidgets"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "cmake3": "cmake",
+    "maxima": "maxima",
+    "maxima-doc": "maxima",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets"
+  }
+}

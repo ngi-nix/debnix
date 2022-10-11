@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "meterbridge",
+  "nix_pkg": null,
+  "control_file_hash": "3e831939ed652728a1949e9e464494cc1a0823e1a9c373c756e41f150b59ab67",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "jackd",
+    "libjack-dev",
+    "libsdl-image1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-image1.2-dev": "SDL_image"
+  }
+}

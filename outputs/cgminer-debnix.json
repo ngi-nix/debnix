@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "cgminer",
+  "nix_pkg": null,
+  "control_file_hash": "291721c8434eb86cc43aabbf29e2ee0585d63b7fe7a1cd5c69b92ecfba567aef",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libcurl4-dev",
+    "libcurl4-gnutls-dev",
+    "libjansson-dev",
+    "libncurses5-dev",
+    "libsystemd-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "curl",
+    "jansson",
+    "libX11",
+    "libXext",
+    "libXinerama",
+    "libtool",
+    "libusb",
+    "ncurses",
+    "ocl-icd",
+    "opencl-headers",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "libcurl4-gnutls-dev": "curl",
+    "libncurses5-dev": "ncurses",
+    "libcurl4-dev": "curl"
+  }
+}

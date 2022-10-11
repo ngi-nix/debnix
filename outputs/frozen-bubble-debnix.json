@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "frozen-bubble",
+  "nix_pkg": null,
+  "control_file_hash": "9494d4f4e3c85b56e5ad7ff78442d12b87b942adc33a30bc28d35906b008b41b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "frozen-bubble",
+    "frozen-bubble-data",
+    "libalien-sdl-dev-perl",
+    "libalien-sdl-perl",
+    "libcompress-bzip2-perl",
+    "libfile-slurp-perl",
+    "libipc-system-simple-perl",
+    "liblocale-gettext-perl",
+    "liblocale-maketext-lexicon-perl",
+    "libmodule-build-perl",
+    "libsdl-perl",
+    "perl-xs-dev",
+    "perl:native"
+  ],
+  "nix_inputs": [
+    "Alien-SDL",
+    "Compress-Bzip2",
+    "File-ShareDir",
+    "File-Slurp",
+    "File-Which",
+    "IPC-System-Simple",
+    "Locale-Maketext-Lexicon",
+    "Module-Build",
+    "SDL",
+    "SDL_Pango",
+    "SDL_mixer",
+    "glib",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "gir1.2-jsonrpc-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "c5b16fd72f2af31c53fa3abe957eab1baf075cf31ac34d5a5bc14889a5aabde7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gi-docgen",
+    "gir1.2-jsonrpc-1.0",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libjson-glib-dev",
+    "libjsonrpc-glib-1.0-1",
+    "libjsonrpc-glib-doc",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gi-docgen",
+    "glib",
+    "gobject-introspection",
+    "json-glib",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "libjson-glib-dev": "json-glib",
+    "gi-docgen": "gi-docgen",
+    "valac": "vala",
+    "libglib2.0-dev": "glib"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "stalonetray",
+  "nix_pkg": null,
+  "control_file_hash": "167f8c7b846d8feb79dac8a8f407ec8ac1f52fdf21ad355012f7ecf87f2bdc61",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "libx11-dev",
+    "libxpm-dev"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-ns",
+    "libX11",
+    "libXpm",
+    "libxslt"
+  ],
+  "map": {
+    "libxpm-dev": "libXpm",
+    "libx11-dev": "libX11"
+  }
+}

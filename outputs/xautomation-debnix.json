@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "xautomation",
+  "nix_pkg": null,
+  "control_file_hash": "b4326b42729969412e05783c6c2ba47703cb7cfae0bd9b1b52d09dd3a944338f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "libx11-dev",
+    "libxtst-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXtst",
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxtst-dev": "libXtst"
+  }
+}

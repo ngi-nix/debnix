@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libevdev-dev",
+  "nix_pkg": null,
+  "control_file_hash": "eca583d8786f4e53bb07adf2d386efb882ec167bf78c96d882d1be4853aeac00",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libevdev-doc",
+    "libevdev2",
+    "libjs-bootstrap",
+    "pkg-config",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

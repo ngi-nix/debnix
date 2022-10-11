@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "hfsprogs",
+  "nix_pkg": null,
+  "control_file_hash": "4da4b2296dc5c707e74e4bf6df373021400b68156546d95c2cd999fe5a36d9fe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libbsd-dev",
+    "libssl-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "libbsd",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libbsd-dev": "libbsd"
+  }
+}

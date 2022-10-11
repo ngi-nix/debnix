@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "granatier",
+  "nix_pkg": null,
+  "control_file_hash": "c2bd1e9a69e80b5ba9245df3e9469575f101fdeea5627e82bf691aa7cb0f4767",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "khelpcenter",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kdegames-dev",
+    "libkf5newstuff-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "libqt5svg5-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdeclarative",
+    "knewstuff",
+    "libkdegames"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5newstuff-dev": "knewstuff",
+    "libkf5kdegames-dev": "libkdegames"
+  }
+}

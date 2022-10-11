@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "htmldoc-common",
+  "nix_pkg": null,
+  "control_file_hash": "22d7e4459281c25fbe3e2f52ab62124677ea34e2d675a74e6113c97f16d0f4d2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "htmldoc-common",
+    "libfltk1.3-dev",
+    "libgnutls28-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libxpm-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "zlib1g-dev": "zlib"
+  }
+}

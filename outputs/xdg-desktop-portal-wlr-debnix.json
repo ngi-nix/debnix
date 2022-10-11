@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "xdg-desktop-portal-wlr",
+  "nix_pkg": null,
+  "control_file_hash": "ace7ec3a7102f963992d65e557a9814ba9d7dfc1371e89b1f3e314337f0b2100",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdrm-dev",
+    "libelogind-dev",
+    "libgbm-dev",
+    "libinih-dev",
+    "libpipewire-0.3-dev",
+    "libsystemd-dev",
+    "libwayland-dev",
+    "meson",
+    "ninja-build",
+    "pipewire",
+    "pkg-config",
+    "scdoc",
+    "systemd",
+    "wayland-protocols",
+    "xdg-desktop-portal"
+  ],
+  "nix_inputs": [
+    "inih",
+    "libdrm",
+    "mesa",
+    "meson",
+    "ninja",
+    "pipewire",
+    "pkg-config-wrapper",
+    "scdoc",
+    "systemd",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "wayland-protocols": "wayland-protocols",
+    "libpipewire-0.3-dev": "pipewire",
+    "libdrm-dev": "libdrm",
+    "libgbm-dev": "mesa",
+    "pipewire": "pipewire",
+    "systemd": "systemd",
+    "libsystemd-dev": "systemd",
+    "scdoc": "scdoc",
+    "meson": "meson",
+    "libwayland-dev": "wayland",
+    "libinih-dev": "inih"
+  }
+}

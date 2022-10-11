@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "gnome-multi-writer",
+  "nix_pkg": null,
+  "control_file_hash": "db4ddf93397fb3bf72d882c7164f0729be026d369e0de60828791cd3f9194dff",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "docbook-utils",
+    "gobject-introspection",
+    "libcanberra-gtk3-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgudev-1.0-dev",
+    "libgusb-dev",
+    "libpolkit-gobject-1-dev",
+    "libudisks2-dev",
+    "libxml2-utils",
+    "meson",
+    "pkg-config",
+    "policykit-1"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "gettext",
+    "glib",
+    "gtk+3",
+    "gusb",
+    "libcanberra",
+    "libgudev",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "polkit",
+    "udisks"
+  ],
+  "map": {
+    "meson": "meson",
+    "appstream-util": "appstream-glib",
+    "libcanberra-gtk3-dev": "libcanberra",
+    "libgusb-dev": "gusb",
+    "libglib2.0-dev": "glib",
+    "libgudev-1.0-dev": "libgudev",
+    "libudisks2-dev": "udisks"
+  }
+}

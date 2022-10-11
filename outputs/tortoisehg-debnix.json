@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "tortoisehg",
+  "nix_pkg": null,
+  "control_file_hash": "d121f52404af0c14b49f334ed642127a0a6e30148d13aa09f429a51031850133",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "gnome-icon-theme",
+    "gnome-icon-theme-full",
+    "libjs-jquery",
+    "libjs-underscore",
+    "mate-icon-theme",
+    "mercurial",
+    "python3",
+    "python3-caja",
+    "python3-gi",
+    "python3-iniparse",
+    "python3-nautilus",
+    "python3-pygments",
+    "python3-pyqt5",
+    "python3-pyqt5.qsci",
+    "ssh-askpass",
+    "ssh-askpass-gnome",
+    "tortoisehg",
+    "tortoisehg-nautilus"
+  ],
+  "nix_inputs": [
+    "iniparse",
+    "mercurial",
+    "python3",
+    "qscintilla-qt5"
+  ],
+  "map": {
+    "mercurial": "mercurial",
+    "python3": "python3"
+  }
+}

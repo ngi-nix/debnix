@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libjson-glib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4f310c711448e1af7baa36fb62a162befb6c81f65ac2fc145944efc5e3ab7efc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-glib-2.0",
+    "gir1.2-json-1.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libjson-glib-1.0-0",
+    "libjson-glib-1.0-common",
+    "libjson-glib-doc",
+    "meson",
+    "pkg-config",
+    "python3-jinja2",
+    "python3-toml",
+    "python3-typogrify",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gi-docgen",
+    "glib",
+    "gobject-introspection",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "xsltproc": "libxslt",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "meson": "meson",
+    "libglib2.0-dev": "glib"
+  }
+}

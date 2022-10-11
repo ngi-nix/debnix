@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libdbus-glib-1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "923ed228a8e8f96ce78cb7950dcf3f167a43115dab747e2876861a3f2b22818a",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "devhelp",
+    "gtk-doc-tools",
+    "libdbus-1-dev",
+    "libdbus-glib-1-2",
+    "libdbus-glib-1-dev-bin",
+    "libexpat-dev",
+    "libglib2.0-dev",
+    "lynx",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "expat",
+    "gettext",
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "dbus": "dbus",
+    "libdbus-1-dev": "dbus",
+    "libexpat-dev": "expat",
+    "libglib2.0-dev": "glib"
+  }
+}

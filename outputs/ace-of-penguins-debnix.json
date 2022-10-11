@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ace-of-penguins",
+  "nix_pkg": null,
+  "control_file_hash": "ad58619e329830b29847f24f5fc1be8a41b035efb8416ce164222cf44f38237c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "libpng-dev:native",
+    "libx11-dev",
+    "xfonts-100dpi",
+    "zlib1g-dev",
+    "zlib1g-dev:native"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXpm",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "zlib1g-dev": "zlib",
+    "zlib1g-dev:native": "zlib"
+  }
+}

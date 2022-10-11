@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "axel",
+  "nix_pkg": null,
+  "control_file_hash": "6d6836bb71ab4a1b1a8037fae0297873b72a09eea063b4c90960007aeb0c10f6",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "gettext",
+    "libssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "gettext",
+    "openssl",
+    "pkg-config-wrapper",
+    "txt2man"
+  ],
+  "map": {
+    "autoconf-archive": "autoconf-archive",
+    "gettext": "gettext",
+    "libssl-dev": "openssl"
+  }
+}

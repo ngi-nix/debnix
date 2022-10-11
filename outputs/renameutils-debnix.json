@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "renameutils",
+  "nix_pkg": null,
+  "control_file_hash": "0ac0c8689383f5944c8b69d4ce65d61351cb4ff7847ab64ca006b3147ac83961",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "cmake-qt-gui",
+  "nix_pkg": null,
+  "control_file_hash": "221036c149ddf8ae0ee447ffab49ad446af70716b9f991e9ce6535becccdd3e7",
+  "deb_inputs": [
+    "cmake",
+    "cmake-data",
+    "cmake-doc",
+    "cmake-format",
+    "debhelper-compat",
+    "doc-base",
+    "freebsd-glue",
+    "gcc",
+    "libarchive-dev",
+    "libcurl4-openssl-dev",
+    "libexpat1-dev",
+    "libjsoncpp-dev",
+    "libncurses5-dev",
+    "librhash-dev",
+    "libssl-dev",
+    "libuv1-dev",
+    "make",
+    "ninja-build",
+    "procps",
+    "python3-sphinx:native",
+    "python3-sphinxcontrib.qthelp:native",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "curl",
+    "expat",
+    "libarchive",
+    "libuv",
+    "openssl",
+    "pkg-config-wrapper",
+    "rhash",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libcurl4-openssl-dev": "curl",
+    "libexpat1-dev": "expat",
+    "libuv1-dev": "libuv",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libarchive-dev": "libarchive",
+    "librhash-dev": "rhash"
+  }
+}

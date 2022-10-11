@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libde265-dev",
+  "nix_pkg": null,
+  "control_file_hash": "18c976f1c60e196219001d4bdf69c223d889c2a772576d024d5fd6e88fe7cba9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libde265-0",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libqt4-dev",
+    "libsdl-dev",
+    "libswscale-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxv-dev",
+    "pkg-config",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

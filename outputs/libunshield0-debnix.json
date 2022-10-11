@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libunshield0",
+  "nix_pkg": null,
+  "control_file_hash": "db0e5ec3f9d59a627ffb6769c68ab87e58ff4b898d98bd601aa744ac6f039b60",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libunshield0",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake"
+  }
+}

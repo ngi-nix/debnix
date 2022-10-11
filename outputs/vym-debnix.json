@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "vym",
+  "nix_pkg": null,
+  "control_file_hash": "d20271f2de7b813be7ecd872504b1d10a88371fe6ccbafe8bed6ee4c0eb35009",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dpkg-dev",
+    "libqt5svg5-dev",
+    "patchutils",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "quilt",
+    "ruby",
+    "ruby-interpreter",
+    "unzip",
+    "xsltproc",
+    "zip"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "qtscript",
+    "qtsvg"
+  ],
+  "map": {}
+}

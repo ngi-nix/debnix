@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "extremetuxracer",
+  "nix_pkg": null,
+  "control_file_hash": "e9753a20b77207de8cf872afb4801f91d2d87040b58eb0a4947e612922c8d348",
+  "deb_inputs": [
+    "debhelper-compat",
+    "extremetuxracer",
+    "extremetuxracer-data",
+    "libglu1-mesa-dev",
+    "libsfml-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "freeglut",
+    "freetype",
+    "gettext",
+    "glu",
+    "intltool",
+    "libGL",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXmu",
+    "libXt",
+    "libpng",
+    "pkg-config-wrapper",
+    "sfml",
+    "tcl",
+    "xorgproto"
+  ],
+  "map": {
+    "libsfml-dev": "sfml",
+    "libglu1-mesa-dev": "glu"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "padthv1-lv2",
+  "nix_pkg": null,
+  "control_file_hash": "b7db8af9d86b797e4e0c20ae1a70398b8cb3878187729bfd19ed2127ceafa742",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libqt6svg6-dev",
+    "libsndfile1-dev",
+    "libx11-dev",
+    "lv2-dev",
+    "padthv1-common",
+    "qt6-base-dev",
+    "qt6-tools-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-single",
+    "libjack2",
+    "liblo",
+    "libsndfile",
+    "lv2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "liblo-dev": "liblo",
+    "libasound2-dev": "alsa-lib",
+    "lv2-dev": "lv2",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

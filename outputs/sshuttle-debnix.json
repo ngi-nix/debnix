@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "sshuttle",
+  "nix_pkg": null,
+  "control_file_hash": "9a968418b248949538f959a1395e4ec28aedbb724014557ef4931101e7fd4e84",
+  "deb_inputs": [
+    "autossh",
+    "debhelper-compat",
+    "dh-python",
+    "dropbear",
+    "iptables",
+    "lsh-client",
+    "openssh-client",
+    "python3-all",
+    "python3-distutils",
+    "python3-mock",
+    "python3-pkg-resources",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-pytest-runner",
+    "python3-setuptools",
+    "python3-sphinx",
+    "ssh-client",
+    "sudo"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools-scm"
+  ],
+  "map": {}
+}
