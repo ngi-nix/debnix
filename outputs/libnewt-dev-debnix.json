@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libnewt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b975e41707b033efbfd67bfd23f83873cce3631840468a03db7bdb34d98ff33d",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "docbook-utils",
+    "gettext",
+    "libfribidi-dev",
+    "libfribidi0",
+    "libnewt-dev",
+    "libnewt0.52",
+    "libpopt-dev",
+    "libpython3-all-dev",
+    "libslang2-dev",
+    "python3-all-dbg:any",
+    "python3-all-dev:any",
+    "tcl8.6",
+    "tcl8.6-dev"
+  ],
+  "nix_inputs": [
+    "popt",
+    "python3",
+    "slang"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "libslang2-dev": "slang"
+  }
+}

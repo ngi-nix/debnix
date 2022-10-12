@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "rclone-browser",
+  "nix_pkg": null,
+  "control_file_hash": "4664e15de90daf6b0ca1d02a49ea7e4466150a584f22f83a18dbab8c66543c6c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "qtbase5-dev",
+    "rclone"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

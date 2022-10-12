@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "mhonarc",
+  "nix_pkg": null,
+  "control_file_hash": "4ebcdfd8b1d23e4235bfa8f90d7e15b3c4aaf49994e60032566b91e71f14abef",
+  "deb_inputs": [
+    "debhelper",
+    "libdigest-md5-perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

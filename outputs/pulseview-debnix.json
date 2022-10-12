@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "pulseview",
+  "nix_pkg": null,
+  "control_file_hash": "2d8d691beab6670c8a0462943d903317edeeb9da79ada162c2fd7d635979c6fd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libboost-filesystem-dev",
+    "libboost-system-dev",
+    "libboost-test-dev",
+    "libboost-thread-dev",
+    "libglib2.0-dev",
+    "libglibmm-2.4-dev",
+    "libqt5svg5-dev",
+    "libsigc++-2.0-dev",
+    "libsigrokcxx-dev",
+    "libsigrokdecode-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "glib",
+    "glibmm",
+    "libftdi",
+    "libserialport",
+    "libsigrok",
+    "libsigrokdecode",
+    "libusb",
+    "libzip",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "systemd"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libglibmm-2.4-dev": "glibmm",
+    "qtbase5-dev": "qtbase",
+    "libsigrokcxx-dev": "libsigrok",
+    "qttools5-dev": "qttools",
+    "libsigrokdecode-dev": "libsigrokdecode",
+    "libglib2.0-dev": "glib"
+  }
+}

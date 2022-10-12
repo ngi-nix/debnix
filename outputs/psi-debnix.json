@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "psi",
+  "nix_pkg": null,
+  "control_file_hash": "17e32c50b29a2add0cbe5e866809a15515c471f306187be64b0c305311cfb760",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libaspell-dev",
+    "libhunspell-dev",
+    "libidn11-dev",
+    "libminizip-dev",
+    "libqca-qt5-2-dev",
+    "libqca-qt5-2-plugins",
+    "libqt5sql5-sqlite",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "libsasl2-modules",
+    "libsm-dev",
+    "libxss-dev",
+    "psi-l10n",
+    "psi-translations",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtmultimedia5-dev",
+    "sox",
+    "xdg-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "hunspell",
+    "libXScrnSaver",
+    "libidn",
+    "qca-qt5",
+    "qtbase",
+    "qtmultimedia",
+    "qttools",
+    "qtwebengine",
+    "qtx11extras"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libidn11-dev": "libidn",
+    "libhunspell-dev": "hunspell"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "netcdf-bin",
+  "nix_pkg": null,
+  "control_file_hash": "4350cb4512fee0be5514aa0c53eff6f182ac064246cc8c20d07bdca656cc8d67",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libcurl-ssl-dev",
+    "libcurl4-gnutls-dev",
+    "libhdf5-dev",
+    "libnetcdf19",
+    "libxml2-dev",
+    "m4",
+    "netcdf-bin",
+    "netcdf-doc",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "gnum4",
+    "hdf5",
+    "libxml2",
+    "openmpi",
+    "unzip"
+  ],
+  "map": {
+    "libhdf5-dev": "hdf5",
+    "libcurl4-gnutls-dev": "curl",
+    "libxml2-dev": "libxml2"
+  }
+}

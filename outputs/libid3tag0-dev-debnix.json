@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libid3tag0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "031a2f6fc20a8281d7aabaea339f06d12c6b635852a846ac8ff2160cf22ae7ad",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-autoreconf",
+    "gettext",
+    "gperf",
+    "libid3tag0",
+    "pkg-config",
+    "quilt",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gperf",
+    "zlib"
+  ],
+  "map": {
+    "gperf": "gperf",
+    "zlib1g-dev": "zlib"
+  }
+}

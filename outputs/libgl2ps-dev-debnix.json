@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libgl2ps-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cb7396ad9c6887dd2b20ea3a9f8bde340d040c4a105fc701b99d5f8195e0df10",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libgl2ps1.4",
+    "mesa-common-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freeglut",
+    "glu",
+    "libGL",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "libgl-dev": "libGL",
+    "cmake": "cmake"
+  }
+}

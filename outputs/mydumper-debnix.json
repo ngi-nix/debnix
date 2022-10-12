@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "mydumper",
+  "nix_pkg": null,
+  "control_file_hash": "d31c83982eabad72a58c6cd2a6201998e2e51e665a9b9049fb8bcbaf5523b9a6",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "default-libmysqlclient-dev",
+    "libatomic1",
+    "libglib2.0-dev",
+    "libpcre3-dev",
+    "mydumper-doc",
+    "python3-docutils",
+    "python3-sphinx",
+    "quilt",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glib",
+    "libressl",
+    "mariadb-connector-c",
+    "pcre",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "libglib2.0-dev": "glib",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake"
+  }
+}

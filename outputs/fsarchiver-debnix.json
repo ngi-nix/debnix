@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "fsarchiver",
+  "nix_pkg": null,
+  "control_file_hash": "4a7d0ecaaa156f7fa253e2664b26f34b7051e4d7f5259b5912a3f3739691d595",
+  "deb_inputs": [
+    "btrfs-progs",
+    "debhelper-compat",
+    "e2fslibs-dev",
+    "e2fsprogs",
+    "jfsutils",
+    "libattr1-dev",
+    "libblkid-dev",
+    "libbz2-dev",
+    "libgcrypt20-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libzstd-dev",
+    "ntfs-3g",
+    "ntfsprogs",
+    "pkg-config",
+    "reiser4progs",
+    "reiserfsprogs",
+    "uuid-dev",
+    "xfsprogs",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "e2fsprogs",
+    "libgcrypt",
+    "libgpg-error",
+    "lz4",
+    "lzo",
+    "pkg-config-wrapper",
+    "util-linux",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "uuid-dev": "util-linux",
+    "zlib1g-dev": "zlib",
+    "e2fsprogs": "e2fsprogs",
+    "e2fslibs-dev": "e2fsprogs",
+    "libzstd-dev": "zstd",
+    "libgcrypt20-dev": "libgcrypt",
+    "liblz4-dev": "lz4",
+    "liblzo2-dev": "lzo",
+    "libblkid-dev": "util-linux"
+  }
+}

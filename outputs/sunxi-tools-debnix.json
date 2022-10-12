@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "sunxi-tools",
+  "nix_pkg": null,
+  "control_file_hash": "9f9b358a21ab428151949dff30b302a8a932128b9f1c1aa4894776c75a2cd415",
+  "deb_inputs": [
+    "binutils-arm-none-eabi",
+    "debhelper-compat",
+    "gcc-arm-none-eabi",
+    "libfdt-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "ruby",
+    "u-boot-sunxi:armhf",
+    "u-boot-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "dtc",
+    "libusb",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

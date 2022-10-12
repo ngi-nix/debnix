@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "gfs2-utils",
+  "nix_pkg": null,
+  "control_file_hash": "80dd762406b4232f437c3497a96f87610b1fbedd6017387501083198803f1c6e",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autopoint",
+    "bison",
+    "check",
+    "debhelper-compat",
+    "flex",
+    "libblkid-dev",
+    "libbz2-dev",
+    "libncurses5-dev",
+    "libtool",
+    "pkg-config",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "bzip2",
+    "check",
+    "flex",
+    "ncurses",
+    "pkg-config-wrapper",
+    "util-linux",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "bison": "bison",
+    "check": "check",
+    "flex": "flex",
+    "libncurses5-dev": "ncurses",
+    "libblkid-dev": "util-linux",
+    "libbz2-dev": "bzip2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "portaudio19-dev",
+  "nix_pkg": null,
+  "control_file_hash": "05ffd0e3af989115397c41620563e80de674e40f6596f8ad1c60f7dc8996f28c",
+  "deb_inputs": [
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "doxygen",
+    "dpkg-dev",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libjs-jquery",
+    "libportaudio2",
+    "libportaudiocpp0",
+    "pkg-config",
+    "portaudio19-doc"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

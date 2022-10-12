@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "imapfilter",
+  "nix_pkg": null,
+  "control_file_hash": "e1b39143ac822b4b37ba1e73c8d502fff7c12f25f96f431fced5d23d14cb8181",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblua5.2-dev",
+    "libpcre2-dev",
+    "libpcre3-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "lua",
+    "openssl",
+    "pcre2"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "liblua5.2-dev": "lua",
+    "libpcre2-dev": "pcre2"
+  }
+}

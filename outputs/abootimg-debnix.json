@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "abootimg",
+  "nix_pkg": null,
+  "control_file_hash": "42c28e383c6fa51d1acd4e2fddfa33201802d07e4cd5eca9085e8acb8c014aec",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libblkid-dev"
+  ],
+  "nix_inputs": [
+    "util-linux"
+  ],
+  "map": {
+    "libblkid-dev": "util-linux"
+  }
+}

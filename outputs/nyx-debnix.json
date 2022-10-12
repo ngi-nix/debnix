@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "nyx",
+  "nix_pkg": null,
+  "control_file_hash": "b24cefabcec7267ab4042f75dbfe4391a26609c1c651188e86e055680f70d63f",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "nyx",
+    "python3",
+    "python3-distutils",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-stem",
+    "tor"
+  ],
+  "nix_inputs": [
+    "python3",
+    "stem"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

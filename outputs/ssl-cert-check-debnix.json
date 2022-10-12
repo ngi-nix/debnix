@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ssl-cert-check",
+  "nix_pkg": null,
+  "control_file_hash": "05734caff05ec4e3de443efdf1c3f14388c03b531c541d43b603fc93ed792be8",
+  "deb_inputs": [
+    "bsd-mailx",
+    "debhelper-compat",
+    "mailx",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "findutils",
+    "gawk",
+    "gnugrep",
+    "gnused",
+    "mktemp",
+    "openssl",
+    "which"
+  ],
+  "map": {
+    "openssl": "openssl"
+  }
+}
