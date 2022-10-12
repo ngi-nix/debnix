@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "xcalib",
+  "nix_pkg": null,
+  "control_file_hash": "d8c680ed276e9804a9ee7493a8f7330034eacc75e52eca150f1d3c06e5165925",
+  "deb_inputs": [
+    "debhelper-compat",
+    "icc-profiles",
+    "libxext-dev",
+    "libxxf86vm-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXrandr",
+    "libXxf86vm"
+  ],
+  "map": {
+    "libxext-dev": "libXext",
+    "libxxf86vm-dev": "libXxf86vm"
+  }
+}

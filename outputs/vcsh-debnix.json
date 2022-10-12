@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "vcsh",
+  "nix_pkg": null,
+  "control_file_hash": "1ca181a53f7cdf24e7ab4ccf12a56b77a5747bbc32911347607e75a7e9d0c155",
+  "deb_inputs": [
+    "debhelper-compat",
+    "git",
+    "libshell-command-perl",
+    "libtest-most-perl",
+    "myrepos",
+    "ruby-ronn",
+    "ssh-client"
+  ],
+  "nix_inputs": [
+    "git",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "git": "git"
+  }
+}

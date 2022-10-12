@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libpcsclite-dev",
+  "nix_pkg": null,
+  "control_file_hash": "223aef986b4f1282570f08677bf7ec1d2fb8d0fcb4f412e6f56665f66c85b21b",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "flex",
+    "libccid",
+    "libpcsclite1",
+    "libsystemd-dev",
+    "libudev-dev",
+    "libusb2-dev",
+    "lsb-base",
+    "pcsc-ifd-handler",
+    "pcscd",
+    "pkg-config",
+    "python3",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "dbus",
+    "perl",
+    "pkg-config-wrapper",
+    "polkit",
+    "python3",
+    "systemd-minimal"
+  ],
+  "map": {
+    "autoconf-archive": "autoconf-archive",
+    "python3": "python3"
+  }
+}

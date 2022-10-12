@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "gtkterm",
+  "nix_pkg": null,
+  "control_file_hash": "deaf5bafb9a4b1ff36957dd7c30ab85e25f85a931fbffd5c8f1ad89c851f448f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "intltool",
+    "libgtk-3-dev",
+    "libgudev-1.0-dev",
+    "libvte-2.91-dev",
+    "libxml2-utils",
+    "meson"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "libgudev",
+    "meson",
+    "ninja",
+    "pcre2",
+    "pkg-config-wrapper",
+    "vte"
+  ],
+  "map": {
+    "libgudev-1.0-dev": "libgudev",
+    "libvte-2.91-dev": "vte",
+    "meson": "meson"
+  }
+}

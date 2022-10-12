@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "virt-top",
+  "nix_pkg": null,
+  "control_file_hash": "b65912290af3c9a8d890b34097c1a61f99f7bf536bc7a0e76ee296438f3f1bf1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-ocaml",
+    "libcsv-ocaml-dev",
+    "libcurses-ocaml",
+    "libcurses-ocaml-dev",
+    "libextlib-ocaml-dev",
+    "libgettext-ocaml",
+    "libgettext-ocaml-dev",
+    "libvirt-ocaml",
+    "libvirt-ocaml-dev",
+    "libxml-light-ocaml-dev",
+    "ocaml",
+    "ocaml-base",
+    "ocaml-base-nox",
+    "ocaml-findlib",
+    "ocaml-nox"
+  ],
+  "nix_inputs": [
+    "getopt",
+    "gettext-stub",
+    "libxml2",
+    "ocaml",
+    "ocaml-calendar",
+    "ocaml-curses",
+    "ocaml-findlib",
+    "ocaml-libvirt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml",
+    "libvirt-ocaml-dev": "ocaml-libvirt",
+    "libcurses-ocaml-dev": "ocaml-curses",
+    "libvirt-ocaml": "ocaml-libvirt",
+    "libcurses-ocaml": "ocaml-curses",
+    "ocaml-base": "ocaml",
+    "ocaml": "ocaml",
+    "ocaml-findlib": "ocaml-findlib",
+    "ocaml-base-nox": "ocaml"
+  }
+}

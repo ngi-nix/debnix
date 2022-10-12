@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "jpeginfo",
+  "nix_pkg": null,
+  "control_file_hash": "0aa2ae959a718cc52d094564a9681613339fc743b8ca5f7d150859f1a664e34c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjpeg-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "recoverjpeg",
+  "nix_pkg": null,
+  "control_file_hash": "813c48e9151a50a57d3d2a86f6ca6ea63544840263ccb017a2826a8be3fb65b9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "exif",
+    "graphicsmagick-imagemagick-compat",
+    "imagemagick",
+    "pandoc",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

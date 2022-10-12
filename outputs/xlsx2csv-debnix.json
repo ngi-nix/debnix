@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "xlsx2csv",
+  "nix_pkg": null,
+  "control_file_hash": "9a43e8e3f8acea07da4c0d4bebf3ec16caa10b98a1020ef102083cb0f40e1ee5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "locales-all",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

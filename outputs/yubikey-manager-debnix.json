@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "yubikey-manager",
+  "nix_pkg": null,
+  "control_file_hash": "e7aa166f18278830de7589c37ec8e77fa8c8b21ca35e3f455f6e3d83f8fe52f7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libpcsclite1",
+    "libykpers-1-dev",
+    "libyubikey-udev",
+    "pcscd",
+    "python3-all",
+    "python3-click",
+    "python3-cryptography",
+    "python3-fido2",
+    "python3-fido2-api",
+    "python3-makefun",
+    "python3-openssl",
+    "python3-pyscard",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-ykman"
+  ],
+  "nix_inputs": [
+    "click",
+    "cryptography",
+    "fido2",
+    "libu2f-host",
+    "libusb",
+    "makefun",
+    "poetry-core",
+    "pyopenssl",
+    "pyscard",
+    "python3",
+    "pyusb",
+    "six",
+    "yubikey-personalization"
+  ],
+  "map": {
+    "python3-openssl": "pyopenssl",
+    "libyubikey-udev": "yubikey-personalization",
+    "libykpers-1-dev": "yubikey-personalization",
+    "python3-pyscard": "pyscard"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "lcdproc",
+  "nix_pkg": null,
+  "control_file_hash": "0b87c1f3deb1df7fc5402798b9d00e856ccd8bbd784c34551db7e42da90fba38",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "cme",
+    "debhelper-compat",
+    "lcdproc",
+    "lcdproc-extra-drivers",
+    "libconfig-model-lcdproc-perl",
+    "liblircclient-dev",
+    "libncurses5-dev",
+    "libusb-1.0-0-dev",
+    "libxosd-dev",
+    "lsb-base",
+    "pkg-config",
+    "texinfo",
+    "udev"
+  ],
+  "nix_inputs": [
+    "doxygen",
+    "freetype",
+    "libX11",
+    "libftdi",
+    "libusb",
+    "libusb-compat",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

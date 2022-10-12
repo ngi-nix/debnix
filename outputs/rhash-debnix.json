@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "rhash",
+  "nix_pkg": null,
+  "control_file_hash": "6c8c82518b202a77d7af5a9db6c9884d38d72fe0558f7a03222613bfdb649637",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "librhash0",
+    "libssl-dev",
+    "libssl3"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

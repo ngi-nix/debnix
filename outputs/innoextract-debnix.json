@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "innoextract",
+  "nix_pkg": null,
+  "control_file_hash": "5e22b55fce53440e2f31b7c3dcd50862cc5328999569e930c8f379003d88ae1e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-iostreams-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "liblzma-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "xz"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

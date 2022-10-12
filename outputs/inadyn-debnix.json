@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "inadyn",
+  "nix_pkg": null,
+  "control_file_hash": "4edacc3003fc45f38e69efff393a72f738e4bba727c9982bb5c98567204737a3",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "libconfuse-dev",
+    "libgnutls28-dev",
+    "lsb-base",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libconfuse",
+    "libite",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libconfuse-dev": "libconfuse",
+    "libgnutls28-dev": "gnutls"
+  }
+}

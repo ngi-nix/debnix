@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "dnstop",
+  "nix_pkg": null,
+  "control_file_hash": "17fa48f970bf4ba5fd249d8efae94fe781502bd9b865c122dabc20b2d28f541d",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses-dev",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "oggvideotools",
+  "nix_pkg": null,
+  "control_file_hash": "bcd48c50bf8540af94f4c782e7a67bb7e9b531b48ecd579006bb4e3491056a5d",
+  "deb_inputs": [
+    "cmake",
+    "debconf",
+    "debhelper-compat",
+    "libboost-dev",
+    "libgd-dev",
+    "libogg-dev",
+    "libsdl-dev",
+    "libtheora-dev",
+    "libvorbis-dev",
+    "python3-mecavideo"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "gd",
+    "libogg",
+    "libtheora",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libgd-dev": "gd",
+    "libtheora-dev": "libtheora",
+    "libboost-dev": "boost",
+    "libvorbis-dev": "libvorbis",
+    "libogg-dev": "libogg"
+  }
+}

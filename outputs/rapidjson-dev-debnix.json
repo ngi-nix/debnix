@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "rapidjson-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4124f4b2d62695da4784b0b20e328e2fc0a65acec3ee87c0ab1cf0690934414f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libgtest-dev",
+    "python3",
+    "rapidjson-doc"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtest",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libgtest-dev": "gtest"
+  }
+}

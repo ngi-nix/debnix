@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "vnstati",
+  "nix_pkg": null,
+  "control_file_hash": "cec4bc592320e4d10b4eb045a974ecc0ebcf3b450deefb28de70dcff30993c44",
+  "deb_inputs": [
+    "adduser",
+    "check",
+    "debhelper-compat",
+    "libgd-dev",
+    "libsqlite3-dev",
+    "lsb-base",
+    "vnstat",
+    "vnstati"
+  ],
+  "nix_inputs": [
+    "check",
+    "gd",
+    "ncurses",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libgd-dev": "gd",
+    "check": "check",
+    "libsqlite3-dev": "sqlite"
+  }
+}

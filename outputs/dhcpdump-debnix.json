@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "dhcpdump",
+  "nix_pkg": null,
+  "control_file_hash": "13b06f6c0e8974472ce766ae381939eccf7b5643247063e11cc03cdb3b3a0667",
+  "deb_inputs": [
+    "libpcap0.8-dev",
+    "tcpdump"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "perl"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "android-file-transfer",
+  "nix_pkg": null,
+  "control_file_hash": "8124f334df3fc0304476fd8d99601d2d0ca56de8174dbf3c3419b98f0971613d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfuse-dev",
+    "libreadline-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fuse",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "readline"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "libfuse-dev": "fuse",
+    "qttools5-dev": "qttools",
+    "libreadline-dev": "readline"
+  }
+}

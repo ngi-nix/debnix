@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "tcptrack",
+  "nix_pkg": null,
+  "control_file_hash": "d7601405b61f5c0640b22a5b6d7adb4e7bd627ee4bdf46b3cc733d858197757a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libpcap-dev",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "ncurses"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap",
+    "libncurses5-dev": "ncurses",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xchm",
+  "nix_pkg": null,
+  "control_file_hash": "c20963878b38a20cab2b665488adb680fdf9828448e784c96796a1c3a91a1c5e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libchm-dev",
+    "libwxgtk3.2-dev"
+  ],
+  "nix_inputs": [
+    "chmlib",
+    "wxwidgets"
+  ],
+  "map": {
+    "libchm-dev": "chmlib",
+    "libwxgtk3.2-dev": "wxwidgets"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "xvkbd",
+  "nix_pkg": null,
+  "control_file_hash": "b8bf0e9eb99241326c20fbc4912d7f02158ef064a18111e0d7d7c08a5b9561c5",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "libxtst-dev",
+    "pkg-config",
+    "wamerican",
+    "wbritish",
+    "wcanadian",
+    "x-terminal-emulator",
+    "xaw3dg-dev",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "Xaw3d",
+    "libXaw",
+    "libXi",
+    "libXpm",
+    "libXt",
+    "libXtst",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libxaw7-dev": "libXaw",
+    "libxt-dev": "libXt",
+    "libxtst-dev": "libXtst",
+    "xaw3dg-dev": "Xaw3d"
+  }
+}

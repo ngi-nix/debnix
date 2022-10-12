@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "i2pd",
+  "nix_pkg": null,
+  "control_file_hash": "8e9f807f270a2d1db04dfb75c4df540903a8497b28b7467dd14f0e120c509f45",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-apparmor",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libminiupnpc-dev",
+    "libssl-dev",
+    "libwebsocketpp-dev",
+    "lsb-base",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "miniupnpc",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libminiupnpc-dev": "miniupnpc"
+  }
+}

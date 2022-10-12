@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gummi",
+  "nix_pkg": null,
+  "control_file_hash": "07c4e878c7284bcf1a11e81c0461b513dbb41dcd755b6baf38b844bbe406512b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "intltool",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgtksourceview-3.0-dev",
+    "libgtkspell3-3-dev",
+    "libpoppler-glib-dev",
+    "libsynctex-dev",
+    "texlive-extra-utils",
+    "texlive-latex-base",
+    "texlive-xetex"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+3",
+    "gtksourceview",
+    "gtkspell",
+    "intltool",
+    "pkg-config-wrapper",
+    "poppler-glib",
+    "texlive-bin"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libsynctex-dev": "texlive-bin",
+    "intltool": "intltool",
+    "libgtkspell3-3-dev": "gtkspell",
+    "libgtksourceview-3.0-dev": "gtksourceview"
+  }
+}

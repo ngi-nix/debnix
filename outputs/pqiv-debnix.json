@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "pqiv",
+  "nix_pkg": null,
+  "control_file_hash": "7c95a305d552ebd1aa4a3f7face92a16f0885f67cf6017e9a05a1fafd4efb835",
+  "deb_inputs": [
+    "debhelper",
+    "libarchive-dev",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libgtk-3-dev",
+    "libmagickwand-dev",
+    "libpoppler-glib-dev",
+    "libswscale-dev",
+    "libwebp-dev"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "gtk+3",
+    "imagemagick",
+    "libarchive",
+    "libspectre",
+    "libwebp",
+    "pkg-config-wrapper",
+    "poppler-glib"
+  ],
+  "map": {
+    "libavformat-dev": "ffmpeg",
+    "libarchive-dev": "libarchive",
+    "libswscale-dev": "ffmpeg",
+    "libmagickwand-dev": "imagemagick",
+    "libavcodec-dev": "ffmpeg",
+    "libavutil-dev": "ffmpeg",
+    "libwebp-dev": "libwebp"
+  }
+}

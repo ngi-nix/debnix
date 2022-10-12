@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "git-extras",
+  "nix_pkg": null,
+  "control_file_hash": "08a32948d9e077d8e661a17cdf4b2bf510c240ae23ffce82da6e8449628c5e98",
+  "deb_inputs": [
+    "bsdextrautils",
+    "debhelper-compat",
+    "git",
+    "ronn"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

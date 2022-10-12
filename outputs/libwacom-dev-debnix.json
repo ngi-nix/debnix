@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libwacom-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6ad1adb01ce435442ec1ad7a3d52e95f6b93c5f7a358b7c2655e8c6c3a29ac2b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgudev-1.0-dev",
+    "libwacom-bin",
+    "libwacom-common",
+    "libwacom9",
+    "libxml2-dev",
+    "meson",
+    "pkg-config",
+    "python3-libevdev",
+    "python3-pytest",
+    "python3-pyudev",
+    "python3:any",
+    "systemd",
+    "udev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libgudev",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "systemd"
+  ],
+  "map": {
+    "libgudev-1.0-dev": "libgudev",
+    "meson": "meson",
+    "systemd": "systemd",
+    "libglib2.0-dev": "glib",
+    "udev": "systemd"
+  }
+}

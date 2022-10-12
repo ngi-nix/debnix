@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gtkwave",
+  "nix_pkg": null,
+  "control_file_hash": "5a7aa4cdecaefedbdded02609f7be16b49b5cfc8071c6dc07d502ab5e86cd7da",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flex",
+    "gperf",
+    "libbz2-dev",
+    "libgtk2.0-dev",
+    "libjudy-dev",
+    "liblzma-dev",
+    "tcl-dev",
+    "tk-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "glib",
+    "gperf",
+    "gtk+3",
+    "judy",
+    "pkg-config-wrapper",
+    "tcl",
+    "tk",
+    "xz"
+  ],
+  "map": {
+    "gperf": "gperf",
+    "tk-dev": "tk",
+    "libbz2-dev": "bzip2",
+    "libjudy-dev": "judy",
+    "tcl-dev": "tcl"
+  }
+}

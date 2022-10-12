@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "crunch",
+  "nix_pkg": null,
+  "control_file_hash": "fe3342ac106ddcc9a07196f56596faf55e937dca9c65b88ff38192f5a736238c",
+  "deb_inputs": [
+    "bzip2",
+    "debhelper-compat",
+    "lzma",
+    "p7zip-full",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "slurp",
+  "nix_pkg": null,
+  "control_file_hash": "d0ee841c860d0df34b6e23952e31b507b937bcb23bb423c07687c4e04855635f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libwayland-dev",
+    "libxkbcommon-dev",
+    "meson",
+    "pkg-config",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "libxkbcommon",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "scdoc": "scdoc",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols",
+    "libxkbcommon-dev": "libxkbcommon",
+    "meson": "meson",
+    "libcairo2-dev": "cairo"
+  }
+}

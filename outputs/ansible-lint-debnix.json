@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "ansible-lint",
+  "nix_pkg": null,
+  "control_file_hash": "e00c49a12273622a6b5fa29b5ff1bb9d83f929a3763f5e786c513b777f810412",
+  "deb_inputs": [
+    "ansible-core",
+    "debhelper-compat",
+    "dh-python",
+    "pybuild-plugin-pyproject",
+    "python3-all",
+    "python3-ansible-compat",
+    "python3-enrich",
+    "python3-jsonschema",
+    "python3-packaging",
+    "python3-rich",
+    "python3-ruamel.yaml",
+    "python3-setuptools",
+    "python3-tenacity",
+    "python3-wcmatch",
+    "python3-yaml",
+    "yamllint"
+  ],
+  "nix_inputs": [
+    "ansible-compat",
+    "ansible-core",
+    "black",
+    "enrich",
+    "filelock",
+    "jsonschema",
+    "pytest",
+    "python3",
+    "pyyaml",
+    "rich",
+    "ruamel-yaml",
+    "setuptools-scm",
+    "wcmatch",
+    "yamllint"
+  ],
+  "map": {
+    "ansible-core": "ansible-core",
+    "yamllint": "yamllint",
+    "python3-enrich": "enrich",
+    "python3-yaml": "pyyaml",
+    "python3-rich": "rich"
+  }
+}

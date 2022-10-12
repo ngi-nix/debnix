@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "ckb-next",
+  "nix_pkg": null,
+  "control_file_hash": "ecf182bf262aa5e01546ec9d1501d7e750951c78bd968a1e160f1432b1909c96",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdbusmenu-qt5-dev",
+    "libpulse-dev",
+    "libqt5x11extras5-dev",
+    "libquazip5-dev",
+    "libudev-dev",
+    "libxcb-ewmh-dev",
+    "libxcb-screensaver0-dev",
+    "libxcb1-dev",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libXdmcp",
+    "libdbusmenu-qt",
+    "libpulseaudio",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtx11extras",
+    "systemd",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libdbusmenu-qt5-dev": "libdbusmenu-qt",
+    "qtbase5-dev": "qtbase",
+    "libudev-dev": "systemd",
+    "qttools5-dev": "qttools"
+  }
+}

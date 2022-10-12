@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "librtmp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "558574caa77b22c1b2d6dbbbf9d17b8b8a4f8f1067f685f5947a430147e6b50a",
+  "deb_inputs": [
+    "debhelper",
+    "libgmp-dev",
+    "libgnutls28-dev",
+    "librtmp1",
+    "nettle-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

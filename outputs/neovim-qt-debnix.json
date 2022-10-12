@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "neovim-qt",
+  "nix_pkg": null,
+  "control_file_hash": "bbb9b2ad64ecb9e152f5f13e684a13526801f28809e88d1f31d00950dfed6a62",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libmsgpack-dev",
+    "libqt5svg5-dev",
+    "neovim",
+    "ninja-build",
+    "python3-jinja2",
+    "python3-msgpack",
+    "qtbase5-dev",
+    "xauth",
+    "xclip",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "cmake",
+    "doxygen",
+    "msgpack",
+    "neovim-unwrapped",
+    "python3",
+    "qtbase",
+    "qtsvg"
+  ],
+  "map": {
+    "libmsgpack-dev": "msgpack",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "python3-jinja2": "Jinja2"
+  }
+}

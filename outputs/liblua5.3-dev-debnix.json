@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "liblua5.3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2faae52e509f0a0bca7fe4f3a9d4a552a0de99a6057f629790a0d6e5091d0528",
+  "deb_inputs": [
+    "debhelper",
+    "libc-dev",
+    "libc6-dev",
+    "liblua5.3-0",
+    "libreadline-dev",
+    "libtool-bin",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

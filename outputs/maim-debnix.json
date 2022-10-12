@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "maim",
+  "nix_pkg": null,
+  "control_file_hash": "2eb3b95d75724650a07cef6f75cc0e1531a2a0f2b3df5b8e769502548bdd8af7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl1-mesa-dev",
+    "libglm-dev",
+    "libimlib2-dev",
+    "libslopy-dev",
+    "libslopy7.6",
+    "libxcomposite-dev",
+    "libxfixes-dev",
+    "libxrandr-dev",
+    "mesa-common-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glm",
+    "glu",
+    "libGL",
+    "libX11",
+    "libXcomposite",
+    "libXext",
+    "libXfixes",
+    "libXrandr",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libwebp",
+    "pkg-config-wrapper",
+    "slop",
+    "zlib"
+  ],
+  "map": {
+    "libxfixes-dev": "libXfixes",
+    "libgl1-mesa-dev": "libGL",
+    "libxrandr-dev": "libXrandr",
+    "libxcomposite-dev": "libXcomposite",
+    "cmake": "cmake",
+    "libglm-dev": "glm",
+    "libslopy7.6": "slop",
+    "libslopy-dev": "slop"
+  }
+}

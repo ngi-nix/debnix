@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "mpdscribble",
+  "nix_pkg": null,
+  "control_file_hash": "292b0ca91c2137c133a22ab0d47ef87f75abd66d5232bbb80a8ea834376f8c5d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libboost-dev",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libgcrypt20-dev",
+    "libmpdclient-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "meson",
+    "mpd",
+    "pkg-config",
+    "po-debconf",
+    "ucf"
+  ],
+  "nix_inputs": [
+    "boost",
+    "curl",
+    "libgcrypt",
+    "libmpdclient",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd",
+    "libboost-dev": "boost",
+    "libgcrypt20-dev": "libgcrypt",
+    "libmpdclient-dev": "libmpdclient",
+    "meson": "meson",
+    "libcurl-dev": "curl",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

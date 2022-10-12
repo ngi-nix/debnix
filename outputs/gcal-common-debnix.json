@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "gcal-common",
+  "nix_pkg": null,
+  "control_file_hash": "b6b085ed1749e7f00625119432faaba2fb4674be8599c8f0d5c85a5da080768d",
+  "deb_inputs": [
+    "debhelper",
+    "gcal",
+    "gcal-common",
+    "libncurses5-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

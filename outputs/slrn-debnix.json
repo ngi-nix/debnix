@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "slrn",
+  "nix_pkg": null,
+  "control_file_hash": "a6231a546611ceca910ffd55b202b814cece9cbbfe6807e9137c81519480da1f",
+  "deb_inputs": [
+    "autoconf",
+    "autotools-dev",
+    "chrpath",
+    "debhelper",
+    "default-mta",
+    "dh-autoreconf",
+    "exim4",
+    "inn2-inews",
+    "libcanlock-dev",
+    "libslang2-dev",
+    "libssl-dev",
+    "libuu-dev",
+    "mail-transport-agent",
+    "news-reader",
+    "po-debconf",
+    "slrn",
+    "slrnpull"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "openssl",
+    "slang"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libslang2-dev": "slang"
+  }
+}

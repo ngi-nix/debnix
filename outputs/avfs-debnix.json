@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "avfs",
+  "nix_pkg": null,
+  "control_file_hash": "0abd9f170bb6cef90d7996c87ec506bc3770b19118cc615ce8172c8ebcbce140",
+  "deb_inputs": [
+    "arj",
+    "cdparanoia",
+    "dar",
+    "debhelper-compat",
+    "fuse",
+    "lha",
+    "libbz2-dev",
+    "libfuse-dev",
+    "liblzma-dev",
+    "libneon27-dev",
+    "libneon27-gnutls-dev",
+    "libzstd-dev",
+    "p7zip",
+    "p7zip-full",
+    "pkg-config",
+    "quilt",
+    "rpm",
+    "unzip",
+    "wget",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "pkg-config-wrapper",
+    "xz"
+  ],
+  "map": {
+    "libfuse-dev": "fuse",
+    "fuse": "fuse"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "git-crypt",
+  "nix_pkg": null,
+  "control_file_hash": "29ab6d3d200aca7f46cf48e698979a0c43516eac3419f59dc98e9732bc43c616",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "git",
+    "gnupg",
+    "libssl-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "libxslt",
+    "openssl"
+  ],
+  "map": {
+    "xsltproc": "libxslt",
+    "libssl-dev": "openssl"
+  }
+}

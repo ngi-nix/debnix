@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "k4dirstat",
+  "nix_pkg": null,
+  "control_file_hash": "c9a300eb70972db7448fbfe5d5733289f916aa04d6fdf9296456519848a622ca",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libkf5doctools-dev",
+    "libkf5kio-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "xdg-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kiconthemes",
+    "kio",
+    "kjobwidgets",
+    "kxmlgui"
+  ],
+  "map": {
+    "libkf5xmlgui-dev": "kxmlgui",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kio-dev": "kio"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "pngcheck",
+  "nix_pkg": null,
+  "control_file_hash": "528b3c0411e17a9dd1e4e021977cbea65b95b26204d5f3bf257758ce3c7a2a16",
+  "deb_inputs": [
+    "debhelper-compat",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

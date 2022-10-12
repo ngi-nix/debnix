@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "prometheus-blackbox-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "bb8951d06f6206585eeb58289c4b6ba4599d22f0c96e96c390ecd2564dddd08f",
+  "deb_inputs": [
+    "adduser",
+    "debconf",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-andybalholm-brotli-dev",
+    "golang-github-go-kit-log-dev",
+    "golang-github-miekg-dns-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-text-dev",
+    "golang-google-grpc-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-yaml.v3-dev",
+    "libcap2-bin"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

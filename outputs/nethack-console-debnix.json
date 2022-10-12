@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "nethack-console",
+  "nix_pkg": null,
+  "control_file_hash": "4d242d7a25df321edd892e034215dfa0db8dfadb1bbdb78b4cb8d8d06229d049",
+  "deb_inputs": [
+    "bison",
+    "bsdmainutils",
+    "debhelper-compat",
+    "flex",
+    "groff-base",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libx11-dev",
+    "libxaw-dev",
+    "libxaw7-dev",
+    "libxext-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "nethack-common",
+    "nethack-console",
+    "nethack-x11",
+    "pkg-config",
+    "po-debconf",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "xfonts-utils"
+  ],
+  "nix_inputs": [
+    "bdftopcf",
+    "bison",
+    "flex",
+    "gzip",
+    "libXaw",
+    "libXext",
+    "libXpm",
+    "mkfontscale",
+    "ncurses",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia"
+  ],
+  "map": {
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libxaw7-dev": "libXaw",
+    "libxext-dev": "libXext",
+    "libncurses5-dev": "ncurses",
+    "flex": "flex",
+    "qtbase5-dev": "qtbase",
+    "bison": "bison",
+    "libncurses-dev": "ncurses",
+    "libxaw-dev": "libXaw"
+  }
+}

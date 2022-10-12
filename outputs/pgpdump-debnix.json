@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "pgpdump",
+  "nix_pkg": null,
+  "control_file_hash": "777d6aea6ea85f5f188e6f0b9731e19b710b5a9be9d41cbb0f7529083a738bc7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev",
+    "tzdata",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib"
+  }
+}

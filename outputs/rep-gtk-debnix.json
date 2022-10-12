@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "rep-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "e86a971f5eb31292bc8a069e3629146694b7b86911160a6ba09c28d84015dfbf",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "librep-dev",
+    "librep16",
+    "rep"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "librep",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "librep16": "librep",
+    "librep-dev": "librep",
+    "libgtk2.0-dev": "gtk+",
+    "rep": "librep"
+  }
+}

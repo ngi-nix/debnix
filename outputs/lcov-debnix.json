@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "lcov",
+  "nix_pkg": null,
+  "control_file_hash": "7390573d5aa4b84676a690875ee58c868e43d253415a9d3eb99f129cfa4037bf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gcc",
+    "libgd-gd2-perl",
+    "libjson-perl",
+    "libperlio-gzip-perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

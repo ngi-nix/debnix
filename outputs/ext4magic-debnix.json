@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "ext4magic",
+  "nix_pkg": null,
+  "control_file_hash": "33d223cc2c633626e2a2ac58ea17af5d9719b27f719078a1f32dce870a5bc9d3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "e2fslibs-dev",
+    "libblkid-dev",
+    "libbz2-dev",
+    "libmagic-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "e2fsprogs",
+    "file",
+    "util-linux-minimal",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libmagic-dev": "file",
+    "libbz2-dev": "bzip2",
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

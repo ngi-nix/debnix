@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libotf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d165c738faede478d5e61ec5101599b3fb78ddf807236ee8095ceea18b067fbd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfreetype6-dev",
+    "libice-dev",
+    "libotf1",
+    "libsm-dev",
+    "libtool",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "libXaw",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libxaw7-dev": "libXaw"
+  }
+}

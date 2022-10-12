@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libsdl2-image-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6a7307a35b8d9255cdbd261be8400d9564a0d52049231d819fbb29ccdb2c8f2f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-image-2.0-0",
+    "libtiff-dev",
+    "libwebp-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXrandr",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

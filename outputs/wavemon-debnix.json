@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "wavemon",
+  "nix_pkg": null,
+  "control_file_hash": "81d6820f76feab0e0c2db84bcc34f88e64b716a7116d6d971e4efb28c2736d47",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "linux-libc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnl-3-dev": "libnl",
+    "libncurses5-dev": "ncurses",
+    "libnl-genl-3-dev": "libnl"
+  }
+}

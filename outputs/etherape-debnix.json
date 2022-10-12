@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "etherape",
+  "nix_pkg": null,
+  "control_file_hash": "6286a90d6eac1978fc90e3a0e97159adeca7656c2ae122c48b58fe7a32dee8bd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "etherape-data",
+    "libc-ares-dev",
+    "libgoocanvas-2.0-dev",
+    "libpcap0.8-dev",
+    "libpopt-dev",
+    "yelp-tools"
+  ],
+  "nix_inputs": [
+    "goocanvas",
+    "gtk+3",
+    "itstool",
+    "libpcap",
+    "libtool",
+    "libxml2",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap",
+    "libpopt-dev": "popt",
+    "libgoocanvas-2.0-dev": "goocanvas"
+  }
+}

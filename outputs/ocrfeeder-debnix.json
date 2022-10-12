@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "ocrfeeder",
+  "nix_pkg": null,
+  "control_file_hash": "b81007ce84373e1ed9f830c3a55a4a0591e8a9ffbc254e4e77ba222f4e709153",
+  "deb_inputs": [
+    "cuneiform",
+    "debhelper-compat",
+    "dh-python",
+    "ghostscript",
+    "gir1.2-goocanvas-2.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-gtkspell3-3.0",
+    "gnome-common",
+    "gocr",
+    "intltool",
+    "iso-codes",
+    "libglib2.0-dev",
+    "ocrad",
+    "python3-all:any",
+    "python3-enchant",
+    "python3-gi",
+    "python3-lxml",
+    "python3-odf",
+    "python3-pil",
+    "python3-reportlab",
+    "python3-sane",
+    "python3-setuptools",
+    "tesseract-ocr",
+    "unpaper",
+    "yelp",
+    "yelp-tools"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "goocanvas",
+    "gtk+3",
+    "gtkspell",
+    "intltool",
+    "iso-codes",
+    "itstool",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gir1.2-gtkspell3-3.0": "gtkspell",
+    "intltool": "intltool",
+    "iso-codes": "iso-codes",
+    "gir1.2-goocanvas-2.0": "goocanvas"
+  }
+}

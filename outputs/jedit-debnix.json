@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "jedit",
+  "nix_pkg": null,
+  "control_file_hash": "e38180b6c3fa9543db3d3beece22acc109441f6cc9f84c1ae4d8eb4a05f33ba5",
+  "deb_inputs": [
+    "ant",
+    "ant-contrib",
+    "ant-optional",
+    "bsh",
+    "bsh-src",
+    "debhelper-compat",
+    "default-jre",
+    "docbook-xml",
+    "docbook-xsl",
+    "docbook-xsl-saxon",
+    "imagemagick",
+    "java-wrappers",
+    "java7-runtime",
+    "javahelper",
+    "junit4",
+    "libbsf-java",
+    "libcommons-logging-java",
+    "libjsr305-java",
+    "libxerces2-java",
+    "quilt",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "ant",
+    "commons-bsf",
+    "commons-logging",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant",
+    "ant-optional": "ant"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "rpl",
+  "nix_pkg": null,
+  "control_file_hash": "7cd77d2e4b56c9aa80cd1b31c4dbeb170dd8e8638d7dba6100478f3687afada3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3-all",
+    "python3-argparse-manpage",
+    "python3-chardet",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "chardet",
+    "python3"
+  ],
+  "map": {
+    "python3-chardet": "chardet"
+  }
+}

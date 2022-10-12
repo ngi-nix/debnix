@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libspeexdsp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d346c3971ae1f13afd547596e8b53ab124fd53162d89905916d171f17065a163",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libspeex-dev",
+    "libspeexdsp1",
+    "pkg-config",
+    "speex-doc"
+  ],
+  "nix_inputs": [
+    "fftw-single",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

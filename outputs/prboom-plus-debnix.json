@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "prboom-plus",
+  "nix_pkg": null,
+  "control_file_hash": "5eefcf152580c292d0d261e9c5f17240ff18482147d218369afe23856a7f4ed1",
+  "deb_inputs": [
+    "bash-completion",
+    "cmake",
+    "debhelper-compat",
+    "ffmpeg",
+    "freedoom",
+    "game-data-packager",
+    "libasound2-dev",
+    "libdumb1-dev",
+    "libfluidsynth-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libmad0-dev",
+    "libpcre3-dev",
+    "libpng-dev",
+    "libportmidi-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-net-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_net",
+    "cmake",
+    "dumb",
+    "fluidsynth",
+    "libmad",
+    "libvorbis",
+    "pcre",
+    "portmidi"
+  ],
+  "map": {
+    "libdumb1-dev": "dumb",
+    "libfluidsynth-dev": "fluidsynth",
+    "libvorbis-dev": "libvorbis",
+    "cmake": "cmake",
+    "libmad0-dev": "libmad",
+    "libpcre3-dev": "pcre",
+    "libportmidi-dev": "portmidi"
+  }
+}

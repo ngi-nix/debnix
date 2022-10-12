@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "fswebcam",
+  "nix_pkg": null,
+  "control_file_hash": "01be8d0dd7e4982ea34359698b9f4e4e5e6720cbd7e2d969344771ac52026235",
+  "deb_inputs": [
+    "debhelper",
+    "libgd-dev",
+    "libv4l-dev"
+  ],
+  "nix_inputs": [
+    "gd",
+    "v4l-utils"
+  ],
+  "map": {
+    "libgd-dev": "gd",
+    "libv4l-dev": "v4l-utils"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "wabt",
+  "nix_pkg": null,
+  "control_file_hash": "3c33c9795651abcec0dd4bd033aca9422e458afc4972a3383e90bdb8e1f3987b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "python3",
+    "re2c"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

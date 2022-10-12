@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "safeeyes",
+  "nix_pkg": null,
+  "control_file_hash": "fb741cd3057a3863dec05591216adb804a0d00500bd7836c2167169d3e6559b8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-appindicator3-0.1",
+    "gir1.2-gtk-3.0",
+    "python3-dbus",
+    "python3-gi",
+    "xprintidle"
+  ],
+  "nix_inputs": [
+    "babel",
+    "croniter",
+    "dbus-python",
+    "gobject-introspection",
+    "gtk+3",
+    "libappindicator-gtk3",
+    "libnotify",
+    "psutil",
+    "pygobject",
+    "python3",
+    "xlib"
+  ],
+  "map": {
+    "python3-dbus": "dbus-python",
+    "python3-gi": "pygobject"
+  }
+}

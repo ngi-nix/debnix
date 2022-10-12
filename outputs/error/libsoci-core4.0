@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cmake", "debhelper-compat", "default-libmysqlclient-dev", "firebird-dev", "libboost-date-time-dev", "libboost-dev", "libpq-dev", "libsoci-core4.0", "libsoci-firebird4.0", "libsoci-mysql4.0", "libsoci-odbc4.0", "libsoci-postgresql4.0", "libsoci-sqlite3-4.0", "libsqlite3-dev", "unixodbc-dev"], or 
+output: 
+[] is empty!

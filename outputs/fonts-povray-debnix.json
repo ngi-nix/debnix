@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "fonts-povray",
+  "nix_pkg": null,
+  "control_file_hash": "0109389a5718dcd5ad1922e616a27f48348120d81f85685d8fd1024495d47cd3",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "fonts-povray",
+    "libboost-thread-dev",
+    "libice-dev",
+    "libjpeg-dev",
+    "libopenexr-dev",
+    "libpng-dev",
+    "libsdl-dev",
+    "libtiff-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "pkg-config",
+    "povray",
+    "povray-doc",
+    "povray-examples",
+    "povray-includes",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "autoconf",
+    "automake",
+    "boost",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "zlib"
+  ],
+  "map": {
+    "libtiff-dev": "libtiff",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libsdl-dev": "SDL",
+    "zlib1g-dev": "zlib"
+  }
+}

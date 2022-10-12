@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "btrbk",
+  "nix_pkg": null,
+  "control_file_hash": "4928197435265d1e10b85870450db414a9fc88dd298c5be7fb8184f512fc5327",
+  "deb_inputs": [
+    "asciidoctor",
+    "btrfs-progs",
+    "debhelper",
+    "mbuffer",
+    "openssh-client",
+    "openssl",
+    "perl",
+    "python3"
+  ],
+  "nix_inputs": [
+    "Date-Calc",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}
