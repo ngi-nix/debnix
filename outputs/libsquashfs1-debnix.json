@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libsquashfs1",
+  "nix_pkg": null,
+  "control_file_hash": "b01f577feda5fb8f603d1376952d9ecd1c0601eeba2597452727db3c3c8a0b07",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblz4-dev",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libselinux1-dev",
+    "libsquashfs1",
+    "libzstd-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "doxygen",
+    "graphviz",
+    "lz4",
+    "lzo",
+    "perl",
+    "pkg-config-wrapper",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "liblz4-dev": "lz4",
+    "zlib1g-dev": "zlib",
+    "liblzo2-dev": "lzo",
+    "libzstd-dev": "zstd"
+  }
+}

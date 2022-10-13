@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tmate",
+  "nix_pkg": null,
+  "control_file_hash": "de0ec08aae0132b637edf8e09434cebbf12f55042787f5ff142a5766b025dd7b",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "libevent-dev",
+    "libmsgpack-dev",
+    "libncurses-dev",
+    "libssh-dev",
+    "libtool",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libevent",
+    "libssh",
+    "libtool",
+    "msgpack",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper",
+    "ruby",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libmsgpack-dev": "msgpack",
+    "libevent-dev": "libevent",
+    "libncurses-dev": "ncurses",
+    "libssh-dev": "libssh",
+    "libtool": "libtool"
+  }
+}

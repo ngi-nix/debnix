@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libsdl2-ttf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d50b028eae866117ae74c54cd39c3e52398f0a3629da1f390fcff723c2fa36a1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libc6-dev",
+    "libfreetype-dev",
+    "libharfbuzz-dev",
+    "libsdl2-dev",
+    "libsdl2-ttf-2.0-0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXrandr",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

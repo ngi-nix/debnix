@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "kpcli",
+  "nix_pkg": null,
+  "control_file_hash": "e594a345da7929824d3652df1eb7b43e41d74424d13efae78faea729ca5d20f3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcapture-tiny-perl",
+    "libclipboard-perl",
+    "libclone-perl",
+    "libcrypt-rijndael-perl",
+    "libdata-password-perl",
+    "libfile-keepass-perl",
+    "libmath-random-isaac-perl",
+    "libsort-naturally-perl",
+    "libterm-readkey-perl",
+    "libterm-readline-gnu-perl",
+    "libterm-shellui-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

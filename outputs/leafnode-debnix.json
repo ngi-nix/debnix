@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "leafnode",
+  "nix_pkg": null,
+  "control_file_hash": "8065d30b5d26b4a9e4b0836a48a633c220315d59fbdabd8bedc757c63a79af69",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "inet-superserver",
+    "libpcre2-dev",
+    "logrotate",
+    "netbase",
+    "openbsd-inetd",
+    "perl",
+    "tcpd"
+  ],
+  "nix_inputs": [
+    "pcre"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre"
+  }
+}

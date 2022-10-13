@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "ffmpegthumbs",
+  "nix_pkg": null,
+  "control_file_hash": "2c2cf7b93126e2805272128781fce9114c30bf412629c4f8ebabd5ae5247cee0",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libavcodec-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libkf5config-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libswscale-dev",
+    "libtag1-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "ffmpeg",
+    "kio",
+    "taglib"
+  ],
+  "map": {
+    "libtag1-dev": "taglib",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libavcodec-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg",
+    "libkf5kio-dev": "kio",
+    "libavfilter-dev": "ffmpeg",
+    "libavutil-dev": "ffmpeg",
+    "libswscale-dev": "ffmpeg"
+  }
+}

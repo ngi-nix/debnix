@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "zynaddsubfx-lv2",
+  "nix_pkg": null,
+  "control_file_hash": "7458a90a408930f1b1d04481dd2835fc0752c673699527b210ccfa05e207fc5f",
+  "deb_inputs": [
+    "asciidoctor",
+    "bash-completion",
+    "cmake",
+    "cxxtest",
+    "debhelper-compat",
+    "dssi-dev",
+    "fluid",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libfltk1.3-dev",
+    "libgl1-mesa-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libmxml-dev",
+    "libxpm-dev",
+    "lv2-dev",
+    "pkg-config",
+    "xmlto",
+    "zlib1g-dev",
+    "zynaddsubfx",
+    "zynaddsubfx-data"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "cxxtest",
+    "fftw-single",
+    "libGL",
+    "libX11",
+    "libjack2",
+    "liblo",
+    "mxml",
+    "pkg-config-wrapper",
+    "portaudio",
+    "ruby",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libgl1-mesa-dev": "libGL",
+    "liblo-dev": "liblo",
+    "libmxml-dev": "mxml",
+    "libasound2-dev": "alsa-lib",
+    "cxxtest": "cxxtest"
+  }
+}

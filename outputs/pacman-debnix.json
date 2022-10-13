@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "pacman",
+  "nix_pkg": null,
+  "control_file_hash": "66a3a2af2264c935b534686d620772e44b9d28acdc5652d6cd53dfe0b730e937",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "bzip2",
+    "curl",
+    "gpgme",
+    "libarchive",
+    "meson",
+    "ninja",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "xz",
+    "zlib"
+  ],
+  "map": {}
+}

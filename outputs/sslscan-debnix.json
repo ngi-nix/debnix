@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "sslscan",
+  "nix_pkg": null,
+  "control_file_hash": "ac43d031a65cf0f9f403aef30480ca166a0dc2b86e7ad62513f1ff3620d87005",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

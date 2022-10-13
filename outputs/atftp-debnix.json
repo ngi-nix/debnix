@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "atftp",
+  "nix_pkg": null,
+  "control_file_hash": "5400a8519197aadf73733e13323b4145ebd1827f8ee712fb6e8fd0f159a995c9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcre2-dev",
+    "libreadline-dev",
+    "libwrap0-dev",
+    "logrotate",
+    "po-debconf",
+    "procps"
+  ],
+  "nix_inputs": [
+    "gcc-wrapper",
+    "pcre",
+    "readline",
+    "tcp-wrappers"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre",
+    "libwrap0-dev": "tcp-wrappers",
+    "libreadline-dev": "readline"
+  }
+}

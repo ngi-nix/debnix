@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "dirb",
+  "nix_pkg": null,
+  "control_file_hash": "9c20c1cdfdacf817a1852275c61c942edb7a53bc9b52738a4d4ee6ee34a17e4b",
+  "deb_inputs": [
+    "debhelper",
+    "libcurl4-openssl-dev"
+  ],
+  "nix_inputs": [
+    "curl"
+  ],
+  "map": {
+    "libcurl4-openssl-dev": "curl"
+  }
+}

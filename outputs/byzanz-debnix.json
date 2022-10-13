@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "byzanz",
+  "nix_pkg": null,
+  "control_file_hash": "2c374b794bc8a1619fe61cc82740529db3259c085f511ed10cd76244ec313939",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnome-common",
+    "gstreamer1.0-libav",
+    "gstreamer1.0-plugins-base",
+    "gstreamer1.0-plugins-good",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libgtk-3-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "glib",
+    "gnome-common",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gstreamer",
+    "gtk+3",
+    "intltool",
+    "libXdamage",
+    "libtool",
+    "pkg-config-wrapper",
+    "which",
+    "xwininfo"
+  ],
+  "map": {
+    "gstreamer1.0-libav": "gstreamer",
+    "gnome-common": "gnome-common",
+    "libcairo2-dev": "cairo",
+    "libglib2.0-dev": "glib",
+    "libgstreamer1.0-dev": "gstreamer"
+  }
+}

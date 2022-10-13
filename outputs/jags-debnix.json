@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "jags",
+  "nix_pkg": null,
+  "control_file_hash": "75e92d561f37cbd2e81041f9cb615b7594858641449cbd4520cfb9ef2c2da1c3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "faketime",
+    "g++",
+    "gfortran",
+    "libcppunit-dev",
+    "liblapack-dev",
+    "libltdl-dev",
+    "mercurial",
+    "pkg-config",
+    "texinfo",
+    "texlive-base",
+    "texlive-extra-utils",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "blas",
+    "gfortran-wrapper",
+    "lapack"
+  ],
+  "map": {
+    "liblapack-dev": "lapack"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "yubioath-desktop",
+  "nix_pkg": null,
+  "control_file_hash": "4dac6c234bc08f9b59a43371455e884597d167c267f7a8308cbb778a0dea430c",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libffi-dev",
+    "libpcsclite-dev",
+    "libqt5svg5-dev",
+    "libssl-dev",
+    "pcscd",
+    "python3",
+    "python3-pip",
+    "python3-yubikey-manager",
+    "qml-module-io-thp-pyotherside",
+    "qml-module-qt-labs-platform",
+    "qml-module-qt-labs-settings",
+    "qml-module-qtquick-controls",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-dialogs",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtmultimedia5-dev",
+    "qtquickcontrols2-5-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "python3",
+    "qtbase",
+    "qtgraphicaleffects",
+    "qtmultimedia",
+    "qtquickcontrols2"
+  ],
+  "map": {
+    "qtmultimedia5-dev": "qtmultimedia",
+    "qtbase5-dev": "qtbase",
+    "python3": "python3"
+  }
+}

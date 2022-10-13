@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "unclutter-xfixes",
+  "nix_pkg": null,
+  "control_file_hash": "4b13df410932afdfeac8310bec29b6f0d4d4a59c75937a9e9a6503638d1e0fc4",
+  "deb_inputs": [
+    "asciidoctor",
+    "debhelper",
+    "dh-exec",
+    "libev-dev",
+    "libx11-dev",
+    "libxfixes-dev",
+    "libxi-dev",
+    "pkg-config",
+    "unclutter-startup"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xsl-nons",
+    "libXfixes",
+    "libXi",
+    "libev",
+    "libxslt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libev-dev": "libev",
+    "libxfixes-dev": "libXfixes",
+    "libxi-dev": "libXi"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libgsasl7",
+  "nix_pkg": null,
+  "control_file_hash": "6ab43e3134f649ecfd8d05d24661d208eb2ffb1331c4f8932985dff52b2e3b1a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "gsasl-common",
+    "help2man",
+    "libgnutls28-dev",
+    "libgsasl-dev",
+    "libgsasl18",
+    "libgssglue-dev",
+    "libidn11-dev",
+    "libntlm0-dev",
+    "pkg-config",
+    "texinfo",
+    "valgrind-if-available"
+  ],
+  "nix_inputs": [
+    "libidn",
+    "libkrb5"
+  ],
+  "map": {
+    "libidn11-dev": "libidn"
+  }
+}

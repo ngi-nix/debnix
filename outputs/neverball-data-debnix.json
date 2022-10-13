@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "neverball-data",
+  "nix_pkg": null,
+  "control_file_hash": "89dfd8260b54433d7fd277be153f0992ad36ead490518fee9c186b9aa9efde59",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "fonts-wqy-microhei",
+    "libjpeg-dev",
+    "libopenhmd-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-ttf-dev",
+    "libvorbis-dev",
+    "neverball",
+    "neverball-common",
+    "neverball-data",
+    "neverputt",
+    "neverputt-data"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_ttf",
+    "gettext",
+    "libGL",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libvorbis",
+    "physfs"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libvorbis-dev": "libvorbis"
+  }
+}

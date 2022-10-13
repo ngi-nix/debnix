@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "wxhexeditor",
+  "nix_pkg": null,
+  "control_file_hash": "29d660845138bce9f13c76d131d601a98471105888ce7db325ffe0ee9b8021e0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdisasm-dev",
+    "libmhash-dev",
+    "libwxgtk3.0-gtk3-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "python",
+    "wxwidgets"
+  ],
+  "map": {
+    "libwxgtk3.0-gtk3-dev": "wxwidgets"
+  }
+}

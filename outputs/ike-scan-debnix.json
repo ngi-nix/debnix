@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ike-scan",
+  "nix_pkg": null,
+  "control_file_hash": "97e2857208d23c6cc8171a1a8194a6c0eb50f6f6fc4287b81da4f23a65c3f265",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

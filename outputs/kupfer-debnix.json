@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "kupfer",
+  "nix_pkg": null,
+  "control_file_hash": "d12358254085474190a1a99acd4507926988c6c2a42168450fcae5a554a620f2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "gir1.2-ayatanaappindicator3-0.1",
+    "gir1.2-gtk-3.0",
+    "gir1.2-keybinder-3.0",
+    "gir1.2-wnck-3.0",
+    "python3-dbus",
+    "python3-gi-cairo",
+    "python3-setproctitle",
+    "python3-xdg",
+    "yelp"
+  ],
+  "nix_inputs": [
+    "dbus-python",
+    "desktop-file-utils",
+    "docutils",
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "itstool",
+    "keybinder3",
+    "libwnck",
+    "pycairo",
+    "pygobject",
+    "python3",
+    "pyxdg",
+    "shared-mime-info"
+  ],
+  "map": {
+    "python3-dbus": "dbus-python",
+    "gir1.2-wnck-3.0": "libwnck",
+    "python3-xdg": "pyxdg",
+    "python3-gi-cairo": "pygobject"
+  }
+}

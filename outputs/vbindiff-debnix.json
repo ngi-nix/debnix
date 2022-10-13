@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "vbindiff",
+  "nix_pkg": null,
+  "control_file_hash": "74e11935cc0f7c53bf8746a2f3e01b6b8e2ecdd82ae2b61790ddfb0ec868a832",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

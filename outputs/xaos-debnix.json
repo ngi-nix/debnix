@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "xaos",
+  "nix_pkg": null,
+  "control_file_hash": "d4cd29aa4576eea3a2b08c9474ae6c366493b577188906b247106ee3cf79204a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "aalib",
+    "gettext",
+    "gsl",
+    "intltool",
+    "libX11",
+    "libXext",
+    "libXt",
+    "libpng",
+    "perl",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {}
+}

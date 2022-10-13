@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "eboard",
+  "nix_pkg": null,
+  "control_file_hash": "c781059b1640c83bfc325ca96ad4b5b646c1fa0421e6a1669fb7e585d75e71dc",
+  "deb_inputs": [
+    "crafty",
+    "debhelper",
+    "gnuchess",
+    "libgstreamer1.0-dev",
+    "libgtk2.0-dev",
+    "xfonts-75dpi"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+"
+  }
+}

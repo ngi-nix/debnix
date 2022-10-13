@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "devilspie2",
+  "nix_pkg": null,
+  "control_file_hash": "d53395a6891fc444f93c11b717a0d7511d301671081a33f872d5c9bf0622ea49",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "liblua5.1-0-dev",
+    "libwnck-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+3",
+    "intltool",
+    "libwnck",
+    "lua",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libwnck-3-dev": "libwnck",
+    "liblua5.1-0-dev": "lua"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "sct",
+  "nix_pkg": null,
+  "control_file_hash": "5810f19b99c2422b374ba335fd89b769bb3ba81b3e60ee63fae095aca8443d44",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "libxrandr-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXrandr",
+    "xorgproto"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxrandr-dev": "libXrandr"
+  }
+}

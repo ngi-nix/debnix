@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "duperemove",
+  "nix_pkg": null,
+  "control_file_hash": "2a82d631f19780701a8553e2409e7ecd1bf64f0145b006511d6cd112ca0c1d53",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libsqlite3-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libgcrypt",
+    "linux-headers",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libglib2.0-dev": "glib"
+  }
+}

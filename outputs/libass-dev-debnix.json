@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libass-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7b56c6a8a7fe861f1caa9ada996a269a9c8a0c383ac91388aef75c947a7f99c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libass9",
+    "libfontconfig1-dev",
+    "libfreetype-dev",
+    "libfribidi-dev",
+    "libharfbuzz-dev",
+    "nasm"
+  ],
+  "nix_inputs": [
+    "fontconfig",
+    "freetype",
+    "fribidi",
+    "harfbuzz",
+    "pkg-config-wrapper",
+    "yasm"
+  ],
+  "map": {
+    "libharfbuzz-dev": "harfbuzz",
+    "libfontconfig1-dev": "fontconfig",
+    "libfreetype-dev": "freetype",
+    "libfribidi-dev": "fribidi"
+  }
+}

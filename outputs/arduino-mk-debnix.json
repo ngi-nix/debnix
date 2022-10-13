@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "arduino-mk",
+  "nix_pkg": null,
+  "control_file_hash": "e8ebdcbf6b1f8fcaa1f9237d7483d391f1d85d0c8744fed716830dd5375df11e",
+  "deb_inputs": [
+    "arduino",
+    "debhelper-compat",
+    "make",
+    "python3",
+    "python3-serial",
+    "screen"
+  ],
+  "nix_inputs": [
+    "pyserial"
+  ],
+  "map": {
+    "python3-serial": "pyserial"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ssldump",
+  "nix_pkg": null,
+  "control_file_hash": "c38f0ae3352ec41ec401474e61baf8671238ac101722fd8e2c6f9cc61b7d6374",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjson-c-dev",
+    "libnet1-dev",
+    "libpcap-dev",
+    "libssl-dev",
+    "tcpdump"
+  ],
+  "nix_inputs": [
+    "json-c",
+    "libnet",
+    "libpcap",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libpcap-dev": "libpcap",
+    "libjson-c-dev": "json-c",
+    "libnet1-dev": "libnet"
+  }
+}

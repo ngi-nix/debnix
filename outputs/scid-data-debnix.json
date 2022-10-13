@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "scid-data",
+  "nix_pkg": null,
+  "control_file_hash": "0f29ec69ea2c1b4fda4d43100348381d8f1adbaaa37bcb04ee07a00fc0b0401d",
+  "deb_inputs": [
+    "crafty",
+    "debhelper-compat",
+    "dh-python",
+    "dpkg-dev",
+    "glaurung",
+    "libsnack2",
+    "libtk-img",
+    "libx11-dev",
+    "phalanx",
+    "python3",
+    "scid-data",
+    "scid-rating-data",
+    "scid-spell-data",
+    "stockfish",
+    "tcl",
+    "tcl-dev",
+    "tcllib",
+    "tclsh",
+    "tdom",
+    "texlive-games",
+    "tk",
+    "tk-dev",
+    "toga2",
+    "zlib1g",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "tcl",
+    "tk",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "tcl": "tcl",
+    "zlib1g": "zlib",
+    "tk": "tk",
+    "libx11-dev": "libX11",
+    "tcllib": "tcl"
+  }
+}

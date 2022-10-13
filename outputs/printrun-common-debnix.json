@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "printrun-common",
+  "nix_pkg": null,
+  "control_file_hash": "3051a476a0899563dc2e82a8a595e03510d088a55ae219fde7962736aefd5898",
+  "deb_inputs": [
+    "cython3",
+    "debhelper-compat",
+    "dh-python",
+    "libpython3-dev",
+    "plater",
+    "printcore",
+    "printrun-common",
+    "pronsole",
+    "pronterface",
+    "python3",
+    "python3-appdirs",
+    "python3-cairosvg",
+    "python3-dbus",
+    "python3-gi",
+    "python3-libxml2",
+    "python3-numpy",
+    "python3-psutil",
+    "python3-pyglet",
+    "python3-serial",
+    "python3-setuptools",
+    "python3-wxgtk4.0",
+    "slic3r"
+  ],
+  "nix_inputs": [
+    "appdirs",
+    "cython",
+    "dbus-python",
+    "glib",
+    "numpy",
+    "psutil",
+    "pyglet",
+    "pyopengl",
+    "pyserial",
+    "python3",
+    "six",
+    "wxPython"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-pyglet": "pyglet",
+    "python3-wxgtk4.0": "wxPython",
+    "cython3": "cython",
+    "python3-appdirs": "appdirs",
+    "python3-numpy": "numpy",
+    "python3-dbus": "dbus-python",
+    "python3-serial": "pyserial"
+  }
+}

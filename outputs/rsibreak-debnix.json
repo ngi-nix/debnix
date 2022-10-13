@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "rsibreak",
+  "nix_pkg": null,
+  "control_file_hash": "a47fb84b81d65db7b02ff2845a64d5a770b35b983a1506faee54e3893fd25a61",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5config-dev",
+    "libkf5configwidgets-dev",
+    "libkf5crash-dev",
+    "libkf5dbusaddons-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5idletime-dev",
+    "libkf5notifications-dev",
+    "libkf5notifyconfig-dev",
+    "libkf5textwidgets-dev",
+    "libkf5windowsystem-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kcrash",
+    "kdoctools",
+    "kidletime",
+    "knotifyconfig",
+    "ktextwidgets",
+    "kwindowsystem"
+  ],
+  "map": {
+    "libkf5crash-dev": "kcrash",
+    "libkf5windowsystem-dev": "kwindowsystem",
+    "libkf5textwidgets-dev": "ktextwidgets",
+    "libkf5doctools-dev": "kdoctools",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5idletime-dev": "kidletime",
+    "libkf5notifyconfig-dev": "knotifyconfig"
+  }
+}

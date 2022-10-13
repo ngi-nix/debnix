@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "zoxide",
+  "nix_pkg": null,
+  "control_file_hash": "a1011a3aa3c8a2194e049be72a39b198c144ca6389a25e7400b0639648bb6f05",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-anyhow-1+default-dev",
+    "librust-bincode-1+default-dev",
+    "librust-clap-2+default-dev",
+    "librust-dirs-3+default-dev",
+    "librust-dirs-4+default-dev",
+    "librust-dunce-1+default-dev",
+    "librust-float-ord-0.2+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-structopt-0.3+default-dev",
+    "librust-uuid-1+default-dev",
+    "librust-uuid-1+v4-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

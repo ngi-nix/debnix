@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libncursesw5-dev",
+  "nix_pkg": null,
+  "control_file_hash": "80cd7de6826f033e4f25341f3aca81bc1d841a9af1991c1fb01549c6418c1b52",
+  "deb_inputs": [
+    "autoconf-dickey",
+    "debhelper-compat",
+    "lib32c-dev",
+    "lib32ncurses6",
+    "lib32ncursesw6",
+    "lib32tinfo6",
+    "lib64c-dev",
+    "lib64ncurses6",
+    "lib64ncursesw6",
+    "lib64tinfo6",
+    "libc-dev",
+    "libc6-dev",
+    "libgpm-dev",
+    "libgpm2",
+    "libncurses-dev",
+    "libncurses6",
+    "libncursesw6",
+    "libtinfo5",
+    "libtinfo6",
+    "libtinfo6-udeb",
+    "ncurses-base",
+    "ncurses-bin",
+    "ncurses-doc",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

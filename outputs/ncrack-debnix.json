@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "ncrack",
+  "nix_pkg": null,
+  "control_file_hash": "80d2572eddf9c01fc287f27911b03b5af24d009882fc1e7f1fa46d97053499ce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

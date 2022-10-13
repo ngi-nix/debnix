@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libmicrohttpd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7d87d2cc6e48713911d40dace8b7c7a0c01f13f546eb11c4edbbcfc7c46f73b0",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libcurl4-gnutls-dev",
+    "libgnutls28-dev",
+    "libmicrohttpd12",
+    "pkg-config",
+    "socat",
+    "texinfo",
+    "zzuf"
+  ],
+  "nix_inputs": [
+    "curl",
+    "gnutls",
+    "libgcrypt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libgnutls28-dev": "gnutls"
+  }
+}

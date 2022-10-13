@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dmg2img",
+  "nix_pkg": null,
+  "control_file_hash": "43e4ab208406e97dc66ef594221781dc5c25803eefa931b393fb1be569799515",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libbz2-dev",
+    "libssl-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

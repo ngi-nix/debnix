@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libdouble-conversion-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d429344d6489485ed6143ffaa05a2b3f0a5e7992b1b5ed7e8f3deafdb78c936e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libdouble-conversion3"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

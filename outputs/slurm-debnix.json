@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "slurm",
+  "nix_pkg": null,
+  "control_file_hash": "9b5afc79845dcada32b03a0d602ae37f7c49658eb2b96211e86893e4c6d597ec",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "dbus",
+    "freeipmi",
+    "http-parser",
+    "hwloc",
+    "json-c",
+    "libbpf",
+    "libjwt",
+    "libtool",
+    "libyaml",
+    "linux-pam",
+    "lua",
+    "lz4",
+    "mariadb-connector-c",
+    "munge",
+    "ncurses",
+    "numactl",
+    "perl",
+    "pkg-config-wrapper",
+    "pmix",
+    "python3",
+    "rdma-core",
+    "readline",
+    "shadow",
+    "xauth"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

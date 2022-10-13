@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libsdl-mixer1.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "514e35e1afae239f53d2c164d0ec7ed98299b2dc9735b5ccf5a730107ccd3c0d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libflac-dev",
+    "libfluidsynth-dev",
+    "libmad0-dev",
+    "libmikmod-dev",
+    "libmodplug-dev",
+    "libogg-dev",
+    "libsdl-mixer1.2",
+    "libsdl1.2-dev",
+    "libsmpeg-dev",
+    "libtool",
+    "libvorbis-dev",
+    "sf3-soundfont-gm",
+    "timgm6mb-soundfont"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "fluidsynth",
+    "libmikmod",
+    "libogg",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "smpeg"
+  ],
+  "map": {
+    "libmikmod-dev": "libmikmod",
+    "libsdl1.2-dev": "SDL",
+    "libsmpeg-dev": "smpeg",
+    "libfluidsynth-dev": "fluidsynth",
+    "libogg-dev": "libogg",
+    "libvorbis-dev": "libvorbis"
+  }
+}

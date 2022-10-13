@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "bwidget",
+  "nix_pkg": null,
+  "control_file_hash": "d1e567dd4e64c83ec6b9723b34f21542a3060e259efe1a31a63acbefbca99117",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tk"
+  ],
+  "map": {}
+}

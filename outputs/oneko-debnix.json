@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "oneko",
+  "nix_pkg": null,
+  "control_file_hash": "0e27cbc7f1b61f0753a5ccd0c2424391745befd22dfb0fa1d8bbc7050cb8c56c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxext-dev",
+    "psmisc"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake"
+  ],
+  "map": {}
+}

@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "vorta",
+  "nix_pkg": null,
+  "control_file_hash": "1610d5ac056a3e512968bd228a8bf3ed0804a388641968f54e6c912127ab3968",
+  "deb_inputs": [
+    "borgbackup",
+    "dbus-daemon",
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "libqt5svg5",
+    "openssh-client",
+    "python3-all",
+    "python3-appdirs",
+    "python3-mock",
+    "python3-paramiko",
+    "python3-peewee",
+    "python3-psutil",
+    "python3-pyqt5",
+    "python3-pytest-mock",
+    "python3-pytestqt",
+    "python3-setuptools",
+    "qtchooser",
+    "qttools5-dev-tools",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "appdirs",
+    "paramiko",
+    "peewee",
+    "psutil",
+    "pytest-mock",
+    "pytest-qt",
+    "python-dateutil",
+    "python3",
+    "qdarkstyle",
+    "secretstorage",
+    "setuptools"
+  ],
+  "map": {
+    "python3-pyqt5": "PyQt5",
+    "python3-pytestqt": "pytest-qt",
+    "python3-setuptools": "setuptools",
+    "python3-paramiko": "paramiko",
+    "python3-peewee": "peewee",
+    "python3-appdirs": "appdirs",
+    "python3-pytest-mock": "pytest-mock"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "s3fs",
+  "nix_pkg": null,
+  "control_file_hash": "b4a7a5aa00e21c512737409c44d12fb8a3ab8d50328e41524827506daa29cf0a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fuse",
+    "libcurl4-gnutls-dev",
+    "libfuse-dev",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "libxml2-dev",
+    "mime-support",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "fuse",
+    "libxml2",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libxml2-dev": "libxml2",
+    "libfuse-dev": "fuse",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

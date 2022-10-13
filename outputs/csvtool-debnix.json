@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "csvtool",
+  "nix_pkg": null,
+  "control_file_hash": "8a9e112ea830cabcf909981dd5110f0b4125f52e58abaa6cc2d4add59030ce65",
+  "deb_inputs": [
+    "csvtool",
+    "debhelper-compat",
+    "dh-ocaml",
+    "docbook-xsl",
+    "libuutf-ocaml-dev",
+    "ocaml-dune",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "opam-installer",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "csv",
+    "dune",
+    "ocaml",
+    "ocaml-findlib"
+  ],
+  "map": {
+    "ocaml-findlib": "ocaml-findlib",
+    "ocaml-nox": "ocaml"
+  }
+}

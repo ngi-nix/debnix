@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "prometheus-mysqld-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "0940dacbe3685e7c86f153b0dbeb72e4f54f5410afbac1be5943e902828dab5c",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "default-mysql-server",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-data-dog-go-sqlmock-dev",
+    "golang-github-go-kit-log-dev",
+    "golang-github-go-sql-driver-mysql-dev",
+    "golang-github-google-uuid-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-github-smartystreets-goconvey-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-ini.v1-dev",
+    "virtual-mysql-server"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

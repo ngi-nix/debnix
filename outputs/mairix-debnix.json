@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "mairix",
+  "nix_pkg": null,
+  "control_file_hash": "9bc82198ce6fe2446651a8af56bcea14664766febc389336806a382b4bce205e",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "libbz2-dev",
+    "locales-all",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "bzip2",
+    "flex",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "flex": "flex",
+    "bison": "bison",
+    "libbz2-dev": "bzip2"
+  }
+}

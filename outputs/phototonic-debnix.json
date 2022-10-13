@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "phototonic",
+  "nix_pkg": null,
+  "control_file_hash": "12b6813053cfdb314a25401ca1b1c2b69c0cb56bb19202df27cc1bbb2ff0edd1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libexiv2-dev",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "qt5-image-formats-plugins",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "exiv2",
+    "qtbase"
+  ],
+  "map": {
+    "libexiv2-dev": "exiv2",
+    "qtbase5-dev": "qtbase"
+  }
+}

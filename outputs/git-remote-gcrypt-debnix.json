@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "git-remote-gcrypt",
+  "nix_pkg": null,
+  "control_file_hash": "d7c4f1d460e33342c3a7f68f1a7d83a12e62c0860c6939e679df907f32359095",
+  "deb_inputs": [
+    "curl",
+    "debhelper",
+    "git",
+    "gnupg",
+    "gnupg1",
+    "gpg",
+    "python3-docutils",
+    "rclone",
+    "rsync"
+  ],
+  "nix_inputs": [
+    "docutils"
+  ],
+  "map": {}
+}

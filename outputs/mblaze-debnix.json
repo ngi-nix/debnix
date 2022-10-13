@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "mblaze",
+  "nix_pkg": null,
+  "control_file_hash": "35b470a5a564766abffe9f7eab3f3e2203e767496298b9309c141cba9ae0d65d",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {}
+}

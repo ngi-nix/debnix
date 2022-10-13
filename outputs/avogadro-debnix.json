@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "avogadro",
+  "nix_pkg": null,
+  "control_file_hash": "94885fa5932110ed05163e32dde5217e2c25847d6052d7e5bb7f765c90a29171",
+  "deb_inputs": [
+    "avogadro-utils",
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libavogadro-dev",
+    "libeigen3-dev",
+    "libgl2ps-dev",
+    "libglew-dev",
+    "libhdf5-dev",
+    "libmolequeue-dev",
+    "libopenbabel-dev",
+    "libsymspg-dev",
+    "molequeue",
+    "pkg-config",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "eigen",
+    "glu",
+    "libGL",
+    "libX11",
+    "openbabel",
+    "pkg-config-wrapper",
+    "qt",
+    "zlib"
+  ],
+  "map": {
+    "libopenbabel-dev": "openbabel",
+    "libeigen3-dev": "eigen",
+    "libgl2ps-dev": "libGL",
+    "doxygen": "doxygen",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake"
+  }
+}

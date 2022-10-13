@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "pmidi",
+  "nix_pkg": null,
+  "control_file_hash": "b6d350f9a215a2552f4612005cef2fc941790f3ff5a425a63f9367da2f1484bf",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libasound2-dev",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

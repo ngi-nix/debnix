@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "glogg",
+  "nix_pkg": null,
+  "control_file_hash": "55094f6958d5bc245b817540c28002ff92eb9e3fc6b7276bf1f63fe958e33474",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "docbook-to-man",
+    "libboost-program-options-dev",
+    "libqt5dbus5",
+    "markdown",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "boost"
+  ],
+  "map": {}
+}

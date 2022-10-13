@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "subnetcalc",
+  "nix_pkg": null,
+  "control_file_hash": "9629b8681223cb6414cd91ba2242bd739f4046dfbf94b8f2570da1962e9e120e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "inetutils-traceroute",
+    "iputils-ping",
+    "iputils-tracepath",
+    "libfile-fcntllock-perl",
+    "libgeoip-dev",
+    "ping",
+    "pkg-config",
+    "rsplib-tools",
+    "traceroute",
+    "whois"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

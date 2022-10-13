@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "html-xml-utils",
+  "nix_pkg": null,
+  "control_file_hash": "619589a049e18c46d1a527f69df47902c239f9c74973cdeaa1bf7f0fd832717b",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "gperf",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libidn2-dev",
+    "man2html",
+    "netcat-openbsd"
+  ],
+  "nix_inputs": [
+    "curl"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libcurl-dev": "curl"
+  }
+}

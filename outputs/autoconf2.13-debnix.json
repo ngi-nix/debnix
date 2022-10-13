@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "autoconf2.13",
+  "nix_pkg": null,
+  "control_file_hash": "c91c18385a0c2b4536401f81b6392b118e842c56b19b4e115624f99f0d6978f1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "debianutils",
+    "dpkg",
+    "gnu-standards",
+    "install-info",
+    "libfile-temp-perl",
+    "m4",
+    "perl"
+  ],
+  "nix_inputs": [
+    "gnum4",
+    "perl",
+    "texinfo"
+  ],
+  "map": {
+    "perl": "perl",
+    "install-info": "texinfo"
+  }
+}

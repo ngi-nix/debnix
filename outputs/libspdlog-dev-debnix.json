@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libspdlog-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b3d2ffde51f77f789bd7e3decb347eddaf81e171148f3b7aaabe2a2cd9e5b212",
+  "deb_inputs": [
+    "catch2",
+    "cmake",
+    "debhelper-compat",
+    "libfmt-dev",
+    "libspdlog1.10",
+    "libsystemd-dev",
+    "pkg-config",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fmt"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libfmt-dev": "fmt"
+  }
+}

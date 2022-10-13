@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "i7z",
+  "nix_pkg": null,
+  "control_file_hash": "aa73f7f0f2dfda2762b3237ab0713ec9d5116010a4d8f30c61e137f916290816",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdb",
+    "libncurses-dev",
+    "msr-tools",
+    "ruby:any"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

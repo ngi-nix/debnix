@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "asciinema",
+  "nix_pkg": null,
+  "control_file_hash": "38015b2df75e1c2874b31f2984d078b84464b9eccba4f02cc6afd38e1f3c9f09",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pybuild-plugin-pyproject",
+    "python3-all",
+    "python3-pkg-resources",
+    "python3-pytest",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "glibc-locales",
+    "nose",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-pkg-resources": "setuptools",
+    "python3-setuptools": "setuptools"
+  }
+}

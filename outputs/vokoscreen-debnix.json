@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "vokoscreen",
+  "nix_pkg": null,
+  "control_file_hash": "7a7c3dd1693d447b4f713253f37693b7308b87153869cfbd70fdf658b9f43f71",
+  "deb_inputs": [
+    "debhelper",
+    "dragonplayer",
+    "ffmpeg",
+    "kplayer",
+    "libaacs0",
+    "libasound2-dev",
+    "libdc1394-utils",
+    "libmp3lame0",
+    "libqt5x11extras5-dev",
+    "libv4l-dev",
+    "libvorbis0a",
+    "libx11-dev",
+    "libx264-148",
+    "libxrandr-dev",
+    "lsof",
+    "pkg-config",
+    "pulseaudio-utils",
+    "qt5-qmake",
+    "qttools5-dev-tools",
+    "vlc",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libXrandr",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia",
+    "qttools",
+    "qtx11extras",
+    "v4l-utils"
+  ],
+  "map": {
+    "libxrandr-dev": "libXrandr",
+    "libasound2-dev": "alsa-lib",
+    "libv4l-dev": "v4l-utils",
+    "qttools5-dev-tools": "qttools"
+  }
+}

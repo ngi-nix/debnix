@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "fceux",
+  "nix_pkg": null,
+  "control_file_hash": "f2011ed7ce8c9356272346136c792f908d0a1eb8d5191166c7f1a3c5a5c9110e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "efp",
+    "liblua5.1-0-dev",
+    "libminizip-dev",
+    "libqt5opengl5-dev",
+    "libqwt-qt5-dev",
+    "libsdl2-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "lua",
+    "minizip",
+    "pkg-config-wrapper",
+    "x264"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "liblua5.1-0-dev": "lua",
+    "libminizip-dev": "minizip"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "httping",
+  "nix_pkg": null,
+  "control_file_hash": "cc945dc0abea94003ac6c8ed71bd907f1ce0782b54ea32f4cb614a7ec5d55284",
+  "deb_inputs": [
+    "clang",
+    "clang-tools",
+    "cppcheck",
+    "debhelper",
+    "libfftw3-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libssl-dev",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "fftw-double",
+    "gettext",
+    "ncurses",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "openssl": "openssl",
+    "libncurses5-dev": "ncurses",
+    "libncursesw5-dev": "ncurses"
+  }
+}

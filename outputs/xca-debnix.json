@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "xca",
+  "nix_pkg": null,
+  "control_file_hash": "0dda4d2ebda9824f54717be1903c523ed212930677a894135c645ca5d89c7a53",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libltdl-dev",
+    "libqt5sql5",
+    "libqt5sql5-mysql",
+    "libqt5sql5-psql",
+    "libqt5sql5-sqlite",
+    "libssl-dev",
+    "linuxdoc-tools",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "openssl",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "sphinx"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools",
+    "libssl-dev": "openssl",
+    "libltdl-dev": "libtool"
+  }
+}

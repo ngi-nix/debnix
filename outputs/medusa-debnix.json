@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "medusa",
+  "nix_pkg": null,
+  "control_file_hash": "cac1cb63729ffffeee80b51697ce51c53313c1b467e2f20dbfb900179f09dd24",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-dev",
+    "libpq-dev",
+    "libssh2-1-dev",
+    "libssl-dev",
+    "libsvn-dev"
+  ],
+  "nix_inputs": [
+    "freerdp",
+    "libssh2",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssh2-1-dev": "libssh2",
+    "libssl-dev": "openssl"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libcivetweb1",
+  "nix_pkg": null,
+  "control_file_hash": "a7f0129014fcf04709d70b176687c29ea15f2b5981b0dfe52ff3e5851221f1f6",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcivetweb1",
+    "libjs-jquery"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

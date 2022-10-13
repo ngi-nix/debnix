@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "nasty",
+  "nix_pkg": null,
+  "control_file_hash": "2b4b6af23dd827c927c9be34ab660114c22c02e2370d1492bf6cecf00fe38918",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgpgme-dev",
+    "libgpgme11"
+  ],
+  "nix_inputs": [
+    "gpgme"
+  ],
+  "map": {
+    "libgpgme-dev": "gpgme",
+    "libgpgme11": "gpgme"
+  }
+}

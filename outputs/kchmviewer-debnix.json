@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "kchmviewer",
+  "nix_pkg": null,
+  "control_file_hash": "92e01eeef2bf26ca7e8ee3545443f5fa55a904ac8d72ef564d7217b441a45d2c",
+  "deb_inputs": [
+    "debhelper",
+    "libchm-dev",
+    "libqt5webkit5-dev",
+    "libx11-dev",
+    "libzip-dev",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "chmlib",
+    "libzip",
+    "qtwebengine"
+  ],
+  "map": {
+    "libzip-dev": "libzip",
+    "libchm-dev": "chmlib"
+  }
+}
