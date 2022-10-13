@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "apulse",
+  "nix_pkg": null,
+  "control_file_hash": "5efe7c2fe8a9693644c742107a6bdccb3a23d7ec585518e5e9a251dff07992a3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libglib2.0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libglib2.0-dev": "glib",
+    "cmake": "cmake"
+  }
+}

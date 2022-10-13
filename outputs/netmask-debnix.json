@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "netmask",
+  "nix_pkg": null,
+  "control_file_hash": "12f0a8fd18346592299c6e41a0d5dffe73c5f8f9396faf3ce67d06f4b736bfd9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo"
+  }
+}

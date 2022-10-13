@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "boxes",
+  "nix_pkg": null,
+  "control_file_hash": "f6f99b4c7a1dad6ab4a6be02374b87ddd0738b6f3321dd6af1bae230c30c8e69",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libpcre2-dev",
+    "libunistring-dev",
+    "xxd"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "redsocks",
+  "nix_pkg": null,
+  "control_file_hash": "fec886119430ed2d4b3769cd61ac170c980ff984d1e96545ab87d7d16cef78f3",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "libevent-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "libevent"
+  ],
+  "map": {
+    "libevent-dev": "libevent"
+  }
+}

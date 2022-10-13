@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "fwbuilder",
+  "nix_pkg": null,
+  "control_file_hash": "0f7b5c38d80572b6f4a917f0e816da996ad983cd398ed2c53e04484a5afe5cfd",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "debhelper",
+    "fwbuilder-common",
+    "fwbuilder-doc",
+    "libsnmp-dev",
+    "libssl-dev",
+    "libtool",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "rcs",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtwayland",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {}
+}

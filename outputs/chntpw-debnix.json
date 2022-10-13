@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "chntpw",
+  "nix_pkg": null,
+  "control_file_hash": "ee498d001acf5584e9d0c453c697ea7124e6eabe44dc08881d92f4dd49e41c01",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libgcrypt-dev",
+    "libgcrypt20-dev",
+    "quilt",
+    "sharutils"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "v2ray",
+  "nix_pkg": null,
+  "control_file_hash": "87b7899b678ea9eded903a14d97e8280b5d108174669f31ba5647b43499522e1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-gorilla-websocket-dev",
+    "golang-github-lucas-clemente-quic-go-dev",
+    "golang-github-miekg-dns-dev",
+    "golang-github-pires-go-proxyproto-dev",
+    "golang-github-seiflotfy-cuckoofilter-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-google-grpc-dev",
+    "golang-h12-socks-dev",
+    "golang-refraction-networking-utls-dev",
+    "golang-starlark-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

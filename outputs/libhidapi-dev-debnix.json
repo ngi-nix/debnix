@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libhidapi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "059552e95ac6784c4f71063ef3414fecd3a9daa897925307f460423dbe7dc009",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libhidapi-hidraw0",
+    "libhidapi-libusb0",
+    "libhidapi0",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libusb2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libusb",
+    "pkg-config-wrapper",
+    "systemd-minimal"
+  ],
+  "map": {
+    "libusb2-dev": "libusb"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "sng",
+  "nix_pkg": null,
+  "control_file_hash": "ec6321304c2c82d7a9c79f0f36b0cdfc116c8796dcbfa00fca4d43ea4eaacfaf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "x11-common"
+  ],
+  "nix_inputs": [
+    "libpng"
+  ],
+  "map": {
+    "libpng-dev": "libpng"
+  }
+}

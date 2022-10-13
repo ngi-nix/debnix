@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "iotop-c",
+  "nix_pkg": null,
+  "control_file_hash": "ddc5b36171600d5fd4572cb25d45882c350d54acbed9776c6569c397e465e581",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "sipsak",
+  "nix_pkg": null,
+  "control_file_hash": "e0912bd559068656e87c7725acae6aa5b3f4ab2eb9e1fa7330320d0a82d53f4a",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "libc-ares-dev",
+    "libgnutls-openssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "c-ares",
+    "openssl"
+  ],
+  "map": {
+    "libc-ares-dev": "c-ares"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "piper",
+  "nix_pkg": null,
+  "control_file_hash": "368c706c9fe6a4d305a43deb1fd108f79ebc4fb2d7adae1e4991dc205127319e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "gettext",
+    "gir1.2-rsvg-2.0",
+    "meson",
+    "pkg-config",
+    "python-gi-dev",
+    "python3-evdev",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-lxml",
+    "ratbagd"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "appstream-glib",
+    "desktop-file-utils",
+    "evdev",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "librsvg",
+    "lxml",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson",
+    "gir1.2-rsvg-2.0": "librsvg",
+    "python-gi-dev": "pygobject",
+    "gettext": "gettext",
+    "python3-lxml": "lxml",
+    "python3-gi": "pygobject",
+    "python3-gi-cairo": "pygobject"
+  }
+}

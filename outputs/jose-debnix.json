@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "jose",
+  "nix_pkg": null,
+  "control_file_hash": "ce163f8237abbe6e3061e747828afd257eb2d8fedd9b7561beeab8e75d11b4d6",
+  "deb_inputs": [
+    "asciidoctor",
+    "debhelper-compat",
+    "jq",
+    "libjansson-dev",
+    "libjose0",
+    "libssl-dev",
+    "meson",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "jansson",
+    "meson",
+    "ninja",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "meson": "meson",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

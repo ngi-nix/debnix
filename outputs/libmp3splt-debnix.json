@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libmp3splt",
+  "nix_pkg": null,
+  "control_file_hash": "2abbd3ffed3591f304857d7edfff2f5fe7a9f8dfd13fbbf72166d44a03b74b21",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libflac-dev",
+    "libid3tag0-dev",
+    "libltdl3-dev",
+    "libmad0-dev",
+    "libmp3splt0",
+    "libmp3splt0-flac",
+    "libmp3splt0-mp3",
+    "libmp3splt0-ogg",
+    "libogg-dev",
+    "libpcre3-dev",
+    "libvorbis-dev",
+    "mp3splt",
+    "mp3splt-gtk"
+  ],
+  "nix_inputs": [
+    "libid3tag",
+    "libmad",
+    "libtool"
+  ],
+  "map": {
+    "libmad0-dev": "libmad",
+    "libid3tag0-dev": "libid3tag"
+  }
+}

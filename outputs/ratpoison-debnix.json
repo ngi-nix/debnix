@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "ratpoison",
+  "nix_pkg": null,
+  "control_file_hash": "f76ba9df9db878f73bf613c00e37b330074c99fd7b02f5024a4bdf40ce6eefed",
+  "deb_inputs": [
+    "9menu",
+    "autoconf",
+    "automake",
+    "debhelper",
+    "libx11-dev",
+    "libxft-dev",
+    "libxrandr-dev",
+    "libxtst-dev",
+    "menu",
+    "perl",
+    "pkg-config",
+    "rxvt",
+    "texinfo",
+    "x-terminal-emulator",
+    "xbindkeys",
+    "xclip"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "fontconfig",
+    "freetype",
+    "libX11",
+    "libXft",
+    "libXi",
+    "libXpm",
+    "libXrandr",
+    "libXt",
+    "libXtst",
+    "perl",
+    "pkg-config-wrapper",
+    "readline",
+    "xorgproto"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst",
+    "libxrandr-dev": "libXrandr",
+    "perl": "perl",
+    "libxft-dev": "libXft",
+    "automake": "automake",
+    "autoconf": "autoconf",
+    "libx11-dev": "libX11"
+  }
+}

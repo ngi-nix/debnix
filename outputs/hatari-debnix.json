@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "hatari",
+  "nix_pkg": null,
+  "control_file_hash": "e25aeef64f73166c4ef9f4f5f709c12398e2494ab0b61ea5f1b4349e7b80a21f",
+  "deb_inputs": [
+    "binfmt-support",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "dosfstools",
+    "gir1.2-gtk-3.0",
+    "libpng-dev",
+    "libreadline-dev",
+    "libsdl2-dev",
+    "mtools",
+    "python3",
+    "python3-gi",
+    "systemd",
+    "unzip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "cmake",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib",
+    "libsdl2-dev": "SDL"
+  }
+}

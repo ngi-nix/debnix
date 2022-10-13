@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libmpg123-dev",
+  "nix_pkg": null,
+  "control_file_hash": "242b931412285c0307309b2e12c25ea39fae9452c1a5b31b16ddef46f6624cd4",
+  "deb_inputs": [
+    "alsa-utils",
+    "debhelper-compat",
+    "jackd",
+    "libasound2-dev",
+    "libaudio-dev",
+    "libjack-dev",
+    "libltdl-dev",
+    "libmpg123-0",
+    "libopenal-dev",
+    "libout123-0",
+    "libpulse-dev",
+    "libsyn123-0",
+    "nas",
+    "oss-compat",
+    "oss4-base",
+    "pkg-config",
+    "portaudio19-dev",
+    "pulseaudio"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "libpulseaudio",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

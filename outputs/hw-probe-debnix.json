@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "hw-probe",
+  "nix_pkg": null,
+  "control_file_hash": "0ab6a9fb47105ec44cc0337c62eeb68938cb57daeeda0bcde35631028b1e86c4",
+  "deb_inputs": [
+    "acpica-tools",
+    "alsa-utils",
+    "cpuid",
+    "curl",
+    "debhelper-compat",
+    "dmidecode",
+    "edid-decode",
+    "ethtool",
+    "fdisk",
+    "hdparm",
+    "help2man",
+    "hwinfo",
+    "i2c-tools",
+    "iw",
+    "libdigest-sha-perl",
+    "libwww-perl",
+    "lm-sensors",
+    "lsb-release",
+    "mcelog",
+    "memtester",
+    "mesa-utils",
+    "pciutils",
+    "perl-base",
+    "pnputils",
+    "smartmontools",
+    "sysstat",
+    "upower",
+    "usbutils",
+    "vainfo",
+    "vdpauinfo",
+    "vulkan-tools",
+    "wireless-tools",
+    "x11-utils",
+    "x11-xserver-utils",
+    "xinput"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl-base": "perl"
+  }
+}

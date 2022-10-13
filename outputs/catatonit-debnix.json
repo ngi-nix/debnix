@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "catatonit",
+  "nix_pkg": null,
+  "control_file_hash": "17b2960c1378a4acf794af98ce5afa8526aa28874f303fe281fe008e790f6715",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "glibc"
+  ],
+  "map": {}
+}

@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "cgit",
+  "nix_pkg": null,
+  "control_file_hash": "36a0a50be183a23b5721824a0dcd998b3028ff3cc846f70804beb85b4e2e28bf",
+  "deb_inputs": [
+    "asciidoc",
+    "asciidoc-base",
+    "debhelper-compat",
+    "dh-apache2",
+    "docbook-xsl",
+    "highlight",
+    "liblua5.1-0-dev",
+    "libssl-dev",
+    "libxml2-utils",
+    "lzip",
+    "pkg-config",
+    "python3",
+    "python3-docutils",
+    "python3-markdown",
+    "python3-pygments",
+    "strace",
+    "tidy",
+    "unzip",
+    "xmlto",
+    "zlib1g-dev",
+    "zstd"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt",
+    "luajit",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "python3": "python3",
+    "asciidoc": "asciidoc",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "asciidoc-base": "asciidoc",
+    "libxml2-utils": "libxml2"
+  }
+}

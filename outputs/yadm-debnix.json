@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "yadm",
+  "nix_pkg": null,
+  "control_file_hash": "5ae0d4f988411747d4bcc91383370b393c2c823a2c1e0458404e4f65638f8fce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "git"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

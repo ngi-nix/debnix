@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "usbrelay",
+  "nix_pkg": null,
+  "control_file_hash": "8a6528c9422a5b5beeb8d4379bd16bc60a4ac8a1e6643aafa8618e4dcace8a53",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-python",
+    "libhidapi-dev",
+    "python3-all-dev",
+    "python3-paho-mqtt",
+    "python3-setuptools",
+    "python3-usbrelay",
+    "usbrelay"
+  ],
+  "nix_inputs": [
+    "hidapi"
+  ],
+  "map": {
+    "libhidapi-dev": "hidapi"
+  }
+}

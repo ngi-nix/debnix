@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "gsettings-desktop-schemas-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9357d5ae78b40903bb2c93648c00a0a0003edd5029c20922402b3be8f0a4d871",
+  "deb_inputs": [
+    "gir1.2-gdesktopenums-3.0",
+    "gsettings-desktop-schemas"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {}
+}

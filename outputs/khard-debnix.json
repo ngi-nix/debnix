@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "khard",
+  "nix_pkg": null,
+  "control_file_hash": "f37771dd77a091e92547fdb1e0b803403cd895a352b44341fee62e78d7c155b4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-astroid",
+    "python3-atomicwrites",
+    "python3-configobj",
+    "python3-distutils",
+    "python3-pygments",
+    "python3-ruamel.yaml",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx",
+    "python3-sphinx-autoapi",
+    "python3-sphinx-autodoc-typehints",
+    "python3-unidecode",
+    "python3-vobject",
+    "sphinx-common",
+    "sphinx-doc",
+    "vdirsyncer"
+  ],
+  "nix_inputs": [
+    "atomicwrites",
+    "configobj",
+    "python3",
+    "ruamel-yaml",
+    "setuptools-scm",
+    "unidecode",
+    "vobject"
+  ],
+  "map": {
+    "python3-unidecode": "unidecode",
+    "python3-configobj": "configobj",
+    "python3-setuptools-scm": "setuptools-scm"
+  }
+}

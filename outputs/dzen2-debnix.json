@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "dzen2",
+  "nix_pkg": null,
+  "control_file_hash": "9f82116ea6154b626465e6152712b55644a90cc1b4b1618b7e7db7e1058c97a3",
+  "deb_inputs": [
+    "debhelper",
+    "dh-buildinfo",
+    "libx11-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "libxpm-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXft",
+    "libXinerama",
+    "libXpm",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxpm-dev": "libXpm",
+    "libxft-dev": "libXft",
+    "libx11-dev": "libX11",
+    "libxinerama-dev": "libXinerama"
+  }
+}

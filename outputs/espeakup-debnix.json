@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "espeakup",
+  "nix_pkg": null,
+  "control_file_hash": "84b11492fe8f88dbd4dac7246bda732fa9ec79dac3bfa1817c4f59fd4aa8c4dc",
+  "deb_inputs": [
+    "alsa-utils-udeb",
+    "debhelper-compat",
+    "espeak-ng-data-udeb",
+    "libasound2-dev",
+    "libespeak-ng-dev",
+    "libkmod2-udeb",
+    "libpcaudio-dev",
+    "libsonic-dev",
+    "lsb-base",
+    "meson",
+    "pkg-config",
+    "po-debconf",
+    "preseed-common",
+    "ronn",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "espeak-ng",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "ronn",
+    "systemd"
+  ],
+  "map": {
+    "meson": "meson",
+    "ronn": "ronn",
+    "libasound2-dev": "alsa-lib",
+    "systemd": "systemd",
+    "espeak-ng-data-udeb": "espeak-ng",
+    "libespeak-ng-dev": "espeak-ng"
+  }
+}

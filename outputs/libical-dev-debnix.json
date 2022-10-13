@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libical-dev",
+  "nix_pkg": null,
+  "control_file_hash": "777d5c98ec27a527d760911ca0c82acc09631f5bceff5064209754458bfc10e1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "gir1.2-ical-3.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libdb-dev",
+    "libgirepository1.0-dev",
+    "libical-dev",
+    "libical3",
+    "libicu-dev",
+    "libxml2-dev",
+    "python3-gi",
+    "tzdata",
+    "valac"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glib",
+    "gobject-introspection",
+    "libxml2",
+    "ninja",
+    "perl",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libxml2-dev": "libxml2",
+    "cmake": "cmake",
+    "gobject-introspection": "gobject-introspection",
+    "valac": "vala"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libxapian-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8818bbbb4c879e75d91a45cbdd34c1f2d3cb53934401af1f00d9f71252282d4b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg",
+    "libc-dev",
+    "libc6-dev",
+    "libxapian-dev",
+    "libxapian30",
+    "uuid-dev",
+    "xapian-doc",
+    "xapian-examples",
+    "xapian-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "util-linux-minimal",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

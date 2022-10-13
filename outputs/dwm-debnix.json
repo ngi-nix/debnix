@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "dwm",
+  "nix_pkg": null,
+  "control_file_hash": "15e256b984a9522c7bc310ff014319b6fc9a86616b037b4b686401fa5bc90576",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libfreetype6-dev",
+    "libx11-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "stterm",
+    "suckless-tools",
+    "x-terminal-emulator",
+    "x11-xserver-utils"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXft",
+    "libXinerama"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxft-dev": "libXft",
+    "libxinerama-dev": "libXinerama"
+  }
+}

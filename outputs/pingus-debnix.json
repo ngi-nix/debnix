@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "pingus",
+  "nix_pkg": null,
+  "control_file_hash": "b987823141368ac1994b05675dc2e6795b133cb315b4b83369d1ee38800ee78b",
+  "deb_inputs": [
+    "debhelper",
+    "libboost-dev",
+    "libphysfs-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "pingus",
+    "pingus-data",
+    "scons"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "boost",
+    "cmake",
+    "git",
+    "glu",
+    "jsoncpp",
+    "libGL",
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libboost-dev": "boost"
+  }
+}

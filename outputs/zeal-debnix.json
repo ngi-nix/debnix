@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "zeal",
+  "nix_pkg": null,
+  "control_file_hash": "a3d9bb6f6d3ec6d5fa71c4d58c8e9b98d0a589abdf5ae9acba9faa94bfdd9ac8",
+  "deb_inputs": [
+    "asciidoc-base",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libarchive-dev",
+    "libcpp-httplib-dev",
+    "libqt5sql5-sqlite",
+    "libqt5webkit5-dev",
+    "libqt5x11extras5-dev",
+    "libsqlite3-dev",
+    "libxcb-keysyms1-dev",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qtwebengine5-dev",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "libXdmcp",
+    "libarchive",
+    "libpthread-stubs",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtimageformats",
+    "qtwebengine",
+    "qtx11extras",
+    "xcb-util-keysyms"
+  ],
+  "map": {
+    "libarchive-dev": "libarchive",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qtwebengine5-dev": "qtwebengine",
+    "libxcb-keysyms1-dev": "xcb-util-keysyms",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "pev",
+  "nix_pkg": null,
+  "control_file_hash": "4377c070e605cf67dc9b01afd416d9e299788bf8fe9f7cf193428cc23ef7570a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

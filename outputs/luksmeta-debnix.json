@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "luksmeta",
+  "nix_pkg": null,
+  "control_file_hash": "254efb14032c3dbbdfe3381f8be952cec801087a3a79d3a352305e0b13b0f0ea",
+  "deb_inputs": [
+    "asciidoctor",
+    "cryptsetup-bin",
+    "debhelper",
+    "libcryptsetup-dev",
+    "libluksmeta0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "asciidoc-full",
+    "cryptsetup",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcryptsetup-dev": "cryptsetup",
+    "cryptsetup-bin": "cryptsetup"
+  }
+}

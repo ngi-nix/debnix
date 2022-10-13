@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "f3",
+  "nix_pkg": null,
+  "control_file_hash": "d6cf355290aafc9240794d8cb65aaa25348dbe0f0844ca4238e5403a6db98697",
+  "deb_inputs": [
+    "debhelper",
+    "libparted-dev",
+    "libudev-dev"
+  ],
+  "nix_inputs": [
+    "parted",
+    "systemd"
+  ],
+  "map": {
+    "libparted-dev": "parted",
+    "libudev-dev": "systemd"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "liblouis-bin",
+  "nix_pkg": null,
+  "control_file_hash": "5aefe9d885592f7fc6a5109fd0e777e2925d215c67515453bb164f297ac2ac8b",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "help2man",
+    "liblouis-data",
+    "liblouis20",
+    "libyaml-dev",
+    "pkg-config",
+    "quilt",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "help2man",
+    "libyaml",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "texinfo"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "texinfo": "texinfo",
+    "libyaml-dev": "libyaml"
+  }
+}

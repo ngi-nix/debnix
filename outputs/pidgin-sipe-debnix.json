@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "pidgin-sipe",
+  "nix_pkg": null,
+  "control_file_hash": "106998f14bdb4d6d00b381559a393215a70c6659a761fcc7d668ed4c11485c71",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "dpkg-dev",
+    "flex",
+    "freerdp2-dev",
+    "gstreamer1.0-libav",
+    "gstreamer1.0-plugins-ugly",
+    "gstreamer1.0-x",
+    "intltool",
+    "libfarstream-0.2-dev",
+    "libglib2.0-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libkrb5-dev",
+    "libnice-dev",
+    "libnss3-dev",
+    "libpurple-dev",
+    "libtool",
+    "libxml2-dev",
+    "pkg-config",
+    "remmina-plugin-rdp"
+  ],
+  "nix_inputs": [
+    "gmime",
+    "intltool",
+    "libxml2",
+    "nss",
+    "pidgin"
+  ],
+  "map": {
+    "libnss3-dev": "nss",
+    "libpurple-dev": "pidgin",
+    "libxml2-dev": "libxml2",
+    "intltool": "intltool"
+  }
+}

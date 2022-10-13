@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "zssh",
+  "nix_pkg": null,
+  "control_file_hash": "6cfd8acade9a939f85d484ca076e23f95ac5a4262a23f4755e399414cfc2d562",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "lrzsz",
+    "openssh-client",
+    "telnet",
+    "telnet-ssl"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

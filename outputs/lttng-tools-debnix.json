@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "lttng-tools",
+  "nix_pkg": null,
+  "control_file_hash": "19e97dae0dfaf52e3541ac9a08d6f8186321b4983ebc765c0456c9ac7758bb7b",
+  "deb_inputs": [
+    "asciidoc",
+    "babeltrace",
+    "bash-completion",
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "libkmod-dev",
+    "liblttng-ctl0",
+    "liblttng-ust-dev",
+    "libpopt-dev",
+    "liburcu-dev",
+    "libxml2-dev",
+    "lsb-base",
+    "lttng-modules-dkms",
+    "pkg-config",
+    "python3-all-dev",
+    "swig",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "kmod",
+    "liburcu",
+    "libxml2",
+    "lttng-ust",
+    "pkg-config-wrapper",
+    "popt",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "liburcu-dev": "liburcu",
+    "libkmod-dev": "kmod",
+    "libxml2-dev": "libxml2"
+  }
+}

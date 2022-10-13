@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "culmus",
+  "nix_pkg": null,
+  "control_file_hash": "918d044cfffb3aa68487acc5f497a551ae7ac12d69cfee94ee8a7b12f2f3e988",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "curl",
+    "glibc-locales",
+    "unzip"
+  ],
+  "map": {}
+}

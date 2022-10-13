@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "doas",
+  "nix_pkg": null,
+  "control_file_hash": "153b92c5ca1d220821b9e33e1ab50991a3fd8cfaeff58fb1d61a2b51ed932ddd",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "libpam0g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "linux-pam"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

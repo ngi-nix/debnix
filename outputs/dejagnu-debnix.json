@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "dejagnu",
+  "nix_pkg": null,
+  "control_file_hash": "ec96f38d5f3c8a336ffaef5628c56e25a77cf22c640ab74ac227248ed70746e8",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dpkg",
+    "expect",
+    "install-info",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "expect"
+  ],
+  "map": {
+    "expect": "expect"
+  }
+}

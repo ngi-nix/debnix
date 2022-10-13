@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libspatialindex-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4b504bfd43c6b1e9c933e816d84b397b6d2bf89d1890d59f5774ea8a2e382869",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libspatialindex-c6",
+    "libspatialindex6",
+    "pkg-config",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}
