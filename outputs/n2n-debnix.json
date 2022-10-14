@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "n2n",
+  "nix_pkg": null,
+  "control_file_hash": "32904f944e701d58fa33524e7fd07029c5d6b2e890ab0bb9c5d9fc6a95b94fad",
+  "deb_inputs": [
+    "debhelper",
+    "lsb-base",
+    "net-tools"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

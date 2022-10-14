@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "slop",
+  "nix_pkg": null,
+  "control_file_hash": "d9ebaed1b45f4e9b746f5c24c3d61486591415f9c4b7d3bf54a613777638aed7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libegl1-mesa-dev",
+    "libglew-dev",
+    "libglm-dev",
+    "libicu-dev",
+    "libslopy7.6",
+    "libxext-dev",
+    "libxrender-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glew",
+    "glm",
+    "glu",
+    "libGL",
+    "libSM",
+    "libX11",
+    "libXext",
+    "libXrender",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglew-dev": "glew",
+    "cmake": "cmake",
+    "libglm-dev": "glm",
+    "libxext-dev": "libXext",
+    "libxrender-dev": "libXrender"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "libxkbregistry-dev",
+  "nix_pkg": null,
+  "control_file_hash": "682ff27a550ff8a191a79eb40c38f58d47c8a38df8639bf50fb3b63373018a67",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dh-exec",
+    "doxygen",
+    "flex",
+    "graphviz",
+    "libwayland-dev",
+    "libxcb-xkb-dev",
+    "libxcb1-dev",
+    "libxkbcommon-dev",
+    "libxkbcommon-x11-0",
+    "libxkbcommon0",
+    "libxkbregistry0",
+    "libxml2-dev",
+    "meson",
+    "pkg-config",
+    "quilt",
+    "wayland-protocols",
+    "x11-xkb-utils",
+    "x11proto-dev",
+    "xkb-data",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "bison",
+    "doxygen",
+    "libxcb",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "wayland",
+    "wayland-protocols",
+    "xkeyboard-config"
+  ],
+  "map": {
+    "doxygen": "doxygen",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols",
+    "meson": "meson",
+    "bison": "bison",
+    "libxml2-dev": "libxml2",
+    "libxcb1-dev": "libxcb",
+    "libxcb-xkb-dev": "libxcb",
+    "xkb-data": "xkeyboard-config"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "radare2",
+  "nix_pkg": null,
+  "control_file_hash": "8af6e481f03c3c7867593d88d888d6889cc36a549e5b0eaa19265ac92515e552",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freebsd-glue",
+    "libcapstone-dev",
+    "libgmp-dev",
+    "libkvm-dev",
+    "liblz4-dev",
+    "libmagic-dev",
+    "libradare2-5.0.0",
+    "libradare2-common",
+    "libradare2-dev",
+    "libuv1-dev",
+    "libxxhash-dev",
+    "libzip-dev",
+    "meson",
+    "pkg-config",
+    "python3-setuptools",
+    "python3:any",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "capstone",
+    "file",
+    "libewf",
+    "libusb-compat",
+    "libuv",
+    "libzip",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "readline",
+    "xxHash",
+    "zlib"
+  ],
+  "map": {
+    "libxxhash-dev": "xxHash",
+    "zlib1g-dev": "zlib",
+    "libzip-dev": "libzip",
+    "libuv1-dev": "libuv",
+    "libcapstone-dev": "capstone",
+    "libmagic-dev": "file"
+  }
+}

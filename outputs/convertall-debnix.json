@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "convertall",
+  "nix_pkg": null,
+  "control_file_hash": "7911f39996536c6b6d5ca4048ff01b32349df5f7b4d0cfd873f7ca990d3a3c94",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dpkg",
+    "python3",
+    "python3-pyqt5",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-pyqt5": "PyQt5"
+  }
+}

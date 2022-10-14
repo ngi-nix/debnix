@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "prometheus-process-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "5f5955bbbc0db78d14d06a3d0eb0ac1eb924d933d55e61fdd05faefff3fabc40",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-ncabatoff-go-seq-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-github-prometheus-procfs-dev",
+    "golang-gopkg-check.v1-dev",
+    "golang-gopkg-yaml.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

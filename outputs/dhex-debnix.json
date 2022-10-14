@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "dhex",
+  "nix_pkg": null,
+  "control_file_hash": "5fd5fce845d439a08c1dabc518788d6ed55baf5647356d07bd21f308e821c171",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

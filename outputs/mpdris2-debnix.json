@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "mpdris2",
+  "nix_pkg": null,
+  "control_file_hash": "432324690974aa445253b76ef3282d73193b31f872c5219473c5e35ce4e47060",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "dh-python",
+    "gettext",
+    "gir1.2-notify-0.7",
+    "intltool",
+    "mpd",
+    "python3",
+    "python3-dbus",
+    "python3-gi",
+    "python3-mpd",
+    "python3-systemd"
+  ],
+  "nix_inputs": [
+    "dbus-python",
+    "glib",
+    "gobject-introspection",
+    "intltool",
+    "libnotify",
+    "mutagen",
+    "pygobject",
+    "python-mpd2",
+    "python3"
+  ],
+  "map": {
+    "gir1.2-notify-0.7": "libnotify",
+    "python3": "python3",
+    "python3-dbus": "dbus-python",
+    "intltool": "intltool",
+    "python3-gi": "pygobject"
+  }
+}

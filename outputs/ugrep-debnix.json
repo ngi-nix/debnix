@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "ugrep",
+  "nix_pkg": null,
+  "control_file_hash": "5947693496fe55d91aa053f75599c648f4b8076289728757d59a4acefde507f1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "libpcre2-dev",
+    "libz-dev",
+    "libzstd-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "lz4",
+    "pcre2",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "liblz4-dev": "lz4",
+    "libbz2-dev": "bzip2",
+    "libpcre2-dev": "pcre2"
+  }
+}

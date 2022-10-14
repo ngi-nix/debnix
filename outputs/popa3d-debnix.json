@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "popa3d",
+  "nix_pkg": null,
+  "control_file_hash": "4c283fe145f88d9442ab1d0738777251ec3c286c8b670a1fb96d752ff7cc2628",
+  "deb_inputs": [
+    "debhelper",
+    "exim4",
+    "libpam0g-dev",
+    "mail-transport-agent"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {}
+}

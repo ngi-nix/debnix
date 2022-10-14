@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "offlineimap",
+  "nix_pkg": null,
+  "control_file_hash": "3a6e2819599d36c64b364e161d97197c245c6b7876c84fad8ceb5a6a0217f017",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper",
+    "dh-python",
+    "docbook-xml",
+    "docbook-xsl",
+    "faketime",
+    "libxml2-utils",
+    "python",
+    "python-gssapi",
+    "python-imaplib2",
+    "python-setuptools",
+    "python-six",
+    "python-socks",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "certifi",
+    "distro",
+    "docbook-xsl-nons",
+    "imaplib2",
+    "libxml2",
+    "libxslt",
+    "pysocks",
+    "python3",
+    "rfc6555",
+    "urllib3"
+  ],
+  "map": {
+    "libxml2-utils": "libxml2",
+    "asciidoc": "asciidoc",
+    "xsltproc": "libxslt"
+  }
+}

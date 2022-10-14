@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "megatools",
+  "nix_pkg": null,
+  "control_file_hash": "90f3279ec0a70acda2e6f0ac0f2ce0bc0adf49bba1089853297cfecb508f0ff1",
+  "deb_inputs": [
+    "asciidoc",
+    "ca-certificates",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook2x",
+    "libcurl4-openssl-dev",
+    "libglib2.0-dev",
+    "libssl-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "curl",
+    "docbook-xml",
+    "docbook2X",
+    "fuse",
+    "glib",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "docbook-xml": "docbook-xml",
+    "libcurl4-openssl-dev": "curl",
+    "docbook2x": "docbook2X",
+    "asciidoc": "asciidoc",
+    "meson": "meson"
+  }
+}

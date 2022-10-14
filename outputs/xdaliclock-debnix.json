@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "xdaliclock",
+  "nix_pkg": null,
+  "control_file_hash": "685716e24a032e4e2c7b58e20a83d382d4648314df7fec4c3598b4f37922a130",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgl-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

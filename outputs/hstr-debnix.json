@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "hstr",
+  "nix_pkg": null,
+  "control_file_hash": "2611cfb017fc293c91883345ec6df448fdeae6df8cf541b8648aabf066eaaa0d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncursesw5-dev",
+    "libreadline-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libncursesw5-dev": "ncurses"
+  }
+}

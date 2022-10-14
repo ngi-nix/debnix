@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bully",
+  "nix_pkg": null,
+  "control_file_hash": "560927f3246cc3244c79f6cf9eec146274023159173655e6cfc443d5b0f225fa",
+  "deb_inputs": [
+    "aircrack-ng",
+    "debhelper-compat",
+    "liblua5.3-dev",
+    "libpcap-dev",
+    "libssl-dev",
+    "pixiewps"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap"
+  }
+}

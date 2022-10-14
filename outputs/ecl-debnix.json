@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "ecl",
+  "nix_pkg": null,
+  "control_file_hash": "8deadec021c4bb9c9bc293bd008e86bbcc6e97a0dc4e76e98fc235dc4dde1803",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "ecl-doc",
+    "fakeroot",
+    "file",
+    "gcc",
+    "install-info",
+    "libatomic-ops-dev",
+    "libecl-dev",
+    "libecl21.2",
+    "libffi-dev",
+    "libgc-dev",
+    "libgmp-dev",
+    "libncurses5-dev",
+    "slime",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gcc-wrapper",
+    "gmp-with-cxx",
+    "libffi",
+    "libtool",
+    "mpfr",
+    "texinfo"
+  ],
+  "map": {
+    "libffi-dev": "libffi",
+    "texinfo": "texinfo",
+    "install-info": "texinfo"
+  }
+}

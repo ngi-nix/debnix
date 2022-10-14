@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "tkcvs",
+  "nix_pkg": null,
+  "control_file_hash": "22ae890c8c1962615e50717fbf5aaad65fce41457a22f3434653f0ce23f51c73",
+  "deb_inputs": [
+    "cvs",
+    "debhelper",
+    "dirdiff",
+    "fonts-dejavu",
+    "sensible-utils",
+    "subversion",
+    "tk",
+    "x-terminal-emulator",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tk": "tk"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "kubectx",
+  "nix_pkg": null,
+  "control_file_hash": "a0fa1b408846e605e17110d53dcfb1a3a44993fb63702cbc2d4afdc804408f5f",
+  "deb_inputs": [
+    "bats",
+    "debhelper-compat",
+    "kubernetes-client"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

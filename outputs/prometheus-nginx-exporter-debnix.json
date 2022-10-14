@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "prometheus-nginx-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "b39067e02b44e0de83f7bf5dfa89e107702180cb13dbc5ee5b340948505d09a8",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-nginxinc-nginx-plus-go-client-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

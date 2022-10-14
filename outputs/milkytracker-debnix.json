@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "milkytracker",
+  "nix_pkg": null,
+  "control_file_hash": "653ebb1d27347db81a90ba81c077c6ab23e349ad7e503add9500eed5bd8d020d",
+  "deb_inputs": [
+    "bambootracker",
+    "cheesecutter",
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "freepats",
+    "goattracker",
+    "hivelytracker",
+    "libasound2-dev",
+    "libjack-dev",
+    "liblhasa-dev",
+    "librtmidi-dev",
+    "libsdl2-dev",
+    "libzzip-dev",
+    "modplug-tools",
+    "opencubicplayer",
+    "protracker",
+    "schism",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "alsa-lib",
+    "cmake",
+    "lhasa",
+    "libjack2",
+    "perl",
+    "pkg-config-wrapper",
+    "rtmidi",
+    "zlib",
+    "zziplib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib",
+    "libzzip-dev": "zziplib",
+    "libasound2-dev": "alsa-lib",
+    "librtmidi-dev": "rtmidi",
+    "liblhasa-dev": "lhasa"
+  }
+}

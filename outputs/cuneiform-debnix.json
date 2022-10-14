@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "cuneiform",
+  "nix_pkg": null,
+  "control_file_hash": "1a70a49be440dc5e8e5141b10cf6eee8f22c4bfa84d9f7c506e664459457788b",
+  "deb_inputs": [
+    "cmake",
+    "cuneiform-common",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "dpkg-dev",
+    "libcuneiform0",
+    "libgraphicsmagick++1-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "imagemagick"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

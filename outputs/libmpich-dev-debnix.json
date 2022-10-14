@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "libmpich-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7d02fc04bda8635af88eecced263d3391b9932ac6ce9cb641a8950ef3261ef09",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "dh-sequence-fortran-mod",
+    "fortran-compiler",
+    "g++",
+    "gfortran",
+    "hwloc",
+    "hwloc-nox",
+    "libfabric-dev",
+    "libhwloc-dev",
+    "libibverbs-dev",
+    "libmpich-dev",
+    "libmpich12",
+    "libnuma-dev",
+    "libpmix-dev",
+    "librdmacm-dev",
+    "libslurm-dev",
+    "libucx-dev",
+    "libxt-dev",
+    "mpich",
+    "mpich-doc",
+    "procps",
+    "python3",
+    "quilt",
+    "txt2man",
+    "valgrind",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "gfortran-wrapper",
+    "hwloc",
+    "libfabric",
+    "openssh",
+    "perl",
+    "python3"
+  ],
+  "map": {
+    "libfabric-dev": "libfabric",
+    "hwloc-nox": "hwloc",
+    "libhwloc-dev": "hwloc",
+    "hwloc": "hwloc",
+    "python3": "python3"
+  }
+}

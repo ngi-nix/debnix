@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libcmocka-dev",
+  "nix_pkg": null,
+  "control_file_hash": "079810afa516771565ed24cf0cb5c8f67e629e82cb5d20bbe8d9a102f036badd",
+  "deb_inputs": [
+    "cmake",
+    "cmocka-doc",
+    "debhelper-compat",
+    "libcmocka0",
+    "libjs-jquery"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

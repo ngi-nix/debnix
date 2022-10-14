@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "prometheus-postgres-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "1f003471ac7d11cdb56ae00f85e264722406e7954acd0d1a8948d09b1850b8c4",
+  "deb_inputs": [
+    "adduser",
+    "daemon",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-blang-semver-dev",
+    "golang-github-go-kit-log-dev",
+    "golang-github-lib-pq-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-check.v1-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "systemd-sysv"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

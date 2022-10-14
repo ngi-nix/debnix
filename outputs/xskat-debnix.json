@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xskat",
+  "nix_pkg": null,
+  "control_file_hash": "de0f6706295b5d68df61049d26a059b342e4f10e1d0763e794955423ce82f1b3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libx11-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

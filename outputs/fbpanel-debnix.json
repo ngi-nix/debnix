@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "fbpanel",
+  "nix_pkg": null,
+  "control_file_hash": "3a440db42abe54b03a588536f889b0c69dbd615bacaa09ae9727565c4292dc11",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "hicolor-icon-theme",
+    "libgdk-pixbuf-xlib-2.0-dev",
+    "libgtk2.0-dev",
+    "librsvg2-common",
+    "libxmu-dev",
+    "libxpm-dev",
+    "python2"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf",
+    "gdk-pixbuf-xlib",
+    "gtk+",
+    "libX11",
+    "libXmu",
+    "libXpm",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "librsvg",
+    "libtiff",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgdk-pixbuf-xlib-2.0-dev": "gdk-pixbuf-xlib",
+    "librsvg2-common": "librsvg",
+    "libxmu-dev": "libXmu",
+    "libgtk2.0-dev": "gtk+",
+    "libxpm-dev": "libXpm"
+  }
+}

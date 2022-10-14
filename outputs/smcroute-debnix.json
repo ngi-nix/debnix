@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "smcroute",
+  "nix_pkg": null,
+  "control_file_hash": "d75672fbb6f83de3201bd99bc3fc4d176efac1fe5faed7ae934905e1ed4a4034",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcap-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "pkg-config",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "libcap",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcap-dev": "libcap"
+  }
+}

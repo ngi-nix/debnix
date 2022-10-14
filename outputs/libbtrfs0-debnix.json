@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "libbtrfs0",
+  "nix_pkg": null,
+  "control_file_hash": "7bced1f2d0a435aee9317912cffe6a1dfbaeb7121227330e3e41d35c76207d21",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dh-python",
+    "duperemove",
+    "libacl1-dev",
+    "libblkid-dev",
+    "libbtrfs0",
+    "libbtrfsutil1",
+    "libext2fs-dev",
+    "liblzo2-dev",
+    "libudev-dev",
+    "libzstd-dev",
+    "pkg-config",
+    "python3-dev",
+    "python3-setuptools",
+    "sphinx",
+    "udev",
+    "uuid-dev",
+    "xmlto",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "e2fsprogs",
+    "lzo",
+    "pkg-config-wrapper",
+    "python3",
+    "setuptools",
+    "sphinx",
+    "systemd",
+    "util-linux-minimal",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libacl1-dev": "acl",
+    "sphinx": "sphinx",
+    "python3-dev": "python3",
+    "libudev-dev": "systemd",
+    "udev": "systemd",
+    "liblzo2-dev": "lzo",
+    "libzstd-dev": "zstd",
+    "python3-setuptools": "setuptools",
+    "libext2fs-dev": "e2fsprogs"
+  }
+}

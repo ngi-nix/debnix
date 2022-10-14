@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "qpwgraph",
+  "nix_pkg": null,
+  "control_file_hash": "e0ae3a12f054c11abc9c45cdd857c23e25594af6bb84c091a20b0db33bb11c37",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libpipewire-0.3-dev",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "pipewire",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "cmake": "cmake",
+    "libpipewire-0.3-dev": "pipewire"
+  }
+}

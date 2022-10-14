@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "duff",
+  "nix_pkg": null,
+  "control_file_hash": "cd39f5b1519a0207eecf0bd3436e9e593de280ee0eef17a29df838f530d4da83",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {}
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "tty-clock",
+  "nix_pkg": null,
+  "control_file_hash": "3c5b8578d20a5657a2d0adc331d6a556abbf66e24bf1fb4eb5b0cd75c0c5dd3b",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

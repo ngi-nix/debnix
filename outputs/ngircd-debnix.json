@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "ngircd",
+  "nix_pkg": null,
+  "control_file_hash": "aa6d04bf4a56ea7810b548a6b8ef3166ad3006b0992fa203c155ec6d0deb9c27",
+  "deb_inputs": [
+    "debhelper-compat",
+    "expect",
+    "libgnutls28-dev",
+    "libident-dev",
+    "libpam0g-dev",
+    "lsb-base",
+    "openssl",
+    "procps",
+    "telnet",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "linux-pam",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "openssl": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "pdfsandwich",
+  "nix_pkg": null,
+  "control_file_hash": "4a427754cbd45863fd3e36e9233fd0953e251c6ad89617a9b50d7caf7f987792",
+  "deb_inputs": [
+    "debhelper-compat",
+    "exactimage",
+    "ghostscript",
+    "imagemagick",
+    "ocaml-nox",
+    "poppler-utils",
+    "tesseract-ocr",
+    "txt2man",
+    "unpaper"
+  ],
+  "nix_inputs": [
+    "ocaml",
+    "perl"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "diskscan",
+  "nix_pkg": null,
+  "control_file_hash": "5f380bb8b16435294d8f58a0120eccf6c196fc514256ffff17fac172abeb7437",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "python3-yaml",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ncurses",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libncurses5-dev": "ncurses",
+    "zlib1g-dev": "zlib"
+  }
+}

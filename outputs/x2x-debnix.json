@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "x2x",
+  "nix_pkg": null,
+  "control_file_hash": "059735876438858ac5188473b5f7a1b0ba6c04918d037b26be53fbbeb0387108",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxtst-dev",
+    "pkg-config",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libX11",
+    "libXext",
+    "libXtst"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxtst-dev": "libXtst"
+  }
+}

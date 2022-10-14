@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libssh-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3b9886146a0bb75a8539e3b2c57094c957ecac941a6ed5ac141f29e79cc35b9c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doc-base",
+    "heimdal-dev",
+    "libcmocka-dev",
+    "libgcrypt-dev",
+    "libkrb5-dev",
+    "libssh-4",
+    "libssh-doc",
+    "libssh-gcrypt-4",
+    "libssl-dev",
+    "libz-dev",
+    "openssh-client",
+    "openssh-server",
+    "pkg-config",
+    "python3:any",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libsodium",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libssl-dev": "openssl"
+  }
+}

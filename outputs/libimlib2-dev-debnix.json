@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "libimlib2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0da6c154bfdafdf349f3cd0edd3d8e9b04f1515800cf562ed598b43ccf907bee",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev",
+    "libfreetype6-dev",
+    "libgif-dev",
+    "libid3tag0-dev",
+    "libimlib2",
+    "libjpeg-dev",
+    "libopenjp2-7-dev",
+    "libpng-dev",
+    "librsvg2-dev",
+    "libspectre-dev",
+    "libtiff-dev",
+    "libwebp-dev",
+    "libx11-dev",
+    "libx11-xcb-dev",
+    "libxcb-shm0-dev",
+    "libxcb1-dev",
+    "libxext-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "freetype",
+    "giflib",
+    "libXext",
+    "libXft",
+    "libid3tag",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "libwebp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "libfreetype6-dev": "freetype",
+    "libgif-dev": "giflib",
+    "libwebp-dev": "libwebp",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libid3tag0-dev": "libid3tag",
+    "libtiff-dev": "libtiff",
+    "libxext-dev": "libXext"
+  }
+}

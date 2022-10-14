@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "bsdiff",
+  "nix_pkg": null,
+  "control_file_hash": "c8fe1a95669b1de00d82592a50a15f161eb8464b7b09128e2e5b54abdb982104",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev"
+  ],
+  "nix_inputs": [
+    "bzip2"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2"
+  }
+}

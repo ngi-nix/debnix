@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "tmuxinator",
+  "nix_pkg": null,
+  "control_file_hash": "e2712b39d0f088657cae2fa7ad545bd030180caa4b2a54fe57662b99d17421cb",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "gem2deb",
+    "pry",
+    "rake",
+    "ruby",
+    "ruby-awesome-print",
+    "ruby-coveralls",
+    "ruby-erubis",
+    "ruby-factory-bot",
+    "ruby-rspec",
+    "ruby-simplecov",
+    "ruby-thor",
+    "ruby-xdg",
+    "tmux"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {
+    "ruby": "ruby"
+  }
+}

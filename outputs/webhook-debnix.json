@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "webhook",
+  "nix_pkg": null,
+  "control_file_hash": "2f54d39d9733fa82a36577ee1765c133dabc3de15d6ca557d53f1a4507bd36ef",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-urfave-negroni-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

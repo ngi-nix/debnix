@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "vobcopy",
+  "nix_pkg": null,
+  "control_file_hash": "403820e92308f63c39b7c2d42228ecd1e57cc9a7fad6b27397d692823482185f",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libdvdread-dev"
+  ],
+  "nix_inputs": [
+    "libdvdcss",
+    "libdvdread"
+  ],
+  "map": {
+    "libdvdread-dev": "libdvdread"
+  }
+}

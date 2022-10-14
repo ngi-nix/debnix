@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "hspell",
+  "nix_pkg": null,
+  "control_file_hash": "0ef8c696daa62ce7ccd7fb9eeed14a9e7277bb5b2ac752a62654a631ed3efc45",
+  "deb_inputs": [
+    "aspell-he",
+    "debhelper",
+    "dictionaries-common",
+    "hunspell",
+    "perl",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "perl": "perl",
+    "zlib1g-dev": "zlib"
+  }
+}
