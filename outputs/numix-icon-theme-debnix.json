@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "numix-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "09db030dc85922152fe5c8c8ad0254fa2491e6a3f26036648e3d5300d3301e83",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "breeze-icons",
+    "gnome-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme"
+  ],
+  "map": {}
+}

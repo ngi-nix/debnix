@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "surfraw",
+  "nix_pkg": null,
+  "control_file_hash": "817a479d1a43adf4b09d29e25c2e6184cd02bd15252cacd67351c9a66558cded",
+  "deb_inputs": [
+    "bash-completion",
+    "curl",
+    "debhelper",
+    "elinks",
+    "elinks-lite",
+    "libhtml-parser-perl",
+    "libwww-opensearch-perl",
+    "libwww-perl",
+    "links",
+    "lynx",
+    "screen",
+    "sensible-utils",
+    "surfraw",
+    "surfraw-extra",
+    "w3m",
+    "w3m-ssl",
+    "wget",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

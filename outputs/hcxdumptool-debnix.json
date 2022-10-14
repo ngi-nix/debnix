@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "hcxdumptool",
+  "nix_pkg": null,
+  "control_file_hash": "bb817fd49b991f458561fdbdb6eeafc5e7f9562616f1b6af6049aa1eb2291ced",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libssl-dev",
+    "openssl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "openssl": "openssl"
+  }
+}

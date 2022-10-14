@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "pan",
+  "nix_pkg": null,
+  "control_file_hash": "fd902b2099f881a2364017bc55aa133396b9a9855f219ed0c0b9f1f084b9e5c6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnome-keyring",
+    "gnupg",
+    "itstool",
+    "libdbus-1-dev",
+    "libgcr-3-dev",
+    "libgmime-3.0-dev",
+    "libgnutls28-dev",
+    "libgtk-3-dev",
+    "libgtkspell3-3-dev",
+    "libnotify-dev",
+    "libsecret-1-dev"
+  ],
+  "nix_inputs": [
+    "gcr",
+    "gettext",
+    "gmime",
+    "gnutls",
+    "gtk+3",
+    "gtkspell",
+    "intltool",
+    "itstool",
+    "libnotify",
+    "libsecret",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtkspell3-3-dev": "gtkspell",
+    "libnotify-dev": "libnotify",
+    "libsecret-1-dev": "libsecret",
+    "itstool": "itstool",
+    "libgmime-3.0-dev": "gmime",
+    "libgcr-3-dev": "gcr",
+    "libgnutls28-dev": "gnutls"
+  }
+}

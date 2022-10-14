@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "mikmod",
+  "nix_pkg": null,
+  "control_file_hash": "f94688eed754566a27c5d53fe55d6ffbb8b2773b48f02305a7a4212ca5b4e175",
+  "deb_inputs": [
+    "bzip2",
+    "debhelper-compat",
+    "jlha-utils",
+    "libmikmod-dev",
+    "libncurses5-dev",
+    "oss-compat",
+    "unrar",
+    "unzip"
+  ],
+  "nix_inputs": [
+    "libmikmod",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libmikmod-dev": "libmikmod"
+  }
+}

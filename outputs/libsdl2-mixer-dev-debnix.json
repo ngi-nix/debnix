@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libsdl2-mixer-dev",
+  "nix_pkg": null,
+  "control_file_hash": "df9c46119592262f21ec5817a7ae80f4b8cc9a24680815e39ae2e0a94699e3f9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libflac-dev",
+    "libfluidsynth-dev",
+    "libmodplug-dev",
+    "libmpg123-dev",
+    "libogg-dev",
+    "libopusfile-dev",
+    "libsdl2-dev",
+    "libsdl2-mixer-2.0-0",
+    "libtool",
+    "libvorbis-dev",
+    "pkg-config",
+    "sf3-soundfont-gm",
+    "timgm6mb-soundfont"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXrandr",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

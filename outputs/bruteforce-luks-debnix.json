@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "bruteforce-luks",
+  "nix_pkg": null,
+  "control_file_hash": "61e46c3cb06483b5c701b0c460d7df86334e0ee2e8bb0f7802ec53fc0b1ec842",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcryptsetup-dev"
+  ],
+  "nix_inputs": [
+    "cryptsetup"
+  ],
+  "map": {
+    "libcryptsetup-dev": "cryptsetup"
+  }
+}

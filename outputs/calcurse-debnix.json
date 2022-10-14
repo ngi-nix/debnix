@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "calcurse",
+  "nix_pkg": null,
+  "control_file_hash": "28c8587c4e2a7ed8dc44bd3949df1325b514ed7539f4cc5f8703c74da3b2795f",
+  "deb_inputs": [
+    "debhelper",
+    "libncursesw5-dev",
+    "python3"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "libncursesw5-dev": "ncurses"
+  }
+}

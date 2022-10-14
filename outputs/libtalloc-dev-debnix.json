@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libtalloc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b3cc6f8840c4f8fb87a4575256a65eb719373366435ec37fcfd04b5cb6d50739",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "docbook-xml",
+    "docbook-xsl",
+    "libpopt-dev",
+    "libtalloc2",
+    "pkg-config",
+    "python3-dev",
+    "python3-talloc",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python3",
+    "readline"
+  ],
+  "map": {
+    "docbook-xml": "docbook-xml",
+    "python3-dev": "python3",
+    "xsltproc": "libxslt"
+  }
+}

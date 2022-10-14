@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "kolourpaint4",
+  "nix_pkg": null,
+  "control_file_hash": "eaf702b2ff0746c2803ba2033a29e40260bb72d55541c07de036a6d9efae2c98",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5doctools-dev",
+    "libkf5guiaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5jobwidgets-dev",
+    "libkf5kio-dev",
+    "libkf5sane-dev",
+    "libkf5textwidgets-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kdoctools",
+    "kguiaddons",
+    "kio",
+    "ktextwidgets",
+    "kwidgetsaddons",
+    "kxmlgui",
+    "libkexiv2"
+  ],
+  "map": {
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5xmlgui-dev": "kxmlgui",
+    "libkf5guiaddons-dev": "kguiaddons",
+    "libkf5textwidgets-dev": "ktextwidgets",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5widgetsaddons-dev": "kwidgetsaddons",
+    "libkf5kio-dev": "kio"
+  }
+}

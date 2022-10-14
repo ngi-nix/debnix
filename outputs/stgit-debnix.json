@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "stgit",
+  "nix_pkg": null,
+  "control_file_hash": "33fc9d1a5db7c9be66e5ec9615ea433b988209a6dba85f22e25d291f9edfb7fa",
+  "deb_inputs": [
+    "asciidoc",
+    "colordiff",
+    "debhelper",
+    "dh-exec",
+    "dh-python",
+    "git",
+    "python3",
+    "stgit",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "git",
+    "perl",
+    "python3",
+    "setuptools",
+    "xmlto"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "git": "git",
+    "xmlto": "xmlto",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libcapnp-0.9.1",
+  "nix_pkg": null,
+  "control_file_hash": "3eeb2dfd18d177cb66032728ce47199ce2d7f03efb2176e6718a0f222a6e0dad",
+  "deb_inputs": [
+    "ca-certificates",
+    "cmake",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libcapnp-0.9.1",
+    "libssl-dev",
+    "netbase",
+    "python3-all",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}

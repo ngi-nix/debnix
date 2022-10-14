@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "transgui",
+  "nix_pkg": null,
+  "control_file_hash": "882778f6b6cfb551e6451f5ea2dc8055e83789446ed4de19c74ebb13a0266244",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "fp-utils",
+    "fpc",
+    "imagemagick",
+    "lcl-gtk2",
+    "lcl-units",
+    "lcl-utils",
+    "libatk1.0-dev",
+    "libcairo2-dev",
+    "libgdk-pixbuf2.0-dev",
+    "libgtk2.0-dev",
+    "libpango1.0-dev",
+    "libssl-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "at-spi2-core",
+    "cairo",
+    "fpc",
+    "gcc-wrapper",
+    "gdk-pixbuf",
+    "glib",
+    "gtk+",
+    "lazarus-gtk2",
+    "libX11",
+    "openssl",
+    "pango",
+    "pkg-config-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "fpc": "fpc",
+    "libatk1.0-dev": "at-spi2-core",
+    "libx11-dev": "libX11",
+    "libpango1.0-dev": "pango",
+    "libssl-dev": "openssl",
+    "fp-utils": "fpc",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "git-review",
+  "nix_pkg": null,
+  "control_file_hash": "16f4ea11de6bd6bdbbc0322dbc71712e7ee21ceae85414b7baab6cacaf46d851",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "openstack-pkg-tools",
+    "python3-all",
+    "python3-pbr",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "pbr",
+    "python3",
+    "requests",
+    "setuptools"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "python3-setuptools": "setuptools"
+  }
+}

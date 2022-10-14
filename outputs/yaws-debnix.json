@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "yaws",
+  "nix_pkg": null,
+  "control_file_hash": "f6157deca7bdffc60b71f2f847f5193680e5b98a7833a54c083c1802358b8ffa",
+  "deb_inputs": [
+    "adduser",
+    "bzip2",
+    "debhelper-compat",
+    "erlang-dev",
+    "erlang-dialyzer",
+    "erlang-edoc",
+    "erlang-mnesia",
+    "erlang-tools",
+    "erlang-yapp",
+    "erlang-yaws",
+    "libpam0g-dev",
+    "logrotate",
+    "lsb-base",
+    "ssl-cert",
+    "yaws",
+    "yaws-chat",
+    "yaws-doc",
+    "yaws-mail",
+    "yaws-wiki",
+    "yaws-yapp",
+    "zip"
+  ],
+  "nix_inputs": [
+    "linux-pam",
+    "perl"
+  ],
+  "map": {}
+}

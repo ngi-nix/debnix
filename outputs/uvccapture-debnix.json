@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "uvccapture",
+  "nix_pkg": null,
+  "control_file_hash": "dc251c8627b930c7f97896c3f602ffc471bfae65995d6e0579846550f297f4df",
+  "deb_inputs": [
+    "debhelper",
+    "libjpeg-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "qcomicbook",
+  "nix_pkg": null,
+  "control_file_hash": "9e954d86f056310cb2138d59825f26275cce60a428a3cddc41f184b8fe57f441",
+  "deb_inputs": [
+    "bzip2",
+    "cmake",
+    "debhelper",
+    "libpoppler-qt5-dev",
+    "libqt5x11extras5-dev",
+    "pbzip2",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "rar",
+    "unace",
+    "unrar",
+    "unrar-free",
+    "unzip",
+    "zip"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "qtbase",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

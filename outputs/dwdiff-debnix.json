@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "dwdiff",
+  "nix_pkg": null,
+  "control_file_hash": "e592eccfbb77b14ba5867cf52fbdb5bbdf8842f0605c4b4c83c6fc2b7b34adac",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libicu-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "artha",
+  "nix_pkg": null,
+  "control_file_hash": "314444b6d1420487c3288eb1111bfbeac737afebe64905c3f4051f9adc163ee5",
+  "deb_inputs": [
+    "aspell-en",
+    "debhelper-compat",
+    "libdbus-glib-1-dev",
+    "libenchant-2-2",
+    "libgtk2.0-dev",
+    "libnotify4",
+    "wordnet",
+    "wordnet-dev",
+    "wordnet-sense-index"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "gtk+",
+    "pkg-config-wrapper",
+    "wordnet"
+  ],
+  "map": {
+    "wordnet-sense-index": "wordnet",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "wordnet-dev": "wordnet",
+    "libgtk2.0-dev": "gtk+",
+    "wordnet": "wordnet"
+  }
+}

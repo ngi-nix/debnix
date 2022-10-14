@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mb2md",
+  "nix_pkg": null,
+  "control_file_hash": "fe4ee73eafa59f6bad2deff6c94e7eec10d3f864cba7e0c6dc7a12a1df165881",
+  "deb_inputs": [
+    "debhelper",
+    "dh-exec",
+    "docbook-to-man",
+    "dpkg-dev",
+    "libpath-tiny-perl",
+    "libtest-command-simple-perl",
+    "libtimedate-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "yggdrasil",
+  "nix_pkg": null,
+  "control_file_hash": "a59385ce2f64e9975c309e12f5334ddbb144b0208b43f22cb748627189236102",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-arceliar-ironwood-dev",
+    "golang-github-arceliar-phony-dev",
+    "golang-github-gologme-log-dev",
+    "golang-github-hashicorp-go-syslog-dev",
+    "golang-github-hjson-hjson-go-dev",
+    "golang-github-kardianos-minwinsvc-dev",
+    "golang-github-mitchellh-mapstructure-dev",
+    "golang-github-vishvananda-netlink-dev",
+    "golang-go",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-text-dev",
+    "golang-golang.zx2c4-wireguard-dev",
+    "golang-gopkg-cheggaaa-pb.v1-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

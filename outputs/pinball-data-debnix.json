@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "pinball-data",
+  "nix_pkg": null,
+  "control_file_hash": "f2f1a62d54e5ee0b050f8e1bcd0034150a424743779a0e5e315f154561710a48",
+  "deb_inputs": [
+    "alsa-utils",
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "docbook",
+    "docbook-utils",
+    "freeglut3-dev",
+    "libasound2-dev",
+    "libc6-dev",
+    "libgl1-mesa-dev",
+    "libjpeg-dev",
+    "libjpeg62-turbo-dev",
+    "libltdl-dev",
+    "libogg-dev",
+    "libpng-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "libtool-bin",
+    "libvorbis-dev",
+    "opensp",
+    "pinball",
+    "pinball-data",
+    "pinball-table-gnu",
+    "pinball-table-hurd",
+    "pkg-config",
+    "sgmlspl",
+    "xinit"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "libSM",
+    "libglvnd",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

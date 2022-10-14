@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "ccls",
+  "nix_pkg": null,
+  "control_file_hash": "ac04ba3cf797a311ed03b1322e61f06fe6ff765540237030bd36d3007f5ce073",
+  "deb_inputs": [
+    "clang",
+    "cmake",
+    "debhelper-compat",
+    "elpa-lsp-mode",
+    "libclang-dev",
+    "llvm-dev",
+    "python3",
+    "rapidjson-dev"
+  ],
+  "nix_inputs": [
+    "clang",
+    "cmake",
+    "llvm",
+    "rapidjson"
+  ],
+  "map": {
+    "rapidjson-dev": "rapidjson",
+    "clang": "clang",
+    "cmake": "cmake",
+    "llvm-dev": "llvm"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "rss-glx",
+  "nix_pkg": null,
+  "control_file_hash": "0678e8c053a83918e3e22b3a92d1f87aaad4a5337d6bc10eeaed26fe2f2a0190",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "gnome-screensaver",
+    "libalut-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglc-dev",
+    "libglew-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libmagickwand-dev",
+    "libopenal-dev",
+    "libtool",
+    "libx11-dev",
+    "libxt-dev",
+    "pkg-config",
+    "xscreensaver"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "bzip2",
+    "glu",
+    "imagemagick",
+    "libGL",
+    "libtiff",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmagickwand-dev": "imagemagick",
+    "libglu1-mesa-dev": "glu",
+    "libgl-dev": "libGL",
+    "libglu-dev": "glu"
+  }
+}

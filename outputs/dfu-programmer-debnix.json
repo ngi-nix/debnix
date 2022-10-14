@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "dfu-programmer",
+  "nix_pkg": null,
+  "control_file_hash": "12f23c770f4fb2e473d6434569523cca500361153e44afe66412e9db340dbd00",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libusb-1.0-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libusb-compat"
+  ],
+  "map": {}
+}

@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "sonata",
+  "nix_pkg": null,
+  "control_file_hash": "f13d5df662b78559a7a5b1db1e63dd534cb4c3706fc2fbc578328e324555bc76",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-gdkpixbuf-2.0",
+    "gir1.2-glib-2.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-pango-1.0",
+    "pkg-config",
+    "python3",
+    "python3-dbus",
+    "python3-gi",
+    "python3-mpd",
+    "python3-setuptools",
+    "python3-tagpy"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "dbus-python",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "pygobject",
+    "python-mpd2",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-dbus": "dbus-python",
+    "python3": "python3",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "gir1.2-gdkpixbuf-2.0": "gdk-pixbuf",
+    "python3-gi": "pygobject",
+    "python3-setuptools": "setuptools"
+  }
+}

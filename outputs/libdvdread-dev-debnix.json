@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libdvdread-dev",
+  "nix_pkg": null,
+  "control_file_hash": "87a14efb658fec88d8004e725f98b730f140fefa4e0dbb995755980a90e49a76",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdvdcss-dev",
+    "libdvdcss2",
+    "libdvdread8",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libdvdcss"
+  ],
+  "map": {
+    "libdvdcss-dev": "libdvdcss",
+    "libdvdcss2": "libdvdcss"
+  }
+}

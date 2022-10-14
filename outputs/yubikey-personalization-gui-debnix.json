@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "yubikey-personalization-gui",
+  "nix_pkg": null,
+  "control_file_hash": "cbc1e4bcb4f65bc633d54049852f6dddf6af74c107c8d76f8a84b87ca12954e9",
+  "deb_inputs": [
+    "debhelper",
+    "libykpers-1-dev",
+    "libyubikey-dev",
+    "pkg-config",
+    "qt5-image-formats-plugins",
+    "qt5-qmake",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "imagemagick",
+    "libyubikey",
+    "pkg-config-wrapper",
+    "qtbase",
+    "yubikey-personalization"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libykpers-1-dev": "yubikey-personalization",
+    "libyubikey-dev": "libyubikey"
+  }
+}

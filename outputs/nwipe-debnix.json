@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "nwipe",
+  "nix_pkg": null,
+  "control_file_hash": "72780fc85ce6ace0eeeae3a561e0a802976532aecc587d88813b0061c6003f87",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libncurses5-dev",
+    "libparted-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "parted",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libparted-dev": "parted",
+    "libncurses5-dev": "ncurses"
+  }
+}

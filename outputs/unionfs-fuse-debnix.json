@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "unionfs-fuse",
+  "nix_pkg": null,
+  "control_file_hash": "f0ad180733e25165b130102a2a967ce240ae6f56d4541c008ed3d78c0d197942",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "fuse",
+    "libfuse-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fuse"
+  ],
+  "map": {
+    "libfuse-dev": "fuse",
+    "cmake": "cmake",
+    "fuse": "fuse"
+  }
+}

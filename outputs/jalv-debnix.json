@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "jalv",
+  "nix_pkg": null,
+  "control_file_hash": "71d7c28939d6393341c18acaa338f77e4a25fd1e5102f93a30137d382a5ab2fe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtk-3-dev",
+    "libjack-dev",
+    "liblilv-dev",
+    "libserd-dev",
+    "libsord-dev",
+    "libsratom-dev",
+    "libsuil-dev",
+    "lv2-dev",
+    "pkg-config",
+    "python3",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libjack2",
+    "lilv",
+    "lv2",
+    "pkg-config-wrapper",
+    "python3",
+    "serd",
+    "sord",
+    "sratom",
+    "suil"
+  ],
+  "map": {
+    "libserd-dev": "serd",
+    "libsuil-dev": "suil",
+    "libsord-dev": "sord",
+    "liblilv-dev": "lilv",
+    "lv2-dev": "lv2",
+    "libgtk-3-dev": "gtk+",
+    "libsratom-dev": "sratom",
+    "python3": "python3"
+  }
+}

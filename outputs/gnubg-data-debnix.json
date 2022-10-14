@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "gnubg-data",
+  "nix_pkg": null,
+  "control_file_hash": "274c2c9da961de4b5954515ebf9696babf0ec41f8ebfa239f5a265350f2b1dc8",
+  "deb_inputs": [
+    "autoconf-archive",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "fonts-dejavu-core",
+    "gnubg",
+    "gnubg-data",
+    "graphicsmagick",
+    "libcairo2-dev",
+    "libcanberra-gtk-dev",
+    "libcurl4-openssl-dev",
+    "libfreetype6-dev",
+    "libglib2.0-dev",
+    "libgmp-dev",
+    "libgtk2.0-dev",
+    "libgtkglext1-dev",
+    "libncurses-dev",
+    "libpng-dev",
+    "libreadline-dev",
+    "libsqlite3-dev",
+    "lsb-release",
+    "python3-dev",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "pkg-config-wrapper",
+    "python",
+    "readline"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "python3-dev": "python",
+    "libreadline-dev": "readline",
+    "libglib2.0-dev": "glib"
+  }
+}

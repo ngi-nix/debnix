@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "isort",
+  "nix_pkg": null,
+  "control_file_hash": "b8c6bb239ab83dd0cda7b31dd17dcf0124e79c558909c016311a6ba6bce69537",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-colorama",
+    "python3-isort",
+    "python3-setuptools",
+    "python3-toml"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "hypothesis",
+    "poetry-core",
+    "pylama",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools"
+  }
+}

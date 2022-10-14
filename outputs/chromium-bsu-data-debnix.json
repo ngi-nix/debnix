@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "chromium-bsu-data",
+  "nix_pkg": null,
+  "control_file_hash": "c2f6786e876cadee50bbf139183a036799bf01a7fd1d5c5235f9d5dc90465239",
+  "deb_inputs": [
+    "autoconf-archive",
+    "autopoint",
+    "chromium-bsu-data",
+    "debhelper-compat",
+    "fonts-uralic",
+    "libalut-dev",
+    "libglc-dev",
+    "libglu1-mesa-dev",
+    "libopenal-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "pkg-config",
+    "ttf-uralic"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "fontconfig",
+    "freealut",
+    "freeglut",
+    "ftgl",
+    "gettext",
+    "glpng",
+    "glu",
+    "libGL",
+    "openal-soft",
+    "pkg-config-wrapper",
+    "quesoglc"
+  ],
+  "map": {
+    "libglu1-mesa-dev": "glu",
+    "libglc-dev": "quesoglc",
+    "libopenal-dev": "openal-soft",
+    "autopoint": "gettext",
+    "libalut-dev": "freealut"
+  }
+}

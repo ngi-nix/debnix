@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "nqp",
+  "nix_pkg": null,
+  "control_file_hash": "ded8e05c69ec2adf9116b05eca2935ad503fb663c9a863b07569e498998e3691",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgmp-dev",
+    "libjs-angularjs",
+    "libjs-bootstrap",
+    "libjs-jquery",
+    "libreadline-dev",
+    "libtommath-dev",
+    "moarvm-dev",
+    "nqp-data",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

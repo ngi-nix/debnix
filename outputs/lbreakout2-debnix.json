@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "lbreakout2",
+  "nix_pkg": null,
+  "control_file_hash": "ca5243cec16f94247bbcbc84789851b27f59ff89a0be02c982c4016f7ee2e976",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "lbreakout2-data",
+    "libpng-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

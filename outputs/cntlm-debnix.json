@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "cntlm",
+  "nix_pkg": null,
+  "control_file_hash": "640139c1507d0266236ba4b958f03c5bf6f6ec64093ce1d7791fa99810785cce",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

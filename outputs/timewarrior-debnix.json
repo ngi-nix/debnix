@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "timewarrior",
+  "nix_pkg": null,
+  "control_file_hash": "668e6b74fa12407375de289dc91db6a37f0b6d9044e8477ccdf2064b50a8eec5",
+  "deb_inputs": [
+    "asciidoctor",
+    "bash-completion",
+    "cmake",
+    "debhelper-compat",
+    "git",
+    "python3",
+    "taskwarrior"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

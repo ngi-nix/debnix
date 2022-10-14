@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "jove",
+  "nix_pkg": null,
+  "control_file_hash": "0c752550a3ac6377e0510f5d63910561435361b9b4fda3ed4ff5934db3af90f4",
+  "deb_inputs": [
+    "aspell",
+    "ctags",
+    "debhelper-compat",
+    "emacs-bin-common",
+    "groff",
+    "libncurses-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "groff",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "groff": "groff"
+  }
+}

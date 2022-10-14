@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "gdmap",
+  "nix_pkg": null,
+  "control_file_hash": "6bd20da716a886e62b6e71fe98397013fb3ffd7fc79a5761a0bb4b812c1cdc1e",
+  "deb_inputs": [
+    "debhelper",
+    "intltool",
+    "libgtk2.0-dev",
+    "libxml-parser-perl",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gtk+",
+    "intltool",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "intltool": "intltool",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

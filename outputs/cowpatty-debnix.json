@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cowpatty",
+  "nix_pkg": null,
+  "control_file_hash": "cde3553311e925d18985cd77e548e04b31da0ce9e18f59456a74a95db12c0f30",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcap-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "clang-wrapper",
+    "libpcap",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libpcap-dev": "libpcap"
+  }
+}

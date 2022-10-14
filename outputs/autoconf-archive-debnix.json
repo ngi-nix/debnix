@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "autoconf-archive",
+  "nix_pkg": null,
+  "control_file_hash": "cd3dd8e4f07c712ef36ce07a131ecd67ed345e0a5eb578b3756ad467fedf479e",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper-compat",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}

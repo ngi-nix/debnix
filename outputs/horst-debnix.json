@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "horst",
+  "nix_pkg": null,
+  "control_file_hash": "fd64261b36e7fc7a6637e857508f7a22b29db56c36bcdfd35fea4c09451bb6a9",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libncurses5-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "libpcap0.8-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnl-3-dev": "libnl",
+    "libncurses5-dev": "ncurses",
+    "libnl-genl-3-dev": "libnl"
+  }
+}

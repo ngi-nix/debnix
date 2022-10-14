@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "fldigi",
+  "nix_pkg": null,
+  "control_file_hash": "e20f53ee4c97149b3899feb2ec20139a062f6b4c57b570559dd96dac7af187e9",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "docbook-xsl",
+    "extra-xdg-menus",
+    "libfltk1.3-dev",
+    "libflxmlrpc-dev",
+    "libhamlib-dev",
+    "libmbedtls-dev",
+    "libpng-dev",
+    "libpulse-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "libudev-dev",
+    "portaudio19-dev",
+    "sensible-utils",
+    "xdg-utils",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fltk",
+    "gettext",
+    "hamlib",
+    "libXinerama",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libpulseaudio",
+    "libsamplerate",
+    "libsndfile",
+    "pkg-config-wrapper",
+    "portaudio",
+    "systemd"
+  ],
+  "map": {
+    "portaudio19-dev": "portaudio",
+    "libfltk1.3-dev": "fltk",
+    "libsndfile1-dev": "libsndfile",
+    "libhamlib-dev": "hamlib",
+    "libudev-dev": "systemd",
+    "libsamplerate0-dev": "libsamplerate"
+  }
+}

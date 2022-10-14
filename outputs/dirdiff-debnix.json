@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "dirdiff",
+  "nix_pkg": null,
+  "control_file_hash": "f86e048a37ccbe81e5b403a47190c246de5aba855c6b1e77b69169c33678f393",
+  "deb_inputs": [
+    "debhelper-compat",
+    "tk8.6",
+    "tk8.6-dev"
+  ],
+  "nix_inputs": [
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tk8.6": "tk",
+    "tk8.6-dev": "tk"
+  }
+}

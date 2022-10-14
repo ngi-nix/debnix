@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "focuswriter",
+  "nix_pkg": null,
+  "control_file_hash": "856a67ab126333a3ce45b16a635dcf13cd16e14ac5233a2a86793736985ff3a0",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "hunspell-dictionary",
+    "libhunspell-dev",
+    "mesa-common-dev",
+    "myspell-dictionary",
+    "pkg-config",
+    "qt6-base-dev",
+    "qt6-l10n-tools",
+    "qt6-multimedia-dev",
+    "qt6-qpa-plugins",
+    "qt6-tools-dev",
+    "qt6-tools-dev-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "hunspell",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia",
+    "qttools"
+  ],
+  "map": {
+    "libhunspell-dev": "hunspell"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gfan",
+  "nix_pkg": null,
+  "control_file_hash": "bf408cb8d1c0e83eae415597b6e6ab425a8f59e89e23036a804984b0f7442fe9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript",
+    "html2text",
+    "libcdd-dev",
+    "libgmp-dev",
+    "texlive-latex-base",
+    "texlive-latex-recommended",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "cddlib",
+    "gmp-with-cxx",
+    "mpir"
+  ],
+  "map": {
+    "libcdd-dev": "cddlib"
+  }
+}

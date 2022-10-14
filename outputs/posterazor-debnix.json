@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "posterazor",
+  "nix_pkg": null,
+  "control_file_hash": "47588d94b6cd45ed79405bf4e1a562f4f563ecbfe59cf9e69e7fb57e93d94e60",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfltk1.3-dev",
+    "libfreeimage-dev",
+    "libxpm-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fltk",
+    "freeimage",
+    "libXpm",
+    "pkg-config-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libfltk1.3-dev": "fltk",
+    "libxpm-dev": "libXpm",
+    "libfreeimage-dev": "freeimage"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "onioncircuits",
+  "nix_pkg": null,
+  "control_file_hash": "954f780882164a63ddd140a208ce383721eaebda5a71f201b9716d7a8512037d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-apparmor",
+    "dh-python",
+    "gir1.2-glib-2.0",
+    "gir1.2-gtk-3.0",
+    "help2man",
+    "python3-all",
+    "python3-distutils-extra",
+    "python3-gi",
+    "python3-pkg-resources",
+    "python3-pycountry",
+    "python3-setuptools",
+    "python3-stem",
+    "tor-geoipdb"
+  ],
+  "nix_inputs": [
+    "distutils-extra",
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "pygobject",
+    "python3",
+    "stem"
+  ],
+  "map": {
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "python3-gi": "pygobject"
+  }
+}

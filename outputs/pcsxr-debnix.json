@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "pcsxr",
+  "nix_pkg": null,
+  "control_file_hash": "8695f284e4f882e1d8963e02c4ea637bb9d06ff8dd46aa1c854bdba3df276557",
+  "deb_inputs": [
+    "debhelper-compat",
+    "intltool",
+    "libgl1-mesa-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libsdl2-dev",
+    "libxtst-dev",
+    "libxv-dev",
+    "libxxf86vm-dev",
+    "nasm",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "ffmpeg",
+    "file",
+    "gtk+3",
+    "intltool",
+    "libXtst",
+    "libXv",
+    "libXxf86vm",
+    "libcdio",
+    "nasm",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libxtst-dev": "libXtst",
+    "nasm": "nasm",
+    "libxv-dev": "libXv",
+    "libxxf86vm-dev": "libXxf86vm"
+  }
+}

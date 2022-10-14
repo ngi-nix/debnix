@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ifmetric",
+  "nix_pkg": null,
+  "control_file_hash": "9276a5ce5a668b8f68c079d8e27a60d3da0102bea38ee5cc6d65dda1d3034559",
+  "deb_inputs": [
+    "debhelper-compat",
+    "lynx"
+  ],
+  "nix_inputs": [
+    "lynx"
+  ],
+  "map": {
+    "lynx": "lynx"
+  }
+}

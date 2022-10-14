@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "androguard",
+  "nix_pkg": null,
+  "control_file_hash": "4b4eeda3f202235e5edbb1f807e9c56dfb6ce8edaa6bb1d084b332282837623f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "dh-strip-nondeterminism",
+    "python3-all",
+    "python3-asn1crypto",
+    "python3-click",
+    "python3-cryptography",
+    "python3-future",
+    "python3-lxml",
+    "python3-magic",
+    "python3-mock",
+    "python3-networkx",
+    "python3-oscrypto",
+    "python3-pydot",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "asn1crypto",
+    "click",
+    "colorama",
+    "future",
+    "ipython",
+    "lxml",
+    "matplotlib",
+    "networkx",
+    "packaging",
+    "pydot",
+    "pygments",
+    "python3"
+  ],
+  "map": {
+    "python3-asn1crypto": "asn1crypto",
+    "python3-lxml": "lxml",
+    "python3-networkx": "networkx",
+    "python3-pydot": "pydot",
+    "python3-pygments": "pygments"
+  }
+}
