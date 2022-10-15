@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "otpclient",
+  "nix_pkg": null,
+  "control_file_hash": "3a96473011de440e6e1f741d59b8e0efd3d20d5ab731bc682fe123f18ff45abc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbaseencode-dev",
+    "libcotp-dev",
+    "libgcrypt20-dev",
+    "libgtk-3-dev",
+    "libjansson-dev",
+    "libpng-dev",
+    "libprotobuf-c-dev",
+    "libprotobuf-dev",
+    "libsecret-1-dev",
+    "libzbar-dev",
+    "libzip-dev",
+    "otpclient",
+    "otpclient-cli",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtk+3",
+    "jansson",
+    "libcotp",
+    "libgcrypt",
+    "libpng-apng",
+    "libzip",
+    "pkg-config-wrapper",
+    "zbar"
+  ],
+  "map": {
+    "libcotp-dev": "libcotp",
+    "libgcrypt20-dev": "libgcrypt",
+    "libjansson-dev": "jansson",
+    "libzbar-dev": "zbar",
+    "libzip-dev": "libzip",
+    "cmake": "cmake"
+  }
+}

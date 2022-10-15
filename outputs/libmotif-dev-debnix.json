@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libmotif-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ce088b93446100890e98129e3b7cae43204c5bf1f516c07b63c8a9ce395b4acc",
+  "deb_inputs": [
+    "byacc",
+    "debhelper-compat",
+    "flex",
+    "libfl-dev",
+    "libfontconfig1-dev",
+    "libjpeg-dev",
+    "libmotif-common",
+    "libmrm4",
+    "libpng-dev",
+    "libsm-dev",
+    "libuil4",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "libxm4",
+    "libxmu-dev",
+    "libxt-dev",
+    "menu",
+    "uil",
+    "xbitmaps"
+  ],
+  "nix_inputs": [
+    "expat",
+    "flex",
+    "libXau",
+    "libXmu",
+    "libXp",
+    "libXrender",
+    "libXt",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtool",
+    "pkg-config-wrapper",
+    "xbitmaps"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxt-dev": "libXt",
+    "flex": "flex",
+    "libfl-dev": "flex",
+    "libxmu-dev": "libXmu",
+    "xbitmaps": "xbitmaps"
+  }
+}

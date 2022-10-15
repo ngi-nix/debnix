@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libgit2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8dae9b1436a1a1eababf71052df8662c64b522552b1b31f258fcc3ad3394b020",
+  "deb_inputs": [
+    "ca-certificates",
+    "cmake",
+    "debhelper-compat",
+    "libgit2-1.5",
+    "libhttp-parser-dev",
+    "libkrb5-dev",
+    "libmbedtls-dev",
+    "libpcre2-dev",
+    "libssh2-1-dev",
+    "pkg-config",
+    "python3-minimal:any",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "http-parser",
+    "libssh2",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libssh2-1-dev": "libssh2",
+    "libpcre2-dev": "pcre",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libhttp-parser-dev": "http-parser"
+  }
+}

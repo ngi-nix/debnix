@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "spectrwm",
+  "nix_pkg": null,
+  "control_file_hash": "d8efb0eb986c63514b173af0ce0d10e6aa4b79d11eaefea932fd11c5e9f7d4e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libx11-xcb-dev",
+    "libxcb-icccm4-dev",
+    "libxcb-keysyms1-dev",
+    "libxcb-randr0-dev",
+    "libxcb-util0-dev",
+    "libxcb-xfixes0-dev",
+    "libxcb-xinput-dev",
+    "libxcb-xtest0-dev",
+    "libxcb1-dev",
+    "libxcursor-dev",
+    "libxft-dev",
+    "libxrandr-dev",
+    "libxt-dev",
+    "libxt6",
+    "libxtst-dev",
+    "suckless-tools",
+    "x-terminal-emulator",
+    "xfonts-terminus",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "libXcursor",
+    "libXft",
+    "libXrandr",
+    "libXt",
+    "pkg-config-wrapper",
+    "xcb-util",
+    "xcb-util-keysyms",
+    "xcb-util-wm"
+  ],
+  "map": {
+    "libxcb-icccm4-dev": "xcb-util-wm",
+    "libxt6": "libXt",
+    "libxrandr-dev": "libXrandr",
+    "libxft-dev": "libXft",
+    "libxt-dev": "libXt",
+    "libxcb-keysyms1-dev": "xcb-util-keysyms",
+    "libxcb-util0-dev": "xcb-util",
+    "libxcursor-dev": "libXcursor"
+  }
+}

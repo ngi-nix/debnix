@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "liblua5.4-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d60cd431253ef02ebe7f427ff265083a4d89039741f3d2ef926c39f881e045d2",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "libc-dev",
+    "libc6-dev",
+    "liblua5.4-0",
+    "libreadline-dev",
+    "libtool",
+    "libtool-bin",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

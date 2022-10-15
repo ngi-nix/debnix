@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "dtrx",
+  "nix_pkg": null,
+  "control_file_hash": "e3d3b124ab13c9f88e40eca0d14086bf0073fe91ac190e24162de87aaa3be114",
+  "deb_inputs": [
+    "binutils",
+    "bzip2",
+    "cabextract",
+    "cpio",
+    "debhelper-compat",
+    "dh-python",
+    "lhasa",
+    "lrzip",
+    "lzma",
+    "p7zip-full",
+    "python3",
+    "rpm",
+    "unshield",
+    "unzip",
+    "xz-utils",
+    "zstd"
+  ],
+  "nix_inputs": [
+    "python3",
+    "twine"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

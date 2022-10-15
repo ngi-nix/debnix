@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "afuse",
+  "nix_pkg": null,
+  "control_file_hash": "815c3a15659fc4744133b82c527b4180ff29a21f0ee1fc4086ee459bbff684e4",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libfuse-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfuse-dev": "fuse"
+  }
+}

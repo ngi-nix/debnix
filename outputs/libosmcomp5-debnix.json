@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libosmcomp5",
+  "nix_pkg": null,
+  "control_file_hash": "34c9e883f460953257745a32919886912ca9225b41a48a801b2f0d4b01b1c765",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dpkg-dev",
+    "flex",
+    "infiniband-diags",
+    "libibumad-dev",
+    "libopensm9",
+    "libosmcomp5",
+    "libosmvendor5",
+    "libwrap0-dev",
+    "lsb-base",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "flex",
+    "libtool",
+    "rdma-core"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "libibumad-dev": "rdma-core"
+  }
+}

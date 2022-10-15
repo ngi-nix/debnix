@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "fatsort",
+  "nix_pkg": null,
+  "control_file_hash": "1e5ffdc14b3e343dd9e7bfd7d1895f9a3ba45155b17535513f9051eca3a8b4de",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man"
+  ],
+  "nix_inputs": [
+    "help2man"
+  ],
+  "map": {
+    "help2man": "help2man"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libxvidcore-dev",
+  "nix_pkg": null,
+  "control_file_hash": "93339e2bcdface8d9b1475585b37eda552824eef4ff404943f41b49ad3ed8170",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libxvidcore4",
+    "yasm"
+  ],
+  "nix_inputs": [
+    "yasm"
+  ],
+  "map": {
+    "yasm": "yasm"
+  }
+}

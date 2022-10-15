@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libdvdnav-dev",
+  "nix_pkg": null,
+  "control_file_hash": "27d0b49f0f2534bb1833994b5e01c444ab12b64a7a69066db2d6fbff8f9ff171",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libdvdcss-dev",
+    "libdvdcss2",
+    "libdvdnav4",
+    "libdvdread-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libdvdread",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdvdread-dev": "libdvdread"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "formiko",
+  "nix_pkg": null,
+  "control_file_hash": "199f3f9b8ccbb90d54e5ecb28450e13fae003093148f738942ab285e39605045",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "gir1.2-gtksource-3.0",
+    "gir1.2-gtkspell3-3.0",
+    "gir1.2-webkit2-4.0",
+    "librsvg2-common",
+    "python3-all",
+    "python3-docutils",
+    "python3-gi",
+    "python3-recommonmark",
+    "python3-setuptools",
+    "vim-gtk3"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "gobject-introspection",
+    "gtk+3",
+    "gtksourceview",
+    "gtkspell",
+    "librsvg",
+    "pygobject",
+    "python3",
+    "webkitgtk"
+  ],
+  "map": {
+    "librsvg2-common": "librsvg",
+    "gir1.2-gtkspell3-3.0": "gtkspell",
+    "python3-gi": "pygobject",
+    "gir1.2-gtksource-3.0": "gtksourceview"
+  }
+}

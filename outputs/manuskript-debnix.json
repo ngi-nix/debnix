@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "manuskript",
+  "nix_pkg": null,
+  "control_file_hash": "d6ca1e0f309bb31ce1c0745093f1b5dc98ca656f3ecc3717bfa1376e296e48e8",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "libqt5svg5",
+    "pandoc",
+    "python3",
+    "python3-all-dev",
+    "python3-enchant",
+    "python3-lxml",
+    "python3-markdown",
+    "python3-pyqt5",
+    "python3-pyqt5.qtwebkit",
+    "python3-setuptools",
+    "quilt",
+    "texlive-latex-recommended",
+    "zlib1g"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "lxml",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "python3": "python3",
+    "zlib1g": "zlib",
+    "python3-pyqt5": "PyQt5",
+    "python3-pyqt5.qtwebkit": "PyQt5",
+    "python3-lxml": "lxml"
+  }
+}

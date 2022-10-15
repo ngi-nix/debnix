@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "sdcv",
+  "nix_pkg": null,
+  "control_file_hash": "db7df3b238533ce7b94538bb4612076bb4e24a5333dbd7d167a18929ddd87462",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dpkg-dev",
+    "g++",
+    "gettext",
+    "jq",
+    "libglib2.0-dev",
+    "libreadline-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gettext",
+    "glib",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libreadline-dev": "readline",
+    "libglib2.0-dev": "glib",
+    "gettext": "gettext"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "ocl-icd-opencl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a51affab64cf4d7e18fca1b0dfa9d2fd8c3036b5c75c39ee5a665fce893c214b",
+  "deb_inputs": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "faketime",
+    "libgl-dev",
+    "libtool",
+    "ocl-icd-libopencl1",
+    "opencl-c-headers",
+    "opencl-clhpp-headers",
+    "opencl-headers",
+    "opencl-icd",
+    "ruby:any",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "opencl-headers",
+    "ruby"
+  ],
+  "map": {
+    "opencl-headers": "opencl-headers"
+  }
+}

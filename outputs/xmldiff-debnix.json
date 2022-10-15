@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "xmldiff",
+  "nix_pkg": null,
+  "control_file_hash": "2bd4898c5613c119178d74b27ad1d9edbab022d958c85b853cdf53583d90603a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-lxml",
+    "python3-psyco",
+    "python3-setuptools",
+    "python3-six",
+    "python3-sphinx",
+    "python3-sphinx-argparse"
+  ],
+  "nix_inputs": [
+    "lxml",
+    "python3",
+    "setuptools",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six",
+    "python3-setuptools": "setuptools",
+    "python3": "python3",
+    "python3-lxml": "lxml"
+  }
+}

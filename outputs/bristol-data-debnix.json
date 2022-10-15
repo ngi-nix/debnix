@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "bristol-data",
+  "nix_pkg": null,
+  "control_file_hash": "8e46cf199fff07411bf445a034e91c30f33971deb3ca6de51a0a68446fca6ac9",
+  "deb_inputs": [
+    "bristol-data",
+    "debhelper",
+    "dh-autoreconf",
+    "jackd",
+    "libasound2-dev",
+    "libjack-dev",
+    "libx11-dev",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libX11",
+    "libXext",
+    "libjack2",
+    "libpulseaudio",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "x11proto-core-dev": "xorgproto",
+    "libx11-dev": "libX11"
+  }
+}

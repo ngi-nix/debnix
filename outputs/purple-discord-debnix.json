@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "purple-discord",
+  "nix_pkg": null,
+  "control_file_hash": "f2dc8779caede6c62365c9c9e3f8c095da51cd20aa2e1db424ad1ec8cb17e7eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "imagemagick",
+    "libglib2.0-dev",
+    "libjson-glib-dev",
+    "libnss3-dev",
+    "libpurple-dev",
+    "libqrencode-dev",
+    "librsvg2-bin",
+    "libz-dev",
+    "python3-harmony"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "imagemagick",
+    "json-glib",
+    "pidgin"
+  ],
+  "map": {
+    "libjson-glib-dev": "json-glib",
+    "imagemagick": "imagemagick",
+    "libpurple-dev": "pidgin"
+  }
+}

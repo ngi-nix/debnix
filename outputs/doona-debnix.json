@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "doona",
+  "nix_pkg": null,
+  "control_file_hash": "43f2f6c3db9d7617e1fed392d755e2c630d12a5101a81ea8a99131e276f701c1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

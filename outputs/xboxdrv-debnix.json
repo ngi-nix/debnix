@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "xboxdrv",
+  "nix_pkg": null,
+  "control_file_hash": "53d5a54780f94d66e532da313014a9eded8082bb122cacb57fe2183aae220fb0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-dev",
+    "libdbus-glib-1-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libx11-dev",
+    "python3",
+    "python3-dbus",
+    "scons"
+  ],
+  "nix_inputs": [
+    "boost",
+    "dbus-glib",
+    "glib",
+    "libX11",
+    "libusb",
+    "pkg-config-wrapper",
+    "scons"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libboost-dev": "boost",
+    "scons": "scons"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "flawfinder",
+  "nix_pkg": null,
+  "control_file_hash": "fdb89931727d0b49d8e7401c68ce850053a1b4c8121aceda1de0013aaba70b00",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-setuptools",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

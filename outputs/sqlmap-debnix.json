@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "sqlmap",
+  "nix_pkg": null,
+  "control_file_hash": "6ca1e55881fa02f8fe3733eb72b0d1aced50b3f322b8286dd654aaed419bb608",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-magic"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

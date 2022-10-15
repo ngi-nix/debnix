@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "elasticsearch-curator",
+  "nix_pkg": null,
+  "control_file_hash": "f991484b82d96c6bdbf5b81255ceb7cca0d71a6b1d0d0ae093116fddcca085d1",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xml",
+    "docbook-xsl",
+    "libxml2-utils",
+    "python-elasticsearch-curator-doc",
+    "python-elasticsearch-doc",
+    "python3-all",
+    "python3-boto3",
+    "python3-click",
+    "python3-doc",
+    "python3-elasticsearch",
+    "python3-elasticsearch-curator",
+    "python3-mock",
+    "python3-nosexcover",
+    "python3-pkg-resources",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-six",
+    "python3-urllib3",
+    "python3-voluptuous",
+    "python3-yaml",
+    "w3m",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "boto3",
+    "certifi",
+    "click",
+    "elasticsearch",
+    "mock",
+    "python3",
+    "pyyaml",
+    "requests",
+    "requests-aws4auth",
+    "six",
+    "urllib3",
+    "voluptuous"
+  ],
+  "map": {
+    "python3-six": "six",
+    "python3-voluptuous": "voluptuous",
+    "python3-requests": "requests",
+    "python3-yaml": "pyyaml"
+  }
+}

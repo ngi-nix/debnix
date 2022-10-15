@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libspice-protocol-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9d332cf6236c0f74197a7069c8f59936118aea6fe2975dcf88dfb779b3c64eae",
+  "deb_inputs": [
+    "debhelper-compat",
+    "meson"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

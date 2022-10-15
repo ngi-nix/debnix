@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "bibtool",
+  "nix_pkg": null,
+  "control_file_hash": "0f7915a513e24df5574e219c84dcd421207eddfb648f94d20289427362a04390",
+  "deb_inputs": [
+    "debhelper-compat",
+    "html2text",
+    "libkpathsea-dev",
+    "lmodern",
+    "tex-common",
+    "texlive-base",
+    "texlive-binaries",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-luatex",
+    "tth"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

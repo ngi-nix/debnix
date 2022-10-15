@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "pre-commit",
+  "nix_pkg": null,
+  "control_file_hash": "c24fbc9f5c6a5a00df4cf6ab346877dfaf9b67a6903bb0b50e182de3c68c3bca",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-cfgv",
+    "python3-identify",
+    "python3-importlib-metadata",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cargo",
+    "cfgv",
+    "dotnet-sdk",
+    "git",
+    "go",
+    "identify",
+    "nodeenv",
+    "nodejs",
+    "pytest-env",
+    "pytest-xdist",
+    "python3",
+    "pyyaml",
+    "re_assert",
+    "toml",
+    "virtualenv"
+  ],
+  "map": {
+    "python3-identify": "identify",
+    "python3-cfgv": "cfgv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "dmrconfig",
+  "nix_pkg": null,
+  "control_file_hash": "47d67e86a8fc5efeeeb6e454076d0bb6c475eaeb735f74dcafdacaa4e067434b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libusb",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd"
+  }
+}

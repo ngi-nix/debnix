@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "mopidy-mpd",
+  "nix_pkg": null,
+  "control_file_hash": "3032b69624cb1d15b645f0029244dee9ec89c73bd5637463a5fe3c9c36e9e9ed",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "mopidy": "mopidy"
+  }
+}

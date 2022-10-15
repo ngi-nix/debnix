@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "dasher-data",
+  "nix_pkg": null,
+  "control_file_hash": "08e39c0814c271f3670979b98507d51b339d0c0e0ddc75643d2cde9354465ef8",
+  "deb_inputs": [
+    "dasher",
+    "dasher-data",
+    "debhelper-compat",
+    "docbook-xml",
+    "gnome-common",
+    "gnome-pkg-tools",
+    "intltool",
+    "libatk-adaptor",
+    "libatspi2.0-dev",
+    "libcairo2-dev",
+    "libexpat1-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libspeechd-dev",
+    "yelp-tools"
+  ],
+  "nix_inputs": [
+    "at-spi2-core",
+    "dbus",
+    "expat",
+    "glib",
+    "gnome-doc-utils",
+    "gtk+3",
+    "itstool",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "speech-dispatcher",
+    "which"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libatspi2.0-dev": "at-spi2-core",
+    "libatk-adaptor": "at-spi2-core",
+    "libspeechd-dev": "speech-dispatcher",
+    "libexpat1-dev": "expat"
+  }
+}

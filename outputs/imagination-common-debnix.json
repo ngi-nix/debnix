@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "imagination-common",
+  "nix_pkg": null,
+  "control_file_hash": "bc391fef7a0cc1a1b2ba995eafc6d0501fbcbc0f6e0abceb65cc81b09cfc8073",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "doc-base",
+    "docbook-xsl",
+    "ffmpeg",
+    "imagination-common",
+    "intltool",
+    "libavcodec-extra-55",
+    "libgtk-3-dev",
+    "libsox-dev",
+    "libsox-fmt-all",
+    "sox",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "ffmpeg-full",
+    "glib",
+    "gtk+3",
+    "intltool",
+    "libxslt",
+    "pkg-config-wrapper",
+    "sox"
+  ],
+  "map": {
+    "libsox-dev": "sox",
+    "xsltproc": "libxslt",
+    "intltool": "intltool",
+    "libsox-fmt-all": "sox",
+    "sox": "sox"
+  }
+}

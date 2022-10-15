@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "gobby",
+  "nix_pkg": null,
+  "control_file_hash": "721c6cfd6f22dd2ddca8eeaa1c8cf6a45699c061e9cbe87081ce18e4a20eb3ff",
+  "deb_inputs": [
+    "avahi-daemon",
+    "debhelper",
+    "dpkg-dev",
+    "gettext",
+    "intltool",
+    "libglibmm-2.4-dev",
+    "libgsasl7-dev",
+    "libgtkmm-3.0-dev",
+    "libgtksourceview-3.0-dev",
+    "libinfinity-0.7-dev",
+    "libxml++2.6-dev",
+    "yelp-tools"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gsasl",
+    "gtkmm",
+    "gtksourceview",
+    "intltool",
+    "itstool",
+    "libinfinity",
+    "libxml++",
+    "pkg-config-wrapper",
+    "yelp-tools"
+  ],
+  "map": {
+    "yelp-tools": "yelp-tools",
+    "libgsasl7-dev": "gsasl",
+    "intltool": "intltool",
+    "libgtkmm-3.0-dev": "gtkmm",
+    "libinfinity-0.7-dev": "libinfinity",
+    "libgtksourceview-3.0-dev": "gtksourceview",
+    "libxml++2.6-dev": "libxml++"
+  }
+}

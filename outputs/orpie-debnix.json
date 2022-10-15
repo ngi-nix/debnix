@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "orpie",
+  "nix_pkg": null,
+  "control_file_hash": "2bd43d38d637d619a20ecc652a821fac47ca0e12704e8b086fb0e3d1e0a0bded",
+  "deb_inputs": [
+    "camlp5",
+    "debhelper",
+    "libcurses-ocaml-dev",
+    "libfindlib-ocaml-dev",
+    "libnum-ocaml-dev",
+    "libocamlgsl-ocaml-dev",
+    "ocaml-dune",
+    "ocaml-nox",
+    "opam",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "camlp5",
+    "dune",
+    "gsl",
+    "ocaml",
+    "ocaml-curses",
+    "ocaml-findlib",
+    "ocaml4.12.1-num"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml",
+    "camlp5": "camlp5",
+    "libcurses-ocaml-dev": "ocaml-curses"
+  }
+}

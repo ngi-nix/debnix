@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "qjoypad",
+  "nix_pkg": null,
+  "control_file_hash": "1e73588fa12628e1330b50dce1dcfe882d95ef8c68629f4dd2e7612782a6cbbd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libqt5x11extras5-dev",
+    "libudev-dev",
+    "libxtst-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libX11",
+    "libXtst",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "libxtst-dev": "libXtst",
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake"
+  }
+}

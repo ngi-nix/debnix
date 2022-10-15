@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "gnu-efi",
+  "nix_pkg": null,
+  "control_file_hash": "77c126cfa19c9ef7bd6d371d32cfd7f9c873e7a3c7c5dd538bff71f45141f635",
+  "deb_inputs": [
+    "binutils",
+    "debhelper-compat",
+    "gcc-multilib"
+  ],
+  "nix_inputs": [
+    "pciutils"
+  ],
+  "map": {}
+}

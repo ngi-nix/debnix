@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "codespell",
+  "nix_pkg": null,
+  "control_file_hash": "40c30881acd033795d9fcb0a01f42a4b10fbcb4d3eab41fbec6991a78208f166",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3",
+    "python3-chardet",
+    "python3-distutils",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-setuptools",
+    "python3-virtualenv",
+    "virtualenv"
+  ],
+  "nix_inputs": [
+    "aspell-python",
+    "chardet",
+    "pytest-dependency",
+    "python3"
+  ],
+  "map": {
+    "python3-chardet": "chardet",
+    "python3": "python3"
+  }
+}

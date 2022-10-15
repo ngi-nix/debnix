@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "python3-cookiecutter",
+  "nix_pkg": null,
+  "control_file_hash": "d152970bd4bd6a00ed59ba73729342a3d41011e7a380f5065b1aa68dd86d834a",
+  "deb_inputs": [
+    "cookiecutter",
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "python-cookiecutter-doc",
+    "python3-all",
+    "python3-binaryornot",
+    "python3-click",
+    "python3-cookiecutter",
+    "python3-freezegun",
+    "python3-jinja2",
+    "python3-jinja2-time",
+    "python3-mock",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-pytest-mock",
+    "python3-recommonmark",
+    "python3-requests",
+    "python3-ruamel.yaml",
+    "python3-setuptools",
+    "python3-slugify",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "binaryornot",
+    "click",
+    "jinja2-time",
+    "python-slugify",
+    "python3",
+    "pyyaml",
+    "requests"
+  ],
+  "map": {
+    "python3-slugify": "python-slugify",
+    "python3-jinja2": "Jinja2",
+    "python3-binaryornot": "binaryornot",
+    "python3-requests": "requests",
+    "python3-yaml": "pyyaml",
+    "python3-jinja2-time": "jinja2-time"
+  }
+}

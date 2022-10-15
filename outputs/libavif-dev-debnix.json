@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libavif-dev",
+  "nix_pkg": null,
+  "control_file_hash": "47ce9988591264881cf075b868e5fe9311d0ef6e88512f81feee143d4cd5326f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libaom-dev",
+    "libavif14",
+    "libcjson-dev",
+    "libdav1d-dev",
+    "libgav1-dev",
+    "libgdk-pixbuf2.0-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libsvtav1enc-dev",
+    "libyuv-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "dav1d",
+    "libaom",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libdav1d-dev": "dav1d",
+    "zlib1g-dev": "zlib",
+    "libaom-dev": "libaom"
+  }
+}

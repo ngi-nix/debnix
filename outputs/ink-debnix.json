@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ink",
+  "nix_pkg": null,
+  "control_file_hash": "3e346ec03327fc3ce1fbcdae20f48b6fb3557020782db5264204603a2bcdbd35",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libinklevel-dev"
+  ],
+  "nix_inputs": [
+    "libinklevel"
+  ],
+  "map": {
+    "libinklevel-dev": "libinklevel"
+  }
+}

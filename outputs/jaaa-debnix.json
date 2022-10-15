@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "jaaa",
+  "nix_pkg": null,
+  "control_file_hash": "4b0cb8e51d20028895b3ae96511c0b0a1d07ce5708585581dc06119a7bab2143",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "jackd",
+    "libasound2-dev",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfftw3-dev",
+    "libfreetype6-dev",
+    "libjack-dev",
+    "libzita-alsa-pcmi-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-single",
+    "libX11",
+    "libXft",
+    "libXrender",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "zita-alsa-pcmi"
+  ],
+  "map": {
+    "libclthreads-dev": "libclthreads",
+    "libclxclient-dev": "libclxclient",
+    "libzita-alsa-pcmi-dev": "zita-alsa-pcmi",
+    "libasound2-dev": "alsa-lib"
+  }
+}
