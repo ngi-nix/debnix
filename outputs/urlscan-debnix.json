@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "urlscan",
+  "nix_pkg": null,
+  "control_file_hash": "a22d2ea0f6e8ba3087c7fa4b778370b1c13e1c84b578e5bf9e4fa1a41a979260",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mutt",
+    "neomutt",
+    "python3-urwid",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "python3",
+    "urwid"
+  ],
+  "map": {
+    "python3-urwid": "urwid"
+  }
+}

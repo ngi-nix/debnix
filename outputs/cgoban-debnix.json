@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "cgoban",
+  "nix_pkg": null,
+  "control_file_hash": "d77079228ac7fe957beb2908cd1a252872dc8efdd075e5abd51a9c95e4cea042",
+  "deb_inputs": [
+    "gnugo",
+    "imagemagick",
+    "libx11-dev",
+    "netpbm"
+  ],
+  "nix_inputs": [
+    "adoptopenjdk-jre-hotspot-bin"
+  ],
+  "map": {}
+}

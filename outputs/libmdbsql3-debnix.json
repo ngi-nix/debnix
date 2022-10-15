@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libmdbsql3",
+  "nix_pkg": null,
+  "control_file_hash": "8d3eabe25ef864b46a8f904207c49cc6b336c2cae53b3f09bad4c33d6c59a48a",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "bash-completion",
+    "bison",
+    "byacc",
+    "debhelper-compat",
+    "flex",
+    "libglib2.0-dev",
+    "libmdb3",
+    "libmdbsql3",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libodbc1",
+    "libreadline-dev",
+    "libtool",
+    "odbc-mdbtools",
+    "txt2man",
+    "unixodbc-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "glib",
+    "pkg-config-wrapper",
+    "readline",
+    "txt2man",
+    "which"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "bison": "bison",
+    "flex": "flex",
+    "libreadline-dev": "readline",
+    "txt2man": "txt2man"
+  }
+}

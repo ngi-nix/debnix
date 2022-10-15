@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "openvpn-auth-ldap",
+  "nix_pkg": null,
+  "control_file_hash": "e021cc10d9c0b3ed13f93bf671658e85a9e8861ede4e0edf8b437f7a9470b999",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gobjc",
+    "libgnustep-base-dev",
+    "libldap2-dev",
+    "libssl-dev",
+    "openvpn",
+    "re2c"
+  ],
+  "nix_inputs": [
+    "gnustep-base",
+    "gnustep-make",
+    "libobjc2",
+    "openldap",
+    "openssl",
+    "openvpn",
+    "re2c"
+  ],
+  "map": {
+    "openvpn": "openvpn",
+    "libgnustep-base-dev": "gnustep-base",
+    "libssl-dev": "openssl",
+    "re2c": "re2c",
+    "libldap2-dev": "openldap"
+  }
+}

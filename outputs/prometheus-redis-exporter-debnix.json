@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "prometheus-redis-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "fdb787d3ff12691e144f8519f5ab8b05445a29e4c3f4d872afe70e6b50c3f42b",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-gomodule-redigo-dev",
+    "golang-github-mna-redisc-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-sirupsen-logrus-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

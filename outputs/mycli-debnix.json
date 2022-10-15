@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "mycli",
+  "nix_pkg": null,
+  "control_file_hash": "99535b5b11cc92965a9c7230ab80edcf1648c1b3a24e1f01db2c718e594aa738",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3",
+    "python3-cli-helpers",
+    "python3-pkg-resources",
+    "python3-prompt-toolkit",
+    "python3-setuptools",
+    "python3-sqlglot",
+    "python3-sqlparse",
+    "python3-tabulate",
+    "python3-terminaltables"
+  ],
+  "nix_inputs": [
+    "PyMySQL",
+    "cli_helpers",
+    "click",
+    "configobj",
+    "glibc-locales",
+    "importlib-resources",
+    "paramiko",
+    "prompt-toolkit",
+    "pyaes",
+    "pycrypto",
+    "pygments",
+    "pyperclip",
+    "pytest",
+    "python3",
+    "sqlparse"
+  ],
+  "map": {
+    "python3-cli-helpers": "cli_helpers",
+    "python3-prompt-toolkit": "prompt-toolkit",
+    "python3-sqlparse": "sqlparse",
+    "python3": "python3"
+  }
+}

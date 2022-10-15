@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "duc",
+  "nix_pkg": null,
+  "control_file_hash": "1add228201909fb6a2655e07972b56aaa4e257d1698d872e35c858d3060e2eaf",
+  "deb_inputs": [
+    "debhelper",
+    "libcairo2-dev",
+    "libncursesw5-dev",
+    "libpango1.0-dev",
+    "libtokyocabinet-dev",
+    "ronn",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "ncurses",
+    "pango",
+    "pkg-config-wrapper",
+    "tokyocabinet"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libncursesw5-dev": "ncurses",
+    "libtokyocabinet-dev": "tokyocabinet",
+    "libcairo2-dev": "cairo"
+  }
+}

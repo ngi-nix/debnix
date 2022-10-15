@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "twine",
+  "nix_pkg": null,
+  "control_file_hash": "00e464aef693a95d9e903f5cfcbc4faeba74359909d1d501c34e0155e26c7fb5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "dh-sequence-sphinxdoc",
+    "pybuild-plugin-pyproject",
+    "python-requests-doc",
+    "python3-all",
+    "python3-doc",
+    "python3-importlib-metadata",
+    "python3-keyring",
+    "python3-munch",
+    "python3-pkginfo",
+    "python3-portend",
+    "python3-pretend",
+    "python3-pytest",
+    "python3-readme-renderer",
+    "python3-requests",
+    "python3-requests-toolbelt",
+    "python3-rfc3986",
+    "python3-rich",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-sphinxcontrib.programoutput"
+  ],
+  "nix_inputs": [
+    "importlib-metadata",
+    "keyring",
+    "pkginfo",
+    "python3",
+    "readme-renderer",
+    "requests",
+    "requests-toolbelt",
+    "rfc3986",
+    "rich",
+    "setuptools-scm",
+    "urllib3"
+  ],
+  "map": {
+    "python3-rich": "rich",
+    "python-requests-doc": "requests",
+    "python3-setuptools-scm": "setuptools-scm",
+    "python3-requests": "requests"
+  }
+}

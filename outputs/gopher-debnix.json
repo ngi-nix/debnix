@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "gopher",
+  "nix_pkg": null,
+  "control_file_hash": "5e5140a59e951b553b20f92779fe3a03ab86d6c0fafe0a6ef29e927377c7a5c1",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "gnulib",
+    "ncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "ncurses-dev": "ncurses"
+  }
+}

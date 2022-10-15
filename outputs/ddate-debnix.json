@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ddate",
+  "nix_pkg": null,
+  "control_file_hash": "cd1a73bfa4de18f1302cfacba8a75267078049b42ed5ef0556fb026baa4aa264",
+  "deb_inputs": [
+    "cmake",
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "vkeybd",
+  "nix_pkg": null,
+  "control_file_hash": "7514a5085cdfea5f307ca2398530ee7af519f1c19058e201d001bb9a6f8fa52d",
+  "deb_inputs": [
+    "debhelper",
+    "dh-exec",
+    "docbook-to-man",
+    "libasound2-dev",
+    "tcl8.6-dev",
+    "tk8.6-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libX11",
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tk8.6-dev": "tk",
+    "tcl8.6-dev": "tcl",
+    "libasound2-dev": "alsa-lib"
+  }
+}

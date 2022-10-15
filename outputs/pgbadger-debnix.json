@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "pgbadger",
+  "nix_pkg": null,
+  "control_file_hash": "d92c61e08aa991bd532bfa55b59b20c49874a543add2201388ca3bb7b4d0af75",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjson-xs-perl",
+    "libtext-csv-xs-perl"
+  ],
+  "nix_inputs": [
+    "JSON-XS",
+    "Pod-Markdown",
+    "Text-CSV",
+    "bzip2",
+    "perl",
+    "which"
+  ],
+  "map": {}
+}

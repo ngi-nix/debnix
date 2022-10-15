@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "pngtools",
+  "nix_pkg": null,
+  "control_file_hash": "f8165aab0d8f9c4791593e7be54d0f450c38d1d6acdd4b9b067e3eb28c8458e0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook",
+    "docbook-utils",
+    "libpng-dev",
+    "optipng",
+    "pngcrush"
+  ],
+  "nix_inputs": [
+    "libpng"
+  ],
+  "map": {
+    "libpng-dev": "libpng"
+  }
+}

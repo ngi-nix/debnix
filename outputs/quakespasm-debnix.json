@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "quakespasm",
+  "nix_pkg": null,
+  "control_file_hash": "d26775a78fb8f6ea7ab8dd24d818e1a0c5c67522a92f11cf5bf84cc0631f9014",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libflac-dev",
+    "libmad0-dev",
+    "libmikmod-dev",
+    "libopusfile-dev",
+    "libsdl2-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "flac",
+    "gzip",
+    "libmad",
+    "libogg",
+    "libopus",
+    "libvorbis",
+    "libxmp",
+    "opusfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmad0-dev": "libmad",
+    "libflac-dev": "flac",
+    "libopusfile-dev": "opusfile",
+    "libsdl2-dev": "SDL",
+    "libvorbis-dev": "libvorbis"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libykpiv2",
+  "nix_pkg": null,
+  "control_file_hash": "c806529c1b80ff6555a8c6f033082f05a52359211dc343989ea1f39d446c95e9",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper-compat",
+    "gengetopt",
+    "help2man",
+    "libpcsclite-dev",
+    "libssl-dev",
+    "libykpiv2",
+    "pcscd",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "check",
+    "cmake",
+    "gengetopt",
+    "openssl",
+    "pcsclite",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gengetopt": "gengetopt",
+    "check": "check",
+    "libpcsclite-dev": "pcsclite",
+    "libssl-dev": "openssl",
+    "cmake": "cmake",
+    "pcscd": "pcsclite"
+  }
+}

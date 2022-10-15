@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "isag",
+  "nix_pkg": null,
+  "control_file_hash": "6ea7c9768cbdae86ef61e377cc9a7bd1be33861d395797df88c7a4f211750e68",
+  "deb_inputs": [
+    "cron",
+    "cron-daemon",
+    "debhelper-compat",
+    "gettext",
+    "gnuplot-x11",
+    "isag",
+    "libsensors-dev",
+    "lsb-base",
+    "pkg-config",
+    "rcs",
+    "sysstat",
+    "systemd",
+    "tk",
+    "ucf",
+    "wish",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "gettext"
+  ],
+  "map": {
+    "gettext": "gettext"
+  }
+}

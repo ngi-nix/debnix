@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "findimagedupes",
+  "nix_pkg": null,
+  "control_file_hash": "b25ed3fda126264882d0d4c1f8f4bb8c55830807f1207e285d0fad4308898716",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfile-mimeinfo-perl",
+    "libgraphics-magick-perl",
+    "libinline-c-perl",
+    "libinline-perl"
+  ],
+  "nix_inputs": [
+    "DB_File",
+    "File-BaseDir",
+    "File-MimeInfo",
+    "Image-Magick",
+    "Inline",
+    "Inline-C",
+    "Parse-RecDescent",
+    "perl"
+  ],
+  "map": {}
+}

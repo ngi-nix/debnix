@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "notepadqq",
+  "nix_pkg": null,
+  "control_file_hash": "063dc91c7bf8d9fe5cf17f3cea60656c65291befb0e198383b4a688541cd371c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjs-highlight.js",
+    "libjs-jquery",
+    "libjs-mathjax",
+    "libjs-modernizr",
+    "libjs-requirejs",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libqt5webchannel5-dev",
+    "libqt5webenginewidgets5",
+    "libqt5webkit5-dev",
+    "libqt5websockets5-dev",
+    "libuchardet-dev",
+    "node-rollup-plugin-buble",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "qtwebengine5-dev",
+    "rollup"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "qtwebkit",
+    "which"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "efitools",
+  "nix_pkg": null,
+  "control_file_hash": "ea361d8fe434c93151d85bb656e93f15b4e1ba07ae0c3f39a7d6c2403b429499",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnu-efi",
+    "help2man",
+    "libfile-slurp-perl",
+    "libssl-dev",
+    "openssl",
+    "sbsigntool"
+  ],
+  "nix_inputs": [
+    "File-Slurp",
+    "gnu-efi",
+    "help2man",
+    "openssl",
+    "perl",
+    "sbsigntool"
+  ],
+  "map": {
+    "gnu-efi": "gnu-efi",
+    "libssl-dev": "openssl",
+    "openssl": "openssl",
+    "help2man": "help2man",
+    "sbsigntool": "sbsigntool"
+  }
+}

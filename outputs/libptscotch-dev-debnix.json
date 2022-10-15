@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libptscotch-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d7ce17b73061816bb0db6c23262341da53b332119d0e9513da1bd8ca41b38142",
+  "deb_inputs": [
+    "bison",
+    "chrpath",
+    "debhelper-compat",
+    "flex",
+    "fortran-compiler",
+    "gfortran",
+    "libbz2-dev",
+    "liblzma-dev",
+    "libptscotch-7.0",
+    "libptscotch-dev",
+    "libscotch-7.0",
+    "libscotch-dev",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "openmpi",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

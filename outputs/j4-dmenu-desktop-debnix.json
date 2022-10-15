@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "j4-dmenu-desktop",
+  "nix_pkg": null,
+  "control_file_hash": "33c709f25c02084fff97ee936079d36427271f07c4b795074ad1e1d268996af8",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

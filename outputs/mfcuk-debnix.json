@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "mfcuk",
+  "nix_pkg": null,
+  "control_file_hash": "a77e9275f3f51e27459b26e27bdea70470586454f893acbfee8f22947d130422",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnfc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnfc",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnfc-dev": "libnfc"
+  }
+}

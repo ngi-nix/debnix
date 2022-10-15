@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dnsmasq-utils",
+  "nix_pkg": null,
+  "control_file_hash": "9df841925ad1ac2ad8b6c7635cdb05897db02eb1efe2d30f24d58f3e1d5e9e2e",
+  "deb_inputs": [
+    "adduser",
+    "dns-root-data",
+    "dnsmasq-base",
+    "init-system-helpers",
+    "lsb-base",
+    "netbase",
+    "resolvconf"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "libidn",
+    "libnetfilter_conntrack",
+    "nettle",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

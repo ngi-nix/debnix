@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "tio",
+  "nix_pkg": null,
+  "control_file_hash": "d780a4d237600c89b1631134dd70ff121fb8b9a4ba3b30fbb4327d9ee6c02fdf",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "libinih-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "cmake",
+    "inih",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libinih-dev": "inih",
+    "meson": "meson",
+    "bash-completion": "bash-completion"
+  }
+}

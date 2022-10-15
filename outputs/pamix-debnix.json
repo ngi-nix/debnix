@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "pamix",
+  "nix_pkg": null,
+  "control_file_hash": "5a2c5aec95ad2d42ab2214a425ee9ad09a88a5f1718076211e2cb8786dbc1a2d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libncursesw5-dev",
+    "libpulse-dev",
+    "pulseaudio"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libpulseaudio",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libncursesw5-dev": "ncurses"
+  }
+}

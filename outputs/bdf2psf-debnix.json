@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "bdf2psf",
+  "nix_pkg": null,
+  "control_file_hash": "6365445ce95d88768547aaa9dfa4365ca7ccf1372b38707d6a747f46a42c596f",
+  "deb_inputs": [
+    "archdetect",
+    "bdfresize",
+    "cdebconf-udeb",
+    "console-setup",
+    "console-setup-freebsd",
+    "console-setup-linux",
+    "console-tools",
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "hurd",
+    "hurd-udeb",
+    "init-system-helpers",
+    "initscripts",
+    "kbd",
+    "kbd-udeb",
+    "kbdcontrol",
+    "kbdcontrol-udeb",
+    "keyboard-configuration",
+    "liblocale-gettext-perl",
+    "libxml-parser-perl",
+    "locales",
+    "lsb-base",
+    "perl",
+    "po-debconf",
+    "vidcontrol",
+    "xkb-data"
+  ],
+  "nix_inputs": [
+    "dpkg"
+  ],
+  "map": {}
+}

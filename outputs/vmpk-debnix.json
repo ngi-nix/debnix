@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "vmpk",
+  "nix_pkg": null,
+  "control_file_hash": "4efb52fe2869163ac48cdb4669ffb68402fd4a6e073945252d9acd61741c0cea",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libasound2-dev",
+    "libdrumstick-dev",
+    "libdrumstick-rt-backends",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "libx11-dev",
+    "pkg-config",
+    "qjackctl",
+    "qsynth",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "docbook-xsl-nons",
+    "drumstick",
+    "pkg-config-wrapper",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "libdrumstick-rt-backends": "drumstick",
+    "libdrumstick-dev": "drumstick"
+  }
+}

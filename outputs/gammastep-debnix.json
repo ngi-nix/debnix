@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "gammastep",
+  "nix_pkg": null,
+  "control_file_hash": "4e248ebd4e932631ff4a57f561cb4700931ea1f03797ce2e8f9ea5e94f956802",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper-compat",
+    "intltool",
+    "libdrm-dev",
+    "libgeoclue-2-dev",
+    "libglib2.0-dev",
+    "libwayland-dev",
+    "libx11-dev",
+    "libxcb-randr0-dev",
+    "libxcb1-dev",
+    "libxxf86vm-dev",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "geoclue",
+    "gettext",
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "libayatana-appindicator-gtk3",
+    "libdrm",
+    "libtool",
+    "libxcb",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libxcb-randr0-dev": "libxcb",
+    "intltool": "intltool",
+    "libgeoclue-2-dev": "geoclue",
+    "libdrm-dev": "libdrm",
+    "autopoint": "gettext",
+    "libxcb1-dev": "libxcb"
+  }
+}

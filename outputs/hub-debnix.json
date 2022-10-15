@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "hub",
+  "nix_pkg": null,
+  "control_file_hash": "96796a9ea2323aedebf6dba22ded907b723a3449dc73900ef58a23d27bfefc0e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dh-golang",
+    "git",
+    "golang-any",
+    "golang-github-atotto-clipboard-dev",
+    "golang-github-bmizerany-assert-dev",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-kballard-go-shellquote-dev",
+    "golang-github-mattn-go-colorable-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-russross-blackfriday-v2-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "xclip",
+    "xsel"
+  ],
+  "nix_inputs": [
+    "git",
+    "go",
+    "groff"
+  ],
+  "map": {
+    "git": "git"
+  }
+}

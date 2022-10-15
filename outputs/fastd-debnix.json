@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "fastd",
+  "nix_pkg": null,
+  "control_file_hash": "ea675516f5623188a69e6ba7b0835fc0fd63a4f0aaabc8daa8162d5a626d9235",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dpkg-dev",
+    "fastd-doc",
+    "libcap-dev",
+    "libjs-mathjax",
+    "libjson-c-dev",
+    "libmnl-dev",
+    "libsodium-dev",
+    "libssl-dev",
+    "libuecc-dev",
+    "meson",
+    "pkg-config",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme"
+  ],
+  "nix_inputs": [
+    "bison",
+    "json-c",
+    "libcap",
+    "libmnl",
+    "libsodium",
+    "libuecc",
+    "meson",
+    "ninja",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcap-dev": "libcap",
+    "libssl-dev": "openssl",
+    "meson": "meson",
+    "libjson-c-dev": "json-c",
+    "bison": "bison",
+    "libuecc-dev": "libuecc",
+    "libsodium-dev": "libsodium",
+    "libmnl-dev": "libmnl"
+  }
+}

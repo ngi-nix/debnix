@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "keynav",
+  "nix_pkg": null,
+  "control_file_hash": "09b6a455a565866234bf81f7e18a58a4b471919047d6edeab5e4e58f8ef86c99",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libxdo-dev",
+    "libxinerama-dev",
+    "perl"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "glib",
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXinerama",
+    "libXrandr",
+    "libXtst",
+    "pkg-config-wrapper",
+    "xdotool",
+    "xorgproto"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "libxdo-dev": "xdotool",
+    "libxinerama-dev": "libXinerama",
+    "libglib2.0-dev": "glib"
+  }
+}

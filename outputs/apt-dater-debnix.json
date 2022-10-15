@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "apt-dater",
+  "nix_pkg": null,
+  "control_file_hash": "d7aecb1bc3d24c061e41f25dc247967e147f0f0a2779a98c17b8bc9851dc6ff6",
+  "deb_inputs": [
+    "apt-dater-host",
+    "debhelper-compat",
+    "libconfig-dev",
+    "libglib-perl",
+    "libglib2.0-dev",
+    "libncursesw5-dev",
+    "libpopt-dev",
+    "libxml-writer-perl",
+    "libxml2-dev",
+    "lockfile-progs",
+    "openssh-client",
+    "procmail",
+    "tcl-dev",
+    "tmux",
+    "xsltproc",
+    "xxd"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "libxml2",
+    "ncurses",
+    "pkg-config-wrapper",
+    "popt",
+    "screen",
+    "vim"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libxml2-dev": "libxml2",
+    "xxd": "vim",
+    "libpopt-dev": "popt",
+    "libglib2.0-dev": "glib"
+  }
+}

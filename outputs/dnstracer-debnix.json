@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "dnstracer",
+  "nix_pkg": null,
+  "control_file_hash": "f1c80806d5476e07b4b73bd3a41b6223a694c6fb8ee8de93ce06d58fb059cdc8",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

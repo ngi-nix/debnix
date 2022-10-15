@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "key-mapper",
+  "nix_pkg": null,
+  "control_file_hash": "9d74bed3536e7bef1ba44aa371e1f2102c574d12b84ae77f0564d76e69c27a0d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-glib-2.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-gtksource-4",
+    "input-remapper",
+    "input-remapper-daemon",
+    "input-remapper-gtk",
+    "python3-all",
+    "python3-evdev",
+    "python3-gi",
+    "python3-inputremapper",
+    "python3-pydantic",
+    "python3-pydbus",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "evdev",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "gtksourceview",
+    "pkgconfig",
+    "pydantic",
+    "pydbus",
+    "pygobject",
+    "python3",
+    "setuptools",
+    "xmodmap"
+  ],
+  "map": {
+    "python3-pydantic": "pydantic",
+    "python3-pydbus": "pydbus",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "python3-gi": "pygobject",
+    "python3-setuptools": "setuptools",
+    "gir1.2-gtksource-4": "gtksourceview"
+  }
+}

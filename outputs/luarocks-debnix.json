@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "luarocks",
+  "nix_pkg": null,
+  "control_file_hash": "b084dca79db92dd35ae431d9b9cb378335b461d7a95f9246c1c24763c471f060",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-lua",
+    "liblua5.1-dev",
+    "liblua5.2-dev",
+    "liblua5.3-dev",
+    "lua-any",
+    "lua-ldoc",
+    "lua-sec",
+    "lua5.1",
+    "lua5.2",
+    "lua5.3",
+    "txt2man",
+    "unzip",
+    "wget",
+    "zip"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "lua",
+    "unzip",
+    "which",
+    "zip"
+  ],
+  "map": {
+    "liblua5.2-dev": "lua",
+    "lua5.3": "lua",
+    "unzip": "unzip",
+    "lua5.1": "lua",
+    "lua5.2": "lua",
+    "zip": "zip",
+    "liblua5.1-dev": "lua",
+    "liblua5.3-dev": "lua"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "purple-lurch",
+  "nix_pkg": null,
+  "control_file_hash": "0f2c07683d70659198d406efe056aee263298430cca72849b4b9e4fec0be1ace",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libaxc-dev",
+    "libcmocka-dev",
+    "libgcrypt-dev",
+    "libmxml-dev",
+    "libomemo-dev",
+    "libpurple-dev",
+    "libsignal-protocol-c-dev",
+    "libsqlite3-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libgcrypt",
+    "libxml2",
+    "mxml",
+    "pidgin",
+    "sqlite"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libgcrypt-dev": "libgcrypt",
+    "libmxml-dev": "mxml",
+    "libpurple-dev": "pidgin",
+    "libsqlite3-dev": "sqlite"
+  }
+}

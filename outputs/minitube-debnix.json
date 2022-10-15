@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "minitube",
+  "nix_pkg": null,
+  "control_file_hash": "21c331205e53e02caab3c5b8546fb8fdb1301b2c72759c8dc57fe852c3db30f5",
+  "deb_inputs": [
+    "dbus-session-bus",
+    "debhelper",
+    "default-dbus-session-bus",
+    "libmpv-dev",
+    "libqt5sql5-sqlite",
+    "libqt5x11extras5-dev",
+    "qtbase5-dev",
+    "qtchooser",
+    "qtdeclarative5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "phonon",
+    "phonon-backend-vlc",
+    "qtbase",
+    "qtdeclarative",
+    "qttools",
+    "qtx11extras"
+  ],
+  "map": {
+    "qtdeclarative5-dev": "qtdeclarative",
+    "qttools5-dev-tools": "qttools",
+    "qtbase5-dev": "qtbase"
+  }
+}

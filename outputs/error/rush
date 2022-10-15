@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "inetutils-inetd", "texinfo", "xinetd"], or 
+output: 
+[] is empty!

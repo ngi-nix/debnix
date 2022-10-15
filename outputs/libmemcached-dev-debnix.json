@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libmemcached-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ff24606d6733f26e2bb18bc3fcf82ff22fd86bfe6d23f9951e1339f9ed885d10",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "libevent-dev",
+    "libhashkit-dev",
+    "libhashkit2",
+    "libmemcached11",
+    "libmemcachedutil2",
+    "libsasl2-dev",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "cyrus-sasl",
+    "libevent"
+  ],
+  "map": {
+    "libevent-dev": "libevent"
+  }
+}

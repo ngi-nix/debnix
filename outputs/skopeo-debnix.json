@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "skopeo",
+  "nix_pkg": null,
+  "control_file_hash": "e53d680558bf5b0b405c0f716e01aa4e5ef7decbe1e4eeb9a00e3a1f1d3cdb0e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "go-md2man",
+    "golang-any",
+    "golang-github-containers-common",
+    "golang-github-containers-common-dev",
+    "golang-github-containers-image-dev",
+    "golang-github-containers-storage-dev",
+    "golang-github-docker-docker-dev",
+    "golang-github-opencontainers-go-digest-dev",
+    "golang-github-opencontainers-image-spec-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-gopkg-check.v1-dev"
+  ],
+  "nix_inputs": [
+    "btrfs-progs",
+    "go",
+    "go-md2man",
+    "gpgme",
+    "lvm2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "go-md2man": "go-md2man"
+  }
+}

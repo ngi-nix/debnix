@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "javacc",
+  "nix_pkg": null,
+  "control_file_hash": "1744079fda0506d5922ee4fadae2cee2c013331c4e072851dd802f28bdafc65e",
+  "deb_inputs": [
+    "ant",
+    "ant-optional",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre-headless",
+    "docbook-to-man",
+    "java5-runtime-headless",
+    "javacc",
+    "javacc-doc",
+    "junit",
+    "libxalan2-java",
+    "maven-repo-helper"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant",
+    "ant-optional": "ant"
+  }
+}

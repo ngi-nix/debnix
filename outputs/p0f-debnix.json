@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "p0f",
+  "nix_pkg": null,
+  "control_file_hash": "6bf6921d07df4705e8d8cecd5f88422e762787038d24f707a3237fca0c140176",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

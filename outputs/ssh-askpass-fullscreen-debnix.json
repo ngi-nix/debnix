@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "ssh-askpass-fullscreen",
+  "nix_pkg": null,
+  "control_file_hash": "f8c7afbd924e3f5c086477bb8cff2323d1513c2dfc1ba793a818fd0ad3ef4e37",
+  "deb_inputs": [
+    "debhelper",
+    "libgtk2.0-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "openssh",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+"
+  }
+}
