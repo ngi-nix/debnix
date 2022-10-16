@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "worker",
+  "nix_pkg": null,
+  "control_file_hash": "89885532932adc89a3b3b8c3a9cc41db500ce911b4f591d952eae76d7999d77d",
+  "deb_inputs": [
+    "avfs",
+    "check",
+    "debhelper-compat",
+    "imagemagick",
+    "libdbus-1-dev",
+    "liblua5.2-dev",
+    "liblzma-dev",
+    "libmagic-dev",
+    "libx11-dev",
+    "libxft-dev",
+    "python3",
+    "worker",
+    "worker-data",
+    "x11-utils",
+    "xli"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

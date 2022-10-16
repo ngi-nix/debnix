@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libxcb-cursor-dev",
+  "nix_pkg": null,
+  "control_file_hash": "070b177d5753a77367fd4996e485afaed581cbc29daf94ed41b77b8e0eef1cda",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "libxcb-cursor0",
+    "libxcb-image0-dev",
+    "libxcb-render-util0-dev",
+    "libxcb-render0-dev",
+    "libxcb1-dev",
+    "pkg-config",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gnum4",
+    "gperf",
+    "libxcb",
+    "pkg-config-wrapper",
+    "xcb-util-image",
+    "xcb-util-renderutil",
+    "xorgproto"
+  ],
+  "map": {
+    "libxcb1-dev": "libxcb",
+    "libxcb-render0-dev": "libxcb",
+    "libxcb-image0-dev": "xcb-util-image",
+    "libxcb-render-util0-dev": "xcb-util-renderutil"
+  }
+}

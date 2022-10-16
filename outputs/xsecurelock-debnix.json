@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "xsecurelock",
+  "nix_pkg": null,
+  "control_file_hash": "e611c63f35bcd44e0d4942047f7706217ebbded3e240b6464d37d73498178933",
+  "deb_inputs": [
+    "dash",
+    "debhelper",
+    "libc6",
+    "libpam-dev",
+    "libx11-dev",
+    "libxcomposite-dev",
+    "libxext-dev",
+    "libxfixes-dev",
+    "libxft-dev",
+    "libxmuu-dev",
+    "libxrandr-dev",
+    "libxss-dev",
+    "mplayer",
+    "mpv",
+    "pandoc",
+    "x11-xserver-utils",
+    "x11proto-core-dev",
+    "xscreensaver-data",
+    "xscreensaver-data-extra",
+    "xscreensaver-gl",
+    "xscreensaver-gl-extra"
+  ],
+  "nix_inputs": [
+    "apache-httpd",
+    "libX11",
+    "libXScrnSaver",
+    "libXcomposite",
+    "libXext",
+    "libXft",
+    "libXmu",
+    "libXrandr",
+    "linux-pam",
+    "pamtester",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxrandr-dev": "libXrandr",
+    "libxmuu-dev": "libXmu",
+    "libxcomposite-dev": "libXcomposite",
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext",
+    "libxft-dev": "libXft"
+  }
+}

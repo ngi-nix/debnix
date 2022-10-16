@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "nsis-common",
+  "nix_pkg": null,
+  "control_file_hash": "5cb5c77b694f5af0cbbff2e6fb28561ff5e3bba0a493c15ebee6e2d18668c392",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-xsl-ns",
+    "docbook5-xml",
+    "html2text",
+    "libcppunit-dev",
+    "mingw-w64",
+    "nsis-common",
+    "nsis-doc",
+    "nsis-pluginapi",
+    "scons",
+    "wine",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "scons",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "scons": "scons"
+  }
+}

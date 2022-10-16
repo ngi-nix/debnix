@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "bibletime",
+  "nix_pkg": null,
+  "control_file_hash": "5052f1a8f7f5f0b58ea4df5f26f92ea73f88f7162eb57a7f47ec85211d25c2bf",
+  "deb_inputs": [
+    "bibletime",
+    "bibletime-data",
+    "cmake",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "git",
+    "libclucene-dev",
+    "libcurl4-gnutls-dev",
+    "libqt5svg5-dev",
+    "libqt5webkit5-dev",
+    "libsword-dev",
+    "pkg-config",
+    "po4a",
+    "qml-module-qtquick2",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qtwebengine5-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "boost",
+    "clucene-core",
+    "cmake",
+    "docbook-xml",
+    "pkg-config-wrapper",
+    "po4a",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "sword"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "libclucene-dev": "clucene-core",
+    "libsword-dev": "sword",
+    "cmake": "cmake",
+    "docbook-xml": "docbook-xml",
+    "po4a": "po4a",
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "desmume",
+  "nix_pkg": null,
+  "control_file_hash": "ba3d30463b5f0f92ffcd43289b7f0ee542e5cdc7bb438f408965f8574ab7d821",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "intltool",
+    "libagg-dev",
+    "libglade2-dev",
+    "libgtk2.0-dev",
+    "libgtkglext1-dev",
+    "libosmesa6-dev",
+    "libsdl1.2-dev",
+    "libsoundtouch-dev",
+    "libtinyxml-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "agg",
+    "alsa-lib",
+    "desktop-file-utils",
+    "glu",
+    "gtk+3",
+    "intltool",
+    "libXmu",
+    "libpcap",
+    "libtool",
+    "lua",
+    "meson",
+    "ninja",
+    "openal-soft",
+    "pkg-config-wrapper",
+    "soundtouch",
+    "tinyxml",
+    "zlib"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libsoundtouch-dev": "soundtouch",
+    "libagg-dev": "agg",
+    "libtinyxml-dev": "tinyxml"
+  }
+}

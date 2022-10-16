@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "blktrace",
+  "nix_pkg": null,
+  "control_file_hash": "ed6fb4acb175878ec0425b4b46affe71303c8e2a606faa9fd922bce7e410de71",
+  "deb_inputs": [
+    "debhelper",
+    "ffmpeg",
+    "ghostscript",
+    "gnuplot-x11",
+    "libaio-dev",
+    "librsvg2-bin",
+    "libtheora-bin",
+    "python3",
+    "texlive-latex-base",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "libaio"
+  ],
+  "map": {
+    "libaio-dev": "libaio"
+  }
+}

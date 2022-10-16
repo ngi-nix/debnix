@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "buku",
+  "nix_pkg": null,
+  "control_file_hash": "a47520c029c2a91e5a5cee54123d01d6eded111a6a796fee19ec60bb1419d4a2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-bs4",
+    "python3-certifi",
+    "python3-cryptography",
+    "python3-setuptools",
+    "python3-urllib3"
+  ],
+  "nix_inputs": [
+    "beautifulsoup4",
+    "certifi",
+    "click",
+    "cryptography",
+    "flake8",
+    "html5lib",
+    "hypothesis",
+    "mypy-extensions",
+    "pylint",
+    "pytest",
+    "pytest-cov",
+    "pytest-vcr",
+    "python3",
+    "pyyaml",
+    "urllib3"
+  ],
+  "map": {
+    "python3-bs4": "beautifulsoup4",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libtinyxml-dev",
+  "nix_pkg": null,
+  "control_file_hash": "657a4214c5df98a904b26e5b6d78fe32c3463edcc77b01aefbe98bd511359042",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libtinyxml-dev",
+    "libtinyxml-doc",
+    "libtinyxml2.6.2v5"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

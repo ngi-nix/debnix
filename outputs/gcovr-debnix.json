@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gcovr",
+  "nix_pkg": null,
+  "control_file_hash": "aced56b8b6fd24def42ff32b66bf10cacf239dcf9f83c41f6c8f10efca781588",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "help2man",
+    "python3",
+    "python3-importlib-metadata",
+    "python3-lxml",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "lxml",
+    "pygments",
+    "python3"
+  ],
+  "map": {
+    "python3-lxml": "lxml",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gpscorrelate",
+  "nix_pkg": null,
+  "control_file_hash": "ad8421986b96755526d915651b82b43119195325e8a206292c08db6ab778196f",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "exiv2",
+    "gpscorrelate",
+    "libexiv2-dev",
+    "libgtk-3-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "exiv2",
+    "gtk+3",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "docbook-xml": "docbook-xml",
+    "exiv2": "exiv2",
+    "xsltproc": "libxslt",
+    "libexiv2-dev": "exiv2"
+  }
+}

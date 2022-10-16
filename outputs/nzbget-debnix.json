@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "nzbget",
+  "nix_pkg": null,
+  "control_file_hash": "da29e420f032e245cfd6d42eeac3f1c4731989194eeb238dd8b81a9607a05d98",
+  "deb_inputs": [
+    "debhelper",
+    "libjs-elycharts",
+    "libjs-raphael",
+    "libncurses5-dev",
+    "libssl-dev",
+    "libxml2-dev",
+    "par2",
+    "pkg-config",
+    "python3",
+    "unrar",
+    "unrar-free",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libgcrypt",
+    "libpar2",
+    "libsigc++",
+    "libxml2",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "libxml2-dev": "libxml2"
+  }
+}

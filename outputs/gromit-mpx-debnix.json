@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "gromit-mpx",
+  "nix_pkg": null,
+  "control_file_hash": "768f4077477e1af3adcf0c5a09fbbee6d07cce03a4884f4a9b3e18f9c42cf02b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libayatana-appindicator3-dev",
+    "libgtk-3-dev"
+  ],
+  "nix_inputs": [
+    "at-spi2-core",
+    "cmake",
+    "dbus",
+    "glib",
+    "gtk+3",
+    "libXdmcp",
+    "libappindicator-gtk3",
+    "libdbusmenu-glib",
+    "libepoxy",
+    "libpthread-stubs",
+    "libxkbcommon",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

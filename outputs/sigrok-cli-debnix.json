@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "sigrok-cli",
+  "nix_pkg": null,
+  "control_file_hash": "43ae9c138a5e2e81a3083c004c35fbe52beaee4fe0153e0afe21e001173c8cb2",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libsigrok-dev",
+    "libsigrokdecode-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libsigrok",
+    "libsigrokdecode",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsigrokdecode-dev": "libsigrokdecode",
+    "libsigrok-dev": "libsigrok",
+    "libglib2.0-dev": "glib"
+  }
+}

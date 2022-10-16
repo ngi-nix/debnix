@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libnet1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5baaef7cb65c306cc17275143e96c12e9fa454bb2ab120454e5cee42af9feffc",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-autoreconf",
+    "libc6-dev",
+    "libnet1",
+    "libnet1-dev",
+    "libpcap-dev",
+    "patchutils",
+    "sharutils"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "map": {}
+}

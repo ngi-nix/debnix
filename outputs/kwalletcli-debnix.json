@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "kwalletcli",
+  "nix_pkg": null,
+  "control_file_hash": "21789b1b62ebb2cb37840b0f64d49bdb55b19f7669ef5b078f89e6840a0f162c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnupg-agent",
+    "kwalletmanager",
+    "libkf5coreaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5wallet-dev",
+    "mksh",
+    "openssh-client",
+    "pinentry",
+    "pinentry-curses",
+    "pinentry-fltk",
+    "pinentry-gnome3",
+    "pinentry-gtk2",
+    "pinentry-qt",
+    "pinentry-tty",
+    "pinentry-x2go",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "kcoreaddons",
+    "ki18n",
+    "kwallet",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "libkf5i18n-dev": "ki18n"
+  }
+}

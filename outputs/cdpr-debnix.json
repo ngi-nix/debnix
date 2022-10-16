@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "cdpr",
+  "nix_pkg": null,
+  "control_file_hash": "d3a12434f5a1b9cb8a79a9530983f341e9de81c2f4be4fcd828c3a33d9acebb0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

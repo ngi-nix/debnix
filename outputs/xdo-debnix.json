@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "xdo",
+  "nix_pkg": null,
+  "control_file_hash": "6d88dcbd34d4d1204509a711aafeac7dc19e6fa3309f7fabc25884e47fabbaff",
+  "deb_inputs": [
+    "debhelper",
+    "libxcb-ewmh-dev",
+    "libxcb-icccm4-dev",
+    "libxcb-util0-dev",
+    "libxcb-xtest0-dev"
+  ],
+  "nix_inputs": [
+    "libxcb",
+    "xcb-util",
+    "xcb-util-wm"
+  ],
+  "map": {
+    "libxcb-xtest0-dev": "libxcb",
+    "libxcb-util0-dev": "xcb-util",
+    "libxcb-ewmh-dev": "xcb-util-wm",
+    "libxcb-icccm4-dev": "xcb-util-wm"
+  }
+}
