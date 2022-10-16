@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "bmap-tools",
+  "nix_pkg": null,
+  "control_file_hash": "a45c3b996dacbd890e00a2415859d8a07449282841202f09ca81a0e4f42dcd48",
+  "deb_inputs": [
+    "bzip2",
+    "debhelper-compat",
+    "dh-python",
+    "lz4",
+    "lzop",
+    "pbzip2",
+    "pigz",
+    "python3",
+    "python3-gpgme",
+    "python3-setuptools",
+    "python3-six",
+    "unzip",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "python3",
+    "six"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-six": "six"
+  }
+}

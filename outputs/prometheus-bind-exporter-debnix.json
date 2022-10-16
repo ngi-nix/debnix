@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "prometheus-bind-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "2b7ee5e011628613d1d92db0cca909258f8cf407ab16bf1902b9313a7bd004e1",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-bash-completion",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-go-kit-log-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

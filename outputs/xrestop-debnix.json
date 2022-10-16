@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "xrestop",
+  "nix_pkg": null,
+  "control_file_hash": "a145dcd3ca4381eb6d4a470cca50d46d07948357e8232558c6286e116340e670",
+  "deb_inputs": [
+    "debhelper",
+    "libice-dev",
+    "libncurses5-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxres-dev",
+    "pkg-config",
+    "x11proto-core-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXres",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libx11-dev": "libX11",
+    "libxres-dev": "libXres",
+    "libxext-dev": "libXext"
+  }
+}

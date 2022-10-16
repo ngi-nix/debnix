@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libgraphene-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3b56f80d7bd5f467640fac2048cb86110a0d3888dd94d170249949ca4772b6d7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-graphene-1.0",
+    "gnome-desktop-testing",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgraphene-1.0-0",
+    "libgraphene-doc",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "mutest",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libgirepository1.0-dev": "gobject-introspection"
+  }
+}

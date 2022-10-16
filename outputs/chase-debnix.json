@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "chase",
+  "nix_pkg": null,
+  "control_file_hash": "e8df81e4a0a2512a8b5506f6a2898e2a0e1a5e92fb4d8ce0e368242b37a4e11d",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libgc-dev"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "libatomic_ops",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

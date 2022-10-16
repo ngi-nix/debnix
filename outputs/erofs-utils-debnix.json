@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "erofs-utils",
+  "nix_pkg": null,
+  "control_file_hash": "e9d05a8ce2ca651bba32c9e8a91fdd7aa7ea30278f02327539346fcd35f4b934",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblz4-dev",
+    "libselinux1-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "lz4",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "liblz4-dev": "lz4"
+  }
+}

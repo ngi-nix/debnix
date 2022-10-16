@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libao-dev",
+  "nix_pkg": null,
+  "control_file_hash": "22ffb0f244c85a02097d235a66f981fdf8b6e5e5821be340028f0b1dc1d4283d",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libao-common",
+    "libao4",
+    "libasound2",
+    "libasound2-dev",
+    "libaudio-dev",
+    "libaudio2",
+    "libc6-dev",
+    "libpulse-dev",
+    "libpulse0",
+    "libsndio-dev",
+    "libsndio6.1",
+    "libxau-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2": "alsa-lib",
+    "libasound2-dev": "alsa-lib"
+  }
+}

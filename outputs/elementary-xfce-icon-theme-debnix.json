@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "elementary-xfce-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "986c379b494c313ae649f127040edca9335cf18637eb0d122ca49ec0153ab03b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtk-3-dev",
+    "librsvg2-dev",
+    "optipng"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "elementary-icon-theme",
+    "gdk-pixbuf",
+    "gnome-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "librsvg",
+    "optipng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "librsvg2-dev": "librsvg",
+    "optipng": "optipng"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "fatresize",
+  "nix_pkg": null,
+  "control_file_hash": "f1ae758b96707f97d4f21177aad420a6ebae18decffbabc0472b7f24a2d4d050",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "docbook-utils",
+    "dosfstools",
+    "libparted-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "parted",
+    "pkg-config-wrapper",
+    "util-linux"
+  ],
+  "map": {
+    "uuid-dev": "util-linux",
+    "libparted-dev": "parted"
+  }
+}

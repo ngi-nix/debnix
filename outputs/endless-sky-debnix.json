@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "endless-sky",
+  "nix_pkg": null,
+  "control_file_hash": "cc060e3b3679421d4e40d15d5f75878a037c9815b3a2ca9099f2d2be866eec0d",
+  "deb_inputs": [
+    "debhelper",
+    "endless-sky-data",
+    "g++",
+    "libgl1-mesa-dev",
+    "libglew-dev",
+    "libjpeg-dev",
+    "libmad0-dev",
+    "libopenal-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "scons"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "glew",
+    "libjpeg-turbo",
+    "libmad",
+    "libpng-apng",
+    "openal-soft",
+    "scons"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libmad0-dev": "libmad",
+    "libopenal-dev": "openal-soft",
+    "libglew-dev": "glew",
+    "scons": "scons"
+  }
+}

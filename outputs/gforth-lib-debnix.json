@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gforth-lib",
+  "nix_pkg": null,
+  "control_file_hash": "f13e37b1f44b4942fd76b077869659cc1011384bfea69fcaf2abaac1e3e685b2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "emacsen-common",
+    "gforth",
+    "gforth-common",
+    "gforth-lib",
+    "libffi-dev",
+    "libltdl-dev",
+    "libtool",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "gforth-boot",
+    "libffi",
+    "swig",
+    "texinfo"
+  ],
+  "map": {
+    "libffi-dev": "libffi"
+  }
+}

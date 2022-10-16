@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "archivemount",
+  "nix_pkg": null,
+  "control_file_hash": "03dbc6c7a2d5b2209e598119899564d8a6cd36891e026c13f0d649aae4334bc8",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dpkg-dev",
+    "fuse",
+    "libarchive-dev",
+    "libfuse-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "libarchive",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfuse-dev": "fuse",
+    "fuse": "fuse",
+    "libarchive-dev": "libarchive"
+  }
+}

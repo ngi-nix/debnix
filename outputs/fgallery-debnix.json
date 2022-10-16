@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "fgallery",
+  "nix_pkg": null,
+  "control_file_hash": "bac11628a05cb9ff52b9f716e96abc98c8d5c886ca1c67ce879848d3738d8377",
+  "deb_inputs": [
+    "debhelper-compat",
+    "exiftran",
+    "facedetect",
+    "imagemagick",
+    "jpegoptim",
+    "libimage-exiftool-perl",
+    "libjpeg-turbo-progs",
+    "libjs-mootools",
+    "libjson-perl",
+    "liblcms2-utils",
+    "p7zip-full",
+    "pngcrush",
+    "zip"
+  ],
+  "nix_inputs": [
+    "Cpanel-JSON-XS",
+    "Image-ExifTool",
+    "perl",
+    "unzip"
+  ],
+  "map": {}
+}

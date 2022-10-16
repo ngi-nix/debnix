@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-elpa", "elpa-buttercup", "elpa-dash", "elpa-f", "elpa-flycheck", "elpa-haskell-mode", "elpa-let-alist", "elpa-seq", "elpa-shut-up", "emacs", "flycheck-doc", "python3-minimal", "python3-sphinx"], or 
+output: 
+[] is empty!

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "bmake",
+  "nix_pkg": null,
+  "control_file_hash": "125a58293defd94a9e7a3a783136590127cc03eb8369e14e704dbcfb39feee01",
+  "deb_inputs": [
+    "debhelper-compat",
+    "groff"
+  ],
+  "nix_inputs": [
+    "getopt",
+    "ksh",
+    "tzdata"
+  ],
+  "map": {}
+}

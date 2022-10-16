@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "nikto",
+  "nix_pkg": null,
+  "control_file_hash": "8884145a69728cc1a331703465768c4f2cd71094b2757742e92e29b75e3944d1",
+  "deb_inputs": [
+    "debhelper",
+    "libjson-pp-perl",
+    "libnet-ssleay-perl",
+    "libwhisker2-perl",
+    "nmap"
+  ],
+  "nix_inputs": [
+    "Net-SSLeay",
+    "perl"
+  ],
+  "map": {}
+}

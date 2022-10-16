@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "ncview",
+  "nix_pkg": null,
+  "control_file_hash": "b05d8badd3274fddf49231a7c686d1a139e3f897948d6c52c1229d6c768ce1cb",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libexpat1-dev",
+    "libnetcdf-dev",
+    "libnetpbm-dev",
+    "libpng-dev",
+    "libudunits2-dev",
+    "libxaw7-dev",
+    "netcdf-bin"
+  ],
+  "nix_inputs": [
+    "expat",
+    "libXaw",
+    "netcdf",
+    "udunits"
+  ],
+  "map": {
+    "libudunits2-dev": "udunits",
+    "libnetcdf-dev": "netcdf",
+    "libexpat1-dev": "expat",
+    "libxaw7-dev": "libXaw",
+    "netcdf-bin": "netcdf"
+  }
+}

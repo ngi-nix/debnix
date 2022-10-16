@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ne",
+  "nix_pkg": null,
+  "control_file_hash": "24fa722d2901b73e1092e1fa621616251975739da723e405be2226321f16f2ac",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "install-info",
+    "libncurses5-dev",
+    "ne",
+    "ne-doc",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ghostscript-with-X",
+    "ncurses",
+    "perl",
+    "texinfo"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "texinfo": "texinfo",
+    "install-info": "texinfo"
+  }
+}

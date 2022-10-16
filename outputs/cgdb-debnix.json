@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "cgdb",
+  "nix_pkg": null,
+  "control_file_hash": "c0bc3616c3baabb02ed7527815c792bc7845fa741199cd6716b8e2f81d2e813f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flex",
+    "gdb",
+    "libncurses-dev",
+    "libreadline-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "flex",
+    "ncurses",
+    "readline",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "flex": "flex",
+    "libreadline-dev": "readline",
+    "libncurses-dev": "ncurses"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libaa1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "493999b8a4fb244104361c447e0a3a5000f0e2b9df73f3c5d868bc242f5aef56",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libaa1",
+    "libgpm-dev",
+    "libncurses5-dev",
+    "libslang2-dev",
+    "libx11-dev",
+    "patch",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

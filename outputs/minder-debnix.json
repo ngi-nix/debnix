@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "minder",
+  "nix_pkg": null,
+  "control_file_hash": "3bf31090e22ede29984e0ce34c2db41ed283e14689044c171cb3027bdf3b498e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libarchive-dev",
+    "libgranite-dev",
+    "libgtksourceview-4-dev",
+    "libhandy-1-dev",
+    "libjson-glib-dev",
+    "libmarkdown2-dev",
+    "libxml2-dev",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "desktop-file-utils",
+    "discount",
+    "glib",
+    "granite",
+    "gtk+3",
+    "gtksourceview",
+    "hicolor-icon-theme",
+    "json-glib",
+    "libarchive",
+    "libgee",
+    "libhandy",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "shared-mime-info",
+    "vala"
+  ],
+  "map": {
+    "libgtksourceview-4-dev": "gtksourceview",
+    "valac": "vala",
+    "libxml2-dev": "libxml2",
+    "meson": "meson",
+    "libarchive-dev": "libarchive",
+    "libjson-glib-dev": "json-glib",
+    "libmarkdown2-dev": "discount",
+    "libgranite-dev": "granite"
+  }
+}

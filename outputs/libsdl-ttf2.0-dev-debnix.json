@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libsdl-ttf2.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "dad27f36de7c3b00c93262521e9909e50285b7eed9b9610e2bf9003eb469c971",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libc6-dev",
+    "libfreetype6-dev",
+    "libsdl-ttf2.0-0",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "freetype"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libfreetype6-dev": "freetype"
+  }
+}
