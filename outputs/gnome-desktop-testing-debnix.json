@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "gnome-desktop-testing",
+  "nix_pkg": null,
+  "control_file_hash": "26fa02957b413292d1e8c07ef91f70ecd2b7e68444260e5e0fbc9abade7ce662",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnome-pkg-tools",
+    "libglib2.0-dev",
+    "libsystemd-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd",
+    "libglib2.0-dev": "glib"
+  }
+}

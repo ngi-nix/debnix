@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "merkaartor",
+  "nix_pkg": null,
+  "control_file_hash": "034a62f0838c54851729d11feecfb866eca297c1de76877c270bcdce41ec41eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-dev",
+    "libboost-math-dev",
+    "libboost-serialization-dev",
+    "libexiv2-dev",
+    "libgdal-dev",
+    "libgps-dev",
+    "libproj-dev",
+    "libproxy-dev",
+    "libqt5svg5-dev",
+    "libquazip5-dev",
+    "libspatialite-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "qt5-qmake",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "qtwebengine5-dev",
+    "sharutils",
+    "spatialite-bin",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "exiv2",
+    "gdal",
+    "gpsd",
+    "proj",
+    "qtsvg",
+    "qttools",
+    "qtwebengine"
+  ],
+  "map": {
+    "libgdal-dev": "gdal",
+    "libgps-dev": "gpsd",
+    "qttools5-dev-tools": "qttools",
+    "libexiv2-dev": "exiv2",
+    "libproj-dev": "proj",
+    "qtwebengine5-dev": "qtwebengine"
+  }
+}

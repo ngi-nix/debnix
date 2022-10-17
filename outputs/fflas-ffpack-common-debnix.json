@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "fflas-ffpack-common",
+  "nix_pkg": null,
+  "control_file_hash": "41d7f5dc54876f61f30c994a6562a33d0d41b79ead756c08ec74fd8e99bd3a9f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fflas-ffpack-common",
+    "fflas-ffpack-dev-doc",
+    "fflas-ffpack-user-doc",
+    "jdupes",
+    "libblas-dev",
+    "libgivaro-dev",
+    "libgmp-dev",
+    "liblapack-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "blas",
+    "givaro",
+    "gmp-with-cxx",
+    "lapack",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libblas-dev": "blas",
+    "libgivaro-dev": "givaro",
+    "liblapack-dev": "lapack"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "lemonbar",
+  "nix_pkg": null,
+  "control_file_hash": "911814646af77be91be4b6253dd66d53ddaff6854171027def3d641046399f42",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libxcb-randr0-dev",
+    "libxcb-xinerama0-dev"
+  ],
+  "nix_inputs": [
+    "libxcb",
+    "perl"
+  ],
+  "map": {
+    "libxcb-xinerama0-dev": "libxcb",
+    "libxcb-randr0-dev": "libxcb"
+  }
+}

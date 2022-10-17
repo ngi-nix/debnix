@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "gnome-usage",
+  "nix_pkg": null,
+  "control_file_hash": "b004d7a95405beebe1f22f37133187859c2817de4ce86bda0742fbd757206e99",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "libdazzle-1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgtop2-dev",
+    "libhandy-1-dev",
+    "libtracker-sparql-3.0-dev",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "desktop-file-utils",
+    "gettext",
+    "glib",
+    "gtk+3",
+    "libdazzle",
+    "libgtop",
+    "libhandy",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "tracker",
+    "vala"
+  ],
+  "map": {
+    "libgtop2-dev": "libgtop",
+    "valac": "vala",
+    "libdazzle-1.0-dev": "libdazzle",
+    "libglib2.0-dev": "glib",
+    "libtracker-sparql-3.0-dev": "tracker",
+    "meson": "meson"
+  }
+}

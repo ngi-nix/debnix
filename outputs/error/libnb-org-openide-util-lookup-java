@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ant", "ant-optional", "antlr3", "debhelper-compat", "default-jdk", "javacc", "javahelp2", "javahelper", "junit", "junit4", "libasm-java", "libbindex-java", "libcommons-codec-java", "libcommons-io-java", "libcommons-logging-java", "libequinox-osgi-java", "libfelix-framework-java", "libfelix-main-java", "libhamcrest-java", "libjemmy2-java", "libjna-platform-java", "libjnlp-servlet-java", "libjson-simple-java", "libjsr305-java", "libnb-org-openide-modules-java", "libnb-org-openide-util-java", "libnb-org-openide-util-lookup-java", "libnb-platform18-java", "libosgi-compendium-java", "libosgi-core-java", "libswing-layout-java", "maven-repo-helper", "rdfind", "symlinks", "testng"], or 
+output: 
+[] is empty!

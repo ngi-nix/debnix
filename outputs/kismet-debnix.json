@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "kismet",
+  "nix_pkg": null,
+  "control_file_hash": "7ad462fc0dc1a3fbe13ccb22b2ffaa3981a84e409c92ea191a929ff2b69b188e",
+  "deb_inputs": [
+    "adduser",
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "dpkg-dev",
+    "festival",
+    "gpsd",
+    "kismet",
+    "kismet-plugins",
+    "libbluetooth-dev",
+    "libcap-dev",
+    "libcap2-bin",
+    "libncurses5-dev",
+    "libnl-genl-3-dev",
+    "libpcap-dev",
+    "libpcre3-dev",
+    "libssl-dev",
+    "pkg-config",
+    "po-debconf",
+    "spectools"
+  ],
+  "nix_inputs": [
+    "binutils-wrapper",
+    "elfutils",
+    "libcap",
+    "libmicrohttpd",
+    "libnl",
+    "libpcap",
+    "libusb",
+    "pcre",
+    "pkg-config-wrapper",
+    "protobuf",
+    "protobuf-c",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libcap2-bin": "libcap",
+    "libcap-dev": "libcap",
+    "libpcap-dev": "libpcap",
+    "libpcre3-dev": "pcre",
+    "libnl-genl-3-dev": "libnl"
+  }
+}
