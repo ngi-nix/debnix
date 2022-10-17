@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "lgogdownloader",
+  "nix_pkg": null,
+  "control_file_hash": "774b40f65cc461402cd52acd89b4c0b59e43882199931febe6e9e7bdae2d6167",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-iostreams-dev",
+    "libboost-program-options-dev",
+    "libboost-regex-dev",
+    "libboost-system-dev",
+    "libcurl4-gnutls-dev",
+    "libhtmlcxx-dev",
+    "libjsoncpp-dev",
+    "librhash-dev",
+    "libtinyxml2-dev",
+    "ninja-build",
+    "pkg-config",
+    "qtwebengine5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "curl",
+    "help2man",
+    "htmlcxx",
+    "jsoncpp",
+    "liboauth",
+    "pkg-config-wrapper",
+    "rhash",
+    "tinyxml-2"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "help2man": "help2man",
+    "libcurl4-gnutls-dev": "curl",
+    "libjsoncpp-dev": "jsoncpp",
+    "librhash-dev": "rhash",
+    "libhtmlcxx-dev": "htmlcxx"
+  }
+}

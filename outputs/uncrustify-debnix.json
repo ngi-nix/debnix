@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "uncrustify",
+  "nix_pkg": null,
+  "control_file_hash": "3c82f4015023bcee880d525eeccb153f16c4f4bd009b5e9ed7be83d2e04b7c9a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "python3": "python3"
+  }
+}

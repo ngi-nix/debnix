@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "osmctools",
+  "nix_pkg": null,
+  "control_file_hash": "f7bcd1b54b02e435a0dafd567f81102e1c26063afeb7596e443e8c526743f6f4",
+  "deb_inputs": [
+    "debhelper",
+    "wget",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

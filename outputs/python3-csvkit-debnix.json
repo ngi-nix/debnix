@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "python3-csvkit",
+  "nix_pkg": null,
+  "control_file_hash": "d012b26862453bb2c1e01bc850f5fd3219f1e02e96b12b95ce1c3195b8d8737c",
+  "deb_inputs": [
+    "csvkit-doc",
+    "debhelper-compat",
+    "dh-python",
+    "dpkg-dev",
+    "help2man",
+    "python3-agate",
+    "python3-agatedbf",
+    "python3-agateexcel",
+    "python3-agatesql",
+    "python3-all",
+    "python3-csvkit",
+    "python3-doc",
+    "python3-setuptools",
+    "python3-six",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "sphinx-common"
+  ],
+  "nix_inputs": [
+    "agate",
+    "agate-dbf",
+    "agate-excel",
+    "agate-sql",
+    "nose",
+    "python3",
+    "setuptools",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six",
+    "python3-setuptools": "setuptools"
+  }
+}

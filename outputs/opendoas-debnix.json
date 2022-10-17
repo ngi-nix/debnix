@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "opendoas",
+  "nix_pkg": null,
+  "control_file_hash": "17f15b4ace0870cce1e95f9b1168936c159b9216fad4277f675db2dc4320c912",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "libpam0g-dev",
+    "opendoas"
+  ],
+  "nix_inputs": [
+    "bison",
+    "linux-pam"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

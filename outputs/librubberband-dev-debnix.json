@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "librubberband-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a4b8085aea455550a9d31a5da8491c0f19612bf26ddf4af8aefc9fc4b7409d97",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook-to-man",
+    "ladspa-sdk",
+    "libboost-test-dev",
+    "libfftw3-dev",
+    "librubberband2",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "libspeexdsp-dev",
+    "lv2-dev",
+    "meson",
+    "pkg-config",
+    "vamp-plugin-sdk"
+  ],
+  "nix_inputs": [
+    "fftw-double",
+    "ladspa.h",
+    "libsamplerate",
+    "libsndfile",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vamp-plugin-sdk"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "meson": "meson",
+    "libsamplerate0-dev": "libsamplerate",
+    "vamp-plugin-sdk": "vamp-plugin-sdk"
+  }
+}

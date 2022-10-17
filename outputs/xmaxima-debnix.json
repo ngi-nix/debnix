@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "xmaxima",
+  "nix_pkg": null,
+  "control_file_hash": "50e83158fceffb2b9d5a8d4a9e515837a55fa1234f0238c55b5edbabac4ffdba",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "awk",
+    "debhelper",
+    "emacs-gtk",
+    "emacsen",
+    "emacsen-common",
+    "gawk",
+    "gcl",
+    "gnuplot-x11",
+    "libgmp3-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "mailcap",
+    "maxima",
+    "maxima-doc",
+    "maxima-emacs",
+    "maxima-share",
+    "maxima-src",
+    "maxima-test",
+    "mmm-mode",
+    "pdf-viewer",
+    "postscript-viewer",
+    "python3",
+    "sensible-utils",
+    "sharutils",
+    "tex-common",
+    "texinfo",
+    "texlive-base-bin",
+    "texlive-latex-recommended",
+    "texmacs",
+    "tk",
+    "wish",
+    "xmaxima"
+  ],
+  "nix_inputs": [
+    "python3",
+    "sbcl",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "leiningen",
+  "nix_pkg": null,
+  "control_file_hash": "3530f3ba9912c48a7e1a29850b1af6aab876a57919e012c8d168032b362da41f",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "default-jdk-headless",
+    "default-jre-headless",
+    "javahelper",
+    "leiningen",
+    "libbultitude-clojure",
+    "libclasslojure-clojure",
+    "libclojure-java",
+    "libcom-hypirion-io-clojure",
+    "libcommons-io-java",
+    "libcommons-lang-java",
+    "libcomplete-clojure",
+    "libdata-xml-clojure",
+    "libdynapath-clojure",
+    "libmaven-install-plugin-java",
+    "libnrepl-clojure",
+    "libparsley-clojure",
+    "libpomegranate-clojure",
+    "librobert-hooke-clojure",
+    "libscout-clojure",
+    "libsjacket-clojure",
+    "libslf4j-java",
+    "libstencil-clojure",
+    "libtools-macro-clojure",
+    "libwagon-java",
+    "maven-debian-helper",
+    "openjdk-11-jdk"
+  ],
+  "nix_inputs": [
+    "openjdk"
+  ],
+  "map": {
+    "openjdk-11-jdk": "openjdk"
+  }
+}

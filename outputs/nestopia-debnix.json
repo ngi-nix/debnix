@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "nestopia",
+  "nix_pkg": null,
+  "control_file_hash": "e0de444263b4b2856ae47d3c8bf0cf3d0b7a5b959e76913e8c520a205903ce5b",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libarchive-dev",
+    "libfltk1.3-dev",
+    "libsdl2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "adwaita-icon-theme",
+    "alsa-lib",
+    "gdk-pixbuf",
+    "glu",
+    "gtk+3",
+    "libGL",
+    "libao",
+    "libarchive",
+    "libepoxy",
+    "pkg-config-wrapper",
+    "unzip",
+    "xdg-utils"
+  ],
+  "map": {
+    "libarchive-dev": "libarchive"
+  }
+}

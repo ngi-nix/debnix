@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "refind",
+  "nix_pkg": null,
+  "control_file_hash": "1a0b9d8baf0c7ce42ea7ecafd505fc89dc18bbf1a0984efc74d96463ac6a555a",
+  "deb_inputs": [
+    "debconf",
+    "debhelper",
+    "efibootmgr",
+    "gdisk",
+    "gnu-efi",
+    "mokutil",
+    "openssl",
+    "python3",
+    "sbsigntool"
+  ],
+  "nix_inputs": [
+    "gnu-efi"
+  ],
+  "map": {
+    "gnu-efi": "gnu-efi"
+  }
+}

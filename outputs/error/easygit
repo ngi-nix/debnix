@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bash-completion", "debhelper-compat", "git-core", "less", "perl", "perl:any"], or 
+output: 
+[] is empty!

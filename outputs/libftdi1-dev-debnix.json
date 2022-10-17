@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libftdi1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d23479955390360943a80593e04adba590762ce46f5ecf33112538cafa6a80cf",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "libboost-dev",
+    "libboost-test-dev",
+    "libconfuse-dev",
+    "libftdi1-2",
+    "libftdi1-dev",
+    "libftdi1-doc",
+    "libftdipp1-3",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python3-all-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "libusb-compat"
+  ],
+  "map": {}
+}

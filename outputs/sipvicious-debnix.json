@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "sipvicious",
+  "nix_pkg": null,
+  "control_file_hash": "8c69cf578905149d3d6b23003db3cf0324ad8034c92d5d94109cf23f7dd93e7c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all:any",
+    "python3-pkg-resources",
+    "python3-scapy",
+    "python3-setuptools",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

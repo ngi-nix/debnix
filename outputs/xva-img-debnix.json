@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "xva-img",
+  "nix_pkg": null,
+  "control_file_hash": "e71c5ad686e219e5334d1e28fa11a0781c6e91c41f8fd7430a724f73e0d91c3f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "cmake": "cmake"
+  }
+}

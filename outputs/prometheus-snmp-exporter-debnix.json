@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "prometheus-snmp-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "cbafaebc03244da9fb254f3142b598757cfbece49114264bf0ce2d73826f2f8b",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-github-go-kit-log-dev",
+    "golang-github-gosnmp-gosnmp-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-go",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "libsnmp-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "net-snmp"
+  ],
+  "map": {
+    "libsnmp-dev": "net-snmp"
+  }
+}

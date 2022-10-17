@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "lepton-eda",
+  "nix_pkg": null,
+  "control_file_hash": "af4761c85173c34bf0de0f247423dc56a7193df1d3ce5c902414e463c3e8712e",
+  "deb_inputs": [
+    "debhelper",
+    "desktop-file-utils",
+    "flex",
+    "fonts-dejavu-core",
+    "gawk",
+    "gerbv",
+    "gettext",
+    "ghostscript",
+    "groff",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "libgtk2.0-dev",
+    "libgtkextra-dev",
+    "libstroke0-dev",
+    "pcb",
+    "pcb-rnd",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "flex",
+    "gawk",
+    "gettext",
+    "glib",
+    "groff",
+    "gtk+",
+    "gtkextra",
+    "guile",
+    "libstroke",
+    "pkg-config-wrapper",
+    "shared-mime-info",
+    "texinfo"
+  ],
+  "map": {
+    "gawk": "gawk",
+    "guile-3.0-dev": "guile",
+    "libstroke0-dev": "libstroke",
+    "groff": "groff",
+    "guile-3.0": "guile",
+    "gettext": "gettext",
+    "libgtkextra-dev": "gtkextra",
+    "libgtk2.0-dev": "gtk+",
+    "texinfo": "texinfo",
+    "flex": "flex"
+  }
+}

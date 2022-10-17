@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "linphone",
+  "nix_pkg": null,
+  "control_file_hash": "7e6ff56a2efefc3cfda666f52b9776ef5008c616092f842b7a673c18901f4fd3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "host",
+    "libbelcard-dev",
+    "libbellesip-dev",
+    "libbelr-dev",
+    "liblinphone++10",
+    "liblinphone10",
+    "libmediastreamer-dev",
+    "libortp-dev",
+    "linphone-cli",
+    "linphone-common"
+  ],
+  "nix_inputs": [
+    "bctoolbox",
+    "belcard",
+    "belle-sip",
+    "belr",
+    "cmake",
+    "liblinphone",
+    "mediastreamer2",
+    "minizip",
+    "msopenh264",
+    "qtgraphicaleffects",
+    "qtquickcontrols2",
+    "qttranslations"
+  ],
+  "map": {
+    "liblinphone10": "liblinphone",
+    "libbellesip-dev": "belle-sip",
+    "libbelcard-dev": "belcard",
+    "libbelr-dev": "belr",
+    "cmake": "cmake",
+    "libmediastreamer-dev": "mediastreamer2"
+  }
+}

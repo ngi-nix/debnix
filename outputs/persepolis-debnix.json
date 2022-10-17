@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "persepolis",
+  "nix_pkg": null,
+  "control_file_hash": "544714ab94177e66db61d5137044d6f12a820231995e24ca367633ab805741a9",
+  "deb_inputs": [
+    "aria2",
+    "debhelper",
+    "dh-python",
+    "libnotify-bin",
+    "libqt5svg5",
+    "pulseaudio",
+    "python3-all",
+    "python3-psutil",
+    "python3-pyqt5",
+    "python3-requests",
+    "python3-setproctitle",
+    "python3-setuptools",
+    "sound-theme-freedesktop"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "psutil",
+    "pulseaudio",
+    "python3",
+    "requests",
+    "setproctitle",
+    "setuptools",
+    "sound-theme-freedesktop",
+    "youtube-dl"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "sound-theme-freedesktop": "sound-theme-freedesktop",
+    "python3-setuptools": "setuptools",
+    "pulseaudio": "pulseaudio",
+    "python3-pyqt5": "PyQt5"
+  }
+}

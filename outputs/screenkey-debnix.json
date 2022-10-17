@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "screenkey",
+  "nix_pkg": null,
+  "control_file_hash": "17df9b7329dffbc6af86ec9cfed34d1651de2a7e5bcd67344a0efe215a618156",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "elementary-xfce-icon-theme",
+    "faenza-icon-theme",
+    "fonts-font-awesome",
+    "gir1.2-ayatanaappindicator3-0.1",
+    "gir1.2-gtk-3.0",
+    "gnome-accessibility-themes",
+    "gnome-icon-theme",
+    "libx11-6",
+    "mate-icon-theme",
+    "mate-icon-theme-faenza",
+    "mate-themes",
+    "moblin-icon-theme",
+    "moka-icon-theme",
+    "obsidian-icon-theme",
+    "paper-icon-theme",
+    "python3",
+    "python3-babel",
+    "python3-distutils-extra",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-setuptools",
+    "scribus-data",
+    "slop",
+    "tangerine-icon-theme",
+    "tango-icon-theme",
+    "ukui-themes"
+  ],
+  "nix_inputs": [
+    "babel",
+    "gobject-introspection",
+    "gtk+3",
+    "pycairo",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-gi-cairo": "pygobject",
+    "python3": "python3",
+    "python3-gi": "pygobject"
+  }
+}
