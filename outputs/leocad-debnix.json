@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "leocad",
+  "nix_pkg": null,
+  "control_file_hash": "d855771fbd01310fe8dec287ab3d998633e3ee772ca1e8c679e2311e5d282f8c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "ldraw-parts",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libqt5opengl5-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qttools5-dev-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "povray",
+    "qttools",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "qttools5-dev-tools": "qttools"
+  }
+}

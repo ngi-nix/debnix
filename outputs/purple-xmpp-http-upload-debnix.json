@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "purple-xmpp-http-upload",
+  "nix_pkg": null,
+  "control_file_hash": "6ca2af2d41eebf911e1d9320dcfb97e325696e6f10353a89653f5542b8442e5d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpurple-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libxml2",
+    "pidgin"
+  ],
+  "map": {
+    "libpurple-dev": "pidgin",
+    "libxml2-dev": "libxml2"
+  }
+}

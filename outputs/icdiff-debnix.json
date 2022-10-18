@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "icdiff",
+  "nix_pkg": null,
+  "control_file_hash": "6fb0c729d7b923466e14bc33cf96e690aef12131d933d205c32ca4f81dccc80e",
+  "deb_inputs": [
+    "black",
+    "debhelper-compat",
+    "dh-python",
+    "flake8",
+    "help2man",
+    "python3-all",
+    "python3-distutils-extra",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

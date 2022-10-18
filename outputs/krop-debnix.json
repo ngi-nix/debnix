@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "krop",
+  "nix_pkg": null,
+  "control_file_hash": "c73ac078ba1e7993469426a252413c15f3ec68246bae481aad81cbb7e23199be",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3",
+    "python3-distutils",
+    "python3-poppler-qt5",
+    "python3-pypdf2",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "PyPDF2",
+    "PyQt5",
+    "ghostscript-with-X",
+    "poppler-qt5",
+    "python-poppler-qt5",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-pypdf2": "PyPDF2",
+    "python3-poppler-qt5": "python-poppler-qt5"
+  }
+}

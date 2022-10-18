@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libcw6",
+  "nix_pkg": null,
+  "control_file_hash": "b6402e2ee68d697dfaa1882c80a05f291d4678315b2ae8c01fa40ac7331cb09a",
+  "deb_inputs": [
+    "cw",
+    "cwcp",
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "dpkg-dev",
+    "gawk",
+    "libasound2-dev",
+    "libcw7",
+    "libncurses5-dev",
+    "libpulse-dev",
+    "mawk",
+    "po-debconf",
+    "qtbase5-dev",
+    "xcwcp"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

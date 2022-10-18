@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "ams",
+  "nix_pkg": null,
+  "control_file_hash": "1cd50aec1e303e637cba84c9194f757a5ab0a530da9bea13e1e929aa56f90240",
+  "deb_inputs": [
+    "amb-plugins",
+    "cmt",
+    "debhelper-compat",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libclalsadrv-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "libqt5opengl5-dev",
+    "mcp-plugins",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "rev-plugins",
+    "sfftw-dev",
+    "swh-plugins",
+    "vco-plugins"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "ladspa.h",
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "zita-alsa-pcmi"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev-tools": "qttools"
+  }
+}

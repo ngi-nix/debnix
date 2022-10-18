@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "osmium-tool",
+  "nix_pkg": null,
+  "control_file_hash": "11284c37665c8a26ce04c13e428e3f4b8a4fbbd8cb3805d07d062c15b62f0bfa",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libbz2-dev",
+    "libexpat1-dev",
+    "libosmium2-dev",
+    "pandoc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "cmake",
+    "expat",
+    "libosmium",
+    "lz4",
+    "pandoc",
+    "protozero",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libboost-dev": "boost",
+    "pandoc": "pandoc",
+    "libosmium2-dev": "libosmium",
+    "cmake": "cmake",
+    "libbz2-dev": "bzip2",
+    "libexpat1-dev": "expat"
+  }
+}

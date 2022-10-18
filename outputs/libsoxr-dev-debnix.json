@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libsoxr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a18892baff5ef6d958a545a21093cda6b85e3f9bec6afdfef1e82cbd8a153987",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libsoxr-lsr0",
+    "libsoxr0"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

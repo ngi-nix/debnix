@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "ario-common",
+  "nix_pkg": null,
+  "control_file_hash": "d06ae2b37b8144b8f86f77cccf9b7f0d6a2a13b052aadb2c434859ac41396c53",
+  "deb_inputs": [
+    "ario",
+    "ario-common",
+    "autotools-dev",
+    "cdbs",
+    "dbus",
+    "debhelper",
+    "intltool",
+    "libavahi-client-dev",
+    "libavahi-glib-dev",
+    "libcurl4-gnutls-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libmpdclient-dev",
+    "libtagc0-dev",
+    "libxml2-dev",
+    "mpd"
+  ],
+  "nix_inputs": [
+    "avahi",
+    "curl",
+    "dbus-glib",
+    "gettext",
+    "gtk+3",
+    "intltool",
+    "libmpdclient",
+    "libsoup",
+    "libxml2",
+    "pkg-config-wrapper",
+    "taglib"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libxml2-dev": "libxml2",
+    "libavahi-client-dev": "avahi",
+    "libmpdclient-dev": "libmpdclient",
+    "libcurl4-gnutls-dev": "curl",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libtagc0-dev": "taglib",
+    "libavahi-glib-dev": "avahi"
+  }
+}

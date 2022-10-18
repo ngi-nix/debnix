@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libpari-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e7f50f2f21f8db0465b5da6df358f31195bfa9ee1fbb225850cd7b0f7c9a517a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libc-dev",
+    "libgmp-dev",
+    "libpari-gmp-tls8",
+    "libpari-gmp-tls8-dbgsym",
+    "libreadline-dev",
+    "libx11-dev",
+    "pari-doc",
+    "pari-elldata",
+    "pari-galdata",
+    "pari-galpol",
+    "pari-gp",
+    "pari-gp2c",
+    "pari-nflistdata",
+    "pari-seadata",
+    "texlive-base"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "libX11",
+    "libpthread-stubs",
+    "perl",
+    "readline"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libreadline-dev": "readline"
+  }
+}

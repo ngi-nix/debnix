@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "nixnote2",
+  "nix_pkg": null,
+  "control_file_hash": "85926fa7028f6e1ccf4112f2f134ae2f5afaefd54b8ac601fe314e21b8ee81df",
+  "deb_inputs": [
+    "cups",
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libboost-dev",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libcurl4-nss-dev",
+    "libcurl4-openssl-dev",
+    "libhunspell-dev",
+    "libpoppler-qt5-dev",
+    "libqt5sql5-sqlite",
+    "libqt5webkit5-dev",
+    "libswscale-dev",
+    "libtidy-dev",
+    "mimetex",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "tidy"
+  ],
+  "nix_inputs": [
+    "boost",
+    "hunspell",
+    "poppler-qt5",
+    "qtbase",
+    "qtwebkit"
+  ],
+  "map": {
+    "libhunspell-dev": "hunspell",
+    "qtbase5-dev": "qtbase",
+    "libboost-dev": "boost"
+  }
+}

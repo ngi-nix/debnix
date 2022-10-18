@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "urlwatch",
+  "nix_pkg": null,
+  "control_file_hash": "2f300f5a63ee92f4d3fa699442416d1f1ffdd7744d616e89a744c1540b6d755b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-mta",
+    "dh-python",
+    "dh-sequence-sphinxdoc",
+    "html2text",
+    "lynx",
+    "mail-transport-agent",
+    "python3-all",
+    "python3-bs4",
+    "python3-html2text",
+    "python3-jsbeautifier",
+    "python3-keyring",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-vobject",
+    "wdiff"
+  ],
+  "nix_inputs": [
+    "appdirs",
+    "cssselect",
+    "jq",
+    "keyring",
+    "lxml",
+    "markdown2",
+    "matrix-client",
+    "minidb",
+    "pushbullet-py",
+    "pycodestyle",
+    "pyppeteer",
+    "python3",
+    "pyyaml",
+    "requests"
+  ],
+  "map": {}
+}

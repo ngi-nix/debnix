@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "xzoom",
+  "nix_pkg": null,
+  "control_file_hash": "5908f77ef7a6a3bbe95da4afb45ce1353de8d9c95f5969786e74375b1c3c014d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libxext-dev",
+    "libxt-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libX11",
+    "libXext",
+    "libXt"
+  ],
+  "map": {
+    "libxext-dev": "libXext",
+    "libxt-dev": "libXt"
+  }
+}

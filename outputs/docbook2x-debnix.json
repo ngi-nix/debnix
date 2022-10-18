@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "docbook2x",
+  "nix_pkg": null,
+  "control_file_hash": "b51abf7aae2ce57114309f5ea7584a84f83513d43d6b5310da71c31523bea88c",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "libtext-wrapi18n-perl",
+    "libxml-sax-expat-perl",
+    "libxml-sax-perl",
+    "opensp",
+    "texinfo",
+    "xml-core",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "XML-NamespaceSupport",
+    "XML-Parser",
+    "XML-SAX",
+    "groff",
+    "libxml2",
+    "libxslt",
+    "opensp",
+    "perl",
+    "texinfo"
+  ],
+  "map": {
+    "xsltproc": "libxslt",
+    "opensp": "opensp",
+    "texinfo": "texinfo"
+  }
+}

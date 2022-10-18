@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "xwallpaper",
+  "nix_pkg": null,
+  "control_file_hash": "808728e9b9e3c4b2a11fc7c513d3c8ee82303f7d1fac2278ef39bfe675281133",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjpeg-dev",
+    "libpixman-1-dev",
+    "libpng-dev",
+    "libseccomp-dev",
+    "libxcb-image0-dev",
+    "libxcb-randr0-dev",
+    "libxcb-util0-dev",
+    "libxpm-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libXpm",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libseccomp",
+    "pixman",
+    "pkg-config-wrapper",
+    "xcb-util",
+    "xcb-util-image"
+  ],
+  "map": {
+    "libxcb-image0-dev": "xcb-util-image",
+    "libseccomp-dev": "libseccomp",
+    "libxcb-util0-dev": "xcb-util",
+    "libpixman-1-dev": "pixman",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxpm-dev": "libXpm"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "bvi",
+  "nix_pkg": null,
+  "control_file_hash": "62bf0b98d5fa538d8687f3a9babf5ef6554562e5dcf6f319413e90fc184d2549",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

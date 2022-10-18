@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ucarp",
+  "nix_pkg": null,
+  "control_file_hash": "d754f6dea859b50e12fb665fc6cf98968d226bd5c543dfb711116dd8a9662cc0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "ifupdown",
+    "iproute2",
+    "libpcap-dev",
+    "net-tools"
+  ],
+  "nix_inputs": [
+    "libpcap"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap"
+  }
+}

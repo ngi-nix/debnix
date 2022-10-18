@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libgmime-3.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "48debe1b07c4c8074744c5e2a0d17c1bf0067db1c080b41a54f6914cdbdba962",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "dh-exec",
+    "gir1.2-gmime-3.0",
+    "gnupg",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libc6-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgmime-3.0-0",
+    "libgmime-3.0-doc",
+    "libgpgme11-dev",
+    "libidn2-dev",
+    "libtool",
+    "valac",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection",
+    "libgpg-error",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "zlib1g-dev": "zlib",
+    "gobject-introspection": "gobject-introspection"
+  }
+}

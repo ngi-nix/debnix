@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "nco",
+  "nix_pkg": null,
+  "control_file_hash": "d73d3b2a3353a37ee73619fed4378435f6a40b22bc7cf66dbe2ea786cc7fab16",
+  "deb_inputs": [
+    "antlr",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "gsl-bin",
+    "libantlr-dev",
+    "libdap-dev",
+    "libgsl-dev",
+    "libnetcdf-dev",
+    "libudunits2-dev",
+    "netcdf-bin",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "antlr",
+    "coreutils",
+    "curl",
+    "flex",
+    "gsl",
+    "netcdf",
+    "netcdf-cxx4",
+    "udunits",
+    "which"
+  ],
+  "map": {
+    "flex": "flex",
+    "libgsl-dev": "gsl",
+    "netcdf-bin": "netcdf",
+    "libnetcdf-dev": "netcdf",
+    "libantlr-dev": "antlr",
+    "antlr": "antlr",
+    "gsl-bin": "gsl",
+    "libudunits2-dev": "udunits"
+  }
+}

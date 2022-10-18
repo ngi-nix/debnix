@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "usbtop",
+  "nix_pkg": null,
+  "control_file_hash": "e834ace98c516af41bfa66241e3c71895c78c294c8b30cb4e757cf2aa071333a",
+  "deb_inputs": [
+    "ca-certificates",
+    "cmake",
+    "debhelper",
+    "libboost-system-dev",
+    "libboost-thread-dev",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "libpcap"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

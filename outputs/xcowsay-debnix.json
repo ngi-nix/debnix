@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "xcowsay",
+  "nix_pkg": null,
+  "control_file_hash": "39b1f25f41f42ff167e901236dad074c8efe22a1cf40a5e729ab690737377b16",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fortune-mod",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "dbus-glib",
+    "gdk-pixbuf",
+    "gtk+3",
+    "librsvg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdbus-glib-1-dev": "dbus-glib"
+  }
+}

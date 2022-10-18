@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "obexfs",
+  "nix_pkg": null,
+  "control_file_hash": "d81627ee55f2c3566685147c187fc807e362cd49079338c49671dc05a90679c3",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "docbook",
+    "docbook-utils",
+    "fuse",
+    "libfuse-dev",
+    "libobexftp0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "fuse",
+    "obexftp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libobexftp0-dev": "obexftp",
+    "libfuse-dev": "fuse"
+  }
+}

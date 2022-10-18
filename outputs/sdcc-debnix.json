@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "sdcc",
+  "nix_pkg": null,
+  "control_file_hash": "e2ebf094ea16650e1a98acb591dedf990a39356760a555dbf9621d66b3bf5c5c",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dpkg-dev",
+    "flex",
+    "gputils",
+    "libboost-dev",
+    "libncurses5-dev",
+    "libtool",
+    "python",
+    "sdcc",
+    "sdcc-doc",
+    "sdcc-libraries",
+    "sdcc-ucsim",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "bison",
+    "boost",
+    "flex",
+    "texinfo",
+    "zlib"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "flex": "flex",
+    "bison": "bison",
+    "zlib1g-dev": "zlib",
+    "texinfo": "texinfo"
+  }
+}

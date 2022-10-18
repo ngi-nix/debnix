@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "librsync-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c3bd032a7763fdaf42c4e00640286029cf5bb266c2f672e42a646da149becb31",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libb2-dev",
+    "libpopt-dev",
+    "librsync2"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "cmake",
+    "perl",
+    "popt",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libpopt-dev": "popt"
+  }
+}

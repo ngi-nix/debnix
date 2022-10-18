@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "jgmenu",
+  "nix_pkg": null,
+  "control_file_hash": "6a2972b39b0cf2c8f2f4c6b7cff89bc552efec72f6b11f33a6fc6afd5b3d502c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jgmenu",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libmenu-cache-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    "libx11-dev",
+    "libxfce4panel-2.0-dev",
+    "libxml2-dev",
+    "libxrandr-dev",
+    "lxmenu-data",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "libXinerama",
+    "libXrandr",
+    "librsvg",
+    "libxml2",
+    "menu-cache",
+    "pango",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libpango1.0-dev": "pango",
+    "libmenu-cache-dev": "menu-cache",
+    "libxrandr-dev": "libXrandr",
+    "librsvg2-dev": "librsvg"
+  }
+}

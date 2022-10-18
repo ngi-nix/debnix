@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tomb",
+  "nix_pkg": null,
+  "control_file_hash": "75d9c64d42b50ace5a3ebb9b0f01fc144ee70a0c8a5e77af12c6cc0e34a82423",
+  "deb_inputs": [
+    "btrfs-progs",
+    "cryptsetup-bin",
+    "dcfldd",
+    "debhelper-compat",
+    "e2fsprogs",
+    "file",
+    "gettext-base",
+    "gnupg",
+    "libgcrypt20-dev",
+    "lsof",
+    "pinentry",
+    "pinentry-curses",
+    "qrencode",
+    "steghide",
+    "sudo",
+    "swish-e",
+    "unoconv",
+    "zsh"
+  ],
+  "nix_inputs": [
+    "pinentry",
+    "sudo",
+    "zsh"
+  ],
+  "map": {
+    "pinentry-curses": "pinentry",
+    "zsh": "zsh",
+    "pinentry": "pinentry",
+    "sudo": "sudo"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "yelp-tools",
+  "nix_pkg": null,
+  "control_file_hash": "5216ed2a61bd0f2c986bd1450465e73984212386a71f3aeb4b1ee23eb5a0c883",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "dh-sequence-python3",
+    "itstool",
+    "jing",
+    "libxml2-utils",
+    "mallard-rng",
+    "meson",
+    "pkg-config",
+    "python3",
+    "python3-lxml",
+    "xsltproc",
+    "yelp",
+    "yelp-xsl",
+    "zip"
+  ],
+  "nix_inputs": [
+    "itstool",
+    "libxml2",
+    "libxslt",
+    "lxml",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "yelp-xsl"
+  ],
+  "map": {
+    "itstool": "itstool",
+    "python3": "python3",
+    "libxml2-utils": "libxml2",
+    "yelp-xsl": "yelp-xsl",
+    "meson": "meson",
+    "python3-lxml": "lxml",
+    "xsltproc": "libxslt"
+  }
+}

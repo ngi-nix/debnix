@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "fcitx5-chewing",
+  "nix_pkg": null,
+  "control_file_hash": "b5b571b55bc262c678b6c0785bab58302df399913f8c7ad0f749edf0ea302f53",
+  "deb_inputs": [
+    "appstream",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fcitx5-modules-dev",
+    "gettext",
+    "libchewing3-dev",
+    "libfcitx5core-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "gettext",
+    "libchewing"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "fcitx5-modules-dev": "fcitx5",
+    "libchewing3-dev": "libchewing",
+    "libfcitx5core-dev": "fcitx5",
+    "gettext": "gettext",
+    "cmake": "cmake"
+  }
+}

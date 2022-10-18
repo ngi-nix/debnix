@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "fim",
+  "nix_pkg": null,
+  "control_file_hash": "ce37349f83709c96433cb345fadd8147e4e1e50d9582c42473231d00fc02bac0",
+  "deb_inputs": [
+    "autoconf",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "groff",
+    "libaa1-dev",
+    "libdjvulibre-dev",
+    "libexif-dev",
+    "libfl-dev",
+    "libgif-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libreadline-dev",
+    "libsdl1.2-dev",
+    "libtiff-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "aalib",
+    "autoconf",
+    "automake",
+    "bison",
+    "flex",
+    "giflib",
+    "inkscape",
+    "libexif",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "perl",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "autoconf": "autoconf",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libfl-dev": "flex",
+    "libexif-dev": "libexif",
+    "libreadline-dev": "readline",
+    "libaa1-dev": "aalib",
+    "libgif-dev": "giflib",
+    "libtiff-dev": "libtiff",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "verilator",
+  "nix_pkg": null,
+  "control_file_hash": "2917c060a1ea5f838c18b6f5d3d2b76a06f056fd43f48324366e3cc87797ba14",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "gtkwave",
+    "libfl-dev",
+    "libsystemc-dev",
+    "python3"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "bison",
+    "flex",
+    "perl",
+    "python3"
+  ],
+  "map": {
+    "libfl-dev": "flex",
+    "flex": "flex",
+    "bison": "bison",
+    "python3": "python3"
+  }
+}

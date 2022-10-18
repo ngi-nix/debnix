@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "dynamips",
+  "nix_pkg": null,
+  "control_file_hash": "c57b5477465914e96a13f5e85a964022706cec9b5a04e9921580917480b7d4d2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "gns3",
+    "libelf-dev",
+    "libpcap0.8-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libelf",
+    "libpcap"
+  ],
+  "map": {
+    "libelf-dev": "libelf",
+    "cmake": "cmake",
+    "libpcap0.8-dev": "libpcap"
+  }
+}

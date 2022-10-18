@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libfreeimage-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a9dc013bc12b37951549b6b0d2d5088e7575f8b64617139cb4b42eab1dd64e98",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dos2unix",
+    "libfreeimage-dev",
+    "libfreeimage3",
+    "libfreeimageplus-doc",
+    "libfreeimageplus3",
+    "libjpeg-dev",
+    "libjs-jquery",
+    "libjxr-dev",
+    "libopenexr-dev",
+    "libopenjp2-7-dev",
+    "libpng-dev",
+    "libraw-dev",
+    "libtiff-dev",
+    "libwebp-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "jxrlib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libraw",
+    "libtiff",
+    "libwebp",
+    "openexr",
+    "openjpeg",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libjxr-dev": "jxrlib",
+    "libopenjp2-7-dev": "openjpeg",
+    "libwebp-dev": "libwebp",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libtiff-dev": "libtiff",
+    "zlib1g-dev": "zlib",
+    "libopenexr-dev": "openexr",
+    "libraw-dev": "libraw"
+  }
+}

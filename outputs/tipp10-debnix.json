@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "tipp10",
+  "nix_pkg": null,
+  "control_file_hash": "cee76ec393aaefcc141c54b20d17fa033d5eae7124d037ddf958eeee95aa551c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5sql5-sqlite",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtmultimedia5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtmultimedia",
+    "qttools"
+  ],
+  "map": {
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

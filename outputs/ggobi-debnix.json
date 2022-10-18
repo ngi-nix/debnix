@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "ggobi",
+  "nix_pkg": null,
+  "control_file_hash": "756481d9ef0a4b2cdddacd2a1c2f56cf3a37b80a3048fbf8ee9dd6a6ff08a7b1",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libgraphviz-dev",
+    "libgtk2.0-dev",
+    "libjpeg-dev",
+    "libtool",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

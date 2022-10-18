@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "freedink-engine",
+  "nix_pkg": null,
+  "control_file_hash": "25a2fdabe352383dff92fcd51d8e7154d663fd1dca1edf9bc45f0bfad1dee69e",
+  "deb_inputs": [
+    "cxxtest",
+    "debhelper",
+    "fonts-liberation",
+    "freedink-data",
+    "freedink-dfarc",
+    "freedink-engine",
+    "freepats",
+    "libfontconfig1-dev",
+    "libglm-dev",
+    "libsdl2-dev",
+    "libsdl2-gfx-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_gfx",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_ttf",
+    "fontconfig",
+    "intltool",
+    "libzip",
+    "pkg-config-wrapper",
+    "zip",
+    "zlib"
+  ],
+  "map": {
+    "libsdl2-ttf-dev": "SDL",
+    "libsdl2-image-dev": "SDL",
+    "libsdl2-mixer-dev": "SDL",
+    "libsdl2-gfx-dev": "SDL",
+    "libsdl2-dev": "SDL",
+    "libfontconfig1-dev": "fontconfig"
+  }
+}

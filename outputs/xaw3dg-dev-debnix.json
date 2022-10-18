@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "xaw3dg-dev",
+  "nix_pkg": null,
+  "control_file_hash": "33d28275d4c1d09a16ec64a362ed7f8e817f7ba72fce3c3bacf3d0fe4cca49eb",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libx11-dev",
+    "libxmu-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "x11proto-core-dev",
+    "x11proto-xext-dev",
+    "xaw3dg",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "gccmakedep",
+    "imake",
+    "libXmu",
+    "libXp",
+    "libXpm",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bison": "bison",
+    "libxpm-dev": "libXpm",
+    "flex": "flex",
+    "libxmu-dev": "libXmu"
+  }
+}

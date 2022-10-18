@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "sympow-data",
+  "nix_pkg": null,
+  "control_file_hash": "8fd48227a3fdc34d8079d0400c87895f4010d46de288007a43d7b6f0c5d9d521",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "pari-gp",
+    "sympow",
+    "sympow-data"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "file",
+    "help2man",
+    "pari",
+    "which"
+  ],
+  "map": {
+    "pari-gp": "pari",
+    "help2man": "help2man"
+  }
+}
