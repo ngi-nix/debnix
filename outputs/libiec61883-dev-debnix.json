@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libiec61883-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ab0cccb0bcddc405f0e521cc84e46cdc00a7599951291405f5cd0e4664bb64ff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libiec61883-0",
+    "libraw1394-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libraw1394",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libraw1394-dev": "libraw1394"
+  }
+}

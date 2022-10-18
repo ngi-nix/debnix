@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "mcabber",
+  "nix_pkg": null,
+  "control_file_hash": "941fcf01a80e25da8b487e2059ce872d4f084f7c00aaea35e86d9e1e70099c5f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "faketime",
+    "libaspell-dev",
+    "libasyncns-dev",
+    "libgcrypt20-dev",
+    "libglib2.0-dev",
+    "libgpgme11-dev",
+    "libloudmouth1-dev",
+    "libncursesw5-dev",
+    "libotr5-dev",
+    "libssl-dev",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gpgme",
+    "libotr",
+    "loudmouth",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libgpgme11-dev": "gpgme",
+    "libloudmouth1-dev": "loudmouth",
+    "libssl-dev": "openssl",
+    "libotr5-dev": "libotr",
+    "libglib2.0-dev": "glib"
+  }
+}

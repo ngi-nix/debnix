@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libalut-dev",
+  "nix_pkg": null,
+  "control_file_hash": "04ca9a392c9f4562a7b8cf014c9b1edb37c897b86b61f26796be3cd8ca817e84",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libalut0",
+    "libopenal-dev"
+  ],
+  "nix_inputs": [
+    "openal-soft"
+  ],
+  "map": {
+    "libopenal-dev": "openal-soft"
+  }
+}

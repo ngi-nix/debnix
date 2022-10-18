@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libsratom-dev",
+  "nix_pkg": null,
+  "control_file_hash": "27f6cf7f8d7993fb1cabc5cdbac1140c04cb92124130d2e6a9076b0df92204fb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libserd-dev",
+    "libsord-dev",
+    "libsratom-0-0",
+    "lv2-dev",
+    "meson",
+    "pkg-config",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "lv2",
+    "pkg-config-wrapper",
+    "python3",
+    "serd",
+    "sord"
+  ],
+  "map": {
+    "libsord-dev": "sord",
+    "libserd-dev": "serd",
+    "lv2-dev": "lv2"
+  }
+}

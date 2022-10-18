@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "eiciel",
+  "nix_pkg": null,
+  "control_file_hash": "50447faf7d8bb4f44db713693cd002936481c195309ee877b7e4060f7201dabb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "itstool",
+    "libacl1-dev",
+    "libattr1-dev",
+    "libglibmm-2.68-dev",
+    "libgtkmm-4.0-dev",
+    "libnautilus-extension-dev",
+    "meson",
+    "nautilus",
+    "pkg-config",
+    "yelp"
+  ],
+  "nix_inputs": [
+    "acl",
+    "glibmm",
+    "gtk4",
+    "gtkmm",
+    "itstool",
+    "meson",
+    "nautilus",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglibmm-2.68-dev": "glibmm",
+    "libgtkmm-4.0-dev": "gtkmm",
+    "itstool": "itstool",
+    "libacl1-dev": "acl",
+    "meson": "meson",
+    "nautilus": "nautilus",
+    "libnautilus-extension-dev": "nautilus"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gtypist",
+  "nix_pkg": null,
+  "control_file_hash": "904f85a41da4a72364e312378f553041343992ea6ad211b30a50b9b79639cfaf",
+  "deb_inputs": [
+    "debhelper",
+    "fortune-cookie-db",
+    "fortune-mod",
+    "help2man",
+    "libncursesw5-dev",
+    "texinfo",
+    "vim-addon-manager"
+  ],
+  "nix_inputs": [
+    "fortune-mod",
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "fortune-mod": "fortune-mod",
+    "libncursesw5-dev": "ncurses"
+  }
+}

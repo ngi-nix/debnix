@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "kanshi",
+  "nix_pkg": null,
+  "control_file_hash": "9538ec5314ef995b27b8cbe3d602c3b395b71bde6a30ce21a92013fd6761ceff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libwayland-dev",
+    "meson",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "libvarlink",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland"
+  ],
+  "map": {
+    "meson": "meson",
+    "libwayland-dev": "wayland",
+    "scdoc": "scdoc"
+  }
+}

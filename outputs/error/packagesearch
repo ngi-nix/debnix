@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["apt", "apt-file", "apt-xapian-index", "cmake", "debhelper", "deborphan", "debtags", "docbook-to-man", "libapt-pkg-dev", "libept-dev", "libxapian-dev", "pkg-config", "qt6-base-dev", "qt6-base-dev-tools", "qt6-tools-dev", "xterm", "zlib1g-dev"], or 
+output: 
+[] is empty!

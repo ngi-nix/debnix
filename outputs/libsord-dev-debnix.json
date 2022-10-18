@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libsord-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3590268c4160e4d1e09dfddc8316f84a9f29d69a439c9d38e1b0044f9d794a6b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjs-jquery",
+    "libpcre2-dev",
+    "libserd-dev",
+    "libsord-0-0",
+    "libsord-doc",
+    "meson",
+    "pkg-config",
+    "python3:native",
+    "sordi"
+  ],
+  "nix_inputs": [
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "serd"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre",
+    "libserd-dev": "serd"
+  }
+}

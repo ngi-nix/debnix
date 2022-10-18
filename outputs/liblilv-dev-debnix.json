@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "liblilv-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0cad564e03e75fe61014547e2242db226e8e38c2a5efa88044988fd5b900a1f0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "liblilv-0-0",
+    "libserd-dev",
+    "libsndfile1-dev",
+    "libsord-dev",
+    "libsratom-dev",
+    "lv2-dev",
+    "meson",
+    "pkg-config",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "lv2",
+    "pkg-config-wrapper",
+    "python3",
+    "serd",
+    "sord",
+    "sratom"
+  ],
+  "map": {
+    "lv2-dev": "lv2",
+    "libsratom-dev": "sratom",
+    "libserd-dev": "serd",
+    "libsord-dev": "sord"
+  }
+}

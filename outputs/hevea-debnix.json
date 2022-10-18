@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "hevea",
+  "nix_pkg": null,
+  "control_file_hash": "314e3785de26a2001dc2cdbe5291efed7f035fbaeab1a362f7776ee028b42f61",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-ocaml",
+    "ghostscript",
+    "hevea-doc",
+    "imagemagick",
+    "netpbm",
+    "ocaml-nox",
+    "ocamlbuild",
+    "tex-common",
+    "texlive-base",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "ocaml",
+    "ocaml4.14.0-ocamlbuild"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml"
+  }
+}

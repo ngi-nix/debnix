@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libgwyddion2-0",
+  "nix_pkg": null,
+  "control_file_hash": "5723c131f004a2ba0c9256cf0562718daa80815da381ce640a37b6a176e86458",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "gwyddion",
+    "gwyddion-common",
+    "libfftw3-dev",
+    "libglib2.0-doc",
+    "libgtk2.0-dev",
+    "libgtk2.0-doc",
+    "libgtkglext1-dev",
+    "libgtkglext1-doc",
+    "libgwyddion2-0",
+    "libgwyddion20-doc",
+    "libminizip-dev",
+    "libpango1.0-doc",
+    "libxml2-dev",
+    "libxmu6",
+    "pkg-config",
+    "ruby:any",
+    "sensible-utils",
+    "w3m",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "cfitsio",
+    "fftw-double",
+    "file",
+    "gtk+",
+    "gtkglext",
+    "libpng-apng",
+    "libunique",
+    "libwebp",
+    "libxml2",
+    "libxslt",
+    "libzip",
+    "openexr",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libgtkglext1-doc": "gtkglext",
+    "libgtkglext1-dev": "gtkglext",
+    "libgtk2.0-dev": "gtk+",
+    "libgtk2.0-doc": "gtk+",
+    "libxml2-dev": "libxml2"
+  }
+}

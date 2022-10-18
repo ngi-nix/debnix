@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "bpftrace",
+  "nix_pkg": null,
+  "control_file_hash": "60bd63ab0d1e2a9435c7dfcce99966b0f2d8ed8fbaba85bec803d944c54cd2b9",
+  "deb_inputs": [
+    "asciidoctor",
+    "bison",
+    "clang-14",
+    "cmake",
+    "debhelper",
+    "flex",
+    "libbpf-dev",
+    "libbpfcc-dev",
+    "libcereal-dev",
+    "libclang-14-dev",
+    "libdw-dev",
+    "libelf-dev",
+    "libfl-dev",
+    "libgmock-dev",
+    "libgtest-dev",
+    "llvm-14-dev",
+    "systemtap-sdt-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bcc",
+    "bison",
+    "cereal",
+    "clang",
+    "cmake",
+    "elfutils",
+    "flex",
+    "libbfd",
+    "libbpf",
+    "libopcodes",
+    "llvm",
+    "pkg-config-wrapper",
+    "util-linux"
+  ],
+  "map": {
+    "bison": "bison",
+    "libbpf-dev": "libbpf",
+    "libdw-dev": "elfutils",
+    "libcereal-dev": "cereal",
+    "libelf-dev": "elfutils",
+    "flex": "flex",
+    "clang-14": "clang",
+    "cmake": "cmake",
+    "llvm-14-dev": "llvm",
+    "libfl-dev": "flex"
+  }
+}

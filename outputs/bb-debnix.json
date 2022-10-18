@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "bb",
+  "nix_pkg": null,
+  "control_file_hash": "358b7f83a2a01d7b5377bd004422dc5faa2501333aa1de766ed8b6e2e7a5f4e3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libaa1-dev",
+    "libmikmod-dev"
+  ],
+  "nix_inputs": [
+    "aalib",
+    "libX11",
+    "libXau",
+    "libXdmcp",
+    "libmikmod",
+    "ncurses"
+  ],
+  "map": {
+    "libaa1-dev": "aalib",
+    "libmikmod-dev": "libmikmod"
+  }
+}

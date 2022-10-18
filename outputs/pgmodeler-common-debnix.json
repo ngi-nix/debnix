@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "pgmodeler-common",
+  "nix_pkg": null,
+  "control_file_hash": "1d742ecc1dcbc595187871143e062926a7da7f1cf07c0aacc0a686d46541229f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpq-dev",
+    "libqt5svg5-dev",
+    "libxml2-dev",
+    "pgmodeler-common",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "postgresql",
+    "qtsvg"
+  ],
+  "map": {
+    "libpq-dev": "postgresql"
+  }
+}

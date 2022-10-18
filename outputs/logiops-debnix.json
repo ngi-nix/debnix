@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "logiops",
+  "nix_pkg": null,
+  "control_file_hash": "ae1f964c4dc90a67b959f6b953bd1cd7af1266a1983030e75b656d03adf5c7e2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "libconfig++-dev",
+    "libevdev-dev",
+    "libudev-dev",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libconfig",
+    "libevdev",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libconfig++-dev": "libconfig",
+    "cmake": "cmake",
+    "libevdev-dev": "libevdev",
+    "systemd": "systemd",
+    "libudev-dev": "systemd"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libpaps0",
+  "nix_pkg": null,
+  "control_file_hash": "9cfc28dd6d28bafdcba115cd088a77f535c01843947346583b54aac4a2de60b4",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "doxygen",
+    "libpango1.0-dev",
+    "libpaps0",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "intltool",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "libpango1.0-dev": "pango",
+    "automake": "automake"
+  }
+}

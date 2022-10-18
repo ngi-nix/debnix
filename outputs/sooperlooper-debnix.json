@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "sooperlooper",
+  "nix_pkg": null,
+  "control_file_hash": "57cccc2ff89889e0990a641ad76e9fb68a247d31b1cb72efbeac927da48cba7e",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "libncurses5-dev",
+    "librubberband-dev",
+    "libsamplerate-dev",
+    "libsigc++-2.0-dev",
+    "libsndfile1-dev",
+    "libtool-bin",
+    "libwxgtk3.0-gtk3-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "gettext",
+    "libjack2",
+    "liblo",
+    "libsamplerate",
+    "libsigc++",
+    "libsndfile",
+    "libtool",
+    "libxml2",
+    "ncurses",
+    "pkg-config-wrapper",
+    "rubberband",
+    "which",
+    "wxwidgets"
+  ],
+  "map": {
+    "libsamplerate-dev": "libsamplerate",
+    "libasound2-dev": "alsa-lib",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "libtool-bin": "libtool",
+    "liblo-dev": "liblo",
+    "libxml2-dev": "libxml2",
+    "libncurses5-dev": "ncurses",
+    "libsndfile1-dev": "libsndfile",
+    "librubberband-dev": "rubberband"
+  }
+}

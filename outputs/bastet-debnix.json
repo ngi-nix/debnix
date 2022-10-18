@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "bastet",
+  "nix_pkg": null,
+  "control_file_hash": "1a995c8ce435915e17787e41dd3f57ef582a0865b3fd5559cda06ac99a87fb10",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "boost",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libboost-dev": "boost",
+    "libncurses5-dev": "ncurses"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "nfstrace",
+  "nix_pkg": null,
+  "control_file_hash": "f4e628f513e0593385c99135ea2f6388e3c97e7f6f74e03737fb8c4f73f6a2ff",
+  "deb_inputs": [
+    "clang",
+    "cmake",
+    "debhelper-compat",
+    "g++",
+    "google-mock",
+    "libgtest-dev",
+    "libjson-c-dev",
+    "libncurses5-dev",
+    "libpcap0.8-dev",
+    "libtirpc-dev",
+    "nfstrace-doc",
+    "pkg-config",
+    "pkgconf"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "json-c",
+    "libpcap",
+    "libtirpc",
+    "ncurses"
+  ],
+  "map": {
+    "libjson-c-dev": "json-c",
+    "libncurses5-dev": "ncurses",
+    "libtirpc-dev": "libtirpc",
+    "libpcap0.8-dev": "libpcap",
+    "cmake": "cmake"
+  }
+}

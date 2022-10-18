@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "schema2ldif",
+  "nix_pkg": null,
+  "control_file_hash": "d331ba242f1d3213e20ee1aae5905730129aa06117d99a136d3151ac6c075e14",
+  "deb_inputs": [
+    "debhelper-compat",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

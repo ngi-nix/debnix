@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "gource",
+  "nix_pkg": null,
+  "control_file_hash": "275df1f68e918cfb7f1ea98ab41c589b6e2c17f5257bf5eccf11eea1987cec17",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "libboost-filesystem-dev",
+    "libfreetype6-dev",
+    "libglew-dev",
+    "libglm-dev",
+    "libpcre2-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libtinyxml-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "boost",
+    "freetype",
+    "ftgl",
+    "glew",
+    "glm",
+    "glu",
+    "libGL",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pcre2",
+    "pkg-config-wrapper",
+    "tinyxml"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libglew-dev": "glew",
+    "libglm-dev": "glm",
+    "libpcre2-dev": "pcre2",
+    "libtinyxml-dev": "tinyxml"
+  }
+}

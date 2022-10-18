@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "dateutils",
+  "nix_pkg": null,
+  "control_file_hash": "4730d9a6c87b9bf40d84a37b4827f9954aad357805c2fa411921f09f21cb7ee1",
+  "deb_inputs": [
+    "autoconf-archive",
+    "bison",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "dpkg-dev",
+    "flex",
+    "gperf",
+    "libltdl-dev",
+    "pkg-config",
+    "quilt",
+    "texinfo",
+    "tzdata"
+  ],
+  "nix_inputs": [
+    "tzdata"
+  ],
+  "map": {
+    "tzdata": "tzdata"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "xoscope",
+  "nix_pkg": null,
+  "control_file_hash": "3d4050f005530e66d7015ade5e1929944c0bf5954d34f0b8c55a2b410a337a0f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libcomedi-dev",
+    "libfftw3-dev",
+    "libgtk-3-dev",
+    "libgtkdatabox-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "comedilib",
+    "fftw-double",
+    "gnum4",
+    "gtk+3",
+    "gtkdatabox",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libcomedi-dev": "comedilib",
+    "libgtkdatabox-dev": "gtkdatabox"
+  }
+}

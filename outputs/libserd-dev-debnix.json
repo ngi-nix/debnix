@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libserd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d316a4ad88d4f75c4aa55cfecd60023976f0c27fdd84050b18c58a6f510e1e01",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjs-sphinxdoc",
+    "libserd-0-0",
+    "libserd-doc",
+    "meson",
+    "pkg-config",
+    "python3:any",
+    "serdi"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {}
+}

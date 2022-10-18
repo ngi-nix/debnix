@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "castxml",
+  "nix_pkg": null,
+  "control_file_hash": "b4c1c33044c53f6b5d58db0e7bdac46197df6ec0687363e392067deaedb746ca",
+  "deb_inputs": [
+    "clang-format-14",
+    "clang-tidy-14",
+    "clang-tools-14",
+    "clangd-14",
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libclang-14-dev",
+    "libedit-dev",
+    "libmlir-14-dev",
+    "llvm-14-dev",
+    "mlir-14-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "clang",
+    "cmake",
+    "libffi",
+    "libxml2",
+    "llvm",
+    "sphinx",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libclang-14-dev": "clang",
+    "llvm-14-dev": "llvm",
+    "zlib1g-dev": "zlib"
+  }
+}

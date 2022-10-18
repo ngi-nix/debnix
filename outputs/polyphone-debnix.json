@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "polyphone",
+  "nix_pkg": null,
+  "control_file_hash": "3084f51638fbf75a3077b07fdd70ab4eaef0919b8130a82acad29045ce93650f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libflac-dev",
+    "libfluidsynth-dev",
+    "libjack-jackd2-dev",
+    "libogg-dev",
+    "libqcustomplot-dev",
+    "libqt5svg5-dev",
+    "librtmidi-dev",
+    "libsfark-dev",
+    "libssl-dev",
+    "libstk-dev",
+    "libvorbis-dev",
+    "portaudio19-dev",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "flac",
+    "libjack2",
+    "libogg",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "portaudio",
+    "qtsvg",
+    "rtmidi"
+  ],
+  "map": {
+    "portaudio19-dev": "portaudio",
+    "libogg-dev": "libogg",
+    "librtmidi-dev": "rtmidi",
+    "libflac-dev": "flac",
+    "libvorbis-dev": "libvorbis",
+    "libasound2-dev": "alsa-lib"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "pterm",
+  "nix_pkg": null,
+  "control_file_hash": "1f48d089a7288e6441bc16bb3712f567b779c1838abb8d0d281f6a50108274d7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "putty-doc",
+    "putty-tools"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+",
+    "halibut",
+    "libtool",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

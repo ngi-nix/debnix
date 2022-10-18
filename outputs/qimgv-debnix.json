@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "qimgv",
+  "nix_pkg": null,
+  "control_file_hash": "914455e32b2c285e5f877476b049ddca9aeb0e71104cdb2b23cd5e599edd6c6e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libexiv2-dev",
+    "libkf5windowsystem-dev",
+    "libmpv-dev",
+    "libopencv-core-dev",
+    "libopencv-dev",
+    "libopencv-imgproc-dev",
+    "libqt5svg5-dev",
+    "pkg-config",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "exiv2",
+    "opencv",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtimageformats",
+    "qtsvg"
+  ],
+  "map": {
+    "libexiv2-dev": "exiv2",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "libopencv-core-dev": "opencv",
+    "libopencv-imgproc-dev": "opencv",
+    "libopencv-dev": "opencv"
+  }
+}

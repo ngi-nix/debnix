@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "agent-transfer",
+  "nix_pkg": null,
+  "control_file_hash": "2135836b6c0d8a7491837875015e0e6724447044fae78a7cf648522bd36df408",
+  "deb_inputs": [
+    "adduser",
+    "agent-transfer",
+    "bash",
+    "cpio",
+    "cron-daemon",
+    "debhelper-compat",
+    "dpkg-dev",
+    "gnupg",
+    "gnupg-agent",
+    "libassuan-dev",
+    "libcrypt-openssl-rsa-perl",
+    "libdigest-sha-perl",
+    "libgcrypt20-dev",
+    "lockfile-progs",
+    "monkeysphere-validation-agent",
+    "netcat",
+    "netcat-openbsd",
+    "openssh-client",
+    "openssh-server",
+    "openssl",
+    "pinentry",
+    "pinentry-curses",
+    "procmail",
+    "socat",
+    "ssh-askpass"
+  ],
+  "nix_inputs": [
+    "libassuan",
+    "libgcrypt",
+    "perl"
+  ],
+  "map": {
+    "libassuan-dev": "libassuan",
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

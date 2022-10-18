@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "bitlbee-plugin-otr",
+  "nix_pkg": null,
+  "control_file_hash": "3b545eeb3f61a2917d675d605d81b438f150ae70ffbf18ebc2ebfd9de61acbb8",
+  "deb_inputs": [
+    "adduser",
+    "bitlbee",
+    "bitlbee-common",
+    "bitlbee-libpurple",
+    "debhelper",
+    "debianutils",
+    "gnutls-dev",
+    "libevent-dev",
+    "libglib2.0-dev",
+    "libgnutls-dev",
+    "libgnutls28-dev",
+    "libotr5-dev",
+    "libpurple-dev",
+    "po-debconf",
+    "python3"
+  ],
+  "nix_inputs": [
+    "check",
+    "glib",
+    "gnutls",
+    "libotr",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libotr5-dev": "libotr",
+    "libglib2.0-dev": "glib",
+    "gnutls-dev": "gnutls",
+    "libgnutls28-dev": "gnutls",
+    "libgnutls-dev": "gnutls",
+    "python3": "python3"
+  }
+}

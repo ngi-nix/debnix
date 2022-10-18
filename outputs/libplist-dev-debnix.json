@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libplist-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f4e68f641ae781cdaf8afb5fc292c67be6051d16c0ac6e46332f71ee93a1f17c",
+  "deb_inputs": [
+    "autoconf-archive",
+    "cython3:native",
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "dpkg-dev",
+    "libjs-jquery",
+    "libplist++3v5",
+    "libplist3",
+    "libpython3-dev",
+    "pkg-config",
+    "python3-dev:any"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "cubicsdr",
+  "nix_pkg": null,
+  "control_file_hash": "d51ee46067b882b63d5cddc2cecf23ffde9e457804754acb10c105e6fa201092",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl-dev",
+    "libhamlib-dev",
+    "libliquid-dev",
+    "librtaudio-dev",
+    "libsoapysdr-dev",
+    "libtinyxml-dev",
+    "libwxgtk3.2-dev",
+    "libx11-dev",
+    "pkg-config",
+    "soapysdr-module-all"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fftw-double",
+    "hamlib",
+    "libGL",
+    "libX11",
+    "libpulseaudio",
+    "liquid-dsp",
+    "pkg-config-wrapper",
+    "soapysdr",
+    "wxwidgets"
+  ],
+  "map": {
+    "libliquid-dev": "liquid-dsp",
+    "libwxgtk3.2-dev": "wxwidgets",
+    "cmake": "cmake",
+    "libhamlib-dev": "hamlib",
+    "libgl-dev": "libGL",
+    "soapysdr-module-all": "soapysdr",
+    "libx11-dev": "libX11",
+    "libsoapysdr-dev": "soapysdr"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "mp3fs",
+  "nix_pkg": null,
+  "control_file_hash": "4ac4708404d2857d4cb42099343dfc3e72b709f64a8f9127eaa7ceb557dcc203",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libflac++-dev",
+    "libflac-dev",
+    "libfuse-dev",
+    "libid3tag0-dev",
+    "libmp3lame-dev",
+    "libvorbis-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "flac",
+    "fuse",
+    "lame",
+    "libid3tag",
+    "libvorbis",
+    "pandoc",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libflac-dev": "flac",
+    "libid3tag0-dev": "libid3tag",
+    "libmp3lame-dev": "lame",
+    "libvorbis-dev": "libvorbis",
+    "pandoc": "pandoc",
+    "libfuse-dev": "fuse",
+    "libflac++-dev": "flac"
+  }
+}

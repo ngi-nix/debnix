@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "mp3blaster",
+  "nix_pkg": null,
+  "control_file_hash": "2789e36469618460bdcfc1ec6585c7f6b84bc07756ce67e699f5209fc2290c5a",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libsdl1.2-dev",
+    "libsidplay1-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "libvorbis",
+    "ncurses"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "libncurses5-dev": "ncurses"
+  }
+}

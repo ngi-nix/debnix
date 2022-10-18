@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "flintqs",
+  "nix_pkg": null,
+  "control_file_hash": "8089bc1752a6df5fd8009eeff624bf900123a90c4afebb0be6b22837de3aa350",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgmp-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

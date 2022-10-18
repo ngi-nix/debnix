@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "bibtex2html",
+  "nix_pkg": null,
+  "control_file_hash": "c97c4b4c57f56b3eba22e926cea9818fe1850ab5ea3c74515c7c4f10a13bde35",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-ocaml",
+    "hevea",
+    "hlins",
+    "ocaml-nox",
+    "texlive-base"
+  ],
+  "nix_inputs": [
+    "ocaml",
+    "perl"
+  ],
+  "map": {
+    "ocaml-nox": "ocaml"
+  }
+}

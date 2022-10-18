@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "quaternion",
+  "nix_pkg": null,
+  "control_file_hash": "046e072bf0dda4430acd03639683b8e8f605b1c7f4f68cc67f0f42dfdf9f0c0c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libquotient-dev",
+    "qml-module-qtquick-controls",
+    "qml-module-qtquick-controls2",
+    "qt5keychain-dev",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtmultimedia5-dev",
+    "qtquickcontrols2-5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libquotient",
+    "libsecret",
+    "qtkeychain",
+    "qtmultimedia",
+    "qtquickcontrols2",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "libquotient-dev": "libquotient",
+    "qt5keychain-dev": "qtkeychain",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

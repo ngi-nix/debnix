@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "telegram-cli",
+  "nix_pkg": null,
+  "control_file_hash": "45bd307d2d95904c6aa068fd3ccfbbaa53c52d43bc0f37493e8cd6cade5f5632",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper",
+    "libconfig-dev",
+    "libevent-dev",
+    "libgcrypt-dev",
+    "libjansson-dev",
+    "liblua5.2-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "libtgl-0.0.0.20160623-dev",
+    "lua-lgi",
+    "lua5.2",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "jansson",
+    "lgi",
+    "libconfig",
+    "libevent",
+    "libgcrypt",
+    "lua",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "libconfig-dev": "libconfig",
+    "lua5.2": "lua",
+    "libgcrypt-dev": "libgcrypt",
+    "liblua5.2-dev": "lua",
+    "libssl-dev": "openssl",
+    "libevent-dev": "libevent",
+    "libreadline-dev": "readline",
+    "zlib1g-dev": "zlib"
+  }
+}

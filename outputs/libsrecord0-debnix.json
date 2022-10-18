@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libsrecord0",
+  "nix_pkg": null,
+  "control_file_hash": "56eb77e03ba7e866822c94ff2f8ac59ffb4ad921df0bcd939e534b0078b0527c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript",
+    "groff",
+    "libboost-dev",
+    "libgcrypt20-dev",
+    "libsrecord0",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "boost",
+    "ghostscript-with-X",
+    "groff",
+    "libgcrypt",
+    "libtool"
+  ],
+  "map": {
+    "groff": "groff",
+    "libtool-bin": "libtool",
+    "libgcrypt20-dev": "libgcrypt",
+    "libboost-dev": "boost"
+  }
+}

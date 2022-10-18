@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ideviceinstaller",
+  "nix_pkg": null,
+  "control_file_hash": "c602c1a6808e3d8310db68d29dc18a42d156dc813802026bf7ec241c6faa003c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libimobiledevice-dev",
+    "libplist-dev",
+    "libzip-dev"
+  ],
+  "nix_inputs": [
+    "libimobiledevice",
+    "libzip",
+    "pkg-config-wrapper",
+    "usbmuxd"
+  ],
+  "map": {
+    "libimobiledevice-dev": "libimobiledevice",
+    "libzip-dev": "libzip"
+  }
+}

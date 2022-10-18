@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "rubocop",
+  "nix_pkg": null,
+  "control_file_hash": "bdafd7ebb1246ea9737cdc6e564de2de012cabe206a73419a147ceb26ae62267",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gem2deb",
+    "pry",
+    "rake",
+    "ruby",
+    "ruby-parallel",
+    "ruby-progressbar",
+    "ruby-rainbow",
+    "ruby-regexp-parser",
+    "ruby-rspec",
+    "ruby-rubocop-ast",
+    "ruby-rubocop-rspec",
+    "ruby-simplecov",
+    "ruby-unicode-display-width",
+    "ruby-webmock",
+    "ruby-whitequark-parser"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {
+    "ruby": "ruby"
+  }
+}

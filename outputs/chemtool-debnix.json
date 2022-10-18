@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "chemtool",
+  "nix_pkg": null,
+  "control_file_hash": "208f5a894739cb5a3fdd71688d12a54e0702b63be1da20f217f27aa476bfe106",
+  "deb_inputs": [
+    "debhelper",
+    "fig2dev",
+    "fig2sxd",
+    "libgtk2.0-dev",
+    "openbabel",
+    "xfig"
+  ],
+  "nix_inputs": [
+    "fig2dev",
+    "gtk+",
+    "libX11",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fig2dev": "fig2dev",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

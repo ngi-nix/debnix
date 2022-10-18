@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libkvilib5",
+  "nix_pkg": null,
+  "control_file_hash": "11b4b82f3c0bbc87d0630ab1f53c44c6e379939e29000f05220d699b0ab436ac",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "extra-cmake-modules",
+    "graphviz",
+    "kvirc",
+    "kvirc-data",
+    "kvirc-modules",
+    "libenchant-2-dev",
+    "libkf5coreaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5notifications-dev",
+    "libkf5service-dev",
+    "libkf5windowsystem-dev",
+    "libkf5xmlgui-dev",
+    "libkvilib5",
+    "libperl-dev",
+    "libphonon4qt5-dev",
+    "libqt5svg5-dev",
+    "libqt5webkit5-dev",
+    "libqt5x11extras5-dev",
+    "libssl-dev",
+    "libx11-dev",
+    "libxrender-dev",
+    "libxss-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "python3-dev",
+    "qtmultimedia5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gettext",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia",
+    "qtsvg",
+    "qtx11extras"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "catimg",
+  "nix_pkg": null,
+  "control_file_hash": "809deb031c8c7f89a897517ffda21bc8d20ea599554482f0c3c2189d64cb42a4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "pspg",
+  "nix_pkg": null,
+  "control_file_hash": "0d958aa44c1d30549b3103cee60e7b8685714ae01c3eb5fff410d055a0edd0b0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libncursesw5-dev",
+    "libpq-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gnugrep",
+    "ncurses",
+    "pkg-config-wrapper",
+    "postgresql",
+    "readline"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libpq-dev": "postgresql",
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "microcom",
+  "nix_pkg": null,
+  "control_file_hash": "4b3499cb923c99d6aaf4d5f41b482f9d534ee8f839d495346bffe966824ab779",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libreadline6-dev"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline6-dev": "readline"
+  }
+}
