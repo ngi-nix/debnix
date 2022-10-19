@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "sec",
+  "nix_pkg": null,
+  "control_file_hash": "247d088850cdfa87a62d8d3efa45cce6e3b2532db8ab2702b87f4382434ca835",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

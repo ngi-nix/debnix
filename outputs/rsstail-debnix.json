@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "rsstail",
+  "nix_pkg": null,
+  "control_file_hash": "501a053d546656405ae922cb815778616a7f4909c097b776b6450832246434f6",
+  "deb_inputs": [
+    "debhelper",
+    "libmrss0-dev"
+  ],
+  "nix_inputs": [
+    "cppcheck",
+    "libmrss"
+  ],
+  "map": {
+    "libmrss0-dev": "libmrss"
+  }
+}

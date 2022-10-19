@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "klick",
+  "nix_pkg": null,
+  "control_file_hash": "e06461a4bdbfa26d7b5f6653f100afc97e55c84e67672d13c33fe40e57791bab",
+  "deb_inputs": [
+    "debhelper",
+    "gtklick",
+    "libboost-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "librubberband-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "scons"
+  ],
+  "nix_inputs": [
+    "boost",
+    "libjack2",
+    "liblo",
+    "libsamplerate",
+    "libsndfile",
+    "pkg-config-wrapper",
+    "scons"
+  ],
+  "map": {
+    "liblo-dev": "liblo",
+    "libsndfile1-dev": "libsndfile",
+    "scons": "scons",
+    "libsamplerate0-dev": "libsamplerate",
+    "libboost-dev": "boost"
+  }
+}

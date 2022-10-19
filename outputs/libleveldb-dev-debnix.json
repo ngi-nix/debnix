@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libleveldb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "38f7c320f51d058ee67c874bd23521d033bbe51f47db5a6ab9c2e0e16375da98",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "discount",
+    "leveldb-doc",
+    "libbenchmark-dev",
+    "libgmock-dev",
+    "libleveldb1d",
+    "libsnappy-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "snappy"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libsnappy-dev": "snappy"
+  }
+}

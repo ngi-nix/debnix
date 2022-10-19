@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libgsf-1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cf43ae8f29b25cd2e494d1abe84a65670780922ebf94b8516f8cde85b12b6775",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-buildinfo",
+    "gir1.2-gsf-1",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "imagemagick",
+    "intltool",
+    "libbz2-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgsf-1-114",
+    "libgsf-1-common",
+    "libgtk2.0-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "unzip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "gdk-pixbuf",
+    "gettext",
+    "glib",
+    "gtk-doc",
+    "intltool",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib",
+    "gtk-doc-tools": "gtk-doc",
+    "libglib2.0-doc": "glib",
+    "intltool": "intltool",
+    "libglib2.0-dev": "glib",
+    "libxml2-dev": "libxml2"
+  }
+}

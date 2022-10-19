@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "feedgnuplot",
+  "nix_pkg": null,
+  "control_file_hash": "654d612bdf3b4be193e1b129e842d3d5cd8c0d903f1683431e50b6efe5d95e18",
+  "deb_inputs": [
+    "debhelper",
+    "gawk",
+    "gnuplot",
+    "gnuplot-nox",
+    "gnuplot-qt",
+    "gnuplot-x11",
+    "gnuplot5-nox",
+    "gnuplot5-qt",
+    "gnuplot5-x11",
+    "libipc-run-perl",
+    "liblist-moreutils-perl",
+    "libstring-shellquote-perl",
+    "libvnlog-perl",
+    "perl",
+    "vnlog"
+  ],
+  "nix_inputs": [
+    "IPC-Run",
+    "List-MoreUtils",
+    "String-ShellQuote",
+    "gnuplot",
+    "perl"
+  ],
+  "map": {
+    "gnuplot": "gnuplot",
+    "gnuplot-nox": "gnuplot",
+    "gnuplot5-x11": "gnuplot",
+    "gnuplot5-qt": "gnuplot",
+    "gnuplot-x11": "gnuplot",
+    "gnuplot5-nox": "gnuplot",
+    "perl": "perl",
+    "gnuplot-qt": "gnuplot"
+  }
+}

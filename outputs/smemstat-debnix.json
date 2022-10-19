@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "smemstat",
+  "nix_pkg": null,
+  "control_file_hash": "e93d3f1ee0f77e31b0f81920e6c99f367569d1a41a771674eda519476ea0cda3",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses-dev",
+    "libncursesw5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libncurses-dev": "ncurses"
+  }
+}

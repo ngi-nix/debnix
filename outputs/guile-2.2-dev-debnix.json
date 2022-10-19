@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "guile-2.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "39e225909292d1993362102d4546b3ed66dc859e028c1f9a79ab8be673ae3422",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg",
+    "flex",
+    "guile-2.2-doc",
+    "guile-2.2-libs",
+    "guile-2.2:any",
+    "guile-2.2:native",
+    "install-info",
+    "libc6-dev",
+    "libffi-dev",
+    "libgc-dev",
+    "libgmp-dev",
+    "libltdl-dev",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "libreadline6-dev",
+    "libtool",
+    "libunistring-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "gmp-with-cxx",
+    "libffi",
+    "libtool",
+    "libunistring",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline6-dev": "readline",
+    "libunistring-dev": "libunistring",
+    "libffi-dev": "libffi",
+    "libtool": "libtool",
+    "libreadline-dev": "readline",
+    "libltdl-dev": "libtool"
+  }
+}

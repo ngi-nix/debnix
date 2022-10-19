@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "fatrace",
+  "nix_pkg": null,
+  "control_file_hash": "e245f28711c8446f345a03d83d4c3a5a27543c20575942f489be157bd007f4b4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "powertop",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3",
+    "which"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

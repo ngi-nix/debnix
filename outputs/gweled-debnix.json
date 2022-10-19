@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "gweled",
+  "nix_pkg": null,
+  "control_file_hash": "6259de22ae98cd8acf2da6339bc900251af40375add0fe13e8b8cfef3eef20bc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "intltool",
+    "libgtk2.0-dev",
+    "libmikmod-dev",
+    "librsvg2-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gtk+",
+    "hicolor-icon-theme",
+    "libcanberra",
+    "libmikmod",
+    "librsvg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmikmod-dev": "libmikmod",
+    "librsvg2-dev": "librsvg",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

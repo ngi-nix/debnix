@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "shelldap",
+  "nix_pkg": null,
+  "control_file_hash": "a6c55ae1d0f129f80f26551154ae5ba80b937f1dfe65a0cd40b77ad6e86e6ed9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libalgorithm-diff-perl",
+    "libauthen-sasl-perl",
+    "libio-socket-ssl-perl",
+    "libnet-ldap-perl",
+    "libterm-readkey-perl",
+    "libterm-readline-gnu-perl",
+    "libterm-shell-perl",
+    "libtie-ixhash-perl",
+    "libyaml-syck-perl"
+  ],
+  "nix_inputs": [
+    "Algorithm-Diff",
+    "Authen-SASL",
+    "IO-Socket-SSL",
+    "Term-ReadLine-Gnu",
+    "Term-Shell",
+    "YAML-Syck",
+    "perl",
+    "perl-ldap"
+  ],
+  "map": {}
+}

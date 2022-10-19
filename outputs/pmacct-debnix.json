@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "pmacct",
+  "nix_pkg": null,
+  "control_file_hash": "71718058437b9efbbcda615d928b0213fd9fd11fbe9d016236fcc4b93e81e569",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "kfreebsd-kernel-headers",
+    "libjansson-dev",
+    "libmaxminddb-dev",
+    "libnetfilter-log-dev",
+    "libnuma-dev",
+    "libpcap-dev",
+    "libpq-dev",
+    "librabbitmq-dev",
+    "librdkafka-dev",
+    "libsqlite3-dev",
+    "libzmq3-dev",
+    "lsb-base",
+    "net-tools",
+    "pkg-config",
+    "psmisc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "jansson",
+    "libcdada",
+    "libnetfilter_log",
+    "libpcap",
+    "libtool",
+    "mariadb-connector-c",
+    "numactl",
+    "pkg-config-wrapper",
+    "postgresql",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "libpq-dev": "postgresql",
+    "libnetfilter-log-dev": "libnetfilter_log",
+    "libpcap-dev": "libpcap",
+    "zlib1g-dev": "zlib",
+    "libnuma-dev": "numactl",
+    "libsqlite3-dev": "sqlite"
+  }
+}

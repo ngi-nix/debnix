@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "inputplug",
+  "nix_pkg": null,
+  "control_file_hash": "a6c4203d5100c7f4f625aed05a0c2ed66a03ccbf124798f20891278b0eae62dd",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper-compat",
+    "dh-cargo",
+    "librust-anyhow-1.0+default-dev",
+    "librust-nix-0+default-dev",
+    "librust-pidfile-rs-0.1+default-dev",
+    "librust-structopt-0.3+default-dev",
+    "librust-x11rb-0.8+default-dev",
+    "libstd-rust-dev",
+    "pkg-config",
+    "pkgconf",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "libbsd",
+    "nss-cacert",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "fontmatrix",
+  "nix_pkg": null,
+  "control_file_hash": "ef8fbea7829693eb4582afb1325869da4db5e2f07290d585c40be0ab7543b1e4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libicu-dev",
+    "libjs-jquery",
+    "libpuzzle-dev",
+    "libqt5svg5-dev",
+    "libqt5webkit5-dev",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qttools",
+    "qtwebkit"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake"
+  }
+}

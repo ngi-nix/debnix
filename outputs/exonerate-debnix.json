@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "exonerate",
+  "nix_pkg": null,
+  "control_file_hash": "499024a5abaa34e900239a24001e390feda10e8851852b2fe704bbcc1b9dc7c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libreadline-dev",
+    "wise"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

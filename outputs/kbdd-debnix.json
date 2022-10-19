@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "kbdd",
+  "nix_pkg": null,
+  "control_file_hash": "5d115180a8f29407d31d626521a18392c8051d2258066fc0aa51385dd806bfed",
+  "deb_inputs": [
+    "autotools-dev",
+    "dbus-x11",
+    "debhelper",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "libX11",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libdbus-glib-1-dev": "dbus-glib"
+  }
+}

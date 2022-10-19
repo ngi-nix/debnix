@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "pius",
+  "nix_pkg": null,
+  "control_file_hash": "60f038d6a5eae5404e586ea09a8c9141683b65fa125190be77eb58618f971b58",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gnupg",
+    "python3-all"
+  ],
+  "nix_inputs": [
+    "perl",
+    "python3"
+  ],
+  "map": {}
+}

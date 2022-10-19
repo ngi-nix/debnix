@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "foliate",
+  "nix_pkg": null,
+  "control_file_hash": "87d6f5b0f5b608a6dca8b121f890b28b4e1079d19305c6f7aae393ff20d2b125",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "gir1.2-webkit2-4.0",
+    "gjs",
+    "gnome-epub-thumbnailer",
+    "libglib2.0-dev",
+    "meson",
+    "pkg-config",
+    "python3"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "gettext",
+    "gjs",
+    "glib",
+    "glib-networking",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "gtk+3",
+    "meson",
+    "ninja",
+    "python3",
+    "webkitgtk"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "python3": "python3",
+    "gjs": "gjs",
+    "gettext": "gettext"
+  }
+}

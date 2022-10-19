@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "wob",
+  "nix_pkg": null,
+  "control_file_hash": "28a0e5aff57fe014b680293a617cd11e1a10ae739b2f20df994951ffb1908bef",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libffi-dev",
+    "libwayland-dev",
+    "meson",
+    "pkg-config",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "libseccomp",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "meson": "meson",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols",
+    "scdoc": "scdoc"
+  }
+}

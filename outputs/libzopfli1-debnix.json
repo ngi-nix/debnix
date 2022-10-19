@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libzopfli1",
+  "nix_pkg": null,
+  "control_file_hash": "dbf15983b7844990e3c1cb39b182fc2088fd73de9d7aa96d40b7d95a4624b101",
+  "deb_inputs": [
+    "debhelper",
+    "libzopfli1"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

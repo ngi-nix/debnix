@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libmng-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c8ef01649862156f02f1a0a5261846cb6b2c52b08d2f45b4ed1c1468615e60de",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libjpeg-dev",
+    "liblcms2-dev",
+    "libmng2",
+    "libtool",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "lcms2",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "liblcms2-dev": "lcms2",
+    "libjpeg-dev": "libjpeg-turbo",
+    "zlib1g-dev": "zlib"
+  }
+}

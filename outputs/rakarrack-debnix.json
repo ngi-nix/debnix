@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "rakarrack",
+  "nix_pkg": null,
+  "control_file_hash": "26d5b5eb31fe2edaf84712adb6fd737f379c95e6f8d571459a5edd77cc94d58b",
+  "deb_inputs": [
+    "alsa-utils",
+    "debhelper",
+    "jackd",
+    "libasound2",
+    "libasound2-dev",
+    "libfltk1.1",
+    "libfltk1.1-dev",
+    "libjack-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "libxft-dev",
+    "libxpm-dev",
+    "libxpm4",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "alsa-utils",
+    "fltk",
+    "libXft",
+    "libXpm",
+    "libjack2",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libsamplerate",
+    "libsndfile",
+    "zlib"
+  ],
+  "map": {
+    "alsa-utils": "alsa-utils",
+    "libxft-dev": "libXft",
+    "libsndfile1-dev": "libsndfile",
+    "libxpm-dev": "libXpm",
+    "libasound2": "alsa-lib",
+    "libsamplerate0-dev": "libsamplerate",
+    "libasound2-dev": "alsa-lib",
+    "libfltk1.1-dev": "fltk",
+    "libfltk1.1": "fltk",
+    "libxpm4": "libXpm"
+  }
+}

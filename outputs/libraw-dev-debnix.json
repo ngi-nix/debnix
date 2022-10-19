@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libraw-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7153c5d1964810033f99669d05de6a915e27f091cd0badca7b19fed6dd4bbc98",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjpeg-dev",
+    "liblcms2-dev",
+    "libraw20",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "lcms2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "liblcms2-dev": "lcms2"
+  }
+}

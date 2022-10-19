@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "gtimelog",
+  "nix_pkg": null,
+  "control_file_hash": "1a8cb59843027783eee580cfc8420ab536ae6928fc3e4f6e6a58b9bfe184405e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "gir1.2-pango-1.0",
+    "gir1.2-soup-2.4",
+    "python3-all",
+    "python3-cairo",
+    "python3-docutils",
+    "python3-freezegun",
+    "python3-gi",
+    "python3-setuptools",
+    "vim-gnome"
+  ],
+  "nix_inputs": [
+    "freezegun",
+    "glibc-locales",
+    "gobject-introspection",
+    "gtk+3",
+    "libsecret",
+    "libsoup",
+    "mock",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "python3-freezegun": "freezegun",
+    "gir1.2-soup-2.4": "libsoup"
+  }
+}

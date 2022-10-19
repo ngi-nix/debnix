@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "stella",
+  "nix_pkg": null,
+  "control_file_hash": "4a236fd5f4e99426ab47711a9c40fdeb009ed7d2f5884a24c9165322d31db1d2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "joystick",
+    "libpng-dev",
+    "libsdl2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

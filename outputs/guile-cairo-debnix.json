@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "guile-cairo",
+  "nix_pkg": null,
+  "control_file_hash": "a4106954d3efbebbbc79f854d0082f04dc3247f4a15284f8b73fb9dcd637d1c3",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dpkg",
+    "guile-3.0-dev",
+    "guile-cairo",
+    "guile-library",
+    "install-info",
+    "libcairo2-dev",
+    "patchutils"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "expat",
+    "guile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "guile-library": "guile",
+    "guile-3.0-dev": "guile",
+    "libcairo2-dev": "cairo"
+  }
+}

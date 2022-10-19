@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ltris",
+  "nix_pkg": null,
+  "control_file_hash": "4f0bb90ded896da27212576173890477f4116a2f629ba2a50fadad1869649cf8",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

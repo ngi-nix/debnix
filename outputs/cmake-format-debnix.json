@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "cmake-format",
+  "nix_pkg": null,
+  "control_file_hash": "3786427b2464b2f690c8cefacf561c6db0c0aef7d2e2e411140862b9285a27f4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "python3",
+    "python3-argcomplete",
+    "python3-argparse-manpage",
+    "python3-jinja2",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "autopep8",
+    "flake8",
+    "pylint",
+    "python3",
+    "pyyaml",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six",
+    "python3": "python3",
+    "python3-jinja2": "Jinja2"
+  }
+}

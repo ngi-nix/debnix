@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "wdisplays",
+  "nix_pkg": null,
+  "control_file_hash": "fd1210cb406629cb15d5a0c7405367872f5f4061d6c585653623db684b1aaa11",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libepoxy-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libwayland-dev",
+    "meson",
+    "pkg-config",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "libepoxy",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "wayland"
+  ],
+  "map": {
+    "libepoxy-dev": "libepoxy",
+    "libwayland-dev": "wayland",
+    "meson": "meson"
+  }
+}

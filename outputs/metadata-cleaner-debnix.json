@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "metadata-cleaner",
+  "nix_pkg": null,
+  "control_file_hash": "7d4bc78665527405c76909eb0f2c9c278ac73cb171362d8fa67ff898651f9133",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "dh-python",
+    "gir1.2-adw-1",
+    "itstool",
+    "libadwaita-1-dev",
+    "libgtk-4-bin",
+    "mat2",
+    "media-types",
+    "meson",
+    "pkg-config",
+    "python-gi-dev",
+    "python3-dev",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "appstream",
+    "desktop-file-utils",
+    "glib",
+    "gobject-introspection",
+    "gtk4",
+    "itstool",
+    "libadwaita",
+    "librsvg",
+    "mat2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "poppler-glib",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson",
+    "python-gi-dev": "pygobject",
+    "appstream": "appstream",
+    "mat2": "mat2",
+    "python3-dev": "python3",
+    "desktop-file-utils": "desktop-file-utils",
+    "libgtk-4-bin": "gtk4",
+    "itstool": "itstool"
+  }
+}

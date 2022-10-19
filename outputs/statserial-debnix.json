@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "statserial",
+  "nix_pkg": null,
+  "control_file_hash": "66d1fbb43521b885af4c8e47acdf9b1b23df38d81de934104a26b4a2975dd938",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "glibc",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

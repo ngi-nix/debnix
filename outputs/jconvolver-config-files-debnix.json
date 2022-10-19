@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "jconvolver-config-files",
+  "nix_pkg": null,
+  "control_file_hash": "ac4674d28ec60f3dd603dc5c14d9a8f8d549bb43f7f23d76c1ee358d290202b2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jcgui",
+    "jconvolver",
+    "jconvolver-config-files",
+    "libclthreads-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "libsndfile1-dev",
+    "libzita-convolver-dev"
+  ],
+  "nix_inputs": [
+    "HybridReverb2",
+    "fftw-single",
+    "flac",
+    "libclthreads",
+    "libjack2",
+    "libsndfile",
+    "unzip",
+    "zita-convolver"
+  ],
+  "map": {
+    "libclthreads-dev": "libclthreads",
+    "libsndfile1-dev": "libsndfile",
+    "libzita-convolver-dev": "zita-convolver"
+  }
+}

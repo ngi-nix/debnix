@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "ebumeter",
+  "nix_pkg": null,
+  "control_file_hash": "e320639947c83c7e1967bf28701babc17078e3d9bf06ef0165f58c0ed8ce9885",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfreetype6-dev",
+    "libjack-dev",
+    "libpng-dev",
+    "libsndfile1-dev",
+    "libzita-resampler-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXft",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "libpng-apng",
+    "libsndfile",
+    "zita-resampler"
+  ],
+  "map": {
+    "libclthreads-dev": "libclthreads",
+    "libzita-resampler-dev": "zita-resampler",
+    "libclxclient-dev": "libclxclient",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

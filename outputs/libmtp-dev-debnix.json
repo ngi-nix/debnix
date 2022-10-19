@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libmtp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7e81611d9515bab32b811851257eed40df83a69ad850096c66b6d262bffc9580",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "chrpath",
+    "debhelper-compat",
+    "docbook-xsl",
+    "doxygen",
+    "libgcrypt20-dev",
+    "libmtp-common",
+    "libmtp-runtime",
+    "libmtp9",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gettext",
+    "libtool",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "automake": "automake"
+  }
+}

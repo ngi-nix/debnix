@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "logtop",
+  "nix_pkg": null,
+  "control_file_hash": "32831edc9ed343f5ec18817883e4b2f26acdc958e7e15ad4a99c2404d1378279",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libncurses5-dev",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "uthash"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "uthash-dev": "uthash"
+  }
+}

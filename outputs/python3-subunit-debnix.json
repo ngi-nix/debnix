@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "python3-subunit",
+  "nix_pkg": null,
+  "control_file_hash": "5798e9c0d3be288ce81881489782b53319f113b7124df468fbc956f0f9cf6eb9",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "check",
+    "debhelper-compat",
+    "dh-python",
+    "libcppunit-dev",
+    "libcppunit-subunit0",
+    "libsubunit-perl",
+    "libsubunit0",
+    "libtool",
+    "openstack-pkg-tools",
+    "pkg-config",
+    "python3-all",
+    "python3-extras",
+    "python3-setuptools",
+    "python3-subunit",
+    "python3-testscenarios",
+    "python3-testtools"
+  ],
+  "nix_inputs": [
+    "check",
+    "cppunit",
+    "perl",
+    "pkg-config-wrapper",
+    "testscenarios",
+    "testtools"
+  ],
+  "map": {
+    "libcppunit-dev": "cppunit",
+    "check": "check"
+  }
+}

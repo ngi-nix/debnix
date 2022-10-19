@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "praat",
+  "nix_pkg": null,
+  "control_file_hash": "66541489c5ff376402f6e6e9bac55741b404755978572ae7fd5014d57f21ab1d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libasound2-dev",
+    "libasound2-plugins",
+    "libgtk-3-dev",
+    "libjack-jackd2-dev",
+    "libpulse-dev",
+    "oss-compat",
+    "pandoc",
+    "python3:any",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "gtk+3",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

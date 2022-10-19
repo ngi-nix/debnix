@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "unicorn",
+  "nix_pkg": null,
+  "control_file_hash": "adb5bf5082eae3a6e42a6fe5f060fffc4e18a29bd05198133b77166b7c04c76b",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "gem2deb",
+    "quilt",
+    "ruby",
+    "ruby-interpreter",
+    "ruby-kgio",
+    "ruby-rack",
+    "ruby-raindrops"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

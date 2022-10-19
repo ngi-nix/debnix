@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "librrdp-perl",
+  "nix_pkg": null,
+  "control_file_hash": "8d7ee28a59f7da3dc7310c1d11fb7c159b68ff2fdcd4e3cae8773eeb4780f8b7",
+  "deb_inputs": [
+    "dc",
+    "debhelper-compat",
+    "dh-lua",
+    "dh-python",
+    "fonts-dejavu-core",
+    "gem2deb",
+    "libdbi-dev",
+    "libpango1.0-dev",
+    "libpng-dev",
+    "librrd8",
+    "librrds-perl",
+    "libxml2-dev",
+    "lsb-base",
+    "lua-rrd",
+    "perl",
+    "python3-all-dev",
+    "python3-setuptools",
+    "rrdtool",
+    "tcl-dev",
+    "ttf-bitstream-vera"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gettext",
+    "groff",
+    "libxml2",
+    "pango",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libxml2-dev": "libxml2",
+    "perl": "perl"
+  }
+}

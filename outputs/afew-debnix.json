@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "afew",
+  "nix_pkg": null,
+  "control_file_hash": "927310f43c8740bd8a49be7512a5255fec7172acfb4ef808f40bebbbe8136583",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "notmuch",
+    "python3-all",
+    "python3-chardet",
+    "python3-dkim",
+    "python3-dnspython",
+    "python3-freezegun",
+    "python3-notmuch",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "chardet",
+    "dkimpy",
+    "freezegun",
+    "notmuch",
+    "python3",
+    "setuptools",
+    "setuptools-scm",
+    "sphinx"
+  ],
+  "map": {
+    "python3-sphinx": "sphinx",
+    "python3-dkim": "dkimpy",
+    "python3-setuptools-scm": "setuptools-scm",
+    "notmuch": "notmuch",
+    "python3-chardet": "chardet",
+    "python3-notmuch": "notmuch",
+    "python3-freezegun": "freezegun",
+    "python3-setuptools": "setuptools"
+  }
+}

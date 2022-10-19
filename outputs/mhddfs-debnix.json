@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "mhddfs",
+  "nix_pkg": null,
+  "control_file_hash": "23fdf55ab46350c59fa5658c38624f039447bb49d9c1e3e9084bcf2c7753e6a2",
+  "deb_inputs": [
+    "debhelper",
+    "fuse",
+    "libattr1-dev",
+    "libfuse-dev",
+    "pkg-config",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "attr",
+    "fuse",
+    "pkg-config-wrapper",
+    "uthash"
+  ],
+  "map": {
+    "uthash-dev": "uthash",
+    "libfuse-dev": "fuse",
+    "fuse": "fuse",
+    "libattr1-dev": "attr"
+  }
+}

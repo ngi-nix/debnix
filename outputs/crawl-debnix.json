@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "crawl",
+  "nix_pkg": null,
+  "control_file_hash": "8632a00bd3dccfd68bac25ee5387396fa791969e1ee1ffdfd95bf30268115589",
+  "deb_inputs": [
+    "bison",
+    "crawl",
+    "crawl-common",
+    "crawl-tiles",
+    "crawl-tiles-data",
+    "debhelper-compat",
+    "flex",
+    "fonts-dejavu-core",
+    "libfreetype6-dev",
+    "liblua5.1-0-dev",
+    "libncursesw5-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "advancecomp",
+    "lua",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper",
+    "pngcrush",
+    "pyyaml",
+    "sqlite",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libncursesw5-dev": "ncurses",
+    "liblua5.1-0-dev": "lua",
+    "python3-yaml": "pyyaml"
+  }
+}

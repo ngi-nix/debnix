@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "pgtop",
+  "nix_pkg": null,
+  "control_file_hash": "9d9b6baf66cb387af32a0cc45262b1d4cf68b115ed85931f53b9bd09e6da786c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libncurses5-dev",
+    "libpq-dev",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "DBD-Pg",
+    "DBI",
+    "JSON",
+    "TermReadKey",
+    "libwww-perl",
+    "perl"
+  ],
+  "map": {}
+}

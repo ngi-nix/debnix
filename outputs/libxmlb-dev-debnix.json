@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libxmlb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "46dfeb57aa623eb16e45c77eda954b98ce5f19fdfb6f87dd4a7ed3d1093f0cfb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-glib-2.0",
+    "gir1.2-xmlb-2.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "liblzma-dev",
+    "libxmlb2",
+    "meson",
+    "shared-mime-info"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "shared-mime-info",
+    "xz"
+  ],
+  "map": {
+    "meson": "meson",
+    "gtk-doc-tools": "gtk-doc",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "libglib2.0-doc": "glib",
+    "shared-mime-info": "shared-mime-info",
+    "libglib2.0-dev": "glib",
+    "gobject-introspection": "gobject-introspection",
+    "libgirepository1.0-dev": "gobject-introspection"
+  }
+}

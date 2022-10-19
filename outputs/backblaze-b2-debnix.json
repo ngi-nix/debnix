@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "backblaze-b2",
+  "nix_pkg": null,
+  "control_file_hash": "71623336d392d4c973b603dfecc58944faf5a2a6ed93525ec12e799987b1ae0c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pylint",
+    "python3-all",
+    "python3-logfury",
+    "python3-mock",
+    "python3-nose",
+    "python3-pyflakes",
+    "python3-setuptools",
+    "python3-tqdm",
+    "yapf3"
+  ],
+  "nix_inputs": [
+    "b2sdk",
+    "backoff",
+    "class-registry",
+    "docutils",
+    "more-itertools",
+    "python3",
+    "rst2ansi",
+    "setuptools",
+    "setuptools-scm",
+    "tabulate"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools"
+  }
+}

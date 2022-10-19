@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "siege",
+  "nix_pkg": null,
+  "control_file_hash": "bfaff9045a7f2d98586adfcd54669d67516ff25727c2d85249a0dcea8d259f7c",
+  "deb_inputs": [
+    "debhelper",
+    "libssl-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

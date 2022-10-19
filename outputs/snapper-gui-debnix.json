@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "snapper-gui",
+  "nix_pkg": null,
+  "control_file_hash": "b5c6ecb176110950cb2101709394b7d227cd783d8361fabcdafb82ccdc4ea785",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "gir1.2-gtksource-3.0",
+    "python3-all",
+    "python3-dbus",
+    "python3-gi",
+    "python3-setuptools",
+    "snapper"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "dbus-python",
+    "gobject-introspection",
+    "gtk+3",
+    "gtksourceview",
+    "pygobject",
+    "python3",
+    "setuptools",
+    "snapper"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "python3-setuptools": "setuptools",
+    "python3-dbus": "dbus-python",
+    "snapper": "snapper",
+    "gir1.2-gtksource-3.0": "gtksourceview"
+  }
+}

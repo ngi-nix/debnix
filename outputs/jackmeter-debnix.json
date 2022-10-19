@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "jackmeter",
+  "nix_pkg": null,
+  "control_file_hash": "e69e858abc5e10d2e162c1043cb645b192daf361f55991c52e0d37bbef5d9c30",
+  "deb_inputs": [
+    "autoconf",
+    "autotools-dev",
+    "debhelper",
+    "libjack-dev"
+  ],
+  "nix_inputs": [
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

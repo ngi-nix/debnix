@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "pianobooster",
+  "nix_pkg": null,
+  "control_file_hash": "a48e31d7cc6e9033073246400ff85f45aa984d9288ada7b6ca2219d20b742165",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "fluid-soundfont-gm",
+    "fluid-soundfont-gs",
+    "fonts-dejavu-core",
+    "hicolor-icon-theme",
+    "libasound2-dev",
+    "libfluidsynth-dev",
+    "libftgl-dev",
+    "libgl-dev",
+    "libglu1-mesa-dev",
+    "libqt5opengl5-dev",
+    "librtmidi-dev",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qttools5-dev",
+    "qttranslations5-l10n",
+    "timidity",
+    "unzip"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "ftgl",
+    "glu",
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "rtmidi"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libftgl-dev": "ftgl",
+    "libglu1-mesa-dev": "glu",
+    "cmake": "cmake",
+    "librtmidi-dev": "rtmidi",
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools"
+  }
+}

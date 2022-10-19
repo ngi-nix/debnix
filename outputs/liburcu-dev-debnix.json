@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "liburcu-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d09e4328242b6d597a7e87fa9834bce35c969fcd0b4615be3c79169897d170ce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liburcu8"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

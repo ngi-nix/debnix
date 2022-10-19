@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "puredata",
+  "nix_pkg": null,
+  "control_file_hash": "fafc5ab5c3fa1b8ebc85c5c259247bfc34487de78a06be95867b68c56921e24f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gem",
+    "gettext",
+    "libasound2-dev",
+    "libjack-dev",
+    "libpd0",
+    "multimedia-puredata",
+    "node-html5shiv",
+    "pd-aubio",
+    "pd-csound",
+    "pd-pdp",
+    "pd-zexy",
+    "portaudio19-dev",
+    "puredata",
+    "puredata-core",
+    "puredata-dev",
+    "puredata-doc",
+    "puredata-extra",
+    "puredata-gui",
+    "puredata-gui-l10n",
+    "puredata-utils",
+    "puredata64-core",
+    "puredata64-extra",
+    "python3:any",
+    "sensible-utils",
+    "tcl",
+    "tk"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "gettext",
+    "libjack2"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "libasound2-dev": "alsa-lib"
+  }
+}

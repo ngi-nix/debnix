@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "clipman",
+  "nix_pkg": null,
+  "control_file_hash": "edc0a6da612053738cc8d27c8a1144af3855dc29233d243c587eb0d9cceec3ff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "wl-clipboard"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

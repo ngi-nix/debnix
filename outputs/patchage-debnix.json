@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "patchage",
+  "nix_pkg": null,
+  "control_file_hash": "d43c1a50adb5eec6b286d99624b6bab7706c4693645599017900706aabfbda76",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "jackd",
+    "ladish",
+    "libasound2-dev",
+    "libboost-dev",
+    "libganv-dev",
+    "libgtkmm-2.4-dev",
+    "libjack-dev",
+    "python"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "boost",
+    "dbus-glib",
+    "ganv",
+    "glibmm",
+    "gtkmm",
+    "libjack2",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libgtkmm-2.4-dev": "gtkmm",
+    "libganv-dev": "ganv",
+    "libboost-dev": "boost",
+    "libasound2-dev": "alsa-lib"
+  }
+}

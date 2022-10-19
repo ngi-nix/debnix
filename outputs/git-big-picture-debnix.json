@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "git-big-picture",
+  "nix_pkg": null,
+  "control_file_hash": "c6cca27498bb3ff165965d69bad121f16a8c474acb60a116f04e9f65ff9d978d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "git",
+    "graphviz",
+    "python3-all",
+    "python3-cram",
+    "python3-docutils",
+    "python3-git-big-picture",
+    "python3-parameterized",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

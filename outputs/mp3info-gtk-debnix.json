@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "mp3info-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "c6035a8453c1281a13835ca96edc718a39c0d9f93626a3f9262be406589171c9",
+  "deb_inputs": [
+    "bsdmainutils",
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "groff-base",
+    "libgtk2.0-dev",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

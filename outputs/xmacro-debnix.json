@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "xmacro",
+  "nix_pkg": null,
+  "control_file_hash": "72319e5c5e1607113498241ce48622ee8f729d69e9587b9b424a41276e841174",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxtst-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXi",
+    "libXtst",
+    "xorgproto"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxtst-dev": "libXtst"
+  }
+}

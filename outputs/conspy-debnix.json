@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "conspy",
+  "nix_pkg": null,
+  "control_file_hash": "c18ea69b8c20a6e0686af092f4bd364141b16d67601c466a887822bb83127d57",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "ncurses"
+  ],
+  "map": {
+    "automake": "automake",
+    "autoconf": "autoconf",
+    "libncurses5-dev": "ncurses"
+  }
+}

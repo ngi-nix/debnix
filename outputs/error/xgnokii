@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["autotools-dev", "debhelper", "dialog", "dpkg-dev", "flex", "gettext", "gnokii", "gnokii-cli", "gnokii-common", "gnokii-smsd", "gnokii-smsd-mysql", "gnokii-smsd-pgsql", "gnome-icon-theme", "intltool", "libbluetooth-dev", "libc6-dev", "libglib2.0-dev", "libgnokii7", "libgtk2.0-dev", "libical-dev", "libmysqlclient-dev", "libncurses-dev", "libncurses5-dev", "libpcsclite-dev", "libpq-dev", "libreadline-dev", "libsqlite3-dev", "libusb-dev", "libx11-dev", "libxml-parser-perl", "libxpm-dev", "libxt-dev", "xgnokii"], or 
+output: 
+[] is empty!

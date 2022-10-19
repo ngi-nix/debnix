@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "proot",
+  "nix_pkg": null,
+  "control_file_hash": "29a18f7d1d50f51b5ef3afc706b00c0af536ae8601b9fa4bc6daa766e6df1cff",
+  "deb_inputs": [
+    "debhelper",
+    "libtalloc-dev"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "ncurses",
+    "pkg-config-wrapper",
+    "python3",
+    "swig",
+    "talloc"
+  ],
+  "map": {
+    "libtalloc-dev": "talloc"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "samplv1",
+  "nix_pkg": null,
+  "control_file_hash": "7b3895155340388540a9b1ceefe9d8458c00cef93b29dd14b22d857f522b62c1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libqt6svg6-dev",
+    "libsndfile1-dev",
+    "libx11-dev",
+    "lv2-dev",
+    "qt6-base-dev",
+    "qt6-tools-dev-tools",
+    "samplv1-common"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "liblo",
+    "libsndfile",
+    "lv2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "rubberband"
+  ],
+  "map": {
+    "liblo-dev": "liblo",
+    "libsndfile1-dev": "libsndfile",
+    "lv2-dev": "lv2",
+    "libasound2-dev": "alsa-lib"
+  }
+}

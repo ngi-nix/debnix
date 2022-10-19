@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "age",
+  "nix_pkg": null,
+  "control_file_hash": "862651c7738affbb7fa07f1ed3dfbdbc7e4c5149993433ac779450722cf19296",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-filippo-edwards25519-dev",
+    "golang-golang-x-crypto-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

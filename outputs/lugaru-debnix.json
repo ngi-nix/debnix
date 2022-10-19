@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "lugaru",
+  "nix_pkg": null,
+  "control_file_hash": "f0338dd726a468a22fb20066c27cb0422a4c9bf03973dbad3e7a7966e038ac82",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "libjpeg-dev",
+    "libopenal-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libvorbis-dev",
+    "lugaru-data"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "glu",
+    "libjpeg-turbo",
+    "libogg",
+    "libpng-apng",
+    "libvorbis",
+    "openal-soft",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libvorbis-dev": "libvorbis",
+    "libopenal-dev": "openal-soft",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

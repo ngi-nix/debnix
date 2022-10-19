@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "python3-hy",
+  "nix_pkg": null,
+  "control_file_hash": "74946faa17574bd357d599129265317c47110fe37910fcd96c73cf781dcca57d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-astor",
+    "python3-colorama",
+    "python3-coverage",
+    "python3-funcparserlib",
+    "python3-hy",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-rply",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "funcparserlib",
+    "python3"
+  ],
+  "map": {
+    "python3-funcparserlib": "funcparserlib"
+  }
+}

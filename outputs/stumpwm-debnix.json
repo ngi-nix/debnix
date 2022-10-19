@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "stumpwm",
+  "nix_pkg": null,
+  "control_file_hash": "56943c96465473f952766270a53e30ea6c8c1e4be1ced81195de9de6f85d183d",
+  "deb_inputs": [
+    "cl-clx-sbcl",
+    "cl-ppcre",
+    "cmucl-source",
+    "debhelper",
+    "info-browser",
+    "rlwrap",
+    "slime",
+    "www-browser",
+    "x-terminal-emulator",
+    "x11-utils"
+  ],
+  "nix_inputs": [
+    "asdf",
+    "sbcl"
+  ],
+  "map": {}
+}

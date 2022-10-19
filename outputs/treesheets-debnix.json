@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "treesheets",
+  "nix_pkg": null,
+  "control_file_hash": "c66d5e83dfe758299f4552da1db4585b2a560d2f05e4f0a6178a5539d4eefbe9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "imagemagick",
+    "libwxgtk3.0-gtk3-dev",
+    "wx3.0-headers"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja",
+    "wxwidgets"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "wx3.0-headers": "wxwidgets"
+  }
+}

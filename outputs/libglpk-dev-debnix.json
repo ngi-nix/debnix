@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libglpk-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ee9881fa6e494e20c4269740637a5637d01f44e7d76728ad5ff543d40ab94a93",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "libglpk40",
+    "libgmp-dev",
+    "libiodbc2-dev",
+    "libltdl-dev",
+    "libsuitesparse-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "mariadb-connector-c"
+  ],
+  "map": {}
+}

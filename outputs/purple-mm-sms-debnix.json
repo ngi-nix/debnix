@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "purple-mm-sms",
+  "nix_pkg": null,
+  "control_file_hash": "bd45a212754b8313df8b55cd84f71d1d0b5c3179f0662b67494da57f6b337745",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmm-glib-dev",
+    "libpurple-dev",
+    "modemmanager",
+    "modemmanager-dev"
+  ],
+  "nix_inputs": [
+    "glibmm",
+    "modemmanager",
+    "pidgin",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "modemmanager": "modemmanager",
+    "libpurple-dev": "pidgin",
+    "libmm-glib-dev": "modemmanager",
+    "modemmanager-dev": "modemmanager"
+  }
+}

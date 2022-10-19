@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "powermanga-data",
+  "nix_pkg": null,
+  "control_file_hash": "18663f1594fc14a5cb5b04a4b33b88f7134fe565a6f3642141ce441c42690564",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxxf86dga-dev",
+    "libxxf86vm-dev",
+    "powermanga-data",
+    "rdfind",
+    "symlinks",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "autoconf",
+    "automake",
+    "libpng-apng"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

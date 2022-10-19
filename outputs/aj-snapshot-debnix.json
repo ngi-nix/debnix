@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "aj-snapshot",
+  "nix_pkg": null,
+  "control_file_hash": "1825e23e8fd0d2ee76706efe6f591dc5b189771ad287bf0eb0a2f1864c1089e1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libmxml-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "jack2",
+    "mxml",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmxml-dev": "mxml",
+    "libasound2-dev": "alsa-lib"
+  }
+}

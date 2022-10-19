@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "xsnow",
+  "nix_pkg": null,
+  "control_file_hash": "c6bc41f474f296c578279b4400f61b23c7b0d7c9ab1ba9e3ae7fca0615ac64bc",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libgsl-dev",
+    "libgtk-3-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "libXpm",
+    "libXt",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxt-dev": "libXt",
+    "libxpm-dev": "libXpm"
+  }
+}

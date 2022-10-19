@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "s4cmd",
+  "nix_pkg": null,
+  "control_file_hash": "6a2046963799642b2cfa60879e4ea67138ea6ad7ff03b341ac08e7e550a3a196",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper",
+    "dh-python",
+    "help2man",
+    "python3-all",
+    "python3-boto3",
+    "python3-setuptools",
+    "python3-tz",
+    "python3-urllib3"
+  ],
+  "nix_inputs": [
+    "boto3",
+    "python3",
+    "pytz"
+  ],
+  "map": {}
+}

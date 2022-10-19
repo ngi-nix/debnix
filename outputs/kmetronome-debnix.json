@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "kmetronome",
+  "nix_pkg": null,
+  "control_file_hash": "b2eede0624eb2b63411da3521d11c60564909c97b496b67f5484b7484ca61f86",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libdrumstick-dev",
+    "libqt5svg5-dev",
+    "pandoc",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "drumstick",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake",
+    "libdrumstick-dev": "drumstick",
+    "libasound2-dev": "alsa-lib",
+    "qttools5-dev": "qttools"
+  }
+}

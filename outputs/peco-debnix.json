@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "peco",
+  "nix_pkg": null,
+  "control_file_hash": "326a238a349f1b1852e43807c7d4b4dfaf2af49a33f567ddd637c0d7e5e626a6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-google-btree-dev",
+    "golang-github-lestrrat-go-pdebug-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-github-nsf-termbox-go-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-go",
+    "golang-go-flags-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

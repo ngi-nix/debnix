@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libspnav-dev",
+  "nix_pkg": null,
+  "control_file_hash": "06c48dafad739af0f83cc73c0c0e6660753e484477869f3436854077e96ec1c1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libspnav0",
+    "libx11-dev",
+    "spacenavd"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}
