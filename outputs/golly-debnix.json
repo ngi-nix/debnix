@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "golly",
+  "nix_pkg": null,
+  "control_file_hash": "1fe0d5872b03772257b7b5780cb104eabb7962456a9b32bbaf9a4b3a5c8fea05",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-lua",
+    "libperl-dev",
+    "libwxgtk3.0-gtk3-dev",
+    "perl",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "glu",
+    "libGL",
+    "libX11",
+    "perl",
+    "python3",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "libperl-dev": "perl",
+    "zlib1g-dev": "zlib",
+    "perl": "perl",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets"
+  }
+}

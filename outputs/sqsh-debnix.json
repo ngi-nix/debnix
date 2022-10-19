@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "sqsh",
+  "nix_pkg": null,
+  "control_file_hash": "c514d58c5524e2b0cd6c9041975bcb746ce1d34e04dcde54d01d7f25a8df2573",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "freetds-dev",
+    "lemon",
+    "libmotif-dev",
+    "libreadline-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "freetds",
+    "readline"
+  ],
+  "map": {
+    "freetds-dev": "freetds",
+    "libreadline-dev": "readline"
+  }
+}

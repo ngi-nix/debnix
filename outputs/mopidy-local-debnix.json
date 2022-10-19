@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mopidy-local",
+  "nix_pkg": null,
+  "control_file_hash": "9e8520db6e36d5d17c3c33a0b5747739f5192105d9a0c6b6f6a614a6c1fd576a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "python3",
+    "uritools"
+  ],
+  "map": {
+    "mopidy": "mopidy",
+    "python3": "python3"
+  }
+}

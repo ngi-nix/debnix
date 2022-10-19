@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libopusfile-dev",
+  "nix_pkg": null,
+  "control_file_hash": "102cd7200a6588697fb6ec096dd164fa53fa0b07e730e9e5ea4935501bc4df40",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libogg-dev",
+    "libopus-dev",
+    "libopusfile-dev",
+    "libopusfile0",
+    "libssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "libopus",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libopus-dev": "libopus",
+    "libogg-dev": "libogg"
+  }
+}

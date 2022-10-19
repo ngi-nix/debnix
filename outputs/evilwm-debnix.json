@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "evilwm",
+  "nix_pkg": null,
+  "control_file_hash": "e42fcb0c32fe53aef1b941a627f55d0ff618fac310af88f6f42127d35f231539",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doc-base",
+    "libx11-dev",
+    "libxrandr-dev",
+    "x11proto-core-dev",
+    "x11proto-xext-dev",
+    "xfonts-100dpi",
+    "xfonts-75dpi",
+    "xfonts-terminus",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXrandr",
+    "libXrender",
+    "xorgproto"
+  ],
+  "map": {
+    "x11proto-xext-dev": "xorgproto",
+    "x11proto-core-dev": "xorgproto",
+    "libx11-dev": "libX11",
+    "libxrandr-dev": "libXrandr"
+  }
+}

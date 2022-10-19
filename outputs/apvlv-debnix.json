@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "apvlv",
+  "nix_pkg": null,
+  "control_file_hash": "dc68b1cbefb89447c5875df29ea4e7487945a8cd086bf4d28dc9aedf4a0e448a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ghostscript",
+    "libdjvulibre-dev",
+    "libepub-dev",
+    "libgtk-3-dev",
+    "libpoppler-glib-dev",
+    "libpoppler-private-dev",
+    "libwebkit2gtk-4.0-dev",
+    "libxml2-dev",
+    "mandoc",
+    "poppler-data"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freetype",
+    "gtk+3",
+    "libXdmcp",
+    "libepoxy",
+    "libpthread-stubs",
+    "libxkbcommon",
+    "libxshmfence",
+    "pcre",
+    "pkg-config-wrapper",
+    "poppler-glib"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

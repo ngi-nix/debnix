@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "beneath-a-steel-sky",
+  "nix_pkg": null,
+  "control_file_hash": "9903a46d7b2c275c0be84f59b14657a3d4167224fcd5ce366d434ef702bdad3c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "scummvm"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

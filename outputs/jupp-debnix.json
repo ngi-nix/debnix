@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "jupp",
+  "nix_pkg": null,
+  "control_file_hash": "4aa61b850646237a08abf7a3388b492f42f8749165f78e2b4cfe34d3c7e928e2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jupp",
+    "libncurses-dev",
+    "libselinux1-dev"
+  ],
+  "nix_inputs": [
+    "gpm",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

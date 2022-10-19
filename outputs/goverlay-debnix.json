@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "goverlay",
+  "nix_pkg": null,
+  "control_file_hash": "1cf29a0942c7a60f94eed7bbd2213ee12e148e01167dfa3ed8354f679c6701f7",
+  "deb_inputs": [
+    "adwaita-qt",
+    "breeze",
+    "debhelper-compat",
+    "fpc",
+    "git",
+    "lazarus-src",
+    "lcl",
+    "lcl-qt5",
+    "libgl-dev",
+    "mangohud",
+    "mesa-utils",
+    "vkbasalt",
+    "vulkan-tools"
+  ],
+  "nix_inputs": [
+    "breeze-qt5",
+    "fpc",
+    "glu",
+    "lazarus-qt5",
+    "libGL",
+    "libX11",
+    "libqt5pas"
+  ],
+  "map": {
+    "fpc": "fpc",
+    "libgl-dev": "libGL"
+  }
+}

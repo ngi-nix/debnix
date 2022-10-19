@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "debhelper-compat", "intltool", "libgtk-3-dev", "libnm-dev", "libnma-dev", "libsecret-1-dev", "network-manager-ssh", "network-manager-ssh-gnome", "openssh-client", "plasma-widget-networkmanagement", "sshpass"], or 
+output: 
+[] is empty!

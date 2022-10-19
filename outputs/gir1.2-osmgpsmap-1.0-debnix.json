@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gir1.2-osmgpsmap-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "093c34187a5f9cbfec9fd43f53b80ce4e74e0443fcd8fd08f1b74dee2524cc62",
+  "deb_inputs": [
+    "debhelper",
+    "gir1.2-osmgpsmap-1.0",
+    "gnome-common",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libcairo2-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libosmgpsmap-1.0-1",
+    "libsoup2.4-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "glib",
+    "gnome-common",
+    "gobject-introspection",
+    "gtk+3",
+    "libsoup",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gnome-common": "gnome-common",
+    "libcairo2-dev": "cairo",
+    "libsoup2.4-dev": "libsoup"
+  }
+}

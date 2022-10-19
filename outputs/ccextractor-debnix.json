@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "ccextractor",
+  "nix_pkg": null,
+  "control_file_hash": "ee8c72982dff32a2151c81c263c231737ad27b57486a872cf7572e02500dc328",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libcurl4-gnutls-dev",
+    "libfreetype6-dev",
+    "libgpac-dev",
+    "libleptonica-dev",
+    "libpng-dev",
+    "libtesseract-dev",
+    "libutf8proc-dev",
+    "pkg-config",
+    "tesseract-ocr"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ffmpeg",
+    "leptonica",
+    "pkg-config-wrapper",
+    "tesseract",
+    "zlib"
+  ],
+  "map": {
+    "tesseract-ocr": "tesseract",
+    "libtesseract-dev": "tesseract",
+    "libavutil-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg",
+    "libleptonica-dev": "leptonica",
+    "libavfilter-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg"
+  }
+}

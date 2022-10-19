@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "jshon",
+  "nix_pkg": null,
+  "control_file_hash": "b50fb5826b14b25505ac8a5dd649a267a618aa8625cb728c7eb9a6a2b497af84",
+  "deb_inputs": [
+    "debhelper",
+    "libjansson-dev"
+  ],
+  "nix_inputs": [
+    "jansson"
+  ],
+  "map": {
+    "libjansson-dev": "jansson"
+  }
+}

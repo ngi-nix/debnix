@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libdcmtk17",
+  "nix_pkg": null,
+  "control_file_hash": "19365d0818bad4aea309f7d2b667bb54c53ae0f0f454d389639a081b7093699c",
+  "deb_inputs": [
+    "adduser",
+    "cmake",
+    "dcmtk",
+    "dcmtk-doc",
+    "debhelper-compat",
+    "gettext",
+    "help2man",
+    "libdcmtk-dev",
+    "libdcmtk17",
+    "libpng-dev",
+    "libsndfile1-dev",
+    "libssl-dev",
+    "libtiff-dev",
+    "libwrap0-dev",
+    "libxml2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libpng-apng",
+    "libtiff",
+    "libxml2",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "zlib1g-dev": "zlib",
+    "libtiff-dev": "libtiff",
+    "cmake": "cmake",
+    "libssl-dev": "openssl"
+  }
+}

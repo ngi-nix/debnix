@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "batctl",
+  "nix_pkg": null,
+  "control_file_hash": "c6da501eb81c0117eb17591e8fb5fd7c18b341860105907e47cd8f190be9636b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnl-genl-3-dev": "libnl",
+    "libnl-3-dev": "libnl"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "bzflag-data",
+  "nix_pkg": null,
+  "control_file_hash": "bf04aa4004d4f5d0d27afc90213ec9ca193304d28f078f01003c209fa3cddc5e",
+  "deb_inputs": [
+    "bzflag-client",
+    "bzflag-data",
+    "bzflag-server",
+    "debhelper-compat",
+    "groff",
+    "libc-ares-dev",
+    "libcpputest-dev",
+    "libcurl-dev",
+    "libcurl4-dev",
+    "libcurl4-gnutls-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglew-dev",
+    "libglu-dev",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libsdl2-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "c-ares",
+    "curl",
+    "glew",
+    "glu",
+    "libGL",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcurl-dev": "curl",
+    "libglu-dev": "glu",
+    "libgl-dev": "libGL",
+    "libncurses5-dev": "ncurses",
+    "libcurl4-dev": "curl",
+    "libcurl4-gnutls-dev": "curl",
+    "libc-ares-dev": "c-ares",
+    "libncurses-dev": "ncurses",
+    "libglew-dev": "glew"
+  }
+}

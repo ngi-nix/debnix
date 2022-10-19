@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debconf", "debconf-2.0", "debconf-kde-helper", "debhelper-compat", "dialog", "gettext", "gettext-base", "libgtk-3-dev", "libgtk3-perl", "liblocale-gettext-perl", "libterm-readline-gnu-perl", "ssh-askpass", "sudo", "whiptail", "x-terminal-emulator", "xterm"], or 
+output: 
+[] is empty!

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "noweb",
+  "nix_pkg": null,
+  "control_file_hash": "98df5667a688eba4c6ede1a3fee9e1513d4cc8c850d7f97a6778d4ee09b8fcc4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gawk",
+    "icon-ipl",
+    "icont",
+    "iconx",
+    "tex-common",
+    "texlive",
+    "texlive-latex-base",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "groff",
+    "icon-lang",
+    "nawk"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "hexcurse",
+  "nix_pkg": null,
+  "control_file_hash": "9997cf63832e282c19cd14ba0ed2e99ecc824ce577311248cd881f5485aa3c0f",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

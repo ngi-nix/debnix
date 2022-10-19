@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libwebsockets-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3a9f469f8eb0fc31ec2f3a0cf5747791074e65427ee4d7d2766187e37a0c4a52",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcap-dev",
+    "libev-dev",
+    "libglib2.0-dev",
+    "libssl-dev",
+    "libuv1-dev",
+    "libwebsockets-evlib-ev",
+    "libwebsockets-evlib-glib",
+    "libwebsockets-evlib-uv",
+    "libwebsockets-test-server-common",
+    "libwebsockets19",
+    "openssl",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libuv",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "openssl": "openssl",
+    "libuv1-dev": "libuv"
+  }
+}

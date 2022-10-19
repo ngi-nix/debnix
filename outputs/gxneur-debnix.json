@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "gxneur",
+  "nix_pkg": null,
+  "control_file_hash": "e9a5c27fc494374c3ee43cdda7ca4606e1fdad267f4bac2a19407b9cfc799e43",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "intltool",
+    "libglade2-dev",
+    "libgtk2.0-dev",
+    "libtool",
+    "libxneur-dev",
+    "pkg-config",
+    "xneur"
+  ],
+  "nix_inputs": [
+    "gconf",
+    "glib",
+    "gtk+",
+    "intltool",
+    "libX11",
+    "libXext",
+    "libXpm",
+    "libXt",
+    "libappindicator-gtk2",
+    "libglade",
+    "pcre",
+    "pkg-config-wrapper",
+    "xneur"
+  ],
+  "map": {
+    "xneur": "xneur",
+    "libgtk2.0-dev": "gtk+",
+    "intltool": "intltool",
+    "libglade2-dev": "libglade",
+    "libxneur-dev": "xneur"
+  }
+}

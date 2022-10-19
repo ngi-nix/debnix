@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "typespeed",
+  "nix_pkg": null,
+  "control_file_hash": "04f2efa75e47b26aa054a4db48029fd94979b625ef8d9fe4c42e91ddf86df767",
+  "deb_inputs": [
+    "coreutils",
+    "debhelper-compat",
+    "fileutils",
+    "libncurses5-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

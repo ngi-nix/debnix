@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "mkgmap",
+  "nix_pkg": null,
+  "control_file_hash": "6a7fd6a2f3da106c97005db14af8df9a9886ddc045b4167c6e53039f0aa05e32",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk-headless",
+    "default-jre-headless",
+    "java8-runtime-headless",
+    "java8-sdk-headless",
+    "javahelper",
+    "josm",
+    "libfastutil-java",
+    "libosmpbf-java",
+    "libprotobuf-java",
+    "qmapshack",
+    "time"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant"
+  }
+}

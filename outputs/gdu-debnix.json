@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "gdu",
+  "nix_pkg": null,
+  "control_file_hash": "a242acdc24dc1c2443e4353eca37d73c89bebf83e9a2a298c2aa954513a22903",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-fatih-color-dev",
+    "golang-github-gdamore-tcell.v2-dev",
+    "golang-github-maruel-natural-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-pbnjay-memory-dev",
+    "golang-github-rivo-tview-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-go",
+    "golang-gopkg-yaml.v3-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

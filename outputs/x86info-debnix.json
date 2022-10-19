@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "x86info",
+  "nix_pkg": null,
+  "control_file_hash": "d470cd627c7571d77171e6de0802f460a076f109decd1311d27e54efdfccd8bb",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "gcc-multilib",
+    "libpci-dev",
+    "makedev",
+    "python3",
+    "udev"
+  ],
+  "nix_inputs": [
+    "pciutils",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libpci-dev": "pciutils",
+    "python3": "python3"
+  }
+}

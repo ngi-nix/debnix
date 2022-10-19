@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "gwc",
+  "nix_pkg": null,
+  "control_file_hash": "b50dd3c59a91cafff32b44e2391356696f34fe4996ddd9f3a944e2abf223349f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libgtk2.0-dev",
+    "libsndfile1-dev",
+    "www-browser",
+    "yelp"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "gtk+",
+    "hicolor-icon-theme",
+    "libpulseaudio",
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "libasound2-dev": "alsa-lib",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

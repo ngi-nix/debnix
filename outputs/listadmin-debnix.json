@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "listadmin",
+  "nix_pkg": null,
+  "control_file_hash": "b3bf9e4a20014f9c980b75fc2265892abcba131ecfa0cdc0d19c359a7311b10f",
+  "deb_inputs": [
+    "debhelper",
+    "libcrypt-ssleay-perl",
+    "libnet-inet6glue-perl",
+    "libtext-reform-perl",
+    "libwww-perl"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

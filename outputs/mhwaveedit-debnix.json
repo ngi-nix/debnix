@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "mhwaveedit",
+  "nix_pkg": null,
+  "control_file_hash": "d3bbe9dcb361278863be279c283881aaba3912d52df5ae788a1ee2d2fab73454",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ladspa-sdk",
+    "lame",
+    "libasound2-dev",
+    "libgtk2.0-dev",
+    "libjack-dev",
+    "libpulse-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "alsa-lib",
+    "gtk+",
+    "ladspa.h",
+    "libjack2",
+    "libpulseaudio",
+    "libsamplerate",
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libsamplerate0-dev": "libsamplerate",
+    "libgtk2.0-dev": "gtk+",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

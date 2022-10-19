@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "kronometer",
+  "nix_pkg": null,
+  "control_file_hash": "f84ce37f7327496d12b6b0e3344fca8694f6efaeb95c561a01a129ae5da01e84",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5config-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5widgetsaddons-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kconfig",
+    "kcrash",
+    "kdoctools",
+    "kinit"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5crash-dev": "kcrash",
+    "libkf5config-dev": "kconfig"
+  }
+}

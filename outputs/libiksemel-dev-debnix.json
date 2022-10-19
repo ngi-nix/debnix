@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libiksemel-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5f26c8c8b9a2df8bbe3eee07866de1d9f9fa19fc66172943486713cfef6b8065",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libc-dev",
+    "libc6-dev",
+    "libgnutls28-dev",
+    "libiksemel3",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libtool",
+    "pkg-config-wrapper",
+    "texinfo"
+  ],
+  "map": {
+    "libgnutls28-dev": "gnutls",
+    "texinfo": "texinfo"
+  }
+}

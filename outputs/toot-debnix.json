@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "toot",
+  "nix_pkg": null,
+  "control_file_hash": "4dcf990696cc0b7d6951067a3444f511c1a0da962fabb591659ccfc71d7782e9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-bs4",
+    "python3-pytest",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-wcwidth"
+  ],
+  "nix_inputs": [
+    "beautifulsoup4",
+    "future",
+    "pytest",
+    "python3",
+    "requests",
+    "urwid",
+    "wcwidth"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "python3-pytest": "pytest",
+    "python3-bs4": "beautifulsoup4",
+    "python3-wcwidth": "wcwidth"
+  }
+}

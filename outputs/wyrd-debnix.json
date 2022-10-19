@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "wyrd",
+  "nix_pkg": null,
+  "control_file_hash": "4ad010710a160d79c8f26b1f30e45bcdcacf7667a6545e2c3055bae3d7e4f4c1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "expect",
+    "latexmk",
+    "less",
+    "libcurses-ocaml-dev",
+    "libyojson-ocaml-dev",
+    "ocaml",
+    "ocaml-findlib",
+    "ocaml-odoc",
+    "remind",
+    "sensible-utils",
+    "texlive-extra-utils",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "camlp4",
+    "ncurses",
+    "ocaml",
+    "remind"
+  ],
+  "map": {
+    "ocaml": "ocaml",
+    "remind": "remind"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "drumkv1",
+  "nix_pkg": null,
+  "control_file_hash": "72cbea5f954c9d64a2d262b1481416c4530194bce1da040adc88bba0fff160a1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "drumkv1-common",
+    "jackd",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libqt6svg6-dev",
+    "libsndfile1-dev",
+    "libx11-dev",
+    "lv2-dev",
+    "qt6-base-dev",
+    "qt6-tools-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "liblo",
+    "libsndfile",
+    "lv2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "lv2-dev": "lv2",
+    "liblo-dev": "liblo",
+    "libasound2-dev": "alsa-lib",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "bear",
+  "nix_pkg": null,
+  "control_file_hash": "425018d140693d245fbec709c580af0c6c3ba180890ccfa5073d2870741a5095",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libear",
+    "libfmt-dev",
+    "libgmock-dev",
+    "libgrpc++-dev",
+    "libgtest-dev",
+    "libprotobuf-dev",
+    "libspdlog-dev",
+    "libsqlite3-dev",
+    "nlohmann-json3-dev",
+    "pkg-config",
+    "protobuf-compiler-grpc"
+  ],
+  "nix_inputs": [
+    "abseil-cpp",
+    "c-ares",
+    "cmake",
+    "grpc",
+    "gtest",
+    "nlohmann_json",
+    "openssl",
+    "pkg-config-wrapper",
+    "protobuf",
+    "re2",
+    "spdlog",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libspdlog-dev": "spdlog",
+    "protobuf-compiler-grpc": "grpc",
+    "libprotobuf-dev": "protobuf",
+    "cmake": "cmake",
+    "libsqlite3-dev": "sqlite",
+    "libgrpc++-dev": "grpc",
+    "nlohmann-json3-dev": "nlohmann_json",
+    "libgtest-dev": "gtest"
+  }
+}

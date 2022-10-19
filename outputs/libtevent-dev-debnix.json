@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libtevent-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6b1959da7be5e0a4efd0052bfd015cdb11b394f1f4bcbbac614b699d1fd431a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libaio-dev",
+    "libc6-dev",
+    "libcmocka-dev",
+    "libtalloc-dev",
+    "libtevent0",
+    "pkg-config",
+    "python3-distutils",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python3",
+    "readline",
+    "talloc",
+    "which"
+  ],
+  "map": {
+    "libtalloc-dev": "talloc"
+  }
+}

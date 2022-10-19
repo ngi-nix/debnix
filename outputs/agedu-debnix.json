@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "agedu",
+  "nix_pkg": null,
+  "control_file_hash": "5500f5be4e2adcf0b223e01f18c2b678f91cf4ec0baba837fcfb38215f73e29f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "halibut"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "halibut"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "halibut": "halibut"
+  }
+}

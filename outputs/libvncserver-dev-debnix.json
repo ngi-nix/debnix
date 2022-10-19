@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libvncserver-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8cf3e5d31742cf5b3a4aa465af53545373a6298a6e16542323de093c60ff3b87",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "libjpeg-dev",
+    "liblzo2-dev",
+    "libsasl2-dev",
+    "libvncclient1",
+    "libvncserver1",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libgcrypt",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "openssl",
+    "systemd",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libgcrypt20-dev": "libgcrypt",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

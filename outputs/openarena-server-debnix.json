@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "openarena-server",
+  "nix_pkg": null,
+  "control_file_hash": "dd7c522d4fe43340b084366b7a2982fcb9ebdd79374a244f94450d80d4a779f7",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dpkg-dev",
+    "ioquake3",
+    "ioquake3-server",
+    "lsb-base",
+    "openarena-081-maps",
+    "openarena-081-misc",
+    "openarena-081-players",
+    "openarena-081-players-mature",
+    "openarena-081-textures",
+    "openarena-085-data",
+    "openarena-088-data",
+    "openarena-data",
+    "openarena-oacmp1"
+  ],
+  "nix_inputs": [
+    "patchelf",
+    "unzip"
+  ],
+  "map": {}
+}

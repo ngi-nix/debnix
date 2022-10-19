@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "mktorrent",
+  "nix_pkg": null,
+  "control_file_hash": "c293c51fc5705799f512203c80c19844435c73a41144131c2ae835d7d6a3ccf7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

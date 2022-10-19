@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "h5utils",
+  "nix_pkg": null,
+  "control_file_hash": "7397ca8cf0e36ea1b492403f85e4d06233db10999daa62cddf9a6464255f6b31",
+  "deb_inputs": [
+    "debhelper",
+    "hdf5-tools",
+    "libhdf4-dev",
+    "libhdf5-dev",
+    "libpng-dev",
+    "octave",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "hdf5",
+    "libjpeg-turbo",
+    "libpng-apng"
+  ],
+  "map": {
+    "hdf5-tools": "hdf5",
+    "libhdf5-dev": "hdf5"
+  }
+}

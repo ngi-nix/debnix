@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "redeclipse",
+  "nix_pkg": null,
+  "control_file_hash": "f1cb9f3d1afad6ce72a2b56feb2d28976a80c815909f934e5cf64891a32426d6",
+  "deb_inputs": [
+    "debhelper",
+    "ed",
+    "libenet-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsqlite3-dev",
+    "libx11-dev",
+    "libz-dev",
+    "redeclipse-common",
+    "redeclipse-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "curl",
+    "ed",
+    "freetype",
+    "libX11",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "zlib1g-dev": "zlib",
+    "ed": "ed"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "flamerobin",
+  "nix_pkg": null,
+  "control_file_hash": "58bf1f559d13cd2265a0d0993a65183ceab957c87d6ca8df2ede4185af266b17",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "firebird-dev",
+    "firebird3.0-server",
+    "html2text",
+    "libwxgtk3.2-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "firebird",
+    "wxwidgets"
+  ],
+  "map": {
+    "firebird-dev": "firebird",
+    "libwxgtk3.2-dev": "wxwidgets",
+    "firebird3.0-server": "firebird"
+  }
+}

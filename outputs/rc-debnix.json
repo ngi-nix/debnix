@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "rc",
+  "nix_pkg": null,
+  "control_file_hash": "fa6ee54a882f940421e931edcc2a9afe4a7c5f21ef4af159ff12b08117c4c0f0",
+  "deb_inputs": [
+    "byacc",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "procps"
+  ],
+  "nix_inputs": [
+    "byacc",
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libreadline-dev": "readline",
+    "byacc": "byacc"
+  }
+}

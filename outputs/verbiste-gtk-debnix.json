@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "verbiste-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "296db7a5f56384006e6df3cc92c1c325c2bee20b699a25782e1ee0f8bea163bd",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-elpa",
+    "elpa-verbiste",
+    "emacs",
+    "libgtk2.0-dev",
+    "libverbiste-0.1-0v5",
+    "libxml-parser-perl",
+    "libxml2-dev",
+    "locales",
+    "pkg-config",
+    "verbiste",
+    "verbiste-gtk"
+  ],
+  "nix_inputs": [
+    "libgnomeui",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2"
+  }
+}

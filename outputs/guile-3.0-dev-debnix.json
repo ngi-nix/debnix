@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "guile-3.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "769dbbb4428c15697f76e5df09d016a989f37a067ed5f51eb7a812ef9525ef8a",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg",
+    "flex",
+    "gperf",
+    "guile-3.0-doc",
+    "guile-3.0-libs",
+    "guile-3.0:any",
+    "guile-3.0:native",
+    "install-info",
+    "libc6-dev",
+    "libffi-dev",
+    "libgc-dev",
+    "libgmp-dev",
+    "libltdl-dev",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "libreadline6-dev",
+    "libtool",
+    "libunistring-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "gmp-with-cxx",
+    "libffi",
+    "libtool",
+    "libunistring",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libffi-dev": "libffi",
+    "libltdl-dev": "libtool",
+    "libreadline-dev": "readline",
+    "libunistring-dev": "libunistring",
+    "libreadline6-dev": "readline",
+    "libtool": "libtool"
+  }
+}

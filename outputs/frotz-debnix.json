@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "frotz",
+  "nix_pkg": null,
+  "control_file_hash": "7b6b43079fec94341208d39498da624e74c33d3bd969598fcf7ab2175852a070",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev",
+    "libfreetype6-dev",
+    "libjpeg-dev",
+    "libmodplug-dev",
+    "libncurses5-dev",
+    "libpng-dev",
+    "libsamplerate0-dev",
+    "libsdl2-dev",
+    "libsdl2-mixer-dev",
+    "libsndfile1-dev",
+    "libvorbis-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libao",
+    "libmodplug",
+    "libsamplerate",
+    "libsndfile",
+    "libvorbis",
+    "ncurses",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libsndfile1-dev": "libsndfile",
+    "libsamplerate0-dev": "libsamplerate",
+    "libmodplug-dev": "libmodplug",
+    "libvorbis-dev": "libvorbis",
+    "libao-dev": "libao"
+  }
+}

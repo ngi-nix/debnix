@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "pngnq",
+  "nix_pkg": null,
+  "control_file_hash": "a36c67f0cd6c79b5142b11d63bb15ea8cec61f9c33aa2eda565b6feb96246130",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

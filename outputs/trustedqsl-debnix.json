@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "trustedqsl",
+  "nix_pkg": null,
+  "control_file_hash": "1b4b33cc643ead6f35dbf662f3f358ed6ac19d6f5b69f875b2ddb0bac2177c3f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcurl4-openssl-dev",
+    "libexpat1-dev",
+    "liblmdb-dev",
+    "libssl-dev",
+    "libwxgtk3.2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "db",
+    "expat",
+    "openssl",
+    "wxGTK",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libwxgtk3.2-dev": "wxGTK",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libcurl4-openssl-dev": "curl",
+    "libexpat1-dev": "expat"
+  }
+}

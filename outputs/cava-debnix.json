@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "cava",
+  "nix_pkg": null,
+  "control_file_hash": "0cbdb499049c7c60f13b358b2d98bf0537ccc1b1be43ed669ec0b42f289f4179",
+  "deb_inputs": [
+    "antlr4",
+    "debhelper",
+    "default-jdk",
+    "default-jdk-headless",
+    "gradle-debian-helper",
+    "javahelper",
+    "libguava-java",
+    "libicu4j-java",
+    "libintellij-annotations-java",
+    "libjnr-ffi-java",
+    "libjsr305-java",
+    "liblogback-java",
+    "libokhttp-java",
+    "libsnappy-java",
+    "maven-repo-helper"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "libpulseaudio",
+    "ncurses"
+  ],
+  "map": {}
+}

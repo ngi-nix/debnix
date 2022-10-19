@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "trans-de-en",
+  "nix_pkg": null,
+  "control_file_hash": "47cd6458eb88d16c2a5cfbfbb9d938fbd521be344862888ee5120504157afec2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dict",
+    "dict-client",
+    "dict-server",
+    "dictd",
+    "ding",
+    "glimpse",
+    "hunspell",
+    "hunspell-de-de",
+    "hunspell-en-us",
+    "imagemagick",
+    "tk",
+    "trans-de-en",
+    "translation-dictionary",
+    "tre-agrep"
+  ],
+  "nix_inputs": [
+    "fortune-mod",
+    "gnugrep",
+    "tk",
+    "tre"
+  ],
+  "map": {
+    "tre-agrep": "tre",
+    "tk": "tk"
+  }
+}

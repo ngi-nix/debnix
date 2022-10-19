@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "tmuxp",
+  "nix_pkg": null,
+  "control_file_hash": "ab678102466af31155b560da4777ad1d41ec503cca3e8271762bba147920ded3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-click",
+    "python3-flake8",
+    "python3-hypothesis",
+    "python3-isort",
+    "python3-kaptan",
+    "python3-libtmux",
+    "python3-pkg-resources",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-tmuxp",
+    "tmux",
+    "vulture"
+  ],
+  "nix_inputs": [
+    "click",
+    "colorama",
+    "kaptan",
+    "libtmux",
+    "python3"
+  ],
+  "map": {}
+}

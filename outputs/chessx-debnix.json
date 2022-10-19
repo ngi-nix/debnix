@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "chessx",
+  "nix_pkg": null,
+  "control_file_hash": "1bc854d971999d20ca5880f0c2ce3ae89962e6dfac8fa5a5831f6ed725f7955d",
+  "deb_inputs": [
+    "debhelper",
+    "libqt5svg5-dev",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools",
+    "stockfish",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia",
+    "qtsvg",
+    "qttools",
+    "zlib"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "qtbase5-dev": "qtbase",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "zlib1g-dev": "zlib"
+  }
+}

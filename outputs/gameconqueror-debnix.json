@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "gameconqueror",
+  "nix_pkg": null,
+  "control_file_hash": "703c352f9364ae8c3d1ee8e32fbf09a5ccd2c3b441721ed1ab3f2e9baa8a62d5",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "gameconqueror",
+    "gir1.2-gtk-3.0",
+    "intltool",
+    "libreadline-dev",
+    "libtool",
+    "policykit-1",
+    "python3",
+    "python3-gi",
+    "scanmem"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "intltool",
+    "libtool",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libtool": "libtool",
+    "intltool": "intltool"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "grip",
+  "nix_pkg": null,
+  "control_file_hash": "26571ad8cdd6c827a22d5ff72953fe346ea358973c5d05610c15a2170c652ada",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-docopt",
+    "python3-flask",
+    "python3-path-and-address",
+    "python3-pytest",
+    "python3-requests",
+    "python3-responses",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cdparanoia-III",
+    "curl",
+    "gtk+",
+    "libid3tag",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

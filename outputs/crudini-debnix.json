@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "crudini",
+  "nix_pkg": null,
+  "control_file_hash": "233a23ab5ce56e0b96e578cbaf5111c86048f07592039d2839a9010466c0dd27",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3",
+    "python3-iniparse",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "help2man",
+    "iniparse",
+    "python3"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "python3": "python3"
+  }
+}

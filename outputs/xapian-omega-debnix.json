@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "xapian-omega",
+  "nix_pkg": null,
+  "control_file_hash": "e356f5413bfb45c1308828c03b51e84b23002593871f4c0549cb8ff1e6ad9429",
+  "deb_inputs": [
+    "antiword",
+    "apache2",
+    "catdoc",
+    "catdvi",
+    "debhelper-compat",
+    "djvulibre-bin",
+    "dpkg-dev",
+    "ghostscript",
+    "httpd-cgi",
+    "libemail-outlook-message-perl",
+    "libetonyek-tools",
+    "libhtml-parser-perl",
+    "libmagic-dev",
+    "libmime-tools-perl",
+    "libpcre2-dev",
+    "libtext-vcard-perl",
+    "libvisio-tools",
+    "libwpd-tools",
+    "libwps-tools",
+    "libxapian-dev",
+    "perl",
+    "rpm",
+    "unrtf",
+    "unzip",
+    "xpdf-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "file",
+    "pcre2",
+    "perl",
+    "pkg-config-wrapper",
+    "xapian",
+    "zlib"
+  ],
+  "map": {
+    "libmagic-dev": "file",
+    "libxapian-dev": "xapian",
+    "perl": "perl",
+    "libpcre2-dev": "pcre2",
+    "zlib1g-dev": "zlib"
+  }
+}

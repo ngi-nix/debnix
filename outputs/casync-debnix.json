@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "casync",
+  "nix_pkg": null,
+  "control_file_hash": "545ca3622104279059d3fa8a88a9f49e6a3e2d51509c43286a7cb9d9a66ac8e3",
+  "deb_inputs": [
+    "acl-dev",
+    "debhelper-compat",
+    "libacl1-dev",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libfuse-dev",
+    "liblzma-dev",
+    "libssl-dev",
+    "libudev-dev",
+    "libzstd-dev",
+    "meson",
+    "pkg-config",
+    "python3-sphinx:native",
+    "rsync",
+    "udev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "curl",
+    "fuse",
+    "glibc-locales",
+    "libselinux",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "rsync",
+    "sphinx",
+    "systemd",
+    "xz",
+    "zstd"
+  ],
+  "map": {
+    "acl-dev": "acl",
+    "libzstd-dev": "zstd",
+    "libcurl-dev": "curl",
+    "meson": "meson",
+    "udev": "systemd",
+    "libfuse-dev": "fuse",
+    "rsync": "rsync",
+    "libacl1-dev": "acl",
+    "libcurl4-gnutls-dev": "curl",
+    "libudev-dev": "systemd"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "git-filter-repo",
+  "nix_pkg": null,
+  "control_file_hash": "b359a914373a0cd1448ba095684f40aa6c6a188e08ab5f97a48b8b1ea1eab730",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xsl",
+    "dos2unix",
+    "git",
+    "python3",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "rsync",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "python3",
+    "setuptools-scm"
+  ],
+  "map": {
+    "python3-setuptools-scm": "setuptools-scm",
+    "python3": "python3"
+  }
+}
