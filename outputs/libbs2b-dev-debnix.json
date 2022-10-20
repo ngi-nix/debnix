@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libbs2b-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4f2379625d8090ce31db680ce002d4ea95bcc4647cb5ddd239e35412def3ed70",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbs2b0",
+    "libsndfile1-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

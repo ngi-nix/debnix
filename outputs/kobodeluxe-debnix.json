@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "kobodeluxe",
+  "nix_pkg": null,
+  "control_file_hash": "57f1d8b11e1faf8c1c50e7ac4b96a20cb7d78fd2dccb73976f3d76d294ca60ff",
+  "deb_inputs": [
+    "automake",
+    "autotools-dev",
+    "debhelper",
+    "kobodeluxe",
+    "kobodeluxe-data",
+    "libsdl-image1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "glu",
+    "libGL"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-image1.2-dev": "SDL_image"
+  }
+}

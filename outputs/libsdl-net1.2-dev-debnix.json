@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libsdl-net1.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0ef9d62497a3a2a525e38013372d6030d03905b40fbde045902922db53197313",
+  "deb_inputs": [
+    "debhelper",
+    "libc6-dev",
+    "libsdl-net1.2",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL"
+  }
+}

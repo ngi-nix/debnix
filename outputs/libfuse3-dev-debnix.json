@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libfuse3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "43c2f551c38aaf186776f652c93a22c139d95a3736b57459410e871347fa30e1",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "fuse",
+    "fuse3",
+    "libfuse3-3",
+    "libfuse3-3-udeb",
+    "libselinux-dev",
+    "lsb-base",
+    "meson",
+    "mount",
+    "pkg-config",
+    "python3",
+    "python3-pytest",
+    "sed",
+    "udev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "i3pystatus",
+  "nix_pkg": null,
+  "control_file_hash": "06df4511f5938fa65cb87c3cd9053ab7cdc4a518e6004ed3ef5a67380184d149",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3-all",
+    "python3-colour",
+    "python3-netifaces",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "basiciw",
+    "colour",
+    "gobject-introspection",
+    "keyring",
+    "libnotify",
+    "libpulseaudio",
+    "netifaces",
+    "psutil",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "python3-netifaces": "netifaces"
+  }
+}

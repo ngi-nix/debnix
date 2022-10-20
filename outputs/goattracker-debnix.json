@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "goattracker",
+  "nix_pkg": null,
+  "control_file_hash": "2533dd354b2ffca6e86f658bd8471ac1edbc7e3a7849836d24d92bfa1c494a05",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl1.2-dev",
+    "libxext-dev",
+    "milkytracker",
+    "opencubicplayer",
+    "schism"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "imagemagick",
+    "unzip"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL"
+  }
+}

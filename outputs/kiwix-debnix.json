@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "kiwix",
+  "nix_pkg": null,
+  "control_file_hash": "c26fade83d0ff3d84d89a04506ed695410001f548d7d7cce6c1f3d7b4f957555",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libkiwix-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qtwebengine5-dev"
+  ],
+  "nix_inputs": [
+    "kiwix-lib",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtimageformats",
+    "qtsvg",
+    "qtwebengine"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qtwebengine5-dev": "qtwebengine"
+  }
+}

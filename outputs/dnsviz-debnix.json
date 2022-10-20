@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "dnsviz",
+  "nix_pkg": null,
+  "control_file_hash": "a7c3adebd1d5a54446c49c82ba6b83696486690c0c1fccadd0e3e38590be984d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dns-root-data",
+    "inkscape",
+    "libjs-jquery",
+    "libjs-jquery-ui",
+    "libjs-jquery-ui-theme-redmond",
+    "libjs-raphael",
+    "python3-all",
+    "python3-dnspython",
+    "python3-m2crypto",
+    "python3-pygraphviz"
+  ],
+  "nix_inputs": [
+    "M2Crypto",
+    "dnspython",
+    "pygraphviz",
+    "python3"
+  ],
+  "map": {
+    "python3-dnspython": "dnspython",
+    "python3-m2crypto": "M2Crypto"
+  }
+}

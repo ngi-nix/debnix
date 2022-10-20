@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "facedetect",
+  "nix_pkg": null,
+  "control_file_hash": "6b57552f62d3ee237f30749ea03ffa2190454e7310720923277e456f65a4b2d1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "imagemagick",
+    "opencv-data",
+    "python3",
+    "python3-all-dev",
+    "python3-opencv"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

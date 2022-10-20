@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ddgr",
+  "nix_pkg": null,
+  "control_file_hash": "625ea4a6efcb4e5302909070884d7504abb0a5291c5d57158acfc883f2fdcd9f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

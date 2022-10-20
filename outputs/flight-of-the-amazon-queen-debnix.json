@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "flight-of-the-amazon-queen",
+  "nix_pkg": null,
+  "control_file_hash": "5391f4ecee3b75532ff7707608b12c9fa8686d4e84c4ffaa235d89977f139b64",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "gettext-base",
+    "scummvm"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "hcxtools",
+  "nix_pkg": null,
+  "control_file_hash": "6330579f4ed075041bf82ab42ca4f20d3878e3e5a4e189abb481d9fa9c2e2ba7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "hcxdumptool",
+    "help2man",
+    "ieee-data",
+    "libcurl4-openssl-dev",
+    "libssl-dev",
+    "openssl",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libcurl4-openssl-dev": "curl",
+    "zlib1g-dev": "zlib",
+    "openssl": "openssl"
+  }
+}
