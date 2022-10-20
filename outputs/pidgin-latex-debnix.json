@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "pidgin-latex",
+  "nix_pkg": null,
+  "control_file_hash": "6d33cd5efe70a91c4604ff2428740040186eecb7c9ec5b3ae1a2b122e33dddd5",
+  "deb_inputs": [
+    "debhelper",
+    "dvipng",
+    "pidgin",
+    "pidgin-dev",
+    "texlive-latex-base"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "pidgin",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "pidgin": "pidgin",
+    "pidgin-dev": "pidgin"
+  }
+}

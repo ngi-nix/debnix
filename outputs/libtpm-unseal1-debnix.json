@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libtpm-unseal1",
+  "nix_pkg": null,
+  "control_file_hash": "23144cf54b1b27be2c57e6286e95e1afadc57f2dea590384fab7b8d272e21bdd",
+  "deb_inputs": [
+    "automake",
+    "autopoint",
+    "debhelper",
+    "libopencryptoki-dev",
+    "libtpm-unseal1",
+    "libtspi-dev",
+    "opencryptoki",
+    "quilt",
+    "trousers"
+  ],
+  "nix_inputs": [
+    "opencryptoki",
+    "openssl",
+    "perl",
+    "trousers"
+  ],
+  "map": {
+    "libopencryptoki-dev": "opencryptoki",
+    "libtspi-dev": "trousers",
+    "opencryptoki": "opencryptoki",
+    "trousers": "trousers"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "zmap",
+  "nix_pkg": null,
+  "control_file_hash": "b198a936b0b943a2ab90354b9018ab5ecc86ecd536826bc23727e4cb5719402a",
+  "deb_inputs": [
+    "byacc",
+    "cmake",
+    "debhelper",
+    "flex",
+    "gengetopt",
+    "libgmp-dev",
+    "libhiredis-dev",
+    "libjson-c-dev",
+    "libpcap-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "byacc",
+    "cmake",
+    "flex",
+    "gengetopt",
+    "gmp-with-cxx",
+    "json-c",
+    "libjson",
+    "libpcap",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "byacc": "byacc",
+    "cmake": "cmake",
+    "gengetopt": "gengetopt",
+    "flex": "flex",
+    "libpcap-dev": "libpcap",
+    "libjson-c-dev": "json-c"
+  }
+}

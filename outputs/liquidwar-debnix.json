@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "liquidwar",
+  "nix_pkg": null,
+  "control_file_hash": "29dca8e272e4c01af20f8d5d6f52622acd2b9f20cdd579b9eda1103a11a44960",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liballegro4-dev",
+    "liquidwar-data",
+    "liquidwar-server",
+    "python3"
+  ],
+  "nix_inputs": [
+    "CUnit",
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_ttf",
+    "csound",
+    "curl",
+    "expat",
+    "gettext",
+    "gmp-with-cxx",
+    "guile",
+    "libX11",
+    "libXrender",
+    "libcaca",
+    "libjpeg-turbo",
+    "libogg",
+    "libpng-apng",
+    "libtool",
+    "libvorbis",
+    "perl",
+    "pkg-config-wrapper",
+    "readline",
+    "sqlite",
+    "xorgproto"
+  ],
+  "map": {}
+}

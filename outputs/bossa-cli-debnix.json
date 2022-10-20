@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "bossa-cli",
+  "nix_pkg": null,
+  "control_file_hash": "5ae00480c87165623a5e3d4722e6695c7546f714fd67e623d43249383b473b4c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "extra-xdg-menus",
+    "imagemagick",
+    "libreadline6-dev",
+    "libwxgtk3.2-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "readline",
+    "wxwidgets"
+  ],
+  "map": {
+    "libwxgtk3.2-dev": "wxwidgets",
+    "libreadline6-dev": "readline",
+    "libx11-dev": "libX11"
+  }
+}

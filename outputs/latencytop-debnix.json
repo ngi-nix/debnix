@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "latencytop",
+  "nix_pkg": null,
+  "control_file_hash": "2da5d180fb9840a3b9c85242d7cb1e5029bb2b574f962c51fb2b2d7dc0f2c6f3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libncurses-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libgtk2.0-dev": "gtk+",
+    "libglib2.0-dev": "glib"
+  }
+}

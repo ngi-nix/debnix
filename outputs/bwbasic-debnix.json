@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "bwbasic",
+  "nix_pkg": null,
+  "control_file_hash": "832f98b266c95b559751a945b5ae58bfdfad61d454a4305fd2e151932ce59f1c",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "dos2unix",
+    "unzip"
+  ],
+  "map": {}
+}

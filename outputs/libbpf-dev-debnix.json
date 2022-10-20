@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libbpf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "88eb5e16cb7e4dc3c884f16bd915b3b528877d12ab7d3e663b71f23b7c6a0b34",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbpf1",
+    "libelf-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "elfutils",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libelf-dev": "elfutils",
+    "zlib1g-dev": "zlib"
+  }
+}

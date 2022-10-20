@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "gltron",
+  "nix_pkg": null,
+  "control_file_hash": "69679d0b44f91dd0929f53a074b8dca530f9efdcd197cb6613b6c034248775cc",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libpng-dev",
+    "libsdl-sound1.2-dev",
+    "libsdl1.2-dev",
+    "libx11-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_sound",
+    "glu",
+    "libGL",
+    "libmikmod",
+    "libpng-apng",
+    "libvorbis",
+    "zlib"
+  ],
+  "map": {
+    "libsdl-sound1.2-dev": "SDL_sound",
+    "libsdl1.2-dev": "SDL",
+    "libgl-dev": "libGL",
+    "zlib1g-dev": "zlib"
+  }
+}

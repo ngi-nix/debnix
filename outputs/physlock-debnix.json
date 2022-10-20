@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "physlock",
+  "nix_pkg": null,
+  "control_file_hash": "8860fe07a48b212f849888e998c1334295f1da650ff477482f0ff3044c1c79aa",
+  "deb_inputs": [
+    "debhelper",
+    "libpam0g-dev",
+    "libsystemd-dev"
+  ],
+  "nix_inputs": [
+    "linux-pam",
+    "systemd"
+  ],
+  "map": {
+    "libsystemd-dev": "systemd"
+  }
+}

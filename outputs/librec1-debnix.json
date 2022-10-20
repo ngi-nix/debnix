@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "librec1",
+  "nix_pkg": null,
+  "control_file_hash": "09cec3337a4cb33e756fab8c92e0fff2461e904b2e980fa6893cc92f2b6a2cae",
+  "deb_inputs": [
+    "bash-builtins",
+    "bison",
+    "chrpath",
+    "debhelper",
+    "debhelper-compat",
+    "flex",
+    "help2man",
+    "libcurl4-gnutls-dev",
+    "libgcrypt-dev",
+    "libglib2.0-dev",
+    "libreadline-dev",
+    "librec1",
+    "texinfo",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "bc",
+    "check",
+    "curl"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

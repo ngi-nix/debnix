@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libphobos2-ldc-shared-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c79354ee7a48e9a1b3aba1b5899cdad776d6532539d58511970a600f520eca8a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "gdmd",
+    "libconfig++-dev",
+    "libconfig-dev",
+    "libcurl4-gnutls-dev",
+    "libedit-dev",
+    "libffi-dev",
+    "libphobos2-ldc-shared-dev",
+    "libphobos2-ldc-shared100",
+    "libtinfo-dev",
+    "llvm",
+    "llvm-dev",
+    "pkg-config",
+    "quilt",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "gdb",
+    "ldc-bootstrap",
+    "lit",
+    "llvm",
+    "ninja",
+    "python3",
+    "tzdata",
+    "unzip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libcurl4-gnutls-dev": "curl",
+    "llvm": "llvm"
+  }
+}

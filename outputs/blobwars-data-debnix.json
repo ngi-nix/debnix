@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "blobwars-data",
+  "nix_pkg": null,
+  "control_file_hash": "4d1c00c1f1ca1f46746698f15e91be81a35bd17f8ec2ef34e70f718e062384b6",
+  "deb_inputs": [
+    "blobwars-data",
+    "debhelper",
+    "fonts-dejavu-core",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-net-dev",
+    "libsdl2-ttf-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_net",
+    "SDL2_ttf",
+    "gettext",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

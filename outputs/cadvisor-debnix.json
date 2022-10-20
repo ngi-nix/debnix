@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "cadvisor",
+  "nix_pkg": null,
+  "control_file_hash": "0a6870a9ba1ccfd0609721c3db7fe82366e2354d2922437626b5f252c1c930ee",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-blang-semver-dev",
+    "golang-github-containerd-containerd-dev",
+    "golang-github-containerd-typeurl-dev",
+    "golang-github-docker-go-connections-dev",
+    "golang-github-docker-go-units-dev",
+    "golang-github-euank-go-kmsg-parser-dev",
+    "golang-github-garyburd-redigo-dev",
+    "golang-github-go-logr-logr-dev",
+    "golang-github-gogo-protobuf-dev",
+    "golang-github-karrick-godirwalk-dev",
+    "golang-github-kr-pretty-dev",
+    "golang-github-mesos-mesos-go-dev",
+    "golang-github-opencontainers-runc-dev",
+    "golang-github-opencontainers-specs-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-rican7-retry-dev",
+    "golang-github-shopify-sarama-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-go-zfs-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-oauth2-dev",
+    "golang-golang-x-sys-dev",
+    "golang-google-api-dev",
+    "golang-google-grpc-dev",
+    "golang-gopkg-olivere-elastic.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libgme-dev",
+  "nix_pkg": null,
+  "control_file_hash": "95fc400f185fe3274971f96a901cbd55718109f51a5d57e1f56098ea79a4ea4e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "libgme0",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

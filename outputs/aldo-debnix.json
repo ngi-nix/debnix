@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "aldo",
+  "nix_pkg": null,
+  "control_file_hash": "c53d18d435f9c42a16ec0df44b799c41920a2aaf3423f692bea567b402de5f5a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev"
+  ],
+  "nix_inputs": [
+    "libao"
+  ],
+  "map": {
+    "libao-dev": "libao"
+  }
+}

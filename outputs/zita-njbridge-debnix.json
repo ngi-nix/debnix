@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "zita-njbridge",
+  "nix_pkg": null,
+  "control_file_hash": "bda2f301887c8f5981cbb9b5b29b78c1c22efeb21f42c130d7419d7232eff310",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjack-dev",
+    "libzita-resampler-dev"
+  ],
+  "nix_inputs": [
+    "libjack2",
+    "zita-resampler"
+  ],
+  "map": {
+    "libzita-resampler-dev": "zita-resampler"
+  }
+}

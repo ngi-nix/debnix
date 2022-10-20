@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "xbattbar",
+  "nix_pkg": null,
+  "control_file_hash": "a3b217211afe71f9dcbdc5226ccbe2bffcab88637f227246336392aba525ff29",
+  "deb_inputs": [
+    "acpi",
+    "debhelper",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

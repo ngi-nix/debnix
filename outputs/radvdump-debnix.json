@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "radvdump",
+  "nix_pkg": null,
+  "control_file_hash": "059444b206f9d5de2b4e0304a7a0a1304b62f0ea85327e0dba988d4c05a9358b",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "check",
+    "debhelper",
+    "flex",
+    "libdaemon-dev",
+    "lsb-base",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bison",
+    "check",
+    "flex",
+    "libdaemon",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "flex": "flex",
+    "libdaemon-dev": "libdaemon",
+    "bison": "bison",
+    "check": "check"
+  }
+}

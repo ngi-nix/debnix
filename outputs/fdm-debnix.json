@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "fdm",
+  "nix_pkg": null,
+  "control_file_hash": "995f0842bd3de5088adfe0559e3510062df367dd0cf81466708f08f031239f81",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "debhelper",
+    "flex",
+    "libpcre3-dev",
+    "libssl-dev",
+    "libtdb-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "openssl",
+    "tdb",
+    "zlib"
+  ],
+  "map": {
+    "libtdb-dev": "tdb",
+    "zlib1g-dev": "zlib",
+    "flex": "flex",
+    "bison": "bison",
+    "libssl-dev": "openssl"
+  }
+}

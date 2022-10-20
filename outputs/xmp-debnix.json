@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "xmp",
+  "nix_pkg": null,
+  "control_file_hash": "95775701ddc017f24ac184b260491238b86c3ce239fe7cb7eb38c9eb4b7bc33b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound-dev",
+    "libasound2-dev",
+    "libaudio-dev",
+    "libpulse-dev",
+    "libxmp-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libxmp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxmp-dev": "libxmp",
+    "libasound2-dev": "alsa-lib"
+  }
+}

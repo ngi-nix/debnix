@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libksba-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fedf0eae77c9220174bed3a3cf7b6592dccbc47ae97f25217f80b99b1d2472d3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgpg-error-dev",
+    "libksba8",
+    "mingw-w64"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libgpg-error"
+  ],
+  "map": {
+    "libgpg-error-dev": "libgpg-error"
+  }
+}

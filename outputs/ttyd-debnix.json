@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "ttyd",
+  "nix_pkg": null,
+  "control_file_hash": "7a00fcaabc1f90005a856986da8423c5556ccb8160a47992b34023384cdf9325",
+  "deb_inputs": [
+    "apache2",
+    "cmake",
+    "debhelper-compat",
+    "libjson-c-dev",
+    "libwebsockets-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "json-c",
+    "libuv",
+    "libwebsockets",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libwebsockets-dev": "libwebsockets",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libjson-c-dev": "json-c"
+  }
+}

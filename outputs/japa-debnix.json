@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "japa",
+  "nix_pkg": null,
+  "control_file_hash": "f9e968ade864282140cd63cf837f1dd7b7af1ec2f845c7f870d81441f180c444",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfftw3-dev",
+    "libfreetype6-dev",
+    "libjack-dev",
+    "libzita-alsa-pcmi-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-single",
+    "libX11",
+    "libXft",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "zita-alsa-pcmi"
+  ],
+  "map": {
+    "libclxclient-dev": "libclxclient",
+    "libasound2-dev": "alsa-lib",
+    "libclthreads-dev": "libclthreads",
+    "libzita-alsa-pcmi-dev": "zita-alsa-pcmi"
+  }
+}

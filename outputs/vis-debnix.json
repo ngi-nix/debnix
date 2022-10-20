@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "vis",
+  "nix_pkg": null,
+  "control_file_hash": "5613896108bdd751a35a13e1ab9d97062438761ec195b6df50b0969bd8dcb18b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libacl1-dev",
+    "liblua5.3-dev",
+    "libncursesw5-dev",
+    "libselinux1-dev",
+    "libtermkey-dev",
+    "libtermkey1",
+    "libtre-dev",
+    "locales-all",
+    "lua-busted",
+    "lua-lpeg",
+    "pkg-config",
+    "vim"
+  ],
+  "nix_inputs": [
+    "acl",
+    "libselinux",
+    "libtermkey",
+    "ncurses",
+    "pkg-config-wrapper",
+    "tre"
+  ],
+  "map": {
+    "libacl1-dev": "acl",
+    "libtre-dev": "tre",
+    "libncursesw5-dev": "ncurses",
+    "libselinux1-dev": "libselinux",
+    "libtermkey-dev": "libtermkey",
+    "libtermkey1": "libtermkey"
+  }
+}

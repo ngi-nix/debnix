@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "flite1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1ac7bd7972bd98c154ad50a46c0835a8b03711b85aadb8cdf101402ee3f1780b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ed",
+    "libasound2-dev",
+    "libc6-dev",
+    "libflite1",
+    "texinfo",
+    "texlive"
+  ],
+  "nix_inputs": [
+    "alsa-lib"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

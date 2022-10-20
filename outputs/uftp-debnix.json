@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "uftp",
+  "nix_pkg": null,
+  "control_file_hash": "8faa557249cc0bb50652f44771fd5b87e34c6bfb0fd3b78d089ebfd0cfd78def",
+  "deb_inputs": [
+    "debhelper",
+    "libssl-dev",
+    "lsb-base",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

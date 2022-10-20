@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libbabl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "86662598973eab0d7c372857b43d6b6bb9b2379b416bd0f930741c3b76e40fbb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-babl-0.1",
+    "libbabl-0.1-0",
+    "libgirepository1.0-dev",
+    "liblcms2-dev",
+    "meson",
+    "pkg-config",
+    "python3-setuptools",
+    "valac",
+    "w3m"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "lcms2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "liblcms2-dev": "lcms2",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "valac": "vala",
+    "meson": "meson"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "olive-editor",
+  "nix_pkg": null,
+  "control_file_hash": "6ff13317fe3788ae5f1d7cd50ec1d375d3836161385fb3cad54fd39ce91f9b48",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ffmpeg",
+    "frei0r-plugins",
+    "frei0r-plugins-dev",
+    "libavcodec-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libopencolorio-dev",
+    "libopenexr-dev",
+    "libopenimageio-dev",
+    "libpostproc-dev",
+    "libqt5multimedia5-plugins",
+    "libqt5opengl5-dev",
+    "libqt5svg5-dev",
+    "libswresample-dev",
+    "libswscale-dev",
+    "portaudio19-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "ffmpeg-full",
+    "frei0r-plugins",
+    "opencolorio",
+    "pkg-config-wrapper",
+    "qtmultimedia",
+    "which"
+  ],
+  "map": {
+    "frei0r-plugins": "frei0r-plugins",
+    "libopencolorio-dev": "opencolorio",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

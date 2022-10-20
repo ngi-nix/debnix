@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "gzrt",
+  "nix_pkg": null,
+  "control_file_hash": "bd33e84885f1e1c0772a52333557774ba1e031f6f67fb922efa0b7737bff708f",
+  "deb_inputs": [
+    "cpio",
+    "debhelper",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "scrypt",
+  "nix_pkg": null,
+  "control_file_hash": "087c39e442f3a18e50906fb3d1a2188eaa617e1c9892c0aef400b99a3a9c0c2d",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libscrypt-kdf1",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "util-linux"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

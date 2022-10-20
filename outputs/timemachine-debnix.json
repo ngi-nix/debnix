@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "timemachine",
+  "nix_pkg": null,
+  "control_file_hash": "835e2c20116dbaa87fb25ff0f4301bc617a37ff6eb080b0893ff9be02ab5fbbf",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-buildinfo",
+    "jackd",
+    "libgtk2.0-dev",
+    "libjack-dev",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "libsndfile1-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+",
+    "libjack2",
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

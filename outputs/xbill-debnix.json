@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "xbill",
+  "nix_pkg": null,
+  "control_file_hash": "87e0666677a66db6d74445e89b5245d5215fd6a6fc6c3ccf875b80c5007b621d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libxaw7-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXpm",
+    "libXt",
+    "motif"
+  ],
+  "map": {}
+}
