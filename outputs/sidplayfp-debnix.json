@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "sidplayfp",
+  "nix_pkg": null,
+  "control_file_hash": "8d1ded47b2c80662448141e2dd4d212f8bfe4414495d4662626d4e25f4aaee85",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev",
+    "libasound2-dev",
+    "libpulse-dev",
+    "libsidplayfp-dev",
+    "libstilview-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libpulseaudio",
+    "libsidplayfp",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libstilview-dev": "libsidplayfp",
+    "libsidplayfp-dev": "libsidplayfp"
+  }
+}

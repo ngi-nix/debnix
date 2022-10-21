@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "binaryen",
+  "nix_pkg": null,
+  "control_file_hash": "6dacd25aed5b9acdbfcc56e50f2a6fe8d697ee154c2a63c427535647f47c4dd1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgtest-dev",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "filecheck",
+    "gtest",
+    "lit",
+    "nodejs-slim",
+    "python3"
+  ],
+  "map": {
+    "libgtest-dev": "gtest",
+    "cmake": "cmake",
+    "python3": "python3"
+  }
+}

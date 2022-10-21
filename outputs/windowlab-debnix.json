@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "windowlab",
+  "nix_pkg": null,
+  "control_file_hash": "39bbde7056a78db3146d3465b2b18db52e0fe18c99e6a9b3df55e4f468668887",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "pkg-config",
+    "vdesk"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXft",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext",
+    "libxft-dev": "libXft"
+  }
+}

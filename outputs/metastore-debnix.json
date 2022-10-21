@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "metastore",
+  "nix_pkg": null,
+  "control_file_hash": "bd3977f902b7fa7adee9d75755035989de1d7f607f67f29c94d2da277243b292",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbsd-dev"
+  ],
+  "nix_inputs": [
+    "libbsd"
+  ],
+  "map": {
+    "libbsd-dev": "libbsd"
+  }
+}

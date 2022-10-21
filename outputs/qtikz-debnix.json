@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "qtikz",
+  "nix_pkg": null,
+  "control_file_hash": "2025f320a0c0714441fd3d09b6b354ea318f3ac0dcc7c89f45c03a83e9cff4b2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "khelpcenter",
+    "libkf5doctools-dev",
+    "libkf5iconthemes-dev",
+    "libkf5parts-dev",
+    "libkf5texteditor-dev",
+    "libkf5xmlgui-dev",
+    "libpoppler-qt5-dev",
+    "libqt5sql5-sqlite",
+    "pkg-config",
+    "pkg-kde-tools",
+    "poppler-utils",
+    "preview-latex-style",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "texlive-pictures",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools"
+  }
+}

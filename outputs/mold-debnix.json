@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "mold",
+  "nix_pkg": null,
+  "control_file_hash": "312a7dac52ae83754c379671eee8649369047b24edf0876bfe6a500a466b076d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dwarfdump",
+    "gdb",
+    "libmimalloc-dev",
+    "libssl-dev",
+    "libtbb-dev",
+    "libxxhash-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "mimalloc",
+    "ninja",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libmimalloc-dev": "mimalloc",
+    "cmake": "cmake"
+  }
+}

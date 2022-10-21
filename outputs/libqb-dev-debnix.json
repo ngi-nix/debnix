@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libqb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e84bb63662eef33ae85bfe5cb4578d06d2ee1fdd61656d4e11b5703542ec73c4",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "doxygen",
+    "libglib2.0-dev",
+    "libqb100",
+    "libsystemd-dev",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2"
+  }
+}

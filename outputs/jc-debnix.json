@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "jc",
+  "nix_pkg": null,
+  "control_file_hash": "bf079b29de503b9260b87e5ec38ba4bc66baefd27dd601a5fa204a6767fd3662",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-pygments",
+    "python3-ruamel.yaml",
+    "python3-setuptools",
+    "python3-xmltodict"
+  ],
+  "nix_inputs": [
+    "pygments",
+    "python3",
+    "ruamel-yaml",
+    "xmltodict"
+  ],
+  "map": {
+    "python3-pygments": "pygments"
+  }
+}

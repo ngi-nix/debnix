@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "vcftools",
+  "nix_pkg": null,
+  "control_file_hash": "ad7a3cd0a288534c23cf950efe7b5d8f24757618bd9931c51a4dd9ee5035d8b0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "pkg-config",
+    "tabix",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

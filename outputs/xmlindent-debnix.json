@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xmlindent",
+  "nix_pkg": null,
+  "control_file_hash": "90ab3bb02b39e8c0b3271ef3af33355a2075bbf350b3ca4fde645085d24b933d",
+  "deb_inputs": [
+    "debhelper",
+    "dh-buildinfo",
+    "flex",
+    "libfl-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "flex"
+  ],
+  "map": {
+    "libfl-dev": "flex",
+    "flex": "flex"
+  }
+}

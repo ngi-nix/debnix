@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "miller",
+  "nix_pkg": null,
+  "control_file_hash": "9b4cd23d969f1821e8e33772ea5e7d1a6705e01d0a9c60dcf1d4f13d2989c2e5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-facette-natsort-dev",
+    "golang-github-goccmack-gocc-dev",
+    "golang-github-johnkerl-lumin-dev",
+    "golang-github-kballard-go-shellquote-dev",
+    "golang-github-lestrrat-go-strftime-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-pkg-profile-dev",
+    "golang-golang-x-term-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

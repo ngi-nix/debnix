@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "blobby",
+  "nix_pkg": null,
+  "control_file_hash": "6e59c1d5990f1536c01960c4ecafb47f9de6beebf68ea899d75f3a6c75e83df1",
+  "deb_inputs": [
+    "blobby-data",
+    "cmake",
+    "debhelper",
+    "imagemagick",
+    "libboost-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "liblua5.2-dev",
+    "libphysfs-dev",
+    "libsdl2-dev",
+    "libtinyxml-dev",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "boost",
+    "cmake",
+    "glu",
+    "libGL",
+    "physfs",
+    "pkg-config-wrapper",
+    "zip",
+    "zlib"
+  ],
+  "map": {
+    "zip": "zip",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libboost-dev": "boost",
+    "libgl-dev": "libGL",
+    "libphysfs-dev": "physfs"
+  }
+}

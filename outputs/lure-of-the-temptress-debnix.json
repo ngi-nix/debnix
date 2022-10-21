@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "lure-of-the-temptress",
+  "nix_pkg": null,
+  "control_file_hash": "377da058d553fc007e582f86243d3554269c35e17a04368b70292ab79e7295d7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "scummvm"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

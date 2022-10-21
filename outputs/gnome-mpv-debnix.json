@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "gnome-mpv",
+  "nix_pkg": null,
+  "control_file_hash": "95f36f86a070bba6ec5b3abd60f78799e410fe510135fe707633d3a5c6a66d16",
+  "deb_inputs": [
+    "appstream-util",
+    "autoconf-archive",
+    "debhelper",
+    "dh-autoreconf",
+    "libepoxy-dev",
+    "libgtk-3-dev",
+    "libmpv-dev",
+    "pkg-config",
+    "python",
+    "youtube-dl"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "glib",
+    "gtk4",
+    "libadwaita",
+    "libepoxy",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "appstream-util": "appstream-glib",
+    "libepoxy-dev": "libepoxy"
+  }
+}

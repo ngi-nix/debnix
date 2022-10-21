@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "freesweep",
+  "nix_pkg": null,
+  "control_file_hash": "21193ebbdb2ee6cef42afd6f4e426c5a04230d28de20d9dc5e3f8f40c190d9b9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

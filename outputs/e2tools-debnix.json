@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "e2tools",
+  "nix_pkg": null,
+  "control_file_hash": "12534676309ac11b0f22f1d6c8183cef19f1662bd7c1b8cc57f6f8daae06655e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "e2fslibs-dev",
+    "pkgconf",
+    "ss-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "ss-dev": "e2fsprogs",
+    "e2fslibs-dev": "e2fsprogs"
+  }
+}

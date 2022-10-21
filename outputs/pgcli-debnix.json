@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "pgcli",
+  "nix_pkg": null,
+  "control_file_hash": "9aac3b06a1c6cd9a39d612a14e81d2e09def1936a3e6f7c195e72be84cce5e57",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3",
+    "python3-cli-helpers",
+    "python3-pendulum",
+    "python3-pkg-resources",
+    "python3-prompt-toolkit",
+    "python3-psycopg3",
+    "python3-setuptools",
+    "python3-sqlparse",
+    "python3-tabulate",
+    "python3-terminaltables"
+  ],
+  "nix_inputs": [
+    "cli_helpers",
+    "click",
+    "configobj",
+    "keyring",
+    "mock",
+    "pendulum",
+    "pgspecial",
+    "prompt-toolkit",
+    "psycopg",
+    "pygments",
+    "python3",
+    "setproctitle",
+    "sqlparse",
+    "sshtunnel"
+  ],
+  "map": {
+    "python3-cli-helpers": "cli_helpers",
+    "python3-pendulum": "pendulum",
+    "python3-prompt-toolkit": "prompt-toolkit",
+    "python3-psycopg3": "psycopg",
+    "python3": "python3",
+    "python3-sqlparse": "sqlparse"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "bustle",
+  "nix_pkg": null,
+  "control_file_hash": "e146e0d580a83f20cdd99ca1b87eff68929fda7f3a174574e09de83dc5a908e7",
+  "deb_inputs": [
+    "bustle-pcap",
+    "debhelper",
+    "ghc",
+    "graphviz",
+    "help2man",
+    "intltool",
+    "libdbus-1-dev",
+    "libghc-cairo-dev",
+    "libghc-gio-dev",
+    "libghc-glib-dev",
+    "libghc-gtk3-dev",
+    "libghc-pango-dev",
+    "libglib2.0-dev",
+    "libpcap-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "HUnit",
+    "QuickCheck",
+    "cairo",
+    "gettext",
+    "ghc",
+    "gio",
+    "glib",
+    "gtk3",
+    "help2man",
+    "libpcap",
+    "pango",
+    "perl",
+    "pkg-config-wrapper",
+    "test-framework",
+    "test-framework-hunit"
+  ],
+  "map": {
+    "ghc": "ghc",
+    "help2man": "help2man",
+    "libglib2.0-dev": "glib",
+    "libpcap-dev": "libpcap"
+  }
+}

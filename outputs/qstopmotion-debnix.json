@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "qstopmotion",
+  "nix_pkg": null,
+  "control_file_hash": "1bb3d788c622743964779eb128fb123762381af633778e697dd7b7889e934c21",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ffmpeg",
+    "libgphoto2-dev",
+    "libqwt-qt5-dev",
+    "libv4l-dev",
+    "libxml2-dev",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "v4l-utils"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "gettext",
+    "gphoto2",
+    "guvcview",
+    "libgphoto2",
+    "libxml2",
+    "ninja",
+    "pcre",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtimageformats",
+    "qtmultimedia",
+    "qtquickcontrols",
+    "qtxmlpatterns",
+    "qwt",
+    "v4l-utils"
+  ],
+  "map": {
+    "libgphoto2-dev": "libgphoto2",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libxml2-dev": "libxml2",
+    "qtbase5-dev": "qtbase",
+    "v4l-utils": "v4l-utils",
+    "libqwt-qt5-dev": "qwt",
+    "cmake": "cmake",
+    "libv4l-dev": "v4l-utils"
+  }
+}

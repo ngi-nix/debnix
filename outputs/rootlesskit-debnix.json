@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "rootlesskit",
+  "nix_pkg": null,
+  "control_file_hash": "7ab9c26af6d9eb7bc642bdcb5e53f8d1a9ebc48b2412daa6dac5a30d6ea591a4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-gofrs-flock-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-insomniacslk-dhcp-dev",
+    "golang-github-moby-sys-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-urfave-cli-v2-dev",
+    "golang-golang-x-sys-dev",
+    "slirp4netns",
+    "uidmap"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

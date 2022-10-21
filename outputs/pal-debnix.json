@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "pal",
+  "nix_pkg": null,
+  "control_file_hash": "64e36226f09230c214dbe1a79ddfedd20a7c9684b40c30df211796a738517451",
+  "deb_inputs": [
+    "debhelper",
+    "gettext",
+    "libglib2.0-dev",
+    "libncursesw5-dev",
+    "libreadline-dev",
+    "quilt",
+    "texlive"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libglib2.0-dev": "glib",
+    "gettext": "gettext"
+  }
+}

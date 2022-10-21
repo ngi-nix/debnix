@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libsdl2-gfx-dev",
+  "nix_pkg": null,
+  "control_file_hash": "77862625fd2ab37bab5c21bd7ae754b7afcbd678bb930bae2644db2a40acf2d0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl2-dev",
+    "libsdl2-gfx-1.0-0",
+    "libsdl2-gfx-dev",
+    "libsdl2-gfx-doc",
+    "libtool",
+    "pkg-config",
+    "tar"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXrandr",
+    "libcap",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

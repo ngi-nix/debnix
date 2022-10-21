@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "sparse",
+  "nix_pkg": null,
+  "control_file_hash": "e1216c9625576841081762c0cb5d37927a36cdfbf0db310ec143d46df772eb5c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gcc-12",
+    "libgtk-3-dev",
+    "libsqlite3-dev",
+    "libxml2-dev",
+    "llvm-dev",
+    "sparse-test-inspect"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "libxml2",
+    "llvm",
+    "perl",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "llvm-dev": "llvm",
+    "libxml2-dev": "libxml2"
+  }
+}

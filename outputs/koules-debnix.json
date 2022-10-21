@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "koules",
+  "nix_pkg": null,
+  "control_file_hash": "254a88f616c2048efd7453c2c72c6290580b89600f41942b2b1658627e96191a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxext-dev",
+    "oss-compat",
+    "xfonts-base",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libX11",
+    "libXext"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext"
+  }
+}

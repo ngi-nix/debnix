@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "librtaudio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2339652dc0f6bfcdfe6682981dd8c4278e989a952ab4fb74ecaf5f449e675a4d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libjs-jquery",
+    "libpulse-dev",
+    "librtaudio6",
+    "librtmidi-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "libjack2",
+    "libpulseaudio",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

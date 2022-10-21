@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "traverso",
+  "nix_pkg": null,
+  "control_file_hash": "fbf791878a6f25dfc7233000624f9ac18d8bb0aa023ad3fc770c8cf6213d04ae",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libflac++-dev",
+    "libjack-dev",
+    "liblilv-dev",
+    "libmad0-dev",
+    "libmp3lame-dev",
+    "libogg-dev",
+    "librdf0-dev",
+    "libsamplerate0-dev",
+    "libsndfile1-dev",
+    "libvorbis-dev",
+    "libwavpack-dev",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "fftw-double",
+    "flac",
+    "lame",
+    "libjack2",
+    "libmad",
+    "libpulseaudio",
+    "libsamplerate",
+    "libsndfile",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "portaudio",
+    "qtbase",
+    "wavpack"
+  ],
+  "map": {
+    "libflac++-dev": "flac",
+    "libwavpack-dev": "wavpack",
+    "libsamplerate0-dev": "libsamplerate",
+    "cmake": "cmake",
+    "libmad0-dev": "libmad",
+    "qtbase5-dev": "qtbase",
+    "libvorbis-dev": "libvorbis",
+    "libasound2-dev": "alsa-lib",
+    "libmp3lame-dev": "lame",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

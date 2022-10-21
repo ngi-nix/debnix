@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "xxgdb",
+  "nix_pkg": null,
+  "control_file_hash": "c040d40770f3fe26a28e6b649c3a02439a28b37eb5acd65e650caa91ec387e1a",
+  "deb_inputs": [
+    "debhelper",
+    "dpatch",
+    "gdb",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxt-dev",
+    "x11proto-core-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "libXaw"
+  ],
+  "map": {
+    "libxaw7-dev": "libXaw"
+  }
+}

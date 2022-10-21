@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "javascript-common", "libjs-util", "node-deep-equal", "node-es-abstract", "node-inherits", "node-safe-buffer", "uglifyjs"], or 
+output: 
+[] is empty!

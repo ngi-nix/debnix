@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "netcat",
+  "nix_pkg": null,
+  "control_file_hash": "356efec15ac250235be9ada32b78c3b92ab3b8dda8d03318edad27a5f6d7fb92",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

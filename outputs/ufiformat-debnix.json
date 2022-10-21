@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ufiformat",
+  "nix_pkg": null,
+  "control_file_hash": "6701c2bc66c6566d506a1ce574e4e5e75aa7ab42f5bf573017abc8b746c1e6eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libext2fs-dev"
+  ],
+  "nix_inputs": [
+    "e2fsprogs"
+  ],
+  "map": {
+    "libext2fs-dev": "e2fsprogs"
+  }
+}

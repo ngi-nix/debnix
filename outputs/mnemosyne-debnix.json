@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "mnemosyne",
+  "nix_pkg": null,
+  "control_file_hash": "9f825d3c7f983c63f1c2d332288e635a34929adb371d6ef81be0a32358ff6cfc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libqt5sql5-sqlite",
+    "mplayer",
+    "pyqt5-dev-tools",
+    "python3",
+    "python3-argon2",
+    "python3-cheroot",
+    "python3-cherrypy3",
+    "python3-gtts",
+    "python3-matplotlib",
+    "python3-pil",
+    "python3-pyqt5",
+    "python3-pyqt5.qtsql",
+    "python3-pyqt5.qtwebchannel",
+    "python3-pyqt5.qtwebengine",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-webob"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "PyQtWebEngine",
+    "anki",
+    "cheroot",
+    "cherrypy",
+    "googletrans",
+    "gtts",
+    "matplotlib",
+    "pyopengl",
+    "python3",
+    "webob"
+  ],
+  "map": {
+    "python3-pyqt5.qtsql": "PyQt5",
+    "python3-pyqt5.qtwebchannel": "PyQt5",
+    "python3-pyqt5": "PyQt5",
+    "python3-matplotlib": "matplotlib",
+    "pyqt5-dev-tools": "PyQt5",
+    "python3-cherrypy3": "cherrypy",
+    "python3": "python3",
+    "python3-gtts": "gtts"
+  }
+}

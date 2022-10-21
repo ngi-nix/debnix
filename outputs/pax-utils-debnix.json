@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "pax-utils",
+  "nix_pkg": null,
+  "control_file_hash": "77089d7bbf53d1d715473663ceb0932b4cbeb8afdbad5453771fcf0f6de5a02d",
+  "deb_inputs": [
+    "autoconf-archive",
+    "binutils",
+    "debhelper",
+    "debhelper-compat",
+    "gnulib",
+    "libcap-dev",
+    "meson",
+    "paxctl",
+    "pkg-config",
+    "python3-pyelftools",
+    "python3:any",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libcap",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "xmlto"
+  ],
+  "map": {
+    "libcap-dev": "libcap",
+    "meson": "meson",
+    "xmlto": "xmlto"
+  }
+}

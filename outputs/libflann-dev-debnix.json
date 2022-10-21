@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libflann-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6f12b1a17a1d3c7a1361e7f1b7c1aa7ff384f7baf4281a46e9f0f0d9513384b3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doc-base",
+    "latex2html",
+    "libboost-dev",
+    "libboost-mpi-dev",
+    "libboost-serialization-dev",
+    "libboost-system-dev",
+    "libboost-thread-dev",
+    "libflann1.9",
+    "libgtest-dev",
+    "libhdf5-mpi-dev",
+    "liblz4-dev",
+    "mpi-default-dev",
+    "pkg-config",
+    "texlive-binaries",
+    "texlive-latex-base"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "lz4",
+    "pkg-config-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "liblz4-dev": "lz4"
+  }
+}

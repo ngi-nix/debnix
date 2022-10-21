@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "grafx2",
+  "nix_pkg": null,
+  "control_file_hash": "56761dd173f718783c496e9bcdea683510181aa18a2499429b75c264052249b3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "fonts-tuffy",
+    "libfontconfig1-dev",
+    "liblua5.1-0-dev",
+    "liblua5.3-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-ttf-dev",
+    "libtiff-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_ttf",
+    "libpng-apng",
+    "lua",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libsdl2-ttf-dev": "SDL",
+    "liblua5.1-0-dev": "lua",
+    "libsdl2-image-dev": "SDL",
+    "libsdl2-dev": "SDL",
+    "liblua5.3-dev": "lua"
+  }
+}

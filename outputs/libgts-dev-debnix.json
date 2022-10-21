@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libgts-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3bd91f990fc3c3cf5be2e5888a8ef0980313b1760931f6c1bfaa0482f5fe7bb3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgts-0.7-5",
+    "libgts-bin",
+    "libgts-doc"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

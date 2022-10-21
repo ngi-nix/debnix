@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "wev",
+  "nix_pkg": null,
+  "control_file_hash": "55b42f56518a12ffbe2548c5c18417df29a72420051156e7430c79c199bb0812",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libwayland-dev",
+    "libxkbcommon-dev",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "libxkbcommon",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "scdoc": "scdoc",
+    "libxkbcommon-dev": "libxkbcommon",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols"
+  }
+}

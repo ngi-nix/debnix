@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "abi-compliance-checker",
+  "nix_pkg": null,
+  "control_file_hash": "a775a238d5d131e47c778bf631c99bef3e5de670c449077b2a58d3648fc3437a",
+  "deb_inputs": [
+    "abi-compliance-checker",
+    "build-essential",
+    "ctags",
+    "debhelper",
+    "doc-base",
+    "dpkg-dev",
+    "help2man",
+    "icheck"
+  ],
+  "nix_inputs": [
+    "abi-dumper",
+    "binutils-wrapper",
+    "ctags",
+    "perl"
+  ],
+  "map": {
+    "ctags": "ctags"
+  }
+}

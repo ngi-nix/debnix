@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "kfloppy",
+  "nix_pkg": null,
+  "control_file_hash": "cfe944a15008d2347591f608006d886815354c6fb2dd5ce7918337eb74318580",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5completion-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5xmlgui-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "kcompletion",
+    "kdoctools",
+    "kxmlgui"
+  ],
+  "map": {
+    "libkf5completion-dev": "kcompletion",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5doctools-dev": "kdoctools",
+    "libkf5xmlgui-dev": "kxmlgui"
+  }
+}

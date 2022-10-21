@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ninvaders",
+  "nix_pkg": null,
+  "control_file_hash": "010418e8ab2c370688b05c0cbf366a4eaa41458ee98d1815c9b1478e028e4d4a",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

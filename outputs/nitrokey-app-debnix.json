@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "nitrokey-app",
+  "nix_pkg": null,
+  "control_file_hash": "7d51320da5d5009160b411dc749a1fc7ed335dccd237a40eea54f6db42c5b96f",
+  "deb_inputs": [
+    "bash-completion",
+    "cmake",
+    "debhelper",
+    "libccid",
+    "libhidapi-dev",
+    "libnitrokey-dev",
+    "libqt5concurrent5",
+    "libqt5svg5-dev",
+    "libusb-1.0-0-dev",
+    "pcscd",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "scdaemon",
+    "udev"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "cmake",
+    "hidapi",
+    "libusb",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtsvg",
+    "qttranslations"
+  ],
+  "map": {
+    "libhidapi-dev": "hidapi",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "bash-completion": "bash-completion"
+  }
+}

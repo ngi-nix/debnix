@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libkmod-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6599aa92eace4920f03d8fecc816f2a1c034b056ab69d5fba92addd7445efe39",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libkmod2",
+    "liblzma-dev",
+    "libssl-dev",
+    "libtool",
+    "libzstd-dev",
+    "xsltproc",
+    "zstd"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gtk-doc",
+    "libtool",
+    "libxslt",
+    "pkg-config-wrapper",
+    "xz",
+    "zstd"
+  ],
+  "map": {
+    "xsltproc": "libxslt",
+    "automake": "automake",
+    "autoconf": "autoconf",
+    "libtool": "libtool",
+    "libzstd-dev": "zstd",
+    "zstd": "zstd",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

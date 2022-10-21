@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "moon-buggy",
+  "nix_pkg": null,
+  "control_file_hash": "b74288f247ac0ff76a4eef428c03f179a1ab8ccd304fdcbbabaef01b132db9f2",
+  "deb_inputs": [
+    "autotools-dev",
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "devscripts",
+    "faketime",
+    "install-info",
+    "libncurses5-dev",
+    "pkg-config",
+    "po-debconf",
+    "texinfo",
+    "texlive",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

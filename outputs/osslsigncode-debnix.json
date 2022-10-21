@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "osslsigncode",
+  "nix_pkg": null,
+  "control_file_hash": "9e49b21ecab065399a53d23fc7563f6c4a1f183154f6ce6a675120e74a5dd7e9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "faketime",
+    "libcurl4-gnutls-dev",
+    "libssl-dev",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "curl",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libcurl4-gnutls-dev": "curl",
+    "openssl": "openssl"
+  }
+}

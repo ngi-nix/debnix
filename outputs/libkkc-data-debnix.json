@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libkkc-data",
+  "nix_pkg": null,
+  "control_file_hash": "0a8c9eb735313b42077c557ba7600a4214df3e6eaf56a7d2a59f895b5923d8dd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "python3-marisa",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "marisa"
+  ],
+  "map": {
+    "python3-marisa": "marisa"
+  }
+}

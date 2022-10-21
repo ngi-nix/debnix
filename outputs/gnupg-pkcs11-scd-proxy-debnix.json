@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "gnupg-pkcs11-scd-proxy",
+  "nix_pkg": null,
+  "control_file_hash": "9fc3e5a2cceaace092563788e99f925eddf3dc584a9209c3cfeb1219fd4d908b",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "gnupg",
+    "gnupg2",
+    "gpgsm",
+    "libassuan-dev",
+    "libgcrypt20-dev",
+    "libgpg-error-dev",
+    "libpkcs11-helper-dev",
+    "libssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkcs11-helper",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "tea",
+  "nix_pkg": null,
+  "control_file_hash": "68faa9e321fd4ec92abdb2e679456d9f091a560a3d1393974bcbaf46d85539d3",
+  "deb_inputs": [
+    "antiword",
+    "aspell",
+    "bzip2",
+    "debhelper-compat",
+    "hunspell",
+    "libaspell-dev",
+    "libdjvulibre-dev",
+    "libhunspell-dev",
+    "libpoppler-qt5-dev",
+    "libqt5qml5",
+    "libqt5quick5",
+    "pkg-config",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qttools5-dev-tools",
+    "tea",
+    "tea-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

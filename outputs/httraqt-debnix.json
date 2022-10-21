@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "httraqt",
+  "nix_pkg": null,
+  "control_file_hash": "0497b80f9510de10b4b0b02a5cb698ded677429414db9b1d61275b7a3dab175f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libhttrack-dev",
+    "libssl-dev",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtmultimedia5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "httrack",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia"
+  ],
+  "map": {
+    "libhttrack-dev": "httrack",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

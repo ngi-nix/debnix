@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libgpiod-dev",
+  "nix_pkg": null,
+  "control_file_hash": "068ea9725318bc9c80a664d99777f3cdd9d93cc6be5e69ef108f295c376bcf91",
+  "deb_inputs": [
+    "autoconf-archive",
+    "automake",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "help2man",
+    "libgpiod-doc",
+    "libgpiod2",
+    "libpython3-dev",
+    "linux-libc-dev",
+    "m4",
+    "pkg-config",
+    "python3-dev:any",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "kmod",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "autoconf-archive": "autoconf-archive"
+  }
+}
