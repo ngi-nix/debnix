@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "plasma-pass",
+  "nix_pkg": null,
+  "control_file_hash": "a39c1af4d7ed84ff7a59b0a2355dc4db4c58cb7be76d4796492a7654400e83e5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "gnupg2",
+    "libkf5i18n-dev",
+    "libkf5itemmodels-dev",
+    "libkf5plasma-dev",
+    "liboath-dev",
+    "pass",
+    "pass-extension-otp",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "gpgme",
+    "ki18n",
+    "kitemmodels",
+    "oath-toolkit",
+    "plasma-framework",
+    "qtbase",
+    "qtdeclarative"
+  ],
+  "map": {
+    "libkf5itemmodels-dev": "kitemmodels",
+    "qtdeclarative5-dev": "qtdeclarative",
+    "libkf5i18n-dev": "ki18n",
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5plasma-dev": "plasma-framework",
+    "liboath-dev": "oath-toolkit"
+  }
+}

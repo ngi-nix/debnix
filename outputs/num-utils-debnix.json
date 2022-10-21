@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "num-utils",
+  "nix_pkg": null,
+  "control_file_hash": "d396a5a590ada27f19d591177beeff40995ebaa3e0e40771a2c8800b3f8287a6",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

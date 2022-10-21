@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "googler",
+  "nix_pkg": null,
+  "control_file_hash": "c3bea16e6ae4c506b2323c01c33eeec39ef5e6effd3dbbf5fc7fe1bac5405294",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "pdsh",
+  "nix_pkg": null,
+  "control_file_hash": "e4728285366176f132c16c7785109214f9f156a6787c02b6bad143091fb9d0b3",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "genders",
+    "libgenders0-dev",
+    "libltdl-dev",
+    "libreadline-dev",
+    "openssh-client",
+    "perl",
+    "rsh-client",
+    "ssh"
+  ],
+  "nix_inputs": [
+    "openssh",
+    "perl",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "ssh": "openssh",
+    "perl": "perl",
+    "openssh-client": "openssh"
+  }
+}

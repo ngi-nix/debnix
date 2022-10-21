@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "sauerbraten",
+  "nix_pkg": null,
+  "control_file_hash": "faaf40516f588ae02747b3fdae12ad48952c3561a2e00b750e54aa438ee3f1e4",
+  "deb_inputs": [
+    "cube2",
+    "cube2-server",
+    "debhelper-compat",
+    "sauerbraten"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "zlib"
+  ],
+  "map": {}
+}

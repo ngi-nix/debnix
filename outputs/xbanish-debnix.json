@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "xbanish",
+  "nix_pkg": null,
+  "control_file_hash": "583bf0cd97c241b83d7f4b450ba7bcbd40863622b61b2ee7ee4f25d6a9be646f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "libxfixes-dev",
+    "libxi-dev",
+    "libxt-dev",
+    "x11proto-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXfixes",
+    "libXi",
+    "libXt"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxi-dev": "libXi",
+    "libxt-dev": "libXt",
+    "libxfixes-dev": "libXfixes"
+  }
+}

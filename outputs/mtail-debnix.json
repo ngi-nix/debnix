@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "mtail",
+  "nix_pkg": null,
+  "control_file_hash": "a832399eb305e2d39336b893447548ba5f068cf1498c427e0b168e86c587f19b",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "gccgo",
+    "golang-any",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-golang-groupcache-dev",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-glog-dev",
+    "golang-go",
+    "golang-go.opencensus-dev",
+    "golang-golang-x-tools",
+    "tzdata"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

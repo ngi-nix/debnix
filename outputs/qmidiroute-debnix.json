@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "qmidiroute",
+  "nix_pkg": null,
+  "control_file_hash": "7e6730f5a8d0e328c471f44b44045033ff039fa2ea6bcd18671994fbed5918b8",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libasound2-dev",
+    "libjack-dev",
+    "libqt5opengl5-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "pkg-config-wrapper",
+    "qt"
+  ],
+  "map": {
+    "libqt5opengl5-dev": "qt",
+    "libasound2-dev": "alsa-lib"
+  }
+}

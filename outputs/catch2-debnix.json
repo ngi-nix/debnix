@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "catch2",
+  "nix_pkg": null,
+  "control_file_hash": "2ee4c7fa6345ce721f05021d38132c001b07382fae8fd6edc79c86173bd2542f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

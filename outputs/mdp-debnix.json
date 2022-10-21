@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "mdp",
+  "nix_pkg": null,
+  "control_file_hash": "8650f536671e8335c72a266e8449a4aa584276394d2a1d92ba3141468b0056c6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-future",
+    "python3-joblib",
+    "python3-libsvm",
+    "python3-numpy",
+    "python3-pytest",
+    "python3-scipy",
+    "python3-setuptools",
+    "python3-sklearn"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {}
+}

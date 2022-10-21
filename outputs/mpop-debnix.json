@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "mpop",
+  "nix_pkg": null,
+  "control_file_hash": "0e78178368080b4cc8d150b0575eccdd8474a93e8dd72e626e3c46f29babf456",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "keepassxc",
+    "kwalletmanager",
+    "libgnutls28-dev",
+    "libgsasl7-dev",
+    "libidn11-dev",
+    "libkrb5-dev",
+    "libsecret-1-dev",
+    "libsecret-tools",
+    "seahorse",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "gsasl",
+    "libidn",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgsasl7-dev": "gsasl",
+    "libgnutls28-dev": "gnutls",
+    "libidn11-dev": "libidn"
+  }
+}

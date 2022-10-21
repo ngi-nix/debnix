@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "git-ftp",
+  "nix_pkg": null,
+  "control_file_hash": "e81b37d9f90f40efa1d155e908b56625a265cdcf3db85188962bc140746c291d",
+  "deb_inputs": [
+    "bash",
+    "curl",
+    "debhelper-compat",
+    "git",
+    "git-core",
+    "pandoc",
+    "perl"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

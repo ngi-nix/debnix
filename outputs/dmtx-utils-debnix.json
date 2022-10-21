@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "dmtx-utils",
+  "nix_pkg": null,
+  "control_file_hash": "29a8f518943f415233b3d047f42b4b3bb7c0146e812ef8a5617b250867622b51",
+  "deb_inputs": [
+    "debhelper",
+    "libdmtx-dev",
+    "libmagickwand-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "imagemagick",
+    "libdmtx",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdmtx-dev": "libdmtx",
+    "libmagickwand-dev": "imagemagick"
+  }
+}

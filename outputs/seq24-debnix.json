@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "seq24",
+  "nix_pkg": null,
+  "control_file_hash": "eb395487ddec2f1d6e590f35116b04628d2760d94f337046bc1dd1f8e94e687b",
+  "deb_inputs": [
+    "debhelper",
+    "jackd",
+    "libasound2-dev",
+    "libgtkmm-2.4-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "gtkmm",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libgtkmm-2.4-dev": "gtkmm"
+  }
+}

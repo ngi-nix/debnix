@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "stylish-haskell",
+  "nix_pkg": null,
+  "control_file_hash": "a0a43d6aacf8bdd8e6859aed2e4339a1e948c8ad362a5668c5cd8806c803e853",
+  "deb_inputs": [
+    "asciidoctor",
+    "debhelper",
+    "ghc",
+    "haskell-mode",
+    "libghc-aeson-dev",
+    "libghc-aeson-prof",
+    "libghc-file-embed-dev",
+    "libghc-file-embed-prof",
+    "libghc-ghc-lib-parser-dev",
+    "libghc-ghc-lib-parser-prof",
+    "libghc-hsyaml-aeson-dev",
+    "libghc-hsyaml-aeson-prof",
+    "libghc-hsyaml-dev",
+    "libghc-hsyaml-prof",
+    "libghc-hunit-dev",
+    "libghc-mtl-dev",
+    "libghc-mtl-prof",
+    "libghc-optparse-applicative-dev",
+    "libghc-semigroups-dev",
+    "libghc-semigroups-prof",
+    "libghc-strict-dev",
+    "libghc-syb-dev",
+    "libghc-syb-prof",
+    "libghc-test-framework-dev",
+    "libghc-test-framework-hunit-dev"
+  ],
+  "nix_inputs": [
+    "HUnit",
+    "HsYAML",
+    "HsYAML-aeson",
+    "aeson",
+    "file-embed",
+    "ghc",
+    "ghc-lib-parser",
+    "ghc-lib-parser-ex",
+    "optparse-applicative",
+    "random",
+    "regex-tdfa",
+    "strict",
+    "syb",
+    "test-framework",
+    "test-framework-hunit"
+  ],
+  "map": {
+    "ghc": "ghc"
+  }
+}

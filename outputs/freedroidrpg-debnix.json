@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "freedroidrpg",
+  "nix_pkg": null,
+  "control_file_hash": "09e003ca1a0d5d6bdee352995714a9ae6a0c649d0ca9b4c9ceffa5ad4b4bb6ad",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freedroidrpg",
+    "freedroidrpg-data",
+    "libglew-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libsdl-gfx1.2-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl-net1.2-dev",
+    "libsdl1.2-dev",
+    "libvorbis-dev",
+    "libz-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_gfx",
+    "SDL_image",
+    "SDL_mixer",
+    "gettext",
+    "libjpeg-turbo",
+    "libogg",
+    "libpng-apng",
+    "libvorbis",
+    "lua",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-gfx1.2-dev": "SDL_gfx",
+    "libvorbis-dev": "libvorbis",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl-image1.2-dev": "SDL_image"
+  }
+}

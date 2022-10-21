@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "wlr-randr",
+  "nix_pkg": null,
+  "control_file_hash": "947a18e9c071b624b95220e6984c6d5bd0f6542fc5445d0da6a8152b4bc76a2a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libwayland-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "wayland"
+  ],
+  "map": {
+    "libwayland-dev": "wayland",
+    "meson": "meson"
+  }
+}

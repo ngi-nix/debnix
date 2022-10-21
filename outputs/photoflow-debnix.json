@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "photoflow",
+  "nix_pkg": null,
+  "control_file_hash": "bdb273c17acf6fad6f478181a76e54d98da168c5f9153b32a7bc865bfda0c8b6",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libexiv2-dev",
+    "libgtkmm-3.0-dev",
+    "liblensfun-dev",
+    "libpugixml-dev",
+    "libvips-dev"
+  ],
+  "nix_inputs": [
+    "automake",
+    "cmake",
+    "exiv2",
+    "expat",
+    "fftw-double",
+    "fftw-single",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtkmm",
+    "lcms2",
+    "lensfun",
+    "libexif",
+    "libiptcdata",
+    "libjpeg-turbo",
+    "libraw",
+    "libtiff",
+    "libxml2",
+    "ninja",
+    "openexr",
+    "pcre",
+    "pkg-config-wrapper",
+    "pugixml",
+    "swig",
+    "vips"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libvips-dev": "vips",
+    "libgtkmm-3.0-dev": "gtkmm",
+    "libpugixml-dev": "pugixml",
+    "libexiv2-dev": "exiv2",
+    "liblensfun-dev": "lensfun"
+  }
+}

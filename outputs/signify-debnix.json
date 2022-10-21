@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "signify",
+  "nix_pkg": null,
+  "control_file_hash": "6c33096f8cf03999b0cd96637b231d14b2aef8ba7610bdb5c2e7f9d48b2bd4ba",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "libbsd",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

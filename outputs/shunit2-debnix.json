@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "shunit2",
+  "nix_pkg": null,
+  "control_file_hash": "2425c0891b8fa5102de2b18b5264c8daf0dd37c925c1dff3602f25a7c6821a03",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "btrfs-heatmap",
+  "nix_pkg": null,
+  "control_file_hash": "f260e2a28aa53a94c68ed8e0863b1ab065bfbf10c77db344ce9a383b07eed5b1",
+  "deb_inputs": [
+    "catimg",
+    "debhelper-compat",
+    "python3-btrfs",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

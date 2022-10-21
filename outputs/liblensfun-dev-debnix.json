@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "liblensfun-dev",
+  "nix_pkg": null,
+  "control_file_hash": "37effaf37f57caa5aeacfedd1214f7b3a6a3ac032db64e4a270f23ba8c32b1ea",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "libglib2.0-dev",
+    "libjs-mathjax",
+    "liblensfun-data-v2",
+    "liblensfun2",
+    "libxml2-utils",
+    "pkg-config",
+    "python3",
+    "python3-docutils",
+    "python3-lensfun",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glib",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "cmake": "cmake"
+  }
+}

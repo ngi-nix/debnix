@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "logisim",
+  "nix_pkg": null,
+  "control_file_hash": "c340b38fa3ee8cef5aa1fc90101aee2b68b543fe50c4a1574f5dc9e80d1535fa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "javahelper"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

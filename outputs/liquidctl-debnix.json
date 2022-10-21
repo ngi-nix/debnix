@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "liquidctl",
+  "nix_pkg": null,
+  "control_file_hash": "20e4b5aef2c8baae4b56b313ce03832b61669a2faabf4e30bd369877f5eb5e7b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-docopt",
+    "python3-hid",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-smbus",
+    "python3-usb"
+  ],
+  "nix_inputs": [
+    "colorlog",
+    "docopt",
+    "hidapi",
+    "i2c-tools",
+    "python3",
+    "pyusb",
+    "setuptools",
+    "smbus-cffi"
+  ],
+  "map": {
+    "python3-usb": "pyusb",
+    "python3-docopt": "docopt",
+    "python3-setuptools": "setuptools",
+    "python3-smbus": "i2c-tools"
+  }
+}

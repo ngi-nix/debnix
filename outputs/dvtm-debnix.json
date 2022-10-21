@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "dvtm",
+  "nix_pkg": null,
+  "control_file_hash": "187a9f7f74e90cd031832bf8fe4ea64c9e0f71327ad15cc965126d3a195af54e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg",
+    "dpkg-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "ncurses-term"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libncurses5-dev": "ncurses",
+    "ncurses-term": "ncurses"
+  }
+}

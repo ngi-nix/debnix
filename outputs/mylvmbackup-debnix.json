@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mylvmbackup",
+  "nix_pkg": null,
+  "control_file_hash": "8b27967cb8d003893de7d4dc29d28290b79c194d5745bbba866982c3f952498f",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "docbook-xsl",
+    "libconfig-inifiles-perl",
+    "libdbd-mysql-perl",
+    "libfile-copy-recursive-perl",
+    "libtimedate-perl",
+    "lvm2",
+    "mysql-server",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

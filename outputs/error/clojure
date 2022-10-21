@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ant", "debhelper", "default-jdk", "default-jre-headless", "java8-runtime-headless", "javahelper", "libclojure-java", "libcore-specs-alpha-clojure", "libjsr166y-java", "libspec-alpha-clojure", "maven-repo-helper", "openjdk-11-jdk", "openjdk-11-jre-headless", "rename", "rlwrap"], or 
+output: 
+[] is empty!

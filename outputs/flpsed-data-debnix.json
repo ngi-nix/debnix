@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "flpsed-data",
+  "nix_pkg": null,
+  "control_file_hash": "aa908e303ed1a4af5b683159991b06e3132a7c50c388c7a235d62b541730b24b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flpsed-data",
+    "ghostscript-x",
+    "libfltk1.3-dev",
+    "poppler-utils",
+    "xpdf-utils"
+  ],
+  "nix_inputs": [
+    "fltk"
+  ],
+  "map": {
+    "libfltk1.3-dev": "fltk"
+  }
+}

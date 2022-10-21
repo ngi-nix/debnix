@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "mkgmap-splitter",
+  "nix_pkg": null,
+  "control_file_hash": "9ca9075afec523d7df890dccd8dc74569243b1455c24f7ecdae53a5711f7d110",
+  "deb_inputs": [
+    "ant",
+    "ant-optional",
+    "debhelper-compat",
+    "default-jdk-headless",
+    "default-jre-headless",
+    "docbook-xml",
+    "docbook-xsl",
+    "docbook2x",
+    "java8-runtime-headless",
+    "java8-sdk-headless",
+    "javahelper",
+    "junit4",
+    "libbsh-java",
+    "libfastutil-java",
+    "libjcommander-java",
+    "libosmpbf-java",
+    "libprotobuf-java",
+    "libxpp3-java",
+    "mkgmap",
+    "osmctools",
+    "testng",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {
+    "ant-optional": "ant",
+    "ant": "ant"
+  }
+}

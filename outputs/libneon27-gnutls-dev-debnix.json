@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libneon27-gnutls-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2caa53b8d6f190c3fceca59f0b1991fff99705c12667599b9013587222e74dfd",
+  "deb_inputs": [
+    "ca-certificates",
+    "chrpath",
+    "debhelper-compat",
+    "krb5-multidev",
+    "libgnutls28-dev",
+    "libneon27",
+    "libneon27-gnutls",
+    "libssl-dev",
+    "libxml2-dev",
+    "libz-dev",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libxml2-dev": "libxml2"
+  }
+}

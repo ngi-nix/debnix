@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ssh-import-id",
+  "nix_pkg": null,
+  "control_file_hash": "6b7de5306e9497ff31d119fb099934fd29186ea3d092725340cfff4f08610a51",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper",
+    "dh-python",
+    "openssh-client",
+    "openssh-server",
+    "python3-all",
+    "python3-distro",
+    "python3-requests",
+    "python3-setuptools",
+    "wget"
+  ],
+  "nix_inputs": [
+    "distro",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-requests": "requests"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "yosys",
+  "nix_pkg": null,
+  "control_file_hash": "ebaf75caaa489140791c307c6186604acc9280657c54de9d50c5ff9c3585535a",
+  "deb_inputs": [
+    "berkeley-abc",
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "flex",
+    "gawk",
+    "iverilog",
+    "libffi-dev",
+    "libreadline-dev",
+    "pkg-config",
+    "python3",
+    "tcl-dev",
+    "txt2man",
+    "xdot",
+    "yosys"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "iverilog",
+    "libffi",
+    "pkg-config-wrapper",
+    "protobuf",
+    "readline",
+    "tcl",
+    "zlib"
+  ],
+  "map": {
+    "iverilog": "iverilog",
+    "bison": "bison",
+    "libreadline-dev": "readline",
+    "tcl-dev": "tcl",
+    "flex": "flex",
+    "libffi-dev": "libffi"
+  }
+}

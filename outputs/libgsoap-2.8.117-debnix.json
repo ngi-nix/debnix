@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libgsoap-2.8.117",
+  "nix_pkg": null,
+  "control_file_hash": "a84d02e77146058bba3d03b4147545b5318c9833d67896b0cab8c412c6bc9d1e",
+  "deb_inputs": [
+    "debhelper",
+    "libgsoap-2.8.117"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "gnum4",
+    "openssl",
+    "unzip",
+    "zlib"
+  ],
+  "map": {}
+}

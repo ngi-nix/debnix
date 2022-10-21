@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "cuyo",
+  "nix_pkg": null,
+  "control_file_hash": "02bfe1f9fa04df5bc0544d540371b851fdd84e421611f1c1c4781c275b2037cf",
+  "deb_inputs": [
+    "cuyo",
+    "cuyo-data",
+    "debhelper-compat",
+    "gawk",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "m4",
+    "ocaml-nox",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "zlib"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "zlib1g-dev": "zlib",
+    "libsdl1.2-dev": "SDL"
+  }
+}

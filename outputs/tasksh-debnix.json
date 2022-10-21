@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "tasksh",
+  "nix_pkg": null,
+  "control_file_hash": "4069ee62690a3571f2dbd29ef429d3b37fc719ffc423a758d7ef89d83489107e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libreadline-dev",
+    "taskwarrior"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "cmake": "cmake"
+  }
+}

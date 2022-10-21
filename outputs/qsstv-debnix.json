@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "qsstv",
+  "nix_pkg": null,
+  "control_file_hash": "c86d104400bd590f99d442d046ab303a052273c5467c8bcaf1db71d0ac5baa35",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libhamlib-dev",
+    "libopenjp2-7-dev",
+    "libpulse-dev",
+    "libv4l-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "fftw-single",
+    "hamlib",
+    "libpulseaudio",
+    "openjpeg",
+    "pkg-config-wrapper",
+    "qtbase",
+    "v4l-utils"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libv4l-dev": "v4l-utils",
+    "libopenjp2-7-dev": "openjpeg",
+    "libasound2-dev": "alsa-lib",
+    "libhamlib-dev": "hamlib"
+  }
+}

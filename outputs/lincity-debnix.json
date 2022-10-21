@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "lincity",
+  "nix_pkg": null,
+  "control_file_hash": "683ddf93417a9fb4300118858b9661af1cfd5ebdd8ddb093c5ee1155b6ddeb6e",
+  "deb_inputs": [
+    "debhelper",
+    "gettext",
+    "libpng-dev",
+    "libsm-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXext",
+    "libpng",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "libpng-dev": "libpng",
+    "libx11-dev": "libX11",
+    "libsm-dev": "libSM",
+    "libxext-dev": "libXext"
+  }
+}

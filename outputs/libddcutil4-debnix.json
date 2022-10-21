@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libddcutil4",
+  "nix_pkg": null,
+  "control_file_hash": "ea9f24d6e3fe52e22bfa5c9bb0186cbb39d8ba21cd70c0acb78dd7ef5b6bb943",
+  "deb_inputs": [
+    "debhelper",
+    "i2c-tools",
+    "libddcutil4",
+    "libdrm-dev",
+    "libglib2.0-dev",
+    "libi2c-dev",
+    "libkmod-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libxrandr-dev",
+    "pci.ids",
+    "pkg-config",
+    "usb.ids",
+    "usbutils"
+  ],
+  "nix_inputs": [
+    "glib",
+    "i2c-tools",
+    "kmod",
+    "libXrandr",
+    "libdrm",
+    "libgudev",
+    "libusb",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libi2c-dev": "i2c-tools",
+    "libxrandr-dev": "libXrandr",
+    "libglib2.0-dev": "glib",
+    "libdrm-dev": "libdrm",
+    "i2c-tools": "i2c-tools",
+    "libkmod-dev": "kmod",
+    "libudev-dev": "systemd"
+  }
+}

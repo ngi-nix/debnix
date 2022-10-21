@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "tiptop",
+  "nix_pkg": null,
+  "control_file_hash": "3da7947f0ca31cd0760e6aad9994d0b7a0a6397b1566da69554e185fae6ce337",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "debhelper-compat",
+    "flex",
+    "libncurses5-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libxml2",
+    "ncurses"
+  ],
+  "map": {
+    "flex": "flex",
+    "libncurses5-dev": "ncurses",
+    "bison": "bison",
+    "libxml2-dev": "libxml2"
+  }
+}

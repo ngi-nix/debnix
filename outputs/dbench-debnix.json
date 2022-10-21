@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "dbench",
+  "nix_pkg": null,
+  "control_file_hash": "ac96a6e983d4e21d1a04acb29d248a92c04689e784844c8ce5df510479f33486",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper",
+    "libpopt-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "libtirpc",
+    "popt",
+    "rpcsvc-proto",
+    "zlib"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "libpopt-dev": "popt"
+  }
+}

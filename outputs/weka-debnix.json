@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "weka",
+  "nix_pkg": null,
+  "control_file_hash": "ca2b035433e6c0bebeb8d60f7a5de786458bf8741a37344740e2fed7e8b71397",
+  "deb_inputs": [
+    "ant",
+    "cup",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "ghostscript",
+    "java-wrappers",
+    "java6-runtime",
+    "java7-runtime",
+    "jflex",
+    "libsvm-java",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "weka"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

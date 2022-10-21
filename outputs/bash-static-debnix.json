@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "bash-static",
+  "nix_pkg": null,
+  "control_file_hash": "63d1ce2da83ab5c1f94d8a92ce2f11840965c7ec582863dfe073e4d1fda2c52c",
+  "deb_inputs": [
+    "autoconf",
+    "autotools-dev",
+    "base-files",
+    "bash",
+    "bash-completion",
+    "bash-doc",
+    "bison",
+    "debhelper",
+    "debianutils",
+    "dpkg",
+    "dpkg-dev",
+    "gettext",
+    "install-info",
+    "libncurses5-dev",
+    "locales",
+    "passwd",
+    "sharutils",
+    "texi2html",
+    "texinfo",
+    "time",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "bison"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

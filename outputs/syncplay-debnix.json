@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "syncplay",
+  "nix_pkg": null,
+  "control_file_hash": "b0e9ceb5f84685c5ccc7cd9742753ff75fd07fc219576af8ee66c8a749fa1a75",
+  "deb_inputs": [
+    "acme-tiny",
+    "certbot",
+    "debhelper-compat",
+    "dehydrated",
+    "dh-python",
+    "jami",
+    "mpv",
+    "mumble",
+    "python3-all",
+    "python3-certifi",
+    "python3-pyside2.qtcore",
+    "python3-pyside2.qtwidgets",
+    "python3-setuptools",
+    "python3-twisted",
+    "syncplay-common",
+    "syncplay-server",
+    "vlc"
+  ],
+  "nix_inputs": [
+    "certifi",
+    "idna",
+    "pyopenssl",
+    "pyside2",
+    "python3",
+    "service-identity",
+    "twisted"
+  ],
+  "map": {
+    "python3-pyside2.qtcore": "pyside2",
+    "python3-twisted": "twisted",
+    "python3-pyside2.qtwidgets": "pyside2"
+  }
+}

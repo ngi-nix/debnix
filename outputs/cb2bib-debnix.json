@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "cb2bib",
+  "nix_pkg": null,
+  "control_file_hash": "ede9ded4ce53d5e5e691669f5ae1c3ab632d568ea8f1edb128f54f0e1f908852",
+  "deb_inputs": [
+    "bibutils",
+    "debhelper-compat",
+    "imagemagick",
+    "jsmath",
+    "konqueror",
+    "libimage-exiftool-perl",
+    "libjs-mathjax",
+    "liblz4-dev",
+    "libqt5webkit5-dev",
+    "libqt5x11extras5-dev",
+    "libx11-dev",
+    "poppler-utils",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtchooser",
+    "texlive-binaries",
+    "texlive-latex-base",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "lzo",
+    "qtbase",
+    "qtwebkit",
+    "qtx11extras"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "qtbase5-dev": "qtbase"
+  }
+}

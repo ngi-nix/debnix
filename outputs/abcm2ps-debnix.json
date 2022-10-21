@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "abcm2ps",
+  "nix_pkg": null,
+  "control_file_hash": "648f8bb46ff308b34fc87ec254e51d86969dd54322e6bbcd7600f44a725256f2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfreetype6-dev",
+    "libpango1.0-dev",
+    "pkg-config",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "freetype",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libfreetype6-dev": "freetype"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "jamulus",
+  "nix_pkg": null,
+  "control_file_hash": "16438c6259d1913e6587282e6b6df184949f71760d2104b090b1c9b787673c87",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jackd",
+    "libjack-jackd2-dev",
+    "pulseaudio-module-jack",
+    "qjackctl",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtscript"
+  ],
+  "map": {}
+}

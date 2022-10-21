@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "mandoc",
+  "nix_pkg": null,
+  "control_file_hash": "2943ddb3c2a2789aa5646aac6b7d6e9efd9bde27c4035af852e386f8674eb5c6",
+  "deb_inputs": [
+    "debhelper",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

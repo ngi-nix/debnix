@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "tabix",
+  "nix_pkg": null,
+  "control_file_hash": "f80c9fae9983584faf94aa6afb02ff72bff2a57c0cbf7d95840e2adebabeb06d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbz2-dev",
+    "libcurl4-gnutls-dev",
+    "libdeflate-dev",
+    "libhts3",
+    "libhtscodecs-dev",
+    "liblzma-dev",
+    "libssl-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "curl",
+    "perl",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "edbrowse",
+  "nix_pkg": null,
+  "control_file_hash": "b99f0e7d0894beb7a3e79d9f17fb94330a88b44b7679f15b890f7d125596e1ff",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "duktape-dev",
+    "libcurl4-openssl-dev",
+    "libpcre2-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "libtidy-dev",
+    "poppler-utils",
+    "xpdf-utils"
+  ],
+  "nix_inputs": [
+    "curl",
+    "duktape",
+    "html-tidy",
+    "openssl",
+    "pcre",
+    "perl",
+    "pkg-config-wrapper",
+    "quickjs",
+    "readline",
+    "which"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre",
+    "libssl-dev": "openssl",
+    "libreadline-dev": "readline",
+    "duktape-dev": "duktape",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "utox",
+  "nix_pkg": null,
+  "control_file_hash": "269a8c8f95d1cfff3a255da5800bfc8fbc244e8ec5a5535a2300386ac880dc95",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper-compat",
+    "libdbus-1-dev",
+    "libfontconfig1-dev",
+    "libminini-dev",
+    "libopenal-dev",
+    "libqrcodegen-dev",
+    "libstb-dev",
+    "libtoxcore-dev",
+    "libv4l-dev",
+    "libvpx-dev",
+    "libxext-dev",
+    "libxrender-dev"
+  ],
+  "nix_inputs": [
+    "check",
+    "cmake",
+    "dbus",
+    "filter-audio",
+    "fontconfig",
+    "freetype",
+    "libX11",
+    "libXext",
+    "libXft",
+    "libXrender",
+    "libopus",
+    "libsodium",
+    "libtoxcore",
+    "libvpx",
+    "openal-soft",
+    "pkg-config-wrapper",
+    "v4l-utils"
+  ],
+  "map": {
+    "libdbus-1-dev": "dbus",
+    "check": "check",
+    "libtoxcore-dev": "libtoxcore",
+    "libvpx-dev": "libvpx",
+    "libfontconfig1-dev": "fontconfig",
+    "libv4l-dev": "v4l-utils",
+    "libopenal-dev": "openal-soft",
+    "libxrender-dev": "libXrender",
+    "libxext-dev": "libXext",
+    "cmake": "cmake"
+  }
+}

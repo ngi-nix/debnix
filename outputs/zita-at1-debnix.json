@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "zita-at1",
+  "nix_pkg": null,
+  "control_file_hash": "b4851d9c69b29e293bf10e881e6ede4d396d3a7a998d408f363498606d184578",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfftw3-dev",
+    "libfreetype6-dev",
+    "libjack-dev",
+    "libzita-resampler-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "fftw-single",
+    "libX11",
+    "libXft",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "xorgproto",
+    "zita-resampler"
+  ],
+  "map": {
+    "libclthreads-dev": "libclthreads",
+    "libcairo2-dev": "cairo",
+    "libzita-resampler-dev": "zita-resampler",
+    "libclxclient-dev": "libclxclient"
+  }
+}

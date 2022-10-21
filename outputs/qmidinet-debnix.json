@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "qmidinet",
+  "nix_pkg": null,
+  "control_file_hash": "44e33a62f301739f77c4257950bfb385c415b02aa24b99d5da5992bc34462409",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libqt6svg6-dev",
+    "libtool",
+    "libx11-dev",
+    "qt6-base-dev",
+    "qt6-tools-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

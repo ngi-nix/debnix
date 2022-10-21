@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "osmid",
+  "nix_pkg": null,
+  "control_file_hash": "b2199c34776b915a3ebf4891af62d8747467a7d35ca214b6e41d9887e9c759fc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libasound2-dev",
+    "liboscpack-dev",
+    "libspdlog-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "libX11"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libasound2-dev": "alsa-lib"
+  }
+}

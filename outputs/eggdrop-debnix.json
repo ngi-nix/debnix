@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "eggdrop",
+  "nix_pkg": null,
+  "control_file_hash": "6fe22bb015076b37376d18ec01350af0546d9e8c0e06354758e14d5f3246f894",
+  "deb_inputs": [
+    "debhelper",
+    "eggdrop-data",
+    "libssl-dev",
+    "libz-dev",
+    "tcl8.6-dev"
+  ],
+  "nix_inputs": [
+    "tcl"
+  ],
+  "map": {
+    "tcl8.6-dev": "tcl"
+  }
+}

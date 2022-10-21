@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "x2vnc",
+  "nix_pkg": null,
+  "control_file_hash": "052b578f02e6891a362200d09468d6655cde566177efd8a0a0e542771d6345ff",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxinerama-dev",
+    "libxss-dev",
+    "tightvncserver",
+    "vnc4server",
+    "xtightvncviewer",
+    "xutils-dev",
+    "xvnc4viewer"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXrandr",
+    "xorgproto"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "xcircuit",
+  "nix_pkg": null,
+  "control_file_hash": "6288e444d1f083219cd878d36926451b3655559f90b0e782e703f3075f484bdf",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "libcairo2-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "tcl-dev",
+    "tk-dev",
+    "wish",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "automake",
+    "cairo",
+    "ghostscript-with-X",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXpm",
+    "libXt",
+    "pkg-config-wrapper",
+    "tcl",
+    "tk",
+    "zlib"
+  ],
+  "map": {
+    "libxpm-dev": "libXpm",
+    "libcairo2-dev": "cairo",
+    "libx11-dev": "libX11",
+    "tk-dev": "tk",
+    "libxt-dev": "libXt",
+    "tcl-dev": "tcl"
+  }
+}

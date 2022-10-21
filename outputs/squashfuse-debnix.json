@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "squashfuse",
+  "nix_pkg": null,
+  "control_file_hash": "109c55cff1201a2d2b238739e48839a5c6b63752252a7df393f149e6780c224d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfuse-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libsquashfuse0",
+    "libzstd-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "libtool",
+    "lz4",
+    "lzo",
+    "pkg-config-wrapper",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libzstd-dev": "zstd",
+    "liblzo2-dev": "lzo",
+    "libfuse-dev": "fuse",
+    "liblz4-dev": "lz4"
+  }
+}

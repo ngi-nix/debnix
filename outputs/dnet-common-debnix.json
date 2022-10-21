@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dnet-common",
+  "nix_pkg": null,
+  "control_file_hash": "f258c25b0708d816c72877a5adddc43469f9cfd980afe51aafcf68a7e515c36b",
+  "deb_inputs": [
+    "debhelper",
+    "debianutils",
+    "dnet-common",
+    "iproute2",
+    "kmod",
+    "libdnet",
+    "libfuse-dev",
+    "libncurses5-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "map": {}
+}

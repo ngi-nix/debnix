@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "lifeograph",
+  "nix_pkg": null,
+  "control_file_hash": "c701a8724571b6bd769734f473fda1bf336999dbdddae21b51ba1fb128dfe827",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "intltool",
+    "libchamplain-gtk-0.12-dev",
+    "libenchant-2-dev",
+    "libgcrypt20-dev",
+    "libgtkmm-3.0-dev",
+    "meson",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "enchant",
+    "gtkmm",
+    "libchamplain",
+    "libgcrypt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "shared-mime-info"
+  ],
+  "map": {
+    "meson": "meson",
+    "libenchant-2-dev": "enchant",
+    "libgcrypt20-dev": "libgcrypt",
+    "libchamplain-gtk-0.12-dev": "libchamplain",
+    "libgtkmm-3.0-dev": "gtkmm"
+  }
+}
