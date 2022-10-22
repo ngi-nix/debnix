@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libprocps-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f03bae59b8798a8433dffd93d632eebc7682b250d4a47970f89edd5597be1989",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dejagnu",
+    "dh-exec",
+    "init-system-helpers",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libnuma-dev",
+    "libproc2-0",
+    "libsystemd-dev",
+    "pkg-config",
+    "psmisc"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libsystemd-dev": "systemd",
+    "libncursesw5-dev": "ncurses"
+  }
+}

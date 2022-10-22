@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "golint",
+  "nix_pkg": null,
+  "control_file_hash": "0bb2861908826d09cdfbee16f11eb0c6f56a297a487ad4197a520c2a7ff92e20",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-golang-x-tools-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

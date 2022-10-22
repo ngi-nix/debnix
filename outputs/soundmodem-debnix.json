@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "soundmodem",
+  "nix_pkg": null,
+  "control_file_hash": "b527d6b6ee53bdf6c0a9321c21f16c8396918af6de6c29dc05517360c0a70460",
+  "deb_inputs": [
+    "debhelper",
+    "flex",
+    "libasound2-dev",
+    "libaudiofile-dev",
+    "libgtk2.0-dev",
+    "libhamlib-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "audiofile",
+    "gtk+",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libasound2-dev": "alsa-lib",
+    "libaudiofile-dev": "audiofile",
+    "libxml2-dev": "libxml2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "woff2",
+  "nix_pkg": null,
+  "control_file_hash": "af4c66d404bddb909cfb30c300ae430780298dbea716242d2a65557728ed89b7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbrotli-dev",
+    "libwoff1",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "brotli",
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libbrotli-dev": "brotli"
+  }
+}

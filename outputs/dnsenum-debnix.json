@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "dnsenum",
+  "nix_pkg": null,
+  "control_file_hash": "29eca71bc5df41dda60ade10cde7ab931580dd82fcae11e2958518f665d958ba",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libhtml-parser-perl",
+    "libnet-dns-perl",
+    "libnet-ip-perl",
+    "libnet-netmask-perl",
+    "libnet-whois-ip-perl",
+    "libstring-random-perl",
+    "libwww-mechanize-perl",
+    "libxml-writer-perl"
+  ],
+  "nix_inputs": [
+    "Net-DNS",
+    "Net-IP",
+    "Net-Netmask",
+    "Net-Whois-IP",
+    "String-Random",
+    "WWW-Mechanize",
+    "XML-Writer",
+    "perl"
+  ],
+  "map": {}
+}

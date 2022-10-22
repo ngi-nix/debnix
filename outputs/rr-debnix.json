@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "rr",
+  "nix_pkg": null,
+  "control_file_hash": "1191889e9cea528f91c041f2ce08f80838dfcfa424e92ff306869edb768788de",
+  "deb_inputs": [
+    "capnproto",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "g++-multilib",
+    "gdb",
+    "libcapnp-dev",
+    "libdisasm-dev",
+    "libpfm4-dev",
+    "pkg-config",
+    "python3",
+    "python3-pexpect",
+    "sse2-support",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "capnproto",
+    "cmake",
+    "gdb",
+    "libpfm",
+    "pexpect",
+    "pkg-config-wrapper",
+    "procps",
+    "python3",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "python3": "python3",
+    "capnproto": "capnproto",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "gdb": "gdb",
+    "libcapnp-dev": "capnproto",
+    "libpfm4-dev": "libpfm",
+    "python3-pexpect": "pexpect"
+  }
+}

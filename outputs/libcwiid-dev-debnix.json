@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libcwiid-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3e8de8bd011e0614ed5d01a6888aebdcd179f6924fea5e0ea4ab3b1c235f83aa",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "flex",
+    "libbluetooth-dev",
+    "libcwiid1",
+    "libgtk2.0-dev",
+    "libpython3-dev",
+    "libtool",
+    "pkg-config",
+    "python3",
+    "python3-cwiid",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "bluez",
+    "flex",
+    "gtk+",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bison": "bison",
+    "libbluetooth-dev": "bluez",
+    "libgtk2.0-dev": "gtk+",
+    "flex": "flex"
+  }
+}

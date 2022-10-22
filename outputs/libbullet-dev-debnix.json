@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libbullet-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d75ea447511371f6d514d33fbc01f51e54ecc83daf9667510f2bb9cd947cf82b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbullet-extras3.06",
+    "libbullet3.06",
+    "libjs-jquery",
+    "libtinyxml2-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freeglut",
+    "glu",
+    "libGL"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "blockattack",
+  "nix_pkg": null,
+  "control_file_hash": "398e1309b3cedc5fede03ad4d0d81b4e9848f48a168261ea05b27c2f013fff21",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook-to-man",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libfmt-dev",
+    "libphysfs-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev",
+    "libutfcpp-dev",
+    "zip"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_ttf",
+    "boost",
+    "cmake",
+    "gettext",
+    "physfs",
+    "pkg-config-wrapper",
+    "zip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zip": "zip",
+    "libboost-dev": "boost",
+    "libphysfs-dev": "physfs"
+  }
+}

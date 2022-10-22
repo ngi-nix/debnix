@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "prometheus-postfix-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "8ea6b77e80bfc8a3ccd2d3990a8bacf2d80061092e564dd34e80d0c6f07c7f16",
+  "deb_inputs": [
+    "daemon",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-coreos-go-systemd-dev",
+    "golang-github-docker-docker-dev",
+    "golang-github-nxadm-tail-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-client-model-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "postfix",
+    "python3",
+    "rsyslog",
+    "system-log-daemon",
+    "systemd-sysv"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers",
+    "systemd"
+  ],
+  "map": {
+    "systemd-sysv": "systemd"
+  }
+}

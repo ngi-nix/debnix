@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "smartdns",
+  "nix_pkg": null,
+  "control_file_hash": "cae473481c97cc2fc23f262dd24a9f999e3c8f76c7d3b98830b16d5eb882024b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev",
+    "qrencode",
+    "zbar-tools"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

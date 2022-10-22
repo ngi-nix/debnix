@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "farbfeld",
+  "nix_pkg": null,
+  "control_file_hash": "97fd13ed99c9cc61d8905eaddf320483839e2d90a8650ff229b17a21b7067860",
+  "deb_inputs": [
+    "debhelper-compat",
+    "imagemagick",
+    "libjpeg-dev",
+    "libpng-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libpng-apng"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

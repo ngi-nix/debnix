@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "atari800",
+  "nix_pkg": null,
+  "control_file_hash": "604759511fca4789a5b0de50e0232932d0d05a369ba50c02da508a766ab64f10",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "imagemagick",
+    "libeditreadline-dev",
+    "libgl1-mesa-dev",
+    "libpng-dev",
+    "libsdl1.2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "glu",
+    "libGL",
+    "libX11",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "zlib1g-dev": "zlib",
+    "libgl1-mesa-dev": "libGL"
+  }
+}

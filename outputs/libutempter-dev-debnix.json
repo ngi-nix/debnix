@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libutempter-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9feca342c709a9b3a0ccef74e787e5c1faa7027152076b1d50516999ece18edb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libutempter0"
+  ],
+  "nix_inputs": [
+    "glib"
+  ],
+  "map": {}
+}

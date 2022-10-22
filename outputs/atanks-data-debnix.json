@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "atanks-data",
+  "nix_pkg": null,
+  "control_file_hash": "633f2823f1e741ec200a89b4ad32513c715a98d55872dbe790ce1661fc7719ed",
+  "deb_inputs": [
+    "atanks-data",
+    "debhelper-compat",
+    "liballegro-dev",
+    "liballegro4.2-dev"
+  ],
+  "nix_inputs": [
+    "allegro"
+  ],
+  "map": {
+    "liballegro-dev": "allegro",
+    "liballegro4.2-dev": "allegro"
+  }
+}

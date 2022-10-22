@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "gprbuild",
+  "nix_pkg": null,
+  "control_file_hash": "2ab2ad48905d7972cd781e0d7ce9be8eb5724143990a6b7d9eb72d3324137758",
+  "deb_inputs": [
+    "debhelper-compat",
+    "g++",
+    "gcc",
+    "gfortran",
+    "gnat",
+    "gprbuild",
+    "gprbuild-doc",
+    "gprconfig-kb"
+  ],
+  "nix_inputs": [
+    "gnat-wrapper",
+    "gprbuild-boot",
+    "which",
+    "xmlada"
+  ],
+  "map": {}
+}

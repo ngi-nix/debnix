@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "multimon-ng",
+  "nix_pkg": null,
+  "control_file_hash": "0e4a2cf8762a7a651e9165b14e8878e8c7101fb36b2e9749f34278f6c871dbd7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libpulse-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libX11",
+    "libpulseaudio"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "cmake": "cmake"
+  }
+}

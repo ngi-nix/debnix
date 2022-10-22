@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "espeakedit",
+  "nix_pkg": null,
+  "control_file_hash": "1111ae755dc6c01fb8e7f20310562dea1a0fcac1655e16c50209da0000e3bbdf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "espeak-data",
+    "libsonic-dev",
+    "libwxgtk3.2-dev",
+    "portaudio19-dev",
+    "sox"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "portaudio",
+    "unzip",
+    "wxGTK"
+  ],
+  "map": {
+    "libwxgtk3.2-dev": "wxGTK",
+    "portaudio19-dev": "portaudio"
+  }
+}

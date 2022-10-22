@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "simh",
+  "nix_pkg": null,
+  "control_file_hash": "2196208eb780568c8a2262ebc3bea26ab6d39e35132cb6fbe1055cc185d05adc",
+  "deb_inputs": [
+    "debhelper",
+    "libpcap0.8-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_ttf",
+    "libpcap",
+    "pcre",
+    "vde2"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap"
+  }
+}

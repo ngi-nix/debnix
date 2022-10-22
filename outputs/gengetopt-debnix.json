@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "gengetopt",
+  "nix_pkg": null,
+  "control_file_hash": "7c132f72148bfeed5079c947f3e93ca7dc791cdb2c8f566bbca8ecdb6307b0cb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flex"
+  ],
+  "nix_inputs": [
+    "help2man",
+    "texinfo"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ptask",
+  "nix_pkg": null,
+  "control_file_hash": "3955d93cade52ebe00ee110e2a6e2063565942c0cd5c25fed2dafe3148b20348",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "libgtk-3-dev",
+    "libjson-c-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "pkg-config",
+    "taskwarrior"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "json-c",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjson-c-dev": "json-c"
+  }
+}

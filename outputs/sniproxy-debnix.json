@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "sniproxy",
+  "nix_pkg": null,
+  "control_file_hash": "acb51ae066688a49398ef6a0f477336731226080505c2e8e09320e1e122491f0",
+  "deb_inputs": [
+    "curl",
+    "debhelper",
+    "gettext",
+    "libev-dev",
+    "libpcre3-dev",
+    "libudns-dev",
+    "logrotate",
+    "lsb-base",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libev",
+    "pcre",
+    "pkg-config-wrapper",
+    "udns"
+  ],
+  "map": {
+    "libev-dev": "libev",
+    "gettext": "gettext",
+    "libpcre3-dev": "pcre",
+    "libudns-dev": "udns"
+  }
+}

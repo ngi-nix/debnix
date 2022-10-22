@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "xtrace",
+  "nix_pkg": null,
+  "control_file_hash": "4d5626b911199a0a799ef22f315b28685e63f4948eba25565db9f84781809825",
+  "deb_inputs": [
+    "debhelper",
+    "xauth"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {}
+}

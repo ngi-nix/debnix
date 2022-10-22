@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "pekwm",
+  "nix_pkg": null,
+  "control_file_hash": "b7beeb30edc4e1282a080fe2b7c61d708c6e87ebca7167c063ff8cf19a7964ad",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libx11-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "libxpm-dev",
+    "libxrandr-dev",
+    "menu",
+    "x11-utils",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libXext",
+    "libXft",
+    "libXinerama",
+    "libXpm",
+    "libXrandr",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxrandr-dev": "libXrandr",
+    "libxft-dev": "libXft",
+    "libxinerama-dev": "libXinerama",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxpm-dev": "libXpm"
+  }
+}

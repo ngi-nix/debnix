@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libsmpeg-dev",
+  "nix_pkg": null,
+  "control_file_hash": "950c0c8ee4cc709ad34ffcc43e1f32eb7a1d47ab022631cf31ca6340d5f7de90",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "libsdl1.2-dev",
+    "libsmpeg0"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "autoconf",
+    "automake",
+    "glu",
+    "gnum4",
+    "gtk+",
+    "libGL",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL"
+  }
+}

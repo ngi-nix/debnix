@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "jam",
+  "nix_pkg": null,
+  "control_file_hash": "b8234aa347551a0a7dc23e4b28e57e4c5ae8ebb35739b291188dd7931ff132e8",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dh-buildinfo",
+    "docbook-to-man"
+  ],
+  "nix_inputs": [
+    "bison"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

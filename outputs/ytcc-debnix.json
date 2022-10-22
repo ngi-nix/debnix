@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "ytcc",
+  "nix_pkg": null,
+  "control_file_hash": "24c830ee678f7ce3889edd14bf67b8b29c8b29d127f90c9ca69f990fcaf241d1",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "dh-python",
+    "fzf",
+    "mpv",
+    "python3-all",
+    "python3-click",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-wcwidth",
+    "youtube-dl"
+  ],
+  "nix_inputs": [
+    "click",
+    "gettext",
+    "nose",
+    "python3",
+    "wcwidth",
+    "yt-dlp"
+  ],
+  "map": {
+    "python3-wcwidth": "wcwidth"
+  }
+}

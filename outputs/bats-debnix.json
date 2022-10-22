@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "bats",
+  "nix_pkg": null,
+  "control_file_hash": "f25774f64f89ec3fe53b48a91b10ba250d475c13423226fe319ec22e2166ae1b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "parallel"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

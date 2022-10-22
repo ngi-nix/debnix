@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "aeolus",
+  "nix_pkg": null,
+  "control_file_hash": "81001ae00553598cab251db93ad504a98f129b719721bb7cae9e8c902a00247d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jackd",
+    "libasound2-dev",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfreetype6-dev",
+    "libjack-dev",
+    "libreadline-dev",
+    "libzita-alsa-pcmi-dev",
+    "pkg-config",
+    "stops"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libX11",
+    "libXft",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "readline",
+    "zita-alsa-pcmi"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libzita-alsa-pcmi-dev": "zita-alsa-pcmi",
+    "libreadline-dev": "readline",
+    "libclxclient-dev": "libclxclient",
+    "libclthreads-dev": "libclthreads"
+  }
+}

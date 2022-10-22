@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "flrig",
+  "nix_pkg": null,
+  "control_file_hash": "8213dcaf838120028c954bf95e873ecb19833ad391356b4ecbc93e8da46662d3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fldigi",
+    "libfltk1.3-dev",
+    "libflxmlrpc-dev",
+    "libudev-dev",
+    "pkg-config",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "eudev",
+    "fltk",
+    "libjpeg-turbo",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfltk1.3-dev": "fltk"
+  }
+}

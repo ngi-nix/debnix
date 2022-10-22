@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "genext2fs",
+  "nix_pkg": null,
+  "control_file_hash": "56b63412a3e827ef1f2a0407a643d03c758a95fcdec3e335cca1007b4ee493cb",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libarchive-dev"
+  ],
+  "nix_inputs": [
+    "libarchive"
+  ],
+  "map": {
+    "libarchive-dev": "libarchive"
+  }
+}

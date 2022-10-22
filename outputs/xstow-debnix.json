@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "xstow",
+  "nix_pkg": null,
+  "control_file_hash": "6fb56ead2bfd4257f000d3fc8c4b0e25ade0784b4bc003f6367151e21f24963f",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {}
+}

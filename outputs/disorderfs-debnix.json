@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "disorderfs",
+  "nix_pkg": null,
+  "control_file_hash": "50777fde930a8f9d6f887c18724bd3b2df0d8656cf5fc08eda54530c03d9b16e",
+  "deb_inputs": [
+    "asciidoc",
+    "bc",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "fuse",
+    "libattr1-dev",
+    "libfuse-dev",
+    "libxml2-utils",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc-full",
+    "attr",
+    "fuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libfuse-dev": "fuse",
+    "libattr1-dev": "attr"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "dosage",
+  "nix_pkg": null,
+  "control_file_hash": "707bdf3363c30aa7dad6f6840f48063212f86d845d343f77ae71054fcf710295",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-argcomplete",
+    "python3-requests"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "imagesize",
+    "lxml",
+    "pytest-xdist",
+    "python3",
+    "requests",
+    "responses",
+    "setuptools",
+    "setuptools-scm",
+    "six"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "python3": "python3"
+  }
+}

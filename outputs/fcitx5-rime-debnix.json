@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "fcitx5-rime",
+  "nix_pkg": null,
+  "control_file_hash": "a8a55941771fc04bf87673b41f48a0bc7041ac93c95b39fe8d5a5d6a0d88e623",
+  "deb_inputs": [
+    "appstream",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fcitx5-modules-dev",
+    "gettext",
+    "libfcitx5core-dev",
+    "librime-data",
+    "librime-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "gettext",
+    "librime",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "gettext": "gettext",
+    "fcitx5-modules-dev": "fcitx5",
+    "librime-dev": "librime",
+    "libfcitx5core-dev": "fcitx5"
+  }
+}

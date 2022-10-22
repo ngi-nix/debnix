@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "nim",
+  "nix_pkg": null,
+  "control_file_hash": "5d1322b6f9e45df49ecab2d6d7a1d5a21e92bdcd1e83a5c850f1f257acf4f2f2",
+  "deb_inputs": [
+    "build-essential",
+    "debhelper-compat",
+    "gcc",
+    "git",
+    "help2man",
+    "libssl-dev",
+    "libssl1.1",
+    "nim-doc"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "openssl",
+    "pcre",
+    "readline",
+    "sqlite"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libssl1.1": "openssl"
+  }
+}

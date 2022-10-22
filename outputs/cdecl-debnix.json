@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "cdecl",
+  "nix_pkg": null,
+  "control_file_hash": "b743fd37426fddfcc133a7c11cd023807337a58a8f76850e7bff9eb7f18e3b0e",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "libreadline-dev": "readline"
+  }
+}

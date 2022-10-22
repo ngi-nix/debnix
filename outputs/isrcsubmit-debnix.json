@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "isrcsubmit",
+  "nix_pkg": null,
+  "control_file_hash": "f033b1aa25ba5c67a4353139fd72b26305267c7b240453ad3d680759310e2600",
+  "deb_inputs": [
+    "cdrdao",
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-keyring",
+    "python3-libdiscid",
+    "python3-musicbrainzngs",
+    "python3-sphinx",
+    "www-browser",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "discid",
+    "musicbrainzngs",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-musicbrainzngs": "musicbrainzngs"
+  }
+}

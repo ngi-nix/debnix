@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "hexyl",
+  "nix_pkg": null,
+  "control_file_hash": "80414638fa2f17d3c51866ce22bd429b654c80207aee38af71e4e8dac8951d57",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-ansi-term-0.12+default-dev",
+    "librust-atty-0.2+default-dev",
+    "librust-clap-2+color-dev",
+    "librust-clap-2+default-dev",
+    "librust-clap-2+suggestions-dev",
+    "librust-clap-2+wrap-help-dev",
+    "librust-libc-0.2+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc",
+    "librust-libc-0.2+default-dev": "rustc"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libebml-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d2191b779508f659e26f454ba8fe2aaefc2b156ddfdd6fd82cb8a23e7515e083",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libebml5",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

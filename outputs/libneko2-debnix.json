@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libneko2",
+  "nix_pkg": null,
+  "control_file_hash": "bf4bea9fd5d717a92433a97cea023497f15cb8f82e3a10a6da1ccefde8d86e62",
+  "deb_inputs": [
+    "apache2-dev",
+    "bash-completion",
+    "cmake",
+    "debhelper",
+    "default-libmysqlclient-dev",
+    "dh-apache2",
+    "git",
+    "libapache2-mod-neko",
+    "libapr1-dev",
+    "libgc-dev",
+    "libgtk2.0-dev",
+    "libmariadb-dev-compat",
+    "libmbedtls-dev",
+    "libneko2",
+    "libpcre3-dev",
+    "libsqlite3-dev",
+    "neko",
+    "neko-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "apache-httpd",
+    "apr",
+    "apr-util",
+    "boehm-gc",
+    "cmake",
+    "git",
+    "gtk+",
+    "libpthread-stubs",
+    "mariadb-connector-c",
+    "mbedtls",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libapr1-dev": "apr",
+    "libsqlite3-dev": "sqlite",
+    "cmake": "cmake",
+    "libgtk2.0-dev": "gtk+",
+    "libpcre3-dev": "pcre",
+    "git": "git",
+    "libmbedtls-dev": "mbedtls"
+  }
+}

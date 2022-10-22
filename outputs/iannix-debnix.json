@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "iannix",
+  "nix_pkg": null,
+  "control_file_hash": "7486b99161f6e8af9f95e822af51e879afbecbd9cae6795c5f79e1b7b1269e97",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libavahi-client-dev",
+    "libavahi-common-dev",
+    "libqt5opengl5-desktop-dev",
+    "qt5-qmake",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qtscript5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtscript"
+  ],
+  "map": {
+    "qtscript5-dev": "qtscript",
+    "qtbase5-dev": "qtbase",
+    "libasound2-dev": "alsa-lib"
+  }
+}

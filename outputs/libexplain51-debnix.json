@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libexplain51",
+  "nix_pkg": null,
+  "control_file_hash": "3a443feb469bff73002cbb904335f41f8f9d13ed9a98faa9a035c420dcc90fd6",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "ghostscript",
+    "groff",
+    "libacl1-dev",
+    "libcap-dev",
+    "libexplain51",
+    "libtool-bin",
+    "linux-libc-dev",
+    "lsof",
+    "netbase"
+  ],
+  "nix_inputs": [
+    "acl",
+    "bison",
+    "gettext",
+    "ghostscript-with-X",
+    "groff",
+    "libcap",
+    "libtool",
+    "lsof"
+  ],
+  "map": {
+    "libacl1-dev": "acl",
+    "bison": "bison",
+    "groff": "groff",
+    "libtool-bin": "libtool",
+    "libcap-dev": "libcap",
+    "lsof": "lsof"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "ent",
+  "nix_pkg": null,
+  "control_file_hash": "4b0e6513b9180bd5116a8d9339895eebb1d5d4a03be36673562a59384f0c0bdd",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "docbook2x"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

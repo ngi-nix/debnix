@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "dcm2niix",
+  "nix_pkg": null,
+  "control_file_hash": "69443aecbf8dd839783cc4f2d773805265fbc4403493df74044d388c1912e13b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libopenjp2-7-dev",
+    "libturbojpeg0-dev",
+    "libyaml-cpp-dev",
+    "pigz",
+    "pkg-config",
+    "python3-sphinx:native",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openjpeg"
+  ],
+  "map": {
+    "libopenjp2-7-dev": "openjpeg",
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "fityk",
+  "nix_pkg": null,
+  "control_file_hash": "ee0dbfaa6b0335d4eb8de644ea86ff6389d2e4df7e88369fff8d291e9280a744",
+  "deb_inputs": [
+    "catch",
+    "debhelper-compat",
+    "dvipng",
+    "gnuplot",
+    "libboost-dev",
+    "libbz2-dev",
+    "liblua5.2-dev",
+    "libreadline-dev",
+    "libwxgtk3.2-dev",
+    "libxy-dev",
+    "lua5.2",
+    "python3-sphinx",
+    "swig",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "gnuplot",
+    "lua",
+    "readline",
+    "swig",
+    "wxwidgets",
+    "xylib",
+    "zlib"
+  ],
+  "map": {
+    "lua5.2": "lua",
+    "libreadline-dev": "readline",
+    "zlib1g-dev": "zlib",
+    "swig": "swig",
+    "liblua5.2-dev": "lua",
+    "gnuplot": "gnuplot",
+    "libboost-dev": "boost",
+    "libwxgtk3.2-dev": "wxwidgets",
+    "libxy-dev": "xylib",
+    "libbz2-dev": "bzip2"
+  }
+}

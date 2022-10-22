@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "cpustat",
+  "nix_pkg": null,
+  "control_file_hash": "1d3d065d69edac7ddef564062ad6a4a09e1747e6b9fa57a381f4314898a5ca63",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

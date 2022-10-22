@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "docker",
+  "nix_pkg": null,
+  "control_file_hash": "ba29d0886542f66dea242c6cdaf2db99cbe536beb66546d5b02f49d53cb00908",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libx11-dev",
+    "quilt",
+    "wmdocker"
+  ],
+  "nix_inputs": [
+    "btrfs-progs",
+    "docker-buildx",
+    "docker-compose",
+    "go",
+    "go-md2man",
+    "govers",
+    "libseccomp",
+    "libtool",
+    "lvm2",
+    "pkg-config-wrapper",
+    "sqlite",
+    "systemd"
+  ],
+  "map": {}
+}
