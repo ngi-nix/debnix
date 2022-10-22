@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "qsampler",
+  "nix_pkg": null,
+  "control_file_hash": "8aaa6b3d4676160956081564e9e4591449e1a26cef9808d5c5efc4572b89449d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgig-dev",
+    "liblscp-dev",
+    "libqt6svg6-dev",
+    "libtool",
+    "libx11-dev",
+    "linuxsampler",
+    "pkg-config",
+    "qt6-base-dev",
+    "qt6-tools-dev",
+    "qt6-tools-dev-tools"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libgig",
+    "liblscp",
+    "libtool",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "liblscp-dev": "liblscp",
+    "libtool": "libtool",
+    "libgig-dev": "libgig"
+  }
+}

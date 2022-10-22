@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "netris",
+  "nix_pkg": null,
+  "control_file_hash": "c1d4f233a439ac568a23d397fae4285b82e22a56da3d2d97bff3c50021f658fb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

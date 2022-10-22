@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libxcb-imdkit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fd928151b3d845ead083fbeeeca50b138a0fe4e30b775872a36327f9e35eeb54",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libxcb-imdkit1",
+    "libxcb-keysyms1-dev",
+    "libxcb-util0-dev",
+    "libxcb1-dev",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "uthash",
+    "xcb-util",
+    "xcb-util-keysyms",
+    "xorgproto"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "cmake": "cmake",
+    "libxcb-keysyms1-dev": "xcb-util-keysyms",
+    "uthash-dev": "uthash",
+    "libxcb-util0-dev": "xcb-util"
+  }
+}

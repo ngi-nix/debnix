@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "rocksndiamonds",
+  "nix_pkg": null,
+  "control_file_hash": "eaaaaf2f4539de20690a904fa1321396d149b0f05b048a3fdefb66a3af128d39",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-net-dev",
+    "p7zip",
+    "po-debconf",
+    "unzip",
+    "wget",
+    "zip"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_net"
+  ],
+  "map": {}
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "bepasty",
+  "nix_pkg": null,
+  "control_file_hash": "3c8bf18a4259414303861be5e55a5bc81ee4ce70641c57ac031a7a76378d07df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "fonts-font-awesome",
+    "libjs-bootbox",
+    "libjs-bootstrap4",
+    "libjs-bootswatch",
+    "libjs-jquery",
+    "libjs-jquery-file-upload",
+    "libjs-jquery-ui",
+    "python3-all",
+    "python3-flask",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-selenium",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "XStatic",
+    "XStatic-Bootbox",
+    "XStatic-Bootstrap",
+    "XStatic-Pygments",
+    "XStatic-jQuery",
+    "XStatic-jQuery-File-Upload",
+    "XStatic-jquery-ui",
+    "flask",
+    "pygments",
+    "python3",
+    "setuptools",
+    "setuptools-scm"
+  ],
+  "map": {
+    "python3-setuptools-scm": "setuptools-scm",
+    "python3-pygments": "pygments",
+    "python3-flask": "flask",
+    "python3-setuptools": "setuptools"
+  }
+}

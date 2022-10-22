@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "paulstretch",
+  "nix_pkg": null,
+  "control_file_hash": "19945bcc60138f3fedc657a578951551c5180f6c015b8969fc16041ea7c546d6",
+  "deb_inputs": [
+    "debhelper",
+    "fluid",
+    "jackd",
+    "libaudiofile-dev",
+    "libfftw3-dev",
+    "libfltk-dev",
+    "libfltk1.1-dev",
+    "libfltk1.3-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libmad0-dev",
+    "libmxml-dev",
+    "libsamplerate0-dev",
+    "libvorbis-dev",
+    "libvorbisidec-dev",
+    "libz-dev",
+    "portaudio19-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "audiofile",
+    "fftw-double",
+    "fftw-single",
+    "fltk",
+    "libjack2",
+    "libmad",
+    "libsamplerate",
+    "libvorbis",
+    "mxml",
+    "pkg-config-wrapper",
+    "portaudio"
+  ],
+  "map": {
+    "libfltk1.1-dev": "fltk",
+    "libsamplerate0-dev": "libsamplerate",
+    "fluid": "fltk",
+    "libfltk1.3-dev": "fltk",
+    "libmad0-dev": "libmad",
+    "libfltk-dev": "fltk",
+    "portaudio19-dev": "portaudio",
+    "libmxml-dev": "mxml",
+    "libaudiofile-dev": "audiofile",
+    "libvorbis-dev": "libvorbis"
+  }
+}

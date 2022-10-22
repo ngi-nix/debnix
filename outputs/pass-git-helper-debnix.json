@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "pass-git-helper",
+  "nix_pkg": null,
+  "control_file_hash": "9f3e49be830cb83442d274b81c206cdff04ba4fc79b5f185716eae09b6b8f7df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "pass",
+    "python3-all",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-pytest-mock",
+    "python3-setuptools",
+    "python3-xdg"
+  ],
+  "nix_inputs": [
+    "pytest",
+    "pytest-mock",
+    "python3",
+    "pyxdg"
+  ],
+  "map": {
+    "python3-pytest": "pytest",
+    "python3-xdg": "pyxdg",
+    "python3-pytest-mock": "pytest-mock"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "zita-ajbridge",
+  "nix_pkg": null,
+  "control_file_hash": "dd2048f3614d2eba5e66d4c462695d128a064f47295176875090d7bc86823afe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libzita-alsa-pcmi-dev",
+    "libzita-resampler-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "zita-alsa-pcmi",
+    "zita-resampler"
+  ],
+  "map": {
+    "libzita-resampler-dev": "zita-resampler",
+    "libzita-alsa-pcmi-dev": "zita-alsa-pcmi",
+    "libasound2-dev": "alsa-lib"
+  }
+}

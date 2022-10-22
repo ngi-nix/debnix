@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "rover",
+  "nix_pkg": null,
+  "control_file_hash": "25b8c52b4834cad462d1846273cb027c599cbf549e0c38ee5a406e04169e606d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "python3",
+    "python3-termbox"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "perl",
+    "rustc"
+  ],
+  "map": {}
+}

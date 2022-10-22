@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "amazon-ec2-utils",
+  "nix_pkg": null,
+  "control_file_hash": "12d5094cd1c51676de5039e8175aabc9d0a7a54b6371e8daec10c6e37d469f9a",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "python3"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libftgl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fe101c06e3123d941e661af7c9632f3bdd7bd083e62e6c30818959b884113b43",
+  "deb_inputs": [
+    "debhelper",
+    "doxygen-latex",
+    "freeglut3-dev",
+    "ghostscript",
+    "imagemagick",
+    "libcppunit-dev",
+    "libfreetype6-dev",
+    "libftgl2",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "pkg-config",
+    "texlive-fonts-recommended"
+  ],
+  "nix_inputs": [
+    "doxygen",
+    "freeglut",
+    "freetype",
+    "glu",
+    "libGL",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglu-dev": "glu",
+    "freeglut3-dev": "freeglut",
+    "libglu1-mesa-dev": "glu",
+    "doxygen-latex": "doxygen",
+    "libfreetype6-dev": "freetype",
+    "libgl-dev": "libGL"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "nlohmann-json3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "beecb121ab7623be3b54226f758392071f9743dfc3e14175706697cec4ae4b3e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "ghostscript",
+    "graphviz",
+    "texlive-binaries",
+    "texlive-latex-base"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

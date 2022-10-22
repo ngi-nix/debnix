@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "fcitx5-module-lua",
+  "nix_pkg": null,
+  "control_file_hash": "369be9e634c890071f3196c87059a2859390d638f1d941aa014ba615f287f192",
+  "deb_inputs": [
+    "appstream",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fcitx5-module-lua",
+    "fcitx5-module-lua-common",
+    "fcitx5-modules-dev",
+    "gettext",
+    "libfcitx5core-dev",
+    "liblua5.3-0",
+    "liblua5.3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "gettext",
+    "lua"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libfcitx5core-dev": "fcitx5",
+    "liblua5.3-0": "lua",
+    "cmake": "cmake",
+    "fcitx5-modules-dev": "fcitx5",
+    "liblua5.3-dev": "lua",
+    "gettext": "gettext"
+  }
+}

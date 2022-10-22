@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libdevil-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b8456316b7952a1191d787753a579ffe8d14ba63d2d00e8b2a38f10cec2aefcb",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "freeglut3-dev",
+    "liballegro4-dev",
+    "libdevil1c2",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libjpeg-dev",
+    "liblcms2-dev",
+    "libmng-dev",
+    "libpng-dev",
+    "libsdl1.2-dev",
+    "libtiff-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "lcms",
+    "libGL",
+    "libX11",
+    "libjpeg-turbo",
+    "libmng",
+    "libpng-apng",
+    "libtiff",
+    "openexr",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgl-dev": "libGL",
+    "liblcms2-dev": "lcms",
+    "libtiff-dev": "libtiff",
+    "libmng-dev": "libmng",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

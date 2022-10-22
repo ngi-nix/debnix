@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "wiggle",
+  "nix_pkg": null,
+  "control_file_hash": "1a0b6d40da05c35e893860866f6f5a7809868adcc26eef5540b9fdb8b28e3cdd",
+  "deb_inputs": [
+    "debhelper",
+    "groff",
+    "libncurses-dev",
+    "time"
+  ],
+  "nix_inputs": [
+    "groff",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "groff": "groff"
+  }
+}

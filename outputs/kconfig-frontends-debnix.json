@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "kconfig-frontends",
+  "nix_pkg": null,
+  "control_file_hash": "a8ca5fe693fcbf1184f4c4d849d921be588b045fd5855ac9a039623257420b5c",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "gperf",
+    "libncurses-dev",
+    "pkg-config",
+    "python3",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "gperf",
+    "ncurses",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "bison": "bison",
+    "python3": "python3",
+    "libncurses-dev": "ncurses",
+    "gperf": "gperf",
+    "flex": "flex"
+  }
+}

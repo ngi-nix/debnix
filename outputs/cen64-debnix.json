@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "cen64",
+  "nix_pkg": null,
+  "control_file_hash": "d35250aa3fa5c02682a38290573619102d223917aaafcef68f5a093a7f7e976b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl1-mesa-dev",
+    "libopenal-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libGL",
+    "libX11",
+    "openal-soft"
+  ],
+  "map": {
+    "libgl1-mesa-dev": "libGL",
+    "libopenal-dev": "openal-soft",
+    "cmake": "cmake"
+  }
+}

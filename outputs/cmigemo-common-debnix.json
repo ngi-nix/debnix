@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "cmigemo-common",
+  "nix_pkg": null,
+  "control_file_hash": "79f5257e30031425d911b524e4e9361781f8d3ffea87db3423146173743c4462",
+  "deb_inputs": [
+    "cmigemo",
+    "cmigemo-common",
+    "debhelper-compat",
+    "dh-vim-addon",
+    "elpa-migemo",
+    "libmigemo1",
+    "nkf",
+    "vim-migemo"
+  ],
+  "nix_inputs": [
+    "nkf",
+    "perl",
+    "which"
+  ],
+  "map": {
+    "nkf": "nkf"
+  }
+}

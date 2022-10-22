@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "apngasm",
+  "nix_pkg": null,
+  "control_file_hash": "bb5f14ab6a834f466725357b6857e16b8db77b1c7509b182d86856da4147a894",
+  "deb_inputs": [
+    "apng2gif",
+    "debhelper-compat",
+    "libpng-dev",
+    "libz-dev",
+    "libzopfli-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {}
+}

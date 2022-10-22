@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "caneda",
+  "nix_pkg": null,
+  "control_file_hash": "580e29779afa16e0c761a04c64851424379dace145783eb017f54d0648db67cb",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libqt5svg5-dev",
+    "libqwt-qt5-dev",
+    "ngspice",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "qwt"
+  ],
+  "map": {
+    "libqwt-qt5-dev": "qwt",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools"
+  }
+}

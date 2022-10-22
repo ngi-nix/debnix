@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libsoundtouch-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e11fdabc2fa9f1dab119286d84003582e0395a57101d07f9c1689d4d01d38e59",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsoundtouch1"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "map": {}
+}

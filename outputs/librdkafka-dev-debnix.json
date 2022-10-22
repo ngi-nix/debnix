@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "librdkafka-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7d6f92207871dc7d4e07c957636929140e21469b2ec25ef471352fdd205abe96",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblz4-dev",
+    "librdkafka++1",
+    "librdkafka1",
+    "libsasl2-dev",
+    "libssl-dev",
+    "libzstd-dev",
+    "python3",
+    "rapidjson-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "which",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "python3": "python3",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "libzstd-dev": "zstd"
+  }
+}

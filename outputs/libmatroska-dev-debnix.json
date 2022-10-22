@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libmatroska-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e800546ca1e4eb874d1cf91e1709c1c28725aff2f63e9149145cccf9f9bd44b1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libebml-dev",
+    "libmatroska7",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libebml",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libebml-dev": "libebml",
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libcec-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b06dbf9161bf9e56eb74b423dfcc36fd8e825bb7543c6abb1a0933171f6643cd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libcec6",
+    "libncurses5-dev",
+    "libp8-platform-dev",
+    "libudev-dev",
+    "libxrandr-dev",
+    "pkg-config",
+    "pkg-kde-tools",
+    "python3-dev",
+    "swig",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "p8-platform",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "cmake": "cmake",
+    "libp8-platform-dev": "p8-platform"
+  }
+}

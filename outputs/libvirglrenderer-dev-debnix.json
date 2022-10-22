@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libvirglrenderer-dev",
+  "nix_pkg": null,
+  "control_file_hash": "acc802a50b50d3c158a63d22e8febede6e693ea1089993535d808be365e547e3",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "dh-exec",
+    "libdrm-dev",
+    "libegl1-mesa-dev",
+    "libepoxy-dev",
+    "libgbm-dev",
+    "libva-dev",
+    "libvirglrenderer1",
+    "libvulkan-dev",
+    "meson",
+    "pkg-config",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glu",
+    "libX11",
+    "libdrm",
+    "libepoxy",
+    "mesa",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libegl1-mesa-dev": "mesa",
+    "libgbm-dev": "mesa",
+    "libepoxy-dev": "libepoxy",
+    "libdrm-dev": "libdrm",
+    "meson": "meson"
+  }
+}

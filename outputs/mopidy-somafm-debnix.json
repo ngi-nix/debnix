@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "mopidy-somafm",
+  "nix_pkg": null,
+  "control_file_hash": "607feee875967fc729c254d155638b790fa9f02db95dddb1c3c4327e7ce1f23e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "python3"
+  ],
+  "map": {
+    "mopidy": "mopidy",
+    "python3": "python3"
+  }
+}

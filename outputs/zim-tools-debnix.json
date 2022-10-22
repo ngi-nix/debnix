@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "zim-tools",
+  "nix_pkg": null,
+  "control_file_hash": "786f8b93f80d61b942a6b0ee5c979f9924207e69eae7dcc045e79ee33cfe5ad8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdocopt-dev",
+    "libgtest-dev",
+    "libgumbo-dev",
+    "libicu-dev",
+    "libkainjow-mustache-dev",
+    "libmagic-dev",
+    "libzim-dev",
+    "meson",
+    "pkg-config",
+    "zim-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "docopt.cpp",
+    "file",
+    "gtest",
+    "gumbo",
+    "meson",
+    "mustache",
+    "ninja",
+    "pkg-config-wrapper",
+    "zimlib",
+    "zlib"
+  ],
+  "map": {
+    "libgtest-dev": "gtest",
+    "libgumbo-dev": "gumbo",
+    "libzim-dev": "zimlib",
+    "libdocopt-dev": "docopt.cpp",
+    "libmagic-dev": "file",
+    "meson": "meson",
+    "zlib1g-dev": "zlib"
+  }
+}

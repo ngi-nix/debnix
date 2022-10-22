@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "qgo",
+  "nix_pkg": null,
+  "control_file_hash": "55762bab7380959f67e250537dfb9531835b06cea58a7b1bfdeb4523e01803d0",
+  "deb_inputs": [
+    "debhelper",
+    "gnugo",
+    "libpulse-dev",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "qtbase",
+    "qtmultimedia",
+    "qttranslations"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

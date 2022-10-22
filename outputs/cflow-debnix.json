@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "cflow",
+  "nix_pkg": null,
+  "control_file_hash": "43478a59b008cd8a6ad9eaff4b43b02e26f9dfe5b1f7e9fd00b674502570d23d",
+  "deb_inputs": [
+    "cflow-doc",
+    "cflow-l10n",
+    "debhelper-compat",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "emacs",
+    "gettext"
+  ],
+  "map": {}
+}

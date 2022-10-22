@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "medcon",
+  "nix_pkg": null,
+  "control_file_hash": "d3f53e3f3397397524d8659f01699b2715d60d6887f801f2215e904dd585e9d5",
+  "deb_inputs": [
+    "d-shlibs",
+    "debhelper-compat",
+    "libgdk-pixbuf-2.0-dev",
+    "libgtk-3-dev",
+    "libmdc3",
+    "libnifti2-dev",
+    "libpng-dev",
+    "medcon",
+    "xmedcon",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+3",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

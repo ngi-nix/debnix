@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "airstrike-common",
+  "nix_pkg": null,
+  "control_file_hash": "080931b02d6bf90fd80bd5ca4f3a64d023d58dd92f4de94c2a2f7239d3d70287",
+  "deb_inputs": [
+    "airstrike-common",
+    "debhelper-compat",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image"
+  }
+}

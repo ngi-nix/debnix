@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libupnp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "48351351b89b22b97695e407a6dbaa3333defb8ebefdabcbb7e2443a4943b86b",
+  "deb_inputs": [
+    "debhelper",
+    "libixml10",
+    "libupnp-doc",
+    "libupnp13"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

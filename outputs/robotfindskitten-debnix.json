@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "robotfindskitten",
+  "nix_pkg": null,
+  "control_file_hash": "63c178f928893583f5a3b169c54e02bd41605217b6c747a4459b860d27edcb4d",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dpkg",
+    "install-info",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

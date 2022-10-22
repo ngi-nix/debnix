@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "complexity",
+  "nix_pkg": null,
+  "control_file_hash": "3c49c3e5ddbc0800f6eff8ebc88a29664fd1d6d7863cf95222ede845b013ab62",
+  "deb_inputs": [
+    "autogen",
+    "debhelper-compat",
+    "gnulib",
+    "libopts25-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "autogen"
+  ],
+  "map": {
+    "autogen": "autogen",
+    "libopts25-dev": "autogen"
+  }
+}

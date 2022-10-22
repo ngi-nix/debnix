@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "gringo",
+  "nix_pkg": null,
+  "control_file_hash": "172e81858df055379d88b9a14c1a1050dd7f485def315af8e53810a0f853c427",
+  "deb_inputs": [
+    "bison",
+    "clasp",
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "g++-10",
+    "liblua5.4-dev",
+    "libpython3-dev",
+    "pkg-kde-tools",
+    "python3",
+    "python3-distutils",
+    "re2c"
+  ],
+  "nix_inputs": [
+    "bison",
+    "re2c",
+    "scons"
+  ],
+  "map": {
+    "re2c": "re2c",
+    "bison": "bison"
+  }
+}

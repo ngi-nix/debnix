@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "tikzit",
+  "nix_pkg": null,
+  "control_file_hash": "51a040623cca7101737b19374b6c190b14f576087f2d36cf802adfb53591c7ac",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libpoppler-dev",
+    "libpoppler-qt5-dev",
+    "preview-latex-style",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "tex-common",
+    "texlive-base",
+    "texlive-binaries",
+    "texlive-latex-base",
+    "texlive-pictures"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "poppler-qt5",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "flex": "flex",
+    "bison": "bison",
+    "qtbase5-dev": "qtbase"
+  }
+}

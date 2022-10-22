@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bogofilter", "bsfilter", "ca-certificates", "compface", "debhelper-compat", "dpkg", "emacs", "emacs-nox", "emacs-snapshot", "emacsen-common", "gnupg", "gnupg1", "gnupg2", "gpgsm", "hyperestraier", "install-info", "mew-beta-bin", "mhc", "mu-cite", "mule-ucs", "namazu2", "namazu2-index-tools", "netpbm", "ppthtml", "ruby", "ruby-sqlite3", "sensible-utils", "spamassassin", "ssh", "stunnel", "stunnel4", "w3m-el", "wv", "x-face-el", "xlhtml", "zlib1g-dev"], or 
+output: 
+[] is empty!

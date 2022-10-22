@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "zbackup",
+  "nix_pkg": null,
+  "control_file_hash": "d389672322633b028a512bd92ad9e2b3f91c862f82fe688b24e3e0aede64cd27",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "discount",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libprotobuf-dev",
+    "libprotoc-dev",
+    "libssl-dev",
+    "protobuf-compiler",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libunwind",
+    "lzo",
+    "openssl",
+    "protobuf",
+    "protobuf-c",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "liblzo2-dev": "lzo",
+    "protobuf-compiler": "protobuf",
+    "cmake": "cmake",
+    "libprotobuf-dev": "protobuf",
+    "libprotoc-dev": "protobuf"
+  }
+}

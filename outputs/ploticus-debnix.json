@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "ploticus",
+  "nix_pkg": null,
+  "control_file_hash": "5878d1a6a29564d10b8e8128f2dc773cca993fc47235f01b96f4245fbb922c40",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libfreetype6-dev",
+    "libgd-dev",
+    "libjpeg-dev",
+    "libploticus0",
+    "libpng-dev",
+    "libx11-dev",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "gd",
+    "libX11",
+    "libjpeg-turbo",
+    "libpng",
+    "zlib"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "zlib1g-dev": "zlib",
+    "libpng-dev": "libpng",
+    "libfreetype6-dev": "freetype",
+    "libgd-dev": "gd",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

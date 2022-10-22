@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "lib3ds-dev",
+  "nix_pkg": null,
+  "control_file_hash": "71e7ca237ae566250701083ed8701ab208de1cbcb8066e338664d86aaa869986",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freeglut3-dev",
+    "lib3ds-1-3",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

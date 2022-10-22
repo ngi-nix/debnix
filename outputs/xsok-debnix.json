@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "xsok",
+  "nix_pkg": null,
+  "control_file_hash": "4b1e2ced7d3382df3519bf0bbfc48653cc23c19a325798639a8fe6ae503a11db",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "imake",
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXpm",
+    "libXt"
+  ],
+  "map": {
+    "libxaw7-dev": "libXaw",
+    "libxt-dev": "libXt",
+    "libx11-dev": "libX11",
+    "libxpm-dev": "libXpm"
+  }
+}

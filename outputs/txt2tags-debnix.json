@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "txt2tags",
+  "nix_pkg": null,
+  "control_file_hash": "bbd32aae8a9e5cec94f1997e53c4a0100ed7420f1cc0325d9823c7fae8a20096",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python"
+  ],
+  "map": {
+    "python3": "python"
+  }
+}

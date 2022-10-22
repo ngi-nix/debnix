@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "xa65",
+  "nix_pkg": null,
+  "control_file_hash": "2f0cf53c59407291396d91011c225f35d140300e36f731b79934fc19cf797b19",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

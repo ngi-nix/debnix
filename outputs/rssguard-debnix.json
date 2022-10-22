@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "rssguard",
+  "nix_pkg": null,
+  "control_file_hash": "04d23949fb92ee9cfcf219abb1c8a0bcc7bacc457ffa7a87508da3f10d52c745",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5sql5-sqlite",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools",
+    "qtwebengine5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qttools",
+    "qtwebengine"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "qtwebengine5-dev": "qtwebengine"
+  }
+}

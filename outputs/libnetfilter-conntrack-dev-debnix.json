@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libnetfilter-conntrack-dev",
+  "nix_pkg": null,
+  "control_file_hash": "63579c3ef3293516afb23e88ee27a9811c0f5c05b8d9779d5e016d199cfb97e0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libmnl-dev",
+    "libnetfilter-conntrack-doc",
+    "libnetfilter-conntrack3",
+    "libnfnetlink-dev",
+    "libtool",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libmnl",
+    "libnfnetlink",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnfnetlink-dev": "libnfnetlink",
+    "libmnl-dev": "libmnl"
+  }
+}

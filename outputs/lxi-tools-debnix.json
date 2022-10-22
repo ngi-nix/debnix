@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "lxi-tools",
+  "nix_pkg": null,
+  "control_file_hash": "80e0970ad31d2b65a6cbe2a66fd0e292cec1c7e992d14ac395de2ac188d7c040",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "liblua5.3-dev",
+    "liblxi-dev",
+    "libreadline-dev",
+    "lua5.3",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "liblxi",
+    "lua",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "liblxi-dev": "liblxi",
+    "libreadline-dev": "readline",
+    "lua5.3": "lua",
+    "liblua5.3-dev": "lua"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "infnoise",
+  "nix_pkg": null,
+  "control_file_hash": "eaa48e4868c8cd9a5660eb644076a605b225819bee8a4a1c9e02be560d5c49f1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libftdi-dev"
+  ],
+  "nix_inputs": [
+    "libftdi"
+  ],
+  "map": {
+    "libftdi-dev": "libftdi"
+  }
+}

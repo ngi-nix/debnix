@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "pamtester",
+  "nix_pkg": null,
+  "control_file_hash": "4329daff22a637c542f206d5c676698006d18a9dae616b90296de5f8852153dc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpam0g-dev"
+  ],
+  "nix_inputs": [
+    "linux-pam"
+  ],
+  "map": {}
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libmpdclient-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8a8ae47782cf011352013ac50ee55a45f7351c629fc79e02f0297e2f82301621",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libmpdclient2",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

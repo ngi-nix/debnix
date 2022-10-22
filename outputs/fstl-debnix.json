@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "fstl",
+  "nix_pkg": null,
+  "control_file_hash": "6e6da878a69a9058fd4d381b6266aa2ec3bf3ebca3ff9f64e60363ab32c502ca",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl1-mesa-dri",
+    "libqt5opengl5-dev",
+    "qtbase5-dev",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "glu",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "devtodo",
+  "nix_pkg": null,
+  "control_file_hash": "2f9c6b41a01db714503769a2e835a9307b00d9a46c16b982dd983f46bd8281f5",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "libncurses-dev",
+    "libreadline-dev",
+    "libtool-bin",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libreadline-dev": "readline"
+  }
+}

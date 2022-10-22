@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mpdas",
+  "nix_pkg": null,
+  "control_file_hash": "02bd6b43c91a302d313de2727bffa689073fed6fd08345a17a9b4cbbdedc426a",
+  "deb_inputs": [
+    "debhelper",
+    "libcurl4-openssl-dev",
+    "libmpdclient-dev",
+    "lsb-release",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "libmpdclient",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmpdclient-dev": "libmpdclient",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

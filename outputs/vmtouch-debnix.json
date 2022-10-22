@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "vmtouch",
+  "nix_pkg": null,
+  "control_file_hash": "aee839c3bd05ea8cd19a7c827fda7e4f1631eb38bb539707149bd7aea6db0d58",
+  "deb_inputs": [
+    "debhelper-compat",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

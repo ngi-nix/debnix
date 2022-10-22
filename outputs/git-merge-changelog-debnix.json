@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "git-merge-changelog",
+  "nix_pkg": null,
+  "control_file_hash": "ed7d37dd6fcfa30fb7da10772b43dc9da014ec6d430c56538301af66eeec8f0d",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autopoint",
+    "bison",
+    "build-essential",
+    "clisp",
+    "debhelper-compat",
+    "gettext",
+    "gperf",
+    "libtool",
+    "m4",
+    "perl",
+    "python3:any",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

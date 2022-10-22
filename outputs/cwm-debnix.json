@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "cwm",
+  "nix_pkg": null,
+  "control_file_hash": "f59ef5297808b09f5c760c089b7d0d070501c2dddd58b9a19aff89609f524153",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "libx11-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "libxrandr-dev",
+    "pkg-config",
+    "xscreensaver"
+  ],
+  "nix_inputs": [
+    "bison",
+    "libX11",
+    "libXft",
+    "libXinerama",
+    "libXrandr",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bison": "bison",
+    "libxft-dev": "libXft",
+    "libxinerama-dev": "libXinerama",
+    "libx11-dev": "libX11",
+    "libxrandr-dev": "libXrandr"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "pidgin-mra",
+  "nix_pkg": null,
+  "control_file_hash": "14b06a175c960ea4bd1f148de79e7f53413f2a3bb89f03a83ba63f4d39f0c8d5",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "pidgin-dev",
+    "pidgin-mra",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "pidgin",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "pidgin-dev": "pidgin"
+  }
+}
