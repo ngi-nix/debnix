@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "tweak",
+  "nix_pkg": null,
+  "control_file_hash": "afa4f86b3d61643339d0c6d7b6af6356074d1aba963b359d2e41c9640350757a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "halibut",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "nudoku",
+  "nix_pkg": null,
+  "control_file_hash": "e1cec10432d1566c77f8a15967b7021d3d034e3e76f37850bf4727e9db731545",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-autoreconf",
+    "libncurses-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

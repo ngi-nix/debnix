@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libproxy-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ad9c366fa8e5f0aa5762fc718c915b777d460d34e0435b8ab6f3c434c64fbc6c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "dh-sequence-python3",
+    "gsettings-desktop-schemas",
+    "libdbus-1-dev",
+    "libglib2.0-dev",
+    "libjavascriptcoregtk-4.0-dev",
+    "libkf5config-bin",
+    "libnm-dev",
+    "libwebkit2gtk-4.0-dev",
+    "libxmu-dev",
+    "netbase",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "dbus",
+    "duktape",
+    "glib",
+    "networkmanager",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libdbus-1-dev": "dbus",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libnm-dev": "networkmanager"
+  }
+}

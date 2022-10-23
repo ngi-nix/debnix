@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "basex",
+  "nix_pkg": null,
+  "control_file_hash": "becc7f306ed4b178689d53390ac489c9cbfbf38e0990a504852271840227358c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "java-wrappers",
+    "java8-runtime",
+    "javahelper",
+    "libjing-java",
+    "libjline2-java",
+    "libmaven-exec-plugin-java",
+    "libtagsoup-java",
+    "libxml-commons-resolver1.1-java",
+    "maven-debian-helper",
+    "maven-repo-helper"
+  ],
+  "nix_inputs": [
+    "openjdk",
+    "unzip"
+  ],
+  "map": {}
+}

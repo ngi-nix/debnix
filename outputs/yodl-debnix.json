@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "yodl",
+  "nix_pkg": null,
+  "control_file_hash": "0534e1a6f77536aad2fc8bd184363010d9c5ba35d2c40ec34b5580de3d91d89b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript",
+    "icmake",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-plain-generic",
+    "yodl-doc"
+  ],
+  "nix_inputs": [
+    "icmake",
+    "perl"
+  ],
+  "map": {
+    "icmake": "icmake"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "uhubctl",
+  "nix_pkg": null,
+  "control_file_hash": "03dae0918bb061b648b1b1d4fbb10ea546347e6f1aff80630e0a4b81a5cefe17",
+  "deb_inputs": [
+    "autopkgtest",
+    "debhelper-compat",
+    "help2man",
+    "libusb-1.0-0-dev"
+  ],
+  "nix_inputs": [
+    "libusb"
+  ],
+  "map": {}
+}

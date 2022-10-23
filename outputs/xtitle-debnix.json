@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "xtitle",
+  "nix_pkg": null,
+  "control_file_hash": "0b9e66141604667a7506d477a8f1fe7fe648c55c6371ccab9a24efb9cbefbd83",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "git",
+    "libxcb",
+    "xcb-util",
+    "xcb-util-wm"
+  ],
+  "map": {}
+}

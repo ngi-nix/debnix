@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "git-publish",
+  "nix_pkg": null,
+  "control_file_hash": "ae19134e0a546cba3eb36962c96a6bec03829b80a709ddac48f1ce490af6eba5",
+  "deb_inputs": [
+    "git"
+  ],
+  "nix_inputs": [
+    "perl",
+    "python3"
+  ],
+  "map": {}
+}

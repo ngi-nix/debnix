@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "xssproxy",
+  "nix_pkg": null,
+  "control_file_hash": "5d039776dfb9ea9fcee1cfaadbe8abdfd9a1e938103d52e003238d058d91251e",
+  "deb_inputs": [
+    "debhelper",
+    "libdbus-1-dev",
+    "libglib2.0-dev",
+    "libx11-dev",
+    "libxss-dev"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "glib",
+    "libX11",
+    "libXScrnSaver",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libx11-dev": "libX11",
+    "libdbus-1-dev": "dbus"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "xlog",
+  "nix_pkg": null,
+  "control_file_hash": "0218000e654b51cbafe0bfb4b09fd50b417af3edb09be7e77986fccc33d76b94",
+  "deb_inputs": [
+    "autoconf-archive",
+    "cwdaemon",
+    "debhelper-compat",
+    "dpkg-dev",
+    "extra-xdg-menus",
+    "glabels",
+    "hamradio-files",
+    "libgtk2.0-dev",
+    "libhamlib-dev",
+    "libjs-jquery",
+    "shared-mime-info",
+    "xdg-utils",
+    "xlog-data"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "hamlib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libhamlib-dev": "hamlib"
+  }
+}

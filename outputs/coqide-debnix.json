@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "coqide",
+  "nix_pkg": null,
+  "control_file_hash": "0475028e1b76ebfad7d4567d2a79958428345b66678e5e341eb267eefe1ed34a",
+  "deb_inputs": [
+    "bash",
+    "camlp5",
+    "coq",
+    "coq-doc",
+    "coqide",
+    "debhelper-compat",
+    "dh-coq",
+    "dh-exec",
+    "dh-ocaml",
+    "dh-python",
+    "ledit",
+    "libcoq-core-ocaml-dev",
+    "libcoq-stdlib",
+    "libfindlib-ocaml-dev",
+    "liblablgtk3-ocaml-dev",
+    "liblablgtksourceview3-ocaml-dev",
+    "libnum-ocaml-dev",
+    "libounit-ocaml-dev",
+    "libzarith-ocaml-dev",
+    "ocaml-dune",
+    "ocaml-findlib",
+    "ocaml-native-compilers",
+    "ocaml-nox",
+    "proofgeneral",
+    "python3",
+    "readline-editor",
+    "rsync",
+    "tex-common",
+    "why"
+  ],
+  "nix_inputs": [
+    "dune",
+    "ncurses",
+    "ocaml",
+    "ocaml4.14.0-findlib",
+    "ocaml4.14.0-zarith",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "ocaml-native-compilers": "ocaml",
+    "ocaml-nox": "ocaml"
+  }
+}

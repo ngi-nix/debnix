@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "deheader",
+  "nix_pkg": null,
+  "control_file_hash": "4369c6208bff18ee5202dc2a0c55405b771cbd661cd21b1a3dd441f4fd73d898",
+  "deb_inputs": [
+    "c++-compiler",
+    "c-compiler",
+    "debhelper-compat",
+    "dh-python",
+    "make",
+    "python3-all",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "python3",
+    "xmlto"
+  ],
+  "map": {
+    "xmlto": "xmlto"
+  }
+}

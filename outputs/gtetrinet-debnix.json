@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "gtetrinet",
+  "nix_pkg": null,
+  "control_file_hash": "8b45c3fdeb6b63fb2be7c9c33b95842f27e3e2caadf45f46ab337cb374c66ff8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "libcanberra-gtk3-dev",
+    "libgtk-3-dev",
+    "libpopt-dev",
+    "libxml-parser-perl",
+    "pkg-config",
+    "tetrinetx"
+  ],
+  "nix_inputs": [
+    "intltool",
+    "libgnome",
+    "libgnomeui",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

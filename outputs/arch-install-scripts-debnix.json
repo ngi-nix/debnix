@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "arch-install-scripts",
+  "nix_pkg": null,
+  "control_file_hash": "24109a630a899d5f475d7db01902ccb44e955c2ec5bfef92f7e80c09a3be9f9e",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper-compat",
+    "docbook-xsl",
+    "m4",
+    "pacman-package-manager",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "resholve"
+  ],
+  "map": {}
+}

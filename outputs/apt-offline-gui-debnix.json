@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "apt-offline-gui",
+  "nix_pkg": null,
+  "control_file_hash": "85de162ff5e7d474202e1320b30f61baa65db57eda45373b87eff4d4c2f12a85",
+  "deb_inputs": [
+    "apt",
+    "apt-offline",
+    "debhelper-compat",
+    "debian-archive-keyring",
+    "dh-python",
+    "less",
+    "man2html-base",
+    "pyqt5-dev-tools",
+    "python3-all",
+    "python3-apt",
+    "python3-debianbts",
+    "python3-magic",
+    "python3-pyqt5",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "njam-data",
+  "nix_pkg": null,
+  "control_file_hash": "abf1ded554307e14f4056780d9a12993376b80826165b4ac7e46af0db5d3230e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl-net1.2-dev",
+    "libsdl1.2-dev",
+    "njam",
+    "njam-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_net"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL",
+    "libsdl-net1.2-dev": "SDL_net",
+    "libsdl-image1.2-dev": "SDL_image"
+  }
+}

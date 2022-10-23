@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libdv4-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cc1d47034ee35dc6ddc8ebe63b0a188a4210aa14724f54b9cad566bedfc06e26",
+  "deb_inputs": [
+    "debhelper-compat",
+    "file",
+    "libdv-bin",
+    "libdv4",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libpopt-dev",
+    "libsdl1.2-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxt-dev",
+    "libxv-dev",
+    "oss-compat",
+    "pkg-config",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "popt"
+  ],
+  "map": {
+    "libpopt-dev": "popt"
+  }
+}

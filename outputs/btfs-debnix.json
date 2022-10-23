@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "btfs",
+  "nix_pkg": null,
+  "control_file_hash": "c2963779bb28f3637fc7467c29db0a86bd2b57d9f8d61142aa718d40882600d4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcurl4-openssl-dev",
+    "libfuse-dev",
+    "libtorrent-rasterbar-dev",
+    "python3"
+  ],
+  "nix_inputs": [
+    "boost",
+    "curl",
+    "fuse",
+    "libtorrent-rasterbar",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "libfuse-dev": "fuse",
+    "libcurl4-openssl-dev": "curl",
+    "libtorrent-rasterbar-dev": "libtorrent-rasterbar"
+  }
+}

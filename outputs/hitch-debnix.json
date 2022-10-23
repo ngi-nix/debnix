@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "hitch",
+  "nix_pkg": null,
+  "control_file_hash": "fe54b2a5c49ece19546ab1bb60b82083fd8421b555975389ccaf86cf69e24cd9",
+  "deb_inputs": [
+    "adduser",
+    "automake",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libev-dev",
+    "libssl-dev",
+    "lsb-base",
+    "pkgconf",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "libev",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libev-dev": "libev"
+  }
+}

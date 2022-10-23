@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libdwarf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ae8caeaca2dc4430e3d86e281364f5f8b61837a779b6cddb6f966ceff4b1c37d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdwarf1",
+    "libelf-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

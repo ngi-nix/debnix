@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "setzer",
+  "nix_pkg": null,
+  "control_file_hash": "1a920583668e201d17b0f375e848726b8d3a9d8e3aabc8bf32675c63fb87ba8f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "gir1.2-gspell-1",
+    "gir1.2-gtk-3.0",
+    "gir1.2-gtksource-4",
+    "gir1.2-pango-1.0",
+    "gir1.2-poppler-0.18",
+    "gir1.2-webkit2-4.0",
+    "latexmk",
+    "meson",
+    "python3-cairo",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-pdfminer",
+    "python3-pexpect",
+    "texlive-latex-recommended"
+  ],
+  "nix_inputs": [
+    "appstream",
+    "appstream-glib",
+    "desktop-file-utils",
+    "gettext",
+    "gobject-introspection",
+    "gspell",
+    "gtksourceview",
+    "librsvg",
+    "meson",
+    "ninja",
+    "pdfminer-six",
+    "pexpect",
+    "poppler-glib",
+    "pycairo",
+    "pygobject",
+    "python3",
+    "pyxdg",
+    "webkitgtk"
+  ],
+  "map": {
+    "meson": "meson",
+    "python3-cairo": "pycairo",
+    "python3-gi-cairo": "pygobject",
+    "gir1.2-gspell-1": "gspell",
+    "python3-gi": "pygobject",
+    "python3-pexpect": "pexpect",
+    "gir1.2-gtksource-4": "gtksourceview"
+  }
+}

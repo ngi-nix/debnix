@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "ostinato",
+  "nix_pkg": null,
+  "control_file_hash": "5f2b7b4a2ff0a948785a8f81dcea85e4b5d92815dc94c626d547fab1a28641a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "gawk",
+    "libnl-3-dev",
+    "libnl-route-3-dev",
+    "libpcap-dev",
+    "libprotobuf-dev",
+    "libqt5svg5-dev",
+    "protobuf-compiler",
+    "qtbase5-dev",
+    "qtscript5-dev",
+    "tshark",
+    "wireshark"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "libpcap",
+    "protobuf",
+    "qtbase",
+    "qtscript"
+  ],
+  "map": {
+    "libnl-route-3-dev": "libnl",
+    "protobuf-compiler": "protobuf",
+    "libnl-3-dev": "libnl",
+    "qtbase5-dev": "qtbase",
+    "libpcap-dev": "libpcap",
+    "libprotobuf-dev": "protobuf",
+    "qtscript5-dev": "qtscript"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gron",
+  "nix_pkg": null,
+  "control_file_hash": "15e8ab8e11523f978fcec49327a1cae40571165339c1a6e922c81e3957b2204c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-fatih-color-dev",
+    "golang-github-mattn-go-colorable-dev",
+    "golang-github-nwidger-jsoncolor-dev",
+    "golang-github-pkg-errors-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

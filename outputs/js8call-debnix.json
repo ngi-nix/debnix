@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "js8call",
+  "nix_pkg": null,
+  "control_file_hash": "5bc0bc2d0646ae4fe0a726d96a8c4105aa23a89af4827974aafdf8c12e5ebc0d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gfortran",
+    "libboost-dev",
+    "libegl-dev",
+    "libfftw3-dev",
+    "libhamlib-dev",
+    "libhamlib-utils",
+    "libqcustomplot-dev",
+    "libqt5multimedia5-plugins",
+    "libqt5serialport5-dev",
+    "libsqlite3-dev",
+    "libudev-dev",
+    "qtmultimedia5-dev",
+    "wsjtx-data"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fftw-double",
+    "fftw-single",
+    "gfortran-wrapper",
+    "hamlib",
+    "libusb",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia",
+    "qtserialport"
+  ],
+  "map": {
+    "libhamlib-dev": "hamlib",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "cmake": "cmake",
+    "libhamlib-utils": "hamlib"
+  }
+}

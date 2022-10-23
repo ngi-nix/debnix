@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "bip",
+  "nix_pkg": null,
+  "control_file_hash": "e45eb65639ed452dfe909ca10262d4c84482ed34b56ea4d4d51c66d2f73c2ea1",
+  "deb_inputs": [
+    "adduser",
+    "autoconf-archive",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libssl-dev",
+    "lsb-base",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "flex",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

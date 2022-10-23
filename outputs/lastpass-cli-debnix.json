@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "lastpass-cli",
+  "nix_pkg": null,
+  "control_file_hash": "a1246fe8e4406f5c964c63f5998c895e2498b8c8caba606cd5cc79585fb1ea81",
+  "deb_inputs": [
+    "asciidoc",
+    "bash-completion",
+    "binutils",
+    "ca-certificates",
+    "cmake",
+    "debhelper-compat",
+    "docbook-xsl",
+    "libcurl4-openssl-dev",
+    "libssl-dev",
+    "libxml2-dev",
+    "pinentry-curses",
+    "pkg-config",
+    "xclip",
+    "xsel",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "bash-completion",
+    "cmake",
+    "curl",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bash-completion": "bash-completion",
+    "libxml2-dev": "libxml2",
+    "xsltproc": "libxslt",
+    "asciidoc": "asciidoc",
+    "libcurl4-openssl-dev": "curl",
+    "libssl-dev": "openssl",
+    "cmake": "cmake"
+  }
+}

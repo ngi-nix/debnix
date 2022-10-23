@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "webp-pixbuf-loader",
+  "nix_pkg": null,
+  "control_file_hash": "2ed471ff0b84523ac15595fd1a9f0043fdee2b0c6196970b4e0cd7ea9ede3e3f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgdk-pixbuf2.0-dev",
+    "libwebp-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf",
+    "libwebp",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson",
+    "libwebp-dev": "libwebp"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xteddy",
+  "nix_pkg": null,
+  "control_file_hash": "d80154dff1e83084a23898704b2765b965b472e75441419b137703541f5afb8d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libimlib2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "imlib2",
+    "libX11",
+    "libXext",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libimlib2-dev": "imlib2"
+  }
+}

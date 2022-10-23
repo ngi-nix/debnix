@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libieee1284-3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f4f59e744d819a7b4ecb6e8d6d64cab47b44fffc72d32f4ce568d6280ee13a2a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libieee1284-3"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libtool",
+    "xmlto"
+  ],
+  "map": {}
+}

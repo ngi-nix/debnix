@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "sks",
+  "nix_pkg": null,
+  "control_file_hash": "2f1e5782aafdd14072bd6303918f53738fc8940f99ec0401c60f7ade466cdc49",
+  "deb_inputs": [
+    "adduser",
+    "camlp4",
+    "db-util",
+    "debhelper-compat",
+    "dh-ocaml",
+    "libcryptokit-ocaml-dev",
+    "libdb-dev",
+    "libnum-ocaml-dev",
+    "logrotate",
+    "lsb-base",
+    "mail-transport-agent",
+    "ocaml",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "perl",
+    "perl-doc",
+    "postfix",
+    "procmail",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cryptokit",
+    "db",
+    "ocaml",
+    "ocaml4.12.1-findlib",
+    "ocaml4.12.1-num",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "libcryptokit-ocaml-dev": "cryptokit",
+    "ocaml-nox": "ocaml",
+    "perl-doc": "perl",
+    "libdb-dev": "db",
+    "ocaml": "ocaml",
+    "perl": "perl",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "uefitool-cli",
+  "nix_pkg": null,
+  "control_file_hash": "e8d9115576691ba36fc9405cf9b7d7bdb0d8932cc18718ddaff5d09c4676e803",
+  "deb_inputs": [
+    "debhelper-compat",
+    "icnsutils",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "zip"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase"
+  }
+}

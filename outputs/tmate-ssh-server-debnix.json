@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tmate-ssh-server",
+  "nix_pkg": null,
+  "control_file_hash": "c3140a3b73b5891bfb2f4ee63f4d18be35e7cd747980d1f9c5af57f5b569260d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libevent-dev",
+    "libmsgpack-dev",
+    "libncurses-dev",
+    "libssh-dev",
+    "libutempter-dev",
+    "lsb-base",
+    "openssh-client",
+    "pkg-config",
+    "tmate",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libevent",
+    "libssh",
+    "libtool",
+    "msgpack",
+    "ncurses",
+    "openssl",
+    "pkg-config-wrapper",
+    "ruby",
+    "zlib"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libevent-dev": "libevent",
+    "libmsgpack-dev": "msgpack",
+    "libssh-dev": "libssh"
+  }
+}

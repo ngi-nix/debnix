@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "bucklespring-data",
+  "nix_pkg": null,
+  "control_file_hash": "ca2ee0a793da9764c584c4f04ade5606fddeb4c38bee4410f527b04c7f9a9b5a",
+  "deb_inputs": [
+    "bucklespring-data",
+    "debhelper",
+    "libalure-dev",
+    "libopenal-dev",
+    "libxtst-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alure",
+    "libX11",
+    "libXtst",
+    "openal-soft",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst",
+    "libopenal-dev": "openal-soft",
+    "libalure-dev": "alure"
+  }
+}

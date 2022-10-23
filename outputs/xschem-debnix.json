@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "xschem",
+  "nix_pkg": null,
+  "control_file_hash": "51f60c7ca9a8abfffa8b31caa905edb3f96329bdc092b843a80a096e15f2b90b",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "libcairo2-dev",
+    "libx11-xcb-dev",
+    "libxpm-dev",
+    "libxrender-dev",
+    "mawk",
+    "tcl-dev",
+    "tk-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cairo",
+    "flex",
+    "libX11",
+    "libXpm",
+    "pkg-config-wrapper",
+    "tcl",
+    "tk"
+  ],
+  "map": {
+    "tcl-dev": "tcl",
+    "libx11-xcb-dev": "libX11",
+    "flex": "flex",
+    "bison": "bison",
+    "libcairo2-dev": "cairo",
+    "tk-dev": "tk",
+    "libxpm-dev": "libXpm"
+  }
+}

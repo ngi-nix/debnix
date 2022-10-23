@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "yacas",
+  "nix_pkg": null,
+  "control_file_hash": "704f13a940e969dcbcf00adcfd5ce7236269ed236be67ce3ece9ed8de9182c23",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "chrpath",
+    "debhelper",
+    "docbook-to-man",
+    "freeglut3-dev",
+    "gnuplot",
+    "libfltk1.1-dev",
+    "libgsl-dev",
+    "libjs-mathjax",
+    "libxi-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "lynx",
+    "texlive-latex-base",
+    "texmacs",
+    "www-browser",
+    "yacas",
+    "yacas-doc"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "gtest",
+    "jsoncpp",
+    "openssl",
+    "perl",
+    "zmqpp"
+  ],
+  "map": {}
+}

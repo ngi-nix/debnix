@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "crip",
+  "nix_pkg": null,
+  "control_file_hash": "fe4292a8e907f6ae69f8095fc06b02454e49bc99bdd0d1966fa1fa2f5efc3d68",
+  "deb_inputs": [
+    "cdparanoia",
+    "debhelper-compat",
+    "flac",
+    "libcddb-get-perl",
+    "sensible-utils",
+    "sox",
+    "vorbis-tools",
+    "vorbisgain"
+  ],
+  "nix_inputs": [
+    "CDDB_get",
+    "perl"
+  ],
+  "map": {}
+}

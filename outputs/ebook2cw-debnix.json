@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "ebook2cw",
+  "nix_pkg": null,
+  "control_file_hash": "3543d062ee3db1009926178a04060c9d7600eb25aae9c4b435131716329cb014",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmp3lame-dev",
+    "libogg-dev",
+    "libvorbis-dev",
+    "libvorbisenc2"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "lame",
+    "libvorbis"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "libvorbisenc2": "libvorbis",
+    "libmp3lame-dev": "lame"
+  }
+}

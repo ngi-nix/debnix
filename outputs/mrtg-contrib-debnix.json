@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "mrtg-contrib",
+  "nix_pkg": null,
+  "control_file_hash": "c71da34de792a06eea8673dcd8c42239a2c297d684dfa67af7c54655769a0c94",
+  "deb_inputs": [
+    "cricket",
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "dos2unix",
+    "gawk",
+    "httpd",
+    "jdupes",
+    "libgd-dev",
+    "libpng-dev",
+    "libsnmp-session-perl",
+    "mrtg",
+    "mrtg-contrib",
+    "po-debconf",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gd",
+    "perl",
+    "rrdtool"
+  ],
+  "map": {
+    "libgd-dev": "gd"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "retry",
+  "nix_pkg": null,
+  "control_file_hash": "6e23427e3704c1c970c4ce01cccc638914787ec936a8f1f10bdb7f408a4cbc8f",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "txt2man",
+    "which"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "xd",
+  "nix_pkg": null,
+  "control_file_hash": "e015acb1a56294940532ea819c8c8356a71850151c37c16f38a90110f43808e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "icmake",
+    "libbobcat-dev",
+    "yodl"
+  ],
+  "nix_inputs": [
+    "go",
+    "perl"
+  ],
+  "map": {}
+}

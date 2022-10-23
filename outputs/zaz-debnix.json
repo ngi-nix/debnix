@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "zaz",
+  "nix_pkg": null,
+  "control_file_hash": "bc9bfa22984fcf270bb142e4e3e5b2a387545b046c313b14d08dc8cbd82ef623",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "gettext",
+    "libftgl-dev",
+    "libgl1-mesa-dev",
+    "libglu1-mesa-dev",
+    "libsdl-image1.2-dev",
+    "libsdl1.2-dev",
+    "libtheora-dev",
+    "libvorbis-dev",
+    "libxext-dev",
+    "pkg-config",
+    "zaz",
+    "zaz-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "freetype",
+    "ftgl",
+    "libogg",
+    "libtheora",
+    "libvorbis",
+    "mesa",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl1.2-dev": "SDL",
+    "libftgl-dev": "ftgl",
+    "libtheora-dev": "libtheora",
+    "libgl1-mesa-dev": "mesa"
+  }
+}

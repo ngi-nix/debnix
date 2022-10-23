@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "uqm",
+  "nix_pkg": null,
+  "control_file_hash": "4cd1d6036e4d9a34089ac0031fa7abaa52a56c7d64c971bb3449ee36e4fb2603",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmikmod-dev",
+    "libogg-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libvorbis-dev",
+    "libz-dev",
+    "pkg-config",
+    "uqm-content",
+    "uqm-music",
+    "uqm-voice"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "glu",
+    "libGL",
+    "libmikmod",
+    "libogg",
+    "libpng-apng",
+    "libvorbis",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg",
+    "libmikmod-dev": "libmikmod",
+    "libvorbis-dev": "libvorbis"
+  }
+}

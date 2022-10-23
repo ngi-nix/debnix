@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "dnsperf",
+  "nix_pkg": null,
+  "control_file_hash": "837e8e476ade371e9fe48d0106b7dd0868c536d01850a2de94e9819b3a332089",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libck-dev",
+    "libldns-dev",
+    "libnghttp2-dev",
+    "libssl-dev",
+    "pkg-config",
+    "python3-dnspython",
+    "python3-pcapy"
+  ],
+  "nix_inputs": [
+    "ck",
+    "ldns",
+    "nghttp2",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libck-dev": "ck",
+    "libldns-dev": "ldns",
+    "libssl-dev": "openssl",
+    "libnghttp2-dev": "nghttp2"
+  }
+}

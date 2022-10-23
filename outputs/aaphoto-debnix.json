@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "aaphoto",
+  "nix_pkg": null,
+  "control_file_hash": "6c62c0a003223770597c378ad0a1380d1e477e6e2553ed48134efa74291318cd",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "libjpeg-dev",
+    "libpng-dev"
+  ],
+  "nix_inputs": [
+    "jasper",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

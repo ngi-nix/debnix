@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "skktools",
+  "nix_pkg": null,
+  "control_file_hash": "762056c15d746896d406119b14cccb7d1640022aea974c952cb8dec4a8cdaf43",
+  "deb_inputs": [
+    "chasen",
+    "debhelper-compat",
+    "emacs",
+    "emacs-nox",
+    "emacsen",
+    "gauche",
+    "gawk",
+    "kakasi",
+    "libdb-dev",
+    "libglib2.0-dev",
+    "mecab",
+    "nkf",
+    "pkg-config",
+    "python3",
+    "ruby",
+    "ruby-interpreter",
+    "skkdic",
+    "skkdic-extra",
+    "tinycdb",
+    "w3m"
+  ],
+  "nix_inputs": [
+    "gdbm",
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

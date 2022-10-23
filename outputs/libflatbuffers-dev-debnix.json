@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libflatbuffers-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9832c0a056aad48357908253f4846db1e3b44c470d19655043b8bf97b03ce765",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "flatbuffers-compiler",
+    "flatbuffers-compiler-dev",
+    "libflatbuffers2",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

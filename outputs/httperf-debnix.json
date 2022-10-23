@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "httperf",
+  "nix_pkg": null,
+  "control_file_hash": "c3ee6f12e5030b6f82c4fe4493cd1eac41aca280a591f52237bfbcf559a7ce87",
+  "deb_inputs": [
+    "debhelper",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

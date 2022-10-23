@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "muchsync",
+  "nix_pkg": null,
+  "control_file_hash": "f072c329f0a9f8ae505f20aa034c886f1a7d312e77decac830695490f082c10c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-autoreconf",
+    "libnotmuch-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libxapian-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "notmuch",
+    "openssl",
+    "pkg-config-wrapper",
+    "sqlite",
+    "xapian",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libxapian-dev": "xapian",
+    "libnotmuch-dev": "notmuch",
+    "libsqlite3-dev": "sqlite"
+  }
+}

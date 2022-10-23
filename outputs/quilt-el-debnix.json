@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "quilt-el",
+  "nix_pkg": null,
+  "control_file_hash": "295329472b549e97d69db6d4435a7b846ba73e223815f200639f0fa9bbb39a6f",
+  "deb_inputs": [
+    "bash-completion",
+    "bsdextrautils",
+    "bsdmainutils",
+    "bzip2",
+    "debhelper-compat",
+    "default-mta",
+    "diffstat",
+    "ed",
+    "emacs",
+    "emacsen",
+    "gettext",
+    "graphviz",
+    "less",
+    "mail-transport-agent",
+    "patch",
+    "procmail",
+    "quilt",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "diffstat",
+    "diffutils",
+    "findutils",
+    "gawk",
+    "gnugrep",
+    "gnused",
+    "patch",
+    "perl"
+  ],
+  "map": {
+    "patch": "patch",
+    "diffstat": "diffstat"
+  }
+}

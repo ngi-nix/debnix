@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gitlint",
+  "nix_pkg": null,
+  "control_file_hash": "47bdd2857784009782458d0561bc278e8e34b59ceecbb0a45e9a3bf5444e02a9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "git",
+    "help2man",
+    "python3-all",
+    "python3-arrow",
+    "python3-setuptools",
+    "python3-sh"
+  ],
+  "nix_inputs": [
+    "arrow",
+    "click",
+    "git-minimal",
+    "python3",
+    "sh"
+  ],
+  "map": {}
+}

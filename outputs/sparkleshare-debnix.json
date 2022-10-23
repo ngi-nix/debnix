@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "sparkleshare",
+  "nix_pkg": null,
+  "control_file_hash": "c94aea6b2d1fde2ab03e91cea57d0dacf30664b4e03a3378e7c41717504a72d0",
+  "deb_inputs": [
+    "cli-common-dev",
+    "debhelper-compat",
+    "git",
+    "git-lfs",
+    "gnome-icon-theme",
+    "gnome-shell-extension-appindicator",
+    "gvfs",
+    "libjs-jquery",
+    "meson"
+  ],
+  "nix_inputs": [
+    "appindicator-sharp",
+    "gtk-sharp",
+    "meson",
+    "mono",
+    "ninja",
+    "notify-sharp",
+    "pkg-config-wrapper",
+    "webkit2-sharp"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "serf",
+  "nix_pkg": null,
+  "control_file_hash": "e4028f833d75c8c3eef7d22c8ba80d022ef3cb64f46a15dc6da8f3ee0a56454e",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libapr1-dev",
+    "libaprutil1-dev",
+    "libkrb5-dev",
+    "libserf-1-1",
+    "libssl-dev",
+    "python3-openssl",
+    "scons",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "apr",
+    "apr-util",
+    "libkrb5",
+    "openssl",
+    "pkg-config-wrapper",
+    "scons",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "scons": "scons",
+    "libapr1-dev": "apr",
+    "libaprutil1-dev": "apr-util",
+    "libssl-dev": "openssl",
+    "libkrb5-dev": "libkrb5"
+  }
+}

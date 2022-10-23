@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cpuset",
+  "nix_pkg": null,
+  "control_file_hash": "b09a08f83a28e1a5ea0ea3a4de19e7e6cdf603d936fbdbe92d88fc2120859082",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-cpuset",
+    "python3-future",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "configparser",
+    "future",
+    "python3"
+  ],
+  "map": {}
+}

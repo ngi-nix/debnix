@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gallery-dl",
+  "nix_pkg": null,
+  "control_file_hash": "16fd6855e7edd07f99011137e7a82fb2e3e6e6027fe20446182215083ba8ea4a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "ffmpeg",
+    "python3-all",
+    "python3-brotli",
+    "python3-setuptools",
+    "youtube-dl",
+    "yt-dlp"
+  ],
+  "nix_inputs": [
+    "python3",
+    "requests",
+    "yt-dlp"
+  ],
+  "map": {
+    "yt-dlp": "yt-dlp"
+  }
+}

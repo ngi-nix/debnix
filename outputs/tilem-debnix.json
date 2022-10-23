@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "tilem",
+  "nix_pkg": null,
+  "control_file_hash": "53aa7a5ffb597aae27e393be20c7353febb841a9631e8c4cfaf32f09f9dde68c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libarchive-dev",
+    "libgtk2.0-dev",
+    "libticables-dev",
+    "libticalcs-dev",
+    "libticonv-dev",
+    "libtifiles-dev",
+    "libusb-1.0-0-dev",
+    "tilem",
+    "tilem-data"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "libticables2",
+    "libticalcs2",
+    "libticonv",
+    "libtifiles2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libticonv-dev": "libticonv",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "biboumi",
+  "nix_pkg": null,
+  "control_file_hash": "a8cab29cb2fda6ac6b4865a9d55d46910c67ee032f4ff4a9ca9c731dad38ed99",
+  "deb_inputs": [
+    "adduser",
+    "catch",
+    "cmake",
+    "debhelper-compat",
+    "libbotan-2-dev",
+    "libexpat1-dev",
+    "libidn11-dev",
+    "libpq-dev",
+    "libsqlite3-dev",
+    "libsystemd-dev",
+    "libudns-dev",
+    "python3-sphinx:native",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "botan",
+    "cmake",
+    "expat",
+    "libidn",
+    "pkg-config-wrapper",
+    "sphinx",
+    "sqlite",
+    "systemd",
+    "udns",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libexpat1-dev": "expat",
+    "libidn11-dev": "libidn",
+    "libsqlite3-dev": "sqlite",
+    "libbotan-2-dev": "botan",
+    "libsystemd-dev": "systemd",
+    "libudns-dev": "udns"
+  }
+}

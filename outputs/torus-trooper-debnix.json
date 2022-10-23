@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "torus-trooper",
+  "nix_pkg": null,
+  "control_file_hash": "65f1ba3b754e35dfd7fd3bdad34fc715ca545a15b54b8a54552e0c1497198e9f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdc",
+    "libbulletml-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libphobos-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "torus-trooper",
+    "torus-trooper-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "bulletml",
+    "gdc-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libbulletml-dev": "bulletml",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

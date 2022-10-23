@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "timidity-interfaces-extra",
+  "nix_pkg": null,
+  "control_file_hash": "bde6da47165210118632b76991a2a970684ee67d41e16d112a23f87325bd0d3a",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "dh-exec",
+    "emacsen-common",
+    "fluid-soundfont-gm",
+    "fluid-soundfont-gs",
+    "freepats",
+    "libao-dev",
+    "libasound2-dev",
+    "libflac-dev",
+    "libgtk2.0-dev",
+    "libjack-dev",
+    "libncurses-dev",
+    "libpng-dev",
+    "libslang2-dev",
+    "libspeex-dev",
+    "libvorbis-dev",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxext-dev",
+    "libxmu-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "lsb-base",
+    "pmidi",
+    "tcl-dev",
+    "timidity",
+    "timidity-daemon",
+    "tk-dev",
+    "wish"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "libjack2",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libasound2-dev": "alsa-lib"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libcacard-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d06ac21962eef8cd0f55f9f2b0cd70a4742099a119665cf5396c62355a82ca97",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-bin",
+    "libcacard0",
+    "libglib2.0-dev",
+    "libnss3-dev",
+    "libnss3-tools",
+    "libpcsclite-dev",
+    "libtool",
+    "meson",
+    "opensc",
+    "openssl",
+    "pkg-config",
+    "softhsm2"
+  ],
+  "nix_inputs": [
+    "glib",
+    "nss",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnss3-tools": "nss",
+    "libnss3-dev": "nss",
+    "libglib2.0-dev": "glib"
+  }
+}

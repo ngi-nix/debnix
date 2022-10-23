@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "ticker",
+  "nix_pkg": null,
+  "control_file_hash": "5d32a2d26d0be941f6871e1c1d574bd916ed574fe5c0a3db926bca934a59846e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libslang2-dev",
+    "perl"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

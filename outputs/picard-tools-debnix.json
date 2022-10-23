@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "picard-tools",
+  "nix_pkg": null,
+  "control_file_hash": "51a16e8939c7b63115030318df02e57b6708a8616a9ce12268a0ca2090a2d467",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre",
+    "gradle-debian-helper",
+    "java6-runtime",
+    "javahelper",
+    "libbarclay-java",
+    "libcommons-collections4-java",
+    "libcommons-io-java",
+    "libcommons-lang-java",
+    "libcommons-lang3-java",
+    "libcommons-math3-java",
+    "libgatk-native-bindings-java",
+    "libgkl-java",
+    "libgkl-jni",
+    "libguava-java",
+    "libhtsjdk-java",
+    "libhtsjdk-java-doc",
+    "libjoptsimple-java",
+    "libjs-jquery",
+    "libpicard-java",
+    "maven-repo-helper",
+    "picard-tools",
+    "r-base-core",
+    "testng"
+  ],
+  "nix_inputs": [
+    "openjdk"
+  ],
+  "map": {}
+}
