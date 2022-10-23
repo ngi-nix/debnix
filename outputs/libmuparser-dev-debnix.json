@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libmuparser-dev",
+  "nix_pkg": null,
+  "control_file_hash": "771fec961f819f8dd3c38c169febe1c5a0020226f1c126946a53d08e4d4679aa",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libmuparser2v5"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

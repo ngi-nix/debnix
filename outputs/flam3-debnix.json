@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "flam3",
+  "nix_pkg": null,
+  "control_file_hash": "7c207ea52a248db6d0ca0b4e2ad21fbbc8ba10f66ba16412bff950326abb4634",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flam3-palette",
+    "flam3-utils",
+    "libflam3-0",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libxml2-dev",
+    "pkgconf",
+    "qosmic",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libxml2",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxml2-dev": "libxml2"
+  }
+}

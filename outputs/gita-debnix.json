@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gita",
+  "nix_pkg": null,
+  "control_file_hash": "de7ab94bd1594d592119cf0658385a836c45b43680e5cceaf0c9716bf2b523e7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "git",
+    "python3-all",
+    "python3-setuptools",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "git",
+    "pytest",
+    "python3",
+    "pyyaml",
+    "setuptools"
+  ],
+  "map": {
+    "git": "git",
+    "python3-setuptools": "setuptools",
+    "python3-yaml": "pyyaml"
+  }
+}

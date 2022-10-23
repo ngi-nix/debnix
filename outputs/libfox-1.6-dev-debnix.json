@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libfox-1.6-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c86b53024d5fcca2e23856dd68f50fc73569b5279fb05a0a80324ea3262fea61",
+  "deb_inputs": [
+    "debhelper",
+    "libcups2-dev",
+    "libfontconfig1-dev",
+    "libfox-1.6-0",
+    "libfox-1.6-doc",
+    "libfreetype6-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff5-dev",
+    "libtool",
+    "libx11-dev",
+    "libxcursor-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libXcursor",
+    "libXft",
+    "libXrandr",
+    "libjpeg-turbo",
+    "libpng",
+    "libtiff",
+    "zlib"
+  ],
+  "map": {
+    "libxcursor-dev": "libXcursor",
+    "libpng-dev": "libpng",
+    "zlib1g-dev": "zlib",
+    "libxft-dev": "libXft",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libtiff5-dev": "libtiff"
+  }
+}

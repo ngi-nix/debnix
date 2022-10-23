@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libslirp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3560db4a63079b8dac9820823fc6003bd3fb47d162dfdfc731fd0678f13bd906",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libslirp0",
+    "meson",
+    "ninja-build"
+  ],
+  "nix_inputs": [
+    "glib",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "meson": "meson"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "freedroid-data",
+  "nix_pkg": null,
+  "control_file_hash": "1290df555214c393aa7a02b153410abe5edcb12687896f16e12f234d56268eaa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freedroid-data",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libvorbis-dev",
+    "libz-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_gfx",
+    "SDL_image",
+    "SDL_mixer",
+    "imagemagick",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libvorbis",
+    "zlib"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libvorbis-dev": "libvorbis",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "github-backup",
+  "nix_pkg": null,
+  "control_file_hash": "f21c87aa220e900fe4315360e4a113c8b84215a5fcd44a745b45a69ea7325cb8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghc",
+    "git",
+    "libghc-bytestring-dev",
+    "libghc-exceptions-dev",
+    "libghc-filepath-bytestring-dev",
+    "libghc-github-dev",
+    "libghc-hslogger-dev",
+    "libghc-ifelse-dev",
+    "libghc-missingh-dev",
+    "libghc-optparse-applicative-dev",
+    "libghc-pretty-show-dev",
+    "libghc-split-dev",
+    "libghc-transformers-dev",
+    "libghc-unix-compat-dev",
+    "libghc-utf8-string-dev",
+    "libghc-vector-dev"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

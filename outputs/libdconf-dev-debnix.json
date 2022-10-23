@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libdconf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fea29f8fd0688219ee9c63a21738f2f31612aff56caca0f82a2dda0d8010efef",
+  "deb_inputs": [
+    "bash-completion",
+    "dbus",
+    "dbus-session-bus",
+    "dconf-gsettings-backend",
+    "dconf-service",
+    "debhelper-compat",
+    "default-dbus-session-bus",
+    "dh-sequence-gnome",
+    "docbook-xsl",
+    "libdbus-1-dev",
+    "libdconf-doc",
+    "libdconf1",
+    "libglib2.0-dev",
+    "meson",
+    "valac",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "dbus",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gtk-doc",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "vala"
+  ],
+  "map": {
+    "valac": "vala",
+    "xsltproc": "libxslt",
+    "libdbus-1-dev": "dbus",
+    "bash-completion": "bash-completion",
+    "meson": "meson",
+    "dbus": "dbus",
+    "libglib2.0-dev": "glib"
+  }
+}

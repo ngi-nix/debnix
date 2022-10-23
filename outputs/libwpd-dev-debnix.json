@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libwpd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1bebe3afa97ec8a07771bbf8c9a9a13ec7adfb90695e57d38af6342cbc39558b",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg-dev",
+    "libboost-dev",
+    "libcppunit-dev",
+    "librevenge-dev",
+    "libwpd-0.10-10",
+    "pkg-config",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libgsf",
+    "librevenge",
+    "libxml2",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "librevenge-dev": "librevenge",
+    "zlib1g-dev": "zlib"
+  }
+}

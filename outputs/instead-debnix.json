@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "instead",
+  "nix_pkg": null,
+  "control_file_hash": "24c000b33a2f303f6c1c5671c3c81201872e29f57badc6b83ca545ecee74243a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dpkg-dev",
+    "fonts-liberation",
+    "instead",
+    "instead-data",
+    "instead-doc-common",
+    "instead-doc-en",
+    "instead-doc-ru",
+    "libgtk-3-dev",
+    "liblua5.1-0-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_ttf",
+    "lua",
+    "pkg-config-wrapper",
+    "unzip",
+    "zlib"
+  ],
+  "map": {
+    "liblua5.1-0-dev": "lua",
+    "zlib1g-dev": "zlib"
+  }
+}

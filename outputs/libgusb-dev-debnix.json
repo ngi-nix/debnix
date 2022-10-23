@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libgusb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "685370f1efbf9be1f174525353b8e42f1cc60fa708eeda8d148fe9f685dbb4e4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-gusb-1.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgusb-dev",
+    "libgusb2",
+    "libusb-1.0-0-dev",
+    "meson",
+    "usb.ids",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "libusb",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd",
+    "vala"
+  ],
+  "map": {
+    "valac": "vala",
+    "gtk-doc-tools": "gtk-doc",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson"
+  }
+}

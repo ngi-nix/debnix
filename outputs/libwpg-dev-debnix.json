@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libwpg-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0486645d946c4298fcbc427d21bd01505ec30bd6707ca9f3e313be5848bd1fd6",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "librevenge-dev",
+    "libwpd-dev",
+    "libwpg-0.3-3",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "librevenge",
+    "libwpd",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libwpd-dev": "libwpd",
+    "librevenge-dev": "librevenge"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libstemmer-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6e7707f73bfdd40a5f125a87c533f50bf08d61d74a1ac06c489c33a4fb58dffd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libstemmer0d",
+    "python3-stemmer",
+    "snowball-data"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

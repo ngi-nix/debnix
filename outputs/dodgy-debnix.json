@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dodgy",
+  "nix_pkg": null,
+  "control_file_hash": "f632ee36040f88bc934d3657333a07c3c6fa0468a26098f0dbc55e684f5faa17",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pandoc",
+    "python3",
+    "python3-pytest",
+    "python3-setuptools",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "mock",
+    "nose",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

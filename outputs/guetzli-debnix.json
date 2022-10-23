@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "guetzli",
+  "nix_pkg": null,
+  "control_file_hash": "bf9be5d773180265af882ecbe0a929b77476e6eee21906c1c8facf644ac1d519",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper",
+    "libpng-dev",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "libpng-apng",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

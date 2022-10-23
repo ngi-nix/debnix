@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "git-crecord",
+  "nix_pkg": null,
+  "control_file_hash": "cdd5d97f51c89c6fcb30c5074a61571585203fe9c922c36631cc5877d564ec23",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-docutils",
+    "python3-setuptools",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "python3"
+  ],
+  "map": {}
+}

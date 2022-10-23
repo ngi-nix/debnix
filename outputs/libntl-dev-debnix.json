@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libntl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d3e0e9e266a63bddd234f14f7b8907ef550c78c2c8b209af4600664c79aa5ef6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgf2x-dev",
+    "libgmp-dev",
+    "libntl44",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "perl"
+  ],
+  "map": {}
+}

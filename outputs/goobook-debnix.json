@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "goobook",
+  "nix_pkg": null,
+  "control_file_hash": "3d9f57b07acbc9716ad54f6bc9300ef5c5cc333cc012cade1e4991c6e52e6dc8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-docutils",
+    "python3-googleapi",
+    "python3-oauth2client",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-simplejson",
+    "python3-xdg"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "google-api-python-client",
+    "oauth2client",
+    "poetry-core",
+    "python3",
+    "pyxdg",
+    "setuptools",
+    "simplejson"
+  ],
+  "map": {
+    "python3-xdg": "pyxdg",
+    "python3-pkg-resources": "setuptools",
+    "python3-simplejson": "simplejson",
+    "python3-setuptools": "setuptools"
+  }
+}

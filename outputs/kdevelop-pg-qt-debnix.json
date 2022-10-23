@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "kdevelop-pg-qt",
+  "nix_pkg": null,
+  "control_file_hash": "721c670bb74785f9fcaecd1e048969c1a8983f7c780089e6cff5a99b699fa885",
+  "deb_inputs": [
+    "bison",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "flex",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "cmake": "cmake"
+  }
+}

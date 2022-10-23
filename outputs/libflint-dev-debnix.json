@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libflint-dev",
+  "nix_pkg": null,
+  "control_file_hash": "10062203f8ec7265f8315019484bb19ffe917af46ca2e214a2840f4f559eca0a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "latexmk",
+    "libflint-dev",
+    "libflint17",
+    "libgmp-dev",
+    "libmpfr-dev",
+    "libntl-dev",
+    "lmodern",
+    "python3-sphinx",
+    "tex-gyre",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "mpfr",
+    "mpir",
+    "ntl",
+    "openblas"
+  ],
+  "map": {
+    "libntl-dev": "ntl",
+    "libmpfr-dev": "mpfr"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libvisio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0bac86c9838fb25f14728f7fb9eaebcbd875ae3ceb525b32c8abb04f34131f66",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "doxygen",
+    "dpkg-dev",
+    "gperf",
+    "libboost-dev",
+    "libcppunit-dev",
+    "libicu-dev",
+    "librevenge-dev",
+    "libvisio-0.1-1",
+    "libxml2-dev",
+    "pkg-config",
+    "tzdata",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cppunit",
+    "doxygen",
+    "gperf",
+    "librevenge",
+    "libwpd",
+    "libwpg",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "gperf": "gperf",
+    "doxygen": "doxygen",
+    "libcppunit-dev": "cppunit",
+    "librevenge-dev": "librevenge",
+    "libboost-dev": "boost",
+    "zlib1g-dev": "zlib"
+  }
+}

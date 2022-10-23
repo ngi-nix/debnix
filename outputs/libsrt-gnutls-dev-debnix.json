@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libsrt-gnutls-dev",
+  "nix_pkg": null,
+  "control_file_hash": "24259bbcfaa166b65b1bf6389a8a419b26b7d0fb31977d0d52e2e5f7a8b698ae",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ffmpeg",
+    "help2man",
+    "libgnutls28-dev",
+    "libgtest-dev",
+    "libsrt-doc",
+    "libsrt1.5-gnutls",
+    "libsrt1.5-openssl",
+    "libssl-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "cmake": "cmake"
+  }
+}

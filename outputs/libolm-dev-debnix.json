@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libolm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9cb216c8c0bb927435891569dc4d8cb61a9677bdce072fc2ee338a132e198a7e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "doctest-dev",
+    "libjs-katex",
+    "libolm3",
+    "node-jasmine",
+    "pandoc",
+    "pkg-config",
+    "pkg-kde-tools",
+    "python3-all-dev",
+    "python3-cffi",
+    "python3-docutils",
+    "python3-future",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

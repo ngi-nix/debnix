@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "ezstream",
+  "nix_pkg": null,
+  "control_file_hash": "5a6390117ef9f48d486acdde7ca644ca45ef1c278be842af5634c8fd2d3889ce",
+  "deb_inputs": [
+    "ca-certificates",
+    "check",
+    "debhelper-compat",
+    "ffmpeg2theora",
+    "flac",
+    "icecast2",
+    "libshout-dev",
+    "libtagc0-dev",
+    "libxml2-dev",
+    "madplay",
+    "pkg-config",
+    "vorbis-tools"
+  ],
+  "nix_inputs": [
+    "libshout",
+    "libxml2",
+    "pkg-config-wrapper",
+    "taglib"
+  ],
+  "map": {
+    "libtagc0-dev": "taglib",
+    "libshout-dev": "libshout",
+    "libxml2-dev": "libxml2"
+  }
+}

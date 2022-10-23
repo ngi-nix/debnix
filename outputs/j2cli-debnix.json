@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "j2cli",
+  "nix_pkg": null,
+  "control_file_hash": "4d8832a273351023cbe04b0ce99b1cc8440375dd6ec828ceddc76dd8946c45db",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-all",
+    "python3-jinja2",
+    "python3-markupsafe",
+    "python3-nose2",
+    "python3-setuptools",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "python3",
+    "pyyaml",
+    "setuptools"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml",
+    "python3-jinja2": "Jinja2",
+    "python3-setuptools": "setuptools",
+    "python3": "python3"
+  }
+}
