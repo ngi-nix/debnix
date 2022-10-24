@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "yabasic",
+  "nix_pkg": null,
+  "control_file_hash": "632bf9ba4fccd6cc8d25e1003fec78537c5bfb0c1fc6ed155275030b6076bb37",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libffi-dev",
+    "libice-dev",
+    "libncurses5-dev",
+    "libsm-dev",
+    "libwhereami-dev",
+    "libx11-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "libSM",
+    "libX11",
+    "libXt",
+    "libffi",
+    "ncurses"
+  ],
+  "map": {
+    "libsm-dev": "libSM",
+    "libx11-dev": "libX11",
+    "libxt-dev": "libXt",
+    "libncurses5-dev": "ncurses",
+    "libffi-dev": "libffi"
+  }
+}

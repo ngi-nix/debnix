@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libopenslide-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a1c1855a529b4f82b6340cb2a7a3ca310c93c7239cb4fc2ee6dbdd67c52afc25",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtk2.0-dev",
+    "libjpeg-dev",
+    "libopenjp2-7-dev",
+    "libopenslide0",
+    "libsqlite3-dev",
+    "libtiff-dev",
+    "libtiff-tools",
+    "libxml2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gdk-pixbuf",
+    "glib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "libxml2",
+    "openjpeg",
+    "pkg-config-wrapper",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libxml2-dev": "libxml2",
+    "zlib1g-dev": "zlib",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libopenjp2-7-dev": "openjpeg",
+    "libtiff-dev": "libtiff"
+  }
+}

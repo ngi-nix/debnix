@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "gnunet-gtk",
+  "nix_pkg": null,
+  "control_file_hash": "8cc1eefdc48de5629ac4ffeb4811c0bb4a0613b77a3a6f91f39140cbbecd42e5",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper-compat",
+    "gnunet",
+    "gnunet-dev",
+    "libextractor-dev",
+    "libgladeui-dev",
+    "libgnunet-dev",
+    "libgnunetgtk-dev",
+    "libgnunetgtk3",
+    "libgtk-3-dev",
+    "libqrencode-dev",
+    "libsodium-dev",
+    "policykit-1"
+  ],
+  "nix_inputs": [
+    "glade",
+    "gnunet",
+    "gnutls",
+    "gtk+3",
+    "libextractor",
+    "libgcrypt",
+    "libsodium",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libextractor-dev": "libextractor",
+    "libsodium-dev": "libsodium",
+    "gnunet-dev": "gnunet",
+    "libgnunet-dev": "gnunet",
+    "gnunet": "gnunet",
+    "libgladeui-dev": "glade"
+  }
+}

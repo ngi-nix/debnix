@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libfido2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "81ccf61a405d4f765ab8bbf53fb8c65636f8a403fda57a16747b7c2b684fb669",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcbor-dev",
+    "libfido2-1",
+    "libfido2-dev",
+    "libssl-dev",
+    "libudev-dev",
+    "mandoc",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libcbor",
+    "openssl",
+    "pcsclite",
+    "pkg-config-wrapper",
+    "systemd-minimal",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "cmake": "cmake",
+    "libcbor-dev": "libcbor"
+  }
+}

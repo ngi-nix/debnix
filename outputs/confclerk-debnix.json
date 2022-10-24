@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "confclerk",
+  "nix_pkg": null,
+  "control_file_hash": "fa33462a675c08aa0da002ccf7dbfb410bee2560a16e8abb31695f0f8e4ccafe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5sql5-sqlite",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "robustirc-bridge",
+  "nix_pkg": null,
+  "control_file_hash": "223892d2f0f28995e304c4addae65873cd1a683be171bb6229f52bba1587f74d",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "golang-go",
+    "golang-sorcix-irc-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

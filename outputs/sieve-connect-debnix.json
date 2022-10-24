@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "sieve-connect",
+  "nix_pkg": null,
+  "control_file_hash": "8248ed800d8c106c6370a1b7b7e41788bee32f3e7a59c3e1d104c13f86c1238d",
+  "deb_inputs": [
+    "debhelper",
+    "libauthen-sasl-perl",
+    "libio-socket-inet6-perl",
+    "libio-socket-ssl-perl",
+    "libmime-base64-perl",
+    "libnet-dns-perl",
+    "libterm-readkey-perl",
+    "libterm-readline-gnu-perl",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

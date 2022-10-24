@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libpodofo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c76ffb2ff376c518cd1bd39e2a6df4f3f52f2df47184a44084a2787e6d8c40e4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-dev",
+    "libcppunit-dev",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libidn11-dev",
+    "libjpeg-dev",
+    "liblua5.1-0-dev",
+    "libpodofo0.9.8",
+    "libssl-dev",
+    "libtiff-dev",
+    "libunistring-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "expat",
+    "fontconfig",
+    "freetype",
+    "libidn",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "lua",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "liblua5.1-0-dev": "lua",
+    "libfreetype6-dev": "freetype",
+    "cmake": "cmake",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libfontconfig1-dev": "fontconfig",
+    "libtiff-dev": "libtiff",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "libidn11-dev": "libidn"
+  }
+}

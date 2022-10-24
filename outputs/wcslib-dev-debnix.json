@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "wcslib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b17924af153108329b5c7d2f316f410e548b5ee18a61f24fc02ec24899ea708e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "flex",
+    "gfortran",
+    "giza-dev",
+    "libcfitsio-dev",
+    "libpgsbox7",
+    "libwcs7",
+    "wcslib-dev",
+    "wcslib-doc"
+  ],
+  "nix_inputs": [
+    "flex"
+  ],
+  "map": {
+    "flex": "flex"
+  }
+}

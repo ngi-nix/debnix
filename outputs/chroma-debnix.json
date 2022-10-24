@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "chroma",
+  "nix_pkg": null,
+  "control_file_hash": "2496371cd37a70812dbf324a00068148cb188073792638231d5a23e7e5505c8a",
+  "deb_inputs": [
+    "chroma-data",
+    "debhelper-compat",
+    "dh-exec",
+    "fonts-dejavu-core",
+    "imagemagick",
+    "inkscape",
+    "libfreetype-dev",
+    "libncurses5-dev",
+    "librsvg2-bin",
+    "libsdl-image1.2-dev",
+    "libsdl1.2-dev",
+    "netpbm",
+    "pngcrush",
+    "python3"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

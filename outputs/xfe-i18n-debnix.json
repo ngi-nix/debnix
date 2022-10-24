@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "xfe-i18n",
+  "nix_pkg": null,
+  "control_file_hash": "0e822c456296765c82b091170494b1d64f174df500b964a26b9cc8cbb3598ffb",
+  "deb_inputs": [
+    "audacious",
+    "debhelper-compat",
+    "evince",
+    "fldiff",
+    "intltool",
+    "libfox-1.6-dev",
+    "libfreetype6-dev",
+    "libpng-dev",
+    "libx11-dev",
+    "libx11-xcb-dev",
+    "libxcb-util-dev",
+    "libxft-dev",
+    "meld",
+    "qpdfview",
+    "rpm",
+    "unar",
+    "xarchiver",
+    "xfe",
+    "xfe-i18n",
+    "xfe-themes",
+    "xine-ui",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "file",
+    "fox",
+    "gcc-wrapper",
+    "gettext",
+    "intltool",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "xcb-util"
+  ],
+  "map": {
+    "libxcb-util-dev": "xcb-util",
+    "intltool": "intltool",
+    "libfox-1.6-dev": "fox"
+  }
+}

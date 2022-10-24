@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "bfs",
+  "nix_pkg": null,
+  "control_file_hash": "7d4d93502e8a01e664a50befef606c265ee5cc78ae96b4f48ee1f8d85ebba297",
+  "deb_inputs": [
+    "acl",
+    "debhelper-compat",
+    "libacl1-dev",
+    "libcap-dev",
+    "libonig-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "libcap",
+    "onig"
+  ],
+  "map": {
+    "acl": "acl",
+    "libacl1-dev": "acl",
+    "libonig-dev": "onig",
+    "libcap-dev": "libcap"
+  }
+}

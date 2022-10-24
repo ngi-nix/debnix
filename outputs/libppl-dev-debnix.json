@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libppl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6f25c5c0a694b458c0a9f6efcc25d8d4cb85c147edeb1325b56af037a41c4550",
+  "deb_inputs": [
+    "debhelper",
+    "libgmp-dev",
+    "libjs-jquery",
+    "libncurses-dev",
+    "libppl-c4",
+    "libppl-dev",
+    "libppl-doc",
+    "libppl14",
+    "swi-prolog"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "gnum4",
+    "perl"
+  ],
+  "map": {}
+}

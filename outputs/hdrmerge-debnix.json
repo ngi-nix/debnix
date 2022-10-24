@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "hdrmerge",
+  "nix_pkg": null,
+  "control_file_hash": "2286bcb73a465ddf265d4af6091fe172f6d548baf9247f8cb448d004541aab93",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libalglib-dev",
+    "libexiv2-dev",
+    "libraw-dev",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "alglib3",
+    "cmake",
+    "exiv2",
+    "libraw",
+    "pkg-config-wrapper",
+    "qtbase",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib",
+    "qtbase5-dev": "qtbase",
+    "libexiv2-dev": "exiv2",
+    "libraw-dev": "libraw"
+  }
+}

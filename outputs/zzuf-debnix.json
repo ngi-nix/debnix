@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "zzuf",
+  "nix_pkg": null,
+  "control_file_hash": "673a3ed5a89e0d5f65515b7f85cce2db773cab96d45f30707d2fe47f616d3478",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

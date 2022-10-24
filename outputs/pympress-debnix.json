@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "pympress",
+  "nix_pkg": null,
+  "control_file_hash": "da8135a0c8bc651f00287033508e35bb2dd32271995ac110547d35d33088f430",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-gtk-3.0",
+    "gir1.2-poppler-0.18",
+    "gobject-introspection",
+    "libcairo2",
+    "libgirepository-1.0-1",
+    "libgtk-3-0",
+    "libpoppler-glib8",
+    "python3-all",
+    "python3-cairo-doc",
+    "python3-doc",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-myst-parser",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "gtk+3",
+    "libcanberra",
+    "poppler-glib",
+    "pycairo",
+    "pygobject",
+    "python-vlc",
+    "python3",
+    "setuptools",
+    "watchdog"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "libgirepository-1.0-1": "gobject-introspection",
+    "python3-gi": "pygobject",
+    "gobject-introspection": "gobject-introspection",
+    "python3-cairo-doc": "pycairo",
+    "python3-gi-cairo": "pygobject"
+  }
+}

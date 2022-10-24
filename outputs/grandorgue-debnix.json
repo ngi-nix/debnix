@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "grandorgue",
+  "nix_pkg": null,
+  "control_file_hash": "1d5e3ee63719e3f77076333ddbbf846302be55f0b0057ceb8b9285a4622a6d3a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook-xsl",
+    "gettext",
+    "grandorgue-demo",
+    "imagemagick",
+    "libfftw3-dev",
+    "libjack-dev",
+    "librsvg2-bin",
+    "librtaudio-dev",
+    "librtmidi-dev",
+    "libwavpack-dev",
+    "libwxgtk3.2-dev",
+    "libzita-convolver-dev",
+    "po4a",
+    "portaudio19-dev",
+    "xsltproc",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "fftw-single",
+    "imagemagick",
+    "libicns",
+    "pkg-config-wrapper",
+    "systemd",
+    "wavpack",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "libwavpack-dev": "wavpack",
+    "imagemagick": "imagemagick",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libwxgtk3.2-dev": "wxwidgets"
+  }
+}

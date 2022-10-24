@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "brewtarget",
+  "nix_pkg": null,
+  "control_file_hash": "4816d3a821f16ae2aac01fed0582e85e92f32dae21f46ff173131bbe1611ae5d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libqt5multimedia5-plugins",
+    "libqt5sql5-sqlite",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libqt5webkit5-dev",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtmultimedia",
+    "qtsvg",
+    "qttools",
+    "qtwebkit"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

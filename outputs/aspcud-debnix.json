@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "aspcud",
+  "nix_pkg": null,
+  "control_file_hash": "8fb243f8be2075cf642174e574ee02db0094fa3c338d85044d444008ce2d8178",
+  "deb_inputs": [
+    "clasp",
+    "cmake",
+    "debhelper-compat",
+    "gringo",
+    "libboost-dev",
+    "re2c"
+  ],
+  "nix_inputs": [
+    "boost",
+    "clasp",
+    "cmake",
+    "gringo",
+    "re2c"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "clasp": "clasp",
+    "gringo": "gringo",
+    "libboost-dev": "boost",
+    "re2c": "re2c"
+  }
+}

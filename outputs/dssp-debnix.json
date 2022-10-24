@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "dssp",
+  "nix_pkg": null,
+  "control_file_hash": "1f7b549402fe47cc456f97675a74b5dd43d444a05468ea50b912022b8a09a170",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-date-time-dev",
+    "libboost-iostreams-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libbz2-dev",
+    "libcifpp-dev",
+    "libcifpp2",
+    "mrc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "libcifpp",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libcifpp-dev": "libcifpp",
+    "libcifpp2": "libcifpp",
+    "cmake": "cmake"
+  }
+}

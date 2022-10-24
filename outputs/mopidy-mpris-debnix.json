@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "mopidy-mpris",
+  "nix_pkg": null,
+  "control_file_hash": "1b547b628c956020acb5b71725466387e12535087891ab418c9d234b06df0f48",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-pydbus",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "pydbus",
+    "python3"
+  ],
+  "map": {
+    "python3-pydbus": "pydbus",
+    "mopidy": "mopidy",
+    "python3": "python3"
+  }
+}

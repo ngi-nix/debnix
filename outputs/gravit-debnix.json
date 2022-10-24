@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "gravit",
+  "nix_pkg": null,
+  "control_file_hash": "b03360e3e371f7354036d675b70af3a78468643ccb241784241569a68b0f10d9",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "gravit",
+    "gravit-data",
+    "liblua5.1-0-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-ttf2.0-dev",
+    "libsdl1.2-dev",
+    "ttf-bitstream-vera"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_ttf",
+    "autoconf",
+    "automake",
+    "glu",
+    "libGL",
+    "libICE",
+    "libSM",
+    "libpng-apng",
+    "lua"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image",
+    "liblua5.1-0-dev": "lua",
+    "libsdl-ttf2.0-dev": "SDL_ttf",
+    "libsdl1.2-dev": "SDL"
+  }
+}

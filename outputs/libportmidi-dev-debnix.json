@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libportmidi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "206a18b91d29062a63bee22b6b89e58d71d5e8e9ed14ccac4eb562d862b3afb5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libasound2-dev",
+    "libportmidi0"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "unzip"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libasound2-dev": "alsa-lib"
+  }
+}

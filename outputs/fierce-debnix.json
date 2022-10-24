@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "fierce",
+  "nix_pkg": null,
+  "control_file_hash": "6314efc73f94ddda78af17881df97afdab4a4963b8ac9b57de2c73557dba3a63",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-dnspython",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "dnspython",
+    "python3"
+  ],
+  "map": {
+    "python3-dnspython": "dnspython"
+  }
+}

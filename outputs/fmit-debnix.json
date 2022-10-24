@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "fmit",
+  "nix_pkg": null,
+  "control_file_hash": "453ed552448f0ef07356e394a1ff05f3c5451a0c3bc4a6cd4804fd8f49e6ae78",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freeglut3-dev",
+    "gettext",
+    "itstool",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "libqt5opengl5-desktop-dev",
+    "libqt5svg5-dev",
+    "portaudio19-dev",
+    "qt5-qmake",
+    "qt5-qmake:native",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "itstool",
+    "qtbase",
+    "qtmultimedia"
+  ],
+  "map": {
+    "itstool": "itstool",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libasound2-dev": "alsa-lib",
+    "qtbase5-dev": "qtbase"
+  }
+}

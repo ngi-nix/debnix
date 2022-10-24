@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "bcal",
+  "nix_pkg": null,
+  "control_file_hash": "dbc9094f086927deb8ba8fe8fbfde4fa4a3e7af1c28108e641849ed11f189efc",
+  "deb_inputs": [
+    "bc",
+    "debhelper-compat",
+    "libc6-dev",
+    "libreadline-dev",
+    "python3",
+    "readline-common"
+  ],
+  "nix_inputs": [
+    "bc",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "readline-common": "readline",
+    "bc": "bc"
+  }
+}

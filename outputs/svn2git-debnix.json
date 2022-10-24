@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "svn2git",
+  "nix_pkg": null,
+  "control_file_hash": "08737ba256a8a0796cca65c1e732be0b9fc31bafcde808f6affa962bdae82a93",
+  "deb_inputs": [
+    "debhelper",
+    "gem2deb",
+    "git-svn",
+    "rake",
+    "ruby",
+    "ruby-interpreter"
+  ],
+  "nix_inputs": [
+    "ruby"
+  ],
+  "map": {
+    "ruby": "ruby"
+  }
+}

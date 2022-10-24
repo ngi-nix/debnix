@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libcg3-1",
+  "nix_pkg": null,
+  "control_file_hash": "863975cc0b75d2ea89e33e72757114eabf4ff4013d813653fee64a47bf8545d7",
+  "deb_inputs": [
+    "cg3",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libboost-dev",
+    "libcg3-1",
+    "libcg3-dev",
+    "libdigest-sha-perl",
+    "libicu-dev",
+    "python3-dev",
+    "python3-setuptools",
+    "swig"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libboost-dev": "boost"
+  }
+}

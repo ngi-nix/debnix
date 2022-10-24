@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "ruby-google-protobuf",
+  "nix_pkg": null,
+  "control_file_hash": "87e822d8df0095daee6c18efbed662cd0578cff1409bc56c8454aa294377ec1c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-elpa",
+    "dh-sequence-python3",
+    "gem2deb",
+    "libgmock-dev",
+    "libgtest-dev",
+    "libprotobuf-dev",
+    "libprotobuf-lite32",
+    "libprotobuf32",
+    "libprotoc32",
+    "libpython3-all-dev",
+    "pkg-php-tools",
+    "protobuf-mode-el",
+    "python3-all:any",
+    "python3-setuptools",
+    "python3-six",
+    "rake-compiler",
+    "ruby",
+    "unzip",
+    "xmlto",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "abseil-cpp",
+    "cmake",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

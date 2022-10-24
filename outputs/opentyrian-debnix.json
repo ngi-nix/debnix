@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "opentyrian",
+  "nix_pkg": null,
+  "control_file_hash": "397ae95c72bc158b777f4c023e26bd4da8cdc4bad032f306f7202f66a006dbb9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "game-data-packager",
+    "kdialog",
+    "libnotify-bin",
+    "libsdl2-net-dev",
+    "tyrian-data",
+    "x11-utils",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_net",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

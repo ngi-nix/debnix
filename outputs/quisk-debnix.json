@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "quisk",
+  "nix_pkg": null,
+  "control_file_hash": "e1438d47f37c6f54d0ef333546e30c55a2a4cbb487230703ce7d06e8262bf521",
+  "deb_inputs": [
+    "alsa-utils",
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "libasound2-dev",
+    "libcodec2-dev",
+    "libfftw3-dev",
+    "libpulse-dev",
+    "libsoapysdr-dev",
+    "libusb-1.0-0-dev",
+    "portaudio19-dev",
+    "python3-dev",
+    "python3-serial",
+    "python3-setuptools",
+    "python3-usb",
+    "python3-wxgtk4.0",
+    "udev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "fftw-double",
+    "pulseaudio",
+    "python3",
+    "wxPython"
+  ],
+  "map": {
+    "python3-dev": "python3",
+    "python3-wxgtk4.0": "wxPython",
+    "libasound2-dev": "alsa-lib",
+    "libpulse-dev": "pulseaudio"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bpfmon",
+  "nix_pkg": null,
+  "control_file_hash": "f9b8d07faa872533ef9f26a7afd17145681918795dbe825c16a760cf01faebb5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpcap-dev",
+    "libyascreen-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libpcap",
+    "yascreen"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap",
+    "libyascreen-dev": "yascreen"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "mopidy-tunein",
+  "nix_pkg": null,
+  "control_file_hash": "bc931870594ce2f6ecce3f4a583e341bf0c3259e528f15453458d485b3c5d414",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "python3"
+  ],
+  "map": {
+    "mopidy": "mopidy",
+    "python3": "python3"
+  }
+}

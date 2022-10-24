@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "git2cl",
+  "nix_pkg": null,
+  "control_file_hash": "846e3afa6b589b020f9831ffd98ec4d47ac3e95e09255e3de5a295d526d82cce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "perl",
+    "perl-doc"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl-doc": "perl",
+    "perl": "perl"
+  }
+}

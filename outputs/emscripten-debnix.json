@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "emscripten",
+  "nix_pkg": null,
+  "control_file_hash": "1f883daaa1c1592dde296bc1af2e2b66179b59c4d7b0a27af326a25ea7833795",
+  "deb_inputs": [
+    "adb",
+    "automake",
+    "binaryen",
+    "clang-14",
+    "closure-compiler",
+    "cmake",
+    "cmark-gfm",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "emscripten-doc",
+    "eslint",
+    "fonts-liberation",
+    "help2man",
+    "htmlmin",
+    "jq",
+    "libjs-d3",
+    "libjs-source-map",
+    "libsimde-dev",
+    "lld-14",
+    "llvm-14",
+    "make",
+    "node-acorn",
+    "node-source-map",
+    "nodejs",
+    "python3",
+    "python3-numpy",
+    "python3-ply",
+    "scons",
+    "wabt"
+  ],
+  "nix_inputs": [
+    "nodejs",
+    "python3"
+  ],
+  "map": {
+    "nodejs": "nodejs",
+    "python3": "python3"
+  }
+}

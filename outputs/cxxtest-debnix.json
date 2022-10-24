@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "cxxtest",
+  "nix_pkg": null,
+  "control_file_hash": "9323926578d1623cf0f54824a68d297f77d7b529c759ee40c8dc7d45b6bf4a08",
+  "deb_inputs": [
+    "asciidoc",
+    "asciidoc-dblatex",
+    "cdbs",
+    "dblatex",
+    "debhelper",
+    "dh-python",
+    "docbook-xsl",
+    "python3",
+    "python3-coverage",
+    "python3-ply",
+    "python3-setuptools",
+    "source-highlight"
+  ],
+  "nix_inputs": [
+    "python"
+  ],
+  "map": {
+    "python3": "python"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "astromenace",
+  "nix_pkg": null,
+  "control_file_hash": "5eac51c2ee3249848f26be521af57075450e30d38288dc86ba3fd3530b9f26b3",
+  "deb_inputs": [
+    "astromenace-data-src",
+    "cmake",
+    "debhelper",
+    "fonts-dejavu-core",
+    "fonts-freefont-ttf",
+    "fonts-liberation",
+    "fonts-linuxlibertine",
+    "imagemagick",
+    "libalut-dev",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libjpeg-dev",
+    "libogg-dev",
+    "libopenal-dev",
+    "libsdl1.2-dev",
+    "libvorbis-dev",
+    "libxinerama-dev",
+    "xz-utils"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "cmake",
+    "fontconfig",
+    "freealut",
+    "freetype",
+    "glu",
+    "libGL",
+    "libICE",
+    "libX11",
+    "libXinerama",
+    "libogg",
+    "libvorbis",
+    "openal-soft"
+  ],
+  "map": {
+    "libopenal-dev": "openal-soft",
+    "libogg-dev": "libogg",
+    "cmake": "cmake",
+    "libalut-dev": "freealut",
+    "libvorbis-dev": "libvorbis",
+    "libfreetype6-dev": "freetype",
+    "libsdl1.2-dev": "SDL",
+    "libxinerama-dev": "libXinerama",
+    "libfontconfig1-dev": "fontconfig"
+  }
+}

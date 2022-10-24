@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "libgromacs5",
+  "nix_pkg": null,
+  "control_file_hash": "f34c9db6f3e93970fa624d03987e8819881d007fbddfd1d26d0ebcbad854faf0",
+  "deb_inputs": [
+    "bash-completion",
+    "chrpath",
+    "cmake",
+    "cpp",
+    "debhelper-compat",
+    "fftw3-dev",
+    "gromacs",
+    "gromacs-data",
+    "libblas-dev",
+    "libboost-dev",
+    "libfftw3-dev",
+    "libgromacs-dev",
+    "libgromacs7",
+    "libhwloc-dev",
+    "libjs-mathjax",
+    "liblapack-dev",
+    "libmuparser-dev",
+    "libnblib-gmx0",
+    "libx11-dev",
+    "lsb-release",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "pkg-config",
+    "pymol",
+    "sse4.2-support",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "fftw-single",
+    "hwloc",
+    "lapack",
+    "perl"
+  ],
+  "map": {
+    "libblas-dev": "blas",
+    "cmake": "cmake",
+    "liblapack-dev": "lapack",
+    "libhwloc-dev": "hwloc"
+  }
+}

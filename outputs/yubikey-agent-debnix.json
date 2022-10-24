@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "yubikey-agent",
+  "nix_pkg": null,
+  "control_file_hash": "b67d1977841973009b78d616f7122eb7a7faa3dc29d5577011426045994cb5f5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-go-piv-piv-go-dev",
+    "golang-github-gopasspw-pinentry-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-term-dev",
+    "libpcsclite-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "go",
+    "pcsclite",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcsclite-dev": "pcsclite"
+  }
+}

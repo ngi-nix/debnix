@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "elpa-irony",
+  "nix_pkg": null,
+  "control_file_hash": "36866da8f1d26ae483ef621b02d67b590a0c288c79c002d4a3ba0c45e09c2396",
+  "deb_inputs": [
+    "clang-14",
+    "cmake",
+    "debhelper-compat",
+    "dh-elpa",
+    "elpa-yasnippet",
+    "irony-server",
+    "libclang-14-dev",
+    "llvm-14-dev",
+    "python3-docutils"
+  ],
+  "nix_inputs": [
+    "clang",
+    "cmake",
+    "llvm"
+  ],
+  "map": {
+    "llvm-14-dev": "llvm",
+    "clang-14": "clang",
+    "cmake": "cmake"
+  }
+}

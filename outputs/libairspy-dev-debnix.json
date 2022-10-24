@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libairspy-dev",
+  "nix_pkg": null,
+  "control_file_hash": "812462857a43f38fcb450bb30fc3eb8a714132adb3796b795af3f5cfa41bb5c3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libairspy0",
+    "libusb-1.0-0-dev",
+    "libusb2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libusb2-dev": "libusb"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "ballerburg",
+  "nix_pkg": null,
+  "control_file_hash": "5c8c8dd363fc38f590a1ed3c80615486bd8d5cd546be026ca7b4cf295472c0e4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libsdl-gfx1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "cmake",
+    "imagemagick"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

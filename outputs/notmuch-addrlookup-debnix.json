@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "notmuch-addrlookup",
+  "nix_pkg": null,
+  "control_file_hash": "8897d0215ba37ea9a2dcb25dd72d53d3638fe9de88d8853ae481bda3c3fc1b25",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libnotmuch-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "notmuch",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnotmuch-dev": "notmuch",
+    "libglib2.0-dev": "glib"
+  }
+}

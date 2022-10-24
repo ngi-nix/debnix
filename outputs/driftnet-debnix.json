@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "driftnet",
+  "nix_pkg": null,
+  "control_file_hash": "588c3b0966db3d23b6bf0d7637574a63603a292d8e185e8706cf09878fa48e99",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcmocka-dev",
+    "libgif-dev",
+    "libgtk2.0-dev",
+    "libjpeg-dev",
+    "libjs-jquery",
+    "libjs-lightbox2",
+    "libpcap-dev",
+    "libpng-dev",
+    "libwebsockets-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "giflib",
+    "glib",
+    "gtk+",
+    "libjpeg-turbo",
+    "libpcap",
+    "libpng-apng",
+    "libuv",
+    "libwebsockets",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcap-dev": "libpcap",
+    "libgif-dev": "giflib",
+    "libwebsockets-dev": "libwebsockets",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

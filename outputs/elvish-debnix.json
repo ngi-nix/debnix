@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "elvish",
+  "nix_pkg": null,
+  "control_file_hash": "78adf07e1861beb1cc34ee18e47079e49958fbb0a1c84a773e77f3ea605a6b6c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-coreos-bbolt-dev",
+    "golang-github-creack-pty-dev",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-sourcegraph-go-lsp-dev",
+    "golang-github-sourcegraph-jsonrpc2-dev",
+    "golang-golang-x-sys-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

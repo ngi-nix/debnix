@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "amtterm",
+  "nix_pkg": null,
+  "control_file_hash": "568d77ec484f24824509533ac1598fb73f7f687183d7b0008f81952abd7c53eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsoap-lite-perl",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "SOAP-Lite",
+    "perl"
+  ],
+  "map": {}
+}

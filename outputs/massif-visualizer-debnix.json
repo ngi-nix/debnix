@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "massif-visualizer",
+  "nix_pkg": null,
+  "control_file_hash": "8b7226dfd32586aa5ceb89710ba85018990a2f0f362a702af31248abd55f432a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libkchart-dev",
+    "libkf5archive-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5parts-dev",
+    "libqt5svg5-dev",
+    "libqt5xmlpatterns5-dev",
+    "pkg-kde-tools",
+    "python3-docutils",
+    "qtbase5-dev",
+    "valgrind",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "karchive",
+    "kconfig",
+    "kcoreaddons",
+    "kdiagram",
+    "kgraphviewer",
+    "ki18n",
+    "kio",
+    "kparts",
+    "qtsvg",
+    "qtxmlpatterns",
+    "shared-mime-info"
+  ],
+  "map": {
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "libkchart-dev": "kdiagram",
+    "libkf5i18n-dev": "ki18n",
+    "libkf5archive-dev": "karchive",
+    "libkf5parts-dev": "kparts",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5config-dev": "kconfig",
+    "libkf5kio-dev": "kio"
+  }
+}

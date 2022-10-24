@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "barrage",
+  "nix_pkg": null,
+  "control_file_hash": "87a6eeba72e37926b4b13dce3e99e4fb7cf411670de73b78da34c1d9e3f68e26",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

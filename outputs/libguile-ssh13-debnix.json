@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libguile-ssh13",
+  "nix_pkg": null,
+  "control_file_hash": "0acc72b850ec24e1da4a8d43a664781fff069e893733abcc5cb824035544e403",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "libguile-ssh14",
+    "libssh-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "guile",
+    "libssh",
+    "pkg-config-wrapper",
+    "texinfo",
+    "which"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "guile-3.0-dev": "guile",
+    "libssh-dev": "libssh",
+    "guile-3.0": "guile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tntnet",
+  "nix_pkg": null,
+  "control_file_hash": "86e0119ae0ee91eaae6210afe711e0a15f4ea42f1383cd79b5462bbfaf9fa572",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libcxxtools-dev",
+    "libjs-jquery",
+    "libltdl-dev",
+    "libssl-dev",
+    "libtntnet-dev",
+    "libtntnet12v5",
+    "libtool",
+    "net-tools",
+    "pkg-config",
+    "tntnet",
+    "tntnet-demos",
+    "tntnet-doc",
+    "tntnet-runtime",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cxxtools",
+    "openssl",
+    "zip",
+    "zlib"
+  ],
+  "map": {
+    "zip": "zip",
+    "libcxxtools-dev": "cxxtools",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

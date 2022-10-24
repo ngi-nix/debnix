@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libconfuse-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d4101a3a1068febbd62b09198b96b18bce4d6bf6e68c7e1012e7accf0ce9393c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libconfuse-common",
+    "libconfuse-dev",
+    "libconfuse-doc",
+    "libconfuse2"
+  ],
+  "nix_inputs": [
+    "flex"
+  ],
+  "map": {}
+}

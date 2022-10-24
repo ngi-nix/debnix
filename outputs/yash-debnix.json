@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "yash",
+  "nix_pkg": null,
+  "control_file_hash": "866ad280057e7d5c16edff89ab0f7a3c6fe0e00f003a4b4603ece8479d499e9a",
+  "deb_inputs": [
+    "asciidoc",
+    "asciidoc-base",
+    "asciidoc-common",
+    "debhelper-compat",
+    "docbook-xsl",
+    "dpkg-dev",
+    "ed",
+    "libncurses5-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

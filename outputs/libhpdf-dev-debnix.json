@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libhpdf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b81972b29a07c6c00461f0c70aabddade01facc7562ede8339116e76a8a98091",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libhpdf-2.3.0",
+    "libpng-dev",
+    "libz-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libpng-apng",
+    "zlib"
+  ],
+  "map": {}
+}

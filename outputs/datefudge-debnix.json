@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "datefudge",
+  "nix_pkg": null,
+  "control_file_hash": "5faf20ffba5364e858d1cdd5c801e4ed0f978b316230ed80661e0acb3531c63d",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "coreutils"
+  ],
+  "map": {}
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "pcmanx-gtk2",
+  "nix_pkg": null,
+  "control_file_hash": "28093c8d8572a7cb2b8f437cf48f543ee67a3eac1580c5010df4e2c1897bbe27",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "intltool",
+    "libgtk2.0-dev",
+    "libltdl-dev",
+    "libnotify-dev",
+    "libx11-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+",
+    "intltool",
+    "libXft",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libltdl-dev": "libtool",
+    "intltool": "intltool",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

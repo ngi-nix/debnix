@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libkate-dev",
+  "nix_pkg": null,
+  "control_file_hash": "df277d76e58af383399dd9a1db948deddb3d6ad59b1a0b4f71cfe1785030532a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "doxygen",
+    "libkate1",
+    "liboggkate1",
+    "liboggz-dev",
+    "libpng-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "libpng-apng"
+  ],
+  "map": {}
+}
