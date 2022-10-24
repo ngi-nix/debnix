@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "lziprecover",
+  "nix_pkg": null,
+  "control_file_hash": "6d52534cf8aac3383c86a4b9a6dedecc972bad0ba5e0521de3b850a7f150ea6d",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "lzip"
+  ],
+  "map": {}
+}

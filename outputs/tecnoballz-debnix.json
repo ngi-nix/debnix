@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tecnoballz",
+  "nix_pkg": null,
+  "control_file_hash": "dcac940b60965ac046b8da817a4fdbf9e270af91bb00dde59be2960f89e82cb7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmikmod-dev",
+    "libogg-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2",
+    "libsdl-mixer1.2-dev",
+    "libsmpeg-dev",
+    "libtinyxml-dev",
+    "libvorbis-dev",
+    "libxext-dev",
+    "libxxf86dga-dev",
+    "libxxf86vm-dev",
+    "tecnoballz-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "autoconf",
+    "automake",
+    "libmikmod",
+    "tinyxml"
+  ],
+  "map": {
+    "libsdl-mixer1.2": "SDL_mixer",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libtinyxml-dev": "tinyxml",
+    "libmikmod-dev": "libmikmod"
+  }
+}

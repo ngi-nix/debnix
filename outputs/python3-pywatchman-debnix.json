@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "python3-pywatchman",
+  "nix_pkg": null,
+  "control_file_hash": "ee9ebba6dc18f73e64e83a53fd17f4a3cb0fceb6007aa6feb1465226c7068dfd",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "libpcre3-dev",
+    "libssl-dev",
+    "pkg-config",
+    "python3-all-dev",
+    "python3-pywatchman",
+    "watchman"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libpcre3-dev": "pcre"
+  }
+}

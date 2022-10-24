@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["curl", "debhelper-compat", "doxygen", "gengetopt", "help2man", "libc-dev", "libc6-dev", "libcurl4-gnutls-dev", "libofx-dev", "libofx-doc", "libofx7", "libosp-dev", "libxml++2.6-dev", "ofx", "perl"], or 
+output: 
+[] is empty!

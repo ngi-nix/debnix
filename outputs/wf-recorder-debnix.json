@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "wf-recorder",
+  "nix_pkg": null,
+  "control_file_hash": "6a938357c30bfe72340746f6ad7190ee79ba62c94fb75ea24fd69d6dc4266eb6",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ffmpeg",
+    "libavcodec-dev",
+    "libavdevice-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libpulse-dev",
+    "libswscale-dev",
+    "libwayland-dev",
+    "libx264-dev",
+    "meson",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "libpulseaudio",
+    "meson",
+    "ninja",
+    "ocl-icd",
+    "opencl-headers",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols",
+    "x264"
+  ],
+  "map": {
+    "meson": "meson",
+    "libavdevice-dev": "ffmpeg",
+    "ffmpeg": "ffmpeg",
+    "wayland-protocols": "wayland-protocols",
+    "libavutil-dev": "ffmpeg",
+    "scdoc": "scdoc",
+    "libavcodec-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg",
+    "libx264-dev": "x264",
+    "libswscale-dev": "ffmpeg",
+    "libwayland-dev": "wayland"
+  }
+}

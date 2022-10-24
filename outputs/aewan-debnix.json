@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "aewan",
+  "nix_pkg": null,
+  "control_file_hash": "73a4a7a0ba1b18e20beac44458c5de65f0c395a93bd0c975927d27059054f212",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "sensible-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "zlib"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "zlib1g-dev": "zlib"
+  }
+}

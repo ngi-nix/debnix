@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "vectoroids",
+  "nix_pkg": null,
+  "control_file_hash": "a01a61dccc26bf88bc4e8b490d6b0b284ca22a08c217b59ce61e076810035cac",
+  "deb_inputs": [
+    "debhelper",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

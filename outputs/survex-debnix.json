@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "survex",
+  "nix_pkg": null,
+  "control_file_hash": "23431a4a87af637975a97c666cab63df8b99bc73946b1d54762c771b39a4686f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libglu1-mesa-dev",
+    "libproj-dev",
+    "libswscale-dev",
+    "libwxgtk3.2-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "mesa-common-dev",
+    "pkg-config",
+    "survex",
+    "survex-aven",
+    "vim-addon-manager",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "glib",
+    "glu",
+    "mesa",
+    "perl",
+    "pkg-config-wrapper",
+    "proj",
+    "python3",
+    "wxwidgets"
+  ],
+  "map": {
+    "libwxgtk3.2-dev": "wxwidgets",
+    "libglu1-mesa-dev": "glu",
+    "libavcodec-dev": "ffmpeg",
+    "libproj-dev": "proj",
+    "mesa-common-dev": "mesa",
+    "libavformat-dev": "ffmpeg",
+    "libswscale-dev": "ffmpeg"
+  }
+}

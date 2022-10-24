@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "metapixel",
+  "nix_pkg": null,
+  "control_file_hash": "f41e35826cf3f20b5e0aef0a2b1416627909bcb76ebb0528894d04ffc79ec431",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libgif-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "giflib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgif-dev": "giflib",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

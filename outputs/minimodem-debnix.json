@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "minimodem",
+  "nix_pkg": null,
+  "control_file_hash": "e20d19ba805d3fa151eb1cc252e3e3fadc47a4b30c26dc3b00af5a73641d5452",
+  "deb_inputs": [
+    "debhelper",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libpulse-dev",
+    "libsndfile1-dev",
+    "pulseaudio"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "autoconf",
+    "automake",
+    "fftw-double",
+    "fftw-single",
+    "libpulseaudio",
+    "libsndfile",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libsndfile1-dev": "libsndfile"
+  }
+}

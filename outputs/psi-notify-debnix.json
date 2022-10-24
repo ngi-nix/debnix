@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "psi-notify",
+  "nix_pkg": null,
+  "control_file_hash": "273c344470522d42a5e8ff700732e6087939fdaa6f9b1fa602b18e5bb448de3f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnotify-dev",
+    "libsystemd-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnotify",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libnotify-dev": "libnotify",
+    "libsystemd-dev": "systemd"
+  }
+}

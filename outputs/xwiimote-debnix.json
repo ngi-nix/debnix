@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "xwiimote",
+  "nix_pkg": null,
+  "control_file_hash": "b7aeb3679559ff0482538ac6ac6e5484bfab42ad37245c0e7386ddf6284de5b5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libudev-dev",
+    "libxwiimote2",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "ncurses",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libudev-dev": "systemd"
+  }
+}

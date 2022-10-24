@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "trackballs",
+  "nix_pkg": null,
+  "control_file_hash": "6f4aa3d0a82dfac68f411dad8eaef0f7cb048110977c4b03cb958fc037b27664",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "gettext",
+    "guile-3.0-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev",
+    "trackballs-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_ttf",
+    "cmake",
+    "gettext",
+    "glu",
+    "guile",
+    "libGL",
+    "zlib"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "guile-3.0-dev": "guile"
+  }
+}

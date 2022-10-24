@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "minify",
+  "nix_pkg": null,
+  "control_file_hash": "990c50ab8da32a6095bdead6ccdf61432da54cafa93fc9956b9c6a856888284b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-djherbis-atime-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-matryer-try-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-github-tdewolff-parse-dev",
+    "golang-github-tdewolff-test-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

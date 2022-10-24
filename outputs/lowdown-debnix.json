@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "lowdown",
+  "nix_pkg": null,
+  "control_file_hash": "b3515d0bba336290911183100d93147100d15c0e89c93ceeda80e77d32091cff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbsd-dev",
+    "libmd-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

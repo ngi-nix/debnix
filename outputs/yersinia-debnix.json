@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "yersinia",
+  "nix_pkg": null,
+  "control_file_hash": "3c3117ddb15dfa19185eebb2bde7cf2d35b11bf8d40282789c470da19d60b45a",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libgtk2.0-dev",
+    "libncurses5-dev",
+    "libnet1-dev",
+    "libpcap0.8-dev",
+    "lsb-release"
+  ],
+  "nix_inputs": [
+    "libnet",
+    "libpcap",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap",
+    "libncurses5-dev": "ncurses",
+    "libnet1-dev": "libnet"
+  }
+}

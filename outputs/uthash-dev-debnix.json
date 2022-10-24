@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "uthash-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6cddeabc14d4dda59dfa25d9b3f3da0a24e3713949c5f7b167e22ba1d74e5a90",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "dh-exec"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

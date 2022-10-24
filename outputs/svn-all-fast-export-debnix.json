@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "svn-all-fast-export",
+  "nix_pkg": null,
+  "control_file_hash": "845c779fdaf9e00e69114ae36ca85eafd81957e21b43589d8bb7230d8b37ab68",
+  "deb_inputs": [
+    "debhelper-compat",
+    "git",
+    "libsvn-dev",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "apr",
+    "qtbase",
+    "qttools",
+    "subversion"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "libsvn-dev": "subversion"
+  }
+}

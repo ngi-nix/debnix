@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "ueberzug",
+  "nix_pkg": null,
+  "control_file_hash": "cf5bc147ad0946435507d8466b48f0595e2bc14d4900b64781648b50437925a6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libpython3-all-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "pandoc",
+    "python3-all",
+    "python3-attr",
+    "python3-docopt",
+    "python3-pil",
+    "python3-setuptools",
+    "python3-xlib"
+  ],
+  "nix_inputs": [
+    "attrs",
+    "docopt",
+    "libX11",
+    "libXext",
+    "pillow",
+    "psutil",
+    "python3",
+    "xlib"
+  ],
+  "map": {
+    "python3-docopt": "docopt",
+    "libx11-dev": "libX11",
+    "python3-pil": "pillow",
+    "libxext-dev": "libXext"
+  }
+}

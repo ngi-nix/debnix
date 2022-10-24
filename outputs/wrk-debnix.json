@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "wrk",
+  "nix_pkg": null,
+  "control_file_hash": "7bc4fb5d5715192ef291ed4195a2d63c310debc300f540b8335b38fb94e956e7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libluajit-5.1-dev",
+    "libssl-dev",
+    "luajit",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "luajit",
+    "openssl",
+    "perl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "luajit": "luajit",
+    "libluajit-5.1-dev": "luajit"
+  }
+}

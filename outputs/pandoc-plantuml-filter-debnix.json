@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "pandoc-plantuml-filter",
+  "nix_pkg": null,
+  "control_file_hash": "d625809aae5604e6d3428d17e8d26f92e9e82ae839945a321cb7588088fa80d6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xsl",
+    "pandoc",
+    "plantuml",
+    "python3-all",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "pandocfilters",
+    "python3"
+  ],
+  "map": {}
+}
