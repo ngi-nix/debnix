@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "vmfs-tools",
+  "nix_pkg": null,
+  "control_file_hash": "d092142d66e02d68888d1ed59af92e500b9801ad0f0013a5d646f0eafaf5815b",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper",
+    "docbook-xsl",
+    "libfuse-dev",
+    "libreadline-dev",
+    "libreadline5-dev",
+    "pkg-config",
+    "uuid-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xsl-nons",
+    "fuse",
+    "libxslt",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "libfuse-dev": "fuse",
+    "xsltproc": "libxslt"
+  }
+}

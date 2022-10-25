@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "antimony",
+  "nix_pkg": null,
+  "control_file_hash": "b1b48ac2c093a2496c5780cfcc3af8dd2f98fd458797eaa24eb07df695c68bde",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "desktop-file-utils",
+    "dh-python",
+    "flex",
+    "lemon",
+    "libboost-all-dev",
+    "libgl1-mesa-dev",
+    "libpng-dev",
+    "libqt5opengl5-dev",
+    "ninja-build",
+    "python3-dev",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "flex",
+    "glu",
+    "lemon",
+    "libGL",
+    "libpng-apng",
+    "ncurses",
+    "python3",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "lemon": "lemon",
+    "flex": "flex",
+    "libgl1-mesa-dev": "libGL",
+    "cmake": "cmake",
+    "python3-dev": "python3"
+  }
+}

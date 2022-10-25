@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "xjobs",
+  "nix_pkg": null,
+  "control_file_hash": "089341f5fd8656627211d61a322b9779562c52eed77bb47324aeea26fefcc395",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "dh-buildinfo",
+    "flex"
+  ],
+  "nix_inputs": [
+    "flex",
+    "ncurses",
+    "which"
+  ],
+  "map": {
+    "flex": "flex"
+  }
+}

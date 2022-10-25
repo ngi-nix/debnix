@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "zonemaster-cli",
+  "nix_pkg": null,
+  "control_file_hash": "f6c57adc9cb5c3f75003b51649a2834d23c3d5d43118a879d6a80c8a00f89169",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgetopt-long-descriptive-perl",
+    "libintl-perl",
+    "libjson-xs-perl",
+    "libmoosex-getopt-perl",
+    "libnet-ldns-perl",
+    "libtext-reflow-perl",
+    "libzonemaster-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "JSON-XS",
+    "MooseX-Getopt",
+    "Text-Reflow",
+    "Zonemaster-Engine",
+    "Zonemaster-LDNS",
+    "libintl-perl",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl",
+    "libintl-perl": "libintl-perl"
+  }
+}

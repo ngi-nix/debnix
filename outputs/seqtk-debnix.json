@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "seqtk",
+  "nix_pkg": null,
+  "control_file_hash": "9eb0bbaa48f3bd8b2a9e23502705897c78b2b75acc49c2cc8ae5f15a7fa48e9f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "isa-l",
+    "libdeflate",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

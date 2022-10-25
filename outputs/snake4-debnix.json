@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "snake4",
+  "nix_pkg": null,
+  "control_file_hash": "332961014cce2a14e3815307bfb133b8144a11f61053644974e41685fe05ea2e",
+  "deb_inputs": [
+    "debhelper",
+    "libshhmsg1-dev",
+    "libshhopt1-dev",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "libxpm-dev",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXpm",
+    "libXt",
+    "shhmsg",
+    "shhopt"
+  ],
+  "map": {
+    "libshhopt1-dev": "shhopt",
+    "libx11-dev": "libX11",
+    "libxaw7-dev": "libXaw",
+    "libxpm-dev": "libXpm",
+    "libxt-dev": "libXt",
+    "libshhmsg1-dev": "shhmsg"
+  }
+}

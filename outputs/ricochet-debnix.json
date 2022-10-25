@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "ricochet",
+  "nix_pkg": null,
+  "control_file_hash": "c4814f42a8042c0ab9d2e1d44e3ab679c381205d3a2a23c80ff4eec66dd497ec",
+  "deb_inputs": [
+    "cairo-5c",
+    "debhelper-compat",
+    "nickle"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkg-config-wrapper",
+    "protobuf",
+    "qtbase",
+    "qtmultimedia",
+    "qtquickcontrols",
+    "qttools"
+  ],
+  "map": {}
+}

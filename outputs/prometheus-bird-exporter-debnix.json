@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "prometheus-bird-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "e862dc6dbbe4535e80aae30d631637483a8c589d5f2f99465515e4bca04e477c",
+  "deb_inputs": [
+    "bird",
+    "bird2",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

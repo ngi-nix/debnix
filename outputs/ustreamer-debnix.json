@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "ustreamer",
+  "nix_pkg": null,
+  "control_file_hash": "6f11c3be7a4c6dc7046bd570e9935da2b07cd0efbe17ac4d2de5d05780b93a99",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbsd-dev",
+    "libevent-dev",
+    "libjpeg-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "libbsd",
+    "libevent",
+    "libjpeg-turbo"
+  ],
+  "map": {
+    "libbsd-dev": "libbsd",
+    "libevent-dev": "libevent",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "perceptualdiff",
+  "nix_pkg": null,
+  "control_file_hash": "0df68616fdec567f12c66b7f0775648cb78846a14a87a7b9ffe0f97e7566b30c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfreeimage-dev",
+    "libpng-dev",
+    "libtiff-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freeimage"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libfreeimage-dev": "freeimage"
+  }
+}

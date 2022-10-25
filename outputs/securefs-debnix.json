@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "securefs",
+  "nix_pkg": null,
+  "control_file_hash": "f1807dd02098e57de4b433c71ec0046a122340947a7af24604a4fb44a4bc389e",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "fuse",
+    "libargon2-dev",
+    "libcrypto++-dev",
+    "libfuse-dev",
+    "libjsoncpp-dev",
+    "libtclap-dev",
+    "libutf8proc-dev",
+    "libutfcpp-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fuse"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "fuse": "fuse",
+    "libfuse-dev": "fuse"
+  }
+}

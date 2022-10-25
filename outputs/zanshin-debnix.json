@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "zanshin",
+  "nix_pkg": null,
+  "control_file_hash": "0f1736300a64023b2fa1224882a35a09cc0954a07b2a63ae2446c837990758ad",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-sequence-kf5",
+    "extra-cmake-modules",
+    "gettext",
+    "libboost-dev",
+    "libkf5akonadi-dev",
+    "libkf5akonadicalendar-dev",
+    "libkf5i18n-dev",
+    "libkf5kontactinterface-dev",
+    "libkf5runner-dev",
+    "libkf5windowsystem-dev",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "akonadi-calendar",
+    "boost",
+    "extra-cmake-modules",
+    "kontactinterface",
+    "krunner"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "libkf5akonadicalendar-dev": "akonadi-calendar",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5kontactinterface-dev": "kontactinterface",
+    "libkf5runner-dev": "krunner"
+  }
+}

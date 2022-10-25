@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "bitmeter",
+  "nix_pkg": null,
+  "control_file_hash": "d0f16a7b39d095d32f4460cf1de438de261230d25226df17bfb153d52b96031d",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dh-buildinfo",
+    "jackd",
+    "libasound2-dev",
+    "libgtk2.0-dev",
+    "libjack-dev"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+"
+  }
+}

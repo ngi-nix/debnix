@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "blahtexml",
+  "nix_pkg": null,
+  "control_file_hash": "514ea2bccc86d4cdcb0903fa8765ec460445b4c719c0d722ef5dae23a0aa2061",
+  "deb_inputs": [
+    "debhelper",
+    "libxerces-c-dev"
+  ],
+  "nix_inputs": [
+    "xerces-c"
+  ],
+  "map": {
+    "libxerces-c-dev": "xerces-c"
+  }
+}

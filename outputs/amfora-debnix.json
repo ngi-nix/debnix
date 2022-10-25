@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "amfora",
+  "nix_pkg": null,
+  "control_file_hash": "fc364bd71efc7732f4ef941c6cb059b1c2801c6a534b72e461b2af6e7b552ba9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-code.rocketnine-tslocum-cbind-dev",
+    "golang-code.rocketnine-tslocum-cview-dev",
+    "golang-github-atotto-clipboard-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-gdamore-tcell-dev",
+    "golang-github-gdamore-tcell.v2-dev",
+    "golang-github-makeworld-the-better-one-go-gemini-dev",
+    "golang-github-makeworld-the-better-one-go-isemoji-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-mmcdole-gofeed-dev",
+    "golang-github-muesli-termenv-dev",
+    "golang-github-rkoesters-xdg-dev",
+    "golang-github-schollz-progressbar-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-github-stretchr-testify-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "algol68g",
+  "nix_pkg": null,
+  "control_file_hash": "0a67a481dec09f46007af055d57901b078ee1e50f774b8955d556aa34ffff1d9",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "gsl",
+    "plotutils",
+    "postgresql"
+  ],
+  "map": {}
+}

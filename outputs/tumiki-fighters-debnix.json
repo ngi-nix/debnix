@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "tumiki-fighters",
+  "nix_pkg": null,
+  "control_file_hash": "7d56d3ea7109a4b4a5b77acbfc93f6a8cba03804fb8126ef9ddcac41427138cb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdc",
+    "libbulletml-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libphobos-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "tumiki-fighters",
+    "tumiki-fighters-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "bulletml",
+    "gdc-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "libbulletml-dev": "bulletml",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL"
+  }
+}

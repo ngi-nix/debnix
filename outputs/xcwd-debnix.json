@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "xcwd",
+  "nix_pkg": null,
+  "control_file_hash": "a592bafeb54b0360490ee9a9682206c784e51dba8834463f153198fb8f728318",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "xserver-xorg-core"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

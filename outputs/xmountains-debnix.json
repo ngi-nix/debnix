@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "xmountains",
+  "nix_pkg": null,
+  "control_file_hash": "86ebe0db50721a36de20dd82c1b76707dadaa42604f3f2a6db70810845592415",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libx11-dev",
+    "xbitmaps",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "gccmakedep",
+    "imake",
+    "xbitmaps"
+  ],
+  "map": {
+    "xbitmaps": "xbitmaps"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "qosmic",
+  "nix_pkg": null,
+  "control_file_hash": "f77ad8c1a203a06afb52c7ce804c5a1fb84877178c7821e6a3c9e6fd63c52e22",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flam3-palette",
+    "libflam3-dev",
+    "libjpeg-dev",
+    "liblua5.2-dev",
+    "libpng-dev",
+    "libxml2-dev",
+    "pkgconf",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "flam3",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libxml2",
+    "lua",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "liblua5.2-dev": "lua",
+    "flam3-palette": "flam3",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libxml2-dev": "libxml2",
+    "libflam3-dev": "flam3",
+    "qtbase5-dev": "qtbase"
+  }
+}

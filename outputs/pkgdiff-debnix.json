@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "pkgdiff",
+  "nix_pkg": null,
+  "control_file_hash": "c72bfa11907ac6b0391065f26d59e4fb9d7770633c68733bb205fad0719f146d",
+  "deb_inputs": [
+    "abi-compliance-checker",
+    "abi-dumper",
+    "debhelper",
+    "gawk",
+    "help2man",
+    "rpm",
+    "wdiff"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

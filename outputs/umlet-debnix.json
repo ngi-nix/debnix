@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "umlet",
+  "nix_pkg": null,
+  "control_file_hash": "598b65c7342dd827aa2e70a9e70325e8c8b23c71de6e5e3b2fcb7ede0f047d49",
+  "deb_inputs": [
+    "debhelper",
+    "default-jdk",
+    "dh-strip-nondeterminism",
+    "fastjar",
+    "fop",
+    "jarwrapper",
+    "java6-sdk",
+    "javahelper",
+    "libautocomplete-java",
+    "libavalon-framework-java",
+    "libbatik-java",
+    "libbcel-java",
+    "libcommons-io-java",
+    "libecj-java",
+    "libitext5-java",
+    "libjavaparser-java",
+    "libjlibeps-java",
+    "libjsyntaxpane-java",
+    "liblog4j1.2-java",
+    "libmail-java",
+    "librsyntaxtextarea-java",
+    "libxerces2-java"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

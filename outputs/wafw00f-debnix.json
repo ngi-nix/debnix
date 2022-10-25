@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "wafw00f",
+  "nix_pkg": null,
+  "control_file_hash": "1a5d3a66be0741f984adb98c2aaac7bec39139899adb7b3fd631b38f956334a4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-pluginbase",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "pluginbase",
+    "python3",
+    "requests"
+  ],
+  "map": {}
+}

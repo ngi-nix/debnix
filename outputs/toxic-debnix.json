@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "toxic",
+  "nix_pkg": null,
+  "control_file_hash": "a28fcfec287c888b925560eb31b454efba1b82487b3eab703a71d3af81190462",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "libalut-dev",
+    "libconfig-dev",
+    "libcurl4-gnutls-dev",
+    "libcurl4-openssl-dev",
+    "libncurses-dev",
+    "libnotify-dev",
+    "libopenal-dev",
+    "libqrencode-dev",
+    "libtoxcore-dev",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "freealut",
+    "gdk-pixbuf",
+    "libconfig",
+    "libnotify",
+    "libopus",
+    "libsodium",
+    "libtoxcore",
+    "libvpx",
+    "ncurses",
+    "openal-soft",
+    "pkg-config-wrapper",
+    "qrencode"
+  ],
+  "map": {
+    "libnotify-dev": "libnotify",
+    "libqrencode-dev": "qrencode",
+    "libcurl4-openssl-dev": "curl",
+    "libalut-dev": "freealut",
+    "libopenal-dev": "openal-soft",
+    "libncurses-dev": "ncurses",
+    "libtoxcore-dev": "libtoxcore",
+    "libconfig-dev": "libconfig",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "tarlz",
+  "nix_pkg": null,
+  "control_file_hash": "45f49869a22aaa46792602821b70de13974e4defbeb010cb3e61e38c92aae655",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblz-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "lzip",
+    "lzlib",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "liblz-dev": "lzlib"
+  }
+}
