@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "freewheeling",
+  "nix_pkg": null,
+  "control_file_hash": "60e1521584a9678c011e8a0dcf476adbfdeab101a450d99ceaee29e9f2a256a0",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "jackd",
+    "libfluidsynth-dev",
+    "libfreetype6-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libsdl-gfx1.2-dev",
+    "libsdl-ttf2.0-dev",
+    "libsndfile-dev",
+    "libvorbis-dev",
+    "libx11-dev",
+    "libxml2-dev",
+    "nettle-dev",
+    "ttf-bitstream-vera"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_gfx",
+    "SDL_ttf",
+    "alsa-lib",
+    "fluidsynth",
+    "freetype",
+    "gnutls",
+    "libSM",
+    "libjack2",
+    "liblo",
+    "libogg",
+    "libsndfile",
+    "libtool",
+    "libvorbis",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libvorbis-dev": "libvorbis",
+    "libsndfile-dev": "libsndfile",
+    "libfluidsynth-dev": "fluidsynth",
+    "liblo-dev": "liblo",
+    "libsdl-gfx1.2-dev": "SDL_gfx",
+    "libxml2-dev": "libxml2",
+    "libsdl-ttf2.0-dev": "SDL_ttf"
+  }
+}

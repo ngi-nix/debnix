@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "cp2k",
+  "nix_pkg": null,
+  "control_file_hash": "cdd422ec149e6fcda0b9847eac73f77115fe9c3401c011eae88ce2bef9fdd751",
+  "deb_inputs": [
+    "bc",
+    "bison",
+    "cp2k-data",
+    "debhelper",
+    "default-jre-headless",
+    "flex",
+    "gfortran",
+    "libblas-dev",
+    "libelpa-dev",
+    "libfftw3-dev",
+    "libint2-dev",
+    "liblapack-dev",
+    "libsaxonb-java",
+    "libscalapack-mpi-dev",
+    "libsymspg-dev",
+    "libxc-dev",
+    "mpi-default-dev",
+    "pkg-config",
+    "python3"
+  ],
+  "nix_inputs": [
+    "blas",
+    "fftw-double",
+    "gfortran-wrapper",
+    "gsl",
+    "lapack",
+    "libint",
+    "libvori",
+    "libxc",
+    "libxsmm",
+    "openmpi",
+    "openssh",
+    "pkg-config-wrapper",
+    "python3",
+    "scalapack",
+    "spglib",
+    "which"
+  ],
+  "map": {
+    "libint2-dev": "libint",
+    "python3": "python3",
+    "libscalapack-mpi-dev": "scalapack",
+    "libsymspg-dev": "spglib",
+    "libxc-dev": "libxc",
+    "liblapack-dev": "lapack",
+    "libblas-dev": "blas"
+  }
+}

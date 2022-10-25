@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "litecli",
+  "nix_pkg": null,
+  "control_file_hash": "730bef0e9448b75ce20d2f68294e84fe62b98ff9d0d027625725bd307d79b180",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3",
+    "python3-cli-helpers",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cli_helpers",
+    "click",
+    "configobj",
+    "mock",
+    "prompt-toolkit",
+    "pygments",
+    "python3",
+    "sqlparse"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-cli-helpers": "cli_helpers"
+  }
+}

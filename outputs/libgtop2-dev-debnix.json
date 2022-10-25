@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libgtop2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9bd9f78662da3689d900ce483da908a2420bc3b77d57a7e52f728bfc048ce67c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gettext",
+    "gir1.2-gtop-2.0",
+    "gtk-doc-tools",
+    "libbsd-dev",
+    "libdevstat-dev",
+    "libgeom-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtop-2.0-11",
+    "libgtop2-common",
+    "libkvm-dev",
+    "libxau-dev",
+    "libxt-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "gettext": "gettext",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

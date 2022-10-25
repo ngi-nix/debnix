@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ecdsautils",
+  "nix_pkg": null,
+  "control_file_hash": "480f4232b2ebc005d4a8d88da43d902ae52a7d0482bb722f7eb7fe8f4f571de6",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libuecc-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "libuecc",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libuecc-dev": "libuecc"
+  }
+}

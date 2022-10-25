@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "fstrcmp",
+  "nix_pkg": null,
+  "control_file_hash": "7b379f78f0d3627024d783063649c6d72336ed5903ee7826824e810dc98d8d85",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript",
+    "groff",
+    "libfstrcmp0",
+    "libtool",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "ghostscript-with-X",
+    "groff",
+    "libtool"
+  ],
+  "map": {
+    "libtool-bin": "libtool",
+    "groff": "groff",
+    "libtool": "libtool"
+  }
+}

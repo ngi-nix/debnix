@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libgrantlee5-dev",
+  "nix_pkg": null,
+  "control_file_hash": "81777099efa3a31704194da3a20d3a2351f0a87dde78782e9d2ed4e98ee63ecf",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgrantlee-templates5",
+    "libgrantlee-textdocument5",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qt"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libzzip-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9731c363ebf06d5260d772f5981f6de2cb5c99682065c80aedb9c19ecbfb6ada",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "libzzip-0-13",
+    "pkg-config",
+    "python3:native",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "xmlto",
+    "zip",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib",
+    "zip": "zip"
+  }
+}

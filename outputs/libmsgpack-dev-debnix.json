@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libmsgpack-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5267aa726b6a3576d7a8679864ae71aaf556fdbb1a6ac0b4b52caa38c130b98e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgtest-dev",
+    "libmsgpack-cxx-dev",
+    "libmsgpack-doc",
+    "libmsgpackc2",
+    "ninja-build",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

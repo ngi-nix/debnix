@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "liblz-dev",
+  "nix_pkg": null,
+  "control_file_hash": "61badeda6f0108b21bc4679ec006cbf814f902ada6459e016f7a7d7a81c2aad4",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "liblz1",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "lzip",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo"
+  }
+}

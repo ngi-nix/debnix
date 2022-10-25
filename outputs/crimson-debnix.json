@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "crimson",
+  "nix_pkg": null,
+  "control_file_hash": "b0a83af60b8e59002d7e82584642b56ad8a1583604e0a2dae9e2dda0ffda727e",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libsdl-mixer1.2-dev",
+    "libsdl-ttf2.0-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "glibc-locales",
+    "unzip"
+  ],
+  "map": {}
+}

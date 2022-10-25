@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "librdf0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "19de23ebd3ec6994b388feb5b7a9fd65aea2a29a2f57103f3c775bcdc3c8a717",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "default-libmysqlclient-dev",
+    "dh-autoreconf",
+    "gtk-doc-tools",
+    "libdb-dev",
+    "libltdl-dev",
+    "libpq-dev",
+    "libraptor2-dev",
+    "librasqal3-dev",
+    "librdf-perl",
+    "librdf-ruby",
+    "librdf-storage-mysql",
+    "librdf-storage-postgresql",
+    "librdf-storage-sqlite",
+    "librdf-storage-virtuoso",
+    "librdf0",
+    "libsqlite3-dev",
+    "libtool",
+    "perl",
+    "python-librdf",
+    "redland-utils",
+    "unixodbc-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "gmp-with-cxx",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "pcre",
+    "perl",
+    "pkg-config-wrapper",
+    "rasqal",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "perl": "perl",
+    "librasqal3-dev": "rasqal"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "klayout",
+  "nix_pkg": null,
+  "control_file_hash": "244d5065383b3c047afc9905b88d49ec241f308bc03ff3e8f91ca2026959c6b7",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libpython3-dev",
+    "libqt5svg5-dev",
+    "libqt5xmlpatterns5-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "qttools5-dev",
+    "ruby-dev",
+    "txt2man",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "python3",
+    "qtbase",
+    "qtmultimedia",
+    "qttools",
+    "qtxmlpatterns",
+    "ruby",
+    "which"
+  ],
+  "map": {
+    "ruby-dev": "ruby",
+    "qttools5-dev": "qttools",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "lie",
+  "nix_pkg": null,
+  "control_file_hash": "57c987be1985d18e76ad782c4cfd47b641c7120eceeff350a9d8599f07b5ecfa",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dh-exec",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "readline"
+  ],
+  "map": {
+    "bison": "bison",
+    "libreadline-dev": "readline"
+  }
+}

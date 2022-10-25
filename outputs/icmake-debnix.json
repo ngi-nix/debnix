@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "icmake",
+  "nix_pkg": null,
+  "control_file_hash": "05f98d863a72d970a0a4ea3817a08331ab438e0b51d924992af3b974139e65d8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "icmake-doc",
+    "libbobcat-dev"
+  ],
+  "nix_inputs": [
+    "gcc-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "f3d",
+  "nix_pkg": null,
+  "control_file_hash": "e63c8e6801180148c87bf85f461f052ae26220142e45f81f187870a11a4d3396",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libassimp-dev",
+    "libvtk9-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libGL",
+    "libX11",
+    "vtk"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libvtk9-dev": "vtk"
+  }
+}

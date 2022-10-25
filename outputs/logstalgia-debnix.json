@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "logstalgia",
+  "nix_pkg": null,
+  "control_file_hash": "7d678eb76c06416793d93d0d3f8d4ac873f0bb9d77f6bfd0a6ec1ece6202492a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "libboost-filesystem-dev",
+    "libfreetype6-dev",
+    "libglew-dev",
+    "libglm-dev",
+    "libpcre2-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "boost",
+    "freetype",
+    "ftgl",
+    "glew",
+    "glm",
+    "glu",
+    "libGL",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libglew-dev": "glew",
+    "libglm-dev": "glm",
+    "libpcre2-dev": "pcre"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "hunt",
+  "nix_pkg": null,
+  "control_file_hash": "4cd3f5caae80019907d0fb445d8a2eb9e187ebf3c20b9d47ab5e4f88c6b674b4",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "gosu",
+  "nix_pkg": null,
+  "control_file_hash": "090bdf1efaacb0c30ac3bf2110645d315801c52ebf5c57a8ec92efe486f16257",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-opencontainers-runc-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "inspectrum",
+  "nix_pkg": null,
+  "control_file_hash": "73d4ddaf6c5cebb5b3cbbbc6d7576786184905398af7c0b1b08a767f62868ff1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfftw3-dev",
+    "libliquid-dev",
+    "pkg-config",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fftw-single",
+    "gnuradio",
+    "liquid-dsp",
+    "pkg-config-wrapper",
+    "qtbase",
+    "volk"
+  ],
+  "map": {
+    "libliquid-dev": "liquid-dsp",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

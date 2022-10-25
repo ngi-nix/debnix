@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "librtmidi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a694c1829dddc47b049df2e9d3169146ee15cb0388a28047878e2e913275cae2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libjs-jquery",
+    "librtaudio-dev",
+    "librtmidi-doc",
+    "librtmidi6"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "cmake",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

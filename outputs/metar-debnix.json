@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "metar",
+  "nix_pkg": null,
+  "control_file_hash": "c923d074ef6ada21ba48fdac46a2502f329b28a12efed523147c9129c543ba13",
+  "deb_inputs": [
+    "debhelper",
+    "libcurl4-openssl-dev"
+  ],
+  "nix_inputs": [
+    "curl"
+  ],
+  "map": {
+    "libcurl4-openssl-dev": "curl"
+  }
+}

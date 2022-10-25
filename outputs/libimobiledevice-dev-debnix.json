@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libimobiledevice-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b4983cfe369a8033fb7d1294787089be66740efc83287d5241b00f434bcd9d16",
+  "deb_inputs": [
+    "autoconf-archive",
+    "cython3",
+    "debhelper-compat",
+    "dh-python",
+    "libgcrypt20-dev",
+    "libglib2.0-dev",
+    "libimobiledevice6",
+    "libjs-jquery",
+    "libplist-dev",
+    "libssl-dev",
+    "libtasn1-6-dev",
+    "libusb-1.0-0-dev",
+    "libusbmuxd-dev",
+    "libusbmuxd-tools",
+    "python3-dev",
+    "python3-plist",
+    "usbmuxd"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libgcrypt",
+    "libimobiledevice-glue",
+    "libplist",
+    "libtasn1",
+    "libusbmuxd",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libusbmuxd-dev": "libusbmuxd",
+    "libplist-dev": "libplist",
+    "python3-plist": "libplist",
+    "libusbmuxd-tools": "libusbmuxd",
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

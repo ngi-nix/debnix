@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "go-md2man",
+  "nix_pkg": null,
+  "control_file_hash": "c5059babe6abb67028e88089abeafef89730918e5a44ae7ef56531ca648e73d7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-russross-blackfriday-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

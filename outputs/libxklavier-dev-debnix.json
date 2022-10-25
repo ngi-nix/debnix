@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libxklavier-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6077df1183d5599d65fef0c58cd8306204d2a8fe7fa90482626cf7cb6f2a664b",
+  "deb_inputs": [
+    "debhelper",
+    "gir1.2-xkl-1.0",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "iso-codes",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libx11-dev",
+    "libxi-dev",
+    "libxkbfile-dev",
+    "libxklavier16",
+    "libxml2-dev",
+    "libxt-dev",
+    "pkg-config",
+    "x11-xkb-utils",
+    "xkb-data"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "iso-codes",
+    "libICE",
+    "libX11",
+    "libXi",
+    "libxkbfile",
+    "libxml2",
+    "pkg-config-wrapper",
+    "xkeyboard-config"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "gtk-doc-tools": "gtk-doc",
+    "iso-codes": "iso-codes",
+    "libxkbfile-dev": "libxkbfile",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "xkb-data": "xkeyboard-config",
+    "libx11-dev": "libX11",
+    "libxml2-dev": "libxml2",
+    "libglib2.0-doc": "glib",
+    "libxi-dev": "libXi"
+  }
+}

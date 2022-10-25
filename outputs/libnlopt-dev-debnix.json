@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libnlopt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "866538723256f90bfc630a93d9cd7e3218abe6e368274ef742910b885a7654a7",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "dh-octave",
+    "dh-python",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "libjs-highlight.js",
+    "libjs-jquery",
+    "libjs-mathjax",
+    "libnlopt-cxx0",
+    "libnlopt-dev",
+    "libnlopt0",
+    "python3-all-dev",
+    "python3-numpy",
+    "sphinx-rtd-theme-common",
+    "swig"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

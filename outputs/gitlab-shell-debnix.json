@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "gitlab-shell",
+  "nix_pkg": null,
+  "control_file_hash": "d3d8be02e2df4edbd72007ff8032b7e6e7108b0abd1afa5c4cb3845299fb0db1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-gitaly-proto-dev",
+    "golang-github-client9-reopen-dev",
+    "golang-github-davecgh-go-spew-dev",
+    "golang-github-golang-jwt-jwt-dev",
+    "golang-github-grpc-ecosystem-go-grpc-prometheus-dev",
+    "golang-github-hashicorp-yamux-dev",
+    "golang-github-mattn-go-shellwords-dev",
+    "golang-github-opentracing-opentracing-go-dev",
+    "golang-github-otiai10-copy-dev",
+    "golang-github-pires-go-proxyproto-dev",
+    "golang-github-pmezard-go-difflib-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-sebest-xff-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-gitlab-gitlab-org-gitaly-dev",
+    "golang-gitlab-gitlab-org-labkit-dev",
+    "golang-go",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-text-dev",
+    "golang-google-genproto-dev",
+    "golang-google-grpc-dev",
+    "golang-google-protobuf-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "golang-goprotobuf-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "ruby"
+  ],
+  "map": {}
+}

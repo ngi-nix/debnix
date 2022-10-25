@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "directvnc",
+  "nix_pkg": null,
+  "control_file_hash": "7c92f570a760879ebe0d761f77f05f970816636bd569c62384af32a839611dc7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdirectfb-dev",
+    "libjpeg-dev",
+    "pkg-config",
+    "x11proto-core-dev",
+    "x11proto-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "directfb",
+    "libjpeg-turbo",
+    "pkg-config-wrapper",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "zlib1g-dev": "zlib",
+    "x11proto-core-dev": "xorgproto",
+    "x11proto-dev": "xorgproto",
+    "libdirectfb-dev": "directfb"
+  }
+}

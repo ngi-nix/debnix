@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libyara9",
+  "nix_pkg": null,
+  "control_file_hash": "3fd876df6f56a837a82e116b29a9457c6c04e8ef2597ac48b4d879882ba9c1ec",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libjansson-dev",
+    "libmagic-dev",
+    "libssl-dev",
+    "libyara9",
+    "pkg-config",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "file",
+    "jansson",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper",
+    "protobuf-c"
+  ],
+  "map": {
+    "libmagic-dev": "file",
+    "libjansson-dev": "jansson",
+    "libssl-dev": "openssl"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "liblrdf0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "55779244b26dc4f9bbd4e4653fe5120b929b934f05f02a8f27a2a4a6bd0b20af",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "cdbs",
+    "d-shlibs",
+    "debhelper",
+    "dh-buildinfo",
+    "ladspa-sdk",
+    "liblrdf0",
+    "liblrdf0-dev",
+    "libraptor2-dev",
+    "libtool",
+    "licensecheck",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "raptor2"
+  ],
+  "map": {
+    "libraptor2-dev": "raptor2"
+  }
+}

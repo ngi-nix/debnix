@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libbtbb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f1a1cd5733fc42a085cc4ec81a225e339a0747fa14f501fb00f09558b8c18aba",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbtbb1",
+    "libpcap-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

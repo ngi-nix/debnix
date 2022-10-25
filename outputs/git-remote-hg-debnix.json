@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "git-remote-hg",
+  "nix_pkg": null,
+  "control_file_hash": "aac325e90a6b46faa7aa9584aa386ef38576ae938a437fd7912b4261f6a64aa6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "git",
+    "git-doc",
+    "mercurial"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt",
+    "mercurial",
+    "python3",
+    "xmlto"
+  ],
+  "map": {
+    "mercurial": "mercurial"
+  }
+}

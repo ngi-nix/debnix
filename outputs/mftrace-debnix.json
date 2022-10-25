@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "mftrace",
+  "nix_pkg": null,
+  "control_file_hash": "09491ee0685ada6d41bf2b50ba1203b3046b055203768a788edc65a20d7fb7a0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "fontforge",
+    "ghostscript",
+    "potrace",
+    "python3-all",
+    "t1utils",
+    "texinfo",
+    "texlive-base-bin",
+    "texlive-fonts-extra",
+    "texlive-fonts-recommended"
+  ],
+  "nix_inputs": [
+    "fontforge",
+    "potrace",
+    "python3"
+  ],
+  "map": {
+    "fontforge": "fontforge",
+    "potrace": "potrace"
+  }
+}

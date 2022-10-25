@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libczmq-dev",
+  "nix_pkg": null,
+  "control_file_hash": "216b8c08e6314ca1a3b86d8919f3432ed579ccb46f5007c0476a9a745c985a81",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper-compat",
+    "libczmq4",
+    "libnss3-dev",
+    "libsystemd-dev",
+    "libzmq3-dev",
+    "pkg-config",
+    "uuid-dev",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "zeromq"
+  ],
+  "map": {
+    "libzmq3-dev": "zeromq"
+  }
+}
