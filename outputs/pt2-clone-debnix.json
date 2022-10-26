@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "pt2-clone",
+  "nix_pkg": null,
+  "control_file_hash": "ff3fccf9fa7495e0681674b9e03464827992713c69d59455a24c50cc99ae0f93",
+  "deb_inputs": [
+    "bambootracker",
+    "cheesecutter",
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "hivelytracker",
+    "klystrack",
+    "libsdl2-dev",
+    "milkytracker",
+    "modplug-tools",
+    "opencubicplayer",
+    "schism"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "alsa-lib",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

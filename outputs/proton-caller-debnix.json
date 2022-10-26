@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "proton-caller",
+  "nix_pkg": null,
+  "control_file_hash": "f61d3f9635ba064e338b5f6279af38320aabc602bde18d88add18ec7f9a164a0",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-bincode-1+default-dev",
+    "librust-jargon-args-0.2+default-dev",
+    "librust-lliw-0.2+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-toml-0.5+default-dev",
+    "libstd-rust-dev",
+    "rustc:native",
+    "steam"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

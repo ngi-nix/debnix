@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "prometheus-smokeping-prober",
+  "nix_pkg": null,
+  "control_file_hash": "dcd7a7224a338ecf8685516592c0a973d6d1ec985cb676fc484bf0bb40825c25",
+  "deb_inputs": [
+    "adduser",
+    "debconf",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-go-kit-log-dev",
+    "golang-github-go-ping-ping-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-golang-x-sync-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "libcap2-bin"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

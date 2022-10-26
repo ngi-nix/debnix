@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "radsecproxy",
+  "nix_pkg": null,
+  "control_file_hash": "3fb5c2332c97a44f31c82623d92109b46aab033377f26b8d4d78dbdbc9087db4",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libssl-dev",
+    "lsb-base",
+    "nettle-dev"
+  ],
+  "nix_inputs": [
+    "nettle",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "nettle-dev": "nettle"
+  }
+}

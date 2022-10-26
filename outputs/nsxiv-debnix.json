@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "nsxiv",
+  "nix_pkg": null,
+  "control_file_hash": "4c33cc29033f96ad49b7872e51370299072c8dbba0f6dcd92159ee981c33726b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "imagemagick",
+    "libexif-dev",
+    "libfontconfig-dev",
+    "libfreetype-dev",
+    "libgif-dev",
+    "libimlib2-dev",
+    "libinotifytools0-dev",
+    "libjpeg-progs",
+    "libwebp-dev",
+    "libxft-dev",
+    "rawtherapee",
+    "xclip"
+  ],
+  "nix_inputs": [
+    "giflib",
+    "imlib2",
+    "libXft",
+    "libexif",
+    "libwebp"
+  ],
+  "map": {
+    "libxft-dev": "libXft",
+    "libimlib2-dev": "imlib2",
+    "libwebp-dev": "libwebp",
+    "libgif-dev": "giflib",
+    "libexif-dev": "libexif"
+  }
+}

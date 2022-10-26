@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "oroborus",
+  "nix_pkg": null,
+  "control_file_hash": "f22770cab67fef166f5983cd19da02f4f022a92c0c2e601514a6f8bae4a82e43",
+  "deb_inputs": [
+    "debhelper",
+    "desklaunch",
+    "deskmenu",
+    "keylaunch",
+    "libice-dev",
+    "libsm-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxpm-dev",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "fribidi",
+    "libICE",
+    "libSM",
+    "libXaw",
+    "libXext",
+    "libXft",
+    "libXinerama",
+    "libXmu",
+    "libXpm",
+    "libXrandr",
+    "libXrender",
+    "libXt",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libxext-dev": "libXext",
+    "libxpm-dev": "libXpm",
+    "x11proto-core-dev": "xorgproto",
+    "libsm-dev": "libSM",
+    "libice-dev": "libICE"
+  }
+}

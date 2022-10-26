@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "pcb2gcode",
+  "nix_pkg": null,
+  "control_file_hash": "b7ba6a8460ab0e575a23e445e88de9d55cb97522053a6a16da453e00ea36f366",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "dh-autoreconf",
+    "gerbv",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libgtkmm-2.4-dev",
+    "pcb2gcode"
+  ],
+  "nix_inputs": [
+    "boost",
+    "gerbv",
+    "glibmm",
+    "gtkmm",
+    "librsvg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gerbv": "gerbv",
+    "libboost-dev": "boost",
+    "libgtkmm-2.4-dev": "gtkmm"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "prometheus-ipmi-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "6251576b92766445518bc091e15bd688ec4358cc05e29cf657395798e5d2d390",
+  "deb_inputs": [
+    "adduser",
+    "daemon",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "freeipmi-tools",
+    "golang-github-go-kit-log-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-go",
+    "golang-gopkg-alecthomas-kingpin.v2-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "systemd-sysv"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

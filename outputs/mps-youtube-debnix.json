@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "mps-youtube",
+  "nix_pkg": null,
+  "control_file_hash": "1ea886ccdb09a0af32a9df7f7be252b13d8bbc17ae6cacb2136044f8d8a3d31e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "ffmpeg",
+    "libnotify4",
+    "mpv",
+    "python3-all",
+    "python3-dbus",
+    "python3-gi",
+    "python3-pafy",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "xclip"
+  ],
+  "nix_inputs": [
+    "pafy",
+    "python3"
+  ],
+  "map": {
+    "python3-pafy": "pafy"
+  }
+}

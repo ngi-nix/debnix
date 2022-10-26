@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "remake",
+  "nix_pkg": null,
+  "control_file_hash": "2c9eb822fcf92385e8aa58906de0a45880c9057ad22a08f92eef4fb06f307a7d",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autopoint",
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "gettext",
+    "guile-3.0-dev",
+    "libreadline-dev",
+    "libreadline6-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline6-dev": "readline",
+    "libreadline-dev": "readline"
+  }
+}
