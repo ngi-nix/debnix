@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "libipe7.2.26",
+  "nix_pkg": null,
+  "control_file_hash": "516e195227634798a8e0151ec846f78189c231447b49a4f7333b3d9a219d7d4d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "fonts-urw-base35",
+    "libcairo2-dev",
+    "libcurl4-openssl-dev",
+    "libfreetype6-dev",
+    "libgsl-dev",
+    "libipe7.2.26",
+    "libjpeg-dev",
+    "liblua5.3-dev",
+    "libpng-dev",
+    "libqtspell-qt5-dev",
+    "libspiro-dev",
+    "lua5.3",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "sensible-utils",
+    "sharutils",
+    "texlive-latex-base",
+    "texlive-latex-recommended",
+    "xdg-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "freetype",
+    "ghostscript-with-X",
+    "gsl",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libspiro",
+    "lua",
+    "pkg-config-wrapper",
+    "qtbase",
+    "zlib"
+  ],
+  "map": {
+    "libgsl-dev": "gsl",
+    "liblua5.3-dev": "lua",
+    "lua5.3": "lua",
+    "zlib1g-dev": "zlib",
+    "libfreetype6-dev": "freetype",
+    "libspiro-dev": "libspiro",
+    "libcairo2-dev": "cairo",
+    "libjpeg-dev": "libjpeg-turbo",
+    "qtbase5-dev": "qtbase"
+  }
+}

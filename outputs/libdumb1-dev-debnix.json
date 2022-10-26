@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libdumb1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "22031f18c75e43b06a98f70c41d607d23e92b21fe1d1cc5e4b8562a431147d88",
+  "deb_inputs": [
+    "debhelper",
+    "libaldmb1",
+    "liballegro4-dev",
+    "libdumb1",
+    "libdumb1-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "allegro",
+    "cmake"
+  ],
+  "map": {
+    "liballegro4-dev": "allegro"
+  }
+}

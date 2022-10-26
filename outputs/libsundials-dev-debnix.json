@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "libsundials-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0b0336fdd17680c0b1064b7726f9d9ba180572f5c4776f271bdbf4cb0e5750f4",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "gfortran",
+    "libblas-dev",
+    "libblas.so",
+    "libhypre-dev",
+    "liblapack-dev",
+    "liblapack.so",
+    "libsuitesparse-dev",
+    "libsundials-arkode3",
+    "libsundials-cvode4",
+    "libsundials-cvodes4",
+    "libsundials-ida4",
+    "libsundials-idas3",
+    "libsundials-kinsol4",
+    "libsundials-nvecparallel-hypre4",
+    "libsundials-nvecparallel-mpi4",
+    "libsundials-nvecparallel-openmp4",
+    "libsundials-nvecparallel-petsc4",
+    "libsundials-nvecparallel-pthread4",
+    "libsundials-nvecserial4",
+    "libsundials-sunlinsol2",
+    "libsundials-sunmatrix2",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "petsc-dev",
+    "pkg-config",
+    "python3"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "gfortran-wrapper",
+    "lapack",
+    "python3",
+    "suitesparse"
+  ],
+  "map": {
+    "libsuitesparse-dev": "suitesparse",
+    "liblapack-dev": "lapack",
+    "python3": "python3",
+    "cmake": "cmake",
+    "libblas-dev": "blas"
+  }
+}

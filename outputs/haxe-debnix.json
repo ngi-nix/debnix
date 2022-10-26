@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "haxe",
+  "nix_pkg": null,
+  "control_file_hash": "1d2627a3f9b802ef66ce1f99e65e8e3e0fa75b6ad6698e455f326b57557d6962",
+  "deb_inputs": [
+    "bash-completion",
+    "camlp5",
+    "debhelper",
+    "dh-ocaml",
+    "libextlib-ocaml-dev",
+    "libluv-ocaml-dev",
+    "libmbedtls-dev",
+    "libpcre3-dev",
+    "libptmap-ocaml-dev",
+    "libsedlex-ocaml-dev",
+    "libsha-ocaml-dev",
+    "libuv1-dev",
+    "libxml-light-ocaml-dev",
+    "neko",
+    "ocaml-dune",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "camlp5",
+    "dune",
+    "luv",
+    "mbedtls",
+    "neko",
+    "ocaml",
+    "ocaml4.12.1-extlib",
+    "ocaml4.12.1-findlib",
+    "ocaml4.12.1-xml-light",
+    "pcre",
+    "ptmap",
+    "sedlex",
+    "sha",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libpcre3-dev": "pcre",
+    "camlp5": "camlp5",
+    "neko": "neko",
+    "ocaml-nox": "ocaml",
+    "libmbedtls-dev": "mbedtls"
+  }
+}

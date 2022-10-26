@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "curseofwar",
+  "nix_pkg": null,
+  "control_file_hash": "f9b61c4a8e7b4792090f7e41792cecf07708c3e6bbdb190d066e16604e6cf2b0",
+  "deb_inputs": [
+    "debhelper",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

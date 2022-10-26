@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libhyperscan-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e8879b51b38923b43d20f4d3dff52ebcdd1dd456dcdead5aa20593ffec48510a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-dev",
+    "libhyperscan5",
+    "libpcap-dev",
+    "pkg-config",
+    "po-debconf",
+    "python3",
+    "ragel"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "python3",
+    "ragel",
+    "util-linux"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "ragel": "ragel",
+    "cmake": "cmake",
+    "python3": "python3"
+  }
+}

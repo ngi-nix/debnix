@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "httpdirfs",
+  "nix_pkg": null,
+  "control_file_hash": "8c3cb584ca6f91ed357b6c4dde84c250724ff609394fef9a13302d7270dbf91b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fuse",
+    "help2man",
+    "libcurl4-openssl-dev",
+    "libexpat1-dev",
+    "libfuse-dev",
+    "libgumbo-dev",
+    "libssl-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "expat",
+    "fuse",
+    "gumbo",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libfuse-dev": "fuse",
+    "libcurl4-openssl-dev": "curl",
+    "libexpat1-dev": "expat",
+    "libgumbo-dev": "gumbo"
+  }
+}

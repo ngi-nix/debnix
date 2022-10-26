@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "cog",
+  "nix_pkg": null,
+  "control_file_hash": "424933a080f332c79f0c54c87577185ec1550f382e10845c6e19cb3822dbbd75",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo-dev",
+    "libdrm-dev",
+    "libgbm-dev",
+    "libinput-dev",
+    "libmanette-0.2-dev",
+    "libwayland-dev",
+    "libwpebackend-fdo-1.0-dev",
+    "libwpewebkit-1.1-dev",
+    "meson",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "cmake",
+    "gdk-pixbuf",
+    "glib-networking",
+    "libwpe",
+    "pkg-config-wrapper",
+    "wayland",
+    "wayland-protocols",
+    "webkitgtk",
+    "wpebackend-fdo"
+  ],
+  "map": {
+    "libwpebackend-fdo-1.0-dev": "wpebackend-fdo",
+    "libwayland-dev": "wayland",
+    "wayland-protocols": "wayland-protocols"
+  }
+}

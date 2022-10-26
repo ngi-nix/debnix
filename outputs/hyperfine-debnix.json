@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "hyperfine",
+  "nix_pkg": null,
+  "control_file_hash": "c7e62a95952d34af1c5c70ca0190d795a5a3162d8b78c597c7fe8dff632db550",
+  "deb_inputs": [
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-anyhow-1+default-dev",
+    "librust-atty-0.2+default-dev",
+    "librust-clap-3+cargo-dev",
+    "librust-clap-3+color-dev",
+    "librust-clap-3+default-dev",
+    "librust-clap-3+suggestions-dev",
+    "librust-clap-3+wrap-help-dev",
+    "librust-clap-complete-3+default-dev",
+    "librust-colored-2+default-dev",
+    "librust-csv-1+default-dev",
+    "librust-indicatif-0.16+default-dev",
+    "librust-libc-0.2+default-dev",
+    "librust-nix-0+default-dev",
+    "librust-nix-0+zerocopy-dev",
+    "librust-once-cell-1+default-dev",
+    "librust-rand-0.8+default-dev",
+    "librust-rust-decimal-1+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-shell-words-1+default-dev",
+    "librust-statistical-1+default-dev",
+    "librust-thiserror-1+default-dev",
+    "librust-winapi-0.3+default-dev",
+    "librust-winapi-0.3+jobapi2-dev",
+    "librust-winapi-0.3+minwindef-dev",
+    "librust-winapi-0.3+processthreadsapi-dev",
+    "librust-winapi-0.3+tlhelp32-dev",
+    "librust-winapi-0.3+winnt-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "librust-libc-0.2+default-dev": "rustc",
+    "libstd-rust-dev": "rustc"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "copyright-update",
+  "nix_pkg": null,
+  "control_file_hash": "ba84c3b515f1ca1b0c2a5def92e887f1d0aee35e791ca45e932abbe96e09a033",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

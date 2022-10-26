@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "dragonfly-reverb-standalone",
+  "nix_pkg": null,
+  "control_file_hash": "8c5e6dfbdecd914a15f082ed5c3a6a3cd56a7a4763dcd246e2ea79b4078fba96",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dragonfly-reverb-lv2",
+    "dragonfly-reverb-standalone",
+    "dragonfly-reverb-vst",
+    "libfftw3-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "liblo-dev",
+    "libsamplerate0-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libGL",
+    "libX11",
+    "libjack2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgl-dev": "libGL",
+    "libx11-dev": "libX11"
+  }
+}

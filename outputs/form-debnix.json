@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "form",
+  "nix_pkg": null,
+  "control_file_hash": "f83111160a442223bd7f521dcd2670caec63e7faa20121c8e91404a4b7394b41",
+  "deb_inputs": [
+    "debhelper-compat",
+    "latex2html",
+    "libgmp-dev",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "ruby",
+    "strace",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-plain-generic",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

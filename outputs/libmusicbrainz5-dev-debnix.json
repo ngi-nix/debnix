@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libmusicbrainz5-dev",
+  "nix_pkg": null,
+  "control_file_hash": "41df5a9b7dc98abea05b8969f9e4c58688ba9f085547464612bf668cf9a199dc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libmusicbrainz5-2",
+    "libmusicbrainz5-doc",
+    "libmusicbrainz5cc2v5",
+    "libneon-dev",
+    "libneon27-gnutls-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libdiscid",
+    "neon"
+  ],
+  "map": {
+    "libneon27-gnutls-dev": "neon",
+    "libneon-dev": "neon",
+    "cmake": "cmake"
+  }
+}

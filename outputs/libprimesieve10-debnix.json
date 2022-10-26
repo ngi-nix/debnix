@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libprimesieve10",
+  "nix_pkg": null,
+  "control_file_hash": "617ba22d50a325979055746fadd00e51706f5bd8f3dc8f0704a47462c03d29be",
+  "deb_inputs": [
+    "asciidoc-base",
+    "cmake",
+    "debhelper-compat",
+    "libjs-jquery",
+    "libprimesieve-dev",
+    "libprimesieve-dev-common",
+    "libprimesieve10",
+    "pdf-viewer",
+    "pkg-config",
+    "primesieve-bin",
+    "primesieve-doc",
+    "www-browser",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libnice-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5d0ed499209f396609636c3a24be06a4202b9ae51ba9349eb48a72da16cbdbea",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-nice-0.1",
+    "gobject-introspection",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libgstreamer1.0-dev",
+    "libgupnp-igd-1.0-dev",
+    "libnice10",
+    "meson"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gnutls",
+    "gobject-introspection",
+    "graphviz",
+    "gst-plugins-base",
+    "gstreamer",
+    "gtk-doc",
+    "gupnp-igd",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "libgnutls28-dev": "gnutls",
+    "libgupnp-igd-1.0-dev": "gupnp-igd",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "libgstreamer1.0-dev": "gstreamer"
+  }
+}

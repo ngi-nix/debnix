@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "gobuster",
+  "nix_pkg": null,
+  "control_file_hash": "e388e4b0b18099b4adefebe1b79529d16462a0c040a87aaa2f052e0c8498ef51",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "golang-any",
+    "golang-github-google-uuid-dev",
+    "golang-github-hashicorp-go-multierror-dev",
+    "golang-golang-x-crypto-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

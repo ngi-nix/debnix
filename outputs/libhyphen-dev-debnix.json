@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libhyphen-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2b282977735ff3ad9057a4567b49f0c168b27cafe857f8b357a1418a5f743f39",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dictionaries-common",
+    "gawk",
+    "libhyphen0",
+    "libreoffice-writer",
+    "texlive-base"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

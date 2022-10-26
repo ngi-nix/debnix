@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "jid",
+  "nix_pkg": null,
+  "control_file_hash": "6783dcb4f617a6ff55a61e259a19a02c762b932db8ba61b68ac9592f41ed921b",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-bitly-go-simplejson-dev",
+    "golang-github-fatih-color-dev",
+    "golang-github-nsf-termbox-go-dev",
+    "golang-github-nwidger-jsoncolor-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-go",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

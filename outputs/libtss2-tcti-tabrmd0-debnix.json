@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libtss2-tcti-tabrmd0",
+  "nix_pkg": null,
+  "control_file_hash": "abeb6e3df7e44e6fe8900f827fa7079f26e9862a8f3a53e10b92aa0f5b296f48",
+  "deb_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "dbus",
+    "debhelper-compat",
+    "libcmocka-dev",
+    "libdbus-1-dev",
+    "libglib2.0-dev",
+    "libp11-kit-dev",
+    "libtool",
+    "libtss2-dev",
+    "libtss2-tcti-tabrmd0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "dbus",
+    "glib",
+    "pkg-config-wrapper",
+    "tpm2-tss",
+    "which"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libtss2-dev": "tpm2-tss",
+    "autoconf-archive": "autoconf-archive",
+    "dbus": "dbus",
+    "libdbus-1-dev": "dbus"
+  }
+}

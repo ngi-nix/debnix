@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libplacebo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7804f28e1532fada6ac570782772ed65ddd55584a5d958ce5613e821ee0c8bec",
+  "deb_inputs": [
+    "debhelper-compat",
+    "glslang-dev",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libepoxy-dev",
+    "liblcms2-dev",
+    "libplacebo208",
+    "libvulkan-dev",
+    "meson",
+    "ninja-build",
+    "pkg-config",
+    "python3",
+    "python3-mako",
+    "python3-setuptools",
+    "spirv-tools"
+  ],
+  "nix_inputs": [
+    "Mako",
+    "glslang",
+    "lcms2",
+    "libGL",
+    "libX11",
+    "libepoxy",
+    "libunwind",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "shaderc",
+    "vulkan-headers",
+    "vulkan-loader"
+  ],
+  "map": {
+    "glslang-dev": "glslang",
+    "meson": "meson",
+    "libepoxy-dev": "libepoxy",
+    "liblcms2-dev": "lcms2",
+    "libvulkan-dev": "vulkan-loader",
+    "python3-mako": "Mako"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "dumb-init",
+  "nix_pkg": null,
+  "control_file_hash": "4331f7e997b0801174a51f04747e4f91ec790873e90f2eb7c978992511f8e800",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "python3",
+    "python3-pytest"
+  ],
+  "nix_inputs": [
+    "glibc"
+  ],
+  "map": {}
+}

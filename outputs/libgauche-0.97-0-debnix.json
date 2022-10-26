@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libgauche-0.97-0",
+  "nix_pkg": null,
+  "control_file_hash": "79949bd4b1e20d82c649505e89167eba6c438531e736bd9c25ce84337a15bd85",
+  "deb_inputs": [
+    "debhelper",
+    "gauche",
+    "gauche-doc",
+    "gauche-gdbm",
+    "gauche-zlib",
+    "libgdbm-dev",
+    "libmbedtls-dev",
+    "libtool",
+    "netbase",
+    "openssl",
+    "pkg-config",
+    "r5rs-doc",
+    "slib",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gauche-bootstrap",
+    "gdbm",
+    "mbedtls",
+    "nss-cacert",
+    "openssl",
+    "pkg-config-wrapper",
+    "texinfo",
+    "zlib"
+  ],
+  "map": {
+    "libgdbm-dev": "gdbm",
+    "openssl": "openssl",
+    "zlib1g-dev": "zlib",
+    "texinfo": "texinfo",
+    "libmbedtls-dev": "mbedtls"
+  }
+}

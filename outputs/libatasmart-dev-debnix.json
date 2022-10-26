@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libatasmart-dev",
+  "nix_pkg": null,
+  "control_file_hash": "215bc9e5c45ffe0aa43c2856d9168c8d6c91e24c6d43fbe73764da261892fddb",
+  "deb_inputs": [
+    "debhelper",
+    "libatasmart4",
+    "libudev-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd"
+  }
+}

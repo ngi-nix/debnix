@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libfoma0",
+  "nix_pkg": null,
+  "control_file_hash": "9759ee3417424c35fe6dd4f565d3b72406123857a1bb22bc6755c46925a5d98e",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "foma",
+    "libfoma-dev",
+    "libfoma0",
+    "libreadline-dev",
+    "libtinfo-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "flex": "flex",
+    "zlib1g-dev": "zlib",
+    "bison": "bison",
+    "libreadline-dev": "readline"
+  }
+}

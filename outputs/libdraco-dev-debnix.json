@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libdraco-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9357369cc42501a6ce4eabd036ef12b05f0ce18b095a7f4407ad130489cf254c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "googletest",
+    "libdraco5",
+    "libeigen3-dev",
+    "libstb-dev",
+    "libtinygltf-dev",
+    "nlohmann-json3-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "eigen",
+    "filesystem",
+    "gtest",
+    "python3",
+    "tinygltf"
+  ],
+  "map": {
+    "libeigen3-dev": "eigen",
+    "libtinygltf-dev": "tinygltf",
+    "cmake": "cmake"
+  }
+}

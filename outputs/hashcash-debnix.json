@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "hashcash",
+  "nix_pkg": null,
+  "control_file_hash": "063aa2b67b992d5fc0c03a1f9facc7ecaa5739bf7e82c2682bcbb9cda7865f05",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {}
+}

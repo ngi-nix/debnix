@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "gopls",
+  "nix_pkg": null,
+  "control_file_hash": "92ea8c4932956c2bda3f4e070b6db1d86308c5753ad12710ce18738f2a20681c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-doc",
+    "golang-github-sergi-go-diff-dev",
+    "golang-github-yuin-goldmark-dev",
+    "golang-golang-x-mod-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-vuln-dev",
+    "golang-honnef-go-tools-dev",
+    "golang-mvdan-gofumpt-dev",
+    "golang-mvdan-xurls-dev",
+    "libjs-jquery",
+    "libjs-jquery-ui"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

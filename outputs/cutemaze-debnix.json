@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "cutemaze",
+  "nix_pkg": null,
+  "control_file_hash": "e30c5ca66baeca6f5305a5c93d5c0e87d621f7da3825a2c69eb1f1d97db512d6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5svg5-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtsvg",
+    "qttools",
+    "qtwayland"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "qtbase5-dev": "qtbase"
+  }
+}

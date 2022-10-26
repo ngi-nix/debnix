@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libairspyhf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ca3539d813098c579789246f5368b9af6c540743e4171b0df25fe1f981b0689e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libairspyhf1",
+    "libusb-1.0-0-dev",
+    "libusb2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libusb2-dev": "libusb"
+  }
+}

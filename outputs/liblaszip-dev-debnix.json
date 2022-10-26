@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "liblaszip-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d8aa7ad8dede12e5a345781f340d1c3df6aea42f0ce5f324f5f0a6fd934f534d",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper",
+    "liblaszip-api8",
+    "liblaszip8"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

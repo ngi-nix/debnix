@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "jbig2dec",
+  "nix_pkg": null,
+  "control_file_hash": "594904a08e1680bf3dcdc510fecfc6bcc10d1038ba90df6273f7bb78f289ff2c",
+  "deb_inputs": [
+    "cdbs",
+    "d-shlibs",
+    "debhelper",
+    "libjbig2dec0",
+    "libpng-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}
