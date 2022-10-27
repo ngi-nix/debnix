@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libeccodes-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1e1caca662a91155ea6f3baff58531e7f4eaae47b8d6487d195d130de0fda627",
+  "deb_inputs": [
+    "bison",
+    "chrpath",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "dh-sequence-fortran-mod",
+    "doxygen",
+    "ecbuild",
+    "flex",
+    "fortran-compiler",
+    "gfortran",
+    "ksh",
+    "libaec-dev",
+    "libboost-dev",
+    "libeccodes-data",
+    "libeccodes0",
+    "libhdf5-dev",
+    "libjpeg-dev",
+    "libjs-jquery",
+    "libnetcdf-dev",
+    "libopenjp2-7-dev",
+    "libpng-dev",
+    "mksh",
+    "pdksh",
+    "quilt",
+    "swig",
+    "zlib1g-dev",
+    "zsh"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gfortran-wrapper",
+    "libpng-apng",
+    "netcdf",
+    "openjpeg",
+    "perl"
+  ],
+  "map": {
+    "libnetcdf-dev": "netcdf",
+    "libopenjp2-7-dev": "openjpeg"
+  }
+}

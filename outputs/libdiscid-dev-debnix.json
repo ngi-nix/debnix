@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libdiscid-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bd742b2dc5b809a1f1834be08430ac14ac342b4bfb55067afb0034599cbced9c",
+  "deb_inputs": [
+    "debhelper",
+    "libdiscid-doc",
+    "libdiscid0"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

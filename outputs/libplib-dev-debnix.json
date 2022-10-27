@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libplib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "feca738960d1b7c501fdc03db8b97b0781fda799122f8c0ea01ec97854c3892e",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "freeglut3",
+    "freeglut3-dev",
+    "libgl-dev",
+    "libgl1",
+    "libgl1-mesa-dev",
+    "libgl1-mesa-glx",
+    "libplib1",
+    "libtool",
+    "libx11-dev",
+    "libxi-dev",
+    "libxmu-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "freeglut",
+    "glu",
+    "libGL",
+    "libSM",
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXmu"
+  ],
+  "map": {
+    "libxi-dev": "libXi",
+    "libxmu-dev": "libXmu",
+    "libx11-dev": "libX11",
+    "libgl-dev": "libGL",
+    "freeglut3-dev": "freeglut",
+    "freeglut3": "freeglut"
+  }
+}

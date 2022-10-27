@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libcomedi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "abb9b77c9f721fdf968a786bf15f02a6d86ec78e3a39d4b7b3061d8a476fbfb8",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "dblatex",
+    "debhelper",
+    "dh-python",
+    "docbook-utils",
+    "dpkg-dev",
+    "flex",
+    "fop",
+    "imagemagick",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libcomedi0",
+    "libgsl-dev",
+    "libtool",
+    "python3-all-dev",
+    "swig",
+    "udev",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "bison",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "flex",
+    "perl",
+    "python3",
+    "swig",
+    "xmlto"
+  ],
+  "map": {
+    "swig": "swig",
+    "xmlto": "xmlto",
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

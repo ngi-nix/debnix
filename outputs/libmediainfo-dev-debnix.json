@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libmediainfo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "53514352e94a0babecdfc0d022bdaeb4d2049fb39409e79d10507255936ee55c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "dpkg-dev",
+    "libcurl4-gnutls-dev",
+    "libglib2.0-dev",
+    "libmediainfo0v5",
+    "libmms-dev",
+    "libtinyxml2-dev",
+    "libzen-dev",
+    "pkg-config",
+    "python3-all",
+    "tofrodos",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libzen",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libzen-dev": "libzen",
+    "zlib1g-dev": "zlib"
+  }
+}

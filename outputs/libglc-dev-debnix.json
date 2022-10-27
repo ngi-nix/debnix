@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libglc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "62a906561180c35aca4488c0f750f4b51298330a75f0245f06c8994f0b350b10",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfontconfig1-dev",
+    "libfreetype6-dev",
+    "libfribidi-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglc0",
+    "libglewmx-dev",
+    "libglewmx1.5-dev",
+    "libglewmx1.6-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libz-dev"
+  ],
+  "nix_inputs": [
+    "fontconfig",
+    "freetype",
+    "fribidi",
+    "glew",
+    "glu",
+    "libGL",
+    "libX11"
+  ],
+  "map": {
+    "libgl-dev": "libGL",
+    "libfreetype6-dev": "freetype",
+    "libglu1-mesa-dev": "glu",
+    "libfontconfig1-dev": "fontconfig",
+    "libfribidi-dev": "fribidi",
+    "libglu-dev": "glu"
+  }
+}

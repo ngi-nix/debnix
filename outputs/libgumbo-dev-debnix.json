@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libgumbo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "34dffe3ab92eba8d16d089aa9f312fd656e655a796a8eb42956fa09e5c8dc1c8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-autoreconf",
+    "dh-python",
+    "libgtest-dev",
+    "libgumbo1",
+    "python3-bs4",
+    "python3-html5lib",
+    "python3-setuptools",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool"
+  ],
+  "map": {}
+}

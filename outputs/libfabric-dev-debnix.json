@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libfabric-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c61cfc36a4d4f99897c7e7df8ebfb392a54be41437f27c5742da4e91e3576ced",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libfabric1",
+    "libibverbs-dev",
+    "libpsm-infinipath1-dev",
+    "libpsm2-dev",
+    "librdmacm-dev"
+  ],
+  "nix_inputs": [
+    "libpsm2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpsm2-dev": "libpsm2"
+  }
+}

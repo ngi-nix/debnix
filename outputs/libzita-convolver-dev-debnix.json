@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libzita-convolver-dev",
+  "nix_pkg": null,
+  "control_file_hash": "86c9871cbe9ec25a07c08e3446e56f36c01230bd848fcc60249410d0360beedf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfftw3-dev",
+    "libzita-convolver4"
+  ],
+  "nix_inputs": [
+    "fftw-single"
+  ],
+  "map": {}
+}

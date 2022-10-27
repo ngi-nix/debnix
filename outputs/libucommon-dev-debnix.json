@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libucommon-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b97af9c85201a137ff30773ea2d5a5f2ddc3184846cd171ec8a34b3d7557bba6",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libgnutls28-dev",
+    "libjs-jquery",
+    "libucommon8",
+    "pkg-config",
+    "ucommon-doc",
+    "ucommon-utils"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgnutls28-dev": "gnutls"
+  }
+}

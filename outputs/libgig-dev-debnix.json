@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libgig-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8db2f927240590b39c885f5fb3a4bb51295bfa7ee4a9614a0e2afc3eaea75f54",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "doxygen",
+    "libakai0",
+    "libgig10",
+    "libjs-jquery",
+    "libsndfile1-dev",
+    "libtool",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libsndfile",
+    "libtool",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "libtool": "libtool",
+    "automake": "automake"
+  }
+}

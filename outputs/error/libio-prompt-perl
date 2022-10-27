@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "libmodule-build-perl", "libterm-readkey-perl", "libwant-perl", "perl"], or 
+output: 
+[] is empty!

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libembree-dev",
+  "nix_pkg": null,
+  "control_file_hash": "702c1e8d76445b5c08a0ba9e4aa2c4ae888a84a18fe6b3c6b56571513d94de2f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "embree-tools",
+    "freeglut3-dev",
+    "libembree3-3",
+    "libglfw3-dev",
+    "libjpeg-dev",
+    "libopenimageio-dev",
+    "libpng-dev",
+    "libtbb-dev",
+    "libxi-dev",
+    "libxmu-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glfw",
+    "ispc",
+    "libX11",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libpthread-stubs",
+    "openimageio",
+    "pkg-config-wrapper",
+    "tbb"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "cmake": "cmake",
+    "libopenimageio-dev": "openimageio",
+    "libglfw3-dev": "glfw",
+    "libtbb-dev": "tbb"
+  }
+}

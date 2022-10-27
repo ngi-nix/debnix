@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libopencsg-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7fa2be2d67e99a627428cb048f856d46a87bae6fa3ee54d0e4aed7951f27c8a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freeglut3-dev",
+    "libboost-dev",
+    "libglew-dev",
+    "libopencsg1",
+    "libxmu-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "rename"
+  ],
+  "nix_inputs": [
+    "freeglut",
+    "glew",
+    "glu",
+    "libGL",
+    "libX11",
+    "libXext",
+    "libXmu"
+  ],
+  "map": {
+    "freeglut3-dev": "freeglut",
+    "libglew-dev": "glew",
+    "libxmu-dev": "libXmu"
+  }
+}

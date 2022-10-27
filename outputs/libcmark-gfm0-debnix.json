@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libcmark-gfm0",
+  "nix_pkg": null,
+  "control_file_hash": "959e5d3368fd0ac78d0296c4391535fe66fc6265f19bad7063cf92d3657ad749",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcmark-gfm-extensions0.29.0.gfm.6",
+    "libcmark-gfm0.29.0.gfm.6",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

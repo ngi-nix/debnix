@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libsdl-sound1.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "aca146db858c1c6a9ed5fad01660d1b16d86574d006fbc9fd64295e3082c2d42",
+  "deb_inputs": [
+    "debhelper",
+    "libflac-dev",
+    "libmikmod-dev",
+    "libogg-dev",
+    "libsdl-sound1.2",
+    "libsdl1.2-dev",
+    "libsmpeg-dev",
+    "libspeex-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "flac",
+    "libmikmod",
+    "libvorbis"
+  ],
+  "map": {
+    "libflac-dev": "flac",
+    "libsdl1.2-dev": "SDL",
+    "libvorbis-dev": "libvorbis",
+    "libmikmod-dev": "libmikmod"
+  }
+}

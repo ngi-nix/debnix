@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "liboping-dev",
+  "nix_pkg": null,
+  "control_file_hash": "43b1f319a3cf85e3359573031b33b558e2909eb5191f252dca4633d0a95cc50b",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libncursesw5-dev",
+    "liboping0",
+    "perl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "perl": "perl",
+    "libncursesw5-dev": "ncurses"
+  }
+}
