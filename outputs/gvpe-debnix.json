@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gvpe",
+  "nix_pkg": null,
+  "control_file_hash": "376be54982cf194707c8fbec28d954fd47c17f91588a91b2be190eee73c146a4",
+  "deb_inputs": [
+    "debhelper",
+    "libssl-dev",
+    "lsb-base",
+    "pkg-config",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

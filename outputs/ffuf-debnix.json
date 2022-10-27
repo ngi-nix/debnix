@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "ffuf",
+  "nix_pkg": null,
+  "control_file_hash": "420c68a844af5f73eda17effab4bb868b649ade94853f4ccc888a058c0b7c23b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

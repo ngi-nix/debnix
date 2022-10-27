@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "kmscube",
+  "nix_pkg": null,
+  "control_file_hash": "a7901fd09d7dcf217d7e51d32b0bbaca42519f72e4e655e385c43700fe7f9f4b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdrm-dev",
+    "libgbm-dev",
+    "libgles2-mesa-dev",
+    "libglib2.0-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libpng-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libGL",
+    "libX11",
+    "libdrm",
+    "mesa",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdrm-dev": "libdrm",
+    "libgbm-dev": "mesa",
+    "libgles2-mesa-dev": "mesa"
+  }
+}

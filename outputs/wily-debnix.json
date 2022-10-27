@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "wily",
+  "nix_pkg": null,
+  "control_file_hash": "61618f4a3e0384290dab1d9a2dd41c8a85384f8b0146ec1ff19c44e6470052dc",
+  "deb_inputs": [
+    "9fonts",
+    "debhelper-compat",
+    "libx11-dev",
+    "libxt-dev",
+    "rc",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXt"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxt-dev": "libXt"
+  }
+}

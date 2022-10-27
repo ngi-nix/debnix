@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "bambootracker",
+  "nix_pkg": null,
+  "control_file_hash": "7fa182ffa660edb8653e3d152c99fee93f7020811e7ba5be79003c500221f118",
+  "deb_inputs": [
+    "cheesecutter",
+    "debhelper-compat",
+    "hivelytracker",
+    "klystrack",
+    "libasound2-dev",
+    "libjack-dev",
+    "libjack-jackd2-dev",
+    "libpulse-dev",
+    "libqt5multimedia5-plugins",
+    "librtaudio-dev",
+    "librtmidi-dev",
+    "modplug-tools",
+    "opencubicplayer",
+    "protracker",
+    "qtmultimedia5-dev",
+    "qttools5-dev-tools",
+    "schism"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools",
+    "rtaudio",
+    "rtmidi"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools",
+    "librtmidi-dev": "rtmidi",
+    "librtaudio-dev": "rtaudio"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "topydo",
+  "nix_pkg": null,
+  "control_file_hash": "75f1fc3d29ad23004916e56b907976a48501faec6a7c5254a6d26e385b99e4cf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pandoc",
+    "python3-all",
+    "python3-arrow",
+    "python3-freezegun",
+    "python3-icalendar",
+    "python3-prompt-toolkit",
+    "python3-setuptools",
+    "python3-urwid",
+    "python3-watchdog",
+    "todo.txt-base"
+  ],
+  "nix_inputs": [
+    "arrow",
+    "freezegun",
+    "glibc-locales",
+    "icalendar",
+    "mock",
+    "prompt-toolkit",
+    "pylint",
+    "python3",
+    "urwid",
+    "watchdog"
+  ],
+  "map": {
+    "python3-urwid": "urwid",
+    "python3-freezegun": "freezegun",
+    "python3-prompt-toolkit": "prompt-toolkit"
+  }
+}

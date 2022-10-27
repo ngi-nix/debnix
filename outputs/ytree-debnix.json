@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ytree",
+  "nix_pkg": null,
+  "control_file_hash": "53235aeb98b47cccd55146e84fbf9140f18a55267d731de77372a9f55d73efe2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncursesw5-dev",
+    "libreadline-dev",
+    "mime-support"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libncursesw5-dev": "ncurses"
+  }
+}

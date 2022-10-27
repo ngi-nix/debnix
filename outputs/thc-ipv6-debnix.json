@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "thc-ipv6",
+  "nix_pkg": null,
+  "control_file_hash": "3cbf4617e1728ebfe8d69eb6ebe84a4e1eb734c4ee9c5068cc12c44547440018",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libnetfilter-queue-dev",
+    "libpcap-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "libnetfilter_queue",
+    "libnfnetlink",
+    "libpcap",
+    "openssl"
+  ],
+  "map": {
+    "libnetfilter-queue-dev": "libnetfilter_queue",
+    "libssl-dev": "openssl",
+    "libpcap-dev": "libpcap"
+  }
+}

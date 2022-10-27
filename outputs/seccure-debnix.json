@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "seccure",
+  "nix_pkg": null,
+  "control_file_hash": "cbbc6d9bb36a67a636dc44e66bd161f9643586c8a20a90e62a4eb57c15b4bf92",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libgcrypt-dev",
+    "xmltoman"
+  ],
+  "nix_inputs": [
+    "libgcrypt"
+  ],
+  "map": {
+    "libgcrypt-dev": "libgcrypt"
+  }
+}

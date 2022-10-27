@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "checkstyle",
+  "nix_pkg": null,
+  "control_file_hash": "1e659f493c67a94f8138e759a31a2fea32f066bd85a0101248259faca1f91ecf",
+  "deb_inputs": [
+    "ant-optional",
+    "antlr",
+    "antlr4-maven-plugin",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre-headless",
+    "java-wrappers",
+    "java7-runtime-headless",
+    "javahelper",
+    "junit4",
+    "junit5",
+    "libantlr-maven-plugin-java",
+    "libantlr4-runtime-java",
+    "libbuild-helper-maven-plugin-java",
+    "libcommons-beanutils-java",
+    "libcommons-collections3-java",
+    "libcommons-lang3-java",
+    "libcommons-logging-java",
+    "libguava-java",
+    "libmaven-antrun-plugin-java",
+    "libmaven-enforcer-plugin-java",
+    "libmaven-javadoc-plugin-java",
+    "libpicocli-java",
+    "libreflections-java",
+    "libsaxonhe-java",
+    "maven-debian-helper",
+    "maven-repo-helper"
+  ],
+  "nix_inputs": [
+    "openjdk"
+  ],
+  "map": {}
+}

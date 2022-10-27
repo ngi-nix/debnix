@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "titanion-data",
+  "nix_pkg": null,
+  "control_file_hash": "6f39d1b5da44e08d73a288b71ba7311f89e0db0ef36e6cb97b5e869698298dc1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdc",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libphobos-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "titanion",
+    "titanion-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "bulletml",
+    "gdc-wrapper",
+    "unzip"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

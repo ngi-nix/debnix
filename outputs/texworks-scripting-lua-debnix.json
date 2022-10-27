@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "texworks-scripting-lua",
+  "nix_pkg": null,
+  "control_file_hash": "1c598146ed26d10a44766f9d5e3eb836e21f6edf66f09ac4de6df65b2689344d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gsfonts",
+    "libhunspell-dev",
+    "liblua5.2-dev",
+    "liblua5.3-dev",
+    "libpoppler-qt5-dev",
+    "libsynctex-dev",
+    "pkg-config",
+    "poppler-data",
+    "python3-dev",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtscript5-dev",
+    "qttools5-dev",
+    "texlive-latex-base",
+    "texlive-xetex",
+    "texworks",
+    "texworks-help-en",
+    "texworks-scripting-lua",
+    "texworks-scripting-python",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "hunspell",
+    "lua",
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "python3",
+    "qtscript"
+  ],
+  "map": {
+    "libhunspell-dev": "hunspell",
+    "python3-dev": "python3",
+    "qtscript5-dev": "qtscript",
+    "liblua5.3-dev": "lua",
+    "liblua5.2-dev": "lua",
+    "cmake": "cmake"
+  }
+}

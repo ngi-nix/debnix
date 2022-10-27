@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "gigedit",
+  "nix_pkg": null,
+  "control_file_hash": "6dde124c4979538afe28b9bb8dbd42a1954f8031e2e10e29809481bcb31ed82a",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "docbook-xsl",
+    "intltool",
+    "libgig-dev",
+    "libgtkmm-3.0-dev",
+    "libsndfile1-dev",
+    "pkg-config",
+    "uuid-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gtkmm",
+    "intltool",
+    "libgig",
+    "libsndfile",
+    "libtool",
+    "libxslt",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libgig-dev": "libgig",
+    "xsltproc": "libxslt",
+    "libsndfile1-dev": "libsndfile",
+    "intltool": "intltool",
+    "libgtkmm-3.0-dev": "gtkmm"
+  }
+}

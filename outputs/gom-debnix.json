@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "gom",
+  "nix_pkg": null,
+  "control_file_hash": "6738978d693d166c19446ee2aa38bc4d2c899be2871295fe12b0e1afeb5dea46",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "osspd",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf",
+    "glib",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "sqlite"
+  ],
+  "map": {}
+}

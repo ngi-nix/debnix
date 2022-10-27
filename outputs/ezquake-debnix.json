@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "ezquake",
+  "nix_pkg": null,
+  "control_file_hash": "d11176d6db309542e12deb3392b53a736af1aa3bb89af87f4d08b7eb71be216f",
+  "deb_inputs": [
+    "debhelper",
+    "game-data-packager",
+    "libcurl4-gnutls-dev",
+    "libexpat-dev",
+    "libjansson-dev",
+    "libjpeg-dev",
+    "liblzma-dev",
+    "libminizip-dev",
+    "libpcre3-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libspeexdsp-dev",
+    "libvorbis-dev",
+    "meson",
+    "ninja-build",
+    "quake-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "curl",
+    "expat",
+    "glu",
+    "jansson",
+    "libGL",
+    "libXxf86vm",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "pcre",
+    "pkg-config-wrapper",
+    "speex",
+    "vim"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "libjansson-dev": "jansson",
+    "libcurl4-gnutls-dev": "curl",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libexpat-dev": "expat"
+  }
+}

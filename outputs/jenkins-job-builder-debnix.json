@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "jenkins-job-builder",
+  "nix_pkg": null,
+  "control_file_hash": "16953d5ef4db8df62464f13956369b5fb21795471093c726e46babe6d4ca503d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "openstack-pkg-tools",
+    "python3-all",
+    "python3-fasteners",
+    "python3-jenkins",
+    "python3-jenkins-job-builder",
+    "python3-jinja2",
+    "python3-pbr",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "python3-six",
+    "python3-stevedore",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "fasteners",
+    "pbr",
+    "python-jenkins",
+    "python3",
+    "pyyaml",
+    "six",
+    "stevedore"
+  ],
+  "map": {
+    "python3-stevedore": "stevedore",
+    "python3-yaml": "pyyaml",
+    "python3-jenkins": "python-jenkins",
+    "python3-jinja2": "Jinja2",
+    "python3-six": "six"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "splat",
+  "nix_pkg": null,
+  "control_file_hash": "069115c96a4505095173aaa9f990215e55ec77ad828712e7ca32928fea5adce9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnuplot",
+    "libbz2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "groff",
+    "ncurses",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

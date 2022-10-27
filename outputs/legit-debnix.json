@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "legit",
+  "nix_pkg": null,
+  "control_file_hash": "8d0e23beeda983f5b5d6fcc943df6c84be3703fb4859ff4c1e88d7d236b5d8b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-clint",
+    "python3-crayons",
+    "python3-docutils",
+    "python3-git",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "click",
+    "clint",
+    "crayons",
+    "gitpython",
+    "python3",
+    "six"
+  ],
+  "map": {}
+}

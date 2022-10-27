@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "b4",
+  "nix_pkg": null,
+  "control_file_hash": "2f177cb19da4140dacc92405cc8a119f2c790db28eb136507c2dbf67145109c2",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-dkim",
+    "python3-dnspython",
+    "python3-patatt",
+    "python3-pytest",
+    "python3-requests",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "dkimpy",
+    "dnspython",
+    "git-filter-repo",
+    "patatt",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-patatt": "patatt",
+    "python3-requests": "requests",
+    "python3-dnspython": "dnspython",
+    "python3-dkim": "dkimpy"
+  }
+}

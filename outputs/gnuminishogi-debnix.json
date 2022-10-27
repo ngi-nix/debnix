@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "gnuminishogi",
+  "nix_pkg": null,
+  "control_file_hash": "a5e675b63debfe25b49db5c65146552f8a5181b76bedff755ca93650dadbdfce",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libncurses-dev",
+    "tagua",
+    "texinfo",
+    "xboard",
+    "xshogi"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

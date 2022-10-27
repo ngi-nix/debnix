@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "delta",
+  "nix_pkg": null,
+  "control_file_hash": "2632e7abe56b23f32f5684846cd75f5c3501c3a21d8060306446c0bae3820043",
+  "deb_inputs": [
+    "debhelper-compat",
+    "flex"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

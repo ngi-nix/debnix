@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "google-guest-agent",
+  "nix_pkg": null,
+  "control_file_hash": "5197b8ef8b575e9b64160aaf8d2fc3e62822ab6840eccae82687eee412ad762c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-go-ini-ini-dev",
+    "golang-github-golang-groupcache-dev",
+    "golang-github-googlecloudplatform-guest-logging-go-dev",
+    "golang-github-kardianos-service-dev",
+    "golang-github-tarm-serial-dev",
+    "golang-google-cloud-dev",
+    "golang-google-grpc-dev",
+    "golang-goprotobuf-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "uacme",
+  "nix_pkg": null,
+  "control_file_hash": "c4634d650258b72e6eeac387ec6e88aae71c2bd8bbe2cbef53e91a114f8126ba",
+  "deb_inputs": [
+    "asciidoc",
+    "autoconf-archive",
+    "curl",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libcurl4-gnutls-dev",
+    "libev-dev",
+    "libgnutls28-dev",
+    "libxml2-utils",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "autoconf-archive",
+    "curl",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "libcurl4-gnutls-dev": "curl",
+    "autoconf-archive": "autoconf-archive",
+    "curl": "curl"
+  }
+}

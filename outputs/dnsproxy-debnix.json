@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "dnsproxy",
+  "nix_pkg": null,
+  "control_file_hash": "87f1d34fbea7c4591849be4d1dad21ad2276c421f727f125eb076e3c0a1b916d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "groff-base",
+    "libevent-dev",
+    "lsb-base",
+    "passwd"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

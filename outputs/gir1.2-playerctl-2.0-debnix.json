@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "gir1.2-playerctl-2.0",
+  "nix_pkg": null,
+  "control_file_hash": "a8c067b2d8ef852363f63eb3607cd5a8362a5a654f381783d22bd823f85c87fd",
+  "deb_inputs": [
+    "audacious",
+    "cmus",
+    "dbus",
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-playerctl-2.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libplayerctl-doc",
+    "libplayerctl2",
+    "meson",
+    "mopidy",
+    "mpd",
+    "mpv",
+    "pandoc",
+    "pkg-config",
+    "quodlibet",
+    "rhythmbox-plugins",
+    "vlc"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "gtk-doc-tools": "gtk-doc",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "gssdp-tools",
+  "nix_pkg": null,
+  "control_file_hash": "8bd0555677364c616a7d1160402333beb1a827b3bbf73f2a57dc5fb3cca48f21",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-glib-2.0",
+    "gir1.2-gssdp-1.6",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgssdp-1.6-0",
+    "libgssdp-doc",
+    "libgtk-4-dev",
+    "libsoup-3.0-dev",
+    "meson",
+    "python3-jinja2",
+    "python3-toml",
+    "python3-typogrify",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gssdp",
+    "gtk4",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gir1.2-gssdp-1.6": "gssdp",
+    "libgssdp-doc": "gssdp",
+    "libgssdp-1.6-0": "gssdp",
+    "meson": "meson",
+    "libsoup-3.0-dev": "libsoup",
+    "libgtk-4-dev": "gtk4"
+  }
+}

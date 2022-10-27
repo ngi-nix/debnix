@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "git-imerge",
+  "nix_pkg": null,
+  "control_file_hash": "3a859427f29a81929b337c44eb4e2f0f152de3c97ffcca53be7c1dd1bf56dd96",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "mergify",
+    "pkg-config",
+    "python3",
+    "python3-setuptools",
+    "tox"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

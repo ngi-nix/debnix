@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "toppler",
+  "nix_pkg": null,
+  "control_file_hash": "47806ec855fd5c360e63a5b9727b518e284b817212275cd835fdee742194440b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "gettext",
+    "gimp",
+    "imagemagick",
+    "libpng-apng",
+    "pkg-config-wrapper",
+    "povray",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

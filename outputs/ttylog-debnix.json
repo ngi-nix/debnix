@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ttylog",
+  "nix_pkg": null,
+  "control_file_hash": "19397a8984439cac70b16fd6fd00b1c580f2c3993f9c7aedf5b7bd7ba2a1c7fc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dpkg-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "tudu",
+  "nix_pkg": null,
+  "control_file_hash": "8fc4a3360260aff95b35a5c9bcf95084fa7f00dad11e36f668d2e144df9e3773",
+  "deb_inputs": [
+    "acr",
+    "chrpath",
+    "debhelper",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

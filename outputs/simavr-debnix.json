@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "simavr",
+  "nix_pkg": null,
+  "control_file_hash": "8b6c55cbeb257c8ef6bfe75dc6e14054a442e3db59d76f340dc1586921a7592d",
+  "deb_inputs": [
+    "arduino",
+    "arduino-core",
+    "avr-libc",
+    "avra",
+    "avrdude",
+    "build-essential",
+    "debhelper",
+    "exuberant-ctags",
+    "freeglut3-dev",
+    "gdb-avr",
+    "ghostscript",
+    "graphviz",
+    "gtkwave",
+    "libelf-dev",
+    "libsimavr-dev",
+    "libsimavr-examples",
+    "libsimavr2",
+    "libsimavrparts1",
+    "pkg-config",
+    "ruby"
+  ],
+  "nix_inputs": [
+    "avr-stage-final-gcc-wrapper",
+    "freeglut",
+    "glu",
+    "libGL",
+    "libelf",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libelf-dev": "libelf",
+    "freeglut3-dev": "freeglut"
+  }
+}

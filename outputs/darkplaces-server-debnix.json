@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "darkplaces-server",
+  "nix_pkg": null,
+  "control_file_hash": "9e0a6cee6bf8d2ed6487c4cc7c9f4c5c1fe44925d9931217c37178cac3f7ffec",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcurl4-gnutls-dev",
+    "libfreetype6-dev",
+    "libgl1",
+    "libjpeg-dev",
+    "libode-dev",
+    "libogg-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libtheora-dev",
+    "libvorbis-dev",
+    "lsb-release",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "libjpeg-turbo",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

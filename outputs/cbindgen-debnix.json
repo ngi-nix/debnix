@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "cbindgen",
+  "nix_pkg": null,
+  "control_file_hash": "9a67c2161fd7673c0af935121010a3291840b093ad6782264f2351e2d5521d21",
+  "deb_inputs": [
+    "cargo:native",
+    "cython3",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-cbindgen+clap-dev",
+    "librust-cbindgen-dev",
+    "librust-clap-3+default-dev",
+    "librust-heck-0.4+default-dev",
+    "librust-indexmap-1+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-proc-macro2-1+default-dev",
+    "librust-quote-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-serial-test-dev",
+    "librust-syn-1+clone-impls-dev",
+    "librust-syn-1+extra-traits-dev",
+    "librust-syn-1+full-dev",
+    "librust-syn-1+parsing-dev",
+    "librust-syn-1+printing-dev",
+    "librust-tempfile-3+default-dev",
+    "librust-toml-0.5+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "cython",
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "cython3": "cython",
+    "libstd-rust-dev": "rustc"
+  }
+}
