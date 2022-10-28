@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "pakcs",
+  "nix_pkg": null,
+  "control_file_hash": "a007b052f63af0882df58db7cb86207d0ff961471ca806becd1f385e83205ed0",
+  "deb_inputs": [
+    "cdbs",
+    "curry-frontend",
+    "curry-libs-source",
+    "curry-tools-source",
+    "debhelper",
+    "lockfile-progs",
+    "quilt",
+    "rdfind",
+    "sqlite3",
+    "swi-prolog-nox",
+    "symlinks",
+    "tk"
+  ],
+  "nix_inputs": [
+    "swi-prolog",
+    "which"
+  ],
+  "map": {
+    "swi-prolog-nox": "swi-prolog"
+  }
+}

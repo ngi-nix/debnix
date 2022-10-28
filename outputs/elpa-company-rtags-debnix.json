@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "elpa-company-rtags",
+  "nix_pkg": null,
+  "control_file_hash": "642fabfc96d3fef399c1eca0dcb18051960eefcacdeabb4e1673abdd08f28954",
+  "deb_inputs": [
+    "bash-completion",
+    "cmake",
+    "debhelper-compat",
+    "dh-elpa",
+    "elpa-ac-rtags",
+    "elpa-company-rtags",
+    "elpa-flycheck-rtags",
+    "elpa-helm-rtags",
+    "elpa-ivy-rtags",
+    "elpa-rtags",
+    "emacs",
+    "libclang-dev",
+    "llvm",
+    "pkg-config",
+    "rtags",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "clang",
+    "cmake",
+    "emacs",
+    "llvm",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libclang-dev": "clang",
+    "emacs": "emacs",
+    "llvm": "llvm",
+    "cmake": "cmake"
+  }
+}

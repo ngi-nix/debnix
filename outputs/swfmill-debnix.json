@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "swfmill",
+  "nix_pkg": null,
+  "control_file_hash": "c473260e7c950c5209ffc2bc8dd94eaf2bb06ac48e8e28fbb18b3e43aa522030",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "help2man",
+    "libfreetype6-dev",
+    "libpng-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "pkg-config",
+    "quilt",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "libpng-apng",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libxml2-dev": "libxml2",
+    "libxslt1-dev": "libxslt",
+    "xsltproc": "libxslt"
+  }
+}

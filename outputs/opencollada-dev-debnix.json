@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "opencollada-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d3c2c13171b0a2ffbb9e0c38c8101f20e715527e648c2835561de3264169273e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libpcre3-dev",
+    "libxml2-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libxml2",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "libxml2-dev": "libxml2",
+    "cmake": "cmake"
+  }
+}

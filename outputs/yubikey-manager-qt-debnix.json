@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "yubikey-manager-qt",
+  "nix_pkg": null,
+  "control_file_hash": "7f6c225ea4328c72122252d91c3dce7f2738fae876042a2cfd787f2dff18cd49",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libffi-dev",
+    "libpcsclite-dev",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libssl-dev",
+    "libyubikey-udev",
+    "pcscd",
+    "python3-ykman",
+    "qml-module-io-thp-pyotherside",
+    "qml-module-qt-labs-calendar",
+    "qml-module-qt-labs-folderlistmodel",
+    "qml-module-qt-labs-platform",
+    "qml-module-qt-labs-settings",
+    "qml-module-qtgraphicaleffects",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-dialogs",
+    "qml-module-qtquick-layouts",
+    "qml-module-qtquick-window2",
+    "qml-module-qtquick2",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtquickcontrols2-5-dev",
+    "swig",
+    "yubikey-manager"
+  ],
+  "nix_inputs": [
+    "imagemagick",
+    "pyotherside",
+    "python3",
+    "qtbase",
+    "qtgraphicaleffects",
+    "qtquickcontrols2"
+  ],
+  "map": {
+    "qml-module-io-thp-pyotherside": "pyotherside",
+    "qtbase5-dev": "qtbase"
+  }
+}

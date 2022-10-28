@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "wayvnc",
+  "nix_pkg": null,
+  "control_file_hash": "c186a00d43b1a7e96e9ff8d6d995970d3fe7349915c116693abecc534f138c94",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-dev",
+    "libaml-dev",
+    "libdrm-dev",
+    "libneatvnc-dev",
+    "libpam0g-dev",
+    "libpixman-1-dev",
+    "libturbojpeg0-dev",
+    "libwayland-dev",
+    "libxkbcommon-dev",
+    "meson",
+    "pkg-config",
+    "scdoc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "aml",
+    "libX11",
+    "libdrm",
+    "libxkbcommon",
+    "linux-pam",
+    "mesa",
+    "meson",
+    "neatvnc",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland"
+  ],
+  "map": {
+    "meson": "meson",
+    "libneatvnc-dev": "neatvnc",
+    "libwayland-dev": "wayland",
+    "libxkbcommon-dev": "libxkbcommon",
+    "libaml-dev": "aml",
+    "libdrm-dev": "libdrm",
+    "scdoc": "scdoc",
+    "libpixman-1-dev": "pixman"
+  }
+}

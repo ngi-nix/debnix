@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "rott",
+  "nix_pkg": null,
+  "control_file_hash": "c33ab6d49b0f2bca77f0477184eab58a11d8436e8e0f53fdfc71db22d2f8450e",
+  "deb_inputs": [
+    "debhelper",
+    "game-data-packager",
+    "kdialog",
+    "libnotify-bin",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "x11-utils",
+    "zenity"
+  ],
+  "nix_inputs": [
+    "SDL_compat",
+    "SDL_mixer"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

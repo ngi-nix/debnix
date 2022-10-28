@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "podman-compose",
+  "nix_pkg": null,
+  "control_file_hash": "6ea6781ff141f463153ae72f04f931f4e69642b33bd361ad60eeb75a9a6ce0dd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "podman",
+    "python3-all",
+    "python3-setuptools",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "python-dotenv",
+    "python3",
+    "pyyaml"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml"
+  }
+}

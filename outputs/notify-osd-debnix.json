@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "notify-osd",
+  "nix_pkg": null,
+  "control_file_hash": "516b20d7ba23d0e79dbbcefd7515a85f771d54004116cff726bc583c37568415",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "gnome-common",
+    "gsettings-desktop-schemas",
+    "intltool",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libnotify-dev",
+    "libwnck-3-dev"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "glib",
+    "gsettings-desktop-schemas",
+    "libnotify",
+    "libwnck",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libwnck-3-dev": "libwnck",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libnotify-dev": "libnotify",
+    "gsettings-desktop-schemas": "gsettings-desktop-schemas"
+  }
+}

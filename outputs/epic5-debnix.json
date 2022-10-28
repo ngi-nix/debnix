@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "epic5",
+  "nix_pkg": null,
+  "control_file_hash": "1a34083c96af6502e804f61342992770916c651c3088003f650ce26c351c18c0",
+  "deb_inputs": [
+    "epic5-script"
+  ],
+  "nix_inputs": [
+    "libxcrypt",
+    "ncurses",
+    "openssl"
+  ],
+  "map": {}
+}

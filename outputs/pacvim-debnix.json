@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "pacvim",
+  "nix_pkg": null,
+  "control_file_hash": "4c448b67dea623b2c3a1d1c7b22ac7cce01be01d8257c37fdc68c1ade6d38573",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

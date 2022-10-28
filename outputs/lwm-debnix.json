@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "lwm",
+  "nix_pkg": null,
+  "control_file_hash": "bb2ae6f610cec23e14a965e5189c92529270c4ccdfa5a95cfe6c9def1394bb4b",
+  "deb_inputs": [
+    "debhelper",
+    "fbdesk",
+    "idesk",
+    "libsm-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "rxvt",
+    "urxvt",
+    "x-terminal-emulator",
+    "x11proto-core-dev",
+    "xterm",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "imake",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXext"
+  ],
+  "map": {
+    "libsm-dev": "libSM",
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext"
+  }
+}

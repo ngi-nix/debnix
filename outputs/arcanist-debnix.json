@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "arcanist",
+  "nix_pkg": null,
+  "control_file_hash": "797a8efd0c625697654080af49d68bdf39715d3ff5959d6992d104089bfa180b",
+  "deb_inputs": [
+    "debhelper",
+    "libphutil",
+    "php-cli",
+    "php-curl",
+    "php-xml",
+    "po-debconf",
+    "python"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "python3"
+  ],
+  "map": {}
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "vtable-dumper",
+  "nix_pkg": null,
+  "control_file_hash": "8fcc495decd76ca1f2b9392a8241b3d5fc44b9b764806074436d8beedf9d214a",
+  "deb_inputs": [
+    "debhelper",
+    "libelf-dev"
+  ],
+  "nix_inputs": [
+    "libelf"
+  ],
+  "map": {
+    "libelf-dev": "libelf"
+  }
+}

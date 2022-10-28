@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "elks-libc",
+  "nix_pkg": null,
+  "control_file_hash": "1a7a85b149b0865ad06ef96748cede9c2dc0ebe2620d7f9959814a5ee54b67eb",
+  "deb_inputs": [
+    "bcc",
+    "bin86",
+    "elks-libc"
+  ],
+  "nix_inputs": [
+    "bison",
+    "clang",
+    "cmake",
+    "elfutils",
+    "flex",
+    "iperf",
+    "libbpf",
+    "llvm",
+    "luajit",
+    "netaddr",
+    "netperf",
+    "python3"
+  ],
+  "map": {}
+}

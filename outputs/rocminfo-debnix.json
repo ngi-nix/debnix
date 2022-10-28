@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "rocminfo",
+  "nix_pkg": null,
+  "control_file_hash": "481c2047221266dbd33df637cae83a6d37554523f004dca42a1acd7b63d57398",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libhsa-runtime-dev",
+    "libhsakmt-dev",
+    "pciutils",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "rocm-cmake",
+    "rocm-runtime"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

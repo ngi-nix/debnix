@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "sacc",
+  "nix_pkg": null,
+  "control_file_hash": "ec9b30fd845dfe36f751395932eca85e6f23473b0645a90e72bac76edf525b04",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses-dev",
+    "libtls-dev"
+  ],
+  "nix_inputs": [
+    "libressl",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

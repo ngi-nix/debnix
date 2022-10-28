@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "prometheus-sql-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "34355303a39ffe495b2ab2ce0ac93cc92c71619d54c19a2ca770a5548e319bfe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-cenkalti-backoff-dev",
+    "golang-github-denisenkom-go-mssqldb-dev",
+    "golang-github-go-kit-kit-dev",
+    "golang-github-go-sql-driver-mysql-dev",
+    "golang-github-jmoiron-sqlx-dev",
+    "golang-github-lib-pq-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-robfig-cron-dev",
+    "golang-go",
+    "help2man",
+    "postgresql-common"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

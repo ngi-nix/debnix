@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "apitrace-gui",
+  "nix_pkg": null,
+  "control_file_hash": "02b814f96d7d9e068779fd855ce66945723178d08dbb67b8452389a93635ffe8",
+  "deb_inputs": [
+    "apitrace",
+    "apitrace-tracers",
+    "cmake",
+    "debhelper-compat",
+    "libbrotli-dev",
+    "libbsd-dev",
+    "libegl1-mesa-dev",
+    "libgl1-mesa-dev",
+    "libgles2-mesa-dev",
+    "libgtest-dev",
+    "libpng-dev",
+    "libprocps-dev",
+    "libqt5webkit5-dev",
+    "libsnappy-dev",
+    "libwaffle-dev",
+    "pkg-config",
+    "python3",
+    "python3-pil",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libX11",
+    "libdwarf",
+    "procps",
+    "python",
+    "qtbase",
+    "qtwebkit"
+  ],
+  "map": {
+    "python3": "python",
+    "libprocps-dev": "procps",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}

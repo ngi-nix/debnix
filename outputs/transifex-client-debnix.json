@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "transifex-client",
+  "nix_pkg": null,
+  "control_file_hash": "66b7844c000cc9e856620311668c8f19248e622fcb0111158e8b617eac25d110",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-mock",
+    "python3-openssl",
+    "python3-pkg-resources",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-slugify"
+  ],
+  "nix_inputs": [
+    "gitpython",
+    "python-slugify",
+    "python3",
+    "requests",
+    "setuptools",
+    "six",
+    "urllib3"
+  ],
+  "map": {
+    "python3-slugify": "python-slugify",
+    "python3-requests": "requests",
+    "python3-setuptools": "setuptools",
+    "python3-pkg-resources": "setuptools"
+  }
+}

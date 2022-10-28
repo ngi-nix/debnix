@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ssss",
+  "nix_pkg": null,
+  "control_file_hash": "5d66af9585c89ae96a86f75aee86a3efc28b2515e58363c0d4596dc24a5353c2",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libgmp3-dev",
+    "xmltoman"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "meritous",
+  "nix_pkg": null,
+  "control_file_hash": "49c4f776eca9900046132818856ec34978145754cbcf76d53c9041f9d56f87e1",
+  "deb_inputs": [
+    "debhelper",
+    "intltool",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "meritous-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "zlib"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl-image1.2-dev": "SDL_image",
+    "zlib1g-dev": "zlib"
+  }
+}

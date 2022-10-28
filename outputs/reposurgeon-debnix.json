@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "reposurgeon",
+  "nix_pkg": null,
+  "control_file_hash": "8428e9650121065f66559881487dcccc3943bf78f9452c21be02398b1fc9d503",
+  "deb_inputs": [
+    "asciidoctor",
+    "brz",
+    "cvs",
+    "cvs-fast-export",
+    "darcs",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "fossil",
+    "git",
+    "golang-any",
+    "golang-github-anmitsu-go-shlex-dev",
+    "golang-github-chzyer-readline-dev",
+    "golang-github-emirpasic-gods-dev",
+    "golang-github-ianbruene-go-difflib-dev",
+    "golang-github-kballard-go-shellquote-dev",
+    "golang-github-pkg-term-dev",
+    "golang-github-xo-terminfo-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-text-dev",
+    "hg-fast-export",
+    "mercurial",
+    "subversion",
+    "time",
+    "tzdata"
+  ],
+  "nix_inputs": [
+    "go",
+    "ruby"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ninka-backend-sqlite",
+  "nix_pkg": null,
+  "control_file_hash": "c7eb131f1c5373d74c3debeca5d56cdad58a49dbc3e72436c835e18a090dc700",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdbd-sqlite3-perl",
+    "libio-captureoutput-perl",
+    "libspreadsheet-writeexcel-perl",
+    "libtest-pod-perl",
+    "libtest-strict-perl",
+    "ninka"
+  ],
+  "nix_inputs": [
+    "DBD-SQLite",
+    "DBI",
+    "Spreadsheet-ParseExcel",
+    "Test-Output",
+    "Test-Pod",
+    "Test-Pod-Coverage",
+    "perl"
+  ],
+  "map": {}
+}

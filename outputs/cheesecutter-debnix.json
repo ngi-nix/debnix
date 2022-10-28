@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "cheesecutter",
+  "nix_pkg": null,
+  "control_file_hash": "b3a43d88c092a57172d20a3c0397f85bd88e658b7533a73a6182aab817bdf383",
+  "deb_inputs": [
+    "acme",
+    "debhelper-compat",
+    "gdc",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "acme",
+    "ldc",
+    "patchelf"
+  ],
+  "map": {
+    "acme": "acme",
+    "libsdl1.2-dev": "SDL"
+  }
+}

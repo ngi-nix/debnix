@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "twiggy",
+  "nix_pkg": null,
+  "control_file_hash": "36f907a861dac94cfdc79fd31f2ba3a2ded6bf04d244e43b93e8bc8b4e8beb34",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libanyevent-perl",
+    "libhttp-parser-xs-perl",
+    "libplack-perl",
+    "libserver-starter-perl",
+    "libtry-tiny-perl",
+    "libwww-perl"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "lscolors",
+  "nix_pkg": null,
+  "control_file_hash": "90b46b23d29eee0a4f866b2e044475b200cc04d67ebae61602ae58c71e572bcd",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-ansi-term-0.11+default-dev",
+    "librust-ansi-term-0.12+default-dev",
+    "librust-tempfile-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

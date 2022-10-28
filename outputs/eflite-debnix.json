@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "eflite",
+  "nix_pkg": null,
+  "control_file_hash": "9c670f4d74be4ada693a730dcbf2318c3e8590279cdf17b5b2c368db3a976e44",
+  "deb_inputs": [
+    "debhelper-compat",
+    "emacspeak",
+    "flite1-dev",
+    "libasound2-dev",
+    "yasr"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "flite"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "flite1-dev": "flite"
+  }
+}

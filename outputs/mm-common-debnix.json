@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "mm-common",
+  "nix_pkg": null,
+  "control_file_hash": "d1c3155ab4b3fde82f67889f35d98517944a329b51e1a88808395a4ac957ce3d",
+  "deb_inputs": [
+    "automake",
+    "automaken",
+    "c++-compiler",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "doxygen",
+    "g++",
+    "graphviz",
+    "libglibmm-2.4-dev",
+    "libglibmm-2.4-doc",
+    "libsigc++-2.0-doc",
+    "libtool",
+    "meson",
+    "pkg-config",
+    "python3-distutils",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ydotoold",
+  "nix_pkg": null,
+  "control_file_hash": "60f0226d3dbb765f62b2fc9f831150b42df1e6038a5fa40f68b9403be4017f7b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dh-exec",
+    "libboost-program-options-dev",
+    "libevdevplus-dev",
+    "libuinputplus-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "scdoc"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "molequeue",
+  "nix_pkg": null,
+  "control_file_hash": "01980d7288de681c282698a7397216dec1f7267bedc5eac4531de5842bc057f7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qttools"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qttools5-dev": "qttools"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "rrootage",
+  "nix_pkg": null,
+  "control_file_hash": "bcb97168a13fcbd3fe54e35e3ab54ebd58437f4c997e7486172d2436b03d968e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbulletml-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev",
+    "rrootage-data"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "bulletml"
+  ],
+  "map": {
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl1.2-dev": "SDL",
+    "libbulletml-dev": "bulletml"
+  }
+}

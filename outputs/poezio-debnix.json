@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "poezio",
+  "nix_pkg": null,
+  "control_file_hash": "7ae4bb688a8973f0728464d6cff1e717cf5147d10147bd6bba3d873c96da7233",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pkg-config",
+    "python3-aiodns",
+    "python3-all",
+    "python3-all-dev",
+    "python3-cffi",
+    "python3-gnupg",
+    "python3-mpd",
+    "python3-pkg-resources",
+    "python3-poezio-poopt",
+    "python3-potr",
+    "python3-pyinotify",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-slixmpp",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "aiodns",
+    "cffi",
+    "pkg-config-wrapper",
+    "pyasn1",
+    "pyasn1-modules",
+    "pyinotify",
+    "python-mpd2",
+    "python-potr",
+    "python3",
+    "setuptools",
+    "slixmpp"
+  ],
+  "map": {
+    "python3-slixmpp": "slixmpp",
+    "python3-aiodns": "aiodns",
+    "python3-pyinotify": "pyinotify",
+    "python3-pkg-resources": "setuptools",
+    "python3-setuptools": "setuptools",
+    "python3-potr": "python-potr"
+  }
+}

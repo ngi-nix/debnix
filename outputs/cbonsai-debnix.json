@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "cbonsai",
+  "nix_pkg": null,
+  "control_file_hash": "965861c14c936d0d8d312294d2a2ff8b41aab30c108129f5597eef846ae506aa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libncurses-dev",
+    "libncurses-dev:native",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "pkg-config-wrapper",
+    "scdoc"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

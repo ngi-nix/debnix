@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "colmap",
+  "nix_pkg": null,
+  "control_file_hash": "89a670a8cd75855a15858606c129d828a62ff3f4b5971c7c6978c69c714ff6dd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-filesystem-dev",
+    "libboost-graph-dev",
+    "libboost-program-options-dev",
+    "libboost-regex-dev",
+    "libboost-system-dev",
+    "libboost-test-dev",
+    "libceres-dev",
+    "libeigen3-dev",
+    "libfreeimage-dev",
+    "libglew-dev",
+    "libgoogle-glog-dev",
+    "libmetis-dev",
+    "libqt5opengl5-desktop-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "ceres-solver",
+    "cmake",
+    "eigen",
+    "freeimage",
+    "glew",
+    "glog",
+    "glu",
+    "qtbase"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libeigen3-dev": "eigen",
+    "libfreeimage-dev": "freeimage",
+    "libglew-dev": "glew",
+    "libceres-dev": "ceres-solver"
+  }
+}

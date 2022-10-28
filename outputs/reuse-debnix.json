@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "reuse",
+  "nix_pkg": null,
+  "control_file_hash": "bc47468bb7668052ac94e530d30fbc6a4928fb1033bb77de2068bed39e26b054",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-binaryornot",
+    "python3-boolean",
+    "python3-debian",
+    "python3-jinja2",
+    "python3-license-expression",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-setuptools-scm"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "binaryornot",
+    "boolean-py",
+    "license-expression",
+    "python-debian",
+    "python3",
+    "requests",
+    "setuptools",
+    "setuptools-scm"
+  ],
+  "map": {
+    "python3-binaryornot": "binaryornot",
+    "python3-jinja2": "Jinja2",
+    "python3-requests": "requests",
+    "python3-debian": "python-debian",
+    "python3-setuptools": "setuptools",
+    "python3-setuptools-scm": "setuptools-scm"
+  }
+}

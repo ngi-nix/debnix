@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "elpa-lbdb",
+  "nix_pkg": null,
+  "control_file_hash": "d5ffc30d1f04875aeae847b44d6a2b632098b043fa7257c575ccccceb13e32e9",
+  "deb_inputs": [
+    "abook",
+    "bbdb",
+    "debhelper-compat",
+    "dh-elpa",
+    "elpa-lbdb",
+    "emacsen-common",
+    "finger",
+    "goobook",
+    "khard",
+    "lbdb",
+    "libauthen-sasl-perl",
+    "libnet-ldap-perl",
+    "libpalm-perl",
+    "libvformat-dev",
+    "maildir-utils",
+    "mutt",
+    "perl",
+    "procmail"
+  ],
+  "nix_inputs": [
+    "abook",
+    "bsd-finger",
+    "gnupg",
+    "goobook",
+    "khard",
+    "mu"
+  ],
+  "map": {
+    "khard": "khard",
+    "goobook": "goobook",
+    "abook": "abook",
+    "finger": "bsd-finger"
+  }
+}

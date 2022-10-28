@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "abi-dumper",
+  "nix_pkg": null,
+  "control_file_hash": "9502d639a02a181f73aad39c5d5bcfdbc7fd946828099236916c01912c11b797",
+  "deb_inputs": [
+    "abi-compliance-checker",
+    "debhelper",
+    "elfutils",
+    "help2man",
+    "vtable-dumper"
+  ],
+  "nix_inputs": [
+    "ctags",
+    "elfutils",
+    "perl",
+    "vtable-dumper"
+  ],
+  "map": {
+    "elfutils": "elfutils",
+    "vtable-dumper": "vtable-dumper"
+  }
+}

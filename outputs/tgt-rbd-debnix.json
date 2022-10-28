@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tgt-rbd",
+  "nix_pkg": null,
+  "control_file_hash": "f54d264a83c4c64224eb2994998bdb8f3872ea08dedcf2673b9ee1c8efe6a4c4",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "docbook-xsl",
+    "libaio-dev",
+    "libconfig-general-perl",
+    "libglusterfs-dev",
+    "libibverbs-dev",
+    "librbd-dev",
+    "librdmacm-dev",
+    "libsystemd-dev",
+    "lsb-base",
+    "pkg-config",
+    "sg3-utils",
+    "tgt",
+    "tgt-glusterfs",
+    "tgt-rbd",
+    "uuid-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "libaio",
+    "libxslt",
+    "systemd"
+  ],
+  "map": {
+    "libaio-dev": "libaio",
+    "libsystemd-dev": "systemd",
+    "xsltproc": "libxslt"
+  }
+}

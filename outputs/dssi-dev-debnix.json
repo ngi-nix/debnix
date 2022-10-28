@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "dssi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b831b1005dc41501638d3522e0285540db25e12a9690099f635fdbf41964b484",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dssi-host-jack",
+    "dssi-utils",
+    "ladspa-sdk",
+    "libasound2-dev",
+    "libdssialsacompat-dev",
+    "libjack-dev",
+    "liblo-dev",
+    "libsamplerate0-dev",
+    "libsm-dev",
+    "libsndfile1-dev",
+    "libx11-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "autoconf",
+    "automake",
+    "ladspa.h",
+    "libICE",
+    "libSM",
+    "libX11",
+    "libjack2",
+    "liblo",
+    "libsamplerate",
+    "libsndfile",
+    "libtool",
+    "pkg-config-wrapper",
+    "qt",
+    "xorgproto"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "liblo-dev": "liblo",
+    "libx11-dev": "libX11",
+    "libasound2-dev": "alsa-lib",
+    "libsm-dev": "libSM",
+    "libsamplerate0-dev": "libsamplerate"
+  }
+}

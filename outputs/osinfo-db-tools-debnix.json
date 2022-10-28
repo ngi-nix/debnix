@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "osinfo-db-tools",
+  "nix_pkg": null,
+  "control_file_hash": "b7afd094ff8390921bed05c22acedfa67309d5d652c2470b65afa4ccbbb3b632",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libarchive-dev",
+    "libglib2.0-dev",
+    "libjson-glib-dev",
+    "libsoup-3.0-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "meson",
+    "python3-pytest",
+    "python3-requests"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "gettext",
+    "glib",
+    "json-glib",
+    "libarchive",
+    "libsoup",
+    "libxml2",
+    "libxslt",
+    "meson",
+    "ninja",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "xz"
+  ],
+  "map": {
+    "meson": "meson",
+    "libglib2.0-dev": "glib",
+    "libsoup-3.0-dev": "libsoup",
+    "libxml2-dev": "libxml2",
+    "libxslt1-dev": "libxslt",
+    "libjson-glib-dev": "json-glib",
+    "libarchive-dev": "libarchive"
+  }
+}
