@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "health-check",
+  "nix_pkg": null,
+  "control_file_hash": "16d0c17db249271115f845d576448e23bef8fdaa6c5b33297f4abe66e3f8ce1a",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libjson-c-dev"
+  ],
+  "nix_inputs": [
+    "json-c",
+    "libbsd"
+  ],
+  "map": {
+    "libjson-c-dev": "json-c",
+    "libbsd-dev": "libbsd"
+  }
+}

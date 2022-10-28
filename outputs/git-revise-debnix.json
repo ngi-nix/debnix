@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "git-revise",
+  "nix_pkg": null,
+  "control_file_hash": "7ccd2d95101651ee2a230bb9067e8cfd5674d833a40e788babb4e36ccf2d7022",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "git",
+    "gnupg",
+    "python3"
+  ],
+  "map": {
+    "git": "git"
+  }
+}

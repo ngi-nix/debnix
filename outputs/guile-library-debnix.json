@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "guile-library",
+  "nix_pkg": null,
+  "control_file_hash": "2373ecd4d73ba3321eea83ab38a30d1a8d0007bdd253e6fe1c79d9ac832271aa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "gmp-with-cxx",
+    "libffi",
+    "libtool",
+    "libunistring",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {}
+}

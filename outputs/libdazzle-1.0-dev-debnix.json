@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "libdazzle-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4d76f98c81f7b91b660906c90ca5fe8688bb04f334d85b836db30e95c089aa66",
+  "deb_inputs": [
+    "at-spi2-core",
+    "dbus",
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-dazzle-1.0",
+    "gtk-doc-tools",
+    "libdazzle-1.0-0",
+    "libdazzle-common",
+    "libdazzle-doc",
+    "libdazzle-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "meson",
+    "valac",
+    "wamerican",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "gtk-doc",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "valac": "vala",
+    "dbus": "dbus",
+    "meson": "meson"
+  }
+}

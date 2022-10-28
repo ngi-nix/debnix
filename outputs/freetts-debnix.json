@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "freetts",
+  "nix_pkg": null,
+  "control_file_hash": "28d39182c12170b6fd64a3f22cb561ba55388828bd59d76ac1b2fd00e9b82f04",
+  "deb_inputs": [
+    "ant",
+    "ant-optional",
+    "debhelper",
+    "default-jdk",
+    "default-jre",
+    "java2-runtime",
+    "javahelper",
+    "junit4"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk",
+    "sharutils",
+    "unzip"
+  ],
+  "map": {
+    "ant-optional": "ant",
+    "ant": "ant"
+  }
+}

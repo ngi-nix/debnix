@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "kcc",
+  "nix_pkg": null,
+  "control_file_hash": "b56a0baf8c519001d1137dbeb694335e52ed5d8b5474edb09c047e0451142300",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "pillow",
+    "psutil",
+    "python-slugify",
+    "python3",
+    "raven"
+  ],
+  "map": {}
+}

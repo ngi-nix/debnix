@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "lf",
+  "nix_pkg": null,
+  "control_file_hash": "e96d92571da19691c481f963100f5dd40aa7dd6bad873795f79979fc1fe1edca",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "exiftool",
+    "golang-any",
+    "golang-github-djherbis-times-dev",
+    "golang-github-gdamore-tcell.v2-dev",
+    "golang-github-xo-terminfo-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-term-dev",
+    "mediainfo",
+    "terminfo",
+    "ueberzug"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

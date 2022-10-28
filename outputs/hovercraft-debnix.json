@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "hovercraft",
+  "nix_pkg": null,
+  "control_file_hash": "1ac5dc3c0426c4b09b9ee8268af9a83691afd5fd2664e90df94283487b7777fd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "libjs-impress",
+    "python3-all",
+    "python3-docutils",
+    "python3-lxml",
+    "python3-manuel",
+    "python3-pygments",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-svg.path",
+    "python3-watchdog"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "lxml",
+    "manuel",
+    "pygments",
+    "python3",
+    "setuptools",
+    "svg.path",
+    "watchdog"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-lxml": "lxml",
+    "python3-manuel": "manuel",
+    "python3-pygments": "pygments"
+  }
+}

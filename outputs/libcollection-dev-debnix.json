@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libcollection-dev",
+  "nix_pkg": null,
+  "control_file_hash": "66e0d93f8deaaa68fa51e7b5624db45b67e6578535e4a9b7174b940b8b101299",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "libbasicobjects-dev",
+    "libbasicobjects0",
+    "libcollection-dev",
+    "libcollection4",
+    "libdhash1",
+    "libini-config5",
+    "libpath-utils1",
+    "libref-array-dev",
+    "libref-array1",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "check"
+  ],
+  "map": {
+    "check": "check"
+  }
+}

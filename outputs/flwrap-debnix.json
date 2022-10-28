@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "flwrap",
+  "nix_pkg": null,
+  "control_file_hash": "660515260e2111faeb84d17880df88ff60ff32460784066551a0a4c5aecc292b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fldigi",
+    "libfltk1.3-dev"
+  ],
+  "nix_inputs": [
+    "fltk",
+    "libjpeg-turbo",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfltk1.3-dev": "fltk"
+  }
+}

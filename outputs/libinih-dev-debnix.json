@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libinih-dev",
+  "nix_pkg": null,
+  "control_file_hash": "45d19e6190df4ea9332d6cd76c4be32362f00f61a43b1c910beea5e80032bffb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libinih1",
+    "libinireader0",
+    "meson"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

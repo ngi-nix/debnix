@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ipe5toxml",
+  "nix_pkg": null,
+  "control_file_hash": "9652867e67b307e9c9eadb161b9feec1ae654544395976e453102e8dcbfa1436",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "dh-sequence-python3",
+    "ipe",
+    "libpoppler-cpp-dev",
+    "libpoppler-private-dev",
+    "libz-dev",
+    "netpbm",
+    "pkg-config",
+    "python3-all-dev:any",
+    "python3-all:any",
+    "python3-dev:any",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "poppler-glib"
+  ],
+  "map": {}
+}

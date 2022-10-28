@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libffms2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6d77721268f5a85d7e75d31c0f9066c26336233a9d1da6d32d7703d9a7abc00c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libffms2-5",
+    "libswresample-dev",
+    "libswscale-dev",
+    "pkg-config",
+    "python3",
+    "python3-markdown",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libavutil-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg",
+    "libswresample-dev": "ffmpeg",
+    "libswscale-dev": "ffmpeg",
+    "libavcodec-dev": "ffmpeg"
+  }
+}

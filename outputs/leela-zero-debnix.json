@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "leela-zero",
+  "nix_pkg": null,
+  "control_file_hash": "d6dd2a744d1344962182f34525dce3df3a75d0089527ff5f061a4c932b7ef006",
+  "deb_inputs": [
+    "clinfo",
+    "cmake",
+    "debhelper",
+    "libboost-dev",
+    "libboost-filesystem-dev",
+    "libboost-program-options-dev",
+    "libeigen3-dev",
+    "libgtest-dev",
+    "libopenblas-dev",
+    "mesa-opencl-icd",
+    "ocl-icd-libopencl1",
+    "ocl-icd-opencl-dev",
+    "opencl-headers",
+    "opencl-icd",
+    "qtbase5-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "ocl-icd",
+    "opencl-headers",
+    "qtbase",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "libboost-dev": "boost",
+    "opencl-headers": "opencl-headers",
+    "zlib1g-dev": "zlib",
+    "ocl-icd-libopencl1": "ocl-icd",
+    "ocl-icd-opencl-dev": "ocl-icd"
+  }
+}

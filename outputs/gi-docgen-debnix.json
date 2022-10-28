@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "gi-docgen",
+  "nix_pkg": null,
+  "control_file_hash": "8a43ece11364e8a3a40eeb8ed4ebcac896c2bea527236867b95c53d83cea5e5b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-gnome",
+    "dh-sequence-python3",
+    "dh-sequence-sphinxdoc",
+    "gnome-pkg-tools",
+    "meson",
+    "python3",
+    "python3-jinja2",
+    "python3-markdown",
+    "python3-markupsafe",
+    "python3-pygments",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-toml",
+    "python3-typogrify",
+    "sphinx-common"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "markdown",
+    "markupsafe",
+    "meson",
+    "ninja",
+    "pygments",
+    "python3",
+    "toml",
+    "typogrify"
+  ],
+  "map": {
+    "python3-pygments": "pygments",
+    "python3": "python3",
+    "python3-jinja2": "Jinja2",
+    "python3-typogrify": "typogrify",
+    "python3-markupsafe": "markupsafe",
+    "meson": "meson"
+  }
+}

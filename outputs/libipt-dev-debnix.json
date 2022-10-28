@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libipt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3d283285e2ecbad7b1378cce1810ea7a2aac4b29b3dfff8248deaceaa88346c3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libipt2"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

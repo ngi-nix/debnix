@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "kgx",
+  "nix_pkg": null,
+  "control_file_hash": "398a46b3c23ead2f5da513c642b8b8f67b72d1f7e340d1cd3306c1bb2e42e9d5",
+  "deb_inputs": [
+    "appstream-util",
+    "at-spi2-core",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "gobject-introspection",
+    "gsettings-desktop-schemas",
+    "gsettings-desktop-schemas-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libgtop2-dev",
+    "libhandy-0.0-dev",
+    "libpcre2-dev",
+    "libvte-2.91-dev",
+    "meson",
+    "python3-gi",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "gettext",
+    "git",
+    "gtk+3",
+    "libgtop",
+    "libhandy",
+    "meson",
+    "ninja",
+    "pcre2",
+    "pkg-config-wrapper",
+    "python3",
+    "sassc",
+    "vte"
+  ],
+  "map": {
+    "libvte-2.91-dev": "vte",
+    "meson": "meson",
+    "desktop-file-utils": "desktop-file-utils",
+    "libgtop2-dev": "libgtop",
+    "appstream-util": "appstream-glib",
+    "libpcre2-dev": "pcre2",
+    "libhandy-0.0-dev": "libhandy"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libgnt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4ebaa81b7d6569ee35af45cd5ae3e0aec9b9521d183730252ae1a4d422163780",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-0",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgnt-doc",
+    "libgnt0",
+    "libncurses-dev",
+    "libncursesw6",
+    "libxml2",
+    "meson"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "glib",
+    "gtk-doc",
+    "libxml2",
+    "meson",
+    "ncurses",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2": "libxml2",
+    "libglib2.0-doc": "glib",
+    "libglib2.0-0": "glib",
+    "libglib2.0-dev": "glib",
+    "libncursesw6": "ncurses",
+    "libncurses-dev": "ncurses",
+    "meson": "meson"
+  }
+}

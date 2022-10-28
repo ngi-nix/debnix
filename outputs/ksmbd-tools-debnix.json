@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "ksmbd-tools",
+  "nix_pkg": null,
+  "control_file_hash": "cab8217ef4bf6e2c03ed28380eceb630a7256390a77d9d5399c6024118ed1419",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "glib",
+    "libnl",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libnl-genl-3-dev": "libnl",
+    "libnl-3-dev": "libnl",
+    "autoconf": "autoconf"
+  }
+}

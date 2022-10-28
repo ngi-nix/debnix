@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libg15daemon-client1",
+  "nix_pkg": null,
+  "control_file_hash": "d570db20aaa63ddd45ae17ac7f14bfee1a156c7f24d78256256d222a84c45865",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfreetype6-dev",
+    "libg15-1",
+    "libg15-dev",
+    "libg15daemon-client1",
+    "libg15render-dev",
+    "libtool",
+    "lsb-base",
+    "udev",
+    "xkb-data"
+  ],
+  "nix_inputs": [
+    "libg15",
+    "libg15render"
+  ],
+  "map": {
+    "libg15-dev": "libg15",
+    "libg15-1": "libg15",
+    "libg15render-dev": "libg15render"
+  }
+}

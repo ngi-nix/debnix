@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "iqtree",
+  "nix_pkg": null,
+  "control_file_hash": "e91553734f0c635c5a2dce49a2e8a3946bca550ca65127c30ba41607df1224d0",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libboost-dev",
+    "libeigen3-dev",
+    "libsprng2-dev",
+    "mpi-default-dev",
+    "time",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "eigen",
+    "zlib"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "libeigen3-dev": "eigen",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake"
+  }
+}

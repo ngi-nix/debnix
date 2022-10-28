@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "gnat",
+  "nix_pkg": null,
+  "control_file_hash": "8b09756a25935b94bfae3bb52dce9d15e32816eed3429b8375fbe7eb0fa744b8",
+  "deb_inputs": [
+    "ada-reference-manual-2012",
+    "debhelper-compat",
+    "gnat-12"
+  ],
+  "nix_inputs": [
+    "binutils-wrapper"
+  ],
+  "map": {}
+}
