@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libvcdinfo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c33c41a90900175659e2ceac9d15147aad225c6e3b48f8078bcf7aa25ecf159f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-awk",
+    "help2man",
+    "libcdio-dev",
+    "libiso9660-dev",
+    "libpopt-dev",
+    "libvcdinfo0",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libcdio",
+    "libxml2",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpopt-dev": "popt",
+    "libxml2-dev": "libxml2",
+    "libiso9660-dev": "libcdio",
+    "libcdio-dev": "libcdio"
+  }
+}

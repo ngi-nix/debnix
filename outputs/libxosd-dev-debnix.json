@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libxosd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7edc3bb6ae0af3aa1ba3a55bb58c6d4118e072b2ffb9627d1c18616c5ad6762f",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libx11-dev",
+    "libxext-dev",
+    "libxinerama-dev",
+    "libxosd2",
+    "pkg-config",
+    "x11proto-core-dev",
+    "x11proto-xext-dev",
+    "x11proto-xinerama-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "libXt",
+    "xorgproto"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "x11proto-core-dev": "xorgproto",
+    "libxext-dev": "libXext",
+    "x11proto-xext-dev": "xorgproto",
+    "x11proto-xinerama-dev": "xorgproto"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libmms-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8859474144d916d8ea6caf2c10a70ca5ea93581884b1b24918dca02c25f5684e",
+  "deb_inputs": [
+    "debhelper",
+    "libmms0"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

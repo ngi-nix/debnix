@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libmygui-dev",
+  "nix_pkg": null,
+  "control_file_hash": "36dbdcac442660c969fa5844f668a7880643c465e741dd71a812a7abed8c708e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "g++",
+    "graphviz",
+    "libfreetype6-dev",
+    "libgl1-mesa-dev",
+    "libglew-dev",
+    "libjs-jquery",
+    "libmygui.ogreplatform0debian1v5",
+    "libmygui.openglplatform0debian1v5",
+    "libmyguiengine3debian1v5",
+    "libogre-1.12-dev",
+    "libois-dev",
+    "mygui-doc",
+    "pkg-config",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "freetype",
+    "glu",
+    "libGL",
+    "libX11",
+    "ois",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libgl1-mesa-dev": "libGL",
+    "libfreetype6-dev": "freetype",
+    "libois-dev": "ois"
+  }
+}

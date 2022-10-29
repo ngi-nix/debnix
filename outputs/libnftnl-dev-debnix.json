@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libnftnl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3f27355bdc1042a7b8f924f9806ea6952cf98a1411680f9b16bb8c8a9d1298c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libmnl-dev",
+    "libnftnl-dev-doc",
+    "libnftnl11",
+    "libtool",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libmnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmnl-dev": "libmnl"
+  }
+}
