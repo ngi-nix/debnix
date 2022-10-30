@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libdaq-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3153240557bee3d9db202c6985660350c843125d40c25369d438143581234d81",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "libcmocka-dev",
+    "libdaq3",
+    "libdumbnet-dev",
+    "libfst-dev",
+    "libnetfilter-queue-dev",
+    "libpcap0.8-dev",
+    "snort-common-libraries"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libdnet",
+    "libnetfilter_queue",
+    "libnfnetlink",
+    "libpcap"
+  ],
+  "map": {
+    "flex": "flex",
+    "libpcap0.8-dev": "libpcap",
+    "bison": "bison",
+    "libnetfilter-queue-dev": "libnetfilter_queue"
+  }
+}

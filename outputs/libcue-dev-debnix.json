@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libcue-dev",
+  "nix_pkg": null,
+  "control_file_hash": "436a21e38a979a43438fe54636803439f530d87478e6c567d623dba8520dcd20",
+  "deb_inputs": [
+    "bison",
+    "cmake",
+    "debhelper-compat",
+    "flex",
+    "libcue2"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "flex"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "cmake": "cmake"
+  }
+}

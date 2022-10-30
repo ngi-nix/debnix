@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "gitbatch",
+  "nix_pkg": null,
+  "control_file_hash": "2932a4bb848d7cc3b0d3bb1cf800a7fb399baaa9f72d35bc4b2f21ebb97c392b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang"
+  ],
+  "nix_inputs": [
+    "git",
+    "go"
+  ],
+  "map": {}
+}

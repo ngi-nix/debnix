@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gbsplay",
+  "nix_pkg": null,
+  "control_file_hash": "855d47845ecc45b59758209cea5cf8fc47817a40f555363303e8b46f1cd6416a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "libasound2-dev",
+    "libaudio-dev",
+    "libcairo2-dev",
+    "libpulse-dev",
+    "libsdl2-dev",
+    "libxcb-icccm4-dev",
+    "vorbis-tools"
+  ],
+  "nix_inputs": [
+    "libpulseaudio",
+    "nas"
+  ],
+  "map": {
+    "libaudio-dev": "nas"
+  }
+}

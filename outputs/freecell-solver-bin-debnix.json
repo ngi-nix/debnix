@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "freecell-solver-bin",
+  "nix_pkg": null,
+  "control_file_hash": "cf35e5117970850f8542ad03dd9999802ff1d42f8ce32d93c9bf436fdaecb510",
+  "deb_inputs": [
+    "libfreecell-solver0",
+    "python3"
+  ],
+  "nix_inputs": [
+    "Code-TidyAll",
+    "Games-Solitaire-Verify",
+    "Module-Build",
+    "String-ShellQuote",
+    "Task-FreecellSolver-Testing",
+    "Template-Toolkit",
+    "Test-Data-Split",
+    "Test-Differences",
+    "Test-PerlTidy",
+    "Test-Run-Plugin-TrimDisplayedFilenames",
+    "Test-RunValgrind",
+    "Test-TrailingSpace",
+    "Test-Trap",
+    "cmake",
+    "gmp-with-cxx",
+    "gperf",
+    "libtap",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "random2"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "kmon",
+  "nix_pkg": null,
+  "control_file_hash": "fee9ca587b4692a8265a5571fcc0e938ef0c7c6ec6f3cd19649a86d73360bdac",
+  "deb_inputs": [
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-bytesize-1+default-dev",
+    "librust-clap-2+default-dev",
+    "librust-clipboard-0.5+default-dev",
+    "librust-colorsys-0.6+default-dev",
+    "librust-enum-iterator-0.6+default-dev",
+    "librust-enum-unitary-0.4.2+default-dev",
+    "librust-termion-1+default-dev",
+    "librust-tui-0.19+termion-dev",
+    "librust-unicode-width-0.1+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "libxcb",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

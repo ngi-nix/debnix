@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "hivelytracker",
+  "nix_pkg": null,
+  "control_file_hash": "0ffdc96aafeda5b5770ddef8b7e4a90d560db30e97232eea3f74d3880fc7bc77",
+  "deb_inputs": [
+    "debhelper",
+    "fonts-dejavu-core",
+    "libgtk2.0-dev",
+    "libsdl-image1.2-dev",
+    "libsdl-ttf2.0-dev",
+    "libsdl1.2-dev",
+    "opencubicplayer"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_ttf",
+    "glib",
+    "gtk+",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl1.2-dev": "SDL",
+    "libsdl-ttf2.0-dev": "SDL_ttf"
+  }
+}

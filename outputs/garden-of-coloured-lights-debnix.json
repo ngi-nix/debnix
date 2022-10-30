@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "garden-of-coloured-lights",
+  "nix_pkg": null,
+  "control_file_hash": "0efe888abf0b39ad7e7232e093b5775db9435a8a11fe0ec53cc67367b49caed9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "garden-of-coloured-lights",
+    "garden-of-coloured-lights-data",
+    "liballegro4-dev"
+  ],
+  "nix_inputs": [
+    "allegro",
+    "autoconf",
+    "automake"
+  ],
+  "map": {
+    "liballegro4-dev": "allegro"
+  }
+}

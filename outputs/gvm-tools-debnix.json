@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "gvm-tools",
+  "nix_pkg": null,
+  "control_file_hash": "bd3d641672c8c9ee18fc44c8a39868dd681ac57799c28148a742085e9593d403",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pkg-config",
+    "pybuild-plugin-pyproject",
+    "python3-all",
+    "python3-gvm",
+    "python3-lxml",
+    "python3-poetry-core",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-terminaltables"
+  ],
+  "nix_inputs": [
+    "poetry-core",
+    "python-gvm",
+    "python3"
+  ],
+  "map": {
+    "python3-gvm": "python-gvm",
+    "python3-poetry-core": "poetry-core"
+  }
+}

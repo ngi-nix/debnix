@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libbellesip-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4cfe0da49f1abdf49fa23b2d1c42a384c7ccfecd5c85f44fb33078b0132eee3c",
+  "deb_inputs": [
+    "antlr3",
+    "cmake",
+    "debhelper-compat",
+    "dns-root-data",
+    "intltool",
+    "libantlr3c-dev",
+    "libavahi-compat-libdnssd-dev",
+    "libbctoolbox-dev",
+    "libbellesip1",
+    "libbelr-dev",
+    "libz-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bctoolbox",
+    "belr",
+    "cmake",
+    "libantlr3c",
+    "mbedtls",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libbelr-dev": "belr",
+    "zlib1g-dev": "zlib",
+    "libbctoolbox-dev": "bctoolbox",
+    "libantlr3c-dev": "libantlr3c"
+  }
+}

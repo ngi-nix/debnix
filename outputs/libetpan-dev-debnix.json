@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libetpan-dev",
+  "nix_pkg": null,
+  "control_file_hash": "13ea3bf6db5542d8215c608976006ab5a48eb43cfdf37de676e0bbdcbe81dcc3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcurl4-gnutls-dev",
+    "libdb-dev",
+    "libetpan-doc",
+    "libetpan20",
+    "libexpat1-dev",
+    "libgnutls28-dev",
+    "liblockfile-dev",
+    "libsasl2-dev",
+    "libtool",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libtool": "libtool"
+  }
+}

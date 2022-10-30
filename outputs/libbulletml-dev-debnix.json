@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libbulletml-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b52e321d2c72b9d285a1764261a9e9c5239864fd7117e83ddd1e72eae6589ced",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dh-exec",
+    "dpkg-dev",
+    "libbulletml0v5"
+  ],
+  "nix_inputs": [
+    "bison",
+    "perl"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

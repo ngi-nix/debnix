@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "lhs2tex",
+  "nix_pkg": null,
+  "control_file_hash": "857e27461ea2046fff8c2fb1c8b28e0bc2bcaafb0f53da65aaf5f1578511e9d1",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "ghc",
+    "libghc-regex-compat-dev",
+    "tex-common",
+    "texlive-latex-base",
+    "texlive-science"
+  ],
+  "nix_inputs": [
+    "ghc",
+    "regex-compat"
+  ],
+  "map": {
+    "ghc": "ghc"
+  }
+}

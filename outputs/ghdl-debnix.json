@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "ghdl",
+  "nix_pkg": null,
+  "control_file_hash": "5540da3462a255b25b773d608c21a552bcc788e4d10297c09f9570215e65f445",
+  "deb_inputs": [
+    "clang",
+    "debhelper-compat",
+    "gcc",
+    "gcc-10-source",
+    "ghdl-common",
+    "ghdl-mcode",
+    "gnat-10",
+    "gtkwave",
+    "libgmp-dev",
+    "libisl-dev",
+    "libmpc-dev",
+    "libmpfr-dev",
+    "llvm-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gnat-wrapper",
+    "llvm",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "llvm-dev": "llvm"
+  }
+}

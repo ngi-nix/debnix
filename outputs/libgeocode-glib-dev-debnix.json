@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libgeocode-glib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1e54552dc71ad6e0fc244d4a4e6d36ca477de76a181746ecfc57433551f59d7d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-geocodeglib-2.0",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "libgeocode-glib-2-0",
+    "libgeocode-glib-doc",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libjson-glib-dev",
+    "libsoup-3.0-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "json-glib",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libjson-glib-dev": "json-glib",
+    "libsoup-3.0-dev": "libsoup",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "gobject-introspection": "gobject-introspection",
+    "meson": "meson"
+  }
+}

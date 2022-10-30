@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["asciidoc", "autoconf", "autoconf2.69", "autogen", "automake", "bc", "binutils-multiarch", "binutils-source", "bison", "chrpath", "coreutils", "cpio", "debhelper-compat", "debugedit", "dpkg", "dpkg-dev", "dwz", "fakeroot", "file", "flex", "gawk", "gcc-11-source", "gettext", "glibc-source", "gperf", "kernel-wedge", "kmod", "libconfig-auto-perl", "libelf-dev", "libfile-homedir-perl", "libfile-temp-perl", "libisl-dev", "liblocale-gettext-perl", "libmpc-dev", "libmpfr-dev", "libtool", "libunwind-dev", "linux-libc-dev", "linux-source", "lsb-release", "lzma", "m4", "make", "module-init-tools", "patchutils", "procps", "python3", "quilt", "rdfind", "realpath", "rsync", "sed", "sharutils", "symlinks", "tar", "texinfo", "time", "xmlto", "xz-utils"], or 
+output: 
+[] is empty!

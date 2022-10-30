@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "gbdfed",
+  "nix_pkg": null,
+  "control_file_hash": "a2df0df3a05ded696b4e70a67f93d9248d5777af7d38d586377c335482515354",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libgtk2.0-dev",
+    "libxmu-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "gtk+",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "flmsg",
+  "nix_pkg": null,
+  "control_file_hash": "0ff5c3f81e9075b5e74225df9842845081ed76869eafde0b37afbb85bfe749df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fldigi",
+    "libfltk1.3-dev",
+    "libflxmlrpc-dev",
+    "libx11-dev",
+    "pkg-config",
+    "sensible-utils",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "fltk",
+    "libjpeg-turbo",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfltk1.3-dev": "fltk"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "interception-tools",
+  "nix_pkg": null,
+  "control_file_hash": "260b2d4f174b4462e511f7595634ed3fabdb589fbc3f34fa28592c647b7784b2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "interception-tools",
+    "interception-tools-compat",
+    "libboost-dev",
+    "libevdev-dev",
+    "libudev-dev",
+    "libyaml-cpp-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "libevdev",
+    "libyaml-cpp",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libyaml-cpp-dev": "libyaml-cpp",
+    "cmake": "cmake",
+    "libevdev-dev": "libevdev",
+    "libudev-dev": "systemd",
+    "libboost-dev": "boost"
+  }
+}

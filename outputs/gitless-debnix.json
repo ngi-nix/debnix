@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "gitless",
+  "nix_pkg": null,
+  "control_file_hash": "091aa1ef0683cbda8ac4492fd5377c7ff1fea30429be6faceab2341e48448a01",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "git",
+    "less",
+    "python3-all",
+    "python3-clint",
+    "python3-pkg-resources",
+    "python3-pygit2",
+    "python3-setuptools",
+    "python3-sh"
+  ],
+  "nix_inputs": [
+    "clint",
+    "pygit2",
+    "python3",
+    "sh"
+  ],
+  "map": {}
+}

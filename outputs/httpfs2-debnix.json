@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "httpfs2",
+  "nix_pkg": null,
+  "control_file_hash": "e0ecc29689ad462755dea58cbdaf8a275b2797e132b403b121907ae017729f0c",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper",
+    "fuse",
+    "libfuse-dev",
+    "pkg-config",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "fuse",
+    "libxml2",
+    "libxslt",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "asciidoc": "asciidoc",
+    "libfuse-dev": "fuse"
+  }
+}

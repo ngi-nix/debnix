@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "hdfview",
+  "nix_pkg": null,
+  "control_file_hash": "07355444d8d67b8a9f741c6b878f0b17b29ca3b2baa1b8c0e68f97e9da0a1961",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "default-jdk",
+    "default-jre",
+    "imagemagick",
+    "java-wrappers",
+    "libhdf4-dev",
+    "libhdf5-dev",
+    "libjgraph-java",
+    "libjhdf4-java",
+    "libjhdf4-jni",
+    "libjhdf5-java",
+    "libjhdf5-jni",
+    "libjpeg-dev",
+    "libslf4j-java",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {}
+}
