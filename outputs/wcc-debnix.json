@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "wcc",
+  "nix_pkg": null,
+  "control_file_hash": "ed9649b5a6938c2e89dc096bc22e4234c52fa9b6939ad775642bb89d56e44f68",
+  "deb_inputs": [
+    "binutils-dev",
+    "clang",
+    "debhelper",
+    "libcapstone-dev",
+    "libelf-dev",
+    "libgsl-dev",
+    "libiberty-dev",
+    "liblua5.3-dev",
+    "libopenlibm-dev",
+    "libreadline-dev",
+    "lua",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "capstone",
+    "libbfd",
+    "libelf",
+    "libiberty",
+    "readline"
+  ],
+  "map": {
+    "libiberty-dev": "libiberty",
+    "libelf-dev": "libelf",
+    "libreadline-dev": "readline",
+    "libcapstone-dev": "capstone"
+  }
+}

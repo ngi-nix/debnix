@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "openorienteering-mapper",
+  "nix_pkg": null,
+  "control_file_hash": "0f660e48ff9afe5c746dd5b62aa5063f12b1c9630a9ad54dc37ad2cd114a8dae",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libcups2-dev",
+    "libgdal-dev",
+    "libpolyclipping-dev",
+    "libproj-dev",
+    "libqt5sensors5-dev",
+    "libqt5serialport5-dev",
+    "libqt5sql5-sqlite",
+    "pkg-config",
+    "qt5-image-formats-plugins",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qtpositioning5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "sqlite3",
+    "xauth",
+    "xvfb",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "Clipper",
+    "cmake",
+    "cups",
+    "doxygen",
+    "gdal",
+    "ninja",
+    "proj",
+    "qtimageformats",
+    "qtlocation",
+    "qtsensors",
+    "qttools",
+    "zlib"
+  ],
+  "map": {
+    "libproj-dev": "proj",
+    "libgdal-dev": "gdal",
+    "qttools5-dev": "qttools",
+    "zlib1g-dev": "zlib",
+    "doxygen": "doxygen",
+    "cmake": "cmake",
+    "libcups2-dev": "cups"
+  }
+}

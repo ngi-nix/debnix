@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "qperf",
+  "nix_pkg": null,
+  "control_file_hash": "0e76a882bd9040ffd8466b22a75035f01db1749ed3ec3934487bc416f7d9bbc1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libibverbs-dev",
+    "librdmacm-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "perl",
+    "rdma-core"
+  ],
+  "map": {
+    "librdmacm-dev": "rdma-core",
+    "libibverbs-dev": "rdma-core"
+  }
+}

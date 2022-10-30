@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "textql",
+  "nix_pkg": null,
+  "control_file_hash": "5a9ee27617df024882bedead49b6ba91f6d70e6abbd6d51e8796cdc0c52b8d46",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-mattn-go-sqlite3-dev",
+    "golang-go",
+    "sqlite3"
+  ],
+  "nix_inputs": [
+    "go",
+    "sqlite"
+  ],
+  "map": {
+    "sqlite3": "sqlite"
+  }
+}

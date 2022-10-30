@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "b3sum",
+  "nix_pkg": null,
+  "control_file_hash": "aebbd31f23e221e3c005ca2c823402f0600e908d38681586a5af0bc8b0d7af95",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-anyhow-1+default-dev",
+    "librust-blake3-1+default-dev",
+    "librust-blake3-1+rayon-dev",
+    "librust-clap-2+default-dev",
+    "librust-hex-0.4+default-dev",
+    "librust-memmap-0.7+default-dev",
+    "librust-rayon-1+default-dev",
+    "librust-wild-2+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

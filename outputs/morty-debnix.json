@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "morty",
+  "nix_pkg": null,
+  "control_file_hash": "dcd05f45117abe80b115acaac9463ea44f5845fffd5e499794222ce465727f2d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-valyala-fasthttp-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-text-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mpc123",
+  "nix_pkg": null,
+  "control_file_hash": "215513ad508e6598b1648b1d51e3ec77d51cca41a36c5cb076d44571adebc2ac",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "libao-dev",
+    "libmpcdec-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libao",
+    "libmpcdec"
+  ],
+  "map": {
+    "libmpcdec-dev": "libmpcdec",
+    "gettext": "gettext",
+    "libao-dev": "libao"
+  }
+}

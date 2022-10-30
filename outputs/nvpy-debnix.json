@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "nvpy",
+  "nix_pkg": null,
+  "control_file_hash": "a9d90fb770ad317fc77f02465a7771b7cb0f08a79d05e999f37f61c3800862cd",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3",
+    "python3-markdown",
+    "python3-setuptools",
+    "python3-simplenote",
+    "python3-tk",
+    "yapf3"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "markdown",
+    "python3",
+    "simplenote",
+    "tkinter"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

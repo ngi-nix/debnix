@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "spiped",
+  "nix_pkg": null,
+  "control_file_hash": "dee1e32dcc8272dae8d2388f8d9f1bba3cbc31e7c45e5f424500c509f61bc045",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-single-binary",
+    "libssl-dev",
+    "netcat-openbsd",
+    "perl",
+    "procps"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

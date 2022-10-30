@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "eventstat",
+  "nix_pkg": null,
+  "control_file_hash": "da394bddcd8a97ece14fadd441bd2e61f5a1cf3cf01ddadc2af433d7a10f5f6c",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

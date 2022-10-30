@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "sslsplit",
+  "nix_pkg": null,
+  "control_file_hash": "df4ed88446f98b76a09c781413dd4dc90a64fb91fec487c0028d096cd90394c4",
+  "deb_inputs": [
+    "check",
+    "debhelper",
+    "libevent-dev",
+    "libnet1-dev",
+    "libpcap-dev",
+    "libssl-dev",
+    "openssl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libevent",
+    "libnet",
+    "libpcap",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "openssl": "openssl",
+    "libpcap-dev": "libpcap",
+    "libnet1-dev": "libnet",
+    "libevent-dev": "libevent"
+  }
+}

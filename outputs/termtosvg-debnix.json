@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "termtosvg",
+  "nix_pkg": null,
+  "control_file_hash": "ee1a8eb776ca4d7351f0c62322a7236b7f3fe7bfbbbdde7b1d63fa49abaf1fbc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pandoc",
+    "python3-all",
+    "python3-lxml",
+    "python3-pyte",
+    "python3-setuptools",
+    "python3-wcwidth"
+  ],
+  "nix_inputs": [
+    "lxml",
+    "pyte",
+    "python3",
+    "wcwidth"
+  ],
+  "map": {
+    "python3-lxml": "lxml",
+    "python3-wcwidth": "wcwidth",
+    "python3-pyte": "pyte"
+  }
+}

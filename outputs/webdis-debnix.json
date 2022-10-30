@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "webdis",
+  "nix_pkg": null,
+  "control_file_hash": "4eb2a6ca2fba1d25871053bf4dd118555281ee1f354bed0a8929881372c03571",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "libb64-dev",
+    "libevent-dev",
+    "libhiredis-dev",
+    "libjansson-dev",
+    "libmsgpack-dev",
+    "lsb-base",
+    "pkg-config",
+    "python3",
+    "redis-server"
+  ],
+  "nix_inputs": [
+    "hiredis",
+    "http-parser",
+    "jansson",
+    "libevent"
+  ],
+  "map": {
+    "libevent-dev": "libevent",
+    "libhiredis-dev": "hiredis",
+    "libjansson-dev": "jansson"
+  }
+}

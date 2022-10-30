@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "exempi",
+  "nix_pkg": null,
+  "control_file_hash": "856ce1469ca9b8c161f894e510dab037c14e8f1ca65b0f13532b69a08aa55eb2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-test-dev",
+    "libexempi8",
+    "libexpat1-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "expat",
+    "zlib"
+  ],
+  "map": {
+    "libexpat1-dev": "expat",
+    "zlib1g-dev": "zlib"
+  }
+}

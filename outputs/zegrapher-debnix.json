@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "zegrapher",
+  "nix_pkg": null,
+  "control_file_hash": "8a54d89dc150ff0d8abe4df6fd19386a97866f88e69f80c58483b575cff71d25",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-dev",
+    "libqt5webkit5-dev",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "boost"
+  ],
+  "map": {
+    "libboost-dev": "boost"
+  }
+}

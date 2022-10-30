@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "spirv-headers",
+  "nix_pkg": null,
+  "control_file_hash": "db925c94880b430b8439e9091c05cc44c9e70a13d7a9a64b8f5804dbd1c5e947",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "uhexen2",
+  "nix_pkg": null,
+  "control_file_hash": "b8a823b507bc34f5d08725b0db67a6d5fdc388bd18f9de3c01510d5a333c9a17",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "game-data-packager",
+    "hexen2-data",
+    "libmad0-dev",
+    "libogg-dev",
+    "libsdl1.2-dev",
+    "libvorbis-dev",
+    "nasm",
+    "uhexen2-common"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "libmad",
+    "libogg",
+    "libvorbis",
+    "xdelta"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libmad0-dev": "libmad",
+    "libvorbis-dev": "libvorbis",
+    "libogg-dev": "libogg"
+  }
+}

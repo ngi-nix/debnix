@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "premake4",
+  "nix_pkg": null,
+  "control_file_hash": "4565eb2670c7cb390724a8696842ff9fb581818a01e092b8c1a1532e6a6567b7",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "liblua5.1-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "litecoin-qt",
+  "nix_pkg": null,
+  "control_file_hash": "a9c5741dbee79a2960809a7cd270a00f6dea81fbfff0f0945dae0d330d1bacda",
+  "deb_inputs": [
+    "db-util",
+    "debhelper-compat",
+    "imagemagick",
+    "libboost-all-dev",
+    "libdb++-dev",
+    "libevent-dev",
+    "libfmt-dev",
+    "libleveldb-dev",
+    "libminiupnpc-dev",
+    "libprotobuf-dev",
+    "libqrencode-dev",
+    "libssl-dev",
+    "pkg-config",
+    "protobuf-compiler",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "boost",
+    "db",
+    "fmt",
+    "glib",
+    "libevent",
+    "miniupnpc",
+    "openssl",
+    "pkg-config-wrapper",
+    "protobuf",
+    "util-linux",
+    "zeromq",
+    "zlib"
+  ],
+  "map": {
+    "libevent-dev": "libevent",
+    "libssl-dev": "openssl",
+    "protobuf-compiler": "protobuf",
+    "libfmt-dev": "fmt",
+    "libminiupnpc-dev": "miniupnpc",
+    "libprotobuf-dev": "protobuf"
+  }
+}

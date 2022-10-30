@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "tang-common",
+  "nix_pkg": null,
+  "control_file_hash": "283e2a7a04224baad4bf4432f5a6731aaad1dbb2324df39a73599dee77b8c7cd",
+  "deb_inputs": [
+    "adduser",
+    "asciidoctor",
+    "curl",
+    "debhelper-compat",
+    "jose",
+    "libhttp-parser-dev",
+    "libjansson-dev",
+    "libjansson4",
+    "libjose-dev",
+    "meson",
+    "moreutils",
+    "pkg-config",
+    "systemd",
+    "tang-common",
+    "xinetd"
+  ],
+  "nix_inputs": [
+    "asciidoc-full",
+    "http-parser",
+    "jansson",
+    "jose",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "jose": "jose",
+    "libhttp-parser-dev": "http-parser",
+    "libjansson4": "jansson",
+    "libjose-dev": "jose",
+    "libjansson-dev": "jansson",
+    "systemd": "systemd"
+  }
+}

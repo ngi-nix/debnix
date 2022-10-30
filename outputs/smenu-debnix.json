@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "smenu",
+  "nix_pkg": null,
+  "control_file_hash": "6d55580c4d2e73d1409b75aedfe7b73dc0be29c68e6695b09ad2185d5cd5b1a1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

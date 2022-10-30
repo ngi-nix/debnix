@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "mpdcron",
+  "nix_pkg": null,
+  "control_file_hash": "191d11e51bac5d76073f49ea00842613abb590ff8e6859245516981cb3ced591",
+  "deb_inputs": [
+    "automake",
+    "debhelper",
+    "libcurl4-gnutls-dev",
+    "libdaemon-dev",
+    "libglib2.0-dev",
+    "libmpdclient-dev",
+    "libnotify-bin",
+    "libsqlite3-dev",
+    "libtool",
+    "lintian",
+    "mpd",
+    "quilt",
+    "ruby",
+    "ruby-nokogiri"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "curl",
+    "glib",
+    "libdaemon",
+    "libmpdclient",
+    "libnotify",
+    "libtool",
+    "pandoc",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libmpdclient-dev": "libmpdclient",
+    "automake": "automake",
+    "libsqlite3-dev": "sqlite",
+    "libtool": "libtool",
+    "libnotify-bin": "libnotify",
+    "libdaemon-dev": "libdaemon",
+    "libglib2.0-dev": "glib"
+  }
+}

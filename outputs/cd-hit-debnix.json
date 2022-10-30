@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cd-hit",
+  "nix_pkg": null,
+  "control_file_hash": "857c67fe41a7c96359f1faab1b8201033ae5efae5ef11b489fafa99353ad0786",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "Image-Magick",
+    "Text-NSP",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

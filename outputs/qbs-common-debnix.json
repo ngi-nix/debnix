@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "qbs-common",
+  "nix_pkg": null,
+  "control_file_hash": "0f7d6425315bb58ae7e14de6f953b2a0817bdf2ef3a80045abe82104cb023674",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libqbscore1.23",
+    "pkg-kde-tools",
+    "python3-bs4",
+    "python3-lxml",
+    "qbs-common",
+    "qtbase5-dev",
+    "qtbase5-private-dev",
+    "qtdeclarative5-private-dev",
+    "qtscript5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "qtbase",
+    "qtscript"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qtscript5-dev": "qtscript"
+  }
+}

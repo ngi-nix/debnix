@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "mstflint",
+  "nix_pkg": null,
+  "control_file_hash": "3ee83f98a2798ed1e647789c264124131ce1ad27bf292cf5d21de002216050f2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-filesystem-dev",
+    "libboost-regex-dev",
+    "libboost-system-dev",
+    "libexpat1-dev",
+    "libibmad-dev",
+    "libibmad5",
+    "libiniparser-dev",
+    "libjsoncpp-dev",
+    "liblzma-dev",
+    "libmuparser-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "pkg-config",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libibmad",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libibmad-dev": "libibmad",
+    "zlib1g-dev": "zlib"
+  }
+}

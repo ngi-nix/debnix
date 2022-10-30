@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "ace",
+  "nix_pkg": null,
+  "control_file_hash": "086381b1f73b9ecdd064b5a45bc1b1861ad4d0d1b07e62c7f8d111735b535f6e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doc-base",
+    "docbook-to-man",
+    "libace-7.0.8",
+    "libace-dev",
+    "libace-doc",
+    "libace-flreactor-7.0.8",
+    "libace-foxreactor-7.0.8",
+    "libace-htbp-7.0.8",
+    "libace-inet-7.0.8",
+    "libace-inet-dev",
+    "libace-inet-ssl-7.0.8",
+    "libace-rmcast-7.0.8",
+    "libace-ssl-7.0.8",
+    "libace-ssl-dev",
+    "libace-tkreactor-7.0.8",
+    "libace-tmcast-7.0.8",
+    "libace-xml-utils-7.0.8",
+    "libace-xtreactor-7.0.8",
+    "libacexml-7.0.8",
+    "libfltk1.3-dev",
+    "libfox-1.6-dev",
+    "libkokyu-7.0.8",
+    "libnetsvcs-7.0.8",
+    "libssl-dev",
+    "libxerces-c-dev",
+    "libxt-dev",
+    "make",
+    "pkg-config",
+    "tk-dev"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

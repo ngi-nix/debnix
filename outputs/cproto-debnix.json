@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cproto",
+  "nix_pkg": null,
+  "control_file_hash": "50856afcba844512efa889d9e37ad8027d31934f049fb7a566d8c7c12ffa89fe",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "gcc"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

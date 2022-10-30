@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "quicktun",
+  "nix_pkg": null,
+  "control_file_hash": "06966e90dd7ebb3845ee787f5d8771eb04b1f434cd0569e74098e6bfbee6c901",
+  "deb_inputs": [
+    "daemon",
+    "debhelper",
+    "dh-exec",
+    "libsodium-dev"
+  ],
+  "nix_inputs": [
+    "libsodium"
+  ],
+  "map": {
+    "libsodium-dev": "libsodium"
+  }
+}

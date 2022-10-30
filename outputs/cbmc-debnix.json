@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "cbmc",
+  "nix_pkg": null,
+  "control_file_hash": "4c91e7476ae12050473fa2babca44a6b210a61c397bd5544853cfb764adb3fc6",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "default-jdk-headless",
+    "flex",
+    "gcc",
+    "gdb",
+    "libmaven-compiler-plugin-java",
+    "maven",
+    "maven-debian-helper",
+    "maven-repo-helper",
+    "minisat",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cadical",
+    "cmake",
+    "flex",
+    "perl"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

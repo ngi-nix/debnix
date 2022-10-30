@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "prometheus-haproxy-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "f420b270da4c41884c103956d7dc403f6d8abf237346984058c703e28d42bee9",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-go-kit-log-dev",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-prometheus-common-dev",
+    "golang-github-prometheus-exporter-toolkit-dev",
+    "golang-gopkg-alecthomas-kingpin.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

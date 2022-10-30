@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "bombadillo",
+  "nix_pkg": null,
+  "control_file_hash": "a5fc8c9e1b6aa8657ab6c15a2cda19844e7190ae66a8b3905d06e24ac9c42076",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "elinks",
+    "golang-any",
+    "lynx",
+    "w3m"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

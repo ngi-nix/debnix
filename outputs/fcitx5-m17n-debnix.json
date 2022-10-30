@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "fcitx5-m17n",
+  "nix_pkg": null,
+  "control_file_hash": "aa1b92c12ec8c893e688f14aaf42e38554e428548971e258818f06a4151a70bc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fcitx5-modules-dev",
+    "gettext",
+    "libfcitx5core-dev",
+    "libfmt-dev",
+    "libm17n-dev",
+    "m17n-db",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "fmt",
+    "gettext",
+    "m17n-db",
+    "m17n-lib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "fcitx5-modules-dev": "fcitx5",
+    "libm17n-dev": "m17n-lib",
+    "libfcitx5core-dev": "fcitx5",
+    "gettext": "gettext",
+    "cmake": "cmake",
+    "libfmt-dev": "fmt",
+    "m17n-db": "m17n-db"
+  }
+}

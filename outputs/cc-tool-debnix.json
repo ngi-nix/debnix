@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "cc-tool",
+  "nix_pkg": null,
+  "control_file_hash": "46b920a210d7a28553ef0774013194bf03bb8176c1f0e5ec0fa67a89c6a7a087",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-all-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

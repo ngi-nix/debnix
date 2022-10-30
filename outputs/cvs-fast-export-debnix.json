@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "cvs-fast-export",
+  "nix_pkg": null,
+  "control_file_hash": "8d3bdea8ab055db3d34a3e18ad83de70e7ee2201dcd85f7cd3a03e413be9efdc",
+  "deb_inputs": [
+    "asciidoc-base",
+    "bison",
+    "brz",
+    "cppcheck",
+    "cvs",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "docbook-xml",
+    "docbook-xsl",
+    "flex",
+    "git",
+    "pylint",
+    "python3",
+    "rcs",
+    "reposurgeon",
+    "rsync",
+    "shellcheck"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "asciidoc-base": "asciidoc"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "numatop",
+  "nix_pkg": null,
+  "control_file_hash": "d345c5e95b0fc375cc8e1f0cdf168dc73442b46beacc13350bafb42ae6499185",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "check",
+    "debhelper",
+    "debhelper-compat",
+    "libncurses-dev",
+    "libnuma-dev",
+    "libtool",
+    "m4",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "check",
+    "ncurses",
+    "numactl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libnuma-dev": "numactl",
+    "check": "check"
+  }
+}

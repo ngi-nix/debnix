@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "rs",
+  "nix_pkg": null,
+  "control_file_hash": "ebcb8704b2527a7dfb244758e9945223ceef1116b0fe443e4f1c8bb5e84ca962",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "mksh"
+  ],
+  "nix_inputs": [
+    "libbsd"
+  ],
+  "map": {}
+}

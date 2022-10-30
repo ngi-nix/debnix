@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "tcllib-critcl",
+  "nix_pkg": null,
+  "control_file_hash": "4f4fedc273790559ea2d4377d2c850db078065b44f85aab84279b560d4b960f6",
+  "deb_inputs": [
+    "critcl",
+    "debhelper",
+    "freebsd-net-tools",
+    "hurd",
+    "iproute2",
+    "tcllib-critcl"
+  ],
+  "nix_inputs": [
+    "tcl"
+  ],
+  "map": {
+    "tcllib-critcl": "tcl"
+  }
+}

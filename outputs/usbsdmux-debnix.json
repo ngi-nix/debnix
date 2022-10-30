@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "usbsdmux",
+  "nix_pkg": null,
+  "control_file_hash": "f9e3a6b4be68482b8600f468bda3947927eefe2079aaec1727da7d41424afbc8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

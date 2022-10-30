@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "nvidia-vaapi-driver",
+  "nix_pkg": null,
+  "control_file_hash": "2b4c6702d9e309598b9b9b25d0ec8965544241c05c41db5db6761b57eddc3af9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-libva",
+    "libcuda1",
+    "libffmpeg-nvenc-dev",
+    "libgstreamer-plugins-bad1.0-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "gst-plugins-bad",
+    "gstreamer",
+    "libGL",
+    "libva",
+    "meson",
+    "ninja",
+    "nv-codec-headers",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libffmpeg-nvenc-dev": "nv-codec-headers",
+    "meson": "meson"
+  }
+}

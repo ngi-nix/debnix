@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "boohu",
+  "nix_pkg": null,
+  "control_file_hash": "d0e5bf3672103ae130d344d724eed5de42cda79516ec9c95c08f0bfa2f287ca2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-nsf-termbox-go-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

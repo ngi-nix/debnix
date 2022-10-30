@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "xjump",
+  "nix_pkg": null,
+  "control_file_hash": "f0d4ec967f69d29db2a4d8fbee0b017cefe68ea0bb2379f64ba5428cfee88dcd",
+  "deb_inputs": [
+    "debhelper",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libX11",
+    "libXaw",
+    "libXpm",
+    "libXt"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxt-dev": "libXt",
+    "libxaw7-dev": "libXaw",
+    "libxpm-dev": "libXpm"
+  }
+}

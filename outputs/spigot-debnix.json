@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "spigot",
+  "nix_pkg": null,
+  "control_file_hash": "a235ebf15b3e4961c87ccbbfbf4f97f044c68a45efda878d607d36cfa8007dd6",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "halibut",
+    "libgmp-dev",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gmp-with-cxx",
+    "halibut",
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "halibut": "halibut",
+    "libncurses-dev": "ncurses"
+  }
+}

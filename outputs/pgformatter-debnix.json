@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "pgformatter",
+  "nix_pkg": null,
+  "control_file_hash": "d0912124e7b8162aaa73f3643ac59d7f49d78e9ba5a64c69829388026bbcbb3c",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "prometheus-varnish-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "78466a692604b39d1d6bfab2e72ddba11f05ca18c2265bb45f1c73c6ed3ff0d9",
+  "deb_inputs": [
+    "daemon",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-go",
+    "varnish"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

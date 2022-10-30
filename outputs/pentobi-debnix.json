@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "pentobi",
+  "nix_pkg": null,
+  "control_file_hash": "7453f3a77058c1f6efa805c549ec0022f9a0f08d8a2f436f5eb5f1013158ac32",
+  "deb_inputs": [
+    "appstream",
+    "cmake",
+    "debhelper-compat",
+    "docbook-xsl",
+    "extra-cmake-modules",
+    "gettext",
+    "itstool",
+    "libkf5kio-dev",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libqt5webview5-dev",
+    "librsvg2-bin",
+    "pentobi-kde-thumbnailer",
+    "qml-module-qt-labs-folderlistmodel",
+    "qml-module-qt-labs-settings",
+    "qml-module-qtqml",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-layouts",
+    "qml-module-qtquick-window2",
+    "qml-module-qtquick2",
+    "qml-module-qtwebview",
+    "qtdeclarative5-dev",
+    "qtquickcontrols2-5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools",
+    "www-browser",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "appstream",
+    "cmake",
+    "docbook-xsl-nons",
+    "itstool",
+    "librsvg",
+    "qtbase",
+    "qtquickcontrols2",
+    "qtsvg",
+    "qttools",
+    "qtwebview"
+  ],
+  "map": {
+    "librsvg2-bin": "librsvg",
+    "cmake": "cmake",
+    "appstream": "appstream",
+    "qttools5-dev": "qttools",
+    "itstool": "itstool"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "ants",
+  "nix_pkg": null,
+  "control_file_hash": "39c0e5c2a09a1f8100787666a77954cfb0b8ff221b6d04183311988d10ce5cfc",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "environment-modules",
+    "fsl",
+    "gridengine-client",
+    "help2man",
+    "libboost-dev",
+    "libdcmtk-dev",
+    "libdcmtk2-dev",
+    "libfftw3-dev",
+    "libhdf5-dev",
+    "libinsighttoolkit4-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "r-base-core",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "itk",
+    "vtk"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

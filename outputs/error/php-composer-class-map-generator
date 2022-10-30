@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-phpcomposer", "php-composer-pcre", "php-symfony-filesystem", "php-symfony-finder", "phpab", "phpunit"], or 
+output: 
+[] is empty!

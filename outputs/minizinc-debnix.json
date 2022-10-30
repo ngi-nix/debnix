@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "minizinc",
+  "nix_pkg": null,
+  "control_file_hash": "d70187274bfa67ee60ca00800e4dcc7e08085d9f29c9ebd5cc34fe12bf79864a",
+  "deb_inputs": [
+    "bison",
+    "cmake",
+    "debhelper",
+    "dh-exec",
+    "flatzinc",
+    "flex",
+    "libgecode-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "flex"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

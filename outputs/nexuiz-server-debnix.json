@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "nexuiz-server",
+  "nix_pkg": null,
+  "control_file_hash": "75ecf80a18bc532babf604a30e4c07a0b6e532a27fe4bea6cbcee0eccf64de59",
+  "deb_inputs": [
+    "darkplaces",
+    "darkplaces-server",
+    "debhelper-compat",
+    "icoutils",
+    "imagemagick",
+    "nexuiz-data",
+    "nexuiz-music",
+    "xqf"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "alsa-lib",
+    "glu",
+    "libGL",
+    "libX11",
+    "libXext",
+    "libXpm",
+    "libXxf86dga",
+    "libXxf86vm",
+    "unzip"
+  ],
+  "map": {}
+}
