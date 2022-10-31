@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "debian-archive-keyring", "dh-sequence-golang", "golang-any", "golang-golang-x-net-dev", "golang-golang-x-sync-dev", "golang-golang-x-sys-dev", "golang-golang-x-text-dev", "golang-goprotobuf-dev", "golang-pault-go-archive-dev", "golang-pault-go-debian-dev", "mandoc"], or 
+output: 
+[] is empty!

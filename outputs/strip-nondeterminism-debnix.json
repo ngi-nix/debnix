@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "strip-nondeterminism",
+  "nix_pkg": null,
+  "control_file_hash": "6617c82f554671ea8576a72a396781a8b951a9d15826b21f5616c93e93e8e54d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "file",
+    "libarchive-cpio-perl",
+    "libarchive-zip-perl",
+    "libdebhelper-perl",
+    "libfile-stripnondeterminism-perl",
+    "libsub-override-perl"
+  ],
+  "nix_inputs": [
+    "Archive-Cpio",
+    "Archive-Zip",
+    "file",
+    "perl"
+  ],
+  "map": {
+    "file": "file"
+  }
+}

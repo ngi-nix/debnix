@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "adms",
+  "nix_pkg": null,
+  "control_file_hash": "aa55976416f3719e1be0a5b2a8c8e79becd67689a8f7819dce0477736e6a9e69",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libadms0",
+    "libgd-perl",
+    "libxml-libxml-perl",
+    "libxml-parser-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "XML-LibXML",
+    "bison",
+    "flex",
+    "gd",
+    "gperf",
+    "libxml2",
+    "perl"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "perl": "perl"
+  }
+}

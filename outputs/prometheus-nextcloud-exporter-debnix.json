@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "prometheus-nextcloud-exporter",
+  "nix_pkg": null,
+  "control_file_hash": "afcbabe926d448737711c27baba62daee3d2a251df9dfdd26b6cf526e7bbae06",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-logrus-dev",
+    "golang-prometheus-client-dev",
+    "golang-yaml.v2-dev",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

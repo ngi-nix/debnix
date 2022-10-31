@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "tpm-quote-tools",
+  "nix_pkg": null,
+  "control_file_hash": "9cd5ff0582992818d0bf0b345ee8fb729465466fae482c79a7e4374db46ae446",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libtspi-dev",
+    "libtspi1"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "trousers"
+  ],
+  "map": {
+    "libtspi-dev": "trousers",
+    "libtspi1": "trousers"
+  }
+}

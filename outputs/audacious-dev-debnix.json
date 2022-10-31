@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "audacious-dev",
+  "nix_pkg": null,
+  "control_file_hash": "91693a2038f8e5f728161197cdbe27b23c856742e56f98e1d5d61f5685ada189",
+  "deb_inputs": [
+    "audacious-plugins",
+    "dbus-session-bus",
+    "dbus-x11",
+    "debhelper-compat",
+    "default-dbus-session-bus",
+    "gtk2-engines-pixbuf",
+    "libarchive-dev",
+    "libaudcore5",
+    "libaudgui5",
+    "libaudqt2",
+    "libaudtag3",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "librsvg2-bin",
+    "qtbase5-dev",
+    "unzip"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase"
+  }
+}

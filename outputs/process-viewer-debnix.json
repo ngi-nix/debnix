@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "process-viewer",
+  "nix_pkg": null,
+  "control_file_hash": "cedce82fc25354fcefcbedb416b4062562647ff57b4af747852d4921d40b0df9",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-gtk-0.14+default-dev",
+    "librust-libc-0.2+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-derive-1+default-dev",
+    "librust-sysinfo-0.23+default-dev",
+    "librust-toml-0.5+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "gtk4",
+    "nss-cacert",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc",
+    "librust-libc-0.2+default-dev": "rustc"
+  }
+}

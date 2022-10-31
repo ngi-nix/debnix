@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "fasm",
+  "nix_pkg": null,
+  "control_file_hash": "1d81f6362df1bf5cdd73a93df46cdee0f5aa958de7da8c4a47c592ec07030fcd",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "fasm",
+    "gcc-multilib",
+    "libc6-dev-i386"
+  ],
+  "nix_inputs": [
+    "fasm-bin"
+  ],
+  "map": {}
+}

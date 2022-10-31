@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "android-libnativeloader",
+  "nix_pkg": null,
+  "control_file_hash": "9e14135edb54ebd58a5e28f9a27fb40f1d00639896d7c440ce74564935c41386",
+  "deb_inputs": [
+    "android-libadb",
+    "android-libbacktrace",
+    "android-libbacktrace-dev",
+    "android-libbase",
+    "android-libcrypto-utils",
+    "android-libcutils",
+    "android-libcutils-dev",
+    "android-liblog",
+    "android-liblog-dev",
+    "android-libnativebridge",
+    "android-libnativehelper-dev",
+    "android-libnativeloader",
+    "android-libsparse",
+    "android-libutils",
+    "android-libziparchive",
+    "android-platform-system-core-headers",
+    "android-sdk-libsparse-utils",
+    "clang",
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "libbsd-dev",
+    "libbsd0",
+    "mkbootimg",
+    "python3"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

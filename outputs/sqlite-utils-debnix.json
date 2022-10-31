@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "sqlite-utils",
+  "nix_pkg": null,
+  "control_file_hash": "2978147d15326e752493288aca89f312597017fae179d466cb6c93273047f019",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "dh-sequence-sphinxdoc",
+    "python3-all",
+    "python3-click",
+    "python3-click-default-group",
+    "python3-hypothesis",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-copybutton",
+    "python3-sphinx-rtd-theme",
+    "python3-sqlite-fts4",
+    "python3-tabulate"
+  ],
+  "nix_inputs": [
+    "click",
+    "click-default-group",
+    "hypothesis",
+    "python-dateutil",
+    "python3",
+    "sqlite-fts4",
+    "tabulate"
+  ],
+  "map": {
+    "python3-sqlite-fts4": "sqlite-fts4"
+  }
+}

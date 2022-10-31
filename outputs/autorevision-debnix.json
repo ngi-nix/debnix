@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "autorevision",
+  "nix_pkg": null,
+  "control_file_hash": "088f65e54e203546c4859c8421e4e29893a02e6e127f090c4ff6993157e3b1e3",
+  "deb_inputs": [
+    "asciidoc",
+    "asciidoc-base",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "libxml2-utils",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libxml2",
+    "libxslt"
+  ],
+  "map": {
+    "libxml2-utils": "libxml2",
+    "asciidoc": "asciidoc",
+    "xsltproc": "libxslt",
+    "docbook-xml": "docbook-xml",
+    "asciidoc-base": "asciidoc"
+  }
+}

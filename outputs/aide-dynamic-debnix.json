@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "aide-dynamic",
+  "nix_pkg": null,
+  "control_file_hash": "725d8652f2553fc072ea79c6b7b1a452aa54ea914190ecfe4db30b07d55cc9c7",
+  "deb_inputs": [
+    "aide",
+    "aide-common",
+    "autoconf-archive",
+    "bison",
+    "bsd-mailx",
+    "check",
+    "cron",
+    "debconf-utils",
+    "debhelper-compat",
+    "figlet",
+    "flex",
+    "libacl1-dev",
+    "libattr1-dev",
+    "libaudit-dev",
+    "libcap-dev",
+    "libext2fs-dev",
+    "liblockfile1",
+    "libmhash-dev",
+    "libpcre2-dev",
+    "libselinux1-dev",
+    "mailx",
+    "pkg-config",
+    "po-debconf",
+    "ucf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "bison",
+    "flex",
+    "libselinux",
+    "mhash",
+    "pcre",
+    "zlib"
+  ],
+  "map": {
+    "libacl1-dev": "acl",
+    "libpcre2-dev": "pcre",
+    "libselinux1-dev": "libselinux",
+    "bison": "bison",
+    "flex": "flex",
+    "libattr1-dev": "attr",
+    "libmhash-dev": "mhash",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "qtads",
+  "nix_pkg": null,
+  "control_file_hash": "775abf1d4848eb34f1bfba51e86da02593639dea6cb049cbdea266f022fa7636",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "libsdl-mixer1.2-dev",
+    "libsdl-sound1.2-dev",
+    "pkg-config",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "fluidsynth",
+    "libsndfile",
+    "libvorbis",
+    "mpg123",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase"
+  }
+}

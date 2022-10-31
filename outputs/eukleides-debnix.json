@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "eukleides",
+  "nix_pkg": null,
+  "control_file_hash": "ff0f189becefeda1a6d39b8f81011d722cbaf4f0dbb2bc880dcda4f2b981aa28",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libreadline-dev",
+    "pstoedit",
+    "texinfo",
+    "texlive",
+    "texlive-latex-recommended",
+    "texlive-pstricks"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "getopt",
+    "readline",
+    "texinfo"
+  ],
+  "map": {
+    "flex": "flex",
+    "libreadline-dev": "readline",
+    "texinfo": "texinfo",
+    "bison": "bison"
+  }
+}

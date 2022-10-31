@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "websploit",
+  "nix_pkg": null,
+  "control_file_hash": "e6822e30e59e2f53193f7bdf443b2951dc8b72484f4cfd87e6bea9745e501d03",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-requests",
+    "python3-scapy",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3",
+    "requests",
+    "scapy"
+  ],
+  "map": {
+    "python3-requests": "requests",
+    "python3-scapy": "scapy"
+  }
+}

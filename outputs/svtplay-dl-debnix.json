@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "svtplay-dl",
+  "nix_pkg": null,
+  "control_file_hash": "b6127747fb4a9ffbf228fa0afee1360875fe280c98a35f19c01baccfd2801615",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "ffmpeg",
+    "git",
+    "libavtools",
+    "perl",
+    "python3",
+    "python3-argparse-manpage",
+    "python3-cryptography",
+    "python3-dateutil",
+    "python3-mock",
+    "python3-nose",
+    "python3-requests",
+    "python3-socks",
+    "python3-yaml",
+    "zip"
+  ],
+  "nix_inputs": [
+    "cryptography",
+    "git-minimal",
+    "mock",
+    "nose",
+    "perl",
+    "pytest",
+    "python-dateutil",
+    "python3",
+    "pyyaml",
+    "requests",
+    "requests-mock",
+    "setuptools",
+    "zip"
+  ],
+  "map": {
+    "python3-nose": "nose",
+    "python3": "python3",
+    "perl": "perl",
+    "python3-requests": "requests",
+    "python3-yaml": "pyyaml",
+    "python3-dateutil": "python-dateutil",
+    "zip": "zip"
+  }
+}

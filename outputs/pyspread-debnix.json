@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "pyspread",
+  "nix_pkg": null,
+  "control_file_hash": "19d1d514c14ac15139b98820288fc8fd92f1aeb61315a2003b790dba8084d8ef",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-enchant",
+    "python3-matplotlib",
+    "python3-moneyed",
+    "python3-numpy",
+    "python3-pygments",
+    "python3-pyqt5",
+    "python3-pyqt5.qtsvg",
+    "python3-pytest",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "markdown2",
+    "matplotlib",
+    "numpy",
+    "pyenchant",
+    "python-dateutil",
+    "python3",
+    "qtsvg",
+    "setuptools"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-numpy": "numpy",
+    "python3-enchant": "pyenchant",
+    "python3-pyqt5": "PyQt5",
+    "python3-setuptools": "setuptools",
+    "python3-pyqt5.qtsvg": "PyQt5",
+    "python3-matplotlib": "matplotlib"
+  }
+}

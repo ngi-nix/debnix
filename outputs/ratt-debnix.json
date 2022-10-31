@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ratt",
+  "nix_pkg": null,
+  "control_file_hash": "783ffba34e9a65de92926cba0d7919d5fa94b7d30f1757d00cddf0c67c76bec6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "dose-extra",
+    "golang-any",
+    "golang-pault-go-debian-dev",
+    "sbuild"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

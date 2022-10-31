@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "streamdeck-ui",
+  "nix_pkg": null,
+  "control_file_hash": "617104b3a43c855276d42b033f7ab94718973931cd2320907d55f62dec66a8fb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "fonts-roboto-unhinted",
+    "libhidapi-dev",
+    "libhidapi-libusb0",
+    "libxcb-xinerama0-dev",
+    "python3-all",
+    "python3-elgato-streamdeck",
+    "python3-pil",
+    "python3-pynput",
+    "python3-pyside2.qtcore",
+    "python3-pyside2.qtgui",
+    "python3-pyside2.qtwidgets",
+    "python3-setuptools",
+    "python3-xlib"
+  ],
+  "nix_inputs": [
+    "CairoSVG",
+    "filetype",
+    "hypothesis-auto",
+    "pillow",
+    "poetry",
+    "pynput",
+    "pyside2",
+    "pytest",
+    "python3",
+    "setuptools",
+    "streamdeck",
+    "xlib"
+  ],
+  "map": {
+    "python3-pyside2.qtgui": "pyside2",
+    "python3-pil": "pillow",
+    "python3-pyside2.qtwidgets": "pyside2",
+    "python3-setuptools": "setuptools",
+    "python3-pynput": "pynput",
+    "python3-pyside2.qtcore": "pyside2"
+  }
+}

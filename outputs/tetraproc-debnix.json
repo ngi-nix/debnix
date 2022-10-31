@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "tetraproc",
+  "nix_pkg": null,
+  "control_file_hash": "f5d2ddcf54fb176b286bc20189e07f64bb5b1b5f54fee75d624a13f519b5e678",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libclthreads-dev",
+    "libclxclient-dev",
+    "libfftw3-dev",
+    "libjack-dev",
+    "libpng-dev",
+    "libsndfile-dev",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "expat",
+    "fftw-single",
+    "fontconfig",
+    "freetype",
+    "libX11",
+    "libXau",
+    "libXdmcp",
+    "libXft",
+    "libXrender",
+    "libclthreads",
+    "libclxclient",
+    "libjack2",
+    "libsndfile",
+    "libxcb"
+  ],
+  "map": {
+    "libsndfile-dev": "libsndfile",
+    "libx11-dev": "libX11",
+    "libclthreads-dev": "libclthreads",
+    "libclxclient-dev": "libclxclient"
+  }
+}

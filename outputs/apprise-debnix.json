@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "apprise",
+  "nix_pkg": null,
+  "control_file_hash": "e1eefa8846a2132808f1fcaf4da71abf71fb1b0d9071aabea9f3b0fd6805c2c4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-babel",
+    "python3-click",
+    "python3-coverage",
+    "python3-dbus",
+    "python3-flake8",
+    "python3-markdown",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-pyyaml-env-tag",
+    "python3-requests",
+    "python3-requests-oauthlib",
+    "python3-setuptools",
+    "tox"
+  ],
+  "nix_inputs": [
+    "babel",
+    "click",
+    "cryptography",
+    "gntp",
+    "markdown",
+    "mock",
+    "paho-mqtt",
+    "python3",
+    "pyyaml",
+    "requests",
+    "requests-oauthlib",
+    "six",
+    "slixmpp"
+  ],
+  "map": {
+    "python3-requests": "requests"
+  }
+}

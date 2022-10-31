@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "coccinelle-doc",
+  "nix_pkg": null,
+  "control_file_hash": "af8782d6c5e670f8f420de1e7af64bcba4c17cf68c12e062406e35976a83953a",
+  "deb_inputs": [
+    "coccinelle-doc",
+    "debhelper-compat",
+    "dh-ocaml",
+    "dh-python",
+    "libmenhir-ocaml-dev",
+    "libparmap-ocaml",
+    "libparmap-ocaml-dev",
+    "libpcre-ocaml-dev",
+    "libpyml-ocaml-dev",
+    "libstdcompat-ocaml-dev",
+    "menhir",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "pkg-config",
+    "python3",
+    "vim-addon-manager"
+  ],
+  "nix_inputs": [
+    "menhir",
+    "ocaml",
+    "ocaml4.14.0-findlib",
+    "ocaml4.14.0-stdcompat",
+    "parmap",
+    "pcre",
+    "pkg-config-wrapper",
+    "pyml"
+  ],
+  "map": {
+    "libparmap-ocaml": "parmap",
+    "libmenhir-ocaml-dev": "menhir",
+    "menhir": "menhir",
+    "libparmap-ocaml-dev": "parmap",
+    "libpyml-ocaml-dev": "pyml",
+    "ocaml-nox": "ocaml"
+  }
+}

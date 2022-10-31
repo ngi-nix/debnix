@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "rkdeveloptool",
+  "nix_pkg": null,
+  "control_file_hash": "56db58fb41066ec6eb25b81198f0fa4009423ecd6462ca2e9531c95776c657b1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

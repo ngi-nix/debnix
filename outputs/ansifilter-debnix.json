@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "ansifilter",
+  "nix_pkg": null,
+  "control_file_hash": "a8cd64868ab3f7bcda3d24301a20eb20d7f0e82c8907f5d22316246d81af374e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "qt5-qmake",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "lua",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

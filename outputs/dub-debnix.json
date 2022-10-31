@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "dub",
+  "nix_pkg": null,
+  "control_file_hash": "45930f57f8dc3d1bd9c88fc1fd5f25ca47e28fedbe6bb862e7264dff765e0f8f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-d-compiler",
+    "gdc",
+    "gdmd",
+    "ldc",
+    "libcurl3-gnutls",
+    "libcurl4",
+    "libcurl4-gnutls-dev",
+    "libcurl4-openssl-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "ldc",
+    "libevent",
+    "rsync"
+  ],
+  "map": {
+    "libcurl3-gnutls": "curl",
+    "libcurl4": "curl",
+    "libcurl4-openssl-dev": "curl",
+    "ldc": "ldc",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

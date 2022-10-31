@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "ssocr",
+  "nix_pkg": null,
+  "control_file_hash": "14d47afcb60d10bbc6225912c736d78d5cf8ec7717ad2326c77c17b8e2911545",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfreetype6-dev",
+    "libimlib2-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "imlib2",
+    "libX11",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libimlib2-dev": "imlib2"
+  }
+}

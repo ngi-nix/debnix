@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "yabar",
+  "nix_pkg": null,
+  "control_file_hash": "8eb0359c6b1f5ccf16b6ab1f065b74480a638ab9733f478797813ca3cc3e1c22",
+  "deb_inputs": [
+    "debhelper",
+    "fonts-font-awesome",
+    "libcairo2-dev",
+    "libconfig-dev",
+    "libpango1.0-dev",
+    "libxcb-ewmh-dev",
+    "libxcb-randr0-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "asciidoc",
+    "cairo",
+    "docbook-xsl-nons",
+    "gdk-pixbuf",
+    "libconfig",
+    "libxslt",
+    "pango",
+    "pkg-config-wrapper",
+    "wireless-tools",
+    "xcb-util-wm"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "libxcb-ewmh-dev": "xcb-util-wm",
+    "libpango1.0-dev": "pango",
+    "libconfig-dev": "libconfig"
+  }
+}

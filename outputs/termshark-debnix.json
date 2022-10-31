@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "termshark",
+  "nix_pkg": null,
+  "control_file_hash": "d1ed7a47e7815a13422bde06e2ef568f5dfcc0a03d9763aa93d9d8600d4a3c5e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-adam-hanna-arrayoperations-dev",
+    "golang-github-antchfx-xmlquery-dev",
+    "golang-github-blang-semver-dev",
+    "golang-github-flytam-filenamify-dev",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-gcla-deep-dev",
+    "golang-github-gcla-gowid-dev",
+    "golang-github-gdamore-tcell.v2-dev",
+    "golang-github-hashicorp-golang-lru-dev",
+    "golang-github-kballard-go-shellquote-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-mreiferson-go-snappystream-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-pkg-term-dev",
+    "golang-github-psanford-wormhole-william-dev",
+    "golang-github-shibukawa-configdir-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-tevino-abool-dev",
+    "golang-gitlab-jonas.jasas-condchan-dev",
+    "golang-go-flags-dev",
+    "golang-logrus-dev",
+    "golang-statik",
+    "tshark",
+    "wireshark-common"
+  ],
+  "nix_inputs": [
+    "go",
+    "wireshark-cli"
+  ],
+  "map": {}
+}

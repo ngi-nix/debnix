@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "xmlroff",
+  "nix_pkg": null,
+  "control_file_hash": "a3c700f7427e9cef496d47acc5c3d44f39decac1a2e20fcaffc70db702870d5f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-xsl",
+    "libcairo2-dev",
+    "libcunit1-dev",
+    "libgtk2.0-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    "libxslt1-dev",
+    "pkg-config",
+    "xml-core",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libxml2",
+    "libxslt",
+    "pango",
+    "pkg-config-wrapper",
+    "popt"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libgtk2.0-dev": "gtk+",
+    "xsltproc": "libxslt",
+    "libxslt1-dev": "libxslt"
+  }
+}

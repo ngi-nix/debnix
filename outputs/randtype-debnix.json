@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "randtype",
+  "nix_pkg": null,
+  "control_file_hash": "7d7e4a6b55f5d678b830d6a7ec2bcf98a68d9c55909cb89612239271b89bf826",
+  "deb_inputs": [
+    "debhelper",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

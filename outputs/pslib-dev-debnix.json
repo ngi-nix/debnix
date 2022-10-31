@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "pslib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "57aa8ef40ddc439d2f7ad2d7540a3ff945746e10e4f2d09e1c7e62178c681e2a",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-to-man",
+    "docbook-utils",
+    "intltool",
+    "libgif-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libpng2-dev",
+    "pslib1",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "giflib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libgif-dev": "giflib",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

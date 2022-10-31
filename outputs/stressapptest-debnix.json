@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "stressapptest",
+  "nix_pkg": null,
+  "control_file_hash": "17434f5bab7f37292f9369a7f5abc5bfec77361cf2f4f8e526af2bf40d98b4e6",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libaio-dev"
+  ],
+  "nix_inputs": [
+    "libaio"
+  ],
+  "map": {
+    "libaio-dev": "libaio"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "cpplint",
+  "nix_pkg": null,
+  "control_file_hash": "e2428aa00f9d79a2ee70f8794d72427492e335707ae4c2ec178d1d249d295807",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "python3-all",
+    "python3-pyparsing",
+    "python3-pytest",
+    "python3-pytest-cov",
+    "python3-pytest-runner",
+    "python3-setuptools",
+    "python3-testfixtures",
+    "python3-zipp"
+  ],
+  "nix_inputs": [
+    "pytest",
+    "pytest-runner",
+    "python3"
+  ],
+  "map": {
+    "python3-pytest-runner": "pytest-runner",
+    "python3-pytest": "pytest"
+  }
+}

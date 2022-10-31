@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["adduser", "debhelper-compat", "dh-golang", "etcd-server", "golang-any", "golang-github-coreos-go-systemd-dev", "golang-github-go-ini-ini-dev", "golang-github-gorilla-handlers-dev", "golang-github-gorilla-mux-dev", "golang-github-rsc-devweb", "golang-github-spf13-pflag-dev", "golang-github-spf13-viper-dev", "lsb-base", "openstack-pkg-tools"], or 
+output: 
+[] is empty!

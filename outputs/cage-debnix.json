@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "cage",
+  "nix_pkg": null,
+  "control_file_hash": "96a597b61365d9c22fe22bb88e63f33363d4d10c06d7ee6198ba85ccb8ae4904",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpixman-1-dev",
+    "libwayland-server0",
+    "libwlroots-dev",
+    "libxkbcommon-dev",
+    "meson",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "libGL",
+    "libX11",
+    "libxkbcommon",
+    "mesa",
+    "meson",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "scdoc",
+    "systemd",
+    "wayland",
+    "wayland-protocols",
+    "wlroots"
+  ],
+  "map": {
+    "libxkbcommon-dev": "libxkbcommon",
+    "libpixman-1-dev": "pixman",
+    "libwlroots-dev": "wlroots",
+    "meson": "meson",
+    "scdoc": "scdoc",
+    "wayland-protocols": "wayland-protocols",
+    "libwayland-server0": "wayland"
+  }
+}

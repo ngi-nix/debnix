@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "bowtie2-examples",
+  "nix_pkg": null,
+  "control_file_hash": "9906311975361d998c86e8a5431e891631382d251ed1467351093ab8723ac5d5",
+  "deb_inputs": [
+    "bowtie2",
+    "bowtie2-examples",
+    "debhelper-compat",
+    "help2man",
+    "libclone-perl",
+    "libfile-which-perl",
+    "liblocal-lib-perl",
+    "libsimde-dev",
+    "libtbb-dev",
+    "libtest-deep-perl",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "perl",
+    "python3",
+    "tbb",
+    "zlib"
+  ],
+  "map": {
+    "libtbb-dev": "tbb",
+    "python3": "python3",
+    "zlib1g-dev": "zlib"
+  }
+}

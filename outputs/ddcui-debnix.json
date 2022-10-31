@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "ddcui",
+  "nix_pkg": null,
+  "control_file_hash": "6831beac2a9002dcf34d48bee895494ce29b6003df52fa3fcd2c388fb686dc57",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libddcutil-dev",
+    "libddcutil4",
+    "libglib2.0-dev",
+    "libxrandr-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ddcutil",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "libddcutil4": "ddcutil",
+    "cmake": "cmake",
+    "qttools5-dev": "qttools",
+    "libddcutil-dev": "ddcutil",
+    "qtbase5-dev": "qtbase"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "clex",
+  "nix_pkg": null,
+  "control_file_hash": "c7c3af538418946c2c5d8d870cd1bcae13d15d8730912ffcf0ba377b37dc7905",
+  "deb_inputs": [
+    "debhelper",
+    "libncursesw5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "sniffglue",
+  "nix_pkg": null,
+  "control_file_hash": "7d20998b322aabdbb36b1fdf7687cce15119e9e884d0e9492daeb5d80c3d83b4",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-ansi-term-0.12+default-dev",
+    "librust-anyhow-1+default-dev",
+    "librust-atty-0.2+default-dev",
+    "librust-base64-0.13+default-dev",
+    "librust-bstr-0.2+default-dev",
+    "librust-dhcp4r-0.2+default-dev",
+    "librust-dirs-next-2+default-dev",
+    "librust-dns-parser-0.8+default-dev",
+    "librust-env-logger-0.9+default-dev",
+    "librust-libc-0.2+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-nix-0+default-dev",
+    "librust-nom-7+default-dev",
+    "librust-num-cpus-1+default-dev",
+    "librust-pcap-sys-0.1+default-dev",
+    "librust-pktparse-0.7+default-dev",
+    "librust-pktparse-0.7+serde-dev",
+    "librust-reduce-0.1+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-derive-1+default-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-sha2-0.10+default-dev",
+    "librust-structopt-0.3+default-dev",
+    "librust-syscallz-0.15+default-dev",
+    "librust-tls-parser-0.11+default-dev",
+    "librust-toml-0.5+default-dev",
+    "librust-users-0.11+default-dev",
+    "libstd-rust-dev",
+    "rustc:native",
+    "scdoc"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "libpcap",
+    "libseccomp",
+    "nss-cacert",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc",
+    "librust-libc-0.2+default-dev": "rustc"
+  }
+}

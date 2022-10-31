@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "creduce",
+  "nix_pkg": null,
+  "control_file_hash": "26a9b4ada0c173053a1b3b7ba7b320c2cad99c09028f4b5df1ff58aeeb0eae88",
+  "deb_inputs": [
+    "clang",
+    "clang-13",
+    "clang-format-13",
+    "debhelper",
+    "dh-autoreconf",
+    "flex",
+    "frama-c-base",
+    "gcc",
+    "libbenchmark-timer-perl",
+    "libclang-13-dev",
+    "libclang-cpp13-dev",
+    "libedit-dev",
+    "libexporter-lite-perl",
+    "libfile-which-perl",
+    "libgetopt-tabular-perl",
+    "libregexp-common-perl",
+    "libterm-readkey-perl",
+    "llvm-13-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "Exporter-Lite",
+    "File-Which",
+    "Getopt-Tabular",
+    "Regexp-Common",
+    "TermReadKey",
+    "clang",
+    "cmake",
+    "flex",
+    "gcc-wrapper",
+    "llvm",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "llvm-13-dev": "llvm",
+    "zlib1g-dev": "zlib",
+    "flex": "flex",
+    "clang": "clang"
+  }
+}

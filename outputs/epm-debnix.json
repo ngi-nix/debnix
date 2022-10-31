@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "epm",
+  "nix_pkg": null,
+  "control_file_hash": "dee30c1281381c33c211133e620032450fb07a9df0a0b80981c501f39b3ed3e9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "htmldoc",
+    "libfltk1.3-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libxcursor-dev",
+    "libxext-dev",
+    "libxfixes-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "libz-dev",
+    "rpm",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "rpm"
+  ],
+  "map": {
+    "rpm": "rpm"
+  }
+}

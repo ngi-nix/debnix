@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "dar-static",
+  "nix_pkg": null,
+  "control_file_hash": "1c80adddb81e024659cc64ca6b8b9c0c48adeff59946533c08fc51b3966d250c",
+  "deb_inputs": [
+    "dar-docs",
+    "debhelper-compat",
+    "doxygen",
+    "e2fslibs-dev",
+    "groff",
+    "libargon2-dev",
+    "libassuan-dev",
+    "libbz2-dev",
+    "libdar64-6000",
+    "libgcrypt20-dev",
+    "libgpg-error-dev",
+    "libgpgme-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libzstd-dev",
+    "par2",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "attr",
+    "bzip2",
+    "curl",
+    "e2fsprogs",
+    "gpgme",
+    "libargon2",
+    "libgcrypt",
+    "librsync",
+    "libthreadar",
+    "lz4",
+    "lzo",
+    "openssl",
+    "which",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "e2fslibs-dev": "e2fsprogs",
+    "liblzo2-dev": "lzo",
+    "libbz2-dev": "bzip2",
+    "libargon2-dev": "libargon2",
+    "libgcrypt20-dev": "libgcrypt",
+    "libgpgme-dev": "gpgme",
+    "liblz4-dev": "lz4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bitwise",
+  "nix_pkg": null,
+  "control_file_hash": "b92ac75d817d9902a19d6ec602fc0cb2007960ea7a49b208865262d351788913",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcunit1-dev",
+    "libncurses-dev",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "libncurses-dev": "ncurses"
+  }
+}

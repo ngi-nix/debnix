@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "vite",
+  "nix_pkg": null,
+  "control_file_hash": "18373513ef60975e831f6fab5f8b9823d64942e93a666456017e05c0a4ec8282",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ghostscript",
+    "libglew-dev",
+    "libglm-dev",
+    "libotf-trace-dev",
+    "libotf2-trace-dev",
+    "libqt5charts5-dev",
+    "libqt5opengl5-desktop-dev",
+    "libqt5svg5-dev",
+    "qttools5-dev",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glu",
+    "libGL",
+    "qt"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libqt5opengl5-desktop-dev": "qt",
+    "libqt5charts5-dev": "qt"
+  }
+}

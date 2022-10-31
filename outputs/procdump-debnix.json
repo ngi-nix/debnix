@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "procdump",
+  "nix_pkg": null,
+  "control_file_hash": "43a494734b122d132143298607a10fe0749f1a8781cb0a87dddc4ab3889dedfe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gdb",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "gdb",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "gdb": "gdb"
+  }
+}

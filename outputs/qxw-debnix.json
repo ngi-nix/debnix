@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "qxw",
+  "nix_pkg": null,
+  "control_file_hash": "505832998021aa8f8dfd166fa42aa9bc8d9aa49e2dd82a1438864f10898cf3ab",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libpcre3-dev",
+    "wordlist"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "libpcre3-dev": "pcre"
+  }
+}
