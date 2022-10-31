@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "numberstation",
+  "nix_pkg": null,
+  "control_file_hash": "76eaa72687223e75dfa2ab78d0e42bef5658c635ef6efa064420cee3390aa166",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libgtk-3-dev",
+    "libhandy-1-dev",
+    "meson",
+    "openstack-pkg-tools",
+    "python3-all:any",
+    "python3-gi",
+    "python3-keyring",
+    "python3-pyotp"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "keyring",
+    "libhandy",
+    "librsvg",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "pyotp",
+    "python3"
+  ],
+  "map": {
+    "python3-gi": "pygobject",
+    "meson": "meson"
+  }
+}

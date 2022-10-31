@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libgtksourceviewmm-3.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "eb1037751630f28e869946c51d26622bf1eba4b9fd587689f1e9a217054cfed4",
+  "deb_inputs": [
+    "debhelper",
+    "doc-base",
+    "doxygen",
+    "gnome-pkg-tools",
+    "libglibmm-2.4-dev",
+    "libgtkmm-3.0-dev",
+    "libgtksourceview-3.0-dev",
+    "libgtksourceviewmm-3.0-0v5",
+    "lynx",
+    "mm-common",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "glibmm",
+    "gtkmm",
+    "gtksourceview",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtksourceview-3.0-dev": "gtksourceview",
+    "libglibmm-2.4-dev": "glibmm",
+    "libgtkmm-3.0-dev": "gtkmm"
+  }
+}

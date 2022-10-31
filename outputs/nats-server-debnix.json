@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "nats-server",
+  "nix_pkg": null,
+  "control_file_hash": "3a4cb2d408cc0c72ffaff51793c8f542c3089e96f02473ba561bf3030a8aa862",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-klauspost-compress-dev",
+    "golang-github-minio-highwayhash-dev",
+    "golang-github-nats-io-go-nats-dev",
+    "golang-github-nats-io-jwt-dev",
+    "golang-github-nats-io-nkeys-dev",
+    "golang-github-nats-io-nuid-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-time-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

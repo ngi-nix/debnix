@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libzita-alsa-pcmi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "55bda21d8fafb1327c32d6af74b759c2c742ddb178c7256cf02dbb6aea3e4cdc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libfftw3-dev",
+    "libzita-alsa-pcmi0"
+  ],
+  "nix_inputs": [
+    "alsa-lib"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libstroke0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1a8c0c3083fc9756e6966f28ee0a2c5b8d81e3fee521a60881a2e0278d2471ea",
+  "deb_inputs": [
+    "debhelper",
+    "libice-dev",
+    "libsm-dev",
+    "libstroke0",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake"
+  ],
+  "map": {}
+}

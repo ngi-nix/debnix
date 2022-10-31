@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "mmh",
+  "nix_pkg": null,
+  "control_file_hash": "c221870c7ad66e185a8126761a9a73fe446807c96c659a4448ead83f0266e440",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dpkg-dev",
+    "file",
+    "flex",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "flex",
+    "ncurses"
+  ],
+  "map": {
+    "flex": "flex",
+    "libncurses5-dev": "ncurses"
+  }
+}

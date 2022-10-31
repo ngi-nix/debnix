@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "nano-tiny",
+  "nix_pkg": null,
+  "control_file_hash": "3de65b1db054dee324a51440a28836469dd54b53cfce2176e4a6cb93c7eaa5e6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "hunspell",
+    "libncurses-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "ncurses",
+    "texinfo"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "texinfo": "texinfo"
+  }
+}

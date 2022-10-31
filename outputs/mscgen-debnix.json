@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "mscgen",
+  "nix_pkg": null,
+  "control_file_hash": "7a43dad857c756221a286f6c6acbbfed9399f2bf4b67451e10db1729bede8f84",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper-compat",
+    "dwz",
+    "flex",
+    "libgd-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "gd",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libwebp",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libgd-dev": "gd",
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

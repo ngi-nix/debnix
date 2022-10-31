@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libmongoc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d24280c5b1d12aece7acdbee6f518e1a318258ef85daaa2ec4b11b679db2ad39",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libbson-1.0-0",
+    "libbson-dev",
+    "libicu-dev",
+    "libmongoc-1.0-0",
+    "libmongocrypt-dev",
+    "libsasl2-dev",
+    "libsnappy-dev",
+    "libssl-dev",
+    "libzstd-dev",
+    "pkg-config",
+    "python3-sphinx",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libbson",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "snappy",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "libbson-dev": "libbson",
+    "libsnappy-dev": "snappy",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

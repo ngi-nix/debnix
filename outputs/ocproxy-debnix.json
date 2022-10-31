@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "ocproxy",
+  "nix_pkg": null,
+  "control_file_hash": "f02eedc030b0ffa52811c2d73c560ae59b679cce997714946eb9abcd4dc69d5f",
+  "deb_inputs": [
+    "dante-client",
+    "debhelper",
+    "libevent-dev",
+    "openconnect"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libevent"
+  ],
+  "map": {
+    "libevent-dev": "libevent"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "mopidy-scrobbler",
+  "nix_pkg": null,
+  "control_file_hash": "2829157962558f7a49cb99de3014d2d6028c5a6778adebcc5d00adacd2ca71f9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "mopidy",
+    "python3",
+    "python3-pylast",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "mopidy",
+    "pylast",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "mopidy": "mopidy",
+    "python3-pylast": "pylast"
+  }
+}

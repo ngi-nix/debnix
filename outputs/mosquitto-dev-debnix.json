@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "mosquitto-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6e141785a8a606fa83767d81834265ba3567f70f5fd87586fd105e0fbfef48b6",
+  "deb_inputs": [
+    "adduser",
+    "apparmor",
+    "cmake",
+    "debhelper-compat",
+    "docbook-xsl",
+    "libcjson-dev",
+    "libcjson1",
+    "libdlt-dev",
+    "libmosquitto-dev",
+    "libmosquitto1",
+    "libmosquittopp1",
+    "libssl-dev",
+    "libsystemd-dev",
+    "libwebsockets-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "mosquitto",
+    "pkg-config",
+    "uthash-dev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "c-ares",
+    "cjson",
+    "cmake",
+    "docbook-xsl-nons",
+    "libuv",
+    "libwebsockets",
+    "libxslt",
+    "openssl",
+    "systemd",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libcjson1": "cjson",
+    "libwebsockets-dev": "libwebsockets",
+    "libcjson-dev": "cjson",
+    "libssl-dev": "openssl",
+    "xsltproc": "libxslt",
+    "libsystemd-dev": "systemd"
+  }
+}

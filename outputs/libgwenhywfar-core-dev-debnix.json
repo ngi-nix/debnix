@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "libgwenhywfar-core-dev",
+  "nix_pkg": null,
+  "control_file_hash": "06db4cce005d8e9230a8cc2b30bc13c072f155ce50c07aa2dc58bc9591c18b2a",
+  "deb_inputs": [
+    "asciidoctor",
+    "ca-certificates",
+    "debhelper-compat",
+    "doxygen",
+    "gwenhywfar-tools",
+    "libfox-1.6-dev",
+    "libgcrypt20-dev",
+    "libgnutls28-dev",
+    "libgpg-error-dev",
+    "libgtk-3-dev",
+    "libgwengui-fox16-79",
+    "libgwengui-gtk3-79",
+    "libgwengui-qt5-79",
+    "libgwenhywfar-core-dev",
+    "libgwenhywfar-data",
+    "libgwenhywfar-doc",
+    "libgwenhywfar79",
+    "libjs-jquery",
+    "libssl-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gnutls",
+    "gtk+",
+    "gtk+3",
+    "libgcrypt",
+    "libgpg-error",
+    "openssl",
+    "pkg-config-wrapper",
+    "qtbase",
+    "which"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt",
+    "libssl-dev": "openssl",
+    "libgpg-error-dev": "libgpg-error",
+    "libgnutls28-dev": "gnutls",
+    "qtbase5-dev": "qtbase",
+    "libgtk-3-dev": "gtk+"
+  }
+}

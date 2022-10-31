@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libzxingcore-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9146276209f8ec53bb7048f4ba3faf29e57d728fb2fae28144bffea7902f5348",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "libfmt-dev",
+    "libopencv-dev",
+    "libstb-dev",
+    "libzxing-dev",
+    "libzxing2",
+    "pkg-config",
+    "pybind11-dev",
+    "python3",
+    "python3-all-dev",
+    "python3-numpy",
+    "python3-pil",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "qtmultimedia5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

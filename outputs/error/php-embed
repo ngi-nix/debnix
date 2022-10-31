@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-phpcomposer", "php-brick-varexporter", "php-composer-ca-bundle", "php-curl", "php-json", "php-mbstring", "php-ml-json-ld", "php-nyholm-psr7", "php-oscarotero-html-parser", "php-psr-http-client", "php-psr-http-factory", "php-psr-http-message", "php-symfony-css-selector", "php-xml", "phpab", "phpunit"], or 
+output: 
+[] is empty!

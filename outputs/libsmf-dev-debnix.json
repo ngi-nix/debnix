@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libsmf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d9fc6816a299e9e1864f99d29915c82985c6db811b2356f43b50454778b39ab5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gawk",
+    "libc-dev",
+    "libglib2.0-dev",
+    "libncurses5-dev",
+    "libreadline6-dev",
+    "libsmf0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "mrrescue",
+  "nix_pkg": null,
+  "control_file_hash": "bea9b3034614d124ba1e5e04832fa1e2aa6e71e201858d74ce807f6bc76cb604",
+  "deb_inputs": [
+    "debhelper-compat",
+    "love",
+    "zip"
+  ],
+  "nix_inputs": [
+    "love",
+    "lua"
+  ],
+  "map": {
+    "love": "love"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "mininet",
+  "nix_pkg": null,
+  "control_file_hash": "b8c176a2f9187a9a6d45f46912f5a55bee569a686b9f59dba6a688310c0c5a4b",
+  "deb_inputs": [
+    "cgroup-tools",
+    "debhelper",
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "iperf",
+    "net-tools",
+    "openvswitch-switch",
+    "python3",
+    "python3-pkg-resources",
+    "python3-setuptools",
+    "socat",
+    "telnet"
+  ],
+  "nix_inputs": [
+    "help2man",
+    "python3",
+    "which"
+  ],
+  "map": {
+    "python3": "python3",
+    "help2man": "help2man"
+  }
+}

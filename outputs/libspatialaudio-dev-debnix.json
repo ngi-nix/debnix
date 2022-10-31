@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libspatialaudio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3926ed93bae4dfc8be46b5aa85a23b2603dd3b0dfc6cac76f41a1b5bc586a5fd",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libmysofa-dev",
+    "libspatialaudio0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libmysofa",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libmysofa-dev": "libmysofa"
+  }
+}

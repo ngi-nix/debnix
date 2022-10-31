@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libofx-dev",
+  "nix_pkg": null,
+  "control_file_hash": "acf94bc3c2e57882414a765f247e3d9a05a8fdaf21a4d38d9eb9ee746efb1ba4",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "doxygen",
+    "gengetopt",
+    "help2man",
+    "libc-dev",
+    "libc6-dev",
+    "libcurl4-gnutls-dev",
+    "libofx-dev",
+    "libofx-doc",
+    "libofx7",
+    "libosp-dev",
+    "libxml++2.6-dev",
+    "ofx",
+    "perl"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "curl",
+    "gengetopt",
+    "libtool",
+    "libxml2",
+    "opensp",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "curl": "curl",
+    "libcurl4-gnutls-dev": "curl",
+    "libosp-dev": "opensp",
+    "gengetopt": "gengetopt"
+  }
+}

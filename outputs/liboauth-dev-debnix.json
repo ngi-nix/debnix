@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "liboauth-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1c72e64d46513889eb760b67289a0a96e07f5648f7249dadc1940379b860c192",
+  "deb_inputs": [
+    "curl",
+    "debhelper-compat",
+    "language-pack-en",
+    "libcurl4-dev",
+    "libcurl4-gnutls-dev",
+    "libnss3-dev",
+    "liboauth0",
+    "libtool",
+    "locales-all",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "nspr",
+    "nss",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnss3-dev": "nss"
+  }
+}

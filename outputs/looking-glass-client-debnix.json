@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "looking-glass-client",
+  "nix_pkg": null,
+  "control_file_hash": "e2f1afb18d9f830f08d856eea1cb840c7207d2ad286d0534062451c2edbc612c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "dh-exec",
+    "fonts-freefont-ttf",
+    "libfontconfig1-dev",
+    "libobs-dev",
+    "libsdl2-dev",
+    "libsdl2-ttf-dev",
+    "libspice-protocol-dev",
+    "libx11-dev",
+    "libxpresent-dev",
+    "nettle-dev",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "expat",
+    "fontconfig",
+    "freefont-ttf",
+    "libGL",
+    "libXScrnSaver",
+    "libXcursor",
+    "libXext",
+    "libXi",
+    "libXinerama",
+    "libXpresent",
+    "libXrandr",
+    "libbfd",
+    "libffi",
+    "libxkbcommon",
+    "nettle",
+    "pkg-config-wrapper",
+    "spice-protocol",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libxpresent-dev": "libXpresent",
+    "libfontconfig1-dev": "fontconfig",
+    "nettle-dev": "nettle",
+    "cmake": "cmake",
+    "wayland-protocols": "wayland-protocols",
+    "libspice-protocol-dev": "spice-protocol"
+  }
+}

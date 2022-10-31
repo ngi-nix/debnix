@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "patatt",
+  "nix_pkg": null,
+  "control_file_hash": "b2c45e2b8afb427bf1a60cf03ba1bbed56170417579a8b4f723b30a354129159",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "git",
+    "gnupg",
+    "python3-all",
+    "python3-nacl",
+    "python3-patatt",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "pynacl",
+    "python3"
+  ],
+  "map": {}
+}

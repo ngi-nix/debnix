@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "nghttp2-server",
+  "nix_pkg": null,
+  "control_file_hash": "95d8f2f1c785d5efd2dfdd73c7f5345aa6a605694ede5934a9054a135ecebacd",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libc-ares-dev",
+    "libcunit1-dev",
+    "libev-dev",
+    "libjansson-dev",
+    "libjemalloc-dev",
+    "libjs-jquery",
+    "libjs-underscore",
+    "libnghttp2-14",
+    "libnghttp2-doc",
+    "libssl-dev",
+    "libsystemd-dev",
+    "libxml2-dev",
+    "lsb-base",
+    "lynx",
+    "nghttp2-client",
+    "nghttp2-proxy",
+    "nghttp2-server",
+    "openssl",
+    "pkg-config",
+    "python3",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "CUnit",
+    "c-ares",
+    "libev",
+    "openssl",
+    "pkg-config-wrapper",
+    "tzdata",
+    "zlib"
+  ],
+  "map": {
+    "libev-dev": "libev",
+    "libc-ares-dev": "c-ares",
+    "libssl-dev": "openssl",
+    "libcunit1-dev": "CUnit",
+    "openssl": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

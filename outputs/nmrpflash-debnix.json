@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "nmrpflash",
+  "nix_pkg": null,
+  "control_file_hash": "11dd7c0a6b470cc3e257b704aafd053d18a3f2d019fb60d102eba317f228e066",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnl-3-dev",
+    "libnl-route-3-dev",
+    "libpcap0.8-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libnl",
+    "libpcap",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcap0.8-dev": "libpcap",
+    "libnl-3-dev": "libnl",
+    "libnl-route-3-dev": "libnl"
+  }
+}

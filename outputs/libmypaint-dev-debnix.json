@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libmypaint-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d63427e7941c6dfdbde16a7bae9eef90e57d7392685b5b3ad2ebed2a51c44427",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "doxygen",
+    "gir1.2-mypaint-1.5",
+    "gobject-introspection",
+    "intltool",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libjs-jquery",
+    "libjs-underscore",
+    "libjson-c-dev",
+    "libmypaint-1.5-1",
+    "libmypaint-common",
+    "libmypaint-doc",
+    "pkg-config",
+    "python3-breathe",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "glib",
+    "intltool",
+    "json-c",
+    "libtool",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libjson-c-dev": "json-c",
+    "intltool": "intltool",
+    "libglib2.0-dev": "glib"
+  }
+}

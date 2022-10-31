@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libgsound-dev",
+  "nix_pkg": null,
+  "control_file_hash": "92cdd4e3d8c6bdcf908886db942e1aac746c8248d4f360d6d5b7443b2d2c0c20",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-gsound-1.0",
+    "gtk-doc-tools",
+    "libcanberra-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgsound0",
+    "meson",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection",
+    "libcanberra",
+    "libtool",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "valac": "vala",
+    "libcanberra-dev": "libcanberra",
+    "libglib2.0-dev": "glib"
+  }
+}

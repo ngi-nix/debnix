@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "libwxsmithlib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b3e8c5804499f60e827b8cdd5de0637d5231ecf47413e11148fb6c524f04b934",
+  "deb_inputs": [
+    "binutils",
+    "codeblocks",
+    "codeblocks-common",
+    "codeblocks-contrib",
+    "debhelper-compat",
+    "file",
+    "g++",
+    "gcc",
+    "gdb",
+    "libastyle-dev",
+    "libastyle3",
+    "libboost-dev",
+    "libboost-system-dev",
+    "libbz2-dev",
+    "libcodeblocks0",
+    "libgamin-dev",
+    "libgamin0",
+    "libgtk-3-dev",
+    "libhunspell-dev",
+    "libtinyxml-dev",
+    "libwxgtk3.0-dev",
+    "libwxgtk3.0-gtk3-dev",
+    "libwxsmithlib0",
+    "valgrind",
+    "xterm",
+    "zip",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "file",
+    "gtk+3",
+    "pkg-config-wrapper",
+    "wxwidgets",
+    "zip"
+  ],
+  "map": {
+    "zip": "zip",
+    "file": "file",
+    "libwxgtk3.0-gtk3-dev": "wxwidgets",
+    "libwxgtk3.0-dev": "wxwidgets"
+  }
+}
