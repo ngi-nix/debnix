@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libuv1",
+  "nix_pkg": null,
+  "control_file_hash": "1590b65b66f5f435e4772ea9e26b2eb82e0eb86d2aa6f66e416420c7b830fd39",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "freebsd-glue",
+    "libkvm-dev",
+    "libuv1",
+    "netbase",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

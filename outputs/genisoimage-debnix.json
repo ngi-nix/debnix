@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "genisoimage",
+  "nix_pkg": null,
+  "control_file_hash": "4d14f0def4001296356675b78793a1116fcc49510a81e0445feaec2fcd5730f7",
+  "deb_inputs": [
+    "cdrkit-doc",
+    "cmake",
+    "debhelper-compat",
+    "genisoimage",
+    "icedax",
+    "libbz2-dev",
+    "libcam-dev",
+    "libcap2-dev",
+    "libmagic-dev",
+    "vorbis-tools",
+    "wodim",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "cmake",
+    "libcap",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "libbz2-dev": "bzip2",
+    "libcap2-dev": "libcap"
+  }
+}

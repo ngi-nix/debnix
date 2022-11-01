@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "gir1.2-peas-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "2159b9e55f09027c63d7122f941cc41fcbdeb57fd59b14e413675e69902255e3",
+  "deb_inputs": [
+    "adwaita-icon-theme",
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gi-docgen",
+    "gir1.2-peas-1.0",
+    "libgirepository1.0-dev",
+    "libgirepository1.0-doc",
+    "libgladeui-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgtk-3-dev",
+    "libgtk-3-doc",
+    "libpeas-1.0-0",
+    "libpeas-common",
+    "libpeas-doc",
+    "meson",
+    "python-gi-dev",
+    "python3-dev",
+    "python3-gi",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gi-docgen",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "meson",
+    "ncurses",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "python-gi-dev": "pygobject",
+    "libglib2.0-doc": "glib",
+    "python3-gi": "pygobject",
+    "meson": "meson",
+    "gi-docgen": "gi-docgen",
+    "libgirepository1.0-doc": "gobject-introspection",
+    "python3-dev": "python3"
+  }
+}

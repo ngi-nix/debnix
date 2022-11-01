@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libgtk-layer-shell0",
+  "nix_pkg": null,
+  "control_file_hash": "382d5150cd94ae39f9af0e06cafc3f38d8aa733a7f74068f3496644012618d93",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-gtklayershell-0.1",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libgtk-3-dev",
+    "libgtk-layer-shell0",
+    "libwayland-dev",
+    "meson",
+    "pkgconf",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gobject-introspection",
+    "gtk+3",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "wayland"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "gobject-introspection": "gobject-introspection",
+    "libwayland-dev": "wayland",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "gir1.2-telepathyglib-0.12",
+  "nix_pkg": null,
+  "control_file_hash": "d77d6c545a8f4b4178bd71f7351c797c2e81fb6aa5f403c3aefafb0938f9ed59",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-glib-2.0",
+    "gir1.2-telepathyglib-0.12",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libtelepathy-glib-doc",
+    "libtelepathy-glib0",
+    "pkg-config",
+    "python3",
+    "valac",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "glib",
+    "glibc-locales",
+    "gobject-introspection",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python3",
+    "vala"
+  ],
+  "map": {
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "xsltproc": "libxslt",
+    "python3": "python3",
+    "valac": "vala",
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gobject-introspection": "gobject-introspection"
+  }
+}

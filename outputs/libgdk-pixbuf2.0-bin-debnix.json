@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "libgdk-pixbuf2.0-bin",
+  "nix_pkg": null,
+  "control_file_hash": "fd3485daf79c81042d4aa03b393e08172853e69df16f8c0452e21937e210c651",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gi-docgen",
+    "gir1.2-gdkpixbuf-2.0",
+    "libgdk-pixbuf-2.0-0",
+    "libgdk-pixbuf-2.0-0-udeb",
+    "libgdk-pixbuf2.0-bin",
+    "libgdk-pixbuf2.0-common",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "meson",
+    "python3-docutils",
+    "shared-mime-info",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "gettext",
+    "gi-docgen",
+    "glib",
+    "gobject-introspection",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libtiff-dev": "libtiff",
+    "gi-docgen": "gi-docgen",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "meson": "meson"
+  }
+}

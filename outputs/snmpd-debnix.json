@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "snmpd",
+  "nix_pkg": null,
+  "control_file_hash": "bfc4e092bfaf84301cd28a1ca0196c2a9088be2b855990d1cda45f10d69e209e",
+  "deb_inputs": [
+    "adduser",
+    "autoconf",
+    "automake",
+    "debconf",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "libbsd-dev",
+    "libc6-dev",
+    "libkvm-dev",
+    "libnetsnmptrapd40",
+    "libpci-dev",
+    "libsensors-dev",
+    "libsnmp-base",
+    "libsnmp-perl",
+    "libsnmp40",
+    "libssl-dev",
+    "libtool",
+    "libwrap0-dev",
+    "lsb-base",
+    "perl",
+    "perl-tk",
+    "perl-xs-dev",
+    "perl:any",
+    "pkg-config",
+    "procps",
+    "snmp-mibs-downloader",
+    "snmpd",
+    "snmptrapd"
+  ],
+  "nix_inputs": [
+    "file",
+    "net-tools",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

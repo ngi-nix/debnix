@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "python3-mutagen",
+  "nix_pkg": null,
+  "control_file_hash": "ee45cac124094fda74b4255f118c8b01adfae81422d0a7f60e2b2f03d386d72e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "dh-sequence-sphinxdoc",
+    "faad",
+    "flac",
+    "oggz-tools",
+    "python-mutagen-doc",
+    "python3-all",
+    "python3-doc",
+    "python3-docutils",
+    "python3-hypothesis",
+    "python3-mutagen",
+    "python3-pycodestyle",
+    "python3-pyflakes",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "vorbis-tools"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

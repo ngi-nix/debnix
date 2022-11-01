@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libperl5.32",
+  "nix_pkg": null,
+  "control_file_hash": "e8712cb05de1f116958f5fde915888e4b357023756c13e18e876833294c1c510",
+  "deb_inputs": [
+    "cpio",
+    "debhelper-compat",
+    "dist",
+    "dpkg-dev",
+    "file",
+    "groff-base",
+    "libbz2-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libdb-dev",
+    "libgdbm-compat-dev",
+    "libgdbm-dev",
+    "libperl5.36",
+    "libtap-harness-archive-perl",
+    "libterm-readline-gnu-perl",
+    "libterm-readline-perl-perl",
+    "libz-dev",
+    "make",
+    "man-browser",
+    "netbase",
+    "perl",
+    "perl-base",
+    "perl-doc",
+    "perl-modules-5.36",
+    "perl:any",
+    "procps",
+    "sensible-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}
