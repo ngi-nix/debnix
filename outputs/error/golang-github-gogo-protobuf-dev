@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "gogoprotobuf", "golang-any", "golang-github-gogo-protobuf-dev", "libprotobuf-dev", "protobuf-compiler"], or 
-output: 
-[] is empty!

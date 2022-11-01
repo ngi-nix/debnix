@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["acheck-rules", "debhelper-compat", "gettext", "libconfig-general-perl", "liblocale-gettext-perl", "libterm-readline-gnu-perl", "libterm-readline-perl-perl", "libterm-size-perl", "libtext-aspell-perl", "perl"], or 
-output: 
-[] is empty!

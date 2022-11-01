@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["check", "debhelper-compat", "help2man", "jq", "libcjson-dev", "libcurl4-openssl-dev", "libmicrohttpd-dev", "liboidc-agent4", "libqrencode-dev", "libqrencode3", "libqrencode4", "libseccomp-dev", "libsecret-1-dev", "libsodium-dev", "oidc-agent-cli", "oidc-agent-desktop", "pkg-config", "x-terminal-emulator", "xterm", "yad"], or 
-output: 
-[] is empty!

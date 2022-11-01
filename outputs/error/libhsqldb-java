@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "debhelper-compat", "default-jdk", "default-jre-headless", "java8-runtime-headless", "javahelper", "libhsqldb-java", "libhsqldb-java-doc", "libservlet-api-java", "maven-repo-helper"], or 
-output: 
-[] is empty!

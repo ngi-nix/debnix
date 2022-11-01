@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dbconfig-mysql", "dbconfig-no-thanks", "dbconfig-pgsql", "dbconfig-sqlite3", "debhelper-compat", "default-mysql-server", "libapache2-mod-proxy-uwsgi", "lsb-base", "nginx", "po-debconf", "postgresql", "python3", "python3-django-hyperkitty", "python3-django-postorius", "python3-mysqldb", "python3-psycopg2", "python3-whoosh", "ucf", "uwsgi-core", "uwsgi-plugin-python3", "virtual-mysql-server"], or 
-output: 
-[] is empty!

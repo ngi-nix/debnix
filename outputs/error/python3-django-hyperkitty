@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "fonts-glyphicons-halflings", "libjs-bootstrap4", "mailman3-web", "python3-all", "python3-bs4", "python3-dateutil", "python3-django", "python3-django-compressor", "python3-django-extensions", "python3-django-gravatar2", "python3-django-haystack", "python3-django-mailman3", "python3-django-q", "python3-djangorestframework", "python3-elasticsearch", "python3-flufl.lock", "python3-isort", "python3-lxml", "python3-mailmanclient", "python3-mistune", "python3-mock", "python3-networkx", "python3-robot-detection", "python3-setuptools", "python3-sphinx", "python3-tz", "python3-whoosh", "sassc"], or 
-output: 
-[] is empty!

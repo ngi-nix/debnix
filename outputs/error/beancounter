@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libdate-manip-perl", "libdbd-mysql-perl", "libdbd-odbc-perl", "libdbd-pg-perl", "libdbd-sqlite3-perl", "libdbi-perl", "libfinance-yahooquote-perl", "libstatistics-descriptive-perl", "mysql-client", "postgresql-client", "sqlite", "sqlite3"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adwaita-qt", "cmst", "debhelper-compat", "faenza-icon-theme", "galternatives", "gnome-themes-standard", "gparted", "libkf5screen-dev", "libkf5windowsystem-dev", "liblxqt1-dev", "libqt5svg5-dev", "libqt5x11extras5-dev", "libx11-dev", "libxcb-randr0-dev", "libxcursor-dev", "libxfixes-dev", "libxi-dev", "lxappearance", "lxqt", "lxqt-config-l10n", "lxqt-core", "lxqt-policykit", "lxqt-powermanagement", "lxqt-qtplugin", "lxqt-session", "obconf-qt", "partitionmanager", "qt5-style-plugins", "qtbase5-private-dev", "qttranslations5-l10n", "synaptic", "system-config-printer", "xserver-xorg-input-libinput-dev", "xsettingsd", "zlib1g-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["checkpolicy", "debhelper", "gawk", "gcc", "libselinux1", "libsemanage2", "libsepol2", "logcheck", "m4", "make", "policycoreutils", "policycoreutils-dev", "policycoreutils-python-utils", "python3", "selinux-utils", "setools", "syslog-summary"], or 
-output: 
-[] is empty!

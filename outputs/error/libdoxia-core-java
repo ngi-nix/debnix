@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "default-jdk", "default-jdk-doc", "fop", "junit4", "libcommons-collections3-java", "libcommons-configuration-java", "libcommons-configuration-java-doc", "libcommons-lang-java", "libdoxia-core-java", "libdoxia-java-doc", "libdoxia-sitetools-java", "libhttpclient-java", "libitext1-java", "liblog4j1.2-java", "liblog4j1.2-java-doc", "libmaven-doxia-tools-java", "libmaven-javadoc-plugin-java", "libmaven-parent-java", "libmaven-shade-plugin-java", "libmodello-maven-plugin-java", "libpegdown-java", "libplexus-component-metadata-java", "libplexus-container-default1.5-java", "libplexus-i18n-java", "libplexus-utils-java", "libplexus-utils-java-doc", "libxerces2-java", "maven-debian-helper"], or 
-output: 
-[] is empty!

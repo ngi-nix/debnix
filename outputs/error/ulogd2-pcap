@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper", "default-libmysqlclient-dev", "groff", "libdbi-dev", "libjansson-dev", "libmnl-dev", "libnetfilter-acct-dev", "libnetfilter-conntrack-dev", "libnetfilter-log-dev", "libnfnetlink-dev", "libpcap-dev", "libpq-dev", "libsqlite3-dev", "linuxdoc-tools", "lsb-base", "pkg-config", "tcpdump", "tshark", "ulogd2", "ulogd2-dbi", "ulogd2-json", "ulogd2-mysql", "ulogd2-pcap", "ulogd2-pgsql", "ulogd2-sqlite3", "wireshark"], or 
-output: 
-[] is empty!

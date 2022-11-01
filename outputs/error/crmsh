@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoc", "bash-completion", "csync2", "debhelper-compat", "dh-python", "dmidecode", "docbook-xml", "docbook-xsl", "dos2unix", "fdisk", "fonts-font-awesome", "gawk", "iputils-ping", "libxml2-utils", "ocfs2-tools", "openssh-server", "pacemaker", "pacemaker-cli-utils", "parted", "pkg-config", "python3-all", "python3-dateutil", "python3-lxml", "python3-parallax", "python3-pygments", "python3-setuptools", "python3-yaml", "sbd", "ufw", "util-linux", "vim-addon-manager", "xsltproc"], or 
-output: 
-[] is empty!

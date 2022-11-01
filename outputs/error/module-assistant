@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["build-essential", "bzip2", "debhelper-compat", "dh-sequence-bash-completion", "dialog", "docbook", "docbook-utils", "gettext", "liblocale-gettext-perl", "libtext-wrapi18n-perl", "whiptail", "xz-utils"], or 
-output: 
-[] is empty!

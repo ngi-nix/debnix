@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "ghostscript", "libcapture-tiny-perl", "libclass-accessor-perl", "libexception-class-perl", "libfile-pushd-perl", "libfile-slurp-perl", "liblog-any-perl", "libmodule-install-perl", "libreadonly-perl", "libtemplate-perl", "texlive-binaries", "texlive-latex-base"], or 
-output: 
-[] is empty!

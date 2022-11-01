@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "gulp", "help2man", "node-ansi-colors", "node-babel-loader", "node-babel7", "node-browser-stdout", "node-camelcase", "node-chalk", "node-chokidar", "node-date-format", "node-debug", "node-decamelize", "node-del", "node-diff", "node-escape-string-regexp", "node-find-up", "node-glob", "node-growl", "node-he", "node-is-plain-obj", "node-is-unicode-supported", "node-is-windows", "node-js-yaml", "node-minimatch", "node-ms", "node-nanoid", "node-serialize-javascript", "node-strip-json-comments", "node-supports-color", "node-uglify-js", "node-which", "node-wide-align", "node-yargs", "node-yargs-parser", "nodejs:any", "oxygen-icon-theme", "webpack"], or 
-output: 
-[] is empty!

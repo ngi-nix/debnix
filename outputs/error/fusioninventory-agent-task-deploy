@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dmidecode", "fdisk", "fusioninventory-agent", "hdparm", "libcrypt-des-perl", "libdigest-hmac-perl", "libdigest-sha-perl", "libfile-copy-recursive-perl", "libfile-which-perl", "libhttp-cookies-perl", "libhttp-daemon-perl", "libio-socket-ssl-perl", "libjson-pp-perl", "libnet-cups-perl", "libnet-ip-perl", "libnet-nbname-perl", "libnet-snmp-perl", "libparallel-forkmanager-perl", "libparse-edid-perl", "libproc-daemon-perl", "libsocket-getaddrinfo-perl", "libtext-template-perl", "libuniversal-require-perl", "liburi-perl", "libwww-perl", "libxml-treepp-perl", "libxml-xpath-perl", "libyaml-perl", "libyaml-tiny-perl", "lsb-base", "net-tools", "pci.ids", "pciutils", "read-edid", "smartmontools", "ucf", "usb.ids", "usbutils", "util-linux"], or 
-output: 
-[] is empty!

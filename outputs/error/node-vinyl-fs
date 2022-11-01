@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "mocha", "node-buffer-equal", "node-call-bind", "node-convert-source-map", "node-debbundle-es-to-primitive", "node-deep-equal", "node-flush-write-stream", "node-function-bind", "node-glob-stream", "node-graceful-fs", "node-is-buffer", "node-is-generator-function", "node-is-valid-glob", "node-lazystream", "node-mississippi", "node-normalize-path", "node-object-inspect", "node-object.assign", "node-pumpify", "node-readable-stream", "node-rimraf", "node-safe-buffer", "node-through2", "node-tmatch", "node-vinyl"], or 
-output: 
-[] is empty!

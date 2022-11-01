@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["busybox", "busybox-static", "debhelper-compat", "lsb-base", "zip"], or 
-output: 
-[] is empty!

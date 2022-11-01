@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "javahelper", "libcommons-io-java", "libcommons-lang3-java", "libsis-base-jni", "libtool", "procps", "testng"], or 
-output: 
-[] is empty!

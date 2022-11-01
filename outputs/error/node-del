@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "node-globby", "node-graceful-fs", "node-is-glob", "node-is-path-cwd", "node-is-path-inside", "node-is-stream", "node-make-dir", "node-p-map", "node-rimraf", "node-slash", "node-tape", "node-temp-dir", "node-unique-string", "rollup"], or 
-output: 
-[] is empty!

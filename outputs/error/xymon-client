@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "apache2", "debhelper-compat", "dh-apache2", "dpkg-dev", "hobbit-plugins", "httpd-cgi", "imagemagick", "libc-ares-dev", "libldap2-dev", "libpcre3-dev", "librrd-dev", "libssl-dev", "libtirpc-dev", "lsb-base", "net-tools", "po-debconf", "procps", "rename", "rrdtool", "xymon-client", "xymon-plugins"], or 
-output: 
-[] is empty!

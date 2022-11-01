@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "intltool", "libfm-dev", "libglib2.0-dev", "libgtk2.0-dev", "libunistring-dev", "libx11-dev", "lxhotkey-core", "lxhotkey-data", "lxhotkey-gui", "lxhotkey-plugin-openbox"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "docbook2x", "doxygen", "graphviz", "jdupes", "libjs-jquery", "libregfi-dev", "libregfi1", "libtalloc-dev", "libtalloc2", "python-pyregfi", "python3-all", "reglookup-doc", "scons"], or 
-output: 
-[] is empty!

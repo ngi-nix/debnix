@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["-alternative", "-alternative--kmod-alias", "-driver", "debhelper-compat", "glx-alternative-nvidia", "lib-compiler", "lib-eglcore", "lib-glvkspirv", "lib-ml1", "lib-ptxjitcompiler1", "lib-rtcore", "libegl-0", "libegl1", "libegl1-glvnd-nvidia", "libgl1", "libgl1-glvnd-nvidia-glx", "libgles1", "libgles1-glvnd-nvidia", "libgles2", "libgles2-glvnd-nvidia", "libglx-0", "libglx0", "libglx0-glvnd-nvidia", "libnvidia-egl-gbm1", "libnvidia-tesla-cfg1", "libnvidia-tesla-cuda1", "libopencl1", "libvdpau1", "libvulkan1", "nvidia-egl-common", "nvidia-kernel-common", "nvidia-libopencl1", "nvidia-modprobe", "nvidia-opencl-common", "nvidia-support", "nvidia-tesla-driver", "nvidia-tesla-driver-libs", "nvidia-tesla-kernel-dkms", "nvidia-tesla-kernel-source", "nvidia-tesla-smi", "nvidia-vulkan-common", "ocl-icd-libopencl1", "vulkan-utils", "xserver-xorg-video-nvidia-tesla"], or 
-output: 
-[] is empty!

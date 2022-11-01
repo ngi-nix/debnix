@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "python3", "python3-pkg-resources", "python3-setuptools", "python3-sql", "tryton-modules-account", "tryton-modules-party", "tryton-modules-product", "tryton-modules-purchase", "tryton-modules-purchase-request", "tryton-modules-stock", "tryton-server"], or 
-output: 
-[] is empty!

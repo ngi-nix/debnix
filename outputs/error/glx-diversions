@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "glx-alternative-mesa", "glx-diversions", "libgl1", "libgl1-mesa-glx", "nvidia-driver", "nvidia-driver-any", "update-glx"], or 
-output: 
-[] is empty!

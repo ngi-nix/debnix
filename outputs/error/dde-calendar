@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "dde-api", "dde-qt5integration", "debhelper-compat", "deepin-gettext-tools", "libdframeworkdbus-dev", "libdframeworkdbus2", "libdtkgui-dev", "libdtkwidget-dev", "libgtest-dev", "libqt5svg5-dev", "pkg-config", "qtbase5-dev", "qttools5-dev", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

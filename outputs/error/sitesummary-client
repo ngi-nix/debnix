@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apache2", "cdpr", "cron", "cups-client", "debhelper-compat", "dmidecode", "gnupg", "hdparm", "httpd", "icinga2", "ipmitool", "iproute2", "ldap-utils", "libcgi-pm-perl", "libsitesummary-perl", "lsb-base", "lsscsi", "monitoring-plugins-standard", "munin", "munin-node", "nagios-nrpe-server", "net-tools", "pciutils", "sitesummary", "sitesummary-client", "usbutils", "zfsutils-linux"], or 
-output: 
-[] is empty!

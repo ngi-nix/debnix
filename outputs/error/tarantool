@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "binutils", "build-essential", "cdbs", "cmake", "debhelper", "dpkg-dev", "git", "libcurl4-openssl-dev", "libgomp1", "libicu-dev", "libncurses5-dev", "libreadline-dev", "libssl-dev", "libunwind-dev", "libunwind7-dev", "libunwind8-dev", "libyaml-dev", "libzstd-dev", "lsb-base", "netbase", "openssl", "tarantool", "tarantool-common", "tarantool-dev", "zlib1g"], or 
-output: 
-[] is empty!

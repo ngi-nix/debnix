@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ada-reference-manual-2012", "debhelper-compat", "gdb-minimal", "gir1.2-gtk-3.0", "gnat", "gnat-gps-common", "gnat-gps-doc", "gprbuild", "libgnatcoll-sqlite-bin", "libjs-prototype", "libjs-scriptaculous", "python-gi", "python-jedi", "python-pep8", "python-six", "python3"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper", "extra-cmake-modules", "gstreamer1.0-alsa", "gstreamer1.0-audiosink", "gstreamer1.0-plugins-base", "gstreamer1.0-plugins-good", "gstreamer1.0-plugins-ugly", "gstreamer1.0-pulseaudio", "libasound2-dev", "libgl1-mesa-dev", "libglib2.0-dev", "libgstreamer-plugins-base1.0-dev", "libgstreamer1.0-dev", "libphonon4qt5-dev", "libphonon4qt5experimental-dev", "libqt5opengl5-dev", "libqt5x11extras5-dev", "libxml2-dev", "phonon-backend-gstreamer", "phonon-backend-gstreamer-common", "phonon4qt5-backend-gstreamer", "pkg-kde-tools", "qttools5-dev"], or 
-output: 
-[] is empty!

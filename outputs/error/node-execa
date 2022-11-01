@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "node-babel7", "node-get-stream", "node-is-stream", "node-merge-stream", "node-mimic-fn", "node-npm-run-path", "node-rollup-plugin-commonjs", "node-rollup-plugin-node-resolve", "node-shebang-command", "node-signal-exit", "node-strip-eof", "node-which", "rollup"], or 
-output: 
-[] is empty!

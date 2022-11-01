@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libconfig-auto-perl", "libdate-manip-perl", "libmime-tools-perl", "libmythtv-perl", "libnet-upnp-perl", "libsys-sigaction-perl", "libwww-perl", "libxml-libxml-perl", "lsb-base", "molly-guard", "po-debconf"], or 
-output: 
-[] is empty!

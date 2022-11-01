@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "ffdiaporama-data", "libavcodec-dev", "libavdevice-dev", "libavfilter-dev", "libavformat-dev", "libavutil-dev", "libexiv2-dev", "libqt5svg5-dev", "libsdl-image1.2-dev", "libsdl-mixer1.2-dev", "libswscale-dev", "qt5-qmake", "qtbase5-dev", "qttools5-dev", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dnsmasq", "iproute2", "net-tools", "openssh-server", "resolvconf"], or 
-output: 
-[] is empty!

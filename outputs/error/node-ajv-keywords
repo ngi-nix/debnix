@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "jest", "node-ajv", "node-ansi-regex", "node-ansi-styles", "node-assertion-error", "node-babel7", "node-balanced-match", "node-brace-expansion", "node-braces", "node-chai", "node-chalk", "node-check-error", "node-color-convert", "node-color-name", "node-concat-map", "node-deep-eql", "node-emittery", "node-escape-string-regexp", "node-fast-deep-equal", "node-fill-range", "node-get-func-name", "node-graceful-fs", "node-has-flag", "node-inflight", "node-inherits", "node-is-number", "node-js-tokens", "node-json-schema-traverse", "node-lodash", "node-lru-cache", "node-micromatch", "node-minimatch", "node-natural-compare", "node-once", "node-path-is-absolute", "node-pathval", "node-picomatch", "node-react-is", "node-require-from-string", "node-semver", "node-slash", "node-source-map", "node-source-map-support", "node-stack-utils", "node-supports-color", "node-to-fast-properties", "node-to-regex-range", "node-ts-jest", "node-type-detect", "node-typescript", "node-uri-js", "node-uuid", "node-wrappy", "node-yallist", "ts-jest"], or 
-output: 
-[] is empty!

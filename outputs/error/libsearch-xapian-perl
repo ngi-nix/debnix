@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libdevel-leak-perl", "libtest-pod-perl", "libxapian-dev", "perl-xs-dev", "perl:native", "xapian-doc"], or 
-output: 
-[] is empty!

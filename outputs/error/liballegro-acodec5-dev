@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["allegro5-doc", "cmake", "debhelper-compat", "fonts-dejavu-core", "indent", "liballegro-acodec5-dev", "liballegro-acodec5.2", "liballegro-audio5-dev", "liballegro-audio5.2", "liballegro-dialog5-dev", "liballegro-dialog5.2", "liballegro-image5-dev", "liballegro-image5.2", "liballegro-physfs5-dev", "liballegro-physfs5.2", "liballegro-ttf5-dev", "liballegro-ttf5.2", "liballegro-video5-dev", "liballegro-video5.2", "liballegro5-dev", "liballegro5.2", "libc-dev", "libdumb1-dev", "libenet-dev", "libflac-dev", "libfreetype6-dev", "libgl1-mesa-dev", "libglu1-mesa-dev", "libgtk-3-dev", "libice-dev", "libjpeg-dev", "libopenal-dev", "libopus-dev", "libopusfile-dev", "libphysfs-dev", "libpng-dev", "libpulse-dev", "libsm-dev", "libtheora-dev", "libvorbis-dev", "libwebp-dev", "libx11-dev", "libxcursor-dev", "libxext-dev", "libxinerama-dev", "libxpm-dev", "libxrandr-dev", "libxxf86vm-dev", "python3"], or 
-output: 
-[] is empty!

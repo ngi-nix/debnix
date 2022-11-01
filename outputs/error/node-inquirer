@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "jest", "mocha", "node-ansi-escapes", "node-babel7", "node-bl", "node-browser-resolve", "node-chalk", "node-ci-info", "node-cli-cursor", "node-cli-spinners", "node-cli-width", "node-defaults", "node-escape-string-regexp", "node-external-editor", "node-form-data", "node-fs-extra", "node-lodash", "node-mute-stream", "node-rollup-plugin-alias", "node-rollup-plugin-inject", "node-rollup-plugin-node-resolve", "node-run-async", "node-sinon", "node-string-width", "node-strip-ansi", "node-through", "node-tslib", "node-types-lodash", "node-types-mocha", "node-types-node", "node-types-sinon", "node-types-sinon-chai", "node-types-through", "node-typescript", "rollup"], or 
-output: 
-[] is empty!

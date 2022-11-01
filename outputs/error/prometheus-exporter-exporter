@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["daemon", "debhelper-compat", "dh-golang", "golang-any", "golang-github-prometheus-client-golang-dev", "golang-github-prometheus-client-model-dev", "golang-github-prometheus-common-dev", "golang-golang-x-sync-dev", "golang-logrus-dev", "golang-yaml.v2-dev", "systemd-sysv"], or 
-output: 
-[] is empty!

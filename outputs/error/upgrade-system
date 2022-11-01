@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apt", "apt-show-versions", "debhelper-compat", "deborphan", "debsums", "unattended-upgrades"], or 
-output: 
-[] is empty!

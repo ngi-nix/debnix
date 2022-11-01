@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jre", "docbook-xml", "docbook-xsl", "docbook2x", "fonts-noto", "java8-runtime", "proj-data", "python3", "python3-flake8", "python3-requests", "shellcheck", "xsltproc"], or 
-output: 
-[] is empty!

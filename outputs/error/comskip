@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "ffmpeg", "help2man", "libargtable2-dev", "libavcodec-dev", "libavformat-dev", "libavutil-dev", "libsdl1.2-dev", "pkg-config"], or 
-output: 
-[] is empty!

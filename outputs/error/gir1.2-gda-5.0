@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf-archive", "debhelper-compat", "default-libmysqlclient-dev", "devhelp", "dh-sequence-gir", "dh-sequence-gnome", "gir1.2-gda-5.0", "gobject-introspection", "gtk-doc-tools", "intltool", "libgda-5.0-4", "libgda-5.0-bin", "libgda-5.0-common", "libgda-5.0-doc", "libgda-5.0-mysql", "libgda-5.0-postgres", "libgee-0.8-dev", "libgirepository1.0-dev", "libglib2.0-dev", "libjs-jquery", "libjson-glib-dev", "libncurses5-dev", "libpq-dev", "libreadline-dev", "libsqlite3-dev", "libxml2-dev", "libxslt1-dev", "pkg-config", "valac", "yelp-tools", "yelp-xsl"], or 
-output: 
-[] is empty!

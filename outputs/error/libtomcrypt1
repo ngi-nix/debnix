@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "ghostscript", "libgmp-dev", "libtomcrypt1", "libtommath-dev", "libtool", "libtool-bin", "pkg-config", "texlive-latex-base", "texlive-latex-extra", "texlive-latex-recommended"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf2.69", "autogen", "binutils-xtensa-lx106", "bison", "debhelper", "dejagnu", "flex", "gawk", "gcc-11-source", "gettext", "libgmp-dev", "libmpc-dev", "libmpfr-dev", "libtool", "locales", "lsb-release", "m4", "texinfo", "xz-utils", "zlib1g-dev"], or 
-output: 
-[] is empty!

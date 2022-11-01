@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "dvipng", "libjs-mathjax", "libmagickcore-6.q16-6-extra", "libmagickwand-6.q16-6", "libmagickwand-6.q16hdri-6", "pypy", "python3-all", "python3-pytest", "python3-setuptools", "python3-sphinx", "texlive-latex-extra", "wand-doc"], or 
-output: 
-[] is empty!

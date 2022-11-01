@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cdbs", "debhelper", "ghc", "ghc-prof", "haskell-devscripts", "haskell-devscripts-minimal", "hspec-discover", "libghc-base16-bytestring-dev", "libghc-base16-bytestring-prof", "libghc-base64-bytestring-dev", "libghc-base64-bytestring-prof", "libghc-hspec-dev"], or 
-output: 
-[] is empty!

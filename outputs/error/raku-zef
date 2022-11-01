@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["curl", "debhelper-compat", "dh-raku", "dh-sequence-raku", "git", "pandoc", "prove6", "raku-getopt-long", "raku-tap-harness", "rakudo", "wget"], or 
-output: 
-[] is empty!

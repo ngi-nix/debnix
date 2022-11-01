@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "default-jdk", "default-jre", "doc-base", "jarwrapper", "javahelper", "libdcmtk-dev", "libdicomscope-jni", "tk8.4", "tk8.6", "wish", "zip"], or 
-output: 
-[] is empty!

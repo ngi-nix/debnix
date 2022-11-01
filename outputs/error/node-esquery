@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "eslint", "mocha", "node-babel-register", "node-chai", "node-estraverse", "node-rollup-plugin-commonjs", "node-rollup-plugin-json", "node-rollup-plugin-node-resolve", "pandoc", "pegjs", "rollup"], or 
-output: 
-[] is empty!

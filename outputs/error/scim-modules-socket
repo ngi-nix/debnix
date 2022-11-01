@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autopoint", "debhelper", "dh-autoreconf", "doxygen", "dpkg-dev", "im-config", "im-switch", "intltool", "libclutter-1.0-dev", "libclutter-imcontext-0.1-dev", "libglib2.0-dev", "libgtk-3-dev", "libgtk-4-dev", "libgtk2.0-dev", "libjs-jquery", "libltdl-dev", "libpango1.0-dev", "libscim-dev", "libscim8v5", "libx11-dev", "pkg-config", "scim", "scim-anthy", "scim-canna", "scim-chewing", "scim-dev-doc", "scim-gtk-immodule", "scim-hangul", "scim-im-agent", "scim-m17n", "scim-modules-socket", "scim-pinyin", "scim-prime", "scim-skk", "scim-tables-additional", "scim-tables-ja", "scim-tables-ko", "scim-tables-zh", "scim-thai", "scim-uim", "x11proto-core-dev"], or 
-output: 
-[] is empty!

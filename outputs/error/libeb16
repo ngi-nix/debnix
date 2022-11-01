@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg-dev", "eb-doc", "eb-utils", "help2man", "libeb16", "libeb16-dev", "nkf", "w3m", "www-browser", "zlib1g-dev"], or 
-output: 
-[] is empty!

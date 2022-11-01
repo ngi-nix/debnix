@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["awesome", "cairo-dock-systray-plug-in", "debhelper-compat", "dh-dist-zilla", "fbpanel", "fspanel", "fvwm", "i3-wm", "jwm", "libdesktop-notify-perl", "libdist-zilla-plugin-git-perl", "libdist-zilla-plugin-githubmeta-perl", "libdist-zilla-plugin-mojibaketests-perl", "libdist-zilla-plugin-ourpkgversion-perl", "libdist-zilla-plugin-podweaver-perl", "libdist-zilla-plugin-run-perl", "libdist-zilla-plugin-test-kwalitee-perl", "libdist-zilla-plugin-test-perl-critic-perl", "libdist-zilla-plugins-cjm-perl", "libfile-sharedir-install-perl", "libfile-sharedir-perl", "libfile-which-perl", "libgtk2-traymanager-perl", "libgtk3-perl", "libtry-tiny-perl", "lxpanel", "lxqt-panel", "mate-panel", "notification-daemon", "perlpanel", "smart-notifier", "stalonetray", "taffybar", "tint2", "trayer", "wmdocker", "wmsystemtray", "xauth", "xfce4-panel", "xvfb"], or 
-output: 
-[] is empty!

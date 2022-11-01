@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "mocha", "node-busboy", "node-chai-as-promised", "node-coveralls", "node-data-uri-to-buffer", "node-form-data", "node-p-timeout", "node-rollup-plugin-commonjs", "node-rollup-plugin-inject", "node-rollup-plugin-node-resolve", "node-rollup-plugin-replace", "node-rollup-plugin-terser", "node-rollup-plugin-typescript", "node-streamsearch", "node-tslib", "node-typescript", "rollup", "terser"], or 
-output: 
-[] is empty!

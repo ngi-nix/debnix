@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "default-jre-headless", "dh-exec", "gradle-debian-helper", "java6-runtime-headless", "javahelper", "libandroid-23-java", "maven-repo-helper", "pandoc", "proguard-cli"], or 
-output: 
-[] is empty!

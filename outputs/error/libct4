@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "freetds-common", "libct4", "libgnutls28-dev", "libkrb5-dev", "libodbc1", "libreadline-dev", "libsybdb5", "pkg-config", "unixodbc-dev"], or 
-output: 
-[] is empty!

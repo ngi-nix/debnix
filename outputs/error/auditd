@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["audispd-plugins", "auditd", "debhelper-compat", "dh-python", "dpkg-dev", "gawk", "libaudit-common", "libaudit1", "libauparse0", "libcap-ng-dev", "libkrb5-dev", "libldap2-dev", "libpython3-all-dev", "libwrap0-dev", "linux-libc-dev", "lsb-base", "mawk", "python3-all-dev:any", "swig"], or 
-output: 
-[] is empty!

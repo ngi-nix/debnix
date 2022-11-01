@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["clojure", "debhelper", "default-jdk", "javahelper", "libjackson2-core-java", "libjackson2-dataformat-cbor", "libjackson2-dataformat-smile", "libtigris-clojure", "markdown", "maven-repo-helper"], or 
-output: 
-[] is empty!

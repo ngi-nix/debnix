@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-python3", "gir1.2-glib-2.0", "gir1.2-gtk-3.0", "itstool", "libgirepository1.0-dev", "libgtk-3-dev", "meson", "pycodestyle", "python3-gi", "xauth", "xvfb"], or 
-output: 
-[] is empty!

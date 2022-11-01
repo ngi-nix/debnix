@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "debhelper-compat", "default-jdk", "default-jre", "icedtea-netx", "imagemagick", "java-wrappers", "java8-runtime", "libbatik-java", "libfreehep-graphics2d-java", "libfreehep-graphicsbase-java", "libfreehep-graphicsio-java", "libfreehep-graphicsio-svg-java", "libitext-java", "libjava3d-java", "libsunflow-java", "sun-java6-bin", "sweethome3d-furniture"], or 
-output: 
-[] is empty!

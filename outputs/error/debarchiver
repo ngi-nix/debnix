@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "apt-utils", "bsd-mailx", "debhelper-compat", "default-mta", "devscripts", "dpkg-dev", "gnupg", "mail-transport-agent", "mailutils", "mailx", "opalmod"], or 
-output: 
-[] is empty!

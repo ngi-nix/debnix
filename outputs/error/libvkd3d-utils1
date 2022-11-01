@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg", "libvkd3d-dev", "libvkd3d-doc", "libvkd3d-headers", "libvkd3d-shader1", "libvkd3d-utils1", "libvkd3d1", "libvulkan-dev", "libxcb-icccm4-dev", "libxcb-keysyms1-dev", "libxcb-util0-dev", "pkg-config", "spirv-headers", "vkd3d-compiler"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "debhelper-compat", "default-jdk", "gradle-debian-helper", "jarwrapper", "javahelper", "junit4", "libargs4j-java", "libcommons-io-java", "libcommons-lang3-java", "libecj-java", "libhamcrest-java", "libhdf5-dev", "libjaxb-java", "libjmock2-java", "libobjenesis-java", "libsis-base-java", "libsis-jhdf5-jni", "testng"], or 
-output: 
-[] is empty!

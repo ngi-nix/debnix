@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cm-super-minimal", "debhelper-compat", "dh-python", "evince", "gir1.2-gtksource-3.0", "gir1.2-vte-2.91", "lyx", "python3", "texlive-fonts-recommended", "texlive-latex-base", "texlive-latex-recommended", "texlive-plain-generic"], or 
-output: 
-[] is empty!

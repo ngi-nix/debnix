@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "arctica-greeter", "arctica-greeter-guest-session", "at-spi2-core", "ayatana-indicator-application", "ayatana-indicator-datetime", "ayatana-indicator-keyboard", "ayatana-indicator-power", "ayatana-indicator-session", "ayatana-indicator-sound", "dbus-x11", "debhelper-compat", "desktop-base", "dpkg-dev", "fonts-cabin", "fonts-cantarell", "fonts-droid", "fonts-droid-fallback", "libayatana-ido3-dev", "libayatana-indicator3-dev", "libcanberra-dev", "libglib2.0-bin", "libgtk-3-dev", "liblightdm-gobject-1-dev", "liblightdm-gobject-dev", "libpam-freerdp2-dev", "libpam-x2go-dev", "libpixman-1-dev", "lightdm", "lightdm-remote-session-freerdp2", "lightdm-remote-session-x2go", "lightdm-vala", "marco", "mate-common", "mate-settings-daemon", "mate-settings-daemon-dev", "network-manager", "network-manager-gnome", "numix-gtk-theme", "numix-icon-theme", "numlockx", "openbox", "python3", "remote-logon-service", "systemd", "valac", "valgrind", "x11-xkb-utils", "xauth", "xinput", "xvfb"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bundler", "cucumber", "debhelper-compat", "gem2deb", "jekyll-theme-minima", "rake", "ruby", "ruby-addressable", "ruby-bundler", "ruby-classifier-reborn", "ruby-coderay", "ruby-colorator", "ruby-em-websocket", "ruby-httpclient", "ruby-i18n", "ruby-jekyll-avatar", "ruby-jekyll-coffeescript", "ruby-jekyll-compose", "ruby-jekyll-feed", "ruby-jekyll-gist", "ruby-jekyll-last-modified-at", "ruby-jekyll-mentions", "ruby-jekyll-paginate", "ruby-jekyll-paginate-v2", "ruby-jekyll-redirect-from", "ruby-jekyll-remote-theme", "ruby-jekyll-sass-converter", "ruby-jekyll-seo-tag", "ruby-jekyll-sitemap", "ruby-jekyll-watch", "ruby-kramdown", "ruby-kramdown-parser-gfm", "ruby-launchy-shim", "ruby-liquid", "ruby-mercenary", "ruby-mime-types", "ruby-minitest", "ruby-minitest-reporters", "ruby-nokogiri", "ruby-pathutil", "ruby-pygments.rb", "ruby-rdiscount", "ruby-redcarpet", "ruby-rouge", "ruby-rspec-mocks", "ruby-safe-yaml", "ruby-shoulda", "ruby-simplecov", "ruby-test-unit", "ruby-tomlrb", "ruby-webrick", "ruby-yajl", "webpack", "xdg-utils"], or 
-output: 
-[] is empty!

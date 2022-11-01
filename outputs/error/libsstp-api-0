@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper-compat", "libevent-dev", "libssl-dev", "libsstp-api-0", "network-manager-sstp", "network-manager-sstp-gnome", "pkg-config", "ppp-dev"], or 
-output: 
-[] is empty!

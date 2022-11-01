@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["clojure", "debhelper", "default-jdk-headless", "javahelper", "libcrypto-equality-clojure", "libcrypto-random-clojure", "libhiccup-clojure", "libring-mock-clojure", "libtext-markdown-perl", "markdown", "maven-repo-helper"], or 
-output: 
-[] is empty!

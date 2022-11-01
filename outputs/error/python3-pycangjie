@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cython3", "debhelper-compat", "dh-sequence-python3", "libcangjie2", "libcangjie2-dev", "libcangjie2-dev-tools", "libtool", "pkg-config", "python3-dev"], or 
-output: 
-[] is empty!

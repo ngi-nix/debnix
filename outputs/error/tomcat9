@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant-optional", "bnd", "debhelper-compat", "default-jdk", "default-jre-headless", "java11-runtime", "java11-runtime-headless", "javahelper", "junit4", "libcglib-nodep-java", "libeasymock-java", "libeclipse-jdt-core-java", "libhamcrest-java", "libjaxrpc-api-java", "libobjenesis-java", "libtaglibs-standard-impl-java", "libtaglibs-standard-spec-java", "libtcnative-1", "libtomcat9-java", "libwsdl4j-java", "lsb-base", "lsb-release", "maven-repo-helper", "netcat-openbsd", "systemd", "systemd-sysusers", "systemd-tmpfiles", "tomcat9", "tomcat9-admin", "tomcat9-common", "tomcat9-docs", "tomcat9-examples", "tomcat9-user", "ucf"], or 
-output: 
-[] is empty!

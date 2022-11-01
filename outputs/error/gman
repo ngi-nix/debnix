@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "evince", "gv", "httpd", "libglib2.0-dev", "libgtk2.0-dev", "man-db", "man2html", "sensible-browser", "x-terminal-emulator", "xterm"], or 
-output: 
-[] is empty!

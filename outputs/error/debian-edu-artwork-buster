@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["advancecomp", "debhelper-compat", "debian-edu-artwork", "debian-edu-artwork-buster", "debian-edu-artwork-futureprototype", "debian-edu-artwork-homeworld", "debian-edu-artwork-joy", "debian-edu-artwork-lines", "debian-edu-artwork-softwaves", "debian-edu-artwork-spacefun", "desktop-base", "devscripts", "fonts-quicksand", "imagemagick", "inkscape", "libconfig-inifiles-perl", "librsvg2-bin", "optipng", "rdfind", "symlinks"], or 
-output: 
-[] is empty!

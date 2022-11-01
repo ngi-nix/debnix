@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "mocha", "node-expect", "node-extend", "node-glob", "node-glob-parent", "node-is-negated-glob", "node-mississippi", "node-ordered-read-streams", "node-pumpify", "node-readable-stream", "node-remove-trailing-separator", "node-should", "node-to-absolute-glob", "node-unique-stream"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ca-certificates", "cmake", "dbus", "debhelper-compat", "dh-exec", "dino-im-common", "fonts-noto-color-emoji", "gettext", "gstreamer1.0-gtk3", "gstreamer1.0-plugins-good", "libgcrypt20-dev", "libgee-0.8-dev", "libglib2.0-dev", "libgpgme-dev", "libgspell-1-dev", "libgstreamer-plugins-base1.0-dev", "libgstreamer1.0-dev", "libgtk-3-dev", "libhandy-1-dev", "libnice-dev", "libnotify-dev", "libqrencode-dev", "libsignal-protocol-c-dev", "libsoup2.4-dev", "libsqlite3-dev", "libsrtp2-dev", "libwebrtc-audio-processing-dev", "network-manager", "ninja-build", "valac"], or 
-output: 
-[] is empty!

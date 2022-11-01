@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoctor", "cdbs", "cmake", "debhelper", "libaugeas-dev", "libboost-all-dev", "libreadline-dev", "librpm-dev", "libzypp-dev", "zypper-common", "zypper-doc"], or 
-output: 
-[] is empty!

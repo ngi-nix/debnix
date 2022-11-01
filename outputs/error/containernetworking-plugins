@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dbus", "debhelper-compat", "dh-golang", "golang-any", "golang-dbus-dev", "golang-github-alexflint-go-filemutex-dev", "golang-github-appc-cni-dev", "golang-github-coreos-go-iptables-dev", "golang-github-coreos-go-systemd-dev", "golang-github-d2g-dhcp4-dev", "golang-github-d2g-dhcp4client-dev", "golang-github-mattn-go-shellwords-dev", "golang-github-networkplumbing-go-nft-dev", "golang-github-onsi-ginkgo-dev", "golang-github-safchain-ethtool-dev", "golang-github-vishvananda-netlink-dev", "golang-golang-x-sys-dev", "golang-gomega-dev", "iproute2", "iptables", "iputils-ping"], or 
-output: 
-[] is empty!

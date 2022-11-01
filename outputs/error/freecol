@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "ant-optional", "debhelper-compat", "default-jdk", "default-jre", "java-wrappers", "java11-runtime", "javahelper", "libcommons-cli-java", "libcortado-java", "libfindbugs-annotations-java", "libmiglayout-java", "tex4ht", "texlive-base-bin", "texlive-binaries", "texlive-fonts-recommended", "texlive-latex-extra", "texlive-latex-recommended"], or 
-output: 
-[] is empty!

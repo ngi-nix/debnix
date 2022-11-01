@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apache2", "cyrus21-imapd", "debconf", "debhelper-compat", "default-mta", "firefox-esr", "fonts-liberation", "gettext", "gosa", "gosa-plugin-connectivity", "gosa-plugin-goto", "gosa-plugin-mail", "gosa-plugin-systems", "gosa-schema", "graphicsmagick-im-compat", "httpd", "iceweasel", "imagemagick", "latex2html", "libcrypt-smbhash-perl", "libjs-scriptaculous", "libswitch-perl", "lighttpd", "lyx", "mail-transport-agent", "perl", "php", "php-apc", "php-cgi", "php-cli", "php-curl", "php-fpdf", "php-gd", "php-imagick", "php-imap", "php-ldap", "php-mbstring", "php-mysql", "php-suhosin", "php-xml", "postfix-ldap", "slapd", "smarty-gettext", "smarty3"], or 
-output: 
-[] is empty!

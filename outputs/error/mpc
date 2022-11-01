@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "check", "debhelper-compat", "libmpdclient-dev", "meson", "mpd", "pkg-config", "python3-sphinx"], or 
-output: 
-[] is empty!

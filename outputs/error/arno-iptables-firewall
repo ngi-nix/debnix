@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["curl", "debhelper-compat", "dnsutils", "gawk", "iproute2", "iptables", "kmod", "po-debconf", "procps", "rpcbind", "rsyslog"], or 
-output: 
-[] is empty!

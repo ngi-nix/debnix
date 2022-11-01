@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-[], or 
-output: 
-["cmake", "git-minimal", "libgit2", "libxcb", "nss-cacert", "openssl", "pkg-config-wrapper", "python3", "rustc"] is empty!

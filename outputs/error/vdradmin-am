@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper", "libauthen-sasl-perl", "libcgi-pm-perl", "libintl-perl", "libio-compress-perl", "libio-socket-inet6-perl", "liblocale-gettext-perl", "libsocket6-perl", "libtemplate-perl", "libtemplate-plugin-javascript-perl", "liburi-perl", "libwww-perl", "lsb-base", "vdr", "vdr-plugin-epgsearch"], or 
-output: 
-[] is empty!

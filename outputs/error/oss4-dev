@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cdbs", "debhelper", "dkms", "dpkg-dev", "gawk", "libc-dev", "libgtk2.0-dev", "liboss4-salsa-asound2", "liboss4-salsa2", "libtool-bin", "linux-headers-686-pae", "linux-headers-amd64", "linux-headers-generic", "lsb-base", "make", "module-assistant", "oss4-base", "oss4-modules", "patchutils", "pm-utils", "tar", "txt2man"], or 
-output: 
-[] is empty!

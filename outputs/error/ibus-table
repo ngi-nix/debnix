@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-python3", "docbook-utils", "ibus", "ibus-table-array30", "ibus-table-cangjie", "ibus-table-cangjie-big", "ibus-table-cangjie3", "ibus-table-cangjie5", "ibus-table-cantonese", "ibus-table-cantonhk", "ibus-table-cns11643", "ibus-table-compose", "ibus-table-easy", "ibus-table-easy-big", "ibus-table-emoji", "ibus-table-erbi", "ibus-table-erbi-qs", "ibus-table-ipa-x-sampa", "ibus-table-jyutping", "ibus-table-latex", "ibus-table-quick", "ibus-table-quick-classic", "ibus-table-quick3", "ibus-table-quick5", "ibus-table-rustrad", "ibus-table-scj6", "ibus-table-stroke5", "ibus-table-thai", "ibus-table-translit", "ibus-table-translit-ua", "ibus-table-viqr", "ibus-table-wu", "ibus-table-wubi", "ibus-table-yawerty", "ibus-table-yong", "libibus-1.0-dev", "pkg-config", "python3:any"], or 
-output: 
-[] is empty!

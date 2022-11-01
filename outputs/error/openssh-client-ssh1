@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "dpkg-dev", "libpam-dev", "libpam0g-dev", "libselinux1-dev", "libssl-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

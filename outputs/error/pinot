@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["antiword", "apache2", "bzip2", "catdoc", "catdvi", "dbus-session-bus", "debhelper-compat", "default-dbus-session-bus", "desktop-file-utils", "djvulibre-bin", "file", "httpd-cgi", "libarchive-dev", "libboost-dev", "libchm-dev", "libcurl4-openssl-dev", "libexiv2-dev", "libexttextcat-dev", "libglib2.0-dev", "libglibmm-2.4-dev", "libgmime-3.0-dev", "libgtkmm-3.0-dev", "libsigc++-2.0-dev", "libsqlite3-dev", "libssl-dev", "libtag1-dev", "libxapian-dev", "libxml++2.6-dev", "poppler-utils", "python3-docutils", "rpm", "shared-mime-info", "unrtf", "unzip", "upower", "xapian-omega"], or 
-output: 
-[] is empty!

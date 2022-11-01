@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg-dev", "libx11-dev", "libxaw-doc", "libxaw7", "libxmu-dev", "libxpm-dev", "libxt-dev", "pkg-config", "quilt", "w3m", "x11proto-dev", "xmlto", "xorg-sgml-doctools", "xutils-dev"], or 
-output: 
-[] is empty!

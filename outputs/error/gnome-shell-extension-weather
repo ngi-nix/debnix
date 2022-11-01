@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ca-certificates", "debhelper-compat", "gir1.2-clutter-1.0", "gir1.2-glib-2.0", "gir1.2-gtk-3.0", "gir1.2-soup-3.0", "gnome-common", "gnome-shell", "gnome-tweaks", "libglib2.0-dev"], or 
-output: 
-[] is empty!

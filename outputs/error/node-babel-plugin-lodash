@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "mocha", "node-babel-cli", "node-babel-helper-module-imports", "node-babel-plugin-add-module-exports", "node-babel-types", "node-glob", "node-lodash", "rollup"], or 
-output: 
-[] is empty!

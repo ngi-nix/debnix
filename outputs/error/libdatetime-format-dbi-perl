@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libdatetime-format-db2-perl", "libdatetime-format-mysql-perl", "libdatetime-format-pg-perl", "libdatetime-format-sqlite-perl", "libdatetime-perl", "libdbi-perl", "libmodule-build-perl"], or 
-output: 
-[] is empty!

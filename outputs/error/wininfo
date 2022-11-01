@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gettext", "libgtk2.0-dev", "libice-dev", "libx11-dev", "libxres-dev", "libxt-dev", "x11proto-core-dev"], or 
-output: 
-[] is empty!

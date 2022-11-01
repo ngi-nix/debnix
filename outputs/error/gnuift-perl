@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dh-buildinfo", "docbook-to-man", "flex", "gnuift", "gnuift-doc", "gnuift-perl", "imagemagick", "kmrml", "libexpat1-dev", "libgnuift0-dev", "libgnuift0c2a", "libhtml-parser-perl", "libmagickcore-dev", "libmrml1-dev", "libmrml1c2a", "libmysql++-dev", "libparse-yapp-perl", "libperl-dev", "libtext-iconv-perl", "libtool", "libwww-perl", "libxml-dom-perl", "libxml-handler-trees-perl", "libxml-libxml-perl", "libxml-parser-perl", "libxml-sax-expat-perl", "libxml-sax-perl", "libxml-writer-perl", "libxml-xql-perl", "m4", "perl", "pkg-config"], or 
-output: 
-[] is empty!

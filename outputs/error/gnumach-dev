@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "debhelper-compat", "dpkg-dev", "gnumach-common", "gnumach-image-1.8-486", "gnumach-image-1.8-xen-486", "hurd-udeb", "mig-for-host", "sharutils", "texinfo"], or 
-output: 
-[] is empty!

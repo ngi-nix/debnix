@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "file", "gem2deb", "libpcre2-dev", "libselinux1", "libsepol-dev", "pkg-config", "python3-all-dev", "ruby", "ruby-interpreter", "swig"], or 
-output: 
-[] is empty!

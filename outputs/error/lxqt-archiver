@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["arj", "binutils", "bzip2", "cmake", "cpio", "debhelper-compat", "gvfs", "lha", "libfm-qt-dev", "libjson-glib-dev", "libmagic-dev", "libqt5x11extras5-dev", "lxqt-archiver-l10n", "lxqt-build-tools", "lzip", "lzma", "lzop", "ncompress", "p7zip-full", "p7zip-rar", "qttranslations5-l10n", "rar", "rpm2cpio", "rzip", "sharutils", "unace", "unalz", "unar", "unrar", "unrar-free", "unzip", "xz-utils", "zip", "zoo"], or 
-output: 
-[] is empty!

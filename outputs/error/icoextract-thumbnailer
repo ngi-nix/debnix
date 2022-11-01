@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gcc-mingw-w64", "icoextract", "icoextract-thumbnailer", "imagemagick", "python3-all", "python3-icoextract", "python3-pefile", "python3-pil", "python3-setuptools"], or 
-output: 
-[] is empty!

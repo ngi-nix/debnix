@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libcatalyst-perl", "libconfig-general-perl", "libfile-changenotify-perl", "libfile-copy-recursive-perl", "libfile-sharedir-perl", "libmodule-install-perl", "libmoose-perl", "libmoosex-daemonize-perl", "libmoosex-emulate-class-accessor-fast-perl", "libnamespace-autoclean-perl", "libnamespace-clean-perl", "libpath-class-perl", "libtemplate-perl", "libyaml-tiny-perl", "starman"], or 
-output: 
-[] is empty!

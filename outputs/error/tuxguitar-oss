@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "debhelper-compat", "default-jdk", "default-jre", "docbook-to-man", "docbook-utils", "file", "fluidsynth", "java2-runtime", "libasound2-dev", "libfluidsynth-dev", "libitext-java", "libjack-dev", "libjack-jackd2-dev", "libjs-jquery", "liboss4-salsa-dev", "libswt-cairo-gtk-4-jni", "libswt-gtk-4-java", "libswt-webkit-gtk-4-jni", "lilypond", "oss-compat", "qjackctl", "timidity", "tuxguitar", "tuxguitar-alsa", "tuxguitar-jsa", "tuxguitar-oss"], or 
-output: 
-[] is empty!

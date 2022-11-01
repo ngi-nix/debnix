@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["brotli", "debhelper-compat", "dh-sequence-nodejs", "grunt", "javascript-common", "libjs-sizzle", "node-babel7", "node-grunt-babel", "node-grunt-contrib-uglify", "node-load-grunt-tasks", "node-requirejs", "node-strip-json-comments", "node-uglify-js", "pigz"], or 
-output: 
-[] is empty!

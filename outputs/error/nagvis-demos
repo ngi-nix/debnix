@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["check-mk-livestatus", "debhelper-compat", "graphviz", "nagvis", "nagvis-demos", "php", "php-common", "php-gd", "php-net-socket", "php-sqlite3", "po-debconf", "quilt", "ucf"], or 
-output: 
-[] is empty!

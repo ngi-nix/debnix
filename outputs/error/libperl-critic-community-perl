@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libmodule-build-tiny-perl", "libpath-tiny-perl", "libperl-critic-perl", "libperl-critic-policy-variables-prohibitlooponhash-perl", "libperl-critic-pulp-perl", "libppi-perl", "libscalar-list-utils-perl", "libversion-perl", "perl"], or 
-output: 
-[] is empty!

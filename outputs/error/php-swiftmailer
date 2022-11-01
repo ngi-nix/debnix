@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-phpcomposer", "php-bcmath", "php-email-validator", "php-mockery", "php-symfony-phpunit-bridge", "phpunit"], or 
-output: 
-[] is empty!

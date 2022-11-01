@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "grunt", "help2man", "node-extend", "node-findup-sync", "node-fined", "node-flagged-respawn", "node-grunt-known-options", "node-interpret", "node-is-plain-object", "node-liftoff", "node-nopt", "node-rechoir", "node-resolve", "node-v8flags", "nodejs:any"], or 
-output: 
-[] is empty!

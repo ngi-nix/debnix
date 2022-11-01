@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "eclipse-debian-helper", "libeclipse-core-expressions-java", "libeclipse-core-runtime-java", "libeclipse-osgi-java", "libequinox-common-java", "libequinox-preferences-java", "libequinox-registry-java", "libicu4j-java"], or 
-output: 
-[] is empty!

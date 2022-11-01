@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["brotli", "cmark-gfm", "debhelper-compat", "eslint", "help2man", "javascript-common", "libjs-source-map", "mocha", "node-acorn", "node-commander", "node-escodegen", "node-jridgewell-source-map", "node-rollup-plugin-terser", "node-semver", "node-source-map", "node-source-map-support", "node-terser", "nodejs:any", "pigz", "rollup", "terser"], or 
-output: 
-[] is empty!

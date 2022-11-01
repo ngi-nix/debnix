@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-python3", "libsqlite3-dev", "libsunpinyin3v5", "pkg-config", "python3-dev:any", "scons", "sunpinyin-data"], or 
-output: 
-[] is empty!

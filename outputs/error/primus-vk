@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper-compat", "libprimus-vk1", "libprimus-vk1:i386", "libvulkan-dev", "libvulkan1", "libwayland-dev", "libx11-dev", "libxcb1-dev", "libxrandr-dev", "mesa-common-dev", "nvidia-primus-vk-common", "nvidia-primus-vk-wrapper", "nvidia-primus-vk-wrapper:i386", "primus", "primus-vk", "primus-vk-nvidia", "vulkan-validationlayers-dev"], or 
-output: 
-[] is empty!

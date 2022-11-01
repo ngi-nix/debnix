@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "ant-optional", "bsh", "debhelper", "default-jdk", "junit", "libbsf-java", "libcommons-logging-java", "librhino-java", "libxalan2-java", "maven-repo-helper", "rhino"], or 
-output: 
-[] is empty!

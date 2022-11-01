@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libgtest-dev", "libopencryptoki-dev", "libssl-dev", "libtspi-dev", "openssh-client", "trousers"], or 
-output: 
-[] is empty!

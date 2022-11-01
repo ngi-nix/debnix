@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debconf", "debhelper-compat", "perl", "pkg-config", "python3", "python3-apt"], or 
-output: 
-[] is empty!

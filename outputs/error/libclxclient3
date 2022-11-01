@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libasound2-dev", "libclthreads-dev", "libclxclient3", "libfreetype6-dev", "libx11-dev", "libxft-dev", "pkg-config"], or 
-output: 
-[] is empty!

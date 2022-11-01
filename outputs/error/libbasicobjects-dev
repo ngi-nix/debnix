@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["check", "debhelper-compat", "libbasicobjects-dev", "libbasicobjects0", "libcollection-dev", "libcollection4", "libdhash1", "libini-config5", "libpath-utils1", "libref-array-dev", "libref-array1", "pkg-config", "quilt"], or 
-output: 
-[] is empty!

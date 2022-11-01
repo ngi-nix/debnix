@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "ca-certificates", "cpio", "debhelper-compat", "dh-exec", "dh-python", "obs-build", "python3", "python3-keyring", "python3-m2crypto", "python3-rpm", "python3-setuptools", "rpm2cpio", "sensible-utils"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-gir", "dh-sequence-gnome", "fontconfig", "fonts-cantarell", "fonts-dejavu-core", "fonts-noto-color-emoji", "fonts-noto-core", "gir1.2-pango-1.0", "gnome-pkg-tools", "gobject-introspection", "graphicsmagick", "help2man", "libcairo2-dev", "libfontconfig-dev", "libfreetype-dev", "libfribidi-dev", "libgirepository1.0-dev", "libglib2.0-dev", "libglib2.0-doc", "libharfbuzz-dev", "libpango-1.0-0", "libpango1.0-doc", "libpangocairo-1.0-0", "libpangoft2-1.0-0", "libpangox-1.0-0", "libpangoxft-1.0-0", "libthai-dev", "libx11-dev", "libxft-dev", "libxrender-dev", "libxt-dev", "locales", "meson", "pango1.0-tools", "perl", "pkg-config"], or 
-output: 
-[] is empty!

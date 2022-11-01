@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["camitk-actionstatemachine", "camitk-config", "camitk-imp", "cmake", "debhelper", "debhelper-compat", "doxygen", "graphviz", "libcamitk5", "libfftw3-dev", "libgdcm-dev", "libgdcm-tools", "libinsighttoolkit5-dev", "libqt5opengl5-dev", "libqt5xmlpatterns5-dev", "libqtpropertybrowser-dev", "libqtpropertybrowser5", "libvtk7-dev", "libvtk7-qt-dev", "libvtkgdcm-dev", "qtbase5-dev", "qttools5-dev-tools", "xauth", "xsdcxx", "xvfb"], or 
-output: 
-[] is empty!

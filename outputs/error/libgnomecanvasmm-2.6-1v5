@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cdbs", "debhelper", "dh-autoreconf", "doc-base", "doxygen", "dpkg-dev", "libgnomecanvas2-dev", "libgnomecanvasmm-2.6-1v5", "libgnomecanvasmm-2.6-doc", "libgtkmm-2.4-dev", "libgtkmm-2.4-doc", "lynx", "www-browser"], or 
-output: 
-[] is empty!

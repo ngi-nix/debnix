@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dpkg-dev", "flex", "gawk", "groff", "info-browser", "libfl-dev", "linuxdoc-tools", "linuxdoc-tools-info", "linuxdoc-tools-latex", "linuxdoc-tools-text", "mawk", "opensp", "perl", "sgml-data", "texinfo", "texlive-binaries", "texlive-fonts-recommended", "texlive-latex-recommended"], or 
-output: 
-[] is empty!

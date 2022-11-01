@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dovecot-imapd", "dovecot-lmtpd", "jq", "libconfig-tiny-perl", "libdbd-sqlite3-perl", "libinterimap", "libnet-ssleay-perl", "openssl", "pandoc", "procps", "sqlite3", "xxd"], or 
-output: 
-[] is empty!

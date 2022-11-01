@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "default-jdk", "default-jdk-doc", "junit4", "libmaven-javadoc-plugin-java", "libmaven-plugin-testing-java", "libplexus-utils2-java", "libplexus-utils2-java-doc", "maven-debian-helper"], or 
-output: 
-[] is empty!

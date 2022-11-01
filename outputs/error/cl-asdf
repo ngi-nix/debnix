@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cl-launch", "debhelper", "debhelper-compat", "lisp-compiler", "sbcl", "texinfo", "texlive", "texlive-extra-utils", "texlive-plain-generic"], or 
-output: 
-[] is empty!

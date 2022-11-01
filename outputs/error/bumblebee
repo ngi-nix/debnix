@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "bbswitch-dkms", "bbswitch-source", "bumblebee", "bumblebee-nvidia", "debhelper-compat", "help2man", "libbsd-dev", "libglib2.0-dev", "libkmod-dev", "libx11-dev", "lsb-base", "nvidia-primus-vk-wrapper", "pkg-config", "xserver-xorg-core"], or 
-output: 
-[] is empty!

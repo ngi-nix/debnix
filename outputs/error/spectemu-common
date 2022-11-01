@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "libreadline-dev", "libx11-dev", "libxext-dev", "libxt-dev", "spectemu-common", "spectemu-x11", "spectrum-roms", "x11proto-core-dev"], or 
-output: 
-[] is empty!

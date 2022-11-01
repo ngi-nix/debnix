@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "giflib-tools", "gifsicle", "gocr", "libdbd-mysql-perl", "libdigest-md5-perl", "libmldbm-sync-perl", "libstring-approx-perl", "libtie-cache-perl", "netpbm", "ocrad", "spamassassin", "tesseract-ocr-eng"], or 
-output: 
-[] is empty!

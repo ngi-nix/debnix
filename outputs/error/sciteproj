@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gettext", "libglib2.0-dev", "libgtk-3-dev", "liblua5.3-dev", "pkg-config", "scite"], or 
-output: 
-[] is empty!

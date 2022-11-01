@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["catdoc", "cmake", "debhelper-compat", "doxygen", "extra-cmake-modules", "libattr1-dev", "libavcodec-dev", "libavdevice-dev", "libavformat-dev", "libavutil-dev", "libepub-dev", "libexiv2-dev", "libkf5archive-dev", "libkf5coreaddons-dev", "libkf5filemetadata-bin", "libkf5filemetadata-data", "libkf5filemetadata-doc", "libkf5filemetadata3", "libkf5i18n-dev", "libpoppler-qt5-dev", "libpostproc-dev", "libqmobipocket-dev", "libqt5sql5-sqlite:native", "libswscale-dev", "libtag1-dev", "pkg-config", "pkg-kde-tools", "qtbase5-dev", "qttools5-dev", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

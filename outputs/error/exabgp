@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper-compat", "dh-python", "lsb-base", "python3-all", "python3-exabgp", "python3-pkg-resources", "python3-setuptools", "ucf"], or 
-output: 
-[] is empty!

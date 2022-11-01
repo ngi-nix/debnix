@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "autopoint", "debhelper", "dh-python", "doxygen", "graphviz", "help2man", "libjs-jquery", "libsmbios-c2", "libsmbios-doc", "libtool", "libxml2-dev", "pkg-config", "python3", "python3-libsmbios"], or 
-output: 
-[] is empty!

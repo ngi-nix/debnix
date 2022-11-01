@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gir1.2-gtk-3.0", "gir1.2-xfconf-0", "mate-applet-appmenu", "mate-desktop-common", "python3", "python3-dbus", "python3-distutils-extra", "python3-psutil", "python3-setproctitle", "python3-setuptools", "python3-xlib", "rofi"], or 
-output: 
-[] is empty!

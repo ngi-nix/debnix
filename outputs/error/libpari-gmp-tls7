@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libc-dev", "libgmp-dev", "libpari-gmp-tls8", "libpari-gmp-tls8-dbgsym", "libreadline-dev", "libx11-dev", "pari-doc", "pari-elldata", "pari-galdata", "pari-galpol", "pari-gp", "pari-gp2c", "pari-nflistdata", "pari-seadata", "texlive-base"], or 
-output: 
-[] is empty!

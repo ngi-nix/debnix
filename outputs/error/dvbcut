@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "liba52-0.7.4-dev", "libao-dev", "libavcodec-dev", "libavformat-dev", "libavutil-dev", "libmad0-dev", "libswscale-dev", "mplayer", "pkg-config", "qt5-qmake", "qtbase5-dev", "qtbase5-dev-tools", "qttools5-dev-tools"], or 
-output: 
-[] is empty!

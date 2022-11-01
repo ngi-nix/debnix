@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gettext", "gir1.2-skk-1.0", "gobject-introspection", "libgee-0.8-dev", "libgirepository1.0-dev", "libjson-glib-dev", "libskk-common", "libskk0", "libxkbcommon-dev", "skkdic", "valac"], or 
-output: 
-[] is empty!

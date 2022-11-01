@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cdbs", "debhelper", "dpkg-dev", "emacs", "emacs-nox", "emacs-snapshot", "emacs25", "emacs25-nox", "emacsen-common", "libtagc0-dev", "mp3info", "mpd", "mpg321", "mplayer", "texinfo", "vlc", "vorbis-tools", "xine-ui"], or 
-output: 
-[] is empty!

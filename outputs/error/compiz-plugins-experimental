@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["compiz-bcop", "compiz-dev", "compiz-plugins-extra", "compiz-plugins-main", "debhelper-compat", "intltool", "libcairo2-dev", "libcurl-dev", "libcurl4-openssl-dev", "libdecoration0-dev", "libglew-dev", "libglu1-mesa-dev", "libpango1.0-dev", "librsvg2-dev", "libsm-dev", "libxml2-dev", "libxrender-dev", "libxslt1-dev", "libxss-dev", "pkg-config", "x11proto-core-dev", "xsltproc"], or 
-output: 
-[] is empty!

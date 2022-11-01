@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bitmap-mule", "debhelper-compat", "dict-foldoc", "dict-gcide", "dict-jargon", "dict-server", "dict-vera", "dictd", "dictd-dictionary", "dictzip", "dpkg", "eblook", "edict-fpw", "emacs", "emacs-nox", "emacs-snapshot", "emacs21", "emacs22", "emacs23", "emacs24", "emacs25", "emacsen-common", "flim", "hunspell", "install-info", "ispell", "kakasi", "namazu2", "ndtpd", "sufary", "xemacs21-gnome-mule", "xemacs21-gnome-mule-canna-wnn", "xemacs21-mule", "xemacs21-mule-canna-wnn"], or 
-output: 
-[] is empty!

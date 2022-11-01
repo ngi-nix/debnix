@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chromium", "debhelper-compat", "dh-golang", "firefox", "firefox-esr", "fonts-open-sans", "golang-github-gokyle-twofactor-dev", "golang-github-mattn-go-zglob-dev", "golang-github-sahilm-fuzzy-dev", "golang-github-sirupsen-logrus-dev", "golang-go", "node-less"], or 
-output: 
-[] is empty!

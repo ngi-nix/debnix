@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "ant-optional", "debhelper-compat", "default-jdk", "javahelper", "junit4", "libbcmail-java-doc", "libbcpg-java-doc", "libbcpkix-java", "libbcpkix-java-doc", "libbcprov-java", "libbcprov-java-doc", "libbctls-java-doc", "libbcutil-java", "libbcutil-java-doc", "libjakarta-activation-java", "libjakarta-mail-java", "libmail-java", "maven-repo-helper"], or 
-output: 
-[] is empty!

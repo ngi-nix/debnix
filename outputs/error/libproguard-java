@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "debhelper", "default-jdk", "default-jre", "default-jre-headless", "gradle", "java5-runtime", "java5-runtime-headless", "libgoogle-gson-java", "libproguard-java", "libslf4j-java", "maven-repo-helper", "proguard-cli", "proguard-gui"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dhcp-client", "ethtool", "fping", "ifplugd", "iputils-arping", "iputils-ping", "isc-dhcp-client", "net-tools", "netbase", "oops", "pcmcia-cs", "perl", "resolvconf", "squid", "wireless-tools"], or 
-output: 
-[] is empty!

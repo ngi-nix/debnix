@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bsdutils", "debhelper-compat", "fwlogwatch", "iptables", "libdata-validate-ip-perl", "libfile-which-perl", "libnet-ldap-perl", "libnetaddr-ip-perl", "libsocket-perl", "lsb-base", "mailutils", "mailx", "po-debconf"], or 
-output: 
-[] is empty!

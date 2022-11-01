@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "libanyevent-perl", "libcbor-xs-perl", "libevent-perl", "libglib-perl", "libio-socket-ssl-perl", "libjson-xs-perl", "libsereal-perl"], or 
-output: 
-[] is empty!

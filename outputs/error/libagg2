@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "debhelper-compat", "libagg2", "libfreetype6-dev", "libsdl1.2-dev", "libtool", "libx11-dev", "pkg-config"], or 
-output: 
-[] is empty!

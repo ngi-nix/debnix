@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "javahelper", "leiningen", "libbcpkix-java", "libclojure-java", "libcomplete-clojure", "libcompojure-clojure", "libjanino-java", "libjava-jmx-clojure", "libjetty9-extra-java", "libjetty9-java", "libkitchensink-clojure", "libordered-clojure", "libprismatic-schema-clojure", "libpuppetlabs-http-client-clojure", "libpuppetlabs-i18n-clojure", "libring-codec-clojure", "libring-core-clojure", "libring-servlet-clojure", "libservlet-api-java", "libslf4j-java", "libssl-utils-clojure", "libtools-logging-clojure", "libtools-namespace-clojure", "libtrapperkeeper-clojure", "libtrapperkeeper-filesystem-watcher-clojure", "maven-repo-helper"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gir1.2-secret-1", "gnome-keyring", "libkf5wallet-bin", "pybuild-plugin-pyproject", "python3-all", "python3-dbus", "python3-gi", "python3-importlib-metadata", "python3-jaraco.classes", "python3-jeepney", "python3-keyrings.alt", "python3-secretstorage", "python3-setuptools", "python3-setuptools-scm", "python3-toml"], or 
-output: 
-[] is empty!

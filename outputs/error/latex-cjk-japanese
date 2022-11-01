@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "emacsen-common", "fonts-arphic-uming", "latex-cjk-chinese", "latex-cjk-chinese-arphic-bkai00mp", "latex-cjk-chinese-arphic-bsmi00lp", "latex-cjk-chinese-arphic-gbsn00lp", "latex-cjk-chinese-arphic-gkai00mp", "latex-cjk-common", "latex-cjk-japanese", "latex-cjk-japanese-wadalab", "latex-cjk-korean", "latex-cjk-thai", "libkpathsea-dev", "quilt", "tex-common", "texlive-extra-utils", "texlive-font-utils", "texlive-lang-korean", "texlive-lang-other", "texlive-latex-base"], or 
-output: 
-[] is empty!

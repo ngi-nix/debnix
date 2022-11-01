@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "automake", "bison", "debhelper-compat", "docbook-dsssl", "docbook-xml", "docbook-xsl", "gawk", "libgnutls28-dev", "libicu-dev", "libpcap0.8-dev", "libreadline-dev", "libtool", "libwrap0-dev", "libxslt1-dev", "libyaz5", "pkg-config", "tcl", "xsltproc", "yaz-doc"], or 
-output: 
-[] is empty!

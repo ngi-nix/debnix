@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "default-jre-headless", "java8-runtime-headless", "javahelper", "libargs4j-java", "libbuild-helper-maven-plugin-java", "libcodemodel-java", "libdtd-parser-java", "libfastinfoset-java", "libistack-commons-java", "libjaxb-api-java", "libjaxb-java", "libmaven-dependency-plugin-java", "libmaven-javadoc-plugin-java", "librelaxng-datatype-java", "librngom-java", "libtxw2-java", "libxml-commons-resolver1.1-java", "libxsom-java", "maven-debian-helper"], or 
-output: 
-[] is empty!

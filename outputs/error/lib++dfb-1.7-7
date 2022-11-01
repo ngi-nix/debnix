@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "lib++dfb-1.7-7", "libdirectfb-1.7-7", "libdirectfb-extra", "libdrm-dev", "libfreetype6-dev", "libgbm-dev", "libgl1-mesa-dev", "libgles2-mesa-dev", "libjpeg-dev", "libmpeg3-dev", "libpng-dev", "libx11-dev", "libxext-dev", "pkg-config", "x11proto-core-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

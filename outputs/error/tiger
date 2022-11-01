@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["aide", "autoconf", "binutils", "bsdutils", "chkrootkit", "debconf", "debconf-2.0", "debhelper", "debianutils", "default-mta", "john", "lsb-release", "lsof", "lynis", "mail-transport-agent", "net-tools", "po-debconf", "tiger", "tripwire", "ucf"], or 
-output: 
-[] is empty!

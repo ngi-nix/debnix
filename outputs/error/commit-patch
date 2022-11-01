@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bzr", "cvs", "darcs", "debhelper", "emacsen-common", "git", "libipc-run-perl", "mercurial", "monotone", "patch", "patchutils", "perl", "subversion"], or 
-output: 
-[] is empty!

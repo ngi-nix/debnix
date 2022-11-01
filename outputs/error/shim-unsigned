@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dos2unix", "gcc-10", "gnu-efi", "libefivar-dev", "libelf-dev", "openssl", "pesign", "sbsigntool", "xxd"], or 
-output: 
-[] is empty!

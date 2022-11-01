@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["appstream-util", "debhelper-compat", "dh-sequence-gnome", "flex", "gnome-commander", "gnome-commander-data", "libexiv2-dev", "libglib2.0-dev", "libgsf-1-dev", "libgtest-dev", "libgtk2.0-dev", "libpoppler-glib-dev", "libtag1-dev", "meld", "yelp-tools"], or 
-output: 
-[] is empty!

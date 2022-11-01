@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["binutils-multiarch", "cdbs", "cross-config", "debhelper", "dpkg-dev", "fakeroot", "file", "libconfig-auto-perl", "libdebian-dpkgcross-perl", "libfile-homedir-perl", "libfile-temp-perl", "liblocale-gettext-perl"], or 
-output: 
-[] is empty!

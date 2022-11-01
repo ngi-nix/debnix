@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "cmake-extras", "debhelper-compat", "doxygen", "googletest", "graphviz", "libgtest-dev", "libproperties-cpp-doc", "pkg-config", "rdfind", "symlinks"], or 
-output: 
-[] is empty!

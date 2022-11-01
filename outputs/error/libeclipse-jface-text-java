@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "eclipse-debian-helper", "libeclipse-compare-java", "libeclipse-core-commands-java", "libeclipse-core-contenttype-java", "libeclipse-core-expressions-java", "libeclipse-core-filebuffers-java", "libeclipse-core-filesystem-java", "libeclipse-core-jobs-java", "libeclipse-core-resources-java", "libeclipse-core-runtime-java", "libeclipse-jdt-annotation-java", "libeclipse-jface-java", "libeclipse-ltk-core-refactoring-java", "libeclipse-ltk-ui-refactoring-java", "libeclipse-osgi-java", "libeclipse-ui-forms-java", "libeclipse-ui-ide-java", "libeclipse-ui-workbench-java", "libequinox-common-java", "libequinox-preferences-java", "libequinox-registry-java", "libicu4j-java", "libswt-gtk-4-java"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "emacs", "emacs-nox", "emacs-snapshot", "emacs22", "emacs23", "emacs24", "emacs25", "emacsen-common", "fonts-dejavu", "fonts-freefont-ttf", "fonts-horai-umefont", "fonts-japanese-gothic", "fonts-japanese-mincho", "fonts-kiloji", "fonts-liberation", "fonts-monapo", "fonts-motoya-l-maruberi", "fonts-noto-cjk", "fonts-yusei-magic", "ghostscript", "imagemagick", "netpbm"], or 
-output: 
-[] is empty!

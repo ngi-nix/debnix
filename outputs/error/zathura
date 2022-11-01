@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["appstream-util", "check", "debhelper-compat", "desktop-file-utils", "gettext", "libcairo2-dev", "libgirara-dev", "libglib2.0-dev", "libgtk-3-dev", "libmagic-dev", "librsvg2-bin", "libseccomp-dev", "libset-scalar-perl", "libsqlite3-dev", "libsynctex-dev", "meson", "pkg-config", "python3-sphinx", "www-browser", "xauth", "xvfb", "zathura-cb", "zathura-djvu", "zathura-pdf-poppler", "zathura-ps"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper-compat", "dh-apparmor", "dpkg-dev", "game-data-packager", "kdialog", "libcurl4-gnutls-dev", "libfreetype6-dev", "libjpeg-dev", "libogg-dev", "libopenal-dev", "libopus-dev", "libopusfile-dev", "libsdl2-dev", "libvorbis-dev", "lsb-base", "rtcw-common", "rtcw-data", "x11-utils", "zenity"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "extra-cmake-modules", "gettext", "gstreamer1.0-libav", "gstreamer1.0-plugins-base", "gstreamer1.0-plugins-good", "gstreamer1.0-plugins-ugly", "gstreamer1.0-pulseaudio", "gstreamer1.0-x", "kde-telepathy", "kde-telepathy-data", "libkf5config-dev", "libkf5declarative-dev", "libkf5i18n-dev", "libkf5iconthemes-dev", "libkf5kcmutils-dev", "libkf5notifications-dev", "libkf5wallet-dev", "libkf5xmlgui-dev", "libktp-dev", "libphonon4qt5-dev", "libphonon4qt5experimental-dev", "libqt5gstreamer-dev", "libtelepathy-farstream-dev", "libtelepathy-logger-qt-dev", "libtelepathy-qt5-dev", "pkg-config", "pkg-kde-tools", "pulseaudio", "qml-module-org-kde-telepathy", "qml-module-qtgstreamer", "qtdeclarative5-dev"], or 
-output: 
-[] is empty!

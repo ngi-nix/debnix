@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "doc-base", "gcc-multilib", "grub-common", "grub-legacy-doc", "help2man", "libncurses-dev", "libncurses5-dev", "mdadm", "multiboot", "texinfo"], or 
-output: 
-[] is empty!

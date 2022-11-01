@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "docbook-xml", "gconf-defaults-service", "gettext", "gnome-common", "gnome-doc-utils", "intltool", "libgconf2-dev", "libgtk-3-dev", "pkg-config", "policykit-1-gnome", "polkit-1-auth-agent"], or 
-output: 
-[] is empty!

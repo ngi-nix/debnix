@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "dh-sequence-python3", "gir1.2-zbar-1.0", "gobject-introspection", "libdbus-1-dev", "libgirepository1.0-dev", "libgtk-3-dev", "libjpeg-dev", "libmagick++-dev", "libmagickcore-6.q16-6-extra", "libqt5x11extras5-dev", "libv4l-dev", "libx11-dev", "libzbar-dev", "libzbar0", "libzbargtk0", "libzbarqt0", "perl", "pkg-config", "python3-dev:any", "qtbase5-dev", "xmlto", "zbarcam-gtk", "zbarcam-qt"], or 
-output: 
-[] is empty!

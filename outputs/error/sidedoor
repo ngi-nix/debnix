@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "debhelper", "dh-systemd", "lsb-base", "openssh-client", "openssh-server", "sidedoor", "sidedoor-sudo", "sudo", "ucf"], or 
-output: 
-[] is empty!

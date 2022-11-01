@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bison", "bison++", "check", "chrpath", "cmake", "debhelper-compat", "ethtool", "ettercap-common", "ettercap-graphical", "ettercap-text-only", "flex", "geoip-database", "groff", "libbsd-dev", "libcurl4-openssl-dev", "libgeoip-dev", "libgtk-3-dev", "libltdl-dev", "libluajit-5.1-dev", "libncurses5-dev", "libnet1-dev", "libpcap-dev", "libpcre3-dev", "libssl-dev", "policykit-1"], or 
-output: 
-[] is empty!

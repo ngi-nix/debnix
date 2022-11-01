@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "doxygen", "gettext", "jdupes", "libawl-php", "libdbd-pg-perl", "libyaml-perl", "php", "php-cli", "php-curl", "php-ldap", "php-pgsql", "php-xml", "php5", "php5-cli", "php5-curl", "php5-ldap", "php5-pgsql", "postgresql", "postgresql-client"], or 
-output: 
-[] is empty!

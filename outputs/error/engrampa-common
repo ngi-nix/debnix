@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["arj", "binutils", "bzip2", "cpio", "debhelper-compat", "dpkg-dev", "engrampa-common", "gettext", "gvfs", "gzip", "intltool", "lha", "libcaja-extension-dev", "libglib2.0-dev", "libgtk-3-dev", "libjson-glib-dev", "libmagic-dev", "lzip", "lzma", "lzop", "mate-common", "mate-submodules-source", "ncompress", "p7zip-full", "p7zip-rar", "rar", "rpm2cpio", "rzip", "sharutils", "tar", "unace", "unalz", "unar", "unrar", "unzip", "xz-utils", "yelp-tools", "zip", "zoo"], or 
-output: 
-[] is empty!

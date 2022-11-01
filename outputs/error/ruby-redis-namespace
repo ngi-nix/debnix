@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gem2deb", "procps", "redis-server", "ruby-redis", "ruby-rspec", "ruby-rspec-its"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "grunt", "javascript-common", "node-grunt-cli", "node-grunt-contrib-concat", "node-grunt-contrib-copy", "node-grunt-contrib-uglify"], or 
-output: 
-[] is empty!

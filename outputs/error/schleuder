@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "cron", "cron-daemon", "debhelper-compat", "default-mta", "dirmngr", "gem2deb", "lsb-base", "mail-transport-agent", "postfix", "procps", "rake", "ruby", "ruby-activerecord", "ruby-bcrypt", "ruby-charlock-holmes", "ruby-database-cleaner", "ruby-factory-bot", "ruby-gpgme", "ruby-mail", "ruby-mail-gpg", "ruby-rack-test", "ruby-rspec", "ruby-sinatra", "ruby-sinatra-contrib", "ruby-sqlite3", "ruby-thor", "schleuder-cli", "thin"], or 
-output: 
-[] is empty!

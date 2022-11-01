@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["3270-common", "debhelper-compat", "imagemagick", "libexpat1-dev", "libncursesw5-dev", "libssl-dev", "libxaw7-dev", "libxt-dev", "s3270", "tcl", "tcl-dev", "xbitmaps", "xfonts-utils", "xfonts-x3270-misc", "xutils-dev"], or 
-output: 
-[] is empty!

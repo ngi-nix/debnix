@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debconf", "debhelper-compat", "dmidecode", "e2fsprogs", "fdisk", "hdparm", "libcrypt-ssleay-perl", "libio-socket-ssl-perl", "liblwp-protocol-https-perl", "libnet-cups-perl", "libnet-ip-perl", "libnet-netmask-perl", "libnet-snmp-perl", "libnmap-parser-perl", "libparse-edid-perl", "libproc-daemon-perl", "libwww-perl", "libxml-simple-perl", "nmap", "pciutils", "perl", "perl-xs-dev", "perl:native", "po-debconf", "read-edid", "smartmontools", "ucf", "util-linux"], or 
-output: 
-[] is empty!

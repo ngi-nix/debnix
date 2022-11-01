@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["analitza-common", "cmake", "debhelper-compat", "extra-cmake-modules", "libeigen3-dev", "libglew-dev", "libqt5opengl5-dev", "libqt5svg5-dev", "pkg-config", "pkg-kde-tools", "qml-module-org-kde-analitza", "qml-module-qtquick-controls", "qml-module-qtquick-layouts", "qml-module-qtquick2", "qtbase5-dev", "qtdeclarative5-dev", "qttools5-dev", "qttools5-dev-tools", "xauth", "xvfb"], or 
-output: 
-[] is empty!

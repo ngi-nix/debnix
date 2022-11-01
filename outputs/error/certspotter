@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "golang-any", "golang-github-mreiferson-go-httpclient-dev", "golang-golang-x-net-dev"], or 
-output: 
-[] is empty!

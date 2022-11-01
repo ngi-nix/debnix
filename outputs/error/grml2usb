@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoc", "black", "debhelper-compat", "docbook-xsl", "flake8", "genisoimage", "grub-pc-bin", "grub2-common", "isolinux", "isort", "kmod", "mtools", "python3", "python3-parted", "rsync", "syslinux", "syslinux-utils", "vulture", "xorriso", "xsltproc"], or 
-output: 
-[] is empty!

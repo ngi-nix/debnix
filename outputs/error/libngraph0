@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash-completion", "debhelper-compat", "fonts-liberation", "libgsl-dev", "libgtk-3-dev", "libgtksourceview-4-dev", "libngraph0", "libreadline-dev", "ngraph-gtk", "ngraph-gtk-addin-import-ps", "ngraph-gtk-addins", "ngraph-gtk-addins-base", "ngraph-gtk-doc", "ngraph-gtk-plugin-ruby", "pstoedit", "raspell", "ruby", "ruby-dev", "ruby-interpreter", "ruby-ngraph", "ruby:native", "texlive-latex-base"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "kexec-tools", "menu", "po-debconf", "psmisc", "sudo", "x-terminal-emulator", "xterm"], or 
-output: 
-[] is empty!

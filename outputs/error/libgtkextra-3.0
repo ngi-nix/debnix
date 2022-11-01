@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-autoreconf", "docbook-to-man", "docbook-utils", "docbook-xsl", "gobject-introspection", "gtk-doc-tools", "libatk1.0-dev", "libcairo2-dev", "libglib2.0-dev", "libgtk2.0-dev", "libgtkextra-3.0", "libgtkextra-3.0-doc", "libjpeg-dev", "libpango1.0-dev", "libpng-dev", "libtiff5-dev", "openjade", "sgmlspl", "tex-common", "texlive", "texlive-formats-extra", "tipa"], or 
-output: 
-[] is empty!

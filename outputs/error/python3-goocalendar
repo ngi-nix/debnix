@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gir1.2-goocanvas-2.0", "gir1.2-gtk-3.0", "libcanberra-gtk3-module", "python3", "python3-gi-cairo", "python3-pkg-resources", "python3-setuptools", "python3-sphinx"], or 
-output: 
-[] is empty!

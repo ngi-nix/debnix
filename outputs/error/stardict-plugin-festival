@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["babiloo", "bsdmainutils", "debhelper-compat", "dictzip", "docbook-xml", "festival-dev", "festival-voice", "festvox-us-slt-hts", "flite1-dev", "fonts-arphic-uming", "fonts-freefont-ttf", "fortune-mod", "fortunes-min", "gnome-common", "goldendict", "info", "intltool", "libcanberra-gtk3-dev", "libenchant-2-dev", "libenchant-dev", "libespeak-dev", "libespeak-ng-dev", "libestools-dev", "libgtk-3-dev", "libgucharmap-2-90-dev", "libjson-glib-dev", "libmariadb-dev", "libpcre3-dev", "libsigc++-2.0-dev", "libtool", "libx11-dev", "libxml-parser-perl", "libxml2-dev", "man-db", "ncal", "python3", "qstardict", "sgml-data", "sharutils", "stardict", "stardict-common", "stardict-czech", "stardict-english-czech", "stardict-german-czech", "stardict-gtk", "stardict-plugin", "stardict-plugin-cal", "stardict-plugin-espeak", "stardict-plugin-festival", "stardict-plugin-fortune", "stardict-plugin-info", "stardict-plugin-spell", "stardict-xmlittre", "x11proto-core-dev", "xauth", "xvfb", "yelp-tools", "zlib1g-dev"], or 
-output: 
-[] is empty!

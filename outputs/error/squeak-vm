@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "cdbs", "cmake", "debhelper", "etoys", "gettext-base", "kdialog", "libasound2-dev", "libaudio-dev", "libcairo2-dev", "libdbus-1-dev", "libffi-dev", "libfreetype6-dev", "libgl1-mesa-dev", "libjpeg-dev", "libpango1.0-dev", "libpcre3-dev", "libpulse-dev", "libspeex-dev", "libvorbis-dev", "libxrender-dev", "libxt-dev", "libxtst-dev", "scratch", "sharutils", "uuid-dev", "whiptail", "x-terminal-emulator", "xterm", "zenity"], or 
-output: 
-[] is empty!

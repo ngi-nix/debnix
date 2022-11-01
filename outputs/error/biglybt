@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["biglybt", "biglybtd", "debhelper-compat", "default-jdk", "libbcprov-java", "libcommons-cli-java", "libswt-cairo-gtk-4-jni", "libswt-gtk-4-java", "libswt-webkit-gtk-4-jni", "maven-debian-helper", "sudo", "systemd", "xauth"], or 
-output: 
-[] is empty!

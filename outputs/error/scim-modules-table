@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "debhelper", "dpkg-dev", "fonts-arphic-bkai00mp", "fonts-arphic-bsmi00lp", "fonts-arphic-gbsn00lp", "fonts-arphic-gkai00mp", "gettext", "intltool", "libscim-dev", "libtool", "pkg-config", "scim", "scim-modules-table", "scim-tables-additional", "scim-tables-ja", "scim-tables-ko", "scim-tables-zh", "sharutils"], or 
-output: 
-[] is empty!

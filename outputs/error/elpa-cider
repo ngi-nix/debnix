@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cider-doc", "debhelper", "dh-elpa", "elpa-buttercup", "elpa-cider", "elpa-clojure-mode", "elpa-pkg-info", "elpa-queue", "elpa-sesman", "elpa-spinner", "emacs", "gradle", "leiningen", "mkdocs"], or 
-output: 
-[] is empty!

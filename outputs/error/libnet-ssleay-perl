@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-perl-openssl", "libscalar-list-utils-perl", "libsocket-perl", "libssl-dev", "libtest-pod-perl", "libtest-simple-perl", "openssl", "perl-openssl-defaults", "perl-xs-dev", "perl:native"], or 
-output: 
-[] is empty!

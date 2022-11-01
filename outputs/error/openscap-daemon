@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["dbus", "debhelper", "dh-python", "docker", "libopenscap8", "lsb-base", "openssh-client", "python3", "python3-dbus", "python3-distutils", "python3-docker", "python3-gi", "python3-lxml", "ssg-applications", "ssg-base", "ssg-debderived", "ssg-debian", "ssg-nondebian"], or 
-output: 
-[] is empty!

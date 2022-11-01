@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autotools-dev", "cdbs", "debhelper", "dh-autoreconf", "dh-buildinfo", "dpkg-dev", "gnulib", "gtk-doc-tools", "libc6-dev", "libiptcdata-doc", "libiptcdata0", "licensecheck", "pkg-config"], or 
-output: 
-[] is empty!

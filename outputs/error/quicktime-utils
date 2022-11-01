@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "doxygen", "libasound2-dev", "libavc1394-dev", "libdv4-dev", "libfaad-dev", "libgl-dev", "libgl1-mesa-dev", "libgtk2.0-dev", "libjpeg-dev", "libjs-jquery", "libmp3lame-dev", "libpng-dev", "libpopt-dev", "libquicktime-dev", "libquicktime-doc", "libquicktime2", "libraw1394-dev", "libsdl1.2-dev", "libvorbis-dev", "libx264-dev", "libxaw7-dev", "libxv-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

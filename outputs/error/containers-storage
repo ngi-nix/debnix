@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-golang", "ffjson", "go-md2man", "golang-github-burntsushi-toml-dev", "golang-github-containerd-stargz-snapshotter-dev", "golang-github-datadog-zstd-dev", "golang-github-docker-go-units-dev", "golang-github-google-go-intervals-dev", "golang-github-gotestyourself-gotest.tools-dev", "golang-github-hashicorp-go-multierror-dev", "golang-github-json-iterator-go-dev", "golang-github-klauspost-pgzip-dev", "golang-github-mattn-go-shellwords-dev", "golang-github-moby-sys-dev", "golang-github-opencontainers-go-digest-dev", "golang-github-opencontainers-runc-dev", "golang-github-opencontainers-selinux-dev", "golang-github-opencontainers-specs-dev", "golang-github-pkg-errors-dev", "golang-github-pquerna-ffjson-dev", "golang-github-sirupsen-logrus-dev", "golang-github-stretchr-testify-dev", "golang-github-ulikunitz-xz-dev", "golang-github-vbatts-tar-split-dev", "golang-go", "golang-go-patricia-dev", "golang-go-zfs-dev", "golang-gocapability-dev", "golang-golang-x-net-dev", "golang-golang-x-sys-dev", "libbtrfs-dev", "libdevmapper-dev"], or 
-output: 
-[] is empty!

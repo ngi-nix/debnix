@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["apt", "debhelper", "debhelper-compat", "gem2deb", "reportbug", "ruby-debian", "ruby-gettext", "ruby-httpclient", "ruby-soap4r", "ruby-unicode", "ruby-xmlparser", "ruby:any", "sensible-utils", "w3m", "www-browser", "xdg-utils"], or 
-output: 
-[] is empty!

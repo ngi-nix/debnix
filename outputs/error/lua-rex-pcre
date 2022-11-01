@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-lua", "libonig-dev", "libpcre2-dev", "libtre-dev", "lua-rex-gnu", "lua-rex-onig", "lua-rex-pcre2", "lua-rex-posix", "lua-rex-tre"], or 
-output: 
-[] is empty!

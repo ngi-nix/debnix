@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bumblebee", "debhelper-compat", "libgl1", "libglapi-mesa", "libglx-mesa0", "libprimus-vk1", "mesa-common-dev", "nvidia-primus-vk-wrapper", "primus", "primus-libs", "primus-libs:i386", "primus-nvidia", "xserver-xorg-core", "xserver-xorg-video-intel"], or 
-output: 
-[] is empty!

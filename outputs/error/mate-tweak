@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ayatana-indicator-application", "ayatana-indicator-datetime", "ayatana-indicator-messages", "ayatana-indicator-power", "ayatana-indicator-session", "ayatana-indicator-sound", "dconf-cli", "debhelper-compat", "dh-python", "gir1.2-gtk-3.0", "gir1.2-notify-0.7", "indicator-application", "indicator-datetime", "indicator-messages", "indicator-power", "indicator-session", "indicator-sound", "mate-indicator-applet", "mate-panel", "mesa-utils", "picom", "python3", "python3-distro", "python3-distutils-extra", "python3-gi", "python3-psutil", "python3-setproctitle", "python3-setuptools", "x11-xserver-utils"], or 
-output: 
-[] is empty!

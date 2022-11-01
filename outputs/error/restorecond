@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libglib2.0-dev", "libselinux1-dev", "lsb-base", "pkg-config", "selinux-utils"], or 
-output: 
-[] is empty!

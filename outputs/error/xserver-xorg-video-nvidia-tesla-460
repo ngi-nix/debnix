@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["-alternative", "-alternative--kmod-alias", "-driver", "debhelper-compat", "dh-exec", "dh-sequence-dkms", "glx-alternative-nvidia", "lib-cbl", "lib-compiler", "lib-eglcore", "lib-glvkspirv", "lib-ml1", "lib-ptxjitcompiler1", "lib-rtcore", "libegl-0", "libegl1", "libegl1-glvnd-nvidia", "libgl1", "libgl1-glvnd-nvidia-glx", "libgles1", "libgles1-glvnd-nvidia", "libgles2", "libgles2-glvnd-nvidia", "libglvnd-dev", "libglx-0", "libglx0", "libglx0-glvnd-nvidia", "libnvidia-tesla-470-cfg1", "libnvidia-tesla-470-cuda1", "libopencl1", "libvdpau1", "libvulkan1", "libxext6", "nvidia-egl-common", "nvidia-kernel-common", "nvidia-libopencl1", "nvidia-modprobe", "nvidia-opencl-common", "nvidia-support", "nvidia-tesla-470-driver", "nvidia-tesla-470-driver-libs", "nvidia-tesla-470-kernel-dkms", "nvidia-tesla-470-kernel-source", "nvidia-tesla-470-smi", "nvidia-vulkan-common", "ocl-icd-libopencl1", "po-debconf", "quilt", "vulkan-utils", "xserver-xorg-video-nvidia-tesla-470", "xz-utils"], or 
-output: 
-[] is empty!

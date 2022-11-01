@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["capnproto", "cmake", "darts", "debhelper-compat", "libboost-dev", "libboost-filesystem-dev", "libboost-locale-dev", "libboost-regex-dev", "libboost-system-dev", "libboost-thread-dev", "libcapnp-dev", "libgoogle-glog-dev", "libleveldb-dev", "liblua5.4-dev", "libmarisa-dev", "libopencc-dev", "librime-bin", "librime-data", "librime-plugin-charcode", "librime-plugin-lua", "librime-plugin-octagram", "librime1", "libxcb-keysyms1-dev", "libyaml-cpp-dev", "pkg-config", "x11proto-core-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

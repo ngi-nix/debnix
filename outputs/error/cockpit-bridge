@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "appstream", "cockpit-bridge", "cockpit-doc", "cockpit-networkmanager", "cockpit-packagekit", "cockpit-pcp", "cockpit-sosreport", "cockpit-storaged", "cockpit-system", "cockpit-ws", "debhelper", "docbook-xsl", "dpkg-dev", "gettext", "glib-networking", "gnutls-dev", "libblockdev-mdraid2", "libglib2.0-dev", "libgnutls28-dev", "libjson-glib-dev", "libkrb5-dev", "libpam0g-dev", "libpcp-import1-dev", "libpcp-pmda3-dev", "libpcp3-dev", "libpolkit-agent-1-dev", "libpwquality-tools", "libssh-dev", "libsystemd-dev", "libxslt1-dev", "network-manager", "openssh-client", "openssl", "packagekit", "pcp", "policykit-1", "python3", "python3-dbus", "sosreport", "sssd-dbus", "sudo", "systemd", "udisks2", "udisks2-lvm2", "xdg-utils", "xmlto", "xsltproc", "zlib1g-dev"], or 
-output: 
-[] is empty!

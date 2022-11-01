@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["calibre", "cjk-latex", "debhelper", "evince", "fcgiwrap", "graphicsmagick", "httpd", "imagemagick", "keychain", "lsh-client", "lv", "openssh-client", "openssl", "pdf-viewer", "pinfo", "po4a", "poedit", "postgresql", "postgresql-contrib", "qrencode", "rake", "rsync", "ruby", "ruby-fcgi", "ruby-interpreter", "ruby-pg", "ruby-rmagick", "ruby-sqlite3", "ruby-thor", "sisu", "sisu-markup-samples", "sisu-pdf", "sisu-postgresql", "sisu-sqlite", "sqlite3", "tex-common", "texinfo", "texlive-base", "texlive-binaries", "texlive-lang-chinese", "texlive-lang-cjk", "texlive-lang-japanese", "texlive-lang-korean", "texlive-latex-base", "texlive-latex-extra", "texlive-latex-recommended", "texlive-pictures", "texlive-plain-generic", "texlive-xetex", "tidy", "trang", "tree", "unzip", "vim-addon-manager", "xz-utils", "zip"], or 
-output: 
-[] is empty!

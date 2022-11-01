@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "fbterm", "fcitx-bin", "fcitx-data", "fcitx-googlepinyin", "fcitx-libs-dev", "fcitx-modules", "fcitx-pinyin", "fcitx-sunpinyin", "fcitx-table-wbpy", "fcitx-table-wubi", "fcitx-tools", "gettext", "libdbus-glib-1-dev"], or 
-output: 
-[] is empty!

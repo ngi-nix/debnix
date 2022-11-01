@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["autoconf", "debhelper", "dh-autoreconf", "fakeroot", "gettext", "libltdl-dev", "libpcre3-dev", "libtool", "tidy"], or 
-output: 
-[] is empty!

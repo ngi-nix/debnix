@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "feathernotes-l10n", "libglib2.0-bin", "libqt5svg5-dev", "libqt5x11extras5-dev", "libx11-dev", "libxext-dev", "qt5-qmake", "qtbase5-dev", "qttools5-dev", "qttools5-dev-tools", "qttranslations5-l10n"], or 
-output: 
-[] is empty!

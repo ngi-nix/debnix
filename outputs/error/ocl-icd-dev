@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoc", "autoconf", "automake", "debhelper-compat", "faketime", "libgl-dev", "libtool", "ocl-icd-libopencl1", "opencl-c-headers", "opencl-clhpp-headers", "opencl-headers", "opencl-icd", "ruby:any", "xmlto"], or 
-output: 
-[] is empty!

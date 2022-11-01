@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dh-autoreconf", "dpkg-dev", "libboost-dev", "libcppunit-dev", "librevenge-dev", "libwpd-0.10-10", "pkg-config", "www-browser", "zlib1g-dev"], or 
-output: 
-[] is empty!

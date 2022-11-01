@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "dh-autoreconf", "ident-server", "librsvg2-common", "notification-daemon", "oidentd", "smuxi-engine", "smuxi-frontend-gnome", "ssh-askpass", "ssh-askpass-gnome"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["anacron", "cabextract", "clamav", "clamav-data", "clamav-freshclam", "clamtk", "clamtk-gnome", "cron", "cron-daemon", "debhelper-compat", "gnome-icon-theme", "libgtk3-perl", "libjson-perl", "liblocale-gettext-perl", "liblwp-protocol-https-perl", "libtext-csv-perl", "libwww-perl", "python3", "python3-gi", "python3-nautilus"], or 
-output: 
-[] is empty!

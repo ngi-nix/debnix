@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cabal-install", "debhelper-compat", "dh-elpa", "elpa-haskell-mode", "emacs", "emacs-snapshot", "emacs24", "emacs25", "ghc", "haskell-stack", "install-info", "stylish-haskell", "texinfo"], or 
-output: 
-[] is empty!

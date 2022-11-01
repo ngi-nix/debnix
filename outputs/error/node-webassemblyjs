@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "eslint", "jest", "mocha", "node-babel7", "node-debbundle-es-to-primitive", "node-define-properties", "node-es-abstract", "node-estraverse", "node-function-bind", "node-glob", "node-jest-diff", "node-object-inspect"], or 
-output: 
-[] is empty!

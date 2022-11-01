@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-cli", "dh-sequence-gnome", "intltool", "itstool", "libcanberra-gtk3-0", "libgtk3.0-cil-dev", "librsvg2-dev", "yelp-tools"], or 
-output: 
-[] is empty!

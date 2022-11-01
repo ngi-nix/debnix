@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ant", "cssmin", "debhelper-compat", "dh-sequence-phpcomposer", "libjs-bootstrap4", "libjs-d3", "libjs-jquery", "minify", "php-parser", "php-pcov", "php-tokenizer", "php-xdebug", "phpab", "phpunit", "phpunit-code-unit-reverse-lookup", "phpunit-complexity", "phpunit-lines-of-code", "pkg-php-tools"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["chai", "debhelper-compat", "dh-sequence-nodejs", "grunt", "help2man", "jison", "node-babel-loader", "node-babel-plugin-add-module-exports", "node-babel7", "node-grunt-babel", "node-grunt-contrib-clean", "node-grunt-contrib-concat", "node-grunt-contrib-copy", "node-grunt-contrib-requirejs", "node-grunt-contrib-uglify", "node-grunt-webpack", "node-neo-async", "node-optimist", "node-source-map", "node-wordwrap", "node-xml2js", "nodejs", "webpack"], or 
-output: 
-[] is empty!

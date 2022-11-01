@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "fonts-dejavu-core", "libasound2-dev", "libavcodec-dev", "libavdevice-dev", "libavformat-dev", "libavutil-dev", "libdrm-dev", "libegl1-mesa-dev", "libfreetype6-dev", "libgbm-dev", "libglm-dev", "libjack-jackd2-dev", "libminiupnpc-dev", "libopenal-dev", "libpulse-dev", "libretro-core-info", "libsdl2-dev", "libswscale-dev", "libudev-dev", "libusb-1.0-0-dev", "libv4l-dev", "libvulkan-dev", "libx11-xcb-dev", "libxinerama-dev", "libxml2-dev", "libxv-dev", "libxxf86vm-dev", "pkg-config", "python3-dev", "qtbase5-dev", "retroarch-assets", "x11proto-xext-dev", "zlib1g-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["coffeescript", "debhelper-compat", "dh-sequence-nodejs", "help2man", "javascript-common", "jison", "libjs-coffeescript", "libjs-jquery", "libjs-underscore", "node-babel7", "node-underscore", "nodejs:any", "uglifyjs"], or 
-output: 
-[] is empty!

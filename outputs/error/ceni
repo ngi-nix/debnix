@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "ifupdown", "libcurses-ui-perl", "libexpect-perl", "libterm-readkey-perl", "perl", "resolvconf", "wpagui", "wpasupplicant"], or 
-output: 
-[] is empty!

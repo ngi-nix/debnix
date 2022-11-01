@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-mta", "dh-golang", "git", "git-buildpackage", "golang-any", "golang-github-charmbracelet-glamour-dev", "golang-github-google-go-github-dev", "golang-github-gregjones-httpcache-dev", "golang-github-mattn-go-isatty-dev", "golang-golang-x-net-dev", "golang-golang-x-sync-dev", "golang-golang-x-tools", "golang-golang-x-tools-dev", "golang-pault-go-debian-dev", "mail-transport-agent", "pandoc", "pristine-tar"], or 
-output: 
-[] is empty!

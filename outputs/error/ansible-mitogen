@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["ansible", "ansible-core", "debhelper-compat", "dh-python", "python3-all", "python3-mitogen", "python3-mock", "python3-psutil", "python3-setuptools"], or 
-output: 
-[] is empty!

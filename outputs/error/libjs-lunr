@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["brotli", "debhelper-compat", "javascript-common", "libjs-es5-shim", "libjs-lunr", "mocha", "node-chai", "node-source-map", "nodejs:any", "pandoc", "pigz", "uglifyjs"], or 
-output: 
-[] is empty!

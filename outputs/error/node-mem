@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "node-mimic-fn", "node-rollup-plugin-node-resolve", "node-serialize-javascript", "node-tape", "node-types-tape", "node-typescript", "rollup", "terser"], or 
-output: 
-[] is empty!

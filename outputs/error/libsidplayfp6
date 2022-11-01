@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "doxygen", "libftdi1-dev", "libgcrypt20-dev", "libjs-jquery", "libsidplayfp-dev", "libsidplayfp6", "libstilview0", "pkg-config", "sidplayfp", "stilview"], or 
-output: 
-[] is empty!

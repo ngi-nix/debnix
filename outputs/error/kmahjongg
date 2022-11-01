@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cmake", "debhelper-compat", "extra-cmake-modules", "gettext", "kdegames-mahjongg-data-kf5", "khelpcenter", "libkf5config-dev", "libkf5coreaddons-dev", "libkf5crash-dev", "libkf5dbusaddons-dev", "libkf5declarative-dev", "libkf5doctools-dev", "libkf5kdegames-dev", "libkf5kmahjongglib-dev", "libkf5newstuff-dev", "libkf5xmlgui-dev", "libqt5svg5-dev", "pkg-kde-tools", "qtbase5-dev"], or 
-output: 
-[] is empty!

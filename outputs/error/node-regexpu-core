@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "mocha", "node-jsesc", "node-lodash", "node-regenerate", "node-regenerate-unicode-properties", "node-regjsgen", "node-regjsparser", "node-unicode-15.0.0", "node-unicode-match-property-ecmascript", "node-unicode-match-property-value-ecmascript"], or 
-output: 
-[] is empty!

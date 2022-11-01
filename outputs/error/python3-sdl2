@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "dia", "fonts-tuffy", "imagemagick", "libgl1", "libgl1-mesa-dri", "libgl1-mesa-glx", "librsvg2-bin", "libsdl2-2.0-0", "libsdl2-gfx-1.0-0", "libsdl2-image-2.0-0", "libsdl2-mixer-2.0-0", "libsdl2-ttf-2.0-0", "pysdl2-doc", "python3-all", "python3-numpy", "python3-pil", "python3-pytest", "python3-setuptools", "python3-sphinx", "python3-sphinx-rtd-theme", "python3-wand"], or 
-output: 
-[] is empty!

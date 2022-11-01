@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-strip-nondeterminism", "libconfig-model-perl", "libfile-homedir-perl", "liblist-moreutils-perl", "liblog-log4perl-perl", "libmodule-build-perl", "libpath-tiny-perl", "libpod-pom-perl", "libtext-diff-perl", "libtk-dirselect-perl", "libtk-doubleclick-perl", "libtk-fontdialog-perl", "libtk-objscanner-perl", "libtk-pod-perl", "libtry-tiny-perl", "libyaml-perl", "perl", "perl-tk", "xauth", "xvfb"], or 
-output: 
-[] is empty!

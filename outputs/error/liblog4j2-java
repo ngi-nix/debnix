@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "default-jdk", "groovy", "libapache-pom-java", "libbsh-java", "libbuild-helper-maven-plugin-java", "libcommons-compress-java", "libcommons-csv-java", "libcommons-lang3-java", "libcommons-logging-java", "libconversant-disruptor-java", "libdisruptor-java", "libgeronimo-jms-1.1-spec-java", "libgeronimo-jpa-2.0-spec-java", "libjackson2-annotations-java", "libjackson2-databind-java", "libjackson2-dataformat-xml-java", "libjackson2-dataformat-yaml", "libjackson2-module-jaxb-annotations-java", "libjansi-java", "libjcommander-java", "libjctools-java", "libjeromq-java", "liblightcouch-java", "libmail-java", "libmaven-assembly-plugin-java", "libmaven-bundle-plugin-java", "libmaven-dependency-plugin-java", "libmaven-exec-plugin-java", "libmaven-install-plugin-java", "libmaven-source-plugin-java", "libmongodb-java", "libnetty-java", "libosgi-core-java", "libservlet3.1-java", "libslf4j-java", "libwoodstox-java", "maven-debian-helper"], or 
-output: 
-[] is empty!

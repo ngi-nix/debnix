@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper", "default-jdk", "default-jdk-doc", "javahelper", "junit4", "libcommons-beanutils-java", "libcommons-beanutils-java-doc", "libcommons-codec-java", "libcommons-codec-java-doc", "libcommons-collections3-java", "libcommons-collections3-java-doc", "libcommons-configuration-java", "libcommons-dbcp-java", "libcommons-dbcp-java-doc", "libcommons-digester-java", "libcommons-digester-java-doc", "libcommons-jexl2-java", "libcommons-jxpath-java", "libcommons-jxpath-java-doc", "libcommons-lang-java", "libcommons-lang-java-doc", "libcommons-logging-java", "libcommons-logging-java-doc", "libcommons-pool-java", "libcommons-vfs-java", "libcommons-vfs-java-doc", "libeasymock-java", "libjavacc-maven-plugin-java", "libmail-java", "libmaven-javadoc-plugin-java", "libservlet3.1-java", "maven-debian-helper"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "git", "python3-all", "python3-click", "python3-mock", "python3-pkg-resources", "python3-pytest", "python3-setuptools", "python3-yaml"], or 
-output: 
-[] is empty!

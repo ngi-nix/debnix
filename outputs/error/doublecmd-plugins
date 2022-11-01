@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "desktop-file-utils", "doublecmd-common", "doublecmd-gtk", "doublecmd-help", "doublecmd-help-en", "doublecmd-plugins", "doublecmd-qt", "fp-units-misc", "fp-units-net", "lcl-gtk2", "lcl-qt5", "lcl-units", "lcl-utils", "libbz2-dev", "libdbus-1-dev", "libffmpegthumbnailer4v5", "libglib2.0-dev", "libgtk2.0-dev", "libqt5pas-dev", "libunrar5", "mplayer", "rabbitvcs-core", "x-terminal-emulator", "xterm"], or 
-output: 
-[] is empty!

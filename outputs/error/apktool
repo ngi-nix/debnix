@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["aapt", "android-framework-res", "antlr3", "debhelper-compat", "default-jdk", "default-jre-headless", "gradle-debian-helper", "java8-runtime-headless", "junit4", "libantlr3-runtime-java", "libcommons-cli-java", "libcommons-io-java", "libcommons-lang3-java", "libcommons-text-java", "libguava-java", "libjgit-java", "libsmali-java", "libstringtemplate-java", "libxmlunit-java", "libxpp3-java", "libyaml-snake-java", "proguard-cli"], or 
-output: 
-[] is empty!

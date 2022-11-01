@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["asciidoctor", "cdbs", "cmake", "debhelper", "dejagnu", "doxygen", "dpkg-dev", "gnupg", "gnupg2", "graphviz", "libboost-dev", "libboost-program-options-dev", "libboost-test-dev", "libboost-thread-dev", "libcurl4-openssl-dev", "libexpat-dev", "libfcgi-dev", "libglib2.0-dev", "libgpgme-dev", "libjs-jquery", "libpopt-dev", "libproxy-dev", "librpm-dev", "libsigc++-2.0-dev", "libsolv-dev", "libsolv-tools", "libssl-dev", "libudev-dev", "libxml2-dev", "libyaml-cpp-dev", "libzypp-bin", "libzypp-common", "libzypp-config", "libzypp-dev", "libzypp-doc", "libzypp1722", "logrotate", "lsof", "nginx", "pkg-config", "rpm", "ruby"], or 
-output: 
-[] is empty!

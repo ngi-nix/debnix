@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gir1.2-gst-plugins-base-1.0", "gstreamer1.0-alsa", "gstreamer1.0-plugins-good", "gstreamer1.0-x", "python3", "python3-gi", "python3-usb"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-phpcomposer", "jq", "php-intl", "php-psr-cache", "php-psr-container", "php-psr-event-dispatcher", "phpab", "phpunit"], or 
-output: 
-[] is empty!

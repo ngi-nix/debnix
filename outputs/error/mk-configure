@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bmake", "debhelper-compat", "ghostscript", "graphviz", "pkg-config", "pkgconf", "texlive-fonts-recommended", "texlive-latex-extra", "texlive-latex-recommended"], or 
-output: 
-[] is empty!

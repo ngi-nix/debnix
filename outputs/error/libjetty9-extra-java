@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "ant-optional", "apache2-utils", "authbind", "debhelper-compat", "default-jdk", "default-jre-headless", "dh-exec", "java8-runtime-headless", "javahelper", "jetty9", "junit", "libasm-java", "libbuild-helper-maven-plugin-java", "libecj-java", "libel-api-java", "libgeronimo-jta-1.2-spec-java", "libjboss-logging-java", "libjcip-annotations-java", "libjetty9-extra-java", "libjetty9-java", "libjnr-unixsocket-java", "libjsp-api-java", "libmail-java", "libmaven-antrun-plugin-java", "libmaven-assembly-plugin-java", "libmaven-bundle-plugin-java", "libmaven-dependency-plugin-java", "libmaven-shade-plugin-java", "libmockito-java", "libservlet-api-java", "libspring-beans-java", "libtaglibs-standard-impl-java", "libtaglibs-standard-spec-java", "libtomcat9-java", "libwebsocket-api-java", "lsb-base", "maven-debian-helper", "maven-repo-helper"], or 
-output: 
-[] is empty!

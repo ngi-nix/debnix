@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-exec", "ipset", "iptables-persistent", "lsb-base", "netfilter-persistent", "po-debconf"], or 
-output: 
-[] is empty!

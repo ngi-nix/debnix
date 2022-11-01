@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gettext", "libboost-regex-dev", "libboost-system-dev", "libboost-thread-dev", "libgcrypt20-dev", "pkg-config", "vdr-dev"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-sequence-nodejs", "mocha", "node-clone-deep", "node-extend-shallow", "node-object-visit"], or 
-output: 
-[] is empty!

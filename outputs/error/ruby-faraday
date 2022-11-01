@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "gem2deb", "lsof", "pry", "ruby", "ruby-coveralls", "ruby-em-http-request", "ruby-em-synchrony", "ruby-excon", "ruby-httpclient", "ruby-interpreter", "ruby-minitest", "ruby-multipart-parser", "ruby-multipart-post", "ruby-net-http-persistent", "ruby-rack-test", "ruby-rspec", "ruby-ruby2-keywords", "ruby-simplecov", "ruby-sinatra", "ruby-typhoeus", "ruby-webmock"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "dh-python", "gettext", "libexttextcat-data", "pybuild-plugin-pyproject", "python3", "python3-aeidon", "python3-bs4", "python3-chardet", "python3-cheroot", "python3-diff-match-patch", "python3-enchant", "python3-iniparse", "python3-levenshtein", "python3-lxml", "python3-phply", "python3-pkg-resources", "python3-pycountry", "python3-pyparsing", "python3-ruamel.yaml", "python3-setuptools", "python3-simplejson", "python3-subversion", "python3-translate", "python3-vobject", "python3-xapian", "translate-toolkit-doc"], or 
-output: 
-[] is empty!

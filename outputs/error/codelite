@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["clang-format", "clangd", "cmake", "codelite", "codelite-plugins", "cppcheck", "debhelper-compat", "g++", "gcc", "gdb", "libasio-dev", "libclang-dev", "libgtk-3-dev", "libhunspell-dev", "liblldb-dev", "libssh-gcrypt-dev", "libunittest++-dev", "libwebsocketpp-dev", "libwxgtk3.2-dev", "libwxsqlite3-3.2-dev", "llvm", "nodejs", "pkg-config", "python3", "qt5-qmake", "universal-ctags", "valgrind", "wx-common", "x-terminal-emulator", "xterm"], or 
-output: 
-[] is empty!

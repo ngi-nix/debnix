@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["adduser", "amqp-tools", "apt-cacher-ng", "auto-apt-proxy", "autodep8", "autopkgtest", "curl", "dctrl-tools", "debci", "debhelper-compat", "debian-archive-keyring", "debootstrap", "devscripts", "distro-info", "fonts-font-awesome", "inotify-tools", "jq", "libjs-bootstrap", "libjs-jquery", "libjs-jquery-flot", "lxc", "moreutils", "ntp", "patchutils", "postgresql", "rabbitmq-server", "rerun", "retry", "rsync", "ruby", "ruby-activerecord", "ruby-bunny", "ruby-database-cleaner", "ruby-erubi", "ruby-foreman", "ruby-kaminari-activerecord", "ruby-omniauth-gitlab", "ruby-pg", "ruby-rack-test", "ruby-rspec", "ruby-sinatra", "ruby-sinatra-contrib", "ruby-sqlite3", "ruby-thor", "schroot", "shellcheck", "shunit2", "sudo", "time-daemon", "yard"], or 
-output: 
-[] is empty!

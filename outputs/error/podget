@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["bash", "coreutils", "debhelper-compat", "debianutils", "findutils", "gawk", "grep", "libc-bin", "mawk", "sed", "wget"], or 
-output: 
-[] is empty!

@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["debhelper-compat", "libauthen-sasl-perl", "libcapture-tiny-perl", "libemail-abstract-perl", "libemail-address-xs-perl", "libemail-simple-perl", "libmodule-runtime-perl", "libmoo-perl", "libmoox-types-mooselike-perl", "libscalar-list-utils-perl", "libsub-exporter-perl", "libthrowable-perl", "libtry-tiny-perl"], or 
-output: 
-[] is empty!

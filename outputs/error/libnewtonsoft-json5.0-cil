@@ -1,5 +1,0 @@
-Nothing to Match: Nothing to match, 
-input: 
-["cli-common-dev", "debhelper", "dpkg-dev", "libnewtonsoft-json5.0-cil", "mono-devel", "mono-xbuild", "monodoc-base", "monodoc-manual", "nuget"], or 
-output: 
-[] is empty!
