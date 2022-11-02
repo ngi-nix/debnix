@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libgraphite2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0a319a4c52542ae76e29f46941c99e951f2869f69f2dea6dd10e2866051a5826",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "dh-python",
+    "dpkg-dev",
+    "libgraphite2-3",
+    "libgraphite2-utils",
+    "python3-fonttools",
+    "python3:native"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freetype",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

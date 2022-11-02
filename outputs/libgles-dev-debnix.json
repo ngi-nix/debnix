@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libgles-dev",
+  "nix_pkg": null,
+  "control_file_hash": "79f29321490ea9e50bd606754ec364b65242232c91ccb4254b8305bb25ce986e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libegl-dev",
+    "libegl-mesa0",
+    "libegl1",
+    "libgl-dev",
+    "libgl1",
+    "libgles-dev",
+    "libgles1",
+    "libgles2",
+    "libglvnd-core-dev",
+    "libglvnd0",
+    "libglx-dev",
+    "libglx-mesa0",
+    "libglx0",
+    "libopengl-dev",
+    "libopengl0",
+    "libx11-dev",
+    "libxext-dev",
+    "meson",
+    "pkg-config",
+    "python3-setuptools",
+    "x11proto-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXext",
+    "pkg-config-wrapper",
+    "python3",
+    "xorgproto"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext",
+    "x11proto-dev": "xorgproto"
+  }
+}

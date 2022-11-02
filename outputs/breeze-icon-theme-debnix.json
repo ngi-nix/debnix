@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "breeze-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "ab03db0ed7e47651489b1b76ec148e319ef7f1bcbf1564163658189f0f8c863d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fdupes",
+    "hicolor-icon-theme",
+    "libxml2-utils",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "qtsvg"
+  ],
+  "map": {
+    "hicolor-icon-theme": "hicolor-icon-theme",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

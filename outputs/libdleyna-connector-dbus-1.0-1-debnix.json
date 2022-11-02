@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libdleyna-connector-dbus-1.0-1",
+  "nix_pkg": null,
+  "control_file_hash": "f6844b6d4cc6a10399505bc94a58e6a40828973219a624be463393bda8ce0ad4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdbus-1-dev",
+    "libdleyna-core-1.0-dev",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "dleyna-core",
+    "glib",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libdleyna-core-1.0-dev": "dleyna-core"
+  }
+}

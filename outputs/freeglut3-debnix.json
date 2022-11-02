@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "freeglut3",
+  "nix_pkg": null,
+  "control_file_hash": "219f0649f4c10e82260a7b9b2bac628b5ed2cfe3caa76655c6708ff16d296629",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgl1-mesa-dev",
+    "libglu1-mesa-dev",
+    "libglut3.12",
+    "libtool",
+    "libusbhid-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "libxi-dev",
+    "libxt-dev",
+    "libxxf86vm-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glu",
+    "libGL",
+    "libICE",
+    "libXext",
+    "libXi",
+    "libXrandr",
+    "libXxf86vm"
+  ],
+  "map": {
+    "libxext-dev": "libXext",
+    "libglu1-mesa-dev": "glu",
+    "libxxf86vm-dev": "libXxf86vm",
+    "libxi-dev": "libXi",
+    "libgl1-mesa-dev": "libGL",
+    "cmake": "cmake"
+  }
+}

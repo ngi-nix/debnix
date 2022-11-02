@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libhamlib4",
+  "nix_pkg": null,
+  "control_file_hash": "e6aba76f5675ceaa39bdd098ddd9966b87bb5985e8efae3ec8962ada18acc0df",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-lua",
+    "dh-python",
+    "dpkg-dev",
+    "libc6-dev",
+    "libgd-dev",
+    "libhamlib++4",
+    "libhamlib-dev",
+    "libhamlib-perl",
+    "libhamlib4",
+    "libltdl3-dev",
+    "libperl-dev",
+    "libusb-1.0-0-dev",
+    "lua-hamlib",
+    "pkg-config",
+    "python3-all-dev",
+    "python3-hamlib",
+    "source-highlight",
+    "swig",
+    "tcl-dev",
+    "tcl-hamlib",
+    "texinfo",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "gd",
+    "libtool",
+    "libusb-compat",
+    "libxml2",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "swig",
+    "tcl"
+  ],
+  "map": {
+    "libperl-dev": "perl",
+    "libgd-dev": "gd",
+    "tcl-dev": "tcl",
+    "swig": "swig"
+  }
+}

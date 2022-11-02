@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "gir1.2-gexiv2-0.10",
+  "nix_pkg": null,
+  "control_file_hash": "622bc0c92d534b58846bb676a6b9021997fe564b11c888beca1e4d93d0b4b116",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "gir1.2-gexiv2-0.10",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libexiv2-dev",
+    "libgexiv2-2",
+    "libgexiv2-doc",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "meson",
+    "python3-gi",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "exiv2",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "valac": "vala",
+    "libglib2.0-dev": "glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gobject-introspection": "gobject-introspection",
+    "gtk-doc-tools": "gtk-doc",
+    "libglib2.0-doc": "glib",
+    "libexiv2-dev": "exiv2",
+    "meson": "meson"
+  }
+}

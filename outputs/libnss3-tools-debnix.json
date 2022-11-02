@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libnss3-tools",
+  "nix_pkg": null,
+  "control_file_hash": "1a55c3d555bf100d0aa7a4aa554cd842da1e394f66a3dd647489fdf9ee609652",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "libnspr4-dev",
+    "libnss3",
+    "libnss3-tools:native",
+    "libsqlite3-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ninja",
+    "nspr",
+    "perl",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "zlib1g-dev": "zlib",
+    "libnspr4-dev": "nspr"
+  }
+}

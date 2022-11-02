@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libusbredirhost1",
+  "nix_pkg": null,
+  "control_file_hash": "0c9af29c5e2576c75b8372fa80a615a9b5664688fb13684173353e86225b9ff9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libusb-1.0-0-dev",
+    "libusbredirhost1",
+    "libusbredirparser-dev",
+    "libusbredirparser1",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libusb",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson",
+    "libglib2.0-dev": "glib"
+  }
+}

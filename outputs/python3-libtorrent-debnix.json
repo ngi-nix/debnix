@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "python3-libtorrent",
+  "nix_pkg": null,
+  "control_file_hash": "a16049f20c7a8d0eb194487f4f67a8d6257c069c5d2c5d8b3ed744ba9fa575d5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "libboost-python-dev",
+    "libboost-system-dev",
+    "libssl-dev",
+    "libtorrent-rasterbar-doc",
+    "libtorrent-rasterbar2.0",
+    "ninja-build",
+    "pkg-config",
+    "python3-dev",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "ncurses",
+    "openssl",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "python3-dev": "python3",
+    "libssl-dev": "openssl"
+  }
+}

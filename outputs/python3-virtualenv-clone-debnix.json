@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "python3-virtualenv-clone",
+  "nix_pkg": null,
+  "control_file_hash": "15ae1d7d8cfcc28deca80f0d1b5e0c6cb896f00fbd5d8b39eef7eea051408bc8",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-virtualenv",
+    "virtualenv"
+  ],
+  "nix_inputs": [
+    "python3",
+    "virtualenv"
+  ],
+  "map": {
+    "virtualenv": "virtualenv"
+  }
+}
