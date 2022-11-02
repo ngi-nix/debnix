@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libmad0",
+  "nix_pkg": null,
+  "control_file_hash": "fb7ed2c57d2a18296135b6d9adff3947a0e9d268ff24c191c365aa9ffa7dac27",
+  "deb_inputs": [
+    "autotools-dev",
+    "cdbs",
+    "debhelper",
+    "dh-autoreconf",
+    "gettext",
+    "libmad0",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "autoconf"
+  ],
+  "map": {}
+}

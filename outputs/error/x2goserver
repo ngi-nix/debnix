@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["adduser", "bc", "cups-x2go", "dbus", "debhelper-compat", "desktop-file-utils", "dpkg-dev", "fontconfig", "libcapture-tiny-perl", "libconfig-simple-perl", "libdbd-pg-perl", "libdbd-sqlite3-perl", "libfile-basedir-perl", "libfile-which-perl", "libswitch-perl", "libtry-tiny-perl", "libx2go-config-perl", "libx2go-log-perl", "libx2go-server-db-perl", "libx2go-server-perl", "libx2go-utils-perl", "lsb-base", "lsof", "man2html-base", "net-tools", "nxagent", "openssh-client", "openssh-server", "perl", "perl:any", "psmisc", "pulseaudio-utils", "pwgen", "rdesktop", "sshfs", "x11-apps", "x11-common", "x11-session-utils", "x11-utils", "x11-xfs-utils", "x11-xkb-utils", "x11-xserver-utils", "x2godesktopsharing", "x2goserver", "x2goserver-common", "x2goserver-extensions", "x2goserver-fmbindings", "x2goserver-printing", "x2goserver-x2goagent", "x2goserver-xsession", "xauth", "xdg-utils", "xfonts-base", "xinit", "xkb-data"], or 
+output: 
+[] is empty!

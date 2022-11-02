@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libgmp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "867b4a2fbb13784287c86a34f631f1a4e65d9d1fa26a3c039011dec3dcf43092",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gmp-doc",
+    "libgmp-dev",
+    "libgmp10",
+    "libgmp10-doc",
+    "libgmpxx4ldbl",
+    "libmpfr-dev",
+    "m4"
+  ],
+  "nix_inputs": [
+    "gnum4"
+  ],
+  "map": {}
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "tk8.6",
+  "nix_pkg": null,
+  "control_file_hash": "7efc81661737efea9a495da9acdfaa3c445456d75846d4e2c21c359ba9c0249c",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libtcl8.6",
+    "libtk8.6",
+    "libx11-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "libxss-dev",
+    "tcl8.6-dev",
+    "tk8.6",
+    "tk8.6-doc",
+    "x-terminal-emulator",
+    "x11proto-core-dev",
+    "xterm"
+  ],
+  "nix_inputs": [
+    "libXft",
+    "pkg-config-wrapper",
+    "tcl"
+  ],
+  "map": {
+    "libxft-dev": "libXft",
+    "libtcl8.6": "tcl",
+    "tcl8.6-dev": "tcl"
+  }
+}

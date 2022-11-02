@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "libfm-modules",
+  "nix_pkg": null,
+  "control_file_hash": "68e96502bc77c7781d1c1ea0a3583eaaed22e1a58eb92c3fc3f094908e70b52d",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper-compat",
+    "dpkg-dev",
+    "eject",
+    "gtk-doc-tools",
+    "intltool",
+    "libdbus-glib-1-dev",
+    "libexif-dev",
+    "libfm-data",
+    "libfm-dev",
+    "libfm-doc",
+    "libfm-extra-dev",
+    "libfm-extra4",
+    "libfm-gtk-data",
+    "libfm-gtk4",
+    "libfm-modules",
+    "libfm-tools",
+    "libfm4",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgtk-3-doc",
+    "libgtk2.0-dev",
+    "libmenu-cache-dev",
+    "libtool",
+    "lxmenu-data",
+    "nautilus-actions",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk+",
+    "intltool",
+    "menu-cache",
+    "pango",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "valac": "vala",
+    "libgtk2.0-dev": "gtk+",
+    "libglib2.0-doc": "glib",
+    "intltool": "intltool",
+    "libmenu-cache-dev": "menu-cache",
+    "libgtk-3-doc": "gtk+"
+  }
+}

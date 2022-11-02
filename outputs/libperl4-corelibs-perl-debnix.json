@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libperl4-corelibs-perl",
+  "nix_pkg": null,
+  "control_file_hash": "f21062658ad06bc41187e9790855a809089b07fd40d6e834a5596f1278d54c8a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmodule-build-perl",
+    "perl"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libtermkey1",
+  "nix_pkg": null,
+  "control_file_hash": "ccb38525cf63221907ce39802be019960b1cb02b6a81cc1cead733fcf1ca9099",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libtermkey1",
+    "libtool-bin",
+    "libunibilium-dev",
+    "perl",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "ncurses",
+    "pkg-config-wrapper",
+    "unibilium"
+  ],
+  "map": {
+    "libtool-bin": "libtool",
+    "libunibilium-dev": "unibilium"
+  }
+}

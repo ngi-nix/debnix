@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libpng-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6ed0492be1ca988bcd41b20c13f917d0001ed58c6b40d633296b260da29001ff",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpng-tools",
+    "libpng16-16",
+    "mawk",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libcjson1",
+  "nix_pkg": null,
+  "control_file_hash": "b98828cee7b25857ea8a2c0c85d94f0cf36b5c9386aaa8873b995fa34f3fa891",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcjson1"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

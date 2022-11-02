@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "gir1.2-libvirt-glib-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "f225e81fb6d91c688e89755ac1bfa8183b5f5c01978dba2b5e196c499010469d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-libvirt-glib-1.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libvirt-dev",
+    "libvirt-glib-1.0-0",
+    "libvirt-glib-1.0-data",
+    "libxml2-dev",
+    "meson",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "gettext",
+    "gobject-introspection",
+    "gtk-doc",
+    "libcap-ng",
+    "libvirt",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "meson": "meson",
+    "gtk-doc-tools": "gtk-doc",
+    "libxml2-dev": "libxml2",
+    "valac": "vala",
+    "libvirt-dev": "libvirt"
+  }
+}

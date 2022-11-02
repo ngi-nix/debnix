@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "gir1.2-totemplparser-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "7324fda16ca7c8e8d2a4a6cae9a4c008abc72174740079f51a4edddebd53f30c",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-totemplparser-1.0",
+    "gtk-doc-tools",
+    "gvfs-backends",
+    "libarchive-dev",
+    "libgcrypt20-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libtotem-plparser-common",
+    "libtotem-plparser18",
+    "libxml-parser-perl",
+    "libxml2-dev",
+    "meson",
+    "shared-mime-info"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libxml2-dev": "libxml2",
+    "meson": "meson",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-doc": "glib"
+  }
+}

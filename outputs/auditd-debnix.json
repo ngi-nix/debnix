@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "auditd",
+  "nix_pkg": null,
+  "control_file_hash": "5e6b7abd2954ffc6fd97553304a99e2580dbd1a7553a0c0dbb594056f70be947",
+  "deb_inputs": [
+    "audispd-plugins",
+    "auditd",
+    "debhelper-compat",
+    "dh-python",
+    "dpkg-dev",
+    "gawk",
+    "libaudit-common",
+    "libaudit1",
+    "libauparse0",
+    "libcap-ng-dev",
+    "libkrb5-dev",
+    "libldap2-dev",
+    "libpython3-all-dev",
+    "libwrap0-dev",
+    "linux-libc-dev",
+    "lsb-base",
+    "mawk",
+    "python3-all-dev:any",
+    "swig"
+  ],
+  "nix_inputs": [
+    "python3",
+    "swig"
+  ],
+  "map": {
+    "swig": "swig"
+  }
+}
