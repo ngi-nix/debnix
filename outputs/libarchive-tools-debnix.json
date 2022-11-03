@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "libarchive-tools",
+  "nix_pkg": null,
+  "control_file_hash": "7904dcad4d51b7cdc36ad03f4cdc611df1267f819c69b2ad2698f42426f62d6b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libacl1-dev",
+    "libarchive13",
+    "libbz2-dev",
+    "libext2fs-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "libxml2-dev",
+    "libzstd-dev",
+    "locales",
+    "lrzip",
+    "nettle-dev",
+    "pkg-config",
+    "sharutils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "bzip2",
+    "e2fsprogs",
+    "libxml2",
+    "lzo",
+    "openssl",
+    "pkg-config-wrapper",
+    "sharutils",
+    "xz",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "sharutils": "sharutils",
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib",
+    "libacl1-dev": "acl",
+    "libext2fs-dev": "e2fsprogs",
+    "libzstd-dev": "zstd",
+    "libxml2-dev": "libxml2"
+  }
+}

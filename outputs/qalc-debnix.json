@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "qalc",
+  "nix_pkg": null,
+  "control_file_hash": "19b176fee4daf110f61f720483ac93ddec7a18ad83f388c011f237949334339b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "gnuplot-nox",
+    "intltool",
+    "libcln-dev",
+    "libcurl4-gnutls-dev",
+    "libgettextpo-dev",
+    "libglib2.0-dev",
+    "libgmp-dev",
+    "libicu-dev",
+    "libmpfr-dev",
+    "libncurses-dev",
+    "libqalculate-data",
+    "libqalculate22",
+    "libreadline-dev",
+    "libxml2-dev",
+    "wget"
+  ],
+  "nix_inputs": [
+    "curl",
+    "doxygen",
+    "gettext",
+    "intltool",
+    "libxml2",
+    "mpfr",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "doxygen": "doxygen",
+    "libxml2-dev": "libxml2",
+    "libgettextpo-dev": "gettext",
+    "intltool": "intltool",
+    "libmpfr-dev": "mpfr",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

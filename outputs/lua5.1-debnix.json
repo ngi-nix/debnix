@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "lua5.1",
+  "nix_pkg": null,
+  "control_file_hash": "4778a8752278c07938d6a033ed5b6fe4ef0ba11094de3a89aa4ab41eb273f9a4",
+  "deb_inputs": [
+    "debhelper",
+    "libc-dev",
+    "libc6-dev",
+    "liblua5.1-0",
+    "libreadline-dev",
+    "libtool",
+    "libtool-bin",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libphysfs1",
+  "nix_pkg": null,
+  "control_file_hash": "eeface17758839905c9c0134162b5770ba17e644eb762b02bf3bcd6da1f690db",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libncurses5-dev",
+    "libphysfs1",
+    "libreadline-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}

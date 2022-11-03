@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "gir1.2-gudev-1.0",
+  "nix_pkg": null,
+  "control_file_hash": "6aea2edd29dd9c2cedbf5dc488df7e61eb341eb38bb04aab37dad8ed30a1ed43",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-gudev-1.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgudev-1.0-0",
+    "libudev-dev",
+    "libumockdev-dev",
+    "locales-all",
+    "meson",
+    "pkg-config",
+    "umockdev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "systemd",
+    "vala"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libglib2.0-doc": "glib"
+  }
+}

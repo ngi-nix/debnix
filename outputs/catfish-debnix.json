@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "catfish",
+  "nix_pkg": null,
+  "control_file_hash": "bfcbb39ca03af7b667af6166ec5efca341c6ca649c79a427d2bdfecc0be727d4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-gdkpixbuf-2.0",
+    "gir1.2-glib-2.0",
+    "gir1.2-gtk-3.0",
+    "gir1.2-pango-1.0",
+    "gir1.2-xfconf-0",
+    "gir1.2-zeitgeist-2.0",
+    "locate",
+    "plocate",
+    "python-gi-dev",
+    "python3",
+    "python3-dbus",
+    "python3-distutils-extra",
+    "python3-gi-cairo",
+    "python3-pexpect"
+  ],
+  "nix_inputs": [
+    "dbus-python",
+    "dconf",
+    "distutils-extra",
+    "file",
+    "findutils",
+    "gobject-introspection",
+    "gtk+3",
+    "intltool",
+    "pexpect",
+    "ptyprocess",
+    "pycairo",
+    "pygobject",
+    "python3",
+    "pyxdg",
+    "which",
+    "xdg-utils",
+    "xfconf"
+  ],
+  "map": {
+    "python3": "python3",
+    "gir1.2-glib-2.0": "gobject-introspection",
+    "python3-dbus": "dbus-python",
+    "locate": "findutils",
+    "gir1.2-xfconf-0": "xfconf",
+    "python3-pexpect": "pexpect",
+    "python3-gi-cairo": "pygobject",
+    "python-gi-dev": "pygobject"
+  }
+}
