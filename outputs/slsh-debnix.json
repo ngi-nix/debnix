@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "slsh",
+  "nix_pkg": null,
+  "control_file_hash": "adebc8ff8fdf7a0cfe6278a9911c996782319a4078aec0a53235729a8fc1df0e",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "docbook-to-man",
+    "dpkg-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libncurses-dev",
+    "libonig-dev",
+    "libpcre2-dev",
+    "libpng-dev",
+    "libslang2",
+    "libslang2-dev",
+    "libslang2-modules",
+    "unicode-data",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libpng-apng",
+    "ncurses",
+    "pcre",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libpcre2-dev": "pcre",
+    "zlib1g-dev": "zlib"
+  }
+}

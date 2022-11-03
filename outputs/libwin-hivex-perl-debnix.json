@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libwin-hivex-perl",
+  "nix_pkg": null,
+  "control_file_hash": "9bae15459d65dd3b3324400f1c758b87e352e8f78542d476d4bae31274b7832d",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper",
+    "dh-ocaml",
+    "dh-python",
+    "gem2deb",
+    "libhivex-dev",
+    "libhivex0",
+    "libio-stringy-perl",
+    "libreadline-dev",
+    "libxml2-dev",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "pkg-config",
+    "python3-all-dev",
+    "rake"
+  ],
+  "nix_inputs": [
+    "IO-Stringy",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libio-stringy-perl": "IO-Stringy"
+  }
+}

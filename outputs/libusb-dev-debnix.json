@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libusb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0bf46e57478349b72406c6374bf619c6ca2d069fe93fe174e9a40ad54aba1eea",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "docbook",
+    "docbook-dsssl",
+    "libc-dev",
+    "libc6-dev",
+    "libusb-0.1-4",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "systemd-minimal"
+  ],
+  "map": {}
+}

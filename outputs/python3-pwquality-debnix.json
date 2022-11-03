@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "python3-pwquality",
+  "nix_pkg": null,
+  "control_file_hash": "1609dc394958bf42ec5caee95091a483319008b6375f19fb2d3b52579c765f58",
+  "deb_inputs": [
+    "cracklib-runtime",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "dh-sequence-python3",
+    "gnome-pkg-tools",
+    "libcrack2-dev",
+    "libpam-runtime",
+    "libpam0g-dev",
+    "libpwquality-common",
+    "libpwquality1",
+    "libpython3-dev",
+    "python3-dev:any"
+  ],
+  "nix_inputs": [
+    "cracklib",
+    "linux-pam",
+    "perl"
+  ],
+  "map": {
+    "libcrack2-dev": "cracklib",
+    "cracklib-runtime": "cracklib"
+  }
+}

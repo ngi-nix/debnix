@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "node-browserify-lite", "node-debbundle-es-to-primitive", "node-deep-equal", "node-es-abstract", "node-function-bind", "node-has-symbols", "node-iconv-lite", "node-inherits", "node-lodash", "node-object-inspect", "node-safer-buffer", "node-side-channel", "node-tape", "node-util"], or 
+output: 
+[] is empty!

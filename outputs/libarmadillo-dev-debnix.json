@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libarmadillo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "37d9eb9064c26ed964b7f846f7958acad720f195b20ddf02a757a13ab3d1e2c5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dpkg-dev",
+    "libarmadillo11",
+    "libarpack2-dev",
+    "libblas-dev",
+    "libhdf5-dev",
+    "libitpp-dev",
+    "liblapack-dev",
+    "libsuperlu-dev",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "hdf5",
+    "lapack",
+    "superlu"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "liblapack-dev": "lapack",
+    "libhdf5-dev": "hdf5",
+    "libsuperlu-dev": "superlu",
+    "libblas-dev": "blas"
+  }
+}

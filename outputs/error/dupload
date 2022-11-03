@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell", "aspell-en", "debhelper-compat", "default-mta", "dh-sequence-bash-completion", "libdpkg-perl", "libio-socket-ssl-perl", "libsecret-tools", "libtest-minimumversion-perl", "libtest-perl-critic-perl", "libtest-pod-perl", "libtest-spelling-perl", "libtest-strict-perl", "libtest-synopsis-perl", "liburi-perl", "lintian", "mail-transport-agent", "openssh-client", "shellcheck", "ssh"], or 
+output: 
+[] is empty!

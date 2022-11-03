@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cmake", "debhelper-compat", "dh-python", "extra-cmake-modules", "gettext", "kdegames-mahjongg-data-kf5", "khelpcenter", "libkf5config-dev", "libkf5doctools-dev", "libkf5i18n-dev", "libkf5kmahjongglib-dev", "libqt5svg5-dev", "pkg-config", "pkg-kde-tools", "python3", "python3-pyqt5.qtsvg", "python3-qtpy", "python3-twisted", "qtbase5-dev"], or 
+output: 
+[] is empty!

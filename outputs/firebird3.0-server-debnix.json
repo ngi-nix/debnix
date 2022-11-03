@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "firebird3.0-server",
+  "nix_pkg": null,
+  "control_file_hash": "4d9c7d851d9c10c7f78e20b55065bdfe24ff66f09bd95fc421731b5b7b503840",
+  "deb_inputs": [
+    "adduser",
+    "autoconf",
+    "automake",
+    "debconf",
+    "debhelper-compat",
+    "firebird3.0-common",
+    "firebird3.0-common-doc",
+    "firebird3.0-dev",
+    "firebird3.0-doc",
+    "firebird3.0-examples",
+    "firebird3.0-server",
+    "firebird3.0-server-core",
+    "firebird3.0-utils",
+    "gawk",
+    "libboost-dev",
+    "libedit-dev",
+    "libfbclient2",
+    "libib-util",
+    "libicu-dev",
+    "libtommath-dev",
+    "libtool",
+    "lsb-base",
+    "pkg-config",
+    "po-debconf",
+    "recode",
+    "rename",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libedit",
+    "libtomcrypt",
+    "libtommath",
+    "unzip",
+    "zlib"
+  ],
+  "map": {
+    "libedit-dev": "libedit",
+    "libtommath-dev": "libtommath",
+    "zlib1g-dev": "zlib"
+  }
+}

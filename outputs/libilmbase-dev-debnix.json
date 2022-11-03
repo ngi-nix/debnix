@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libilmbase-dev",
+  "nix_pkg": null,
+  "control_file_hash": "881a8ce017ae45c9a77a7ae74fa14a16ad5195bd1cdada9588e97325960082b3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libilmbase25"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}
