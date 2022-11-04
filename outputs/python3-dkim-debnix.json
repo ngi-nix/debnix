@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "python3-dkim",
+  "nix_pkg": null,
+  "control_file_hash": "8f38c407df8d218d5ee2848c4073ac84563eacac587b5e45611e78bfc603ca29",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-authres",
+    "python3-dns",
+    "python3-dnspython",
+    "python3-nacl",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "authres",
+    "dnspython",
+    "openssl",
+    "pynacl",
+    "pytest",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-authres": "authres",
+    "python3-dnspython": "dnspython"
+  }
+}

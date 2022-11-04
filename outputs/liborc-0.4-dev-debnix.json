@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "liborc-0.4-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e91de0a8dd97d1b2e70d0408feb9044ac82d4b416c06cc30ffab58b6761d547f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "liborc-0.4-0",
+    "liborc-0.4-dev",
+    "liborc-0.4-dev-bin:any",
+    "liborc-0.4-doc",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "file",
+    "gtk-doc",
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "meson": "meson"
+  }
+}

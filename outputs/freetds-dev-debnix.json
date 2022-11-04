@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "freetds-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2e531f8ff56d16d05bc4c7e43d3858758d0f4605df4d73d85a6d61175544f08c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "freetds-common",
+    "libct4",
+    "libgnutls28-dev",
+    "libkrb5-dev",
+    "libodbc1",
+    "libreadline-dev",
+    "libsybdb5",
+    "pkg-config",
+    "unixodbc-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkg-config-wrapper",
+    "unixODBC"
+  ],
+  "map": {
+    "libodbc1": "unixODBC",
+    "unixodbc-dev": "unixODBC"
+  }
+}

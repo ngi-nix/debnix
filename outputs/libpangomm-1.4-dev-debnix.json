@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libpangomm-1.4-dev",
+  "nix_pkg": null,
+  "control_file_hash": "902ce53b75dfd8d123fdc1b0936455f9bb97c6c51e13fbc7a92d7e0397ba1604",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "doc-base",
+    "doxygen",
+    "graphviz",
+    "gtkmm-documentation",
+    "libcairomm-1.0-dev",
+    "libglibmm-2.4-dev",
+    "libpango1.0-dev",
+    "libpangomm-1.4-1v5",
+    "libxml-parser-perl",
+    "meson",
+    "mm-common",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cairomm",
+    "glibmm",
+    "meson",
+    "ninja",
+    "pango",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson",
+    "libglibmm-2.4-dev": "glibmm",
+    "libpango1.0-dev": "pango",
+    "libcairomm-1.0-dev": "cairomm"
+  }
+}

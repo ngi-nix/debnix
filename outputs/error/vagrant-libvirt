@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "gem2deb", "libguestfs-tools", "nfs-kernel-server", "qemu-utils", "rake", "ruby-diffy", "ruby-fog-core", "ruby-fog-libvirt", "ruby-nokogiri", "ruby-rspec", "ruby-xml-simple", "vagrant"], or 
+output: 
+[] is empty!

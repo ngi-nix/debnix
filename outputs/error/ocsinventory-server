@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["apache2-dev", "debhelper-compat", "default-mysql-client", "default-mysql-server", "ieee-data", "javascript-common", "libapache-dbi-perl", "libapache2-mod-perl2", "libapache2-mod-php", "libarchive-zip-perl", "libdbd-mysql-perl", "libdbi-perl", "libjs-bootstrap", "libjs-jquery", "libjs-jquery-datatables", "libjs-jquery-file-upload", "libjs-jquery-migrate-1", "libjs-jquery-ui", "libjs-select2.js", "libnet-ip-perl", "libphp-phpmailer", "libsoap-lite-perl", "libswitch-perl", "libxml-simple-perl", "nmap", "ocsinventory-agent", "ocsinventory-reports", "ocsinventory-server", "php", "php-cas", "php-cgi", "php-cli", "php-fpm", "php-gd", "php-imap", "php-ldap", "php-mbstring", "php-mysql", "php-pclzip", "php-soap", "php-xml", "php-zip", "phpqrcode", "samba-common", "virtual-mysql-client", "virtual-mysql-server"], or 
+output: 
+[] is empty!

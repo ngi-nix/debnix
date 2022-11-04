@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libsuperlu-dev",
+  "nix_pkg": null,
+  "control_file_hash": "958fbe791d103c1228c504c41b720aee17e088f454d7024a03646663b88954b1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gcc",
+    "gfortran",
+    "libatlas-base-dev",
+    "libblas-dev",
+    "libblas.so",
+    "libopenblas-dev",
+    "libsuperlu-dev",
+    "libsuperlu-doc",
+    "libsuperlu5"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "gfortran-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libblas-dev": "blas"
+  }
+}

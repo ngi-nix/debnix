@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libpsl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "31a19ef12d09db8f1f7b08715709927e65caa17bc1646c257a7a27333a2b9211",
+  "deb_inputs": [
+    "autoconf-archive",
+    "automake",
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libidn2-0",
+    "libidn2-dev",
+    "libpsl5",
+    "libunistring-dev",
+    "pkg-config",
+    "publicsuffix",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gtk-doc",
+    "libunistring",
+    "libxslt",
+    "lzip",
+    "pkg-config-wrapper",
+    "python3",
+    "valgrind"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libunistring-dev": "libunistring"
+  }
+}
