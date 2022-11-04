@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "infiniband-diags",
+  "nix_pkg": null,
+  "control_file_hash": "9efa0087502ba71ab546ddf4164a47c7b5239f9c372adf397d005e56ab57c337",
+  "deb_inputs": [
+    "debhelper",
+    "libglib2.0-dev",
+    "libibmad5",
+    "libibnetdisc5",
+    "libibumad-dev",
+    "libopensm-dev",
+    "libudev-dev",
+    "python-docutils"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "docutils",
+    "ethtool",
+    "iproute2",
+    "libnl",
+    "pandoc",
+    "perl",
+    "pkg-config-wrapper",
+    "python3",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd"
+  }
+}

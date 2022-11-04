@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bsd-mailx", "debhelper-compat", "default-mta", "fwsnort", "iproute2", "iptables", "libcarp-clan-perl", "libdate-calc-perl", "libiptables-chainmgr-perl", "libiptables-parse-perl", "libnet-ip-perl", "libunix-syslog-perl", "lsb-base", "mail-transport-agent", "mailutils", "mailx", "net-tools", "psmisc", "rsyslog", "system-log-daemon", "whois"], or 
+output: 
+[] is empty!

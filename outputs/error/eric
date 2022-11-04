@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-python3", "eric", "eric-api-files", "libjs-jquery", "libjs-jquery-hotkeys", "libjs-jquery-isonscreen", "libjs-jquery-tablesorter", "libjs-jquery-ui", "pyqt5-dev-tools", "pyqt5-doc", "python3-asttokens", "python3-chardet", "python3-distutils", "python3-doc", "python3-pygments", "python3-pyqt5", "python3-pyqt5.qsci", "python3-pyqt5.qtsql", "python3-pyqt5.qtsvg", "python3-pyqt5.qtwebengine", "python3-pyqt5.qtwebkit", "python3-pyqtchart", "python3-rope", "python3-send2trash", "qt5-doc-html", "qtbase5-doc-html", "qttools5-dev", "ruby"], or 
+output: 
+[] is empty!

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "pgbackrest",
+  "nix_pkg": null,
+  "control_file_hash": "11c6af976806b45cd4edec22eeff56299fa0ec6ed0ca6a49640b20379776f5b6",
+  "deb_inputs": [
+    "check-pgbackrest",
+    "debhelper-compat",
+    "libbz2-dev",
+    "liblz4-dev",
+    "libpq-dev",
+    "libssl-dev",
+    "libxml-checker-perl",
+    "libxml2-dev",
+    "libyaml-dev",
+    "libyaml-libyaml-perl",
+    "libzstd-dev",
+    "perl",
+    "pgbackrest-doc",
+    "pkg-config",
+    "postgresql-common",
+    "txt2man",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libxml2",
+    "libyaml",
+    "lz4",
+    "openssl",
+    "pkg-config-wrapper",
+    "postgresql",
+    "zlib",
+    "zstd"
+  ],
+  "map": {
+    "liblz4-dev": "lz4",
+    "libpq-dev": "postgresql",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libxml2-dev": "libxml2",
+    "libbz2-dev": "bzip2",
+    "libzstd-dev": "zstd",
+    "libyaml-dev": "libyaml"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libgflags-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7f30b2af10cf63033ca4c1ab0aff40dbd5e96567e606e3fdfe3b237669c18671",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgflags2.2"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

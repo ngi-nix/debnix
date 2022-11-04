@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libcapstone-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5d7d46bbf00b379f1f5815e0230451d910508b281e2ecc9caf9f7617e1f55c96",
+  "deb_inputs": [
+    "cython3",
+    "debhelper-compat",
+    "dh-python",
+    "libcapstone4",
+    "python3-all-dev",
+    "python3-distutils",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

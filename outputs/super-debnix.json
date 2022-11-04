@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "super",
+  "nix_pkg": null,
+  "control_file_hash": "990b9c9750f7c93713741d87afbba3b54bdada71949c288cde6d879c6000fb1c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpam-runtime",
+    "libpam0g-dev",
+    "logrotate"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}

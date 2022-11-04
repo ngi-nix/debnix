@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debconf", "debconf-2.0", "debhelper", "dictionaries-common", "dictionaries-common-dev", "ispell", "libreoffice.org", "perl"], or 
+output: 
+[] is empty!

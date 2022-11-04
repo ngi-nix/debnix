@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "python3-jsbeautifier",
+  "nix_pkg": null,
+  "control_file_hash": "37f86b61388e00e8f09ea69289fe4db76903a2c9ac5aa170f64dca89ad62a70f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-jsbeautifier",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "editorconfig",
+    "python3",
+    "six"
+  ],
+  "map": {
+    "python3-six": "six"
+  }
+}
