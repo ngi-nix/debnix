@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libscalapack-mpi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "231989f07f733a7456188c5c26b61d8a841b1561164479a11d304fe8b3c0ccc2",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "gfortran",
+    "libatlas-base-dev",
+    "libblas-dev",
+    "libblas.so",
+    "liblapack-dev",
+    "liblapack.so",
+    "libmpich-dev",
+    "libopenblas-dev",
+    "libopenmpi-dev",
+    "libscalapack-mpich2.2",
+    "libscalapack-openmpi2.2",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "mpich",
+    "pkg-config",
+    "scalapack-doc",
+    "scalapack-mpi-test",
+    "scalapack-test-common"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "lapack",
+    "openmpi",
+    "openssh"
+  ],
+  "map": {
+    "libblas-dev": "blas",
+    "cmake": "cmake",
+    "liblapack-dev": "lapack",
+    "libopenmpi-dev": "openmpi"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "libdirectfb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c0a1c8bd2240e778e8a2a07cb031c07c30d6db58bec9f3aec0ffba13152353f8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "lib++dfb-1.7-7",
+    "libdirectfb-1.7-7",
+    "libdirectfb-extra",
+    "libdrm-dev",
+    "libfreetype6-dev",
+    "libgbm-dev",
+    "libgl1-mesa-dev",
+    "libgles2-mesa-dev",
+    "libjpeg-dev",
+    "libmpeg3-dev",
+    "libpng-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "pkg-config",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "flux",
+    "freetype",
+    "giflib",
+    "libX11",
+    "libXext",
+    "libXrender",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "perl",
+    "pkg-config-wrapper",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "x11proto-core-dev": "xorgproto",
+    "libfreetype6-dev": "freetype",
+    "zlib1g-dev": "zlib",
+    "libx11-dev": "libX11",
+    "libxext-dev": "libXext",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

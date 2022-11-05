@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bash-completion", "debhelper-compat", "flatpak", "go-md2man", "golang-dbus-dev", "golang-github-briandowns-spinner-dev", "golang-github-docker-go-units-dev", "golang-github-fatih-color-dev", "golang-github-fsnotify-fsnotify-dev", "golang-github-harrymichal-go-version-dev", "golang-github-inconshreveable-mousetrap-dev", "golang-github-konsorten-go-windows-terminal-sequences-dev", "golang-github-mattn-go-colorable-dev", "golang-github-mattn-go-isatty-dev", "golang-github-sirupsen-logrus-dev", "golang-github-spf13-cobra-dev", "golang-github-spf13-pflag-dev", "golang-github-stretchr-testify-dev", "golang-go", "golang-golang-x-crypto-dev", "golang-golang-x-sys-dev", "meson", "pkg-config", "pkgconf", "podman", "shellcheck", "systemd", "uidmap"], or 
+output: 
+[] is empty!

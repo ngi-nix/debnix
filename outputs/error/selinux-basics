@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["checkpolicy", "debhelper-compat", "dh-python", "logcheck", "policycoreutils", "policycoreutils-python-utils", "selinux-policy-default", "selinux-utils", "setools", "syslog-summary"], or 
+output: 
+[] is empty!
