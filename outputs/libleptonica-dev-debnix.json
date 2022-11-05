@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libleptonica-dev",
+  "nix_pkg": null,
+  "control_file_hash": "45a972edcc8c81e1e06a0e6ba8438b894ce8595f85123ee42e10731f804a0e5e",
+  "deb_inputs": [
+    "automake",
+    "debhelper",
+    "gnuplot-nox",
+    "libgif-dev",
+    "liblept5",
+    "libopenjp2-7-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libwebp-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "giflib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "libwebp",
+    "openjpeg",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libgif-dev": "giflib",
+    "libopenjp2-7-dev": "openjpeg",
+    "libtiff-dev": "libtiff",
+    "libwebp-dev": "libwebp"
+  }
+}

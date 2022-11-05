@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libinstpatch-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e2913842a0a4c26b0d87df3474f69e429544087ddcc780ea1be4e473848aa2cb",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gettext",
+    "intltool",
+    "libglib2.0-dev",
+    "libinstpatch-1.0-2",
+    "libsndfile1-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glib",
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile",
+    "libglib2.0-dev": "glib",
+    "cmake": "cmake"
+  }
+}

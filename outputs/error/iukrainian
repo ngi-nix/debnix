@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aspell", "debhelper-compat", "dictionaries-common", "dictionaries-common-dev", "libreoffice", "locales"], or 
+output: 
+[] is empty!

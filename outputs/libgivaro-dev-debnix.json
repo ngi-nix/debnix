@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libgivaro-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fb0c240174423f22a852e5e977455e7d4f1640601d95b0a73bef9967f09c69c9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "g++",
+    "libgivaro-doc",
+    "libgivaro9",
+    "libgmp-dev",
+    "make"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gmp-with-cxx",
+    "libtool"
+  ],
+  "map": {}
+}

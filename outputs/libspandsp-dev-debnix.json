@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libspandsp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5bdd0a86e432c15be305d23e8dadc712c15538dc5349d336e46f867ed9cd8565",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "doxygen",
+    "libfftw3-dev",
+    "libjpeg-dev",
+    "libjs-jquery",
+    "libpcap0.8-dev",
+    "libsndfile1-dev",
+    "libspandsp2",
+    "libtiff-dev",
+    "libtiff-tools",
+    "libtiff5-dev",
+    "libtool",
+    "libxml2-dev",
+    "netpbm",
+    "sox",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "audiofile",
+    "libtiff"
+  ],
+  "map": {
+    "libtiff-dev": "libtiff"
+  }
+}

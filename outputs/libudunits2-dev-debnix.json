@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libudunits2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a2578a1be32bb465a9b7a864f4b4f114736deaeb9d8f485ebecc732130dfdab4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcunit1-dev",
+    "libexpat-dev",
+    "libtool",
+    "libudunits2-0",
+    "libudunits2-data",
+    "pkg-config",
+    "texinfo",
+    "texlive"
+  ],
+  "nix_inputs": [
+    "bison",
+    "expat",
+    "file",
+    "flex",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "libexpat-dev": "expat"
+  }
+}

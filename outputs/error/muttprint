@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["autoconf", "automake", "compface", "debhelper", "dh-autoreconf", "dialog", "docbook", "docbook-utils", "exmh", "ghostscript", "gnus", "imagemagick", "latex-ucs", "libtext-iconv-perl", "libtimedate-perl", "lynx", "mail-reader", "mutt", "muttprint-manual", "news-reader", "ospics", "pdf-viewer", "psutils", "sharutils", "slrn", "sylpheed", "texlive-fonts-extra", "texlive-fonts-recommended", "texlive-latex-extra", "texlive-latex-recommended", "www-browser", "xfmail", "xpdf"], or 
+output: 
+[] is empty!

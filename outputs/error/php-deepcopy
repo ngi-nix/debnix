@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-phpcomposer", "php-doctrine-collections", "php-doctrine-common", "php-phpspec-prophecy", "phpab", "phpunit"], or 
+output: 
+[] is empty!
