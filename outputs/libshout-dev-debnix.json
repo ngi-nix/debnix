@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libshout-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e3cff2e33d4c9b68e6a807085a3e64ba352ffe4177a495673b41e2b5809461b4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libogg-dev",
+    "libshout-dev",
+    "libshout3",
+    "libspeex-dev",
+    "libssl-dev",
+    "libtheora-dev",
+    "libvorbis-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libtheora",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "speex"
+  ],
+  "map": {
+    "libspeex-dev": "speex",
+    "libtheora-dev": "libtheora",
+    "libvorbis-dev": "libvorbis"
+  }
+}

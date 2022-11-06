@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libqmi-utils",
+  "nix_pkg": null,
+  "control_file_hash": "b63cbe0ed9eaeec2613f22dc2f2ea0aed82c4e7415f20c22d839fe80145128aa",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-qmi-1.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "help2man",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgudev-1.0-dev",
+    "libmbim-glib-dev",
+    "libqmi-glib-doc",
+    "libqmi-glib5",
+    "libqrtr-glib-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "libgudev",
+    "libmbim",
+    "libqrtr-glib",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libgudev-1.0-dev": "libgudev",
+    "libmbim-glib-dev": "libmbim",
+    "libqrtr-glib-dev": "libqrtr-glib",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gobject-introspection": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

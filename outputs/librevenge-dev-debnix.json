@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "librevenge-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e76c9b3eb27d1de433c690280ff3b9dd490271082e5adda81ab51e6f8734e48d",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "libboost-dev",
+    "libboost-filesystem-dev",
+    "libcppunit-dev",
+    "librevenge-0.0-0",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cppunit",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libcppunit-dev": "cppunit",
+    "zlib1g-dev": "zlib",
+    "libboost-dev": "boost"
+  }
+}

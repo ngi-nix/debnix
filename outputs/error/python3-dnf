@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bash-completion", "cmake", "debhelper-compat", "deltarpm", "dh-python", "dnf", "dnf-data", "gettext", "libmodulemd2", "libpython3-stdlib", "nextgen-yum4", "pkg-config", "python3", "python3-dbus", "python3-distutils", "python3-dnf", "python3-dnf-doc", "python3-gpg", "python3-hawkey", "python3-libcomps", "python3-libdnf", "python3-nose", "python3-rpm", "python3-sphinx", "python3-unbound", "sqlite3", "systemd"], or 
+output: 
+[] is empty!

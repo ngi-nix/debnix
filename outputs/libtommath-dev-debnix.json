@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libtommath-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8ab272f174ea2ec76f062cfd8102711fa64f15fc3cf838694213a83e2807cd2a",
+  "deb_inputs": [
+    "autoconf",
+    "debhelper-compat",
+    "libtommath-doc",
+    "libtommath1",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "libtool"
+  ],
+  "map": {
+    "libtool": "libtool"
+  }
+}

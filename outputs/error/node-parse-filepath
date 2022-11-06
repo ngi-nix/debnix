@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "mocha", "node-map-cache", "node-path-is-absolute", "node-path-root", "node-should"], or 
+output: 
+[] is empty!

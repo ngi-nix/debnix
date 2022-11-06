@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libmysofa-dev",
+  "nix_pkg": null,
+  "control_file_hash": "18c695145bd9eae7eaabb4454ce0ead0a0fbbad4d6cf16d2bb11e6a3cf313c2c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcunit1-dev",
+    "libmysofa1",
+    "libz-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}
