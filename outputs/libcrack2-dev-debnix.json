@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libcrack2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d6c760a6f4a3d5af9b48a848e7b356c34aba2dcd428af8d2d92de2fc18c26da2",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "chrpath",
+    "cracklib-runtime",
+    "debhelper",
+    "dh-python",
+    "docbook-utils",
+    "docbook-xml",
+    "dpkg-dev",
+    "file",
+    "libcrack2",
+    "libpython3-all-dev",
+    "libtool",
+    "python3-all-dev:any",
+    "python3-setuptools",
+    "wamerican",
+    "wordlist"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "zlib"
+  ],
+  "map": {}
+}

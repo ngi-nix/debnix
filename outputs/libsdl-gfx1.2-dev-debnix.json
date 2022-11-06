@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libsdl-gfx1.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d40a84d8ec660c051586a32dc9867b01c4f0f7fe42c47c268d7e4b7a3da155b3",
+  "deb_inputs": [
+    "debhelper",
+    "libjs-jquery",
+    "libsdl-gfx1.2-5",
+    "libsdl-gfx1.2-dev",
+    "libsdl-gfx1.2-doc",
+    "libsdl1.2-dev",
+    "tar"
+  ],
+  "nix_inputs": [
+    "SDL"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL"
+  }
+}

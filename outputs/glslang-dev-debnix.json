@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "glslang-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ba9a3c9c82fb00f26b2191632a4265c56a05544a985bd2f65ce272aaa8677e98",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "glslang-tools",
+    "pkg-config",
+    "python3:native",
+    "quilt",
+    "spirv-headers",
+    "spirv-tools"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "jq",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

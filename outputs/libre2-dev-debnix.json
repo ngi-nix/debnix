@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libre2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a4557a98e86d13b3f0e6209b8123027f1516b31cc70cb624b10ad1e86f0dc719",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "g++",
+    "libre2-9",
+    "python3",
+    "python3-six",
+    "unicode-data"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja"
+  ],
+  "map": {}
+}

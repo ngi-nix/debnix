@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libusbmuxd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "42d48124f775fe4146f56ccf74158b6e966f2c1579593ae7253df02a353e917c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libplist-dev",
+    "libusbmuxd6",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libimobiledevice-glue",
+    "libplist",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libplist-dev": "libplist"
+  }
+}

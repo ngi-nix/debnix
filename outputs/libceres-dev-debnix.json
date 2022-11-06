@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libceres-dev",
+  "nix_pkg": null,
+  "control_file_hash": "036b34e14c7105e7b9d6d90ef5e5a6533908c863215432cea1bfad5de10f7065",
+  "deb_inputs": [
+    "awk",
+    "cmake",
+    "debhelper-compat",
+    "fonts-lato",
+    "gawk",
+    "libatlas-base-dev",
+    "libceres3",
+    "libeigen3-dev",
+    "libgflags-dev",
+    "libgoogle-glog-dev",
+    "libjs-jquery",
+    "libjs-mathjax",
+    "libjs-modernizr",
+    "libjs-sphinxdoc",
+    "libjs-underscore",
+    "libsuitesparse-dev",
+    "node-html5shiv"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "eigen",
+    "glog",
+    "suitesparse"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libsuitesparse-dev": "suitesparse",
+    "libeigen3-dev": "eigen"
+  }
+}

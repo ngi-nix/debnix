@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "cd-paranoia",
+  "nix_pkg": null,
+  "control_file_hash": "cec77b9524fc4dbdf9fc8643780a4d947862f795ef6912ecbad6e38a691c7109",
+  "deb_inputs": [
+    "dctrl-tools",
+    "debhelper",
+    "grep-dctrl",
+    "libcam-dev",
+    "libcdio-cdda-dev",
+    "libcdio-cdda2",
+    "libcdio-dev",
+    "libcdio-paranoia2",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libpopt-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libcdio",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcdio-dev": "libcdio"
+  }
+}
