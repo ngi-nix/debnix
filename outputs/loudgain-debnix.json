@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "loudgain",
+  "nix_pkg": null,
+  "control_file_hash": "53cc9a37e7467020dd3fe292d82cf683ff095e437685ee4a9047015c170fb774",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libebur128-dev",
+    "libswresample-dev",
+    "libtag1-dev",
+    "libz-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ffmpeg",
+    "libebur128",
+    "libresample",
+    "pkg-config-wrapper",
+    "taglib",
+    "zlib"
+  ],
+  "map": {
+    "libebur128-dev": "libebur128",
+    "cmake": "cmake",
+    "libavutil-dev": "ffmpeg",
+    "libavformat-dev": "ffmpeg",
+    "libswresample-dev": "ffmpeg",
+    "zlib1g-dev": "zlib",
+    "libtag1-dev": "taglib",
+    "libavcodec-dev": "ffmpeg"
+  }
+}

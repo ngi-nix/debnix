@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libimath-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a3b8d9d7d9fc05a48d92cc1030f1534a49e0427ebcc72838c2cd123120fa9d29",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "doxygen",
+    "libboost-python-dev",
+    "libimath-3-1-29",
+    "libjs-jquery",
+    "pkg-config",
+    "python3-breathe",
+    "python3-dev:any",
+    "python3-numpy",
+    "python3-sphinx",
+    "sphinx-common"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

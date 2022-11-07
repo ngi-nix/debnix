@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "python3-deepdiff",
+  "nix_pkg": null,
+  "control_file_hash": "ffd53134817bbc9f5e08c2405772543fc6303e2fd154531a4998c4efbf09a237",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-clevercsv",
+    "python3-click",
+    "python3-jsonpickle",
+    "python3-mock",
+    "python3-numpy",
+    "python3-ordered-set",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-toml",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "clevercsv",
+    "click",
+    "jsonpickle",
+    "numpy",
+    "ordered-set",
+    "python3",
+    "pyyaml",
+    "toml"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml",
+    "python3-numpy": "numpy",
+    "python3-jsonpickle": "jsonpickle"
+  }
+}
