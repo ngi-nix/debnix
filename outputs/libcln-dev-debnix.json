@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libcln-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a47ca42261797eda1ffbfa61966c00d01033d2684ec2f9e0e95bd67c2e0c9cd9",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "info",
+    "info-browser",
+    "libcln6",
+    "libgmp-dev",
+    "pi",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}
