@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libois-dev",
+  "nix_pkg": null,
+  "control_file_hash": "01c6509ffa7d664264eb6a06e2fa28f98ed62353b57c2ea4613eb396f1795e3f",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dh-autoreconf",
+    "libltdl-dev",
+    "libois-1.3.0v5",
+    "libtool",
+    "libx11-dev",
+    "libxaw7-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}
