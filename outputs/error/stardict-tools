@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["autoconf", "automake", "autotools-dev", "babiloo", "debhelper", "default-libmysqlclient-dev", "dh-autoreconf", "dictzip", "dpkg-dev", "goldendict", "libgtk2.0-dev", "libpcre3-dev", "libtool", "libxml2-dev", "pkg-config", "qstardict", "sdcv", "sox", "stardict", "stardict-gtk"], or 
+output: 
+[] is empty!

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libbctoolbox-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7bf65435e105d686185fb6ce480f86ed86873fbb0e022fad60d99d7481bae086",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbctoolbox1",
+    "libdecaf-dev",
+    "libmbedtls-dev"
+  ],
+  "nix_inputs": [
+    "bc-decaf",
+    "bcunit",
+    "cmake",
+    "mbedtls"
+  ],
+  "map": {
+    "libmbedtls-dev": "mbedtls",
+    "cmake": "cmake"
+  }
+}
