@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libproperties-cpp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "553938f95a8fbff9ed04a3755746d57884e40ac0fc4eff87c03302482e1af635",
+  "deb_inputs": [
+    "cmake",
+    "cmake-extras",
+    "debhelper-compat",
+    "doxygen",
+    "googletest",
+    "graphviz",
+    "libgtest-dev",
+    "libproperties-cpp-doc",
+    "pkg-config",
+    "rdfind",
+    "symlinks"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "graphviz",
+    "gtest",
+    "lcov",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "doxygen": "doxygen",
+    "graphviz": "graphviz",
+    "cmake": "cmake",
+    "libgtest-dev": "gtest"
+  }
+}
