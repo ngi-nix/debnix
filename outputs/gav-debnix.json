@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gav",
+  "nix_pkg": null,
+  "control_file_hash": "c859d2c649b3dbdd20f186481b7219e7fab84f3c6f0a16d4f438d8c9ef7d6997",
+  "deb_inputs": [
+    "debhelper",
+    "gav-themes",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl-net1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_net"
+  ],
+  "map": {
+    "libsdl-net1.2-dev": "SDL_net",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl1.2-dev": "SDL",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

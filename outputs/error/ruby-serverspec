@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "gem2deb", "net-tools", "rake", "ruby-multi-json", "ruby-rspec", "ruby-rspec-its", "ruby-specinfra", "ruby:any"], or 
+output: 
+[] is empty!

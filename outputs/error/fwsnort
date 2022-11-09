@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "iptables", "libiptables-parse-perl", "libnet-rawip-perl", "libnetaddr-ip-perl", "snort-rules-default"], or 
+output: 
+[] is empty!

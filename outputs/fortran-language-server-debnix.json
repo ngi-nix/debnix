@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "fortran-language-server",
+  "nix_pkg": null,
+  "control_file_hash": "700109ad21d718e1a140968f868b0e0ac1c882af717fc4db17ecb866015b9d7d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "elpa-lsp-mode",
+    "help2man",
+    "python3",
+    "python3-json5",
+    "python3-packaging",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

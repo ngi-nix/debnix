@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "freedv",
+  "nix_pkg": null,
+  "control_file_hash": "535f980bff3726c5077506ce6ad096d147e3838c9fb36345760bd5c4687997a4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcodec2-dev",
+    "libhamlib-dev",
+    "libpulse-dev",
+    "libsamplerate-dev",
+    "libsndfile-dev",
+    "libspeexdsp-dev",
+    "libwxgtk3.2-dev",
+    "portaudio19-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "codec2",
+    "hamlib",
+    "libpulseaudio",
+    "libsamplerate",
+    "libsndfile",
+    "lpcnetfreedv",
+    "speexdsp",
+    "wxwidgets"
+  ],
+  "map": {
+    "libspeexdsp-dev": "speexdsp",
+    "cmake": "cmake",
+    "libhamlib-dev": "hamlib",
+    "libwxgtk3.2-dev": "wxwidgets",
+    "libcodec2-dev": "codec2",
+    "libsndfile-dev": "libsndfile",
+    "libsamplerate-dev": "libsamplerate"
+  }
+}

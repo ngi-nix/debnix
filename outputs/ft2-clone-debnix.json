@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "ft2-clone",
+  "nix_pkg": null,
+  "control_file_hash": "147c575d0e2d555e96e31a8741dd9b217eba8ac50c07d3fcb3ce1c2ebf7ec442",
+  "deb_inputs": [
+    "bambootracker",
+    "cheesecutter",
+    "debhelper-compat",
+    "ft2-clone",
+    "hivelytracker",
+    "librtaudio-dev",
+    "librtmidi-dev",
+    "libsdl2-dev",
+    "modplug-tools",
+    "opencubicplayer",
+    "protracker",
+    "schism"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "alsa-lib",
+    "cmake"
+  ],
+  "map": {}
+}

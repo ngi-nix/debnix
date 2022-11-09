@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "fq",
+  "nix_pkg": null,
+  "control_file_hash": "c9335edfd9dfbeb4891822e819273a7760fd42ec83bed7df8c8e477d8336fe59",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-creasty-defaults-dev",
+    "golang-github-golang-snappy-dev",
+    "golang-github-google-gopacket-dev",
+    "golang-github-gopacket-gopacket-dev",
+    "golang-github-mitchellh-copystructure-dev",
+    "golang-github-mitchellh-mapstructure-dev",
+    "golang-github-pmezard-go-difflib-dev",
+    "golang-github-wader-gojq-dev",
+    "golang-github-wader-readline-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-exp-dev",
+    "golang-golang-x-text-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}
