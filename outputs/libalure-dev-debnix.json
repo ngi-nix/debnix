@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libalure-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a3098e3a09f4bbe366c416ce46230d2b5ac8a1b5e87910b0340684bde8de54e9",
+  "deb_inputs": [
+    "alure-doc",
+    "cmake",
+    "debhelper-compat",
+    "libalure1",
+    "libdumb1-dev",
+    "libflac-dev",
+    "libmodplug-dev",
+    "libmpg123-dev",
+    "libopenal-dev",
+    "libsndfile-dev",
+    "libvorbis-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openal-soft"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libopenal-dev": "openal-soft"
+  }
+}

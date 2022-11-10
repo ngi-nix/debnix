@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libell-dev",
+  "nix_pkg": null,
+  "control_file_hash": "af9691395dfa84550c2bd915a257bc78dd1c6a107c4ad3e6d4850cea121228ea",
+  "deb_inputs": [
+    "dbus-daemon",
+    "debhelper-compat",
+    "libell0",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "dbus-daemon": "dbus"
+  }
+}

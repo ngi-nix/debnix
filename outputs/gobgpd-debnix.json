@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "gobgpd",
+  "nix_pkg": null,
+  "control_file_hash": "08a7e6b656ab5455db1ccc3d81f35cff4ec1a680ec83ba20e261cb80e9e13356",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-coreos-go-systemd-dev",
+    "golang-github-dgryski-go-farm-dev",
+    "golang-github-go-test-deep-dev",
+    "golang-github-google-uuid-dev",
+    "golang-github-jessevdk-go-flags-dev",
+    "golang-github-k-sone-critbitgo-dev",
+    "golang-github-kr-pretty-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-vishvananda-netlink-dev",
+    "golang-golang-x-net-dev",
+    "golang-google-grpc-dev",
+    "golang-gopkg-eapache-channels.v1-dev",
+    "golang-goprotobuf-dev",
+    "protobuf-compiler"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "klog",
+  "nix_pkg": null,
+  "control_file_hash": "9f3915c7234c4c5aad250c0deb1a0dd5e165d5112babe49fb1fe694a405dfe0e",
+  "deb_inputs": [
+    "cdbs",
+    "cmake",
+    "debhelper",
+    "libhamlib++-dev",
+    "libhamlib-dev",
+    "libqt5charts5-dev",
+    "libqt5serialport5-dev",
+    "libqt5sql5-sqlite",
+    "qml-module-qtlocation",
+    "qml-module-qtpositioning",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-window2",
+    "qml-module-qtquick2",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtchooser",
+    "qtdeclarative5-dev",
+    "qtpositioning5-dev",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "hamlib",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtcharts",
+    "qtserialport",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "qtbase5-dev": "qtbase",
+    "libhamlib++-dev": "hamlib",
+    "libhamlib-dev": "hamlib"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "lbreakouthd",
+  "nix_pkg": null,
+  "control_file_hash": "17016d114e2f1905b29c96520e81c3b71f7b0e0918655cc56c76c49df7e48e2f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "lbreakouthd-data",
+    "libsdl2-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_ttf"
+  ],
+  "map": {}
+}

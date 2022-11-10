@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "git-autofixup",
+  "nix_pkg": null,
+  "control_file_hash": "b033770e0ace986384e8c167744e37f5016ce51dda0328f26ba68db3ec31ce63",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

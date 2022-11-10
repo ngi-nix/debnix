@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libdsdcc1",
+  "nix_pkg": null,
+  "control_file_hash": "1cb5f943a81d9977a16d5105b7e08070a0f16180a348bd3de2cfaa6674595879",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdsdcc1"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "mbelib",
+    "pkg-config-wrapper",
+    "serialdv"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

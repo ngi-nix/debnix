@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libaqbanking-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1155c45b657c7f3e4a53f9094bdc793283350fc4fb0f7026902a83ada7a802f9",
+  "deb_inputs": [
+    "aqbanking-tools",
+    "asciidoctor",
+    "bzip2",
+    "debhelper-compat",
+    "doxygen",
+    "gwenhywfar-tools",
+    "libaqbanking-data",
+    "libaqbanking44",
+    "libgmp-dev",
+    "libgwenhywfar-core-dev",
+    "libxmlsec1-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gmp-with-cxx",
+    "gwenhywfar",
+    "libtool",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "xmlsec",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libgwenhywfar-core-dev": "gwenhywfar",
+    "libxmlsec1-dev": "xmlsec",
+    "gwenhywfar-tools": "gwenhywfar"
+  }
+}

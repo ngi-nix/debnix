@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "guile-gcrypt",
+  "nix_pkg": null,
+  "control_file_hash": "9ee7eb5ad0c73433419971057bcdf3888a03be4b7d3e3a1561e1f3082a9be11a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "libgcrypt-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "guile",
+    "libgcrypt",
+    "pkg-config-wrapper",
+    "texinfo"
+  ],
+  "map": {
+    "libgcrypt-dev": "libgcrypt",
+    "guile-3.0": "guile",
+    "texinfo": "texinfo",
+    "guile-3.0-dev": "guile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libccrtp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "deb3a7183d05f51f9cf8b95452a662c6427360a2b5010e5162fa101936413003",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "doxygen",
+    "dpkg-dev",
+    "libc6-dev",
+    "libccrtp2v5",
+    "libgcrypt-dev",
+    "libgcrypt20-dev",
+    "libucommon-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "libgcrypt",
+    "openssl",
+    "pkg-config-wrapper",
+    "ucommon"
+  ],
+  "map": {
+    "libgcrypt-dev": "libgcrypt",
+    "libucommon-dev": "ucommon",
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "idevicerestore",
+  "nix_pkg": null,
+  "control_file_hash": "75a54db5b5f509c43979f97fd88f1b452300e5d13c476b2df7bae329bddf2b13",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libcurl4-gnutls-dev",
+    "libimobiledevice-dev",
+    "libirecovery-1.0-dev",
+    "libusb-1.0-0-dev",
+    "libzip-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "libimobiledevice",
+    "libirecovery",
+    "libusbmuxd",
+    "libzip",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libirecovery-1.0-dev": "libirecovery",
+    "libzip-dev": "libzip",
+    "libcurl4-gnutls-dev": "curl",
+    "libimobiledevice-dev": "libimobiledevice"
+  }
+}

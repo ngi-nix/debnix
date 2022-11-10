@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "irssi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9ffe27732b43009b794504e9402965ba64f42b9bc962e1139d94790e6971f48c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "irssi",
+    "irssi-scripts",
+    "libglib2.0-dev",
+    "libncurses5-dev",
+    "libotr5-dev",
+    "libperl-dev",
+    "libssl-dev",
+    "meson",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libgcrypt",
+    "libotr",
+    "meson",
+    "ncurses",
+    "ninja",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson",
+    "libncurses5-dev": "ncurses",
+    "openssl": "openssl",
+    "libglib2.0-dev": "glib",
+    "libssl-dev": "openssl",
+    "libotr5-dev": "libotr",
+    "libperl-dev": "perl"
+  }
+}

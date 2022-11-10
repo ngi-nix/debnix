@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libghc-doctest-doc",
+  "nix_pkg": null,
+  "control_file_hash": "7ab5e5b8e343a9060730ebf24cb7609c7f63d14fadf90adcf1e2ede56e6385e1",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "ghc",
+    "ghc-prof",
+    "haskell-devscripts",
+    "libghc-base-compat-dev",
+    "libghc-base-compat-prof",
+    "libghc-code-page-dev",
+    "libghc-code-page-prof",
+    "libghc-exceptions-dev",
+    "libghc-exceptions-prof",
+    "libghc-ghc-paths-dev",
+    "libghc-ghc-paths-prof",
+    "libghc-syb-dev",
+    "libghc-syb-prof"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libcbor-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ff0caf55f5d7324e06975ed30a472e563ed4237038cc4dc1ce38f1f6070aa3a1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcbor0.8",
+    "libjs-mathjax"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "kubecolor",
+  "nix_pkg": null,
+  "control_file_hash": "37268328532029354acafb411854646d690f7c75b1f7f9cea0061a542e894038",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-makenowjust-heredoc-dev",
+    "golang-github-mattn-go-colorable-dev",
+    "golang-github-mattn-go-isatty-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}
