@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "libkshark2",
+  "nix_pkg": null,
+  "control_file_hash": "3bc2bfddfc853c690d310e58f7db73a4f568a2ebfd651f4116e9cc4032e4c2c5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen-gui",
+    "fonts-freefont-ttf",
+    "freeglut3-dev",
+    "graphviz",
+    "libjson-c-dev",
+    "libkshark2",
+    "libtracecmd-dev",
+    "libtraceevent-dev",
+    "libtracefs-dev",
+    "libxi-dev",
+    "libxmu-dev",
+    "pkg-config",
+    "policykit-1",
+    "qtbase5-dev",
+    "trace-cmd"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "freeglut",
+    "glu",
+    "json-c",
+    "libtraceevent",
+    "libtracefs",
+    "pkg-config-wrapper",
+    "qtbase",
+    "trace-cmd"
+  ],
+  "map": {
+    "libtraceevent-dev": "libtraceevent",
+    "freeglut3-dev": "freeglut",
+    "libtracefs-dev": "libtracefs",
+    "cmake": "cmake",
+    "libtracecmd-dev": "trace-cmd",
+    "trace-cmd": "trace-cmd",
+    "libjson-c-dev": "json-c",
+    "qtbase5-dev": "qtbase"
+  }
+}

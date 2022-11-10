@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libspiro-dev",
+  "nix_pkg": null,
+  "control_file_hash": "590f5a43b54cb186c1ea9854b2158959483079bdcfd70e07202e550dc21dda7b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libspiro1"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

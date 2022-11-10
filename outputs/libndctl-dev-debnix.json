@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libndctl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "eaf0d19104daabc05884f5b071d8ec58a55584103e2fb1ba1c5875d0b543b997",
+  "deb_inputs": [
+    "asciidoctor",
+    "bash-completion",
+    "cmake",
+    "debhelper-compat",
+    "libcxl1",
+    "libdaxctl1",
+    "libiniparser-dev",
+    "libjson-c-dev",
+    "libkeyutils-dev",
+    "libkmod-dev",
+    "libndctl6",
+    "libudev-dev",
+    "meson",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "json-c",
+    "keyutils",
+    "kmod",
+    "libxslt",
+    "pkg-config-wrapper",
+    "systemd",
+    "util-linux",
+    "which",
+    "xmlto"
+  ],
+  "map": {
+    "libkeyutils-dev": "keyutils",
+    "libkmod-dev": "kmod",
+    "uuid-dev": "util-linux",
+    "libudev-dev": "systemd",
+    "libjson-c-dev": "json-c"
+  }
+}

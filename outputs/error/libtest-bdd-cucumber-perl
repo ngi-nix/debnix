@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "libfile-find-rule-perl", "libjson-maybexs-perl", "libmodule-runtime-perl", "libmoo-perl", "libmoox-handlesvia-perl", "libpath-class-perl", "libscalar-list-utils-perl", "libtest-harness-perl", "libtest-simple-perl", "libtest2-suite-perl", "libtype-tiny-perl", "libyaml-perl"], or 
+output: 
+[] is empty!

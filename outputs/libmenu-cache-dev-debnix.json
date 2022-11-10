@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libmenu-cache-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1ef4995353d37a816ddf0f3bf3d113a57262a6e3c1b783b49bd06e5cf1b2a12d",
+  "deb_inputs": [
+    "debhelper",
+    "gtk-doc-tools",
+    "libfm-extra-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libmenu-cache-bin",
+    "libmenu-cache-doc",
+    "libmenu-cache3"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libfm-extra",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libfm-extra-dev": "libfm-extra",
+    "libglib2.0-doc": "glib",
+    "libglib2.0-dev": "glib"
+  }
+}

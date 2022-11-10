@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libpst-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f2a53472802e1b159f448be93a592e3aa42b0229804d0a9a32b5d444000dcec4",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "dpkg-dev",
+    "imagemagick",
+    "libgd-dev",
+    "libgsf-1-dev",
+    "libpst4",
+    "mb2md"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "doxygen",
+    "gettext",
+    "imagemagick",
+    "libgsf",
+    "pkg-config-wrapper",
+    "xmlto"
+  ],
+  "map": {
+    "imagemagick": "imagemagick",
+    "libgsf-1-dev": "libgsf"
+  }
+}

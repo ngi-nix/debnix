@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libotr5-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a71641a8bebf8c8e308b31a381e74e1bc6ed952af2433744a14cf693d5d7fd71",
+  "deb_inputs": [
+    "debhelper",
+    "libgcrypt20-dev",
+    "libgpg-error-dev",
+    "libotr5",
+    "libotr5-bin",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libgcrypt"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

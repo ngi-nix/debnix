@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libosd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8326664bf95b96a4a7661154773841db311a3fac2affce9c3bc4dda2f8add15d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libglew-dev",
+    "libglfw3-dev",
+    "libosd-dev",
+    "libosdcpu3.4.4",
+    "libosdgpu3.4.4",
+    "libtbb-dev",
+    "libxcursor-dev",
+    "libxi-dev",
+    "libxinerama-dev",
+    "libxrandr-dev",
+    "libxxf86vm-dev",
+    "opencl-headers",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "glew",
+    "glu",
+    "libGL",
+    "libX11",
+    "libXcursor",
+    "libXi",
+    "libXinerama",
+    "libXrandr",
+    "libXxf86vm",
+    "ocl-icd",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libxcursor-dev": "libXcursor",
+    "libxinerama-dev": "libXinerama",
+    "libxi-dev": "libXi",
+    "libxrandr-dev": "libXrandr",
+    "libglew-dev": "glew",
+    "libxxf86vm-dev": "libXxf86vm"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libxc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "62ca027d27e59a46b7ef7628ff57fa42879642b7583a103b5f67770895a8a7e5",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "dh-autoreconf",
+    "gfortran",
+    "libxc9"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gfortran-wrapper",
+    "perl"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

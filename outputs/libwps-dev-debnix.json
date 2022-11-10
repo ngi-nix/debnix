@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libwps-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4fd1654d992c5eea3153294bacbf727e96dad0280e838ebbe66fbace6e76f87e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libboost-dev",
+    "libcppunit-dev",
+    "librevenge-dev",
+    "libwps-0.4-4",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "librevenge",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "librevenge-dev": "librevenge",
+    "libboost-dev": "boost"
+  }
+}

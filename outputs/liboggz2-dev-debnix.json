@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "liboggz2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3d2dcb92d00e4df2e40c6d0eef01ca77508a27292df61c1eb8d01c19877b8464",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "docbook-to-man",
+    "doxygen",
+    "libc6-dev",
+    "libogg-dev",
+    "liboggz2",
+    "libtool",
+    "pkg-config",
+    "vorbis-tools"
+  ],
+  "nix_inputs": [
+    "libogg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg"
+  }
+}

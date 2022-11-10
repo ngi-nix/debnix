@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libutf8proc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0eb693412a3ed2fe441c0c567dd2ea7153f4b79c81a09b9e99331a0e95645138",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libutf8proc2",
+    "unicode-data"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

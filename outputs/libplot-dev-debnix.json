@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libplot-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c33fb668f374df9e6f8445b57d1e3ab218d4a396a39b8edf7eda0ba6f1c9ef72",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "fonts-urw-base35",
+    "libice-dev",
+    "libplot2c2",
+    "libpng-dev",
+    "libsm-dev",
+    "libx11-dev",
+    "libxaw7-dev",
+    "libxext-dev",
+    "libxmu-dev",
+    "libxt-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "libpng-apng"
+  ],
+  "map": {}
+}

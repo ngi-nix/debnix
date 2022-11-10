@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libnetfilter-log-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b085b5d2d8ece4a23d48aec052cf028519eefa980e4e7ab7c22fe8f3c7ee0106",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libmnl-dev",
+    "libnetfilter-log-doc",
+    "libnetfilter-log1",
+    "libnfnetlink-dev",
+    "libtool",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libmnl",
+    "libnfnetlink",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmnl-dev": "libmnl",
+    "libnfnetlink-dev": "libnfnetlink"
+  }
+}

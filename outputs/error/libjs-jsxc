@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "libjs-bootstrap", "libjs-i18next", "libjs-jquery", "libjs-jquery-colorbox", "libjs-jquery-fullscreen", "libjs-jquery-slimscroll", "libjs-jquery-ui", "libjs-prettify", "libjs-strophe", "libjs-strophejs-plugin-chatstates", "libjs-strophejs-plugin-mam", "libjs-strophejs-plugin-rsm", "uglifyjs"], or 
+output: 
+[] is empty!

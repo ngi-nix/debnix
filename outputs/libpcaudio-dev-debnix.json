@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libpcaudio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "49cb70c1f354d7f0ef9462c6cbe2763b1b95af36cceed5a2f54c6256c48a69cb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libpcaudio0",
+    "libpulse-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "autoconf",
+    "automake",
+    "libpulseaudio",
+    "libtool",
+    "pkg-config-wrapper",
+    "portaudio",
+    "which"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib"
+  }
+}

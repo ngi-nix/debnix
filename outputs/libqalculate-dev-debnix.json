@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libqalculate-dev",
+  "nix_pkg": null,
+  "control_file_hash": "19b176fee4daf110f61f720483ac93ddec7a18ad83f388c011f237949334339b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "gnuplot-nox",
+    "intltool",
+    "libcln-dev",
+    "libcurl4-gnutls-dev",
+    "libgettextpo-dev",
+    "libglib2.0-dev",
+    "libgmp-dev",
+    "libicu-dev",
+    "libmpfr-dev",
+    "libncurses-dev",
+    "libqalculate-data",
+    "libqalculate22",
+    "libreadline-dev",
+    "libxml2-dev",
+    "wget"
+  ],
+  "nix_inputs": [
+    "curl",
+    "doxygen",
+    "gettext",
+    "intltool",
+    "libxml2",
+    "mpfr",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libgettextpo-dev": "gettext",
+    "libxml2-dev": "libxml2",
+    "libcurl4-gnutls-dev": "curl",
+    "doxygen": "doxygen",
+    "intltool": "intltool",
+    "libmpfr-dev": "mpfr",
+    "libreadline-dev": "readline"
+  }
+}
