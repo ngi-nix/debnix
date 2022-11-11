@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "bemenu",
+  "nix_pkg": null,
+  "control_file_hash": "9821a15badf9021d3864aec3af5aedea5d7e72eac83174d373abfe97a2089fbf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbemenu-curses",
+    "libbemenu-wayland",
+    "libbemenu-x11",
+    "libbemenu0",
+    "libncurses-dev",
+    "libpango1.0-dev",
+    "libwayland-dev",
+    "libx11-dev",
+    "libxinerama-dev",
+    "libxkbcommon-dev",
+    "pkg-config",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "fribidi",
+    "harfbuzz",
+    "libX11",
+    "libXdmcp",
+    "libXft",
+    "libXinerama",
+    "libpthread-stubs",
+    "libxcb",
+    "libxkbcommon",
+    "ncurses",
+    "pango",
+    "pcre",
+    "pkg-config-wrapper",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "wayland-protocols": "wayland-protocols",
+    "libncurses-dev": "ncurses",
+    "libxkbcommon-dev": "libxkbcommon",
+    "libx11-dev": "libX11",
+    "libxinerama-dev": "libXinerama",
+    "libwayland-dev": "wayland"
+  }
+}

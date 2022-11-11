@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "tlf",
+  "nix_pkg": null,
+  "control_file_hash": "be0bd636f9bc6760fc0804e568bd72566eb435569e5d9295e1d2c164e7b794ab",
+  "deb_inputs": [
+    "debhelper-compat",
+    "hamradio-files",
+    "libcmocka-dev",
+    "libglib2.0-dev",
+    "libhamlib-dev",
+    "libncurses5-dev",
+    "libxmlrpc-core-c3-dev",
+    "pkg-config",
+    "sox",
+    "xplanet"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "glib",
+    "hamlib",
+    "ncurses-abi5-compat",
+    "perl",
+    "pkg-config-wrapper",
+    "xmlrpc-c"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libhamlib-dev": "hamlib",
+    "libxmlrpc-core-c3-dev": "xmlrpc-c"
+  }
+}

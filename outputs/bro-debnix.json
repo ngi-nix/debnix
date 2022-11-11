@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "bro",
+  "nix_pkg": null,
+  "control_file_hash": "299bcce1d51420fd7cc2bd6af48e91a9021bed322d35c19fa79cb5d6ceab2539",
+  "deb_inputs": [
+    "binpac",
+    "bison",
+    "bro-common",
+    "btest",
+    "cmake",
+    "debhelper",
+    "flex",
+    "libbind-dev",
+    "libcurl-dev",
+    "libcurl4-openssl-dev",
+    "libgeoip-dev",
+    "libgoogle-perftools-dev",
+    "libpcap-dev",
+    "libpcap0.8-dev",
+    "libreadline-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libxml2-dev",
+    "rsync",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "curl",
+    "file",
+    "flex",
+    "gperftools",
+    "libmaxminddb",
+    "libpcap",
+    "ncurses",
+    "openssl",
+    "python3",
+    "swig",
+    "zlib"
+  ],
+  "map": {
+    "libcurl-dev": "curl",
+    "bison": "bison",
+    "zlib1g-dev": "zlib",
+    "libpcap-dev": "libpcap",
+    "cmake": "cmake",
+    "libssl-dev": "openssl",
+    "libpcap0.8-dev": "libpcap",
+    "flex": "flex",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

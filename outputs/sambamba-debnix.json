@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "sambamba",
+  "nix_pkg": null,
+  "control_file_hash": "9e21b340ecc09002f7fb5e8ccc80cafe0d2bc175c4ef6c043b4336cbd1b9a669",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-dlang",
+    "ldc",
+    "libbz2-dev",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libdeflate-dev",
+    "libhts-dev",
+    "liblz4-dev",
+    "liblzma-dev",
+    "libssl-dev",
+    "meson",
+    "pkg-config",
+    "python3",
+    "shunit2",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "ldc",
+    "lz4",
+    "python3",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "liblz4-dev": "lz4",
+    "zlib1g-dev": "zlib",
+    "ldc": "ldc",
+    "python3": "python3"
+  }
+}

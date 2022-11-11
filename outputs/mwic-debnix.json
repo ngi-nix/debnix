@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "mwic",
+  "nix_pkg": null,
+  "control_file_hash": "9b63f66e4802f26daebeaeca48bd3d84ef1b7e672429060fb3bf9f1c01cc384d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "hunspell-en-gb",
+    "python3",
+    "python3-docutils",
+    "python3-enchant",
+    "python3-nose",
+    "python3-regex"
+  ],
+  "nix_inputs": [
+    "pyenchant",
+    "regex"
+  ],
+  "map": {
+    "python3-enchant": "pyenchant"
+  }
+}

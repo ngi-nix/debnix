@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "catgirl",
+  "nix_pkg": null,
+  "control_file_hash": "90aa314bfc2993cefe0ad2a997c06f2b41d7d3c2c8b479e306acf13b9cc7c3a7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libncurses-dev",
+    "libtls-dev",
+    "pkg-config",
+    "tmux"
+  ],
+  "nix_inputs": [
+    "ctags",
+    "libressl",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

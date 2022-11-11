@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "nat-traverse",
+  "nix_pkg": null,
+  "control_file_hash": "1a4b23300b0bc47b0281fc0fc85b8545bdb8751258ce43c2c44f70f0e1c6ac1b",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

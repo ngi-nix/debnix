@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "nanopb",
+  "nix_pkg": null,
+  "control_file_hash": "054bfffce141676d5f4aaaffc91307b6495efb9085d35a4d6ba4002518c7c51f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "protobuf-compiler",
+    "python3",
+    "python3-protobuf",
+    "scons"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "cmake": "cmake"
+  }
+}

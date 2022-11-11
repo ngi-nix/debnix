@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "tinyscheme",
+  "nix_pkg": null,
+  "control_file_hash": "b39116cb0919b74339f6e1fff3d94a319752662f6c2d7cf26f28f5b781d07492",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "dos2unix"
+  ],
+  "map": {}
+}

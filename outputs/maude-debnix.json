@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "maude",
+  "nix_pkg": null,
+  "control_file_hash": "0569944436df4dccd38792eff5f3255ae693dec0358396beedc719ad1748f1bd",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libbdd-dev",
+    "libcvc4-dev",
+    "libgmp3-dev",
+    "libncurses5-dev",
+    "libsigsegv-dev",
+    "libtecla-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "buddy",
+    "cln",
+    "flex",
+    "gmp-with-cxx",
+    "libsigsegv",
+    "ncurses",
+    "tecla",
+    "unzip",
+    "yices"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "libtecla-dev": "tecla",
+    "libsigsegv-dev": "libsigsegv",
+    "bison": "bison",
+    "libbdd-dev": "buddy",
+    "flex": "flex"
+  }
+}

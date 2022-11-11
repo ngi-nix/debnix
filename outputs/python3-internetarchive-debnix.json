@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "python3-internetarchive",
+  "nix_pkg": null,
+  "control_file_hash": "a3d44670f86b06db43805c05261f4c1e0857d729b4fce562e0b73c2dbf604164",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-clint",
+    "python3-docopt",
+    "python3-internetarchive",
+    "python3-jsonpatch",
+    "python3-mock",
+    "python3-pytest",
+    "python3-requests",
+    "python3-responses",
+    "python3-schema",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "docopt",
+    "jsonpatch",
+    "python3",
+    "requests",
+    "schema",
+    "setuptools",
+    "tqdm",
+    "urllib3"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-requests": "requests",
+    "python3-docopt": "docopt"
+  }
+}

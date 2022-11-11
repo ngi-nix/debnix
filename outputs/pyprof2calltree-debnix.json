@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "pyprof2calltree",
+  "nix_pkg": null,
+  "control_file_hash": "f8b0e10b010ed9195c487f9ef2b790a20fac221e34180dd3aaf65fb4c0c6eb43",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-docutils",
+    "python3-flake8",
+    "python3-isort",
+    "python3-pytest",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

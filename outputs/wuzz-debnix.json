@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "wuzz",
+  "nix_pkg": null,
+  "control_file_hash": "4c544a755c690df5c807dad81b8aedc03f752df932669f995ba42552b4da1ba3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-fatih-color-dev",
+    "golang-github-jroimartin-gocui-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-nwidger-jsoncolor-dev",
+    "golang-github-tidwall-gjson-dev",
+    "golang-github-x86kernel-htmlcolor-dev",
+    "golang-golang-x-net-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

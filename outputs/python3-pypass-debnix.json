@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "python3-pypass",
+  "nix_pkg": null,
+  "control_file_hash": "f5b0ace31dee77a213cfb175705f21a1466af122385c4f61ac7e3ff72518f921",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "gnupg",
+    "python3-all",
+    "python3-click",
+    "python3-colorama",
+    "python3-pbr",
+    "python3-pexpect",
+    "python3-pypass",
+    "python3-setuptools",
+    "tree"
+  ],
+  "nix_inputs": [
+    "click",
+    "colorama",
+    "nose",
+    "pbr",
+    "pexpect",
+    "python3"
+  ],
+  "map": {
+    "python3-pexpect": "pexpect"
+  }
+}

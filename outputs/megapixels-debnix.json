@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "megapixels",
+  "nix_pkg": null,
+  "control_file_hash": "56be7d6151e4c3a21dd7ffc341528358bcb0ccbd3d5c4cee9cb8fe71474b9268",
+  "deb_inputs": [
+    "debhelper-compat",
+    "graphicsmagick-imagemagick-compat",
+    "imagemagick",
+    "libgtk-4-dev",
+    "libimage-exiftool-perl",
+    "libraw-bin",
+    "libtiff-dev",
+    "libzbar-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gtk4",
+    "libepoxy",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "zbar"
+  ],
+  "map": {
+    "meson": "meson",
+    "libzbar-dev": "zbar",
+    "libgtk-4-dev": "gtk4"
+  }
+}

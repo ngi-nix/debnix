@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "qvge",
+  "nix_pkg": null,
+  "control_file_hash": "7d9709c959b63a1c5505922b49075d3bbf2d8576dae7d61973a29580319177bc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "graphviz",
+    "libqt5opengl5-dev",
+    "libqt5svg5-dev",
+    "libqt5x11extras5-dev",
+    "qtbase5-dev",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "qtx11extras"
+  ],
+  "map": {}
+}

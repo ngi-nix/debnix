@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "rocm-smi",
+  "nix_pkg": null,
+  "control_file_hash": "88ddc442c9409669728e07e344e14d135abf810ba63d4d8fa97ce3c2e48fc3e7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dot2tex",
+    "doxygen",
+    "doxygen-latex",
+    "liboam1",
+    "librocm-smi64-1",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-python", "libtidy-0.99-0", "libtidy5", "libtidy5deb1", "python3-all", "python3-setuptools", "python3-six"], or 
+output: 
+[] is empty!

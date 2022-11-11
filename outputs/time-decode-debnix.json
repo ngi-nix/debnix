@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "time-decode",
+  "nix_pkg": null,
+  "control_file_hash": "6f537b080bc18274bbd2a37a81b70277790649e7f37f4a446ccb65f567a01cfc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all:any",
+    "python3-colorama",
+    "python3-dateutil",
+    "python3-setuptools",
+    "python3-six"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "python-dateutil",
+    "python3"
+  ],
+  "map": {
+    "python3-dateutil": "python-dateutil"
+  }
+}

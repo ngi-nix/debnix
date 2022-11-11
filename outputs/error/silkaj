@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bash-completion", "ca-certificates", "debhelper-compat", "dh-sequence-bash-completion", "dh-sequence-python3", "help2man", "libtest-command-simple-perl", "perl", "pybuild-plugin-pyproject", "python3", "python3-base58", "python3-click", "python3-duniterpy", "python3-pendulum", "python3-poetry-core", "python3-pytest", "python3-setuptools", "python3-tabulate", "python3-texttable"], or 
+output: 
+[] is empty!

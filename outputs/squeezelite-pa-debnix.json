@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "squeezelite-pa",
+  "nix_pkg": null,
+  "control_file_hash": "a5dbb4733b8460999d6e67bfbe5e039d17a318afd18b9c1a7ba18038a0244ff5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libavformat-dev",
+    "libfaad-dev",
+    "libflac-dev",
+    "liblircclient-dev",
+    "libmad0-dev",
+    "libmpg123-dev",
+    "libpulse-dev",
+    "libsoxr-dev",
+    "libssl-dev",
+    "libvorbis-dev",
+    "lsb-base",
+    "portaudio19-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "faad2",
+    "ffmpeg",
+    "flac",
+    "libmad",
+    "libvorbis",
+    "mpg123",
+    "openssl",
+    "opusfile",
+    "soxr"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libavformat-dev": "ffmpeg",
+    "libmpg123-dev": "mpg123",
+    "libmad0-dev": "libmad",
+    "libfaad-dev": "faad2",
+    "libasound2-dev": "alsa-lib",
+    "libflac-dev": "flac",
+    "libsoxr-dev": "soxr",
+    "libvorbis-dev": "libvorbis"
+  }
+}

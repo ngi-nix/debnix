@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "opentracker",
+  "nix_pkg": null,
+  "control_file_hash": "cdc2b7f5dfc20863c478464ad6d900a3b814566810a1203ca921156ef344dc54",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libowfat-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libowfat",
+    "zlib"
+  ],
+  "map": {
+    "libowfat-dev": "libowfat",
+    "zlib1g-dev": "zlib"
+  }
+}

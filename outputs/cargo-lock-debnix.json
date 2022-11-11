@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "cargo-lock",
+  "nix_pkg": null,
+  "control_file_hash": "45765311076c2618c80eea725755310abac734c30370ef3d4334419527db4186",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-gumdrop-0.8+default-dev",
+    "librust-petgraph-0.6+default-dev",
+    "librust-semver-1+default-dev",
+    "librust-semver-1+serde-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+serde-derive-dev",
+    "librust-toml-0.5+default-dev",
+    "librust-url-2+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

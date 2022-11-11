@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "protoc-gen-go",
+  "nix_pkg": null,
+  "control_file_hash": "3d1a638375b5e80d85def992ed083c21fb6cca3f921685cca677685b0744ea78",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "libprotobuf-dev",
+    "protobuf-compiler"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

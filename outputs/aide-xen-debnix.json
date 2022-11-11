@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "aide-xen",
+  "nix_pkg": null,
+  "control_file_hash": "725d8652f2553fc072ea79c6b7b1a452aa54ea914190ecfe4db30b07d55cc9c7",
+  "deb_inputs": [
+    "aide",
+    "aide-common",
+    "autoconf-archive",
+    "bison",
+    "bsd-mailx",
+    "check",
+    "cron",
+    "debconf-utils",
+    "debhelper-compat",
+    "figlet",
+    "flex",
+    "libacl1-dev",
+    "libattr1-dev",
+    "libaudit-dev",
+    "libcap-dev",
+    "libext2fs-dev",
+    "liblockfile1",
+    "libmhash-dev",
+    "libpcre2-dev",
+    "libselinux1-dev",
+    "mailx",
+    "pkg-config",
+    "po-debconf",
+    "ucf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "bison",
+    "flex",
+    "libselinux",
+    "mhash",
+    "pcre",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "bison": "bison",
+    "libselinux1-dev": "libselinux",
+    "flex": "flex",
+    "libmhash-dev": "mhash",
+    "libacl1-dev": "acl",
+    "libpcre2-dev": "pcre",
+    "libattr1-dev": "attr"
+  }
+}

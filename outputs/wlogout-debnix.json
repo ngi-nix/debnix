@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "wlogout",
+  "nix_pkg": null,
+  "control_file_hash": "15d279aee2c9a2372fcf67befbd1923a38c201a6507405fd2303f10f2cc3791d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gobject-introspection",
+    "libgtk-3-dev",
+    "libgtk-layer-shell-dev",
+    "libjsmn-dev",
+    "meson",
+    "ninja-build",
+    "scdoc",
+    "swaylock",
+    "systemd"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "gtk-layer-shell",
+    "libxkbcommon",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "meson": "meson",
+    "libgtk-layer-shell-dev": "gtk-layer-shell",
+    "scdoc": "scdoc"
+  }
+}

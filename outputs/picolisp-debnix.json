@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "picolisp",
+  "nix_pkg": null,
+  "control_file_hash": "d9ae736e02cb01ef034690c1bdbb4d62d7dedaa2b5c6c5fd06619a72df7bfd53",
+  "deb_inputs": [
+    "clang",
+    "debhelper",
+    "dpkg-dev",
+    "libffi-dev",
+    "libreadline-dev",
+    "libssl-dev",
+    "llvm",
+    "picolisp",
+    "pkg-config",
+    "tinymce",
+    "w3m"
+  ],
+  "nix_inputs": [
+    "openjdk",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

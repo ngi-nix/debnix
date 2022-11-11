@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "xc3sprog",
+  "nix_pkg": null,
+  "control_file_hash": "d549260933443a2de274356212f3b9aa43bf3d19879f105156ec9bfdbc8e0780",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libftdi1-dev",
+    "libusb-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libftdi",
+    "libusb-compat"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libftdi1-dev": "libftdi"
+  }
+}

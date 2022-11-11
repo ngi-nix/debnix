@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "timg",
+  "nix_pkg": null,
+  "control_file_hash": "dc6732844c6e95e7fca0486d1dc4764f04b6977255ee3eb17134f2f2568d8b01",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libavdevice-dev",
+    "libexif-dev",
+    "libgraphicsmagick++-dev",
+    "libopenslide-dev",
+    "libpng-dev",
+    "libswscale-dev",
+    "libturbojpeg-dev",
+    "pandoc",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ffmpeg",
+    "graphicsmagick",
+    "libexif",
+    "libjpeg-turbo",
+    "openslide",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libopenslide-dev": "openslide",
+    "libswscale-dev": "ffmpeg",
+    "libavdevice-dev": "ffmpeg",
+    "libexif-dev": "libexif"
+  }
+}

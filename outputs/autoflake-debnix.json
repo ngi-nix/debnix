@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "autoflake",
+  "nix_pkg": null,
+  "control_file_hash": "a08ec8e58de0505755ec3f62d183fe71879969d57572fba3760c99ba2c24dd54",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "pybuild-plugin-pyproject",
+    "python3-all",
+    "python3-argparse-manpage",
+    "python3-hatchling",
+    "python3-poetry-core",
+    "python3-pyflakes",
+    "python3-pytest",
+    "python3-toml"
+  ],
+  "nix_inputs": [
+    "pyflakes",
+    "python3"
+  ],
+  "map": {
+    "python3-pyflakes": "pyflakes"
+  }
+}

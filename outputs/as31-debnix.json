@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "as31",
+  "nix_pkg": null,
+  "control_file_hash": "55a93d95d16685ba543276b50862669f54cb242372872d8753787239c9b2e6bc",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "bison"
+  ],
+  "map": {}
+}

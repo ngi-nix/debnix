@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "cereal",
+  "nix_pkg": null,
+  "control_file_hash": "2b1903bc30a2bf6e960232e95dfd68e3f80964bb84f689ea22cd0e531f2c59ee",
+  "deb_inputs": [
+    "adduser",
+    "debhelper",
+    "procmail",
+    "runit",
+    "screen"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "pagemon",
+  "nix_pkg": null,
+  "control_file_hash": "aae46e2308d26da567b84f334341136a779f645b6eb85e7f5f554fa8014ac913",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libncurses5-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses"
+  }
+}

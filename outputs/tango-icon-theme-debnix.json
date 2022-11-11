@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "tango-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "4a534dcc0a60d22e78145ab679430595c36192c16454dabff4740ac010182609",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gettext",
+    "gnome-icon-theme",
+    "graphicsmagick-libmagick-dev-compat",
+    "hicolor-icon-theme",
+    "icon-naming-utils",
+    "imagemagick",
+    "kdelibs-data",
+    "libxml-parser-perl"
+  ],
+  "nix_inputs": [
+    "gnome-icon-theme",
+    "hicolor-icon-theme",
+    "icon-naming-utils",
+    "imagemagick",
+    "intltool",
+    "librsvg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gnome-icon-theme": "gnome-icon-theme",
+    "imagemagick": "imagemagick",
+    "icon-naming-utils": "icon-naming-utils",
+    "hicolor-icon-theme": "hicolor-icon-theme"
+  }
+}

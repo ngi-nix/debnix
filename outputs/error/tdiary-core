@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "docbook-to-man", "httpd", "httpd-cgi", "ruby", "ruby-capybara", "ruby-coffee-script", "ruby-debian", "ruby-emot", "ruby-execjs", "ruby-fastimage", "ruby-hikidoc", "ruby-mail", "ruby-rack", "ruby-rspec", "ruby-sprockets", "ruby-webrick", "tdiary-contrib", "tdiary-core", "tdiary-theme"], or 
+output: 
+[] is empty!

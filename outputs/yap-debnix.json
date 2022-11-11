@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "yap",
+  "nix_pkg": null,
+  "control_file_hash": "f6a03a8376c8e249a5c5305c2a69105545f1f41762617297946a17c8d9eee36f",
+  "deb_inputs": [
+    "autotools-dev",
+    "chrpath",
+    "debhelper",
+    "libgmp-dev",
+    "libncurses-dev",
+    "libreadline-dev",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "tennix",
+  "nix_pkg": null,
+  "control_file_hash": "d9ea7b5807a4d4af67a8a5abe5791f2cba633d0c0d7e344b28510db90ce9de5f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl-net1.2-dev",
+    "libsdl-ttf2.0-dev",
+    "libsdl1.2-dev",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer",
+    "SDL_net",
+    "SDL_ttf",
+    "python"
+  ],
+  "map": {
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer",
+    "libsdl-ttf2.0-dev": "SDL_ttf",
+    "python3-dev": "python",
+    "libsdl1.2-dev": "SDL",
+    "libsdl-net1.2-dev": "SDL_net"
+  }
+}

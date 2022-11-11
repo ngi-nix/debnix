@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "rdup",
+  "nix_pkg": null,
+  "control_file_hash": "439bda7c4e78735abb78246c73855319508a5ab91a9809aecd5c233db2362fe2",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "bash",
+    "debhelper",
+    "libarchive-dev",
+    "libglib2.0-dev",
+    "libpcre3-dev",
+    "nettle-dev"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libpcre3-dev": "pcre"
+  }
+}

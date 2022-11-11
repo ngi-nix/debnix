@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "xmppc",
+  "nix_pkg": null,
+  "control_file_hash": "1a8f4762c2a627ccf0c0cefabe31fb53ac4decf74f12e8a024da490c4c557f06",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libgpgme-dev",
+    "libstrophe-dev"
+  ],
+  "nix_inputs": [
+    "autoconf-archive",
+    "glib",
+    "gpgme",
+    "libstrophe",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libgpgme-dev": "gpgme",
+    "libstrophe-dev": "libstrophe"
+  }
+}

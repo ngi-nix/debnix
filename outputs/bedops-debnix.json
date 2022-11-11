@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "bedops",
+  "nix_pkg": null,
+  "control_file_hash": "243ab93bb8c184bf1d3f90a280e546f776bd17be3a3c96207f34766ae3268881",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libbz2-dev",
+    "libjansson-dev",
+    "libjs-mathjax",
+    "libjs-sphinxdoc",
+    "python3",
+    "python3-distutils",
+    "tcsh",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "jansson",
+    "zlib"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

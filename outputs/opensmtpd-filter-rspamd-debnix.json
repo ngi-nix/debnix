@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "opensmtpd-filter-rspamd",
+  "nix_pkg": null,
+  "control_file_hash": "76d2be88f0594171abaf6bd14bc17cb87818cb5daee1b2aad1cdfcf89d9e05cd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "rspamd"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

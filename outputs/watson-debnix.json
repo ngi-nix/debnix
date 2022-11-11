@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "watson",
+  "nix_pkg": null,
+  "control_file_hash": "64ffdb02971a30555470d28a27a71f548463e9613542a88d4ced767d1c57cccc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-arrow",
+    "python3-click",
+    "python3-flake8",
+    "python3-pytest",
+    "python3-pytest-mock",
+    "python3-pytest-runner",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-watson",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "arrow",
+    "click",
+    "click-didyoumean",
+    "mock",
+    "pytest-datafiles",
+    "pytest-mock",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-pytest-mock": "pytest-mock",
+    "python3-requests": "requests"
+  }
+}

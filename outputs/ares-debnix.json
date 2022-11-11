@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "ares",
+  "nix_pkg": null,
+  "control_file_hash": "ca608909a2a3b2094d2a1d6b89895930fc4aa92fdf1c7276e4f043e22f71798e",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libao-dev",
+    "libasound2-dev",
+    "libgtk-3-dev",
+    "libgtksourceview-3.0-dev",
+    "libopenal-dev",
+    "libpulse-dev",
+    "libsdl1.2-dev",
+    "libudev-dev",
+    "libxv-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "alsa-lib",
+    "glu",
+    "gtk+3",
+    "gtksourceview",
+    "libGL",
+    "libX11",
+    "libXv",
+    "libao",
+    "libpulseaudio",
+    "openal-soft",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libao-dev": "libao",
+    "libopenal-dev": "openal-soft",
+    "libgtksourceview-3.0-dev": "gtksourceview",
+    "libxv-dev": "libXv",
+    "libudev-dev": "systemd"
+  }
+}

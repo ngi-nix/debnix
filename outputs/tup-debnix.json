@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "tup",
+  "nix_pkg": null,
+  "control_file_hash": "6ff7352534408fd2d9de52a5486664bef7e11cfa7f7b4445b7ad04873e0d70c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "emacs-nox",
+    "fuse",
+    "libfuse-dev",
+    "libfuse3-dev",
+    "libpcre3-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "procps"
+  ],
+  "nix_inputs": [
+    "fuse",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "fuse": "fuse",
+    "libfuse3-dev": "fuse",
+    "libfuse-dev": "fuse"
+  }
+}

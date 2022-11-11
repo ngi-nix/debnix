@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "mkcert",
+  "nix_pkg": null,
+  "control_file_hash": "0284ebace722777ce1ba660dc7e527a2b08aa17584872575bf902769ed16de85",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-golang-x-net-dev",
+    "golang-sslmate-src-go-pkcs12-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

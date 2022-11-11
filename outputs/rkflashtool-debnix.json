@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "rkflashtool",
+  "nix_pkg": null,
+  "control_file_hash": "088bec879b1283b87b3a9b17c75d1da9254fe7a4a66913a15607f90228e96669",
+  "deb_inputs": [
+    "debhelper",
+    "libusb-1.0-0-dev"
+  ],
+  "nix_inputs": [
+    "libusb"
+  ],
+  "map": {}
+}

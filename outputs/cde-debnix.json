@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "cde",
+  "nix_pkg": null,
+  "control_file_hash": "43ccf4269aece4dfce392724b437efbe5c797f0256a20d9de3f34b4067876cfd",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}

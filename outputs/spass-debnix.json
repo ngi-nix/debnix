@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "spass",
+  "nix_pkg": null,
+  "control_file_hash": "e5449a34a6ae6fa4d0c9c48a18fece0c3a6d3c09d96bbeb15cd51e03eb8e186d",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex"
+  ],
+  "map": {
+    "flex": "flex",
+    "bison": "bison"
+  }
+}

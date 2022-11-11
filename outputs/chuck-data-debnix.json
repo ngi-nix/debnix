@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "chuck-data",
+  "nix_pkg": null,
+  "control_file_hash": "fa9c390e941e2939e1ca9174c4a420c6d2e1ff7ae0838a542385cc87588cf8be",
+  "deb_inputs": [
+    "bison",
+    "chuck-data",
+    "debhelper-compat",
+    "docbook-to-man",
+    "flex",
+    "jackd",
+    "libasound2-dev",
+    "libjack-dev",
+    "libpulse-dev",
+    "libsndfile1-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "bison",
+    "flex",
+    "libsndfile",
+    "which"
+  ],
+  "map": {
+    "bison": "bison",
+    "libasound2-dev": "alsa-lib",
+    "libsndfile1-dev": "libsndfile",
+    "flex": "flex"
+  }
+}
