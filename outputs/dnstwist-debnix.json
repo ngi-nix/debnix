@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "dnstwist",
+  "nix_pkg": null,
+  "control_file_hash": "6e65bd1825c3771841f775d7980e10ad9c374257608a412f24f50a4743129e04",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-python",
+    "libjs-jquery",
+    "python3-all",
+    "python3-dnspython",
+    "python3-flask",
+    "python3-geoip",
+    "python3-idna",
+    "python3-pil",
+    "python3-selenium",
+    "python3-setuptools",
+    "python3-ssdeep",
+    "python3-tld",
+    "python3-whois"
+  ],
+  "nix_inputs": [
+    "GeoIP",
+    "dnspython",
+    "ppdeep",
+    "python3",
+    "requests",
+    "tld",
+    "whois"
+  ],
+  "map": {
+    "python3-dnspython": "dnspython"
+  }
+}

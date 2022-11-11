@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "dablin",
+  "nix_pkg": null,
+  "control_file_hash": "ca3300a19ea0775f98df03d457eb51414c80ccc543347df4e7982ee777f785f4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfaad-dev",
+    "libgtkmm-3.0-dev",
+    "libmpg123-dev",
+    "libsdl2-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "faad2",
+    "gtkmm",
+    "mpg123",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libgtkmm-3.0-dev": "gtkmm",
+    "libmpg123-dev": "mpg123",
+    "libfaad-dev": "faad2"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "dogecoin",
+  "nix_pkg": null,
+  "control_file_hash": "5d3681faa55f8d1d3f6faee8322600a4faa367dcafd7587bfac3343b345054f6",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "libboost-chrono-dev",
+    "libboost-filesystem-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libboost-test-dev",
+    "libboost-thread-dev",
+    "libdb++-dev",
+    "libdogecoinconsensus0",
+    "libevent-dev",
+    "libminiupnpc-dev",
+    "libprotobuf-dev",
+    "libqrencode-dev",
+    "libssl-dev",
+    "pkg-config",
+    "protobuf-compiler",
+    "python3",
+    "qtbase5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "boost",
+    "db",
+    "libevent",
+    "miniupnpc",
+    "openssl",
+    "pkg-config-wrapper",
+    "protobuf",
+    "qrencode",
+    "qtbase",
+    "qttools",
+    "util-linux",
+    "zeromq",
+    "zlib"
+  ],
+  "map": {
+    "protobuf-compiler": "protobuf",
+    "qtbase5-dev": "qtbase",
+    "libevent-dev": "libevent",
+    "libqrencode-dev": "qrencode",
+    "libminiupnpc-dev": "miniupnpc",
+    "libprotobuf-dev": "protobuf",
+    "libssl-dev": "openssl",
+    "qttools5-dev-tools": "qttools"
+  }
+}

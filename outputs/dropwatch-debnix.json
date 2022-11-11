@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "dropwatch",
+  "nix_pkg": null,
+  "control_file_hash": "54cfb8fb1be4f8e75ca2900192135b9b1dfd3db2d916c92e8b8cee6950b5d1f3",
+  "deb_inputs": [
+    "automake",
+    "binutils-dev",
+    "debhelper-compat",
+    "libnl-genl-3-dev",
+    "libpcap-dev",
+    "libreadline-dev",
+    "pkg-config",
+    "pkgconf"
+  ],
+  "nix_inputs": [
+    "libbfd",
+    "libnl",
+    "libpcap",
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libnl-genl-3-dev": "libnl",
+    "libpcap-dev": "libpcap",
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "diod",
+  "nix_pkg": null,
+  "control_file_hash": "123f894d1dc2e6e2cebeab17c7db350ac1bf76933a4712b6f1c877351e260c63",
+  "deb_inputs": [
+    "debhelper",
+    "libcap-dev",
+    "liblua5.1-0-dev",
+    "libmunge-dev",
+    "libncurses5-dev",
+    "libpopt-dev",
+    "libwrap0-dev",
+    "lsb-base",
+    "pkg-config",
+    "valgrind"
+  ],
+  "nix_inputs": [
+    "libcap",
+    "lua",
+    "munge",
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "libcap-dev": "libcap",
+    "libmunge-dev": "munge",
+    "liblua5.1-0-dev": "lua",
+    "libncurses5-dev": "ncurses"
+  }
+}

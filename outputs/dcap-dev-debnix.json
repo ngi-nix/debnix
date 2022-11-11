@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "dcap-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1a6bfbf686d6bc0fc6be94783eefa7673957bc043fbf271c26980de3ce8f0d05",
+  "deb_inputs": [
+    "dcap-tunnel-gsi",
+    "dcap-tunnel-krb",
+    "dcap-tunnel-ssl",
+    "dcap-tunnel-telnet",
+    "debhelper",
+    "libcunit1-dev",
+    "libdcap1",
+    "libglobus-gssapi-gsi-dev",
+    "libkrb5-dev",
+    "libssl-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "CUnit",
+    "autoconf",
+    "automake",
+    "libtool",
+    "libxcrypt",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libcunit1-dev": "CUnit"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "drawterm",
+  "nix_pkg": null,
+  "control_file_hash": "5d93147bb5bf197817e8480400e8d40c7582fdbcb67de856af351b14588bf179",
+  "deb_inputs": [
+    "debhelper",
+    "libxt-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXt"
+  ],
+  "map": {
+    "libxt-dev": "libXt"
+  }
+}

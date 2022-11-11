@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "delve",
+  "nix_pkg": null,
+  "control_file_hash": "1fb030c8410b0a444847be1a240138c7e6266031da2abd77da534a0d0bb3a554",
+  "deb_inputs": [
+    "clang",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-cilium-ebpf-dev",
+    "golang-github-cosiner-argv-dev",
+    "golang-github-creack-pty-dev",
+    "golang-github-derekparker-trie-dev",
+    "golang-github-go-delve-liner-dev",
+    "golang-github-google-go-dap-dev",
+    "golang-github-hashicorp-golang-lru-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-golang-x-arch-dev",
+    "golang-golang-x-sys-dev",
+    "golang-gopkg-yaml.v2-dev",
+    "golang-starlark-dev",
+    "libbpf-dev",
+    "libc6-dev-i386",
+    "llvm",
+    "lsof"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}
