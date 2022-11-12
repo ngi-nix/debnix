@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "golang-golang-x-tools-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7271f6fe6aa421e507dc7be3d92e7863dbbe2536b440c70015014b55c81339ce",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-doc",
+    "golang-github-sergi-go-diff-dev",
+    "golang-github-yuin-goldmark-dev",
+    "golang-golang-x-mod-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-text-dev",
+    "golang-golang-x-vuln-dev",
+    "golang-gopkg-yaml.v3-dev",
+    "golang-honnef-go-tools-dev",
+    "golang-mvdan-gofumpt-dev",
+    "golang-mvdan-xurls-dev",
+    "libjs-jquery",
+    "libjs-jquery-ui"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

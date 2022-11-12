@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "getdata",
+  "nix_pkg": null,
+  "control_file_hash": "84b0a37fe96447c0dcc6bc2542cca83c8c33226a25cc3ae119f0b37f9c8ab5aa",
+  "deb_inputs": [
+    "biomaj",
+    "debhelper-compat",
+    "perl-doc"
+  ],
+  "nix_inputs": [
+    "libtool"
+  ],
+  "map": {}
+}

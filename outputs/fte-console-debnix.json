@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "fte-console",
+  "nix_pkg": null,
+  "control_file_hash": "015969b40f60db4217ee2aedb89feb254a6f8954bd62dbcedf422fbce18c848f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "exuberant-ctags",
+    "fte",
+    "fte-console",
+    "fte-docs",
+    "fte-terminal",
+    "fte-xwindow",
+    "libgpmg1-dev",
+    "libncurses5-dev",
+    "libslang2-dev",
+    "libx11-dev",
+    "libxpm-dev",
+    "libxt-dev",
+    "patch",
+    "perl",
+    "x11proto-core-dev"
+  ],
+  "nix_inputs": [
+    "gpm",
+    "libX11",
+    "libXpm",
+    "ncurses",
+    "perl",
+    "slang",
+    "unzip"
+  ],
+  "map": {
+    "libslang2-dev": "slang",
+    "libx11-dev": "libX11",
+    "libncurses5-dev": "ncurses",
+    "libxpm-dev": "libXpm",
+    "perl": "perl"
+  }
+}

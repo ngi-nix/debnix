@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "instaloader",
+  "nix_pkg": null,
+  "control_file_hash": "bdac8ab14a1e20e9c04bdbea644507488cbdcfae84c11a12aeed4bdc0c85a788",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-all",
+    "python3-requests",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "python3",
+    "requests",
+    "sphinx"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-requests": "requests"
+  }
+}

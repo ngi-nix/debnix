@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "gatling",
+  "nix_pkg": null,
+  "control_file_hash": "a8be3e417dd40e66144122aa7bf6c9e7f6498b55e0200e2f9e2c2b87c0685f59",
+  "deb_inputs": [
+    "debhelper",
+    "libmbedtls-dev",
+    "libowfat-dev",
+    "libowfat0",
+    "libssl-dev",
+    "procps",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libcap",
+    "libowfat",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libowfat-dev": "libowfat",
+    "zlib1g-dev": "zlib",
+    "libowfat0": "libowfat",
+    "libssl-dev": "openssl"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libaccountsservice-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1c39e0d90acd2f735d363c95f64e13db487d33cabd997bd41a10e5a2ccdc8c4a",
+  "deb_inputs": [
+    "dbus",
+    "debhelper-compat",
+    "default-logind",
+    "gir1.2-accountsservice-1.0",
+    "gnome-control-center",
+    "gobject-introspection",
+    "intltool",
+    "libaccountsservice0",
+    "libdbus-1-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libpolkit-gobject-1-dev",
+    "libsystemd-dev",
+    "logind",
+    "meson",
+    "policykit-1",
+    "python3-dbus",
+    "python3-dbusmock",
+    "python3-gi",
+    "valac",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "libxcrypt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "polkit",
+    "python3",
+    "systemd",
+    "vala"
+  ],
+  "map": {
+    "dbus": "dbus",
+    "valac": "vala",
+    "libdbus-1-dev": "dbus",
+    "meson": "meson",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "gobject-introspection": "gobject-introspection",
+    "libsystemd-dev": "systemd",
+    "libglib2.0-dev": "glib"
+  }
+}

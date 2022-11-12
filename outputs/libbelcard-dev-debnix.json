@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libbelcard-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f06a549b8e41201a2ce614d2879357f9cf9bd9206531955b62295963e41ab997",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbctoolbox-dev",
+    "libbelcard1",
+    "libbelr-dev",
+    "libnsl-dev",
+    "libudev-dev"
+  ],
+  "nix_inputs": [
+    "bctoolbox",
+    "belr",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libbelr-dev": "belr",
+    "libbctoolbox-dev": "bctoolbox"
+  }
+}

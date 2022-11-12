@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "jp",
+  "nix_pkg": null,
+  "control_file_hash": "5a19e2f47a72895827cee0878422fe29f3716f15e0452905e6caa8dc57f5b418",
+  "deb_inputs": [
+    "bats",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-jmespath-go-jmespath-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

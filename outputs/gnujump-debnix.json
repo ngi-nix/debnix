@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "gnujump",
+  "nix_pkg": null,
+  "control_file_hash": "378a1f3be26a1d569ebe1bafcaaf4150eef54b9af3fb66384b99197f4a1fa09e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "gnujump",
+    "gnujump-data",
+    "imagemagick",
+    "libsdl-image1.2-dev",
+    "libsdl-mixer1.2-dev",
+    "libsdl1.2-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_image",
+    "SDL_mixer"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libsdl-image1.2-dev": "SDL_image",
+    "libsdl-mixer1.2-dev": "SDL_mixer"
+  }
+}

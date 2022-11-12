@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "golang-github-cpuguy83-go-md2man-v2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "dd075e1d67e5f4bd3a0fca0e6042b5e1740c1b712be59a02b6a41f0c060bcaed",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-russross-blackfriday-v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libclxclient-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d9a8e210a5b60ec1d48361779d3b3f2430687d2832fffb7b006763d031fae5c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libclthreads-dev",
+    "libclxclient3",
+    "libfreetype6-dev",
+    "libx11-dev",
+    "libxft-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXft",
+    "libclthreads",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libclthreads-dev": "libclthreads",
+    "libx11-dev": "libX11",
+    "libxft-dev": "libXft"
+  }
+}

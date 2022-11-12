@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "genimage",
+  "nix_pkg": null,
+  "control_file_hash": "08edc85def26b867b33b6bc334c871506201ffc4f1784f45b80c9e2eadfac43b",
+  "deb_inputs": [
+    "android-sdk-libsparse-utils",
+    "cpio",
+    "debhelper-compat",
+    "device-tree-compiler",
+    "dosfstools",
+    "genext2fs",
+    "genisoimage",
+    "libconfuse-dev",
+    "mtd-utils",
+    "mtools",
+    "pkg-config",
+    "qemu-utils",
+    "squashfs-tools",
+    "u-boot-tools"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libconfuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libconfuse-dev": "libconfuse"
+  }
+}

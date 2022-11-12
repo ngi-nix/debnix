@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libcdd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1c701b8f73a6d422efd8748a4270a035510d487d60df74d2d0f491221c7b190d",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "latex2html",
+    "latexmk",
+    "libcdd-doc",
+    "libcdd0d",
+    "libgmp-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

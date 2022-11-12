@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "fntsample",
+  "nix_pkg": null,
+  "control_file_hash": "7a37ce059c41bd4944a303095343aaa7be9ef218d1d0a8859bca7cfadc1d7d78",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gettext",
+    "libcairo2-dev",
+    "libfreetype6-dev",
+    "libglib2.0-dev",
+    "libintl-perl",
+    "libpango1.0-dev",
+    "libpdf-api2-perl",
+    "pkg-config",
+    "unicode-data"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "cmake",
+    "fontconfig",
+    "freetype",
+    "glib",
+    "libXdmcp",
+    "pango",
+    "pcre",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "cmake": "cmake",
+    "libpango1.0-dev": "pango",
+    "libfreetype6-dev": "freetype",
+    "libglib2.0-dev": "glib"
+  }
+}

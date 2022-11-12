@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "fped",
+  "nix_pkg": null,
+  "control_file_hash": "f9134f9a19d0e1a8e12b73df7b1cfe43f74d179f60aecffffdcf579015162e31",
+  "deb_inputs": [
+    "bash",
+    "bison",
+    "debhelper",
+    "dpkg-dev",
+    "flex",
+    "ghostscript",
+    "imagemagick",
+    "libfl-dev",
+    "libgtk2.0-dev",
+    "netpbm",
+    "pkg-config",
+    "transfig"
+  ],
+  "nix_inputs": [
+    "bison",
+    "fig2dev",
+    "flex",
+    "gtk+",
+    "imagemagick",
+    "netpbm",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "imagemagick": "imagemagick",
+    "netpbm": "netpbm",
+    "libgtk2.0-dev": "gtk+",
+    "transfig": "fig2dev",
+    "libfl-dev": "flex"
+  }
+}

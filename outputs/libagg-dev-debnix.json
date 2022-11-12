@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libagg-dev",
+  "nix_pkg": null,
+  "control_file_hash": "68a42deb8a3f374965607bd93bb86ecf54019c9981afb98dbe405e3c2d418a04",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "libagg2",
+    "libfreetype6-dev",
+    "libsdl1.2-dev",
+    "libtool",
+    "libx11-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "autoconf",
+    "automake",
+    "freetype",
+    "libX11",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libtool": "libtool",
+    "autoconf": "autoconf",
+    "libx11-dev": "libX11",
+    "libsdl1.2-dev": "SDL",
+    "automake": "automake",
+    "libfreetype6-dev": "freetype"
+  }
+}

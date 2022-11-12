@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "hubicfuse",
+  "nix_pkg": null,
+  "control_file_hash": "e91cfee69d7a065b88c0db816b5db4017221916e2f70bdec5bb1ab137c6fe741",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fuse",
+    "libcurl4-openssl-dev",
+    "libfuse-dev",
+    "libjson-c-dev",
+    "libmagic-dev",
+    "libssl-dev",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "file",
+    "fuse",
+    "json-c",
+    "libxml2",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcurl4-openssl-dev": "curl",
+    "libxml2-dev": "libxml2",
+    "libmagic-dev": "file",
+    "libssl-dev": "openssl",
+    "libjson-c-dev": "json-c",
+    "libfuse-dev": "fuse",
+    "fuse": "fuse"
+  }
+}

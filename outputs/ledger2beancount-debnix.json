@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "ledger2beancount",
+  "nix_pkg": null,
+  "control_file_hash": "250b78a685e8d67b0d3405f2c4bf79da2eab86442f059166d9d7d12f5c6671f4",
+  "deb_inputs": [
+    "beancount",
+    "debhelper-compat",
+    "ledger",
+    "libdate-calc-perl",
+    "libdatetime-format-strptime-perl",
+    "libenum-perl",
+    "libfile-basedir-perl",
+    "libgetopt-long-descriptive-perl",
+    "liblist-moreutils-perl",
+    "libregexp-common-perl",
+    "libstring-interpolate-perl",
+    "libyaml-libyaml-perl",
+    "lmodern",
+    "pandoc",
+    "scdoc",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra",
+    "texlive-latex-recommended"
+  ],
+  "nix_inputs": [
+    "Date-Calc",
+    "DateTime-Format-Strptime",
+    "File-BaseDir",
+    "Getopt-Long-Descriptive",
+    "List-MoreUtils",
+    "Regexp-Common",
+    "String-Interpolate",
+    "YAML-LibYAML",
+    "beancount",
+    "enum",
+    "perl"
+  ],
+  "map": {
+    "beancount": "beancount"
+  }
+}

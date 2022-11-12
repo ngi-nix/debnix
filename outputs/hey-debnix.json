@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "hey",
+  "nix_pkg": null,
+  "control_file_hash": "13e4b9d70907b518b363f07e857579897e204091ea8747c413317aa49f82d75e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-golang-x-net-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

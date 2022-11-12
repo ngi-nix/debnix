@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libcifpp2",
+  "nix_pkg": null,
+  "control_file_hash": "bd8462b3522893b359bbbcb0ba31745bedf9a5aab03cdfb209055d159dc1bba2",
+  "deb_inputs": [
+    "autoconf-archive",
+    "cmake",
+    "debhelper-compat",
+    "libboost-date-time-dev",
+    "libboost-dev",
+    "libboost-iostreams-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libcifpp-data",
+    "libcifpp2",
+    "mrc",
+    "po-debconf"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libboost-dev": "boost"
+  }
+}

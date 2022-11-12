@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "gemrb-baldurs-gate-2",
+  "nix_pkg": null,
+  "control_file_hash": "7277cd1d7d19bfb9f5d8fc058d678cb641778059953484572f64b5b64e8df883",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "game-data-packager",
+    "gemrb",
+    "gemrb-baldurs-gate-2-data",
+    "gemrb-baldurs-gate-data",
+    "gemrb-data",
+    "gemrb-icewind-dale-2-data",
+    "gemrb-icewind-dale-data",
+    "gemrb-planescape-torment-data",
+    "innoextract",
+    "lgogdownloader",
+    "libfreetype6-dev",
+    "libgemrb",
+    "libogg-dev",
+    "libopenal-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-mixer-dev",
+    "libvlc-dev",
+    "libvorbis-dev",
+    "libz-dev",
+    "python3",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_mixer",
+    "cmake",
+    "freetype",
+    "libGL",
+    "libpng-apng",
+    "libvorbis",
+    "openal-soft",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "cmake": "cmake",
+    "libfreetype6-dev": "freetype",
+    "python3": "python3",
+    "libopenal-dev": "openal-soft"
+  }
+}

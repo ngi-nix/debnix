@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "lib3mf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d13c2ddf46d1a5ad40c9a2e41f83fe384fcb480e0a39960db964dd1335deb689",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "lib3mf1",
+    "libzip-dev",
+    "pkg-kde-tools",
+    "uuid-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtest",
+    "libzip",
+    "ninja",
+    "openssl",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libzip-dev": "libzip",
+    "cmake": "cmake"
+  }
+}

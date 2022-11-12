@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "icecream",
+  "nix_pkg": null,
+  "control_file_hash": "8f9a6dab2645ff115aca5cebddf946e5d99592be9ed91cec2cd17b7ca4285e97",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook2X",
+    "libarchive",
+    "libcap-ng",
+    "lzo",
+    "zstd"
+  ],
+  "map": {}
+}

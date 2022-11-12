@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "kdiff3-qt",
+  "nix_pkg": null,
+  "control_file_hash": "73d2198622ffef1f15c8bf008f74197241a6ac5fac22e049afb201396add755d",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "kdiff3",
+    "kdiff3-doc",
+    "libboost-dev",
+    "libkf5config-dev",
+    "libkf5coreaddons-dev",
+    "libkf5crash-dev",
+    "libkf5doctools-dev",
+    "libkf5i18n-dev",
+    "libkf5kio-dev",
+    "libkf5parts-dev",
+    "libkf5widgetsaddons-dev",
+    "pkg-kde-tools",
+    "qtbase5-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "boost",
+    "extra-cmake-modules",
+    "kconfig",
+    "kcrash",
+    "kdoctools",
+    "kiconthemes",
+    "kinit",
+    "kparts"
+  ],
+  "map": {
+    "libkf5parts-dev": "kparts",
+    "libkf5config-dev": "kconfig",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libkf5crash-dev": "kcrash",
+    "libkf5doctools-dev": "kdoctools",
+    "libboost-dev": "boost"
+  }
+}

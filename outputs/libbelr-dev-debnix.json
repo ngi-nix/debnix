@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libbelr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5eb273c7bafdee2d2e49926e2fc029741a4867be8cc6dbc3d5fd2569d76e80e2",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbctoolbox-dev",
+    "libbelr1"
+  ],
+  "nix_inputs": [
+    "bctoolbox",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libbctoolbox-dev": "bctoolbox"
+  }
+}

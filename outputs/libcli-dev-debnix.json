@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libcli-dev",
+  "nix_pkg": null,
+  "control_file_hash": "888fc94b56bfd80e851f4d6a106f73e6ae477f826729b9a15ab1c7249a2ac691",
+  "deb_inputs": [
+    "debhelper",
+    "dh-exec",
+    "libcli1.10"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}

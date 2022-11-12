@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "gandi-cli",
+  "nix_pkg": null,
+  "control_file_hash": "6d4d2a9bd1f92c01cc8d14e2e06d13b374a07db2265ad278259737f55993c1e1",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "IPy",
+    "click",
+    "python3",
+    "pyyaml",
+    "requests"
+  ],
+  "map": {}
+}

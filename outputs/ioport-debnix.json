@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "ioport",
+  "nix_pkg": null,
+  "control_file_hash": "05a3a401dd8bce55f04da8bad5b5837ccfd36c3fcb8d21f30ec0d5f433d7b8dd",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "golang-github-golang-mock-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a2f9847e991bba882109097522ca64e88515c85337d90dc2c4f38a3ee5e0a3a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-golang-x-mod-dev",
+    "golang-golang-x-tools-dev",
+    "mockgen"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

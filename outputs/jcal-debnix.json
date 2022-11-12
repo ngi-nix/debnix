@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "jcal",
+  "nix_pkg": null,
+  "control_file_hash": "3d0ef5f000638876fde366fcd3e64fc06864effde8b38c3d3c22225de2a0c137",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "libjalali0",
+    "libtool"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {}
+}
