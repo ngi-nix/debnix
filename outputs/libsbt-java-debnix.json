@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libsbt-java",
+  "nix_pkg": null,
+  "control_file_hash": "e332a8dc91b205e89a06f6c28d549787eb0ec3ca0ec64744b6647ba15ce5ff57",
+  "deb_inputs": [
+    "debhelper",
+    "default-jdk",
+    "git",
+    "javahelper",
+    "libjsch-java",
+    "libsbt-java",
+    "libsbt-launcher-interface-java",
+    "libsbt-serialization-java",
+    "libsbt-template-resolver-java",
+    "libsbt-test-interface-java",
+    "libscala-tools-sbinary-java",
+    "maven-repo-helper",
+    "sbt-ivy",
+    "scala"
+  ],
+  "nix_inputs": [
+    "gcc",
+    "zlib"
+  ],
+  "map": {}
+}

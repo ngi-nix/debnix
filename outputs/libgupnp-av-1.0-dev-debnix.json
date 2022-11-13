@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "libgupnp-av-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "448c9715a361ed0d995a19ee9e4f68706c1af7f13b7447d6e9e81b45ae4fa5fa",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-gupnp-av-1.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgupnp-av-1.0-3",
+    "libgupnp-av-doc",
+    "libgupnp-doc",
+    "libsoup2.4-dev",
+    "libxml2-dev",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libglib2.0-dev": "glib",
+    "valac": "vala",
+    "meson": "meson",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libxml2-dev": "libxml2"
+  }
+}

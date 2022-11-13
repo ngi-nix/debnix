@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libqrtr-glib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "81b93e48126e5be5307ef5b0422ff28a1106d6f66c8cda32118df03b0c7c4f91",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-qrtr-1.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libqrtr-glib-doc",
+    "libqrtr-glib0",
+    "meson",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

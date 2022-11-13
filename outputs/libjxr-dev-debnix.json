@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libjxr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a9acfc488fa5b841caba85ca95108f0ef5b219471c245f1ccb5a87e5120e3e40",
+  "deb_inputs": [
+    "antiword",
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "help2man",
+    "libjxr0"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

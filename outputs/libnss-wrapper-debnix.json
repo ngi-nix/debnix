@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libnss-wrapper",
+  "nix_pkg": null,
+  "control_file_hash": "088ae2633942ab59acd2e3c945f1572157fbe9f993254c54a55b9212ad042459",
+  "deb_inputs": [
+    "asciidoc",
+    "cmake",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "docbook-xml",
+    "docbook-xsl",
+    "libcmocka-dev",
+    "libxml2-utils",
+    "netbase",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

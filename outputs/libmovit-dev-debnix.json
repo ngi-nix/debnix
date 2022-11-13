@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libmovit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9045ffe84a5a1f671e4b2cc5b108b4e5a04abcd53d3357c4c02f4e4796ffc841",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "libeigen3-dev",
+    "libepoxy-dev",
+    "libfftw3-dev",
+    "libgtest-dev",
+    "libmovit8",
+    "libsdl2-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "eigen",
+    "fftw-double",
+    "gtest",
+    "libepoxy",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtest-dev": "gtest",
+    "libepoxy-dev": "libepoxy",
+    "libeigen3-dev": "eigen"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libgxps-dev",
+  "nix_pkg": null,
+  "control_file_hash": "35c070e72a3259b3eee1608e94a9b5e09040019943bf66706642cd733bffde80",
+  "deb_inputs": [
+    "debhelper",
+    "devhelp",
+    "gir1.2-gxps-0.1",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libarchive-dev",
+    "libcairo2-dev",
+    "libfreetype6-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libgtk-3-dev",
+    "libgxps2",
+    "libjpeg-dev",
+    "liblcms2-dev",
+    "libtiff-dev",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "freetype",
+    "glib",
+    "gobject-introspection",
+    "lcms2",
+    "libarchive",
+    "libjpeg-turbo",
+    "libtiff",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libcairo2-dev": "cairo",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libarchive-dev": "libarchive",
+    "libjpeg-dev": "libjpeg-turbo",
+    "liblcms2-dev": "lcms2",
+    "libglib2.0-doc": "glib",
+    "gobject-introspection": "gobject-introspection",
+    "libfreetype6-dev": "freetype",
+    "libtiff-dev": "libtiff"
+  }
+}

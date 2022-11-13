@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libhd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2ee90ddf0b6c3910568d411213ea2ab972276c72c4c4acabd9cca1a41a5f48e4",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "doc-base",
+    "doxygen",
+    "flex",
+    "libhd-doc",
+    "libhd21",
+    "libjs-jquery",
+    "libx86emu-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "flex",
+    "libx86emu",
+    "perl",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libx86emu-dev": "libx86emu",
+    "flex": "flex"
+  }
+}

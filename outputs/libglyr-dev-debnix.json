@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libglyr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bd25c47721a1079f257c4227dff83b4dbb04b55af1fd2134274389547c7f9732",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libglib2.0-dev",
+    "libglyr-doc",
+    "libglyr1",
+    "libsqlite3-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "glib",
+    "pkg-config-wrapper",
+    "sqlite"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libglib2.0-dev": "glib",
+    "libcurl4-gnutls-dev": "curl",
+    "libsqlite3-dev": "sqlite",
+    "libcurl-dev": "curl"
+  }
+}

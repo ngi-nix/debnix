@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "liblscp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "457eab9122220f53445b87bd54435ce19fba6153f34a5d8317445695ef8fe9df",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libjs-jquery",
+    "liblscp-doc",
+    "liblscp6"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "liboath-dev",
+  "nix_pkg": null,
+  "control_file_hash": "07a25cfd3874453e0ccf6e10792c9a6be2efa89c0c20e6cd286cdcf0b3c3dd48",
+  "deb_inputs": [
+    "datefudge",
+    "debhelper-compat",
+    "gengetopt",
+    "liboath0",
+    "libpam-runtime",
+    "libpam0g-dev",
+    "libpskc0",
+    "libxml2-utils",
+    "libxmlsec1-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "linux-pam"
+  ],
+  "map": {}
+}

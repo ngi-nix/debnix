@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libre-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8d432f5ce435c99d846bbb27e79712c089225a98aeb4a2f6f728c7b552e63005",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libre1",
+    "libssl-dev",
+    "pkg-kde-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

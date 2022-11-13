@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "libexiv2-doc",
+  "nix_pkg": null,
+  "control_file_hash": "830705b95ae4cdf2ac4ed0960db6798ac0d6aa98398c0991a5fa9047da558ab4",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "exiv2",
+    "gettext",
+    "libexiv2-27",
+    "libexiv2-doc",
+    "libexpat1-dev",
+    "libjs-jquery",
+    "pkg-kde-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "expat",
+    "gettext",
+    "graphviz",
+    "libxml2",
+    "libxslt",
+    "python3",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "libexpat1-dev": "expat",
+    "zlib1g-dev": "zlib",
+    "cmake": "cmake",
+    "gettext": "gettext"
+  }
+}

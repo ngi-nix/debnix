@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libcrossguid-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6c9e94289c7c1ae009f01e05d085ca5cd97fca308dba3bba6d43bf60e9f59cc0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcrossguid0",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "util-linux-minimal"
+  ],
+  "map": {}
+}

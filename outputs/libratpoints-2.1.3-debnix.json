@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libratpoints-2.1.3",
+  "nix_pkg": null,
+  "control_file_hash": "e4be66c7771c59099aefa9491fd43726462ba7afb2488747492e6fe7ad7dd566",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgmp-dev",
+    "libratpoints-2.1.3"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

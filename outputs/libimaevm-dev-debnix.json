@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libimaevm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c06376c34b600b18fe2d7d124822cb31a8bb2fb72d34ef75b6b8c5f4bd929216",
+  "deb_inputs": [
+    "asciidoc",
+    "attr",
+    "debhelper",
+    "docbook-xml",
+    "docbook-xsl",
+    "keyutils",
+    "libimaevm2",
+    "libkeyutils-dev",
+    "libssl-dev",
+    "openssl",
+    "pkg-config",
+    "xsltproc",
+    "xxd"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "attr",
+    "keyutils",
+    "libxslt",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "keyutils": "keyutils",
+    "libkeyutils-dev": "keyutils",
+    "xsltproc": "libxslt",
+    "attr": "attr",
+    "asciidoc": "asciidoc",
+    "openssl": "openssl"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libnetfilter-acct-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2ab44d82f7551fd6af1159455ee7ad055caad67939397035dd7ba2fd5021c40a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmnl-dev",
+    "libnetfilter-acct1",
+    "libnfnetlink-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libmnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmnl-dev": "libmnl"
+  }
+}

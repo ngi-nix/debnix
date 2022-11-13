@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "liblfunction-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f297b3e11a8a07f21bb980e463545ad5874772d07ffc921168c8bedbd942dc02",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gengetopt",
+    "liblfunction1",
+    "libpari-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gengetopt",
+    "pari",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gengetopt": "gengetopt",
+    "libpari-dev": "pari"
+  }
+}

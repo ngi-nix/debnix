@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libgtkextra-dev",
+  "nix_pkg": null,
+  "control_file_hash": "07a6e00555815dbfa986fe1bbdd4c74a74b20fe2cfec2b2f9807365ac345cdef",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-autoreconf",
+    "docbook-to-man",
+    "docbook-utils",
+    "docbook-xsl",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libatk1.0-dev",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libgtkextra-3.0",
+    "libgtkextra-3.0-doc",
+    "libjpeg-dev",
+    "libpango1.0-dev",
+    "libpng-dev",
+    "libtiff5-dev",
+    "openjade",
+    "sgmlspl",
+    "tex-common",
+    "texlive",
+    "texlive-formats-extra",
+    "tipa"
+  ],
+  "nix_inputs": [
+    "at-spi2-core",
+    "cairo",
+    "glib",
+    "gobject-introspection",
+    "gtk+",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgtk2.0-dev": "gtk+",
+    "gobject-introspection": "gobject-introspection",
+    "libcairo2-dev": "cairo",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libglib2.0-dev": "glib",
+    "libpango1.0-dev": "pango",
+    "libtiff5-dev": "libtiff",
+    "libatk1.0-dev": "at-spi2-core"
+  }
+}

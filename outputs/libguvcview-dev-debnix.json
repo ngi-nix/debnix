@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "libguvcview-dev",
+  "nix_pkg": null,
+  "control_file_hash": "32451dacf7718285b99bc7c0f0ab50dc9332a48f246da2badf0292aa29bef398",
+  "deb_inputs": [
+    "debhelper-compat",
+    "intltool",
+    "libavcodec-dev",
+    "libgsl-dev",
+    "libgtk-3-dev",
+    "libguvcview-2.1-2",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libtwolame-dev",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libv4l-dev",
+    "portaudio19-dev",
+    "uvcdynctrl"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "alsa-lib",
+    "ffmpeg",
+    "gsl",
+    "gtk+3",
+    "intltool",
+    "libpng-apng",
+    "libpulseaudio",
+    "libusb",
+    "pkg-config-wrapper",
+    "portaudio",
+    "sfml",
+    "systemd",
+    "v4l-utils"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "portaudio19-dev": "portaudio",
+    "libavcodec-dev": "ffmpeg",
+    "intltool": "intltool",
+    "libv4l-dev": "v4l-utils",
+    "libgsl-dev": "gsl"
+  }
+}

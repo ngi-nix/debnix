@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libfarstream-0.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e7bc28f906cdbbcc5025f1cd89530a73462c2768b85a7c4328bf23c4958e7459",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-farstream-0.2",
+    "gobject-introspection",
+    "gstreamer1.0-nice",
+    "gstreamer1.0-plugins-bad",
+    "gstreamer1.0-plugins-base",
+    "gstreamer1.0-plugins-good",
+    "gtk-doc-tools",
+    "libfarstream-0.2-5",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libgupnp-igd-1.0-dev",
+    "libnice-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gstreamer",
+    "gupnp-igd",
+    "libnice",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "gobject-introspection": "gobject-introspection",
+    "gstreamer1.0-nice": "gstreamer",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libgstreamer1.0-dev": "gstreamer",
+    "libnice-dev": "libnice",
+    "libgupnp-igd-1.0-dev": "gupnp-igd"
+  }
+}
