@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libsidplayfp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5614ed8a22a291fb8b4c46dd740f2a7865b407cdf07ae3e1c89904a5de6ceefe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libftdi1-dev",
+    "libgcrypt20-dev",
+    "libjs-jquery",
+    "libsidplayfp-dev",
+    "libsidplayfp6",
+    "libstilview0",
+    "libunittest++-dev",
+    "pkgconf",
+    "sidplayfp",
+    "stilview"
+  ],
+  "nix_inputs": [
+    "doxygen",
+    "graphviz",
+    "libexsid",
+    "libgcrypt",
+    "perl",
+    "pkg-config-wrapper",
+    "unittest-cpp",
+    "xa"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt",
+    "doxygen": "doxygen"
+  }
+}

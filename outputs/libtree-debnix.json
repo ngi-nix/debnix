@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "libtree",
+  "nix_pkg": null,
+  "control_file_hash": "53f41315719aeadbee6b92966eee12c7abf197569af04249e299e515ebcd6ebf",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cxxopts",
+    "elfio",
+    "gtest",
+    "termcolor"
+  ],
+  "map": {}
+}

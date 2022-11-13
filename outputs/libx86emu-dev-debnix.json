@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libx86emu-dev",
+  "nix_pkg": null,
+  "control_file_hash": "04d777bebac634691d5e254daf2e236936120098aaa0bd7baef83cd4344b5398",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libx86emu3"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

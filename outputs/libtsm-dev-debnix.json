@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libtsm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2658a12f9cdb45d0cb41ddf923b9603ab0fe875b1933a3ad9a5c336395b18388",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper-compat",
+    "libtsm4",
+    "libxkbcommon-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libxkbcommon",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libxkbcommon-dev": "libxkbcommon"
+  }
+}

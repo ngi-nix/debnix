@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libsonic-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9ac17caff6661f82e52d50113e19668263f2a6692bd73ff742445286811ad1f9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libsonic0",
+    "sonic"
+  ],
+  "nix_inputs": [
+    "fftw-double"
+  ],
+  "map": {}
+}

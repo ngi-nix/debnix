@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libstrophe-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a6744b4f035b7d85d8175dafa4013060fb429b459dd9aee6ac493e13ffedd079",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "doxygen",
+    "libexpat1-dev",
+    "libssl-dev",
+    "libstrophe0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "check",
+    "expat",
+    "libtool",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "check": "check",
+    "libexpat1-dev": "expat"
+  }
+}

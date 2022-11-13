@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libuid-wrapper",
+  "nix_pkg": null,
+  "control_file_hash": "ff36ad9e361a51b6ccc64d4c6a78778284799db247b1cf1a44cec83d9a98e775",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "libcmocka-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

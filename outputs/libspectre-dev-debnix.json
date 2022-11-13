@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libspectre-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0209331e5893fc00186d48edd495f6426e65da2a222333d2bd0bfda1042d3797",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libgs-dev",
+    "libspectre1",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "ghostscript-with-X",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo"
+  }
+}

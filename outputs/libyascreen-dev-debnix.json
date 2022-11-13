@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libyascreen-dev",
+  "nix_pkg": null,
+  "control_file_hash": "52306e8d8e703a2b36af12af1b6e2ad9606c96b48c8564b1884547f4f348b232",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libyascreen0"
+  ],
+  "nix_inputs": [
+    "go-md2man"
+  ],
+  "map": {}
+}

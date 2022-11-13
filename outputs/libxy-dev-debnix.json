@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libxy-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9a6908e3194cab4580a0f006915d2e129158f1cb822166b611ec1e5866ad4610",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fityk",
+    "libboost-dev",
+    "libbz2-dev",
+    "libwxgtk3.2-dev",
+    "libxy3v5",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "wxwidgets",
+    "zlib"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2",
+    "libwxgtk3.2-dev": "wxwidgets"
+  }
+}

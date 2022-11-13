@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libtet1.5-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6d64c492bc0465bc007947962e7010ab8c53647ca49598d4419da3910a8caf3b",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "docbook-to-man",
+    "libtet1.5"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}
