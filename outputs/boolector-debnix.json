@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "boolector",
+  "nix_pkg": null,
+  "control_file_hash": "1772f7eaa7b7435cb8b474f2914571926e56efacee8e17618674cc934ba3f4c7",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "btor2tools",
+    "cmake",
+    "gmp-with-cxx",
+    "lingeling",
+    "python3"
+  ],
+  "map": {}
+}

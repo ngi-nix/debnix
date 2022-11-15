@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "dafny",
+  "nix_pkg": null,
+  "control_file_hash": "f29ca40f29eb16f282a016e998df30892652ce07168041c0d2b3269a867a8672",
+  "deb_inputs": [
+    "cli-common-dev",
+    "debhelper-compat",
+    "libboogie-cil",
+    "mono-devel",
+    "mono-mcs",
+    "z3"
+  ],
+  "nix_inputs": [
+    "Boogie",
+    "mono",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libboogie-cil": "Boogie",
+    "mono-mcs": "mono",
+    "mono-devel": "mono"
+  }
+}

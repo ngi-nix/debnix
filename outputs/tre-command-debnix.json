@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "tre-command",
+  "nix_pkg": null,
+  "control_file_hash": "e15e851918225b0a6b8dc5b897afe027775b7e75116b0db63d00b0b041e37c55",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "help2man",
+    "librust-atty-0.2+default-dev",
+    "librust-clap-3+cargo-dev",
+    "librust-clap-3+default-dev",
+    "librust-clap-3+derive-dev",
+    "librust-clap-complete-3+default-dev",
+    "librust-getopts-0.2+default-dev",
+    "librust-indexmap-1+default-dev",
+    "librust-lscolors-0.12+default-dev",
+    "librust-regex-1+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-slab-0.4+default-dev",
+    "librust-termcolor-1+default-dev",
+    "librust-walkdir-2+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

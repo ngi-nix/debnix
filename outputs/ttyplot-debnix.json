@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "ttyplot",
+  "nix_pkg": null,
+  "control_file_hash": "f2c0ec4e05b4f513d86dddbc8a8307c117ca5ea9ccb09c45ff94ffd43e8ca5eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

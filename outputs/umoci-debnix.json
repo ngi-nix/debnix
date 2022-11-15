@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "umoci",
+  "nix_pkg": null,
+  "control_file_hash": "bea8b5926d1e3efd52600f547fe12dea322d2cdc187b2115c869fed1881d0660",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "go-md2man",
+    "golang-any",
+    "golang-github-apex-log-dev",
+    "golang-github-cyphar-filepath-securejoin-dev",
+    "golang-github-docker-go-units-dev",
+    "golang-github-klauspost-compress-dev",
+    "golang-github-klauspost-pgzip-dev",
+    "golang-github-mohae-deepcopy-dev",
+    "golang-github-opencontainers-go-digest-dev",
+    "golang-github-opencontainers-image-spec-dev",
+    "golang-github-opencontainers-runc-dev",
+    "golang-github-opencontainers-specs-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-rootless-containers-proto-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-github-vbatts-go-mtree-dev",
+    "golang-golang-x-sys-dev",
+    "golang-google-protobuf-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "go-md2man"
+  ],
+  "map": {
+    "go-md2man": "go-md2man"
+  }
+}

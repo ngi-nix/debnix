@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "afl-clang",
+  "nix_pkg": null,
+  "control_file_hash": "d2a84a4848655f9416fb402c216c5d54b041e4eef30ecfb1c8c7bf720724acc4",
+  "deb_inputs": [
+    "afl++",
+    "afl++-clang",
+    "afl++-doc",
+    "build-essential",
+    "clang",
+    "clang-",
+    "clang-14",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "gcc-10-plugin-dev",
+    "gnuplot",
+    "libcmocka-dev",
+    "llvm-14-dev",
+    "procps",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "llvm",
+    "which"
+  ],
+  "map": {
+    "llvm-14-dev": "llvm"
+  }
+}

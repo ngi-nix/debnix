@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cppzmq-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9d7bc7fd87083e05015acd234a794161ea98a751e9fb3d6d62dd497a5fc13c5c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libzmq3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "zeromq"
+  ],
+  "map": {
+    "libzmq3-dev": "zeromq",
+    "cmake": "cmake"
+  }
+}

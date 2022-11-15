@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "apksigcopier",
+  "nix_pkg": null,
+  "control_file_hash": "51cb564c6a15016d9db4bf8d192951cbc7ff85609e933371febe24761b0274df",
+  "deb_inputs": [
+    "apksigner",
+    "debhelper-compat",
+    "dh-python",
+    "pandoc",
+    "python3-all",
+    "python3-click",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "click",
+    "pandoc",
+    "python3"
+  ],
+  "map": {
+    "pandoc": "pandoc"
+  }
+}

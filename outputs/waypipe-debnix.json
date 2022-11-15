@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "waypipe",
+  "nix_pkg": null,
+  "control_file_hash": "83ec4bd40ad5c8ecfbf92a0a6d321bb087e51783f80eb386c59a4de65359fb18",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavcodec-dev",
+    "libavutil-dev",
+    "libdrm-dev",
+    "libgbm-dev",
+    "liblz4-dev",
+    "libswscale-dev",
+    "libva-dev",
+    "libzstd-dev",
+    "meson",
+    "ninja-build",
+    "openssh-client",
+    "openssh-server",
+    "pkg-config",
+    "python3",
+    "python3-distutils",
+    "scdoc"
+  ],
+  "nix_inputs": [
+    "ffmpeg",
+    "libva",
+    "lz4",
+    "mesa",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "scdoc",
+    "zstd"
+  ],
+  "map": {
+    "libswscale-dev": "ffmpeg",
+    "scdoc": "scdoc",
+    "libavutil-dev": "ffmpeg",
+    "libgbm-dev": "mesa",
+    "libzstd-dev": "zstd",
+    "libavcodec-dev": "ffmpeg",
+    "liblz4-dev": "lz4",
+    "meson": "meson",
+    "libva-dev": "libva"
+  }
+}

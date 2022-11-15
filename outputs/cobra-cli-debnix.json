@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "cobra-cli",
+  "nix_pkg": null,
+  "control_file_hash": "46b16c8524650b34e4346f9ce6dd34baae8dc89949ae7040c7d644d4510ec829",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-spf13-viper-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

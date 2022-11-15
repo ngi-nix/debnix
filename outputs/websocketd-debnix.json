@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "websocketd",
+  "nix_pkg": null,
+  "control_file_hash": "77183d5afcbf82c21ca082363846a9d8a3bc8e357236a2acbca778d8f891d0c5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-gorilla-websocket-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

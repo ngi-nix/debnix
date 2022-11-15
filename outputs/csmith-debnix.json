@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "csmith",
+  "nix_pkg": null,
+  "control_file_hash": "dff674586d21e2e4cf1da990b205e1909c960fb4b4a35cb35a575bf77173e37c",
+  "deb_inputs": [
+    "debhelper",
+    "libcsmith0",
+    "libsys-cpu-perl",
+    "m4"
+  ],
+  "nix_inputs": [
+    "Sys-CPU",
+    "gnum4",
+    "libbsd",
+    "perl"
+  ],
+  "map": {}
+}

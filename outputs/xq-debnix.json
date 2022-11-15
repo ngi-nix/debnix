@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "xq",
+  "nix_pkg": null,
+  "control_file_hash": "88a1ebee84b12e0f1bffc1a187e80a9530d84cdc95c4ece4e36793f017f0ddb4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-antchfx-xmlquery-dev",
+    "golang-github-fatih-color-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-golang-x-text-dev"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

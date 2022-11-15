@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["adduser", "bash-completion", "buildbot", "bzr", "cvs", "darcs", "debhelper", "git-core", "mercurial", "python-all", "python-mock", "python-twisted", "subversion"], or 
+output: 
+[] is empty!

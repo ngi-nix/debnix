@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "bundlewrap",
+  "nix_pkg": null,
+  "control_file_hash": "b3518153483cbe94d3d23ef8d533ad4b97b403432b70b5dc29af3daccd8ffc41",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-cryptography",
+    "python3-jinja2",
+    "python3-mako",
+    "python3-minimal",
+    "python3-passlib",
+    "python3-requests",
+    "python3-setuptools",
+    "python3-tomlkit"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "Mako",
+    "cryptography",
+    "librouteros",
+    "passlib",
+    "python3",
+    "pyyaml",
+    "requests",
+    "rtoml",
+    "setuptools",
+    "tomlkit"
+  ],
+  "map": {
+    "python3-mako": "Mako",
+    "python3": "python3",
+    "python3-jinja2": "Jinja2",
+    "python3-requests": "requests",
+    "python3-setuptools": "setuptools"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "bgpdump",
+  "nix_pkg": null,
+  "control_file_hash": "1a5f6c1c79354458657c74f2c2cab43b75de28d3ea3bcdb861643f6350c16857",
+  "deb_inputs": [
+    "asciidoctor",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libbz2-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2"
+  }
+}

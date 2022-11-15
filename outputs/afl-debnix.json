@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "afl",
+  "nix_pkg": null,
+  "control_file_hash": "375e877d5a902ffae5e66100ec0f2fa9fa08e8d2c6545bbf3351c2a0f46da58f",
+  "deb_inputs": [
+    "afl",
+    "afl-clang",
+    "afl-doc",
+    "build-essential",
+    "clang-6.0",
+    "debhelper",
+    "dh-buildinfo",
+    "gnuplot",
+    "llvm-6.0-dev"
+  ],
+  "nix_inputs": [
+    "llvm",
+    "which"
+  ],
+  "map": {
+    "llvm-6.0-dev": "llvm"
+  }
+}

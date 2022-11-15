@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "cargo-c",
+  "nix_pkg": null,
+  "control_file_hash": "5797004ed099b73bb5da2faea9cf15224a909102ef24bd980ffb4e00a5f81020",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-anyhow-1+default-dev",
+    "librust-cargo-0.57+default-dev",
+    "librust-cargo-util-0.1+default-dev",
+    "librust-cbindgen+default-dev",
+    "librust-cc-1+default-dev",
+    "librust-glob-0.3+default-dev",
+    "librust-itertools-0.10+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-regex-1+default-dev",
+    "librust-semver-1+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-derive-1+default-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-structopt-0.3+color-dev",
+    "librust-structopt-0.3+default-dev",
+    "librust-toml-0.5+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "curl",
+    "git-minimal",
+    "nss-cacert",
+    "openssl",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

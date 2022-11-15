@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "urjtag",
+  "nix_pkg": null,
+  "control_file_hash": "8c783631c742d531fe4bfcec69e4d3246f7855cd205b1610cee02b0899b2dbf5",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autopoint",
+    "autotools-dev",
+    "bison",
+    "cdbs",
+    "debhelper",
+    "dh-python",
+    "flex",
+    "gettext",
+    "libftdi1-dev",
+    "libreadline-dev",
+    "libtool",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libftdi",
+    "libtool",
+    "libusb-compat",
+    "pkg-config-wrapper",
+    "readline",
+    "which"
+  ],
+  "map": {
+    "libreadline-dev": "readline",
+    "gettext": "gettext",
+    "libtool": "libtool",
+    "autopoint": "gettext",
+    "libftdi1-dev": "libftdi"
+  }
+}
