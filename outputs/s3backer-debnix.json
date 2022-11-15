@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "s3backer",
+  "nix_pkg": null,
+  "control_file_hash": "fb12e9b7998571ee8d2ec46d7120ea1918999e951d22c4fe20c15284b8710c46",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "fuse",
+    "libcurl-dev",
+    "libcurl4-openssl-dev",
+    "libexpat1-dev",
+    "libfuse-dev",
+    "libssl-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "expat",
+    "fuse",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "fuse": "fuse",
+    "libcurl-dev": "curl",
+    "libexpat1-dev": "expat",
+    "libcurl4-openssl-dev": "curl",
+    "libfuse-dev": "fuse"
+  }
+}

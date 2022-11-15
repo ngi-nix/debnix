@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "smpq",
+  "nix_pkg": null,
+  "control_file_hash": "e117cb14ac362d47f6229240e7fecdf9e72f4ba95a2d5b553e5bbc621869d4de",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libstorm-dev"
+  ],
+  "nix_inputs": [
+    "StormLib",
+    "cmake"
+  ],
+  "map": {
+    "libstorm-dev": "StormLib",
+    "cmake": "cmake"
+  }
+}

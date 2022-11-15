@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "subread",
+  "nix_pkg": null,
+  "control_file_hash": "90f4732862fbd410c06310677f0481ff95d821308a01a4c72419c3c5bc8a0f19",
+  "deb_inputs": [
+    "bc",
+    "debhelper-compat",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

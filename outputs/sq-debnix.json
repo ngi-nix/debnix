@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "sq",
+  "nix_pkg": null,
+  "control_file_hash": "0aa547d918f6f8757369cb49f5697194a742a65e0aae63c55e1a7fc6b126dbc6",
+  "deb_inputs": [
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-anyhow-1+default-dev",
+    "librust-buffered-reader-1+compression-bzip2-dev",
+    "librust-buffered-reader-1+compression-deflate-dev",
+    "librust-cfg-if-1+default-dev",
+    "librust-chrono-0.4+default-dev",
+    "librust-clap-3+default-dev",
+    "librust-clap-3+derive-dev",
+    "librust-clap-3+env-dev",
+    "librust-clap-3+wrap-help-dev",
+    "librust-clap-complete-3+default-dev",
+    "librust-itertools-0.10+default-dev",
+    "librust-rpassword-5+default-dev",
+    "librust-sequoia-autocrypt-0.24-dev",
+    "librust-sequoia-net-0.25-dev",
+    "librust-sequoia-openpgp-1+compression-bzip2-dev",
+    "librust-sequoia-openpgp-1+compression-deflate-dev",
+    "librust-sequoia-openpgp-1+crypto-nettle-dev",
+    "librust-sequoia-openpgp-1-dev",
+    "librust-serde-1+default-dev",
+    "librust-serde-1+derive-dev",
+    "librust-serde-json-1+default-dev",
+    "librust-tempfile-3+default-dev",
+    "librust-term-size-0.3+default-dev",
+    "librust-tokio-1+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

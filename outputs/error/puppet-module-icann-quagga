@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "e2fsprogs", "openstack-pkg-tools", "puppet", "puppet-module-icann-tea", "puppet-module-puppetlabs-concat", "puppet-module-puppetlabs-inifile", "puppet-module-puppetlabs-stdlib", "puppet-module-rodjek-logrotate", "python3-all", "python3-pbr", "python3-setuptools", "xfsprogs"], or 
+output: 
+[] is empty!

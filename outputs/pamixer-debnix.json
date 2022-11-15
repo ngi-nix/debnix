@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "pamixer",
+  "nix_pkg": null,
+  "control_file_hash": "7ac0655c0ddf2476670d0d589dcee490d5218d1f3be12f75a0f49c3c850aab86",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcxxopts-dev",
+    "libpulse-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "boost",
+    "libpulseaudio"
+  ],
+  "map": {}
+}

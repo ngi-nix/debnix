@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "neuron-dev",
+  "nix_pkg": null,
+  "control_file_hash": "05731f043b3189c3cbbe439418d1889c6e81cd1783b66504aade119c98fc0186",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "dh-python",
+    "libmeschach-dev",
+    "libpython3-dev",
+    "libreadline-dev",
+    "libx11-dev",
+    "libxext-dev",
+    "mpi-default-dev",
+    "neuron",
+    "neuron-dev",
+    "python3-all",
+    "python3-neuron",
+    "python3-setuptools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "iv",
+    "libtool",
+    "ncurses",
+    "pkg-config-wrapper",
+    "readline",
+    "which"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

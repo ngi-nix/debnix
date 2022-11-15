@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "mcron",
+  "nix_pkg": null,
+  "control_file_hash": "2b7948ea01c6843724f6f1637c5501bf432dbdfe06e5a4f2a6986459fed7a374",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg",
+    "ed",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "help2man",
+    "install-info",
+    "mail-transport-agent",
+    "sendmail",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "ed",
+    "guile",
+    "libtool",
+    "which"
+  ],
+  "map": {
+    "guile-3.0-dev": "guile",
+    "ed": "ed",
+    "guile-3.0": "guile"
+  }
+}

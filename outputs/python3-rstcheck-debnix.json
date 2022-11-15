@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "python3-rstcheck",
+  "nix_pkg": null,
+  "control_file_hash": "845a540b0d85560c1c4d2ea0d4e343597ead6582be7a77f8269e25c0eb8c5e02",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "g++",
+    "gcc",
+    "pybuild-plugin-pyproject",
+    "python3",
+    "python3-docutils",
+    "python3-poetry-core",
+    "python3-pydantic",
+    "python3-rstcheck",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-tomli",
+    "python3-typer",
+    "python3-typeshed",
+    "python3-typing-extensions"
+  ],
+  "nix_inputs": [
+    "colorama",
+    "docutils",
+    "poetry-core",
+    "pydantic",
+    "python3",
+    "rich",
+    "rstcheck-core",
+    "shellingham",
+    "typer",
+    "types-docutils",
+    "typing-extensions"
+  ],
+  "map": {
+    "python3-pydantic": "pydantic",
+    "python3-typer": "typer",
+    "python3": "python3",
+    "python3-poetry-core": "poetry-core"
+  }
+}

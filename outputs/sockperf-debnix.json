@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "sockperf",
+  "nix_pkg": null,
+  "control_file_hash": "e26c076461e351ded291c06f6adaca42c619ca12cfef6bc88da7d3e57b562d9b",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "doxygen"
+  ],
+  "nix_inputs": [
+    "doxygen"
+  ],
+  "map": {
+    "doxygen": "doxygen"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "pineapple-pictures",
+  "nix_pkg": null,
+  "control_file_hash": "74c0154b186ef75472ae572b0d9b75752f9f12a1300deca20f54e4dc0d110b51",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libexiv2-dev",
+    "libqt5svg5-dev",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "exiv2",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "libexiv2-dev": "exiv2",
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "sc-im",
+  "nix_pkg": null,
+  "control_file_hash": "3d49cb3b116f5cc35a079a287a22a1e75c1767e89faa34ae11ddcd1dc6112f93",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "gnuplot",
+    "liblua5.4-dev",
+    "libncurses-dev",
+    "libncurses6",
+    "libncursesw6",
+    "libtinfo-dev",
+    "libxml2",
+    "libxml2-dev",
+    "libzip-dev",
+    "lua5.4",
+    "xclip",
+    "zip"
+  ],
+  "nix_inputs": [
+    "bison",
+    "gnuplot",
+    "libxls",
+    "libxlsxwriter",
+    "libxml2",
+    "libzip",
+    "ncurses",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libxml2": "libxml2",
+    "libncurses-dev": "ncurses",
+    "bison": "bison",
+    "libtinfo-dev": "ncurses",
+    "libzip-dev": "libzip",
+    "libxml2-dev": "libxml2",
+    "libncurses6": "ncurses",
+    "gnuplot": "gnuplot",
+    "libncursesw6": "ncurses"
+  }
+}

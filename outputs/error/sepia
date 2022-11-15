@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "emacs-gtk", "emacs-nox", "emacs22", "emacs23", "emacs24", "emacs25", "emacs25-nox", "libbsd-resource-perl", "libdata-dump-perl", "libdevel-lexalias-perl", "libdevel-size-perl", "libio-stringy-perl", "libmodule-corelist-perl", "libmodule-info-perl", "libpadwalker-perl", "libscope-upper-perl", "libwww-perl", "perl-doc", "w3m-el", "w3m-el-snapshot"], or 
+output: 
+[] is empty!

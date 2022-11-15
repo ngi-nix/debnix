@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "nvchecker",
+  "nix_pkg": null,
+  "control_file_hash": "364d2c6c61adade2ff3bf415bccbd04168f79750d3e5a2d7f14c9a695838831e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-appdirs",
+    "python3-pycurl",
+    "python3-setuptools",
+    "python3-structlog",
+    "python3-toml",
+    "python3-tornado"
+  ],
+  "nix_inputs": [
+    "aiohttp",
+    "appdirs",
+    "docutils",
+    "flaky",
+    "packaging",
+    "pycurl",
+    "pytest-asyncio",
+    "pytest-httpbin",
+    "python3",
+    "setuptools",
+    "structlog",
+    "tomli",
+    "tornado"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-appdirs": "appdirs",
+    "python3-pycurl": "pycurl"
+  }
+}

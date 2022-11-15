@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-elpa", "dia", "emacs", "enscript", "gem2deb", "ghostscript", "gimp", "libjs-prototype", "mimetex", "python-aalib", "python3-blockdiag", "rabbit", "rabbit-mode", "rdtool-elisp", "ruby-coderay", "ruby-faraday", "ruby-gettext", "ruby-gtk3", "ruby-hikidoc", "ruby-kramdown-parser-gfm", "ruby-nokogiri", "ruby-poppler", "ruby-rd", "ruby-rouge", "ruby-rsvg2", "ruby-rt", "ruby-test-unit", "ruby-test-unit-rr", "ruby:any", "xauth", "xvfb"], or 
+output: 
+[] is empty!

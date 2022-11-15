@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "sift",
+  "nix_pkg": null,
+  "control_file_hash": "02c85b8b25b25338c415ec3165b28f541bdd4458ecf248f54af544e6c19e2022",
+  "deb_inputs": [
+    "blimps-utils",
+    "csh",
+    "debhelper",
+    "libblimps3-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

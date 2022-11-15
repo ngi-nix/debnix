@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "psst",
+  "nix_pkg": null,
+  "control_file_hash": "95eda0995954ad724a59b61384492a3831a82bdafad1ae6d29f0263a08bbe4b2",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "at-spi2-core",
+    "cairo",
+    "dbus",
+    "gdk-pixbuf",
+    "git-minimal",
+    "glib",
+    "gtk+3",
+    "nss-cacert",
+    "pango",
+    "pkg-config-wrapper",
+    "rustc"
+  ],
+  "map": {}
+}

@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "minimap2",
+  "nix_pkg": null,
+  "control_file_hash": "569ed5d8d11799cc94c981cf97e47fe5f8d3bd7846e657bc62ca4c43a4bd3897",
+  "deb_inputs": [
+    "cython3",
+    "d-shlibs",
+    "debhelper-compat",
+    "dh-python",
+    "ghostscript",
+    "gnuplot",
+    "libsimde-dev",
+    "python3-all-dev",
+    "python3-setuptools",
+    "texlive-font-utils",
+    "texlive-latex-extra",
+    "texlive-science",
+    "zlib1g",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "zlib1g": "zlib"
+  }
+}

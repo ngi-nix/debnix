@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "psensor-server",
+  "nix_pkg": null,
+  "control_file_hash": "b80ee0142444829452d04fc7e36aa5525bd58237c7888793ecd7329a72b4eacd",
+  "deb_inputs": [
+    "asciidoc",
+    "autoconf",
+    "automake",
+    "autopoint",
+    "cppcheck",
+    "debhelper",
+    "dh-autoreconf",
+    "gettext",
+    "hddtemp",
+    "help2man",
+    "libatasmart-dev",
+    "libayatana-appindicator3-dev",
+    "libcurl4-gnutls-dev",
+    "libgtk-3-dev",
+    "libgtop2-dev",
+    "libjs-jquery",
+    "libjson-c-dev",
+    "libmicrohttpd-dev",
+    "libnotify-dev",
+    "libsensors-dev",
+    "libudisks2-dev",
+    "libxnvctrl-dev",
+    "perl",
+    "psensor-common"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "libatasmart",
+    "libgtop",
+    "libnotify",
+    "lm-sensors",
+    "pkg-config-wrapper",
+    "udisks"
+  ],
+  "map": {
+    "libatasmart-dev": "libatasmart",
+    "libudisks2-dev": "udisks",
+    "libsensors-dev": "lm-sensors",
+    "libgtop2-dev": "libgtop",
+    "libnotify-dev": "libnotify"
+  }
+}

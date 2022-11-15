@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "merecat",
+  "nix_pkg": null,
+  "control_file_hash": "f50bd90474d53bd19dc0c06755bf914653d8a4426f580cda42b740cd84eb7ead",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcgi-fast-perl",
+    "libcgi-pm-perl",
+    "libconfuse-dev",
+    "libssl-dev",
+    "php-cgi",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libconfuse",
+    "libxcrypt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libconfuse-dev": "libconfuse"
+  }
+}

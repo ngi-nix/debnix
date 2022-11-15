@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "tcpflow-nox",
+  "nix_pkg": null,
+  "control_file_hash": "d44ede5b8fe3249f1305deee6aea69ce1ee6434b6f8e36a0331eb8d237051fd4",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "libboost-dev",
+    "libcairo2-dev",
+    "libhttp-parser-dev",
+    "libpcap0.8-dev",
+    "libssl-dev",
+    "openssl",
+    "tcpdump",
+    "zlib1g"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "boost",
+    "libpcap",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "automake": "automake",
+    "libpcap0.8-dev": "libpcap",
+    "libssl-dev": "openssl",
+    "openssl": "openssl",
+    "autoconf": "autoconf",
+    "libboost-dev": "boost",
+    "zlib1g": "zlib"
+  }
+}

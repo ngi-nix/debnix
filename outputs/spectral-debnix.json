@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "spectral",
+  "nix_pkg": null,
+  "control_file_hash": "db93534f6b6ffd61eb184b03b8254c4be0217f55db27f6a705dd3ba7102d767e",
+  "deb_inputs": [
+    "debhelper",
+    "neochat"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "cmark",
+    "extra-cmake-modules",
+    "kconfig",
+    "kdbusaddons",
+    "ki18n",
+    "kio",
+    "kirigami2",
+    "kitemmodels",
+    "knotifications",
+    "kquickimageeditor",
+    "libpulseaudio",
+    "libquotient",
+    "libsecret",
+    "olm",
+    "pkg-config-wrapper",
+    "qcoro",
+    "qqc2-desktop-style",
+    "qtgraphicaleffects",
+    "qtkeychain",
+    "qtmultimedia",
+    "qtquickcontrols2",
+    "sonnet"
+  ],
+  "map": {}
+}

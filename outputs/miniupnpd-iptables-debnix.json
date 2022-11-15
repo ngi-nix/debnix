@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "miniupnpd-iptables",
+  "nix_pkg": null,
+  "control_file_hash": "6c749d808ccb30299728c669dc203e431e734542462040f294938df714730c27",
+  "deb_inputs": [
+    "debconf",
+    "debhelper-compat",
+    "iptables",
+    "libiptc-dev",
+    "libmnl-dev",
+    "libnftnl-dev",
+    "libxtables-dev",
+    "lsb-base",
+    "miniupnpd-iptables",
+    "miniupnpd-nftables",
+    "pkg-config",
+    "po-debconf",
+    "uuid-runtime"
+  ],
+  "nix_inputs": [
+    "iptables",
+    "openssl",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "iptables": "iptables",
+    "libiptc-dev": "iptables",
+    "libxtables-dev": "iptables"
+  }
+}

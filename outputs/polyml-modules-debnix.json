@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "polyml-modules",
+  "nix_pkg": null,
+  "control_file_hash": "27746fbea541a04dc4c38191f5f940eb44b3b0099056a0e13b64d0eb888b1acc",
+  "deb_inputs": [
+    "debhelper",
+    "file",
+    "g++",
+    "libffi-dev",
+    "libltdl-dev",
+    "libpolyml11",
+    "polyml-modules"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "libffi"
+  ],
+  "map": {
+    "libffi-dev": "libffi"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "skeema",
+  "nix_pkg": null,
+  "control_file_hash": "c20587ada5b6ac6c4bcd112ca148f6432de6bc3b0f39be0b78cd72d0852481ad",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-alecthomas-participle-dev",
+    "golang-github-fsouza-go-dockerclient-dev",
+    "golang-github-jmoiron-sqlx-dev",
+    "golang-github-mitchellh-go-wordwrap-dev",
+    "golang-github-nozzle-throttler-dev",
+    "golang-github-skeema-mybase-dev",
+    "golang-github-vividcortex-mysqlerr-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-term-dev",
+    "golang-logrus-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

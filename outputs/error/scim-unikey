@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "gettext", "libltdl-dev", "libscim-dev", "libtool", "pkg-config", "scim"], or 
+output: 
+[] is empty!

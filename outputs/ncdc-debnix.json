@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "ncdc",
+  "nix_pkg": null,
+  "control_file_hash": "12769e1ffb2593abf6316041c9a101aaa4b96a0c71a66a14e014a79686364af2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dtach",
+    "libbz2-dev",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libncurses5-dev",
+    "libncursesw5-dev",
+    "libsqlite3-dev",
+    "screen",
+    "tmux",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "glib",
+    "gnutls",
+    "libmaxminddb",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite",
+    "libbz2-dev": "bzip2",
+    "libglib2.0-dev": "glib",
+    "libncursesw5-dev": "ncurses",
+    "libgnutls28-dev": "gnutls",
+    "libncurses5-dev": "ncurses",
+    "zlib1g-dev": "zlib"
+  }
+}
