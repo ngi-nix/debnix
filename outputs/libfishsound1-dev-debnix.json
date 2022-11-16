@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libfishsound1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "499082d71d2214323ddd36aea186fb213b8e0f9e2a0f2576c43a8a561150e578",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libfishsound1",
+    "libflac-dev",
+    "libspeex-dev",
+    "libvorbis-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "flac",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "speex"
+  ],
+  "map": {
+    "libspeex-dev": "speex",
+    "libvorbis-dev": "libvorbis",
+    "libflac-dev": "flac"
+  }
+}

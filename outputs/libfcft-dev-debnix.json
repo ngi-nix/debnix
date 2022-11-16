@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libfcft-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bbf3f7cd62eb8dd28b6bad34140dea5689aa01bd57b424939bcdb4edf151d39e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libfcft4",
+    "libfontconfig-dev",
+    "libfreetype6-dev",
+    "libharfbuzz-dev",
+    "libpixman-1-dev",
+    "libtllist-dev",
+    "meson",
+    "pkg-config",
+    "scdoc"
+  ],
+  "nix_inputs": [
+    "check",
+    "fontconfig",
+    "freetype",
+    "harfbuzz",
+    "meson",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "scdoc",
+    "tllist",
+    "utf8proc"
+  ],
+  "map": {
+    "libpixman-1-dev": "pixman",
+    "libfontconfig-dev": "fontconfig",
+    "libfreetype6-dev": "freetype",
+    "meson": "meson",
+    "scdoc": "scdoc",
+    "libtllist-dev": "tllist",
+    "libharfbuzz-dev": "harfbuzz"
+  }
+}

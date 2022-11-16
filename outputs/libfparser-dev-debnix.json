@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libfparser-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5e7f4df949844a681d4ddf24b2dbfc27b7072ef8879fe5b310cef96daa08c79b",
+  "deb_inputs": [
+    "bison",
+    "cmake",
+    "debhelper",
+    "libfparser4"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

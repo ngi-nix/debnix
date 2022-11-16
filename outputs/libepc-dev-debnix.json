@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "libepc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a5b88fc3ea2fcbce010e8375573a25c4cec4739837d145577f468602cc8a5235",
+  "deb_inputs": [
+    "debhelper",
+    "devhelp",
+    "gnome-common",
+    "gnome-pkg-tools",
+    "gtk-doc-tools",
+    "intltool",
+    "libavahi-client-dev",
+    "libavahi-glib-dev",
+    "libavahi-ui-gtk3-dev",
+    "libepc-1.0-3",
+    "libepc-common",
+    "libepc-dev",
+    "libepc-doc",
+    "libepc-ui-1.0-3",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libgtk-3-dev",
+    "libsoup2.4-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "avahi",
+    "glib",
+    "gnutls",
+    "gtk+3",
+    "gtk-doc",
+    "intltool",
+    "libsoup",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libavahi-client-dev": "avahi",
+    "libglib2.0-dev": "glib",
+    "intltool": "intltool",
+    "libgnutls28-dev": "gnutls",
+    "libsoup2.4-dev": "libsoup",
+    "libavahi-ui-gtk3-dev": "avahi",
+    "libavahi-glib-dev": "avahi"
+  }
+}

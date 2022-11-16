@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libboogie-cil",
+  "nix_pkg": null,
+  "control_file_hash": "87e4848c8702493329c8b4ab3786dee67947cbec3153be6fd7a29dc595b67fcb",
+  "deb_inputs": [
+    "cli-common-dev",
+    "debhelper-compat",
+    "libboogie-cil",
+    "libgtk2.0-0",
+    "mono-devel",
+    "mono-mcs",
+    "tzdata",
+    "z3"
+  ],
+  "nix_inputs": [
+    "dotnet-sdk",
+    "nss-cacert"
+  ],
+  "map": {}
+}

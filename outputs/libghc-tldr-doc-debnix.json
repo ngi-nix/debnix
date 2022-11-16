@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libghc-tldr-doc",
+  "nix_pkg": null,
+  "control_file_hash": "4d15853ae345ec3cc12f20999868be08d18066aee65fcca4b94b4d05b9674b52",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "ghc",
+    "ghc-prof",
+    "git",
+    "haskell-devscripts",
+    "haskell-devscripts-minimal",
+    "help2man",
+    "libghc-ansi-terminal-dev",
+    "libghc-ansi-terminal-prof",
+    "libghc-attoparsec-dev",
+    "libghc-attoparsec-prof",
+    "libghc-cmark-dev",
+    "libghc-cmark-prof",
+    "libghc-http-conduit-dev",
+    "libghc-http-conduit-prof",
+    "libghc-optparse-applicative-dev",
+    "libghc-optparse-applicative-prof",
+    "libghc-semigroups-dev",
+    "libghc-semigroups-prof",
+    "libghc-tasty-dev",
+    "libghc-tasty-golden-dev",
+    "libghc-tasty-golden-prof",
+    "libghc-tasty-prof",
+    "libghc-zip-archive-dev",
+    "libghc-zip-archive-prof"
+  ],
+  "nix_inputs": [
+    "curl",
+    "libzip",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libgit2-glib-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d4e0a36802215f26d67ea81e419042ad41a2b964f6574c107822bc4fa9bb062e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gi-docgen",
+    "gir1.2-ggit-1.0",
+    "libgirepository1.0-dev",
+    "libgit2-dev",
+    "libgit2-glib-1.0-0",
+    "libgit2-glib-1.0-doc",
+    "libglib2.0-dev",
+    "meson",
+    "pkg-config",
+    "python-gi-dev",
+    "valac"
+  ],
+  "nix_inputs": [
+    "gi-docgen",
+    "glib",
+    "gobject-introspection",
+    "gtk-doc",
+    "libgit2",
+    "libssh2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "vala"
+  ],
+  "map": {
+    "valac": "vala",
+    "gi-docgen": "gi-docgen",
+    "libgit2-dev": "libgit2",
+    "meson": "meson",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "python-gi-dev": "pygobject"
+  }
+}

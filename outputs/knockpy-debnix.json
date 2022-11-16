@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "knockpy",
+  "nix_pkg": null,
+  "control_file_hash": "5819b56e92ba3e10bbf6921865a47ba696f79b77b9c8add0cefcd2049152dd7e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-bs4",
+    "python3-colorama",
+    "python3-matplotlib",
+    "python3-networkx",
+    "python3-pyqt5",
+    "python3-requests",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "PyQt5",
+    "beautifulsoup4",
+    "colorama",
+    "matplotlib",
+    "networkx",
+    "python3",
+    "requests"
+  ],
+  "map": {
+    "python3-matplotlib": "matplotlib",
+    "python3-networkx": "networkx",
+    "python3-pyqt5": "PyQt5",
+    "python3-bs4": "beautifulsoup4",
+    "python3-requests": "requests"
+  }
+}

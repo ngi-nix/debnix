@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libespeak-dev",
+  "nix_pkg": null,
+  "control_file_hash": "479aa24a2138857d0bb0a5f2474f780e91ef66ce7915515de562bc3628a23219",
+  "deb_inputs": [
+    "debhelper-compat",
+    "espeak-data",
+    "libespeak1",
+    "libpulse-dev",
+    "libsonic-dev",
+    "portaudio19-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "mbrola",
+    "pcaudiolib",
+    "pkg-config-wrapper",
+    "ronn",
+    "sonic-unstable",
+    "which"
+  ],
+  "map": {}
+}

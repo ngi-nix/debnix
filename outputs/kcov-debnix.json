@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "kcov",
+  "nix_pkg": null,
+  "control_file_hash": "d7643ce34346427dc3bb85d5757989002a105f6e1fc9b6869aab070f98c90648",
+  "deb_inputs": [
+    "binutils-dev",
+    "cmake",
+    "debhelper",
+    "libcurl4-openssl-dev",
+    "libdw-dev",
+    "libelf-dev",
+    "libiberty-dev",
+    "libjs-handlebars",
+    "libjs-jquery",
+    "libjs-jquery-tablesorter",
+    "pkg-config",
+    "python3"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "elfutils",
+    "libiberty",
+    "libopcodes",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "libdw-dev": "elfutils",
+    "libcurl4-openssl-dev": "curl",
+    "libiberty-dev": "libiberty",
+    "libelf-dev": "elfutils",
+    "python3": "python3",
+    "cmake": "cmake"
+  }
+}

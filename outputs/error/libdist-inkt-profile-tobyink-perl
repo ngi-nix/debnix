@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cdbs", "debhelper", "dh-buildinfo", "libdist-inkt-doap-perl", "libdist-inkt-perl", "libdist-inkt-role-hg-perl", "libdist-inkt-role-release-perl", "libdist-inkt-role-test-kwalitee-perl", "libdist-inkt-role-test-perl", "libtest-eol-perl", "libtest-simple-perl", "libtest-tabs-perl", "perl"], or 
+output: 
+[] is empty!

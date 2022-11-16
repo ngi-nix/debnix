@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libcpp-hocon-dev",
+  "nix_pkg": null,
+  "control_file_hash": "50f10909d3a6680ff44120deaa91b3135799287f2c8563776712911d58905f96",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper-compat",
+    "libboost-program-options-dev",
+    "libcpp-hocon0.3.0",
+    "libleatherman-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "curl",
+    "leatherman"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libleatherman-dev": "leatherman"
+  }
+}

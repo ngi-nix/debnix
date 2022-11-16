@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libf2fs-dev",
+  "nix_pkg": null,
+  "control_file_hash": "515b95b176c38c2bf919444d1c935ec42556bff9bac471f1fdfaa97a9a46c356",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libblkid-dev",
+    "libselinux1-dev",
+    "pkg-config",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "libselinux",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "libselinux1-dev": "libselinux"
+  }
+}

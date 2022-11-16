@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libdatrie1-bin",
+  "nix_pkg": null,
+  "control_file_hash": "a16839f51e1ddc5f537c4ab005f47900e105ce24da0fb66d281260106399488d",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libdatrie-doc",
+    "libdatrie1",
+    "libjs-jquery",
+    "pkg-config",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "autoconf-archive"
+  ],
+  "map": {
+    "autoconf-archive": "autoconf-archive"
+  }
+}

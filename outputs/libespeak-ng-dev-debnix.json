@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libespeak-ng-dev",
+  "nix_pkg": null,
+  "control_file_hash": "168bab6a84b2883ad360b6d291d4d03d9d92624079daccf64ce5e8ab890fb332",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "espeak-ng",
+    "espeak-ng-data",
+    "kramdown",
+    "libespeak-ng-dev",
+    "libespeak-ng1",
+    "libpcaudio-dev",
+    "libsonic-dev",
+    "ronn"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "mbrola",
+    "pcaudiolib",
+    "pkg-config-wrapper",
+    "ronn",
+    "sonic-unstable",
+    "which"
+  ],
+  "map": {
+    "ronn": "ronn",
+    "libpcaudio-dev": "pcaudiolib"
+  }
+}

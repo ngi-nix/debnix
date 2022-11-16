@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libgbtools0",
+  "nix_pkg": null,
+  "control_file_hash": "a9565f37b9a5cd31f04b2bc4c70fcb5f40acc52ae1596fe3db8f6c1718cdbc79",
+  "deb_inputs": [
+    "d-shlibs",
+    "debhelper-compat",
+    "libcurl4-dev",
+    "libcurl4-openssl-dev",
+    "libgbtools0",
+    "libgtk2.0-dev",
+    "libjsoncpp-dev",
+    "libsqlite3-dev"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc",
+    "which"
+  ],
+  "map": {}
+}

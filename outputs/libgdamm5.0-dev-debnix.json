@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libgdamm5.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b5d5415612d3a4d1def258c683d227bf5648d1c0a807c1c6464f93d01dbfd7dd",
+  "deb_inputs": [
+    "debhelper",
+    "devhelp",
+    "doc-base",
+    "gnome-pkg-tools",
+    "libgda-5.0-dev",
+    "libgdamm-5.0-13",
+    "libgdamm5.0-doc",
+    "libglibmm-2.4-dev",
+    "libjs-jquery",
+    "mm-common"
+  ],
+  "nix_inputs": [
+    "glibmm",
+    "libgda",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgda-5.0-dev": "libgda",
+    "libglibmm-2.4-dev": "glibmm"
+  }
+}

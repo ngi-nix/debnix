@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "libdmtx-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8ad1300a9495b370bfe0553711ea9a8bfb98e78f41d00b5c48c66bcb3470609b",
+  "deb_inputs": [
+    "debhelper",
+    "libdmtx0b"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

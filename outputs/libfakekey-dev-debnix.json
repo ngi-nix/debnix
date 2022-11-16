@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libfakekey-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0853472240a67e00c2793e4b1b4f15b301db5199778d7354f2cf573d69e9d7b3",
+  "deb_inputs": [
+    "debhelper",
+    "doxygen",
+    "libfakekey-dev",
+    "libfakekey0",
+    "libxtst-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXi",
+    "libXtst",
+    "pkg-config-wrapper",
+    "xorgproto"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst"
+  }
+}

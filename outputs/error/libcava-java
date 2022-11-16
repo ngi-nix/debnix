@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["antlr4", "debhelper", "default-jdk", "default-jdk-headless", "gradle-debian-helper", "javahelper", "libguava-java", "libicu4j-java", "libintellij-annotations-java", "libjnr-ffi-java", "libjsr305-java", "liblogback-java", "libokhttp-java", "libsnappy-java", "maven-repo-helper"], or 
+output: 
+[] is empty!

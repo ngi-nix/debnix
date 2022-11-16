@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libasio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b05f644b94a5d5c9cdf37811ec8d2eba626a6a595bf9877e02a682cc47734dd8",
+  "deb_inputs": [
+    "debhelper",
+    "libasio-dev",
+    "libboost-date-time-dev",
+    "libboost-dev",
+    "libboost-regex-dev",
+    "libboost-test-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libboost-dev": "boost"
+  }
+}

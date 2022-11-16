@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libftdi1-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "d727e3c8fa44bbbad7b069d611423486f20a3e544c6117ec7248e7588ffa7a85",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "doxygen",
+    "libftdi1",
+    "libusb-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "doxygen",
+    "graphviz",
+    "libconfuse",
+    "libusb",
+    "pkg-config-wrapper",
+    "swig"
+  ],
+  "map": {
+    "libusb-dev": "libusb",
+    "doxygen": "doxygen"
+  }
+}

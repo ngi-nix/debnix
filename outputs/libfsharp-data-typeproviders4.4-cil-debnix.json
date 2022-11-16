@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libfsharp-data-typeproviders4.4-cil",
+  "nix_pkg": null,
+  "control_file_hash": "d55e90408debb2a7faa6b7ef8185962ee9e33dab05fab631e801d781ab9f9971",
+  "deb_inputs": [
+    "cli-common-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "libfsharp-core4.3-cil",
+    "libmono-compilerservices-symbolwriter4.0-cil",
+    "libmono-i18n4.0-cil",
+    "mono-devel",
+    "mono-runtime",
+    "mono-runtime-common",
+    "tofrodos"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "mono",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "mono-runtime": "mono",
+    "libmono-compilerservices-symbolwriter4.0-cil": "mono",
+    "mono-devel": "mono",
+    "mono-runtime-common": "mono",
+    "libmono-i18n4.0-cil": "mono"
+  }
+}
