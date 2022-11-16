@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "doxygen-doc",
+  "nix_pkg": null,
+  "control_file_hash": "1bce2fd02aa3f6c6056dca58dcfaa6a991a07608ae2037f3c112471dee38742e",
+  "deb_inputs": [
+    "bison",
+    "clang",
+    "cm-super-minimal",
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "doxygen-doc",
+    "doxygen-gui",
+    "doxygen-latex",
+    "dpkg-dev",
+    "faketime",
+    "flex",
+    "ghostscript",
+    "graphviz",
+    "libclang-dev",
+    "libxapian-dev",
+    "llvm-dev",
+    "mat2",
+    "python3",
+    "qtbase5-dev",
+    "sassc",
+    "texlive-extra-utils",
+    "texlive-font-utils",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texlive-plain-generic",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "flex",
+    "python3"
+  ],
+  "map": {
+    "python3": "python3",
+    "cmake": "cmake",
+    "bison": "bison",
+    "flex": "flex"
+  }
+}

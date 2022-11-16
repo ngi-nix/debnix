@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "gob2",
+  "nix_pkg": null,
+  "control_file_hash": "9e11ac8bff6933aa51f50e31bc284f22418ffa36103bfa14e2f3b59db8d05826",
+  "deb_inputs": [
+    "bison",
+    "byacc",
+    "debhelper-compat",
+    "flex",
+    "libglib2.0-dev"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "libglib2.0-dev": "glib"
+  }
+}

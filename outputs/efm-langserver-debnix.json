@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "efm-langserver",
+  "nix_pkg": null,
+  "control_file_hash": "cff175c12470ac6d53bf3634a03085f4c2e9d0c7841328da524a3057fcbf98eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-check.v1-dev",
+    "golang-github-kr-pretty-dev",
+    "golang-github-mattn-go-unicodeclass-dev",
+    "golang-github-reviewdog-errorformat-dev",
+    "golang-github-sourcegraph-jsonrpc2-dev",
+    "golang-gopkg-yaml.v3-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

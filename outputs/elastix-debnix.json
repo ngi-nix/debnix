@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "elastix",
+  "nix_pkg": null,
+  "control_file_hash": "56ff1516daee2dd615c64942c98534156cbf45f5147150a40a149f35fef756ee",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "elastix-doc",
+    "libcharls-dev",
+    "libdcmtk-dev",
+    "libfftw3-dev",
+    "libinsighttoolkit5-dev",
+    "libnifti-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "itk",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

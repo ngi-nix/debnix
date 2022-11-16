@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "debhelper-compat", "dpkg-dev", "gauche", "gauche-dev", "gcc", "libffi-dev", "texinfo"], or 
+output: 
+[] is empty!

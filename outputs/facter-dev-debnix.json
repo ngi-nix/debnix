@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "facter-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0a7d4731864ae2794b9b19e9e825c4577ec88ef12dfc30dfd4d101c87b43c9da",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dmidecode",
+    "gem2deb",
+    "pciutils",
+    "virt-what"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "cpp-hocon",
+    "curl",
+    "leatherman",
+    "libwhereami",
+    "libyaml-cpp",
+    "openssl",
+    "ruby",
+    "util-linux"
+  ],
+  "map": {}
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "fcitx5-hangul",
+  "nix_pkg": null,
+  "control_file_hash": "f015bc8faa3832b361aa42bd255fe85fff9277a1419d32b7f015d883e8ee9e17",
+  "deb_inputs": [
+    "appstream",
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libfcitx5core-dev",
+    "libhangul-data",
+    "libhangul-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "gettext",
+    "libhangul"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "libhangul-dev": "libhangul",
+    "libfcitx5core-dev": "fcitx5",
+    "cmake": "cmake",
+    "libhangul-data": "libhangul",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

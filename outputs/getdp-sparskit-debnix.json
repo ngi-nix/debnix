@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "getdp-sparskit",
+  "nix_pkg": null,
+  "control_file_hash": "9fabeb4f3b8845238c4e1b65a2632de4b34638980a01d64e8254ad24f9385263",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gfortran",
+    "libarpack2-dev",
+    "libatlas-base-dev",
+    "libblas-dev",
+    "libblas.so",
+    "libgsl-dev",
+    "liblapack-dev",
+    "liblapack.so",
+    "libopenblas-dev",
+    "mpi-default-dev",
+    "petsc-dev",
+    "python3-dev",
+    "slepc-dev",
+    "swig",
+    "texinfo",
+    "texlive",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "gfortran-wrapper",
+    "lapack",
+    "openmpi",
+    "petsc",
+    "python3"
+  ],
+  "map": {
+    "python3-dev": "python3",
+    "libblas-dev": "blas",
+    "cmake": "cmake",
+    "petsc-dev": "petsc",
+    "liblapack-dev": "lapack"
+  }
+}

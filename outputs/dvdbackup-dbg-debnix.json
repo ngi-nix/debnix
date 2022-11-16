@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "dvdbackup-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "e59a836deb48b2667b6836a18390cf099f1d9732fcf6c6042835a77785abb041",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper",
+    "dh-autoreconf",
+    "dvdbackup",
+    "libdvdcss2",
+    "libdvdread-dev"
+  ],
+  "nix_inputs": [
+    "dvdauthor",
+    "libdvdcss",
+    "libdvdread"
+  ],
+  "map": {
+    "libdvdread-dev": "libdvdread",
+    "libdvdcss2": "libdvdcss"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "halibut",
+  "nix_pkg": null,
+  "control_file_hash": "7c1689a895edbf3859c3606d70dd8e11f579080a69af5cfeae6045324308ab65",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "perl"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

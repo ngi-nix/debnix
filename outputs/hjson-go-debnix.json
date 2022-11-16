@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "hjson-go",
+  "nix_pkg": null,
+  "control_file_hash": "1c9a62072fb702127c322e24af583c832809770dcdf02fd7cb91ff50db7ca773",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "elfx86exts",
+  "nix_pkg": null,
+  "control_file_hash": "855726cf3aed0d8fc3993c6a8a402b7607295af469f1dad2958008639dddc756",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-capstone-0.11+default-dev",
+    "librust-clap-2+default-dev",
+    "librust-memmap-0.7+default-dev",
+    "librust-object-0.29+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

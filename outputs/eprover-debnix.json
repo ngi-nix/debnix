@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "eprover",
+  "nix_pkg": null,
+  "control_file_hash": "20380d207976c93cb62c69eac22fc831705a49ebfa56a1f474233fc6a9ff02b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "picosat"
+  ],
+  "nix_inputs": [
+    "which"
+  ],
+  "map": {}
+}

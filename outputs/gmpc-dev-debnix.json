@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "gmpc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "49b75e57b1c962e6e25197e9d7dfeb0e213df221132575b778756a1e44e97b94",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gmpc",
+    "gmpc-data",
+    "gmpc-plugins",
+    "gob2",
+    "intltool",
+    "libayatana-appindicator-dev",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "libmpd-dev",
+    "libsoup2.4-dev",
+    "libsqlite3-dev",
+    "mpd",
+    "pkg-config",
+    "valac",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "glib",
+    "gob2",
+    "gtk+",
+    "hicolor-icon-theme",
+    "intltool",
+    "libICE",
+    "libSM",
+    "libmpd",
+    "libmpdclient",
+    "libsoup",
+    "libtool",
+    "libunique",
+    "pkg-config-wrapper",
+    "sqlite",
+    "vala"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libsoup2.4-dev": "libsoup",
+    "libsqlite3-dev": "sqlite",
+    "libmpd-dev": "libmpd",
+    "libgtk2.0-dev": "gtk+",
+    "valac": "vala",
+    "gob2": "gob2",
+    "libglib2.0-dev": "glib"
+  }
+}

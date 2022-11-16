@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "doclifter",
+  "nix_pkg": null,
+  "control_file_hash": "4ae5ac766906b6f92ef8e52d8461941ba05585d922419f2e196f4123d0f5c5eb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "groff-base",
+    "plotutils",
+    "python3",
+    "python3:any",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

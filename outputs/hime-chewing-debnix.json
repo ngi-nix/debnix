@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "hime-chewing",
+  "nix_pkg": null,
+  "control_file_hash": "1ca2d40d2033948f41bb452bcee9edc8cb67411aff768d0ec1803d8e5948fbbf",
+  "deb_inputs": [
+    "anthy",
+    "debhelper-compat",
+    "dpkg-dev",
+    "gcin-voice",
+    "hime",
+    "hime-anthy",
+    "hime-chewing",
+    "hime-data",
+    "hime-gtk2-immodule",
+    "hime-gtk3-immodule",
+    "hime-qt4-immodule",
+    "hime-qt5-immodule",
+    "hime-tables",
+    "im-config",
+    "libanthy-dev",
+    "libayatana-indicator-dev",
+    "libayatana-indicator3-dev",
+    "libchewing3-dev",
+    "libgtk-3-dev",
+    "libgtk2.0-dev",
+    "libhime",
+    "libxtst-dev",
+    "qtbase5-private-dev",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "anthy",
+    "gtk+",
+    "gtk+3",
+    "libXtst",
+    "libchewing",
+    "pkg-config-wrapper",
+    "qt",
+    "qtbase",
+    "which"
+  ],
+  "map": {
+    "anthy": "anthy",
+    "libchewing3-dev": "libchewing",
+    "libxtst-dev": "libXtst",
+    "libgtk-3-dev": "gtk+",
+    "libanthy-dev": "anthy",
+    "libgtk2.0-dev": "gtk+",
+    "qtbase5-private-dev": "qtbase"
+  }
+}

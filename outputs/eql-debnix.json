@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "eql",
+  "nix_pkg": null,
+  "control_file_hash": "e53bd5fa58ddf6473c421eef27746c34aeaedd6259878b12123c13f8873b3a9e",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "ecl",
+    "qt",
+    "xkbcomp",
+    "xkeyboard-config",
+    "xorg-server"
+  ],
+  "map": {}
+}

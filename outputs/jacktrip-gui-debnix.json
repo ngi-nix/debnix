@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "jacktrip-gui",
+  "nix_pkg": null,
+  "control_file_hash": "4ddd0fd7897241b2c8407533f82987bed8d33c5e13a4579252e839bac7c0dd41",
+  "deb_inputs": [
+    "audacity",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "help2man",
+    "iperf",
+    "libjack-dev",
+    "libqt5networkauth5-dev",
+    "libqt5svg5-dev",
+    "libqt5websockets5-dev",
+    "librtaudio-dev",
+    "meson",
+    "pkg-config",
+    "python3-jinja2:native",
+    "python3-yaml:native",
+    "qjackctl",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "dbus",
+    "help2man",
+    "libjack2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pyaml",
+    "python3",
+    "qtbase",
+    "qttools",
+    "qtx11extras",
+    "rtaudio"
+  ],
+  "map": {
+    "meson": "meson",
+    "help2man": "help2man",
+    "qtbase5-dev": "qtbase",
+    "librtaudio-dev": "rtaudio"
+  }
+}

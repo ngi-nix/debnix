@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "exult-studio",
+  "nix_pkg": null,
+  "control_file_hash": "abfe388164b516e3ef4b4bc77fb5ee87d89babd35f9622d923d663fccc04523e",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper",
+    "dh-autoreconf",
+    "exult",
+    "flex",
+    "gimp",
+    "libasound2-dev",
+    "libexiv2-dev",
+    "libfluidsynth-dev",
+    "libfreetype6-dev",
+    "libgdk-pixbuf2.0-dev",
+    "libgimp2.0-dev",
+    "libgtk-3-dev",
+    "libgtk2.0-dev",
+    "libogg-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libtool",
+    "libvorbis-dev",
+    "libxml2-dev",
+    "timidity",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "autoconf",
+    "automake",
+    "libogg",
+    "libtool",
+    "libvorbis",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "autoconf": "autoconf",
+    "zlib1g-dev": "zlib",
+    "automake": "automake",
+    "libogg-dev": "libogg",
+    "libtool": "libtool",
+    "libvorbis-dev": "libvorbis"
+  }
+}

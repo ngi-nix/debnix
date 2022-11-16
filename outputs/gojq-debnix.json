@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gojq",
+  "nix_pkg": null,
+  "control_file_hash": "547dc6ed342a91d6a70200198686b2afbeea7aeef5c9d0d65b5a6052c61ebaa8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-itchyny-timefmt-go-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-gopkg-yaml.v3-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

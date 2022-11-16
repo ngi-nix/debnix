@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "fricas-test",
+  "nix_pkg": null,
+  "control_file_hash": "3a71cb86e5c4626e8cc150ea77de4ed044c8802a49551c4ea8788adba26265c9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fricas",
+    "fricas-databases",
+    "fricas-doc",
+    "fricas-graphics",
+    "fricas-graphics-data",
+    "fricas-hypertex",
+    "fricas-hypertex-data",
+    "fricas-source",
+    "fricas-test",
+    "fricas-tex",
+    "gcl",
+    "libeditreadline-dev",
+    "libgmp3-dev",
+    "libxpm-dev",
+    "mawk",
+    "nowebm",
+    "texmacs"
+  ],
+  "nix_inputs": [
+    "libICE",
+    "libSM",
+    "libX11",
+    "libXau",
+    "libXdmcp",
+    "libXpm",
+    "libXt",
+    "sbcl"
+  ],
+  "map": {
+    "libxpm-dev": "libXpm"
+  }
+}

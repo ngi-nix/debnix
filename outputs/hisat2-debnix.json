@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "hisat2",
+  "nix_pkg": null,
+  "control_file_hash": "f4536f3c8146d5544a1b6cc8285feb93437d7835305faf12b8ff86f344ec8aa3",
+  "deb_inputs": [
+    "bcftools",
+    "debhelper-compat",
+    "help2man",
+    "hisat2",
+    "libsimde-dev",
+    "pandoc",
+    "python3",
+    "python3-hisat2",
+    "python3:any",
+    "samtools"
+  ],
+  "nix_inputs": [
+    "perl",
+    "python3",
+    "unzip",
+    "which"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}
