@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libpiano0",
+  "nix_pkg": null,
+  "control_file_hash": "b5c0824ca9bb3462ca077e8c62a6314fc68179a087b24e81ca8710bff4dc997c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev",
+    "libaudio-scrobbler-perl",
+    "libavcodec-dev",
+    "libavfilter-dev",
+    "libavformat-dev",
+    "libavutil-dev",
+    "libcurl4-gnutls-dev",
+    "libgcrypt20-dev",
+    "libjson-c-dev",
+    "libpiano0",
+    "libpth-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "curl",
+    "ffmpeg",
+    "json-c",
+    "libao",
+    "libgcrypt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libavformat-dev": "ffmpeg",
+    "libavutil-dev": "ffmpeg",
+    "libao-dev": "libao",
+    "libjson-c-dev": "json-c",
+    "libavcodec-dev": "ffmpeg",
+    "libgcrypt20-dev": "libgcrypt",
+    "libcurl4-gnutls-dev": "curl",
+    "libavfilter-dev": "ffmpeg"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libmimalloc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "da3af7116063ed17948e2266f7cad6d172d3fab7547dba970aeff174b1c6e5b4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libmimalloc2.0"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ninja"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

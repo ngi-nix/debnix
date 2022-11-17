@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libptytty-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5233c9e1608f32820713d267878007b08d7cd09362ded1cf6f4b8c4e641c062f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-cmake",
+    "libptytty0"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

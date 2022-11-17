@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libopenobex2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c58c270b92949524f0245125e24b8db2d87c054fd260274fa68acab91f219b8e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "doxygen",
+    "graphviz",
+    "libbluetooth-dev",
+    "libopenobex2",
+    "libusb-1.0-0-dev",
+    "libxml2-utils",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "cmake",
+    "libusb-compat",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libbluetooth-dev": "bluez",
+    "cmake": "cmake"
+  }
+}

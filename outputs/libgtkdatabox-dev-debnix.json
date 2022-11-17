@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libgtkdatabox-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b19e45d12c014c42d8b82892d780b73403a3319ae75d73b94494af81dba3b793",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libcairo2-dev",
+    "libgtk-3-dev",
+    "libgtkdatabox1",
+    "libpango1.0-dev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "gtk+3",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libcairo2-dev": "cairo"
+  }
+}

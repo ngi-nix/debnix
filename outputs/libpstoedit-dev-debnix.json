@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libpstoedit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "98b59067854d277f4fb1247020fae599c79d5742bcf813e35407f8b50bca77f3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-buildinfo",
+    "docbook-to-man",
+    "g++",
+    "ghostscript",
+    "ivtools-bin",
+    "libemf-dev",
+    "libgd-dev",
+    "libmagick++-dev",
+    "libplot-dev",
+    "libpng-dev",
+    "libpstoedit0c2a",
+    "libwmf-dev",
+    "libzip-dev",
+    "pkg-config",
+    "texlive-extra-utils",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "tgif",
+    "transfig",
+    "xfig"
+  ],
+  "nix_inputs": [
+    "gd",
+    "ghostscript-with-X",
+    "imagemagick",
+    "libjpeg-turbo",
+    "libwebp",
+    "pkg-config-wrapper",
+    "plotutils",
+    "zlib"
+  ],
+  "map": {
+    "libmagick++-dev": "imagemagick",
+    "libgd-dev": "gd",
+    "libplot-dev": "plotutils"
+  }
+}

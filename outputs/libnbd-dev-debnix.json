@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "libnbd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d22870d4044d1e601a20e7fc629509fdda1e06815838cf71edf74598e50604e4",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper",
+    "dh-ocaml",
+    "dh-python",
+    "gnutls-bin",
+    "iproute2",
+    "jq",
+    "libfuse3-dev",
+    "libgnutls28-dev",
+    "libnbd-dev",
+    "libnbd0",
+    "libxml2-dev",
+    "nbd-server",
+    "nbdkit",
+    "nbdkit-plugin-dev",
+    "ocaml-findlib",
+    "ocaml-nox",
+    "ocamlbuild",
+    "pkg-config",
+    "python3-dev",
+    "qemu-system-common",
+    "qemu-utils"
+  ],
+  "nix_inputs": [
+    "bash-completion",
+    "fuse",
+    "gnutls",
+    "libxml2",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gnutls-bin": "gnutls",
+    "libxml2-dev": "libxml2",
+    "libgnutls28-dev": "gnutls",
+    "libfuse3-dev": "fuse",
+    "bash-completion": "bash-completion"
+  }
+}

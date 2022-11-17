@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "liblldpctl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "39d29160ae86378f6fc98cba5c5ed82aeb2c824089d8fa110e09d50a9ae80fd9",
+  "deb_inputs": [
+    "adduser",
+    "check",
+    "debhelper-compat",
+    "libbsd-dev",
+    "libcap-dev",
+    "libevent-dev",
+    "libpci-dev",
+    "libreadline-dev",
+    "libsnmp-dev",
+    "libxml2-dev",
+    "lldpd",
+    "lsb-base",
+    "pkg-config",
+    "snmpd"
+  ],
+  "nix_inputs": [
+    "libevent",
+    "net-snmp",
+    "openssl",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "libsnmp-dev": "net-snmp",
+    "libevent-dev": "libevent",
+    "snmpd": "net-snmp",
+    "libreadline-dev": "readline"
+  }
+}

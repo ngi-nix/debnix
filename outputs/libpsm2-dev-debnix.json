@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libpsm2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fb94f42562451672475da2541a5402639c3a83058cfb391b01a73d0a258fbc97",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libnuma-dev",
+    "libpsm2-2"
+  ],
+  "nix_inputs": [
+    "numactl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libnuma-dev": "numactl"
+  }
+}

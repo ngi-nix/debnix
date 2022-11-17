@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "librelp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d72c8b2d46d33e4788b26eef9285b23c64f99383bc8ebed6b8fc577fa1f2fbbd",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "libgnutls28-dev",
+    "librelp0",
+    "libssl-dev",
+    "pkg-config",
+    "procps",
+    "python3"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libgnutls28-dev": "gnutls",
+    "libssl-dev": "openssl"
+  }
+}

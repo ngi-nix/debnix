@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libminidjvu-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f0b81100574064293cbbc7b6c430c5ba32d9c7fe9a05ba706071edf8790b3a9d",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper",
+    "dh-exec",
+    "djview3",
+    "djview4",
+    "djvu-viewer",
+    "djvulibre-bin",
+    "libminidjvu0",
+    "libtiff-dev",
+    "minidjvu",
+    "pdf2djvu",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libtiff"
+  ],
+  "map": {
+    "autopoint": "gettext",
+    "libtiff-dev": "libtiff"
+  }
+}

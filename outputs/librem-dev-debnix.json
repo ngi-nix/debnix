@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "librem-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5b4ff423c6904cdb1a696aec8813c76eb4deff3f37430d7678ff2402c887a469",
+  "deb_inputs": [
+    "d-shlibs",
+    "debhelper-compat",
+    "libre-dev",
+    "librem1",
+    "libssl-dev",
+    "pkg-kde-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libre",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libre-dev": "libre",
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

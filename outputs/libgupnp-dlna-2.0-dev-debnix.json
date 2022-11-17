@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libgupnp-dlna-2.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fa5f7cb245a614f3028af69eb5d7ca33d5604dad08fd1fa5daee96d2f8925ba7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-gupnpdlna-2.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libgupnp-dlna-2.0-4",
+    "libxml2-dev",
+    "libxml2-utils",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gobject-introspection",
+    "gst-plugins-base",
+    "gtk-doc",
+    "libxml2",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libgirepository1.0-dev": "gobject-introspection",
+    "valac": "vala",
+    "libxml2-utils": "libxml2",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

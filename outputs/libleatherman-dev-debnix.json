@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libleatherman-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c26ba826938efe6eb8df23293bd88a068e3bde46aacb872dcd0d1a05019474db",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper-compat",
+    "libboost-chrono-dev",
+    "libboost-date-time-dev",
+    "libboost-dev",
+    "libboost-filesystem-dev",
+    "libboost-locale-dev",
+    "libboost-log-dev",
+    "libboost-nowide-dev",
+    "libboost-regex-dev",
+    "libboost-system-dev",
+    "libboost-thread-dev",
+    "libcurl4-openssl-dev",
+    "libleatherman1.12.1",
+    "libruby",
+    "rapidjson-dev",
+    "ruby"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "curl",
+    "ruby"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "cmake": "cmake",
+    "libruby": "ruby",
+    "libcurl4-openssl-dev": "curl"
+  }
+}

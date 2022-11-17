@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "liblttng-ctl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6571e30024523faa2dd0499fc8ce90fba2ddd696c6f044e90d495cb81e57d736",
+  "deb_inputs": [
+    "asciidoc",
+    "babeltrace",
+    "bash-completion",
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "libkmod-dev",
+    "liblttng-ctl0",
+    "liblttng-ust-dev",
+    "libpopt-dev",
+    "liburcu-dev",
+    "libxml2-dev",
+    "lsb-base",
+    "lttng-modules-dkms",
+    "pkg-config",
+    "python3-all-dev",
+    "swig",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "kmod",
+    "liburcu",
+    "libxml2",
+    "lttng-ust",
+    "pkg-config-wrapper",
+    "popt",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "liburcu-dev": "liburcu",
+    "libkmod-dev": "kmod",
+    "libxml2-dev": "libxml2",
+    "libpopt-dev": "popt"
+  }
+}

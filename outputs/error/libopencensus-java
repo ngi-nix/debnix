@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "default-jdk", "gradle-apt-plugin", "gradle-debian-helper", "javahelper", "libaopalliance-java", "libcommons-compress-java", "libcommons-io-java", "libcommons-lang-java", "libcommons-math3-java", "libcommons-parent-java", "liberror-prone-java", "libgoogle-auto-value-java", "libgpars-groovy-java", "libgradle-plugins-java", "libgrpc-java", "libjackson2-jaxrs-providers-java", "libjengelman-shadow-java", "liblog4j2-java", "libprotobuf-java", "libspring-core-java", "maven-repo-helper"], or 
+output: 
+[] is empty!

@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libopendmarc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3daf172d5423783cef71acdc7f4c1b71f0754c8e48b89788f39d5fcde8bfaee7",
+  "deb_inputs": [
+    "adduser",
+    "automake",
+    "dbconfig-mysql",
+    "dbconfig-no-thanks",
+    "debhelper-compat",
+    "dh-exec",
+    "libbsd-dev",
+    "libdbd-mysql-perl",
+    "libdbi-perl",
+    "libhttp-message-perl",
+    "libjson-perl",
+    "libmilter-dev",
+    "libmime-tools-perl",
+    "libopendbx1",
+    "libopendbx1-mysql",
+    "libopendmarc2",
+    "libspf2-dev",
+    "libswitch-perl",
+    "libxml-simple-perl",
+    "lsb-base",
+    "miltertest",
+    "perl",
+    "pkg-config",
+    "publicsuffix",
+    "python",
+    "python-mysqldb"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl": "perl"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libntirpc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e81a7439bc889b58dcccd97dbe0751fe190baf72bc83a6eeb962e46b74edca2a",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libkrb5-dev",
+    "libntirpc4.0",
+    "libtirpc-common",
+    "liburcu-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "krb5",
+    "libnsl",
+    "liburcu"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "liburcu-dev": "liburcu",
+    "libkrb5-dev": "krb5"
+  }
+}

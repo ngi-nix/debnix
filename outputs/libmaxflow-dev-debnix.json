@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libmaxflow-dev",
+  "nix_pkg": null,
+  "control_file_hash": "24b6f0c17ba67c260b6395db3ee66565f9a1a3bc269602d5803ecae86f6abf16",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libmaxflow0"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

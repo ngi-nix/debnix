@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libopenzwave1.6-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8d2c33af5b0288134008aa0bf9d99d721d0f8af2be1f4e28e10619071b47a9ef",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "libjs-jquery",
+    "libopenzwave-doc",
+    "libopenzwave1.6",
+    "libudev-dev",
+    "libxml2-utils"
+  ],
+  "nix_inputs": [
+    "doxygen",
+    "fontconfig",
+    "graphviz",
+    "libxml2",
+    "pkg-config-wrapper",
+    "systemd",
+    "which"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "libxml2-utils": "libxml2"
+  }
+}

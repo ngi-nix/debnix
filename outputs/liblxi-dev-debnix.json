@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "liblxi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "269d31e004f304a124c08c796d901a8af72c6c464d09ec94098be96a5787d42b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libavahi-client-dev",
+    "libc-dev-bin",
+    "liblxi1",
+    "libxml2-dev",
+    "meson"
+  ],
+  "nix_inputs": [
+    "avahi",
+    "libtirpc",
+    "libxml2",
+    "pkg-config-wrapper",
+    "rpcsvc-proto"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libavahi-client-dev": "avahi"
+  }
+}
