@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libsword-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a0cee7f84b2cc809c9d0d4209f3a3dd803b5ce023494791ae06c9db42505883a",
+  "deb_inputs": [
+    "chrpath",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libbz2-dev",
+    "libclucene-dev",
+    "libcurl4-gnutls-dev",
+    "libicu-dev",
+    "liblzma-dev",
+    "libsword-common",
+    "libsword-utils",
+    "libsword1.9.0",
+    "libz-dev",
+    "perl",
+    "pkg-config",
+    "python3-dev",
+    "swig",
+    "sword-frontend"
+  ],
+  "nix_inputs": [
+    "clucene-core",
+    "curl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libclucene-dev": "clucene-core"
+  }
+}

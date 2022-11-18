@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libsignal-protocol-c-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2d39348778d0151446c6e8d33736eacb104fff360c98f768d6f657e050182494",
+  "deb_inputs": [
+    "check",
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "libsignal-protocol-c2.3.2",
+    "libssl-dev",
+    "protobuf-c-compiler"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "openssl"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libssl-dev": "openssl"
+  }
+}

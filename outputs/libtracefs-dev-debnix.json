@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libtracefs-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ccda56bae53b6003408e74ba8b9ef1338e0c5f61615ad6c1a779551fd821de6e",
+  "deb_inputs": [
+    "asciidoc",
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "libcunit1-dev",
+    "libtraceevent-dev",
+    "libtracefs-doc",
+    "libtracefs1",
+    "pkg-config",
+    "source-highlight",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libtraceevent",
+    "pkg-config-wrapper",
+    "source-highlight",
+    "valgrind",
+    "which",
+    "xmlto"
+  ],
+  "map": {
+    "source-highlight": "source-highlight",
+    "asciidoc": "asciidoc",
+    "xmlto": "xmlto",
+    "libtraceevent-dev": "libtraceevent"
+  }
+}

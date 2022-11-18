@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libshairplay-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a6080392cf5ec281a72a00a2e0db3d04af8dba36db57ef853ee0a75567ea250d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libao-dev",
+    "libavahi-compat-libdnssd-dev",
+    "libltdl-dev",
+    "libshairplay0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "avahi-compat",
+    "libao",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libao-dev": "libao"
+  }
+}

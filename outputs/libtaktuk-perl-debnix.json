@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libtaktuk-perl",
+  "nix_pkg": null,
+  "control_file_hash": "e74a80c93c3231f8caf64fa89516f85de8a251cd1ef1aa9bbe2eda56a849a239",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "kanif",
+    "libtaktuk-1-dev",
+    "libtaktuk3",
+    "libterm-readline-gnu-perl",
+    "libtool",
+    "openssh-client",
+    "rsh-client",
+    "taktuk"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

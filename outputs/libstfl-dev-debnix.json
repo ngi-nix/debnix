@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libstfl-dev",
+  "nix_pkg": null,
+  "control_file_hash": "429e1318a875b1e3df5d13bb54195d1d5c3d061e752a9487526c74d45a383857",
+  "deb_inputs": [
+    "debhelper",
+    "gem2deb",
+    "libncursesw5-dev",
+    "libstfl-ruby",
+    "libstfl0",
+    "swig"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses"
+  }
+}
