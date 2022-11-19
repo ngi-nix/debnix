@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libxgboost-dev",
+  "nix_pkg": null,
+  "control_file_hash": "02966dfb5ec54fb88c9181e7638ac329a47bf6a3d10cd40ca073e92c6c5ed78e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libdmlc-dev",
+    "libxgboost0",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtest"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

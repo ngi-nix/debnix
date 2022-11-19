@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libyang2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c9fa9777150621404b0af6a01cd9cf3e587c2d90f5cc3c61789270236f480737",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libcmocka-dev",
+    "libpcre2-dev",
+    "libyang2",
+    "libyang2-tools",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pcre2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libpcre2-dev": "pcre2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libxmlbird-dev",
+  "nix_pkg": null,
+  "control_file_hash": "056dd0fca2d9aacfa24cfd4059fdbef121832da4e1d0c49183bdf4eebf1f5690",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libxmlbird1",
+    "python3-doit",
+    "python3-pkg-resources",
+    "valac"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection",
+    "pkg-config-wrapper",
+    "python3",
+    "vala"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "valac": "vala"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libzim-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e4e65299ada48d059e15157606d91fe1872ccb06815d3b4298fddb179c43f2cc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgtest-dev",
+    "libicu-dev",
+    "liblzma-dev",
+    "libxapian-dev",
+    "libzim8",
+    "libzstd-dev",
+    "meson",
+    "ninja-build",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gtest",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3",
+    "util-linux-minimal",
+    "xapian",
+    "xz",
+    "zstd"
+  ],
+  "map": {
+    "libxapian-dev": "xapian",
+    "libgtest-dev": "gtest",
+    "meson": "meson",
+    "libzstd-dev": "zstd"
+  }
+}
