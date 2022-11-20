@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "openstack-pkg-tools", "puppet", "puppet-module-camptocamp-augeas", "puppet-module-puppetlabs-mailalias-core", "puppet-module-puppetlabs-stdlib", "puppet-module-voxpupuli-alternatives"], or 
+output: 
+[] is empty!

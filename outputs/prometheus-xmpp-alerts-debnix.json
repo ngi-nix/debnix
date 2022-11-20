@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "prometheus-xmpp-alerts",
+  "nix_pkg": null,
+  "control_file_hash": "426d04df873decac84846c66dab89973c3c26c3b1a2ae63505e90077e008aee0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "prometheus-alertmanager",
+    "python3-aiohttp",
+    "python3-all",
+    "python3-prometheus-client",
+    "python3-setuptools",
+    "python3-slixmpp",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "aiohttp",
+    "alertmanager",
+    "prometheus-client",
+    "python3",
+    "pytz",
+    "pyyaml",
+    "slixmpp"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml",
+    "python3-slixmpp": "slixmpp"
+  }
+}

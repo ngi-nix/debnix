@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "mypy-protobuf",
+  "nix_pkg": null,
+  "control_file_hash": "e8e83fa332a0e3e6235f47827bd6d4644dfe7d3d79f7aea2defbe1757a634a8e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "pybuild-plugin-pyproject",
+    "python3-all",
+    "python3-grpc-tools",
+    "python3-protobuf",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "grpcio-tools",
+    "protobuf",
+    "python3",
+    "types-protobuf"
+  ],
+  "map": {
+    "python3-protobuf": "protobuf"
+  }
+}

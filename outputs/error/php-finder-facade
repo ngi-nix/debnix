@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ant", "debhelper-compat", "fonts-liberation", "php-fdomdocument", "php-finder-facade-doc", "php-symfony-finder", "phpab", "phpdox", "phpunit", "pkg-php-tools"], or 
+output: 
+[] is empty!

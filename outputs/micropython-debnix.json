@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "micropython",
+  "nix_pkg": null,
+  "control_file_hash": "2b7b57b22313236ef65e0d4cf7f7d5c3f8fb317d28bfc141d6bcfbda6a31d75c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jre-headless",
+    "python3",
+    "python3-doc"
+  ],
+  "nix_inputs": [
+    "libffi",
+    "pkg-config-wrapper",
+    "python3",
+    "readline"
+  ],
+  "map": {
+    "python3": "python3"
+  }
+}

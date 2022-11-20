@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "mle",
+  "nix_pkg": null,
+  "control_file_hash": "dc674c06710d3eaed1c8a4d993a50e7ac60bc549f0c6390264f3ac06e5573e09",
+  "deb_inputs": [
+    "debhelper",
+    "fzf",
+    "less",
+    "liblua5.4-dev",
+    "libpcre3-dev",
+    "perl",
+    "tree",
+    "universal-ctags",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "lua",
+    "pcre",
+    "uthash"
+  ],
+  "map": {
+    "libpcre3-dev": "pcre",
+    "uthash-dev": "uthash",
+    "liblua5.4-dev": "lua"
+  }
+}

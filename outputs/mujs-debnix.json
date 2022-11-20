@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "mujs",
+  "nix_pkg": null,
+  "control_file_hash": "171e2cfcc06093d61c616171d5850164d727c02ccddd7749690fdb8a9178a7b6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libmujs2",
+    "libreadline-dev"
+  ],
+  "nix_inputs": [
+    "readline"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "pn",
+  "nix_pkg": null,
+  "control_file_hash": "03e7c6bf1182960305028a20cb1b70090eda27b004db26f6c3420a6d0708d6d7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gawk",
+    "libicu-dev",
+    "libphonenumber-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "phonenumber",
+    "protobuf"
+  ],
+  "map": {
+    "libphonenumber-dev": "phonenumber",
+    "cmake": "cmake"
+  }
+}

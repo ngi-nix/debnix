@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "opensmtpd-extras",
+  "nix_pkg": null,
+  "control_file_hash": "faa401b45573fc8f807b3af9845c4070ccb3bf3fcbac6a187d2460a186523ba0",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "libevent-dev",
+    "libhiredis-dev",
+    "libpq-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libtool",
+    "opensmtpd",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "hiredis",
+    "libasr",
+    "libevent",
+    "lua",
+    "mariadb-connector-c",
+    "openssl",
+    "perl",
+    "pkg-config-wrapper",
+    "postgresql",
+    "sqlite"
+  ],
+  "map": {
+    "libhiredis-dev": "hiredis",
+    "libevent-dev": "libevent",
+    "libssl-dev": "openssl",
+    "libpq-dev": "postgresql",
+    "libsqlite3-dev": "sqlite"
+  }
+}

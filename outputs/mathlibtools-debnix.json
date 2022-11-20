@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "mathlibtools",
+  "nix_pkg": null,
+  "control_file_hash": "422d5d529de28f6405945dcd8b073e6ed6f8c928d417366c1002b3f5227d73e0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "elan",
+    "python3-all",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "PyGithub",
+    "atomicwrites",
+    "click",
+    "gitpython",
+    "networkx",
+    "pydot",
+    "python3",
+    "pyyaml",
+    "toml",
+    "tqdm"
+  ],
+  "map": {}
+}

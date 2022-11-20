@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "minica",
+  "nix_pkg": null,
+  "control_file_hash": "3165077fde7f5ae3fe4e34ac688f9d590661838099f3bddd0b19485a69d253a9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-go",
+    "golang-pault-go-config-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

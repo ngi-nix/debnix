@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "rofi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b18d717b0ccb160ba708b13cd9e8e0f7056207f9ea288e46e3fa90e899474081",
+  "deb_inputs": [
+    "bison",
+    "check",
+    "debhelper-compat",
+    "flex",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    "libstartup-notification0-dev",
+    "libxcb-cursor-dev",
+    "libxcb-ewmh-dev",
+    "libxcb-icccm4-dev",
+    "libxcb-randr0-dev",
+    "libxcb-util0-dev",
+    "libxcb-xinerama0-dev",
+    "libxcb-xkb-dev",
+    "libxcb-xrm-dev",
+    "libxcb1-dev",
+    "libxkbcommon-dev",
+    "libxkbcommon-x11-dev",
+    "rofi"
+  ],
+  "nix_inputs": [
+    "gdk-pixbuf"
+  ],
+  "map": {}
+}

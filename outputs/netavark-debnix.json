@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "netavark",
+  "nix_pkg": null,
+  "control_file_hash": "d128b8ebfdb54e0eaab89fc8282a1c06a873c7f969f6246134b318af88bf9b41",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper-compat",
+    "dh-cargo",
+    "librust-anyhow-dev",
+    "librust-atty-dev",
+    "librust-chrono-dev",
+    "librust-clap+derive-dev",
+    "librust-env-logger-dev",
+    "librust-futures-dev",
+    "librust-humantime-dev",
+    "librust-ipnet+serde-dev",
+    "librust-iptables-dev",
+    "librust-libc-dev",
+    "librust-log-dev",
+    "librust-netlink-packet-route-dev",
+    "librust-nix-dev",
+    "librust-rand-dev",
+    "librust-rtnetlink-dev",
+    "librust-serde+derive-dev",
+    "librust-serde-json-dev",
+    "librust-serde-value-dev",
+    "librust-sha2-dev",
+    "librust-simple-error-dev",
+    "librust-strsim-dev",
+    "librust-sysctl-dev",
+    "librust-termcolor-dev",
+    "librust-tokio+full-dev",
+    "librust-url-dev",
+    "librust-zbus-dev",
+    "librust-zvariant-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "mandown",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc",
+    "librust-libc-dev": "rustc"
+  }
+}

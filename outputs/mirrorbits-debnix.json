@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "mirrorbits",
+  "nix_pkg": null,
+  "control_file_hash": "d7ea896c6529bad6f55f9f643dd8d0ad433e4ac96ea34f804cf36697ff55ed78",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-coreos-go-systemd-dev",
+    "golang-github-gomodule-redigo-dev",
+    "golang-github-howeyc-gopass-dev",
+    "golang-github-op-go-logging-dev",
+    "golang-github-oschwald-maxminddb-golang-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-rafaeljusto-redigomock-dev",
+    "golang-golang-x-net-dev",
+    "golang-google-grpc-dev",
+    "golang-gopkg-tylerb-graceful.v1-dev",
+    "golang-goprotobuf-dev",
+    "golang-yaml.v2-dev"
+  ],
+  "nix_inputs": [
+    "geoip",
+    "go",
+    "govers",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {}
+}

@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "mencal",
+  "nix_pkg": null,
+  "control_file_hash": "458a15aa0e1b4c5f89610c959c760a8ec6df116957e455a92cd76cd07004d0c8",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

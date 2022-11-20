@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "pyupgrade",
+  "nix_pkg": null,
+  "control_file_hash": "39f143eb37645a5983f815da1b2a6609bd96b26d35a249aac5b6f71743492255",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-setuptools",
+    "python3-tokenize-rt"
+  ],
+  "nix_inputs": [
+    "python3",
+    "tokenize-rt"
+  ],
+  "map": {}
+}

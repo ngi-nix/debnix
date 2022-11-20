@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "nabi",
+  "nix_pkg": null,
+  "control_file_hash": "8968a5dc1a14b651ba4fc9bfc6516cd75aefa6461cb3dbc2d53b1048eaa62b5f",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xsl",
+    "imhangul-gtk2",
+    "imhangul-gtk3",
+    "libgtk2.0-dev",
+    "libhangul-dev",
+    "libxt-dev",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libhangul",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libhangul-dev": "libhangul",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "mikutter",
+  "nix_pkg": null,
+  "control_file_hash": "69de2d4121fd296eeb69c2adcd06f84486b0e9233a394048ba985aee3d4433d6",
+  "deb_inputs": [
+    "alsa-utils",
+    "debhelper-compat",
+    "libnotify-bin",
+    "ruby",
+    "ruby-addressable",
+    "ruby-cairo",
+    "ruby-delayer",
+    "ruby-delayer-deferred",
+    "ruby-diva",
+    "ruby-gettext",
+    "ruby-gtk2",
+    "ruby-httpclient",
+    "ruby-instance-storage",
+    "ruby-interpreter",
+    "ruby-json",
+    "ruby-locale",
+    "ruby-memoist",
+    "ruby-moneta",
+    "ruby-nokogiri",
+    "ruby-oauth",
+    "ruby-pluggaloid",
+    "ruby-text",
+    "ruby-twitter-text",
+    "ruby-typed-array"
+  ],
+  "nix_inputs": [
+    "alsa-utils",
+    "at-spi2-core",
+    "gobject-introspection",
+    "gtk+",
+    "libnotify",
+    "which"
+  ],
+  "map": {
+    "libnotify-bin": "libnotify",
+    "alsa-utils": "alsa-utils"
+  }
+}

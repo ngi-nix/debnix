@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "prooftree",
+  "nix_pkg": null,
+  "control_file_hash": "e25b2bab1b212f228b3745c7fe63bf8c6022b3ab97dee935d175a993c58bb6b1",
+  "deb_inputs": [
+    "coq",
+    "debhelper",
+    "dh-ocaml",
+    "liblablgtk2-ocaml-dev",
+    "ocaml-best-compilers",
+    "proofgeneral"
+  ],
+  "nix_inputs": [
+    "camlp5",
+    "ncurses",
+    "ocaml",
+    "ocaml4.12.1-findlib",
+    "ocaml4.12.1-lablgtk",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

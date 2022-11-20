@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "moarvm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5a9243e5d2eb8481a7f8506440978e44310018b437eff3bac8412a0f1aba7a2d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libatomic-ops-dev",
+    "libffi-dev",
+    "libkvm-dev",
+    "libtommath-dev",
+    "libuv1-dev",
+    "moarvm",
+    "perl-doc"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {
+    "perl-doc": "perl"
+  }
+}

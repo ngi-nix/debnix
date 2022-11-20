@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "ncmpc-lyrics",
+  "nix_pkg": null,
+  "control_file_hash": "82b6260ac06a055f8f2544d66b62dc259acc9bd47f1b7547db4ebe9e7a5597f4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "liblircclient-dev",
+    "libmpdclient-dev",
+    "libncursesw5-dev",
+    "libpcre2-dev",
+    "meson",
+    "mpd",
+    "ncmpc",
+    "ncmpc-lyrics",
+    "pkg-config",
+    "python3",
+    "python3-sphinx",
+    "python3-unidecode"
+  ],
+  "nix_inputs": [
+    "boost",
+    "gettext",
+    "glib",
+    "libmpdclient",
+    "meson",
+    "ncurses",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "libmpdclient-dev": "libmpdclient",
+    "meson": "meson"
+  }
+}

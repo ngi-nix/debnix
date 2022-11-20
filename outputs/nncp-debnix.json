@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "nncp",
+  "nix_pkg": null,
+  "control_file_hash": "7cfea8e232202708210fbdda7925322feb34511f579a9086514fe671991a50cd",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-davecgh-go-xdr-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-flynn-noise-dev",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-gologme-log-dev",
+    "golang-github-google-btree-dev",
+    "golang-github-gorhill-cronexpr-dev",
+    "golang-github-hjson-hjson-go-dev",
+    "golang-github-klauspost-compress-dev",
+    "golang-github-yggdrasil-network-yggdrasil-go-dev",
+    "golang-go",
+    "golang-go.cypherpunks-balloon-dev",
+    "golang-go.cypherpunks-recfile-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-term-dev",
+    "golang-golang-x-time-dev",
+    "golang-gvisor-gvisor-dev",
+    "golang-lukechampine-blake3-dev",
+    "hjson-go",
+    "pandoc",
+    "plantuml",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "go",
+    "redo-apenwarr"
+  ],
+  "map": {}
+}

@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "postgresql-doc",
+  "nix_pkg": null,
+  "control_file_hash": "19430aad5cc45335c58223e3874f801ffaec3b342b56d980600885493386321f",
+  "deb_inputs": [
+    "adduser",
+    "debconf",
+    "debconf-2.0",
+    "debhelper-compat",
+    "e2fsprogs",
+    "libecpg-dev",
+    "libjson-perl",
+    "libpq-dev",
+    "logrotate",
+    "lsb-base",
+    "make:any",
+    "netbase",
+    "postgresql-",
+    "postgresql-client-",
+    "postgresql-client-common",
+    "postgresql-common",
+    "postgresql-contrib-",
+    "postgresql-doc",
+    "postgresql-doc-",
+    "postgresql-server-dev-all",
+    "ssl-cert",
+    "ucf"
+  ],
+  "nix_inputs": [
+    "libkrb5",
+    "libossp-uuid",
+    "libxml2",
+    "lz4",
+    "openssl",
+    "pkg-config-wrapper",
+    "readline",
+    "systemd",
+    "zlib"
+  ],
+  "map": {}
+}

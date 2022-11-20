@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "greenbone-security-assistant", "openvas-cli", "openvas-manager", "openvas-scanner", "rsync", "sqlite3", "xsltproc"], or 
+output: 
+[] is empty!

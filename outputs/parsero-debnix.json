@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "parsero",
+  "nix_pkg": null,
+  "control_file_hash": "a52786919b60ea49f9de76aa5361e9a5508fc983153f1667937ca3c24057bee3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "python3-bs4",
+    "python3-pkg-resources",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "beautifulsoup4",
+    "python3",
+    "urllib3"
+  ],
+  "map": {
+    "python3-bs4": "beautifulsoup4"
+  }
+}

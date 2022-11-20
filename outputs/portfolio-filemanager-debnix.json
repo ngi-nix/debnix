@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "portfolio-filemanager",
+  "nix_pkg": null,
+  "control_file_hash": "c2505c986216581d361882d6c7c5029c6e33edb9f2c6ca0b17d1a6b399b1f0e0",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "dh-python",
+    "gir1.2-handy-1",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libhandy-1-dev",
+    "meson",
+    "python-gi-dev",
+    "python3-all",
+    "python3-gi",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "desktop-file-utils",
+    "gettext",
+    "glib",
+    "gobject-introspection",
+    "gtk+3",
+    "libhandy",
+    "librsvg",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "pygobject",
+    "python3"
+  ],
+  "map": {
+    "libgirepository1.0-dev": "gobject-introspection",
+    "libglib2.0-dev": "glib",
+    "python3-gi": "pygobject",
+    "meson": "meson",
+    "python-gi-dev": "pygobject",
+    "appstream-util": "appstream-glib"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "macopix",
+  "nix_pkg": null,
+  "control_file_hash": "bcd5b6ed09d1383aadf15af40677b77af38822cf558bbe382827298f72176145",
+  "deb_inputs": [
+    "debhelper",
+    "imagemagick",
+    "libgnutls-openssl-dev",
+    "libgtk-3-dev",
+    "libssl-dev",
+    "libtool-bin",
+    "netpbm"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libgtk-3-dev": "gtk+"
+  }
+}

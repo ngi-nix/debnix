@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "mmake",
+  "nix_pkg": null,
+  "control_file_hash": "b082e9676cf587d64e708fb2de6e335a9895063ffefec99aafbe7eaf1700255e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jdk",
+    "findutils",
+    "java-common",
+    "java-compiler",
+    "perl:any"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

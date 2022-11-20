@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "omniorb-doc",
+  "nix_pkg": null,
+  "control_file_hash": "7ea9f4750b6938972e6656c4f68b651615b957b81dbd919f1471c9bfde3545c1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "hevea",
+    "libcos4-2",
+    "libomniorb4-2",
+    "libomniorb4-dev",
+    "libomnithread4",
+    "libomnithread4-dev",
+    "libssl-dev",
+    "lsb-base",
+    "omniidl-python",
+    "pkg-config",
+    "python3-all-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {}
+}

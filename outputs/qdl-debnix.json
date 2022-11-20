@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "qdl",
+  "nix_pkg": null,
+  "control_file_hash": "21f986aa3a66092ecddaa6f3709799c171fec8c3145ccceb4f5d0d7168190a29",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libudev-dev",
+    "libusb-1.0-0-dev",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libxml2",
+    "systemd"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libudev-dev": "systemd"
+  }
+}
