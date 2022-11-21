@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "aws-nuke",
+  "nix_pkg": null,
+  "control_file_hash": "aef2662bcbc774bdf6e730b8252413e717272aa55b4ee228e6e14482b3808f51",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-aws-aws-sdk-go-dev",
+    "golang-github-fatih-color-dev",
+    "golang-github-golang-mock-dev",
+    "golang-github-mb0-glob-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-tools-dev",
+    "golang-yaml.v2-dev",
+    "help2man"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

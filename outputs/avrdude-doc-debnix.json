@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "avrdude-doc",
+  "nix_pkg": null,
+  "control_file_hash": "be2aae57cb306660710cbdf8aa9c402e079a63c27acd7874c236f7f901eab7ac",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "avrdude-doc",
+    "bison",
+    "debhelper",
+    "dfu-programmer",
+    "dh-autoreconf",
+    "doc-base",
+    "flex",
+    "ghostscript",
+    "libelf-dev",
+    "libftdi-dev",
+    "libhidapi-dev",
+    "libreadline-dev",
+    "libusb-dev",
+    "texinfo",
+    "texlive-latex-base"
+  ],
+  "nix_inputs": [
+    "bison",
+    "cmake",
+    "flex",
+    "libelf",
+    "libftdi",
+    "libusb-compat",
+    "readline"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "libelf-dev": "libelf",
+    "libreadline-dev": "readline",
+    "libftdi-dev": "libftdi"
+  }
+}

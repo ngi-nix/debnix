@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "augustus-doc",
+  "nix_pkg": null,
+  "control_file_hash": "0a6a41cc78a881ded8fbf6c918ce7257d592fe37f26c5058e8502479baea32ea",
+  "deb_inputs": [
+    "asciidoctor",
+    "augustus-data",
+    "cdbfasta",
+    "chrpath",
+    "debhelper-compat",
+    "diamond-aligner",
+    "libbamtools-dev",
+    "libboost-iostreams-dev",
+    "libboost-serialization-dev",
+    "libbz2-dev",
+    "libdbd-mysql-perl",
+    "libfile-which-perl",
+    "libgsl-dev",
+    "libhts-dev",
+    "liblpsolve55-dev",
+    "libmysql++-dev",
+    "libncurses5-dev",
+    "libparallel-forkmanager-perl",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libyaml-perl",
+    "python3",
+    "python3-biopython",
+    "samtools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_mixer",
+    "cmake",
+    "libpng-apng"
+  ],
+  "map": {}
+}

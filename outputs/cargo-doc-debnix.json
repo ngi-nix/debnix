@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "cargo-doc",
+  "nix_pkg": null,
+  "control_file_hash": "f8a3a094479c006129e819d60b968ac1c5de128bde358458e56a2675768fd2da",
+  "deb_inputs": [
+    "bash-completion",
+    "binutils",
+    "c-compiler",
+    "cargo-doc",
+    "cargo:native",
+    "clang",
+    "debhelper",
+    "dpkg-dev",
+    "gcc",
+    "git",
+    "libcurl4-gnutls-dev",
+    "libcurl4-openssl-dev",
+    "libgit2-dev",
+    "libhttp-parser-dev",
+    "libssh2-1-dev",
+    "libssl-dev",
+    "libstd-rust-dev",
+    "pkg-config",
+    "python3",
+    "python3:native",
+    "rustc",
+    "rustc:native",
+    "zlib1g-dev",
+    "zlib1g-dev:native"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "curl",
+    "file",
+    "git-minimal",
+    "nss-cacert",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "rustc-bootstrap",
+    "zlib"
+  ],
+  "map": {
+    "libcurl4-gnutls-dev": "curl",
+    "libcurl4-openssl-dev": "curl",
+    "libssl-dev": "openssl",
+    "python3": "python3",
+    "zlib1g-dev:native": "zlib",
+    "zlib1g-dev": "zlib"
+  }
+}

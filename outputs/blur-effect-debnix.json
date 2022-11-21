@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "blur-effect",
+  "nix_pkg": null,
+  "control_file_hash": "0a8baf75e14041c250c41d0ec70a3d468104141b942c03f9e670c95885d59696",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdrm-dev",
+    "libegl1-mesa-dev",
+    "libgbm-dev",
+    "libgdk-pixbuf-2.0-dev",
+    "libgles-dev",
+    "libglew-dev",
+    "libglm-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gdk-pixbuf",
+    "libGL",
+    "mesa",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgdk-pixbuf-2.0-dev": "gdk-pixbuf",
+    "cmake": "cmake",
+    "libgbm-dev": "mesa",
+    "libegl1-mesa-dev": "mesa"
+  }
+}

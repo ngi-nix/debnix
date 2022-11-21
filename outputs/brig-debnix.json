@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "brig",
+  "nix_pkg": null,
+  "control_file_hash": "d30af8424fb8a58baf82fa7ad91a226782936e3a59548c7ea6d094c285bd34f2",
+  "deb_inputs": [
+    "ant",
+    "cgview",
+    "debhelper-compat",
+    "default-jdk",
+    "javahelper",
+    "libjdom1-java",
+    "libswing-layout-java",
+    "ncbi-blast+",
+    "ncbi-blast+-legacy"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "bppsuite",
+  "nix_pkg": null,
+  "control_file_hash": "49ce718ed9bc4a1922b76abe77d80ab6136386a526457042fab1fde566c5ca76",
+  "deb_inputs": [
+    "bppsuite-examples",
+    "cmake",
+    "debhelper-compat",
+    "libbpp-phyl-dev",
+    "libbpp-popgen-dev",
+    "libeigen3-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "bpp-core",
+    "bpp-phyl",
+    "bpp-popgen",
+    "bpp-seq",
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

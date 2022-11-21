@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "bam",
+  "nix_pkg": null,
+  "control_file_hash": "8e8175dbf5032dc9cb4c33d2709f243e99d0d6454161e590c2f4d39b7f2bf7b8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "graphviz",
+    "liblua5.3-dev",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "lua",
+    "python3"
+  ],
+  "map": {
+    "liblua5.3-dev": "lua"
+  }
+}

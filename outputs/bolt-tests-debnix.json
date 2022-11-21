@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "bolt-tests",
+  "nix_pkg": null,
+  "control_file_hash": "fd313befbbbd43eae9022a6b9415a5a39bd88b82019a76fb4398238b591c6593",
+  "deb_inputs": [
+    "asciidoc-base",
+    "debhelper-compat",
+    "docbook-xml",
+    "gir1.2-glib-2.0",
+    "gir1.2-umockdev-1.0",
+    "libglib2.0-dev",
+    "libpolkit-gobject-1-dev",
+    "libudev-dev",
+    "libumockdev-dev",
+    "libxml2-utils",
+    "meson",
+    "python3",
+    "python3-dbus",
+    "python3-dbusmock",
+    "python3-gi",
+    "systemd",
+    "udev",
+    "umockdev",
+    "xmlto",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "libxml2",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "polkit",
+    "python3",
+    "systemd"
+  ],
+  "map": {
+    "docbook-xml": "docbook-xml",
+    "libglib2.0-dev": "glib",
+    "xsltproc": "libxslt",
+    "meson": "meson",
+    "python3": "python3",
+    "asciidoc-base": "asciidoc",
+    "libudev-dev": "systemd",
+    "libxml2-utils": "libxml2",
+    "udev": "systemd",
+    "systemd": "systemd"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "charliecloud-runtime",
+  "nix_pkg": null,
+  "control_file_hash": "776c5593c0a1a4c6a515d0bd51f776ec003200e1c980c0ed68a2e1f80d0aed58",
+  "deb_inputs": [
+    "autoconf-archive",
+    "bats",
+    "buildah",
+    "charliecloud-builders",
+    "charliecloud-common",
+    "charliecloud-doc",
+    "charliecloud-runtime",
+    "debhelper-compat",
+    "docker.io",
+    "git",
+    "libjs-sphinxdoc",
+    "pigz",
+    "po-debconf",
+    "pv",
+    "python3",
+    "python3-lark",
+    "python3-requests",
+    "python3-sphinx-rtd-theme",
+    "shellcheck",
+    "sphinx-rtd-theme-common",
+    "squashfs-tools",
+    "squashfuse",
+    "sudo",
+    "wget"
+  ],
+  "nix_inputs": [
+    "docker"
+  ],
+  "map": {}
+}

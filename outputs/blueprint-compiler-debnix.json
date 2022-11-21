@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "blueprint-compiler",
+  "nix_pkg": null,
+  "control_file_hash": "29aff46fcdb58aeeb105681410d594fcab9ef57cee75d67a64309b18f82c52c7",
+  "deb_inputs": [
+    "appstream-util",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "dh-sequence-python3",
+    "libgtk-4-dev",
+    "meson",
+    "python3-gi"
+  ],
+  "nix_inputs": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "python3"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

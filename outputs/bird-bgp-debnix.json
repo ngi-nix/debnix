@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "bird-bgp",
+  "nix_pkg": null,
+  "control_file_hash": "5fd2d3f553f1380d5cd49279367398938d319896c6ca764c86c1e5a5c772a153",
+  "deb_inputs": [
+    "adduser",
+    "bird",
+    "bird-doc",
+    "bison",
+    "debhelper",
+    "docbook-xsl",
+    "dpkg-dev",
+    "flex",
+    "libncurses5-dev",
+    "libreadline-dev",
+    "libreadline5-dev",
+    "libreadline6-dev",
+    "linuxdoc-tools-latex",
+    "m4",
+    "opensp",
+    "quilt",
+    "texlive-latex-extra",
+    "ucf",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libssh",
+    "readline"
+  ],
+  "map": {
+    "bison": "bison",
+    "flex": "flex",
+    "libreadline5-dev": "readline",
+    "libreadline-dev": "readline",
+    "libreadline6-dev": "readline"
+  }
+}
