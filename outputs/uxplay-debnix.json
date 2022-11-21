@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "uxplay",
+  "nix_pkg": null,
+  "control_file_hash": "b2623b4b784310dd2026ce22ff6d121dec894a58d0fb86904a8dcff2e4481537",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "gstreamer1.0-libav",
+    "gstreamer1.0-plugins-bad",
+    "gstreamer1.0-vaapi",
+    "libavahi-compat-libdnssd-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libplist-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "avahi",
+    "avahi-compat",
+    "cmake",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gstreamer",
+    "libplist",
+    "openssl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libplist-dev": "libplist",
+    "libavahi-compat-libdnssd-dev": "avahi",
+    "gstreamer1.0-libav": "gstreamer",
+    "libssl-dev": "openssl",
+    "libgstreamer1.0-dev": "gstreamer"
+  }
+}

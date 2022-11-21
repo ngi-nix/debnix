@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "tty-solitaire",
+  "nix_pkg": null,
+  "control_file_hash": "7436c1a2ac866d31007d2f64d237eee26f9136846425348991588fa3c162f65c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

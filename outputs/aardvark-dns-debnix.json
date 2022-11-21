@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "aardvark-dns",
+  "nix_pkg": null,
+  "control_file_hash": "0e52a91d46a085c79669d4985966d3ef9d8b25e73c98d29ffbe9daea9de40fab",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper-compat",
+    "dh-cargo",
+    "librust-anyhow-dev",
+    "librust-async-broadcast-dev",
+    "librust-chrono-dev",
+    "librust-clap+derive-dev",
+    "librust-futures-util-dev",
+    "librust-resolv-conf-dev",
+    "librust-signal-hook-dev",
+    "librust-strsim-dev",
+    "librust-syslog-dev",
+    "librust-termcolor-dev",
+    "librust-textwrap-dev",
+    "librust-tokio+full-dev",
+    "librust-trust-dns-client-dev",
+    "librust-trust-dns-proto-dev",
+    "librust-trust-dns-server-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

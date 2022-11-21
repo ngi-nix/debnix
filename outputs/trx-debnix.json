@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "trx",
+  "nix_pkg": null,
+  "control_file_hash": "8acf7dca7695879b85a285f771dcb3f98a931bd7b98f0f93144390efd5252413",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libasound2-dev",
+    "libopus-dev",
+    "libortp-dev"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "bctoolbox",
+    "libopus",
+    "ortp"
+  ],
+  "map": {
+    "libasound2-dev": "alsa-lib",
+    "libortp-dev": "ortp",
+    "libopus-dev": "libopus"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "slowhttptest",
+  "nix_pkg": null,
+  "control_file_hash": "7c589ec7a2a24b53a4f11f53df5b2c87fd729a8d7fd875238453d66c54111294",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

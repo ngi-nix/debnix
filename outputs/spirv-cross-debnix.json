@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "spirv-cross",
+  "nix_pkg": null,
+  "control_file_hash": "75d18291e21e5827e9cfe36ab3a9e7dca0f0c971b6469531549d6f0741ec8c53",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libspirv-cross-c-shared0"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

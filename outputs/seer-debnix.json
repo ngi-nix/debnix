@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "seer",
+  "nix_pkg": null,
+  "control_file_hash": "36ee1db99cfbaae75dd377a8180216c622030dc97dd91dc6c89b67f0f37e3892",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fsm-lite",
+    "libarmadillo-dev",
+    "libboost-dev",
+    "libboost-program-options-dev",
+    "libdlib-dev",
+    "libgzstream-dev",
+    "libhdf5-dev",
+    "libtext-csv-perl"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtcharts"
+  ],
+  "map": {}
+}

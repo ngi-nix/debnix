@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "stacks",
+  "nix_pkg": null,
+  "control_file_hash": "514b23feea29f92ce24740bbaddba7dffe721cfea9ebba8a20dcbf9cb97ab1c7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbam-dev",
+    "libdbi-perl",
+    "libhts-dev",
+    "libsparsehash-dev",
+    "libspreadsheet-writeexcel-perl",
+    "littler",
+    "python3",
+    "samtools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

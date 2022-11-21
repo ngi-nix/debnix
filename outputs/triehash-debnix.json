@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "triehash",
+  "nix_pkg": null,
+  "control_file_hash": "330f3b8813b20a12dba2412cac3e0cc28e1a38408afb2dd4b99cf83959a87d95",
+  "deb_inputs": [
+    "debhelper"
+  ],
+  "nix_inputs": [
+    "perl"
+  ],
+  "map": {}
+}

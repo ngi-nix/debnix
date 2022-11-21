@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "srain",
+  "nix_pkg": null,
+  "control_file_hash": "85ab1f13089b2fb48e4135acb3f3d3bf05a53c77e690653d91a0f2bbb8546bed",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libconfig-dev",
+    "libgtk-3-dev",
+    "libsecret-1-dev",
+    "libsoup2.4-dev",
+    "libssl-dev",
+    "meson",
+    "ninja-build",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "appstream-glib",
+    "dbus-glib",
+    "gettext",
+    "glib",
+    "glib-networking",
+    "gtk+3",
+    "libconfig",
+    "libsecret",
+    "libsoup",
+    "meson",
+    "ninja",
+    "openssl",
+    "pkg-config-wrapper",
+    "sphinx"
+  ],
+  "map": {
+    "meson": "meson",
+    "libsecret-1-dev": "libsecret",
+    "libconfig-dev": "libconfig",
+    "libsoup2.4-dev": "libsoup",
+    "python3-sphinx": "sphinx",
+    "libssl-dev": "openssl"
+  }
+}

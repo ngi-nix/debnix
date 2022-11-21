@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "abcl",
+  "nix_pkg": null,
+  "control_file_hash": "4c8b9c6f9754d732cc586ec24217c752b65b532256129070c61249711eafad7a",
+  "deb_inputs": [
+    "ant",
+    "debhelper",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "javahelper",
+    "libjna-java",
+    "texlive-latex-extra"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant"
+  }
+}

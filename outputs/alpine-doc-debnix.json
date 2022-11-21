@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "alpine-doc",
+  "nix_pkg": null,
+  "control_file_hash": "cb3ad262ff9d1c3ce6994b253eb103fdb7352dbaca81c005dc8ea253114a2431",
+  "deb_inputs": [
+    "alpine",
+    "alpine-doc",
+    "aspell",
+    "debhelper-compat",
+    "default-mta",
+    "libkrb5-dev",
+    "libldap2-dev",
+    "libncurses-dev",
+    "libpam0g-dev",
+    "libssl-dev",
+    "mail-transport-agent",
+    "mlock",
+    "sensible-utils"
+  ],
+  "nix_inputs": [
+    "libkrb5",
+    "libxcrypt",
+    "linux-pam",
+    "ncurses",
+    "openldap",
+    "openssl",
+    "tcl"
+  ],
+  "map": {
+    "libldap2-dev": "openldap",
+    "libncurses-dev": "ncurses",
+    "libssl-dev": "openssl",
+    "libkrb5-dev": "libkrb5"
+  }
+}

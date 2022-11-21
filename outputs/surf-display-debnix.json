@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "surf-display",
+  "nix_pkg": null,
+  "control_file_hash": "e8f7a68085e1e46bf45361c108f00c63eea895ec5d1bfc3ef4d60b54968875bc",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "lmodern",
+    "matchbox-window-manager",
+    "nodm",
+    "psmisc",
+    "pulseaudio",
+    "surf",
+    "texlive-fonts-recommended",
+    "texlive-latex-extra",
+    "unclutter",
+    "wmctrl",
+    "x11-xkb-utils",
+    "x11-xserver-utils",
+    "xdotool",
+    "xinit",
+    "xprintidle"
+  ],
+  "nix_inputs": [
+    "matchbox",
+    "pulseaudio",
+    "surf",
+    "unclutter",
+    "wmctrl",
+    "xdotool",
+    "xkbutils",
+    "xmodmap",
+    "xprintidle-ng"
+  ],
+  "map": {
+    "xdotool": "xdotool",
+    "surf": "surf",
+    "unclutter": "unclutter",
+    "pulseaudio": "pulseaudio",
+    "wmctrl": "wmctrl"
+  }
+}

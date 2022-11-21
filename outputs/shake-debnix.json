@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "shake",
+  "nix_pkg": null,
+  "control_file_hash": "59dd7e9dabf46fbc2045b0cc205fc091b50cd9f9ece478afd1632680cb01dacf",
+  "deb_inputs": [
+    "debhelper",
+    "help2man",
+    "lua-filesystem",
+    "lua-leg",
+    "lua5.1",
+    "lua5.1-filesystem",
+    "lua5.1-leg"
+  ],
+  "nix_inputs": [
+    "extra",
+    "filepattern",
+    "ghc",
+    "hashable",
+    "heaps",
+    "js-dgtable",
+    "js-flot",
+    "js-jquery",
+    "primitive",
+    "random",
+    "unordered-containers",
+    "utf8-string"
+  ],
+  "map": {}
+}

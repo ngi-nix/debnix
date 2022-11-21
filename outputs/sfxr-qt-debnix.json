@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "sfxr-qt",
+  "nix_pkg": null,
+  "control_file_hash": "a810c5ad5a4ba6f8c23c42f11c20867db9f88bffd9261532bef2f85e154aac79",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libsdl1.2-dev",
+    "python3-jinja2",
+    "python3-setuptools",
+    "python3-yaml",
+    "qml-module-qtquick-controls",
+    "qml-module-qtquick-controls2",
+    "qml-module-qtquick-dialogs",
+    "qml-module-qtquick-extras",
+    "qml-module-qtquick-layouts",
+    "qml-module-qtquick-window2",
+    "qml-module-qtquick2",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "cmake",
+    "extra-cmake-modules",
+    "qtbase",
+    "qtquickcontrols2"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "cmake": "cmake",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libsdl1.2-dev": "SDL"
+  }
+}

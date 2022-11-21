@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "vcstool",
+  "nix_pkg": null,
+  "control_file_hash": "2e610fc2c41544be70207518e74fa83188e66b4480f57834f56c9674fada5bc7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-setuptools",
+    "python3-yaml"
+  ],
+  "nix_inputs": [
+    "python3",
+    "pyyaml",
+    "setuptools"
+  ],
+  "map": {
+    "python3-yaml": "pyyaml",
+    "python3-setuptools": "setuptools"
+  }
+}

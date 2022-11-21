@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "sptk",
+  "nix_pkg": null,
+  "control_file_hash": "133dfa51c485b7ce71e08bdb3f6bb147961aab271c4697929a9dcbdf0e2484bf",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "csh",
+    "debhelper",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "dpkg-dev",
+    "libx11-dev",
+    "tcsh"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

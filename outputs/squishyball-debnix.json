@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "squishyball",
+  "nix_pkg": null,
+  "control_file_hash": "6522e6d9d8c390e2e1b258810302ce2317971b33f05dfac4aacca237cea2484c",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libao-dev",
+    "libflac-dev",
+    "libncurses-dev",
+    "libogg-dev",
+    "libopusfile-dev",
+    "libvorbis-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "flac",
+    "libao",
+    "libvorbis",
+    "ncurses-abi5-compat",
+    "opusfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libvorbis-dev": "libvorbis",
+    "libopusfile-dev": "opusfile",
+    "libao-dev": "libao",
+    "libflac-dev": "flac"
+  }
+}

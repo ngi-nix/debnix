@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "zx",
+  "nix_pkg": null,
+  "control_file_hash": "6b7854b0f9ee90cf11cf00d848a8c2e8c6ba21b6759eaf773f2449c2ac8f5147",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-nodejs",
+    "help2man",
+    "less",
+    "netcat-openbsd",
+    "node-chalk",
+    "node-data-uri-to-buffer",
+    "node-duplexer",
+    "node-fetch",
+    "node-form-data",
+    "node-fs-extra",
+    "node-globby",
+    "node-minimist",
+    "node-split",
+    "node-through",
+    "node-typescript",
+    "node-which",
+    "node-yaml",
+    "nodejs",
+    "nodejs:any",
+    "npm",
+    "procps",
+    "uvu"
+  ],
+  "nix_inputs": [
+    "nodejs",
+    "python3",
+    "util-linux"
+  ],
+  "map": {
+    "nodejs": "nodejs"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "alfred",
+  "nix_pkg": null,
+  "control_file_hash": "55a0662256bec4a6d32fd5dfdb2f8b34d870fd1cbe16d4571ae111141e153ba5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "graphviz",
+    "libcap-dev",
+    "libgps-dev",
+    "libnl-3-dev",
+    "libnl-genl-3-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gpsd",
+    "libcap",
+    "libnl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libcap-dev": "libcap",
+    "libnl-genl-3-dev": "libnl",
+    "libnl-3-dev": "libnl",
+    "libgps-dev": "gpsd"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "libcdk5-dev", "libosmo-abis-dev", "libosmo-mgcp-client-dev", "libosmo-netif-dev", "libosmo-sccp-dev", "libosmo-sigtran-dev", "libosmocore-dev", "libpcap-dev", "libsqlite3-dev", "osmo-stp", "pkg-config", "txt2man"], or 
+output: 
+[] is empty!

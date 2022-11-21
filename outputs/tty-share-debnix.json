@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "tty-share",
+  "nix_pkg": null,
+  "control_file_hash": "d019a99ae85951d04b1cf804db3db8801e0a62c8b3eb94057982ff92783bdf92",
+  "deb_inputs": [
+    "bash-completion",
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-elisescu-pty-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-gorilla-websocket-dev",
+    "golang-github-hashicorp-yamux-dev",
+    "golang-github-moby-term-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-logrus-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "seaview",
+  "nix_pkg": null,
+  "control_file_hash": "f14ea16bfbbf3377f08a79d12e3b24e0a2504418bcc13d3ba963d0a105051db9",
+  "deb_inputs": [
+    "clustalo",
+    "debhelper-compat",
+    "libfltk1.3-dev",
+    "libpng-dev",
+    "libxext-dev",
+    "libxft-dev",
+    "libxinerama-dev",
+    "muscle",
+    "phyml",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "fltk",
+    "libjpeg-turbo"
+  ],
+  "map": {
+    "libfltk1.3-dev": "fltk"
+  }
+}

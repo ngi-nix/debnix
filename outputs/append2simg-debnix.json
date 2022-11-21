@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "append2simg",
+  "nix_pkg": null,
+  "control_file_hash": "0187743faf19a3e77bed42d876fa757c1309e88a3859faaf52d94174d8d5abe7",
+  "deb_inputs": [
+    "android-libadb",
+    "android-libbacktrace",
+    "android-libbacktrace-dev",
+    "android-libbase",
+    "android-libcrypto-utils",
+    "android-libcutils",
+    "android-libcutils-dev",
+    "android-liblog",
+    "android-liblog-dev",
+    "android-libnativebridge",
+    "android-libnativehelper-dev",
+    "android-libnativeloader",
+    "android-libsparse",
+    "android-libunwind",
+    "android-libutils",
+    "android-libziparchive",
+    "android-platform-system-core-headers",
+    "android-sdk-libsparse-utils",
+    "android-sdk-platform-tools",
+    "android-sdk-platform-tools-common",
+    "bash-completion",
+    "clang",
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "libbsd-dev",
+    "libbsd0",
+    "mkbootimg",
+    "python3"
+  ],
+  "nix_inputs": [
+    "zlib"
+  ],
+  "map": {}
+}

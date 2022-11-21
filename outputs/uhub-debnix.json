@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "uhub",
+  "nix_pkg": null,
+  "control_file_hash": "1ddf866f1f7f0a29cd334d43bf074bd3d85af4c17622f1bd2d031f1df9eb397f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "fakeroot",
+    "libsqlite3-dev",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "sqlite",
+    "systemd"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libsqlite3-dev": "sqlite"
+  }
+}

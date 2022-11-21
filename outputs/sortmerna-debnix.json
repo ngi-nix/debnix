@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "sortmerna",
+  "nix_pkg": null,
+  "control_file_hash": "f01ab3720a3042cb2769b59d3bac701ea9b280cfc5b917a8ba56b69ec6e220c8",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libconcurrentqueue-dev",
+    "libgflags-dev",
+    "librocksdb-dev",
+    "libsnappy-dev",
+    "libzstd-dev",
+    "python3",
+    "rapidjson-dev",
+    "sse2-support"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "rapidjson",
+    "rocksdb",
+    "zlib"
+  ],
+  "map": {
+    "librocksdb-dev": "rocksdb",
+    "cmake": "cmake",
+    "rapidjson-dev": "rapidjson"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "xandikos",
+  "nix_pkg": null,
+  "control_file_hash": "271dd3a51ddcb765d52578547db63f42cb29cd3140cba8289daca26cb1736a98",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3-aiohttp",
+    "python3-aiohttp-openmetrics",
+    "python3-all",
+    "python3-defusedxml",
+    "python3-dulwich",
+    "python3-icalendar",
+    "python3-jinja2",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "Jinja2",
+    "aiohttp",
+    "defusedxml",
+    "dulwich",
+    "icalendar",
+    "multidict",
+    "prometheus-client",
+    "python3"
+  ],
+  "map": {
+    "python3-defusedxml": "defusedxml",
+    "python3-dulwich": "dulwich",
+    "python3-jinja2": "Jinja2"
+  }
+}
