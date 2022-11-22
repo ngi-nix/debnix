@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "dvdisaster-doc",
+  "nix_pkg": null,
+  "control_file_hash": "b799006b8511ad4ac9a39c20e6538ea69a645c736cb4a7197a2b25460f47421a",
+  "deb_inputs": [
+    "debhelper",
+    "dvdisaster",
+    "dvdisaster-doc",
+    "gettext",
+    "libbz2-dev",
+    "libcam-dev",
+    "libgtk2.0-dev",
+    "libpng-dev",
+    "pkg-config",
+    "xdg-utils"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gtk+",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

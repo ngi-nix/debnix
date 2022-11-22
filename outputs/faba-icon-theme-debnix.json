@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "faba-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "593b05d61fc53c8015ecc117a7cd0900def6a2bcef6557af4ba306e8bf9c7736",
+  "deb_inputs": [
+    "debhelper",
+    "gnome-icon-theme",
+    "hicolor-icon-theme",
+    "meson"
+  ],
+  "nix_inputs": [
+    "elementary-icon-theme",
+    "gnome-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "meson",
+    "ninja",
+    "python3"
+  ],
+  "map": {
+    "gnome-icon-theme": "gnome-icon-theme",
+    "hicolor-icon-theme": "hicolor-icon-theme",
+    "meson": "meson"
+  }
+}

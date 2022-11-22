@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "engauge-digitizer-doc",
+  "nix_pkg": null,
+  "control_file_hash": "5cbc30d641b352e4a456fc6c4b46743772e20d4b51e70a4938000c89164bc351",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dpkg-dev",
+    "engauge-digitizer",
+    "engauge-digitizer-doc",
+    "libfftw3-dev",
+    "libjpeg-dev",
+    "liblog4cpp5-dev",
+    "libopenjp2-7-dev",
+    "libpoppler-qt5-dev",
+    "libqt5sql5-sqlite",
+    "qtbase5-dev",
+    "qtbase5-dev-tools",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "fftw-double",
+    "libjpeg-turbo",
+    "libpng",
+    "log4cpp",
+    "openjpeg",
+    "poppler-qt5",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools",
+    "liblog4cpp5-dev": "log4cpp",
+    "libopenjp2-7-dev": "openjpeg",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

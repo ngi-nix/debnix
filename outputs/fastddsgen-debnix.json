@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "fastddsgen",
+  "nix_pkg": null,
+  "control_file_hash": "ba6833a71c4abec6cd404178e5832c9609cbc52bf1e67912fa385542807510db",
+  "deb_inputs": [
+    "cpp",
+    "debhelper-compat",
+    "default-jdk",
+    "javahelper",
+    "libeprosima-idl-parser-java"
+  ],
+  "nix_inputs": [
+    "gradle",
+    "openjdk"
+  ],
+  "map": {}
+}

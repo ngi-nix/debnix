@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "ecopcr",
+  "nix_pkg": null,
+  "control_file_hash": "e764f4e647409be1efe083589530b0d624af6a0b2de80c6ec5dd1caa34705843",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "python3",
+    "python3-reportlab",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gcc-wrapper",
+    "python",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "python3": "python"
+  }
+}

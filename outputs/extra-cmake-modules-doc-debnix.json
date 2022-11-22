@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "extra-cmake-modules-doc",
+  "nix_pkg": null,
+  "control_file_hash": "90fd06631862617d80cd186cecaf97e74266ce2d2523080966e7021401848923",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libjs-jquery",
+    "libjs-underscore",
+    "pkg-kde-tools",
+    "python3-distutils",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinxcontrib.qthelp",
+    "python3-sphinxcontrib.serializinghtml",
+    "qt5-qmake",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

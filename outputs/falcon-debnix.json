@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "falcon",
+  "nix_pkg": null,
+  "control_file_hash": "da576d7fbf15c8473bca0982bf8f2f363692b08b3695e4649d4636e99609c926",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python-all-dev",
+    "python-networkx",
+    "python-nose",
+    "python-pkg-resources",
+    "python-setuptools",
+    "rsync",
+    "time"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pcre",
+    "pkg-config-wrapper",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {}
+}

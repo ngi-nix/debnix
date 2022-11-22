@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-gnome", "dh-sequence-python3", "eog", "eog-dev", "eog-plugin-disable-dark-theme", "eog-plugin-exif-display", "eog-plugin-export-to-folder", "eog-plugin-fit-to-width", "eog-plugin-fullscreen-background", "eog-plugin-map", "eog-plugin-maximize-windows", "eog-plugin-picasa", "eog-plugin-python-console", "eog-plugin-send-by-mail", "eog-plugin-slideshow-shuffle", "eog-plugins-common", "gir1.2-glib-2.0", "gir1.2-gtk-3.0", "gir1.2-pango-1.0", "gir1.2-peas-1.0", "gsettings-desktop-schemas", "gsettings-desktop-schemas-dev", "libchamplain-0.12-dev", "libchamplain-gtk-0.12-dev", "libclutter-1.0-dev", "libclutter-gtk-1.0-dev", "libexif-dev", "libgdata-dev", "libglib2.0-dev", "libgtk-3-dev", "libpeas-dev", "meson", "python3-gi"], or 
+output: 
+[] is empty!

@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "djvulibre-desktop",
+  "nix_pkg": null,
+  "control_file_hash": "ff9e99ead917cd0fcb7b1efbbdb9cd286d8647406fe958fb9388f88ebd0b9673",
+  "deb_inputs": [
+    "apache",
+    "apache2",
+    "curl",
+    "debhelper-compat",
+    "djview3",
+    "djview4",
+    "djvu-viewer",
+    "djvulibre-desktop",
+    "evince",
+    "httpd",
+    "httpd-cgi",
+    "imagemagick",
+    "libdjvulibre-text",
+    "libdjvulibre21",
+    "libjpeg-dev",
+    "librsvg2-bin",
+    "libtiff-dev",
+    "pdf2djvu",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "djvulibre",
+    "libXt",
+    "libjpeg-turbo",
+    "librsvg",
+    "libtiff",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "libdjvulibre-text": "djvulibre",
+    "libdjvulibre21": "djvulibre",
+    "djview3": "djvulibre",
+    "libjpeg-dev": "libjpeg-turbo",
+    "librsvg2-bin": "librsvg",
+    "libtiff-dev": "libtiff",
+    "djvulibre-desktop": "djvulibre"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "fcitx5-table-compose",
+  "nix_pkg": null,
+  "control_file_hash": "78bdfc33f8d332572d7fbb12a81e440433856ef3dd960d11a5ea30592e9c2627",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "fcitx5-table",
+    "fcitx5-table-amharic",
+    "fcitx5-table-arabic",
+    "fcitx5-table-cns11643",
+    "fcitx5-table-compose",
+    "fcitx5-table-emoji",
+    "fcitx5-table-ipa-x-sampa",
+    "fcitx5-table-latex",
+    "fcitx5-table-malayalam-phonetic",
+    "fcitx5-table-rustrad",
+    "fcitx5-table-tamil-remington",
+    "fcitx5-table-thai",
+    "fcitx5-table-translit",
+    "fcitx5-table-translit-ua",
+    "fcitx5-table-viqr",
+    "fcitx5-table-yawerty",
+    "libboost-dev",
+    "libfcitx5utils-dev",
+    "libime-bin",
+    "libimecore-dev",
+    "libimetable-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "gettext",
+    "libime"
+  ],
+  "map": {
+    "libime-bin": "libime",
+    "libimetable-dev": "libime",
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libimecore-dev": "libime",
+    "libfcitx5utils-dev": "fcitx5",
+    "libboost-dev": "boost",
+    "cmake": "cmake"
+  }
+}

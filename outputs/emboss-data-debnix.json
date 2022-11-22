@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "emboss-data",
+  "nix_pkg": null,
+  "control_file_hash": "a487e478f0e55eb7789c00879df2de1ec5c12cd42e3e0535b233ba4345cc7b4f",
+  "deb_inputs": [
+    "ant",
+    "antiword",
+    "c-shell",
+    "clustalw",
+    "csh",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jre",
+    "default-libmysqlclient-dev",
+    "dialign",
+    "embassy",
+    "emboss",
+    "emboss-data",
+    "emboss-doc",
+    "emboss-lib",
+    "emboss-test",
+    "evince",
+    "libexpat1-dev",
+    "libgdchart-gd2-xpm-dev",
+    "libhpdf-dev",
+    "libpng-dev",
+    "libpq-dev",
+    "libx11-dev",
+    "pdf-viewer",
+    "postscript-viewer",
+    "primer3",
+    "sharutils",
+    "tcsh",
+    "valgrind",
+    "x11proto-core-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libX11",
+    "libXt",
+    "libharu",
+    "libpng-apng",
+    "perl",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libx11-dev": "libX11",
+    "libhpdf-dev": "libharu",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "fastp",
+  "nix_pkg": null,
+  "control_file_hash": "0547bf4316314eb6a43d6470973f31ec04141e93db83a1402a7ce30cdbc9e2ca",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdeflate-dev",
+    "libisal-dev"
+  ],
+  "nix_inputs": [
+    "isa-l",
+    "libdeflate",
+    "zlib"
+  ],
+  "map": {
+    "libdeflate-dev": "libdeflate"
+  }
+}

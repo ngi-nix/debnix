@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "diffutils-doc",
+  "nix_pkg": null,
+  "control_file_hash": "32f9a4b7de1a45702e8c1e2eeb65d713d0ef4e0ab389c43169510176ec32a482",
+  "deb_inputs": [
+    "debhelper-compat",
+    "diffutils-doc",
+    "texinfo",
+    "wdiff"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "xz"
+  ],
+  "map": {}
+}
