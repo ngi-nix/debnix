@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "diceware-doc",
+  "nix_pkg": null,
+  "control_file_hash": "659c3fed6bf16c610c4dcc78723aba73dc138b3152f745683f3a2dc6f5995a6e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "python3-all",
+    "python3-pytest",
+    "python3-pytest-runner",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme"
+  ],
+  "nix_inputs": [
+    "coverage",
+    "pytest",
+    "pytest-runner",
+    "python3",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools",
+    "python3-pytest": "pytest",
+    "python3-pytest-runner": "pytest-runner"
+  }
+}

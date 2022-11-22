@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "crystal-doc",
+  "nix_pkg": null,
+  "control_file_hash": "1cb2d883c1d32c54ddbddb284d8afccf0ab9fae24dfcdc412c9e99d03000a57b",
+  "deb_inputs": [
+    "crystal",
+    "crystal-doc",
+    "crystal-samples",
+    "debhelper-compat",
+    "git",
+    "libbsd-dev",
+    "libedit-dev",
+    "libevent-dev",
+    "libgc-dev",
+    "libgmp-dev",
+    "libpcre3-dev",
+    "libssl-dev",
+    "libtool",
+    "libxml2-dev",
+    "libyaml-dev",
+    "libz-dev",
+    "lld-14",
+    "llvm-14-dev",
+    "pkg-config",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "boehm-gc",
+    "crystal",
+    "libatomic_ops",
+    "libevent",
+    "libxml2",
+    "libyaml",
+    "llvm",
+    "openssl",
+    "pcre",
+    "pkg-config-wrapper",
+    "which",
+    "zlib"
+  ],
+  "map": {
+    "crystal": "crystal",
+    "libpcre3-dev": "pcre",
+    "libyaml-dev": "libyaml",
+    "libxml2-dev": "libxml2",
+    "llvm-14-dev": "llvm",
+    "libssl-dev": "openssl",
+    "crystal-doc": "crystal",
+    "crystal-samples": "crystal",
+    "libevent-dev": "libevent"
+  }
+}

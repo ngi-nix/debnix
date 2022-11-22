@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "chewing-editor",
+  "nix_pkg": null,
+  "control_file_hash": "76d4c4bb98b06e3cb6a4f071717045d7c11649b549dd669dc05032f6b4fb0fd1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "help2man",
+    "libchewing3-dev",
+    "pkg-config",
+    "qtchooser",
+    "qttools5-dev",
+    "qttools5-dev-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libchewing",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qttools"
+  ],
+  "map": {
+    "qttools5-dev": "qttools",
+    "cmake": "cmake",
+    "libchewing3-dev": "libchewing"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "clpeak",
+  "nix_pkg": null,
+  "control_file_hash": "a29cfc9e410a78284c5a3ca7a9f9e9ba0b2d5cb3e7349b13d5d7f79e1b86870c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "ocl-icd-opencl-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "ocl-icd",
+    "opencl-clhpp"
+  ],
+  "map": {
+    "ocl-icd-opencl-dev": "ocl-icd",
+    "cmake": "cmake"
+  }
+}

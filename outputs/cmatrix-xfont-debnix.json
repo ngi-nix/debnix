@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "cmatrix-xfont",
+  "nix_pkg": null,
+  "control_file_hash": "4e58b64d1cae60562d2f644c45b44047aa3ae95b3085a262a54e717edadfcb54",
+  "deb_inputs": [
+    "cmatrix",
+    "cmatrix-xfont",
+    "console-setup-linux",
+    "debhelper-compat",
+    "kbd",
+    "libncurses-dev"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "debhelper-compat", "debian-edu-doc-en", "debian-edu-doc-legacy-en", "debian-edu-doc-legacy-fr", "debian-edu-doc-legacy-ja", "debian-edu-doc-legacy-nb-no", "debian-edu-doc-legacy-nl", "debian-edu-doc-legacy-pt-br", "debian-edu-doc-legacy-pt-pt", "debian-edu-doc-legacy-zh-cn"], or 
+output: 
+[] is empty!

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "ddnet-tools",
+  "nix_pkg": null,
+  "control_file_hash": "2c78cb9b155daa1962d4abed1fe5a75fb35cf4067066fc25683737748a553b2e",
+  "deb_inputs": [
+    "ddnet-data",
+    "ddnet-tools",
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "fonts-noto-cjk"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "curl",
+    "ffmpeg",
+    "freetype",
+    "glslang",
+    "glu",
+    "libX11",
+    "libnotify",
+    "libogg",
+    "ninja",
+    "opusfile",
+    "pcre",
+    "pkg-config-wrapper",
+    "python3",
+    "spirv-tools",
+    "sqlite",
+    "vulkan-headers",
+    "vulkan-loader",
+    "wavpack",
+    "x264"
+  ],
+  "map": {}
+}

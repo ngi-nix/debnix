@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "dblatex-doc",
+  "nix_pkg": null,
+  "control_file_hash": "ab9fd559b7f245b981c0b384187c374344ef5dd5bbf6747cbd229601e0633636",
+  "deb_inputs": [
+    "dblatex-doc",
+    "debhelper-compat",
+    "dh-python",
+    "docbook",
+    "docbook-xml",
+    "ghostscript",
+    "graphicsmagick-imagemagick-compat",
+    "imagemagick",
+    "inkscape",
+    "latex-cjk-all",
+    "libxml2-utils",
+    "lmodern",
+    "opensp",
+    "pdf-viewer",
+    "python3-apt",
+    "texlive",
+    "texlive-bibtex-extra",
+    "texlive-extra-utils",
+    "texlive-lang-all",
+    "texlive-lang-cyrillic",
+    "texlive-latex-extra",
+    "texlive-science",
+    "texlive-xetex",
+    "transfig",
+    "xindy",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "libxslt",
+    "python3"
+  ],
+  "map": {
+    "xsltproc": "libxslt"
+  }
+}

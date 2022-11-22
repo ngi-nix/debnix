@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "crossfire-doc",
+  "nix_pkg": null,
+  "control_file_hash": "fa6ce1581d93707aaa18d48007ba6ef05387d9b1b95bdb71a06dea19c520e062",
+  "deb_inputs": [
+    "automake",
+    "bzip2",
+    "crossfire-common",
+    "crossfire-maps",
+    "debhelper",
+    "flex",
+    "libcurl-dev",
+    "libcurl4-gnutls-dev",
+    "libpython3-dev",
+    "libsqlite3-dev",
+    "libtool",
+    "pkg-config",
+    "python3",
+    "python3-bsddb3"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "check",
+    "flex",
+    "libtool",
+    "perl",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libtool": "libtool",
+    "flex": "flex",
+    "python3": "python3",
+    "automake": "automake"
+  }
+}

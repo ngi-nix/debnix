@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "dhewm3-d3xp",
+  "nix_pkg": null,
+  "control_file_hash": "c676d96e14586e3e817fc12d778c874685c5689b2c516ddfe0618cea424b4ede",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dhewm3",
+    "dhewm3-d3xp",
+    "dhewm3-doom3",
+    "doom3-data",
+    "doom3-resurrection-data",
+    "game-data-packager",
+    "libcurl4-gnutls-dev",
+    "libopenal-dev",
+    "libsdl2-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "curl",
+    "glu",
+    "libGL",
+    "libjpeg-turbo",
+    "libogg",
+    "libvorbis",
+    "openal-soft",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libcurl4-gnutls-dev": "curl",
+    "libopenal-dev": "openal-soft"
+  }
+}

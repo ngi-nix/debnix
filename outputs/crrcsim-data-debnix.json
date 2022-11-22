@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "crrcsim-data",
+  "nix_pkg": null,
+  "control_file_hash": "bae32e1550cf48223c965ac7894d3a0045169b60b594a79aaf922d0d13f26d40",
+  "deb_inputs": [
+    "cmake",
+    "crrcsim",
+    "crrcsim-data",
+    "crrcsim-doc",
+    "debhelper",
+    "dpkg-dev",
+    "libboost-thread-dev",
+    "libcgal-dev",
+    "libjpeg-dev",
+    "libplib-dev",
+    "libsdl1.2-dev",
+    "portaudio19-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_mixer",
+    "glu",
+    "libGL",
+    "libjpeg-turbo",
+    "plib"
+  ],
+  "map": {
+    "libsdl1.2-dev": "SDL",
+    "libplib-dev": "plib",
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

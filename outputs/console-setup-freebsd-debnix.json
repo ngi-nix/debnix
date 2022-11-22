@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "console-setup-freebsd",
+  "nix_pkg": null,
+  "control_file_hash": "751d733a4ff096402b005faef3bcece582ae9476aff08ab6d11fa5f975140905",
+  "deb_inputs": [
+    "archdetect",
+    "bdfresize",
+    "cdebconf-udeb",
+    "console-setup",
+    "console-setup-freebsd",
+    "console-setup-linux",
+    "console-tools",
+    "debconf",
+    "debconf-2.0",
+    "debhelper",
+    "hurd",
+    "hurd-udeb",
+    "init-system-helpers",
+    "initscripts",
+    "kbd",
+    "kbd-udeb",
+    "kbdcontrol",
+    "kbdcontrol-udeb",
+    "keyboard-configuration",
+    "liblocale-gettext-perl",
+    "libxml-parser-perl",
+    "locales",
+    "lsb-base",
+    "perl",
+    "po-debconf",
+    "vidcontrol",
+    "xkb-data"
+  ],
+  "nix_inputs": [
+    "dpkg"
+  ],
+  "map": {}
+}

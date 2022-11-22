@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "delly",
+  "nix_pkg": null,
+  "control_file_hash": "67d77063d76ee3b84c5e825dc1a1363a39f04653b436f91d88ae55e80c0c5988",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "debhelper-compat",
+    "libboost-date-time-dev",
+    "libboost-filesystem-dev",
+    "libboost-iostreams-dev",
+    "libboost-program-options-dev",
+    "libboost-system-dev",
+    "libbz2-dev",
+    "libhts-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "htslib",
+    "ncurses",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib",
+    "libhts-dev": "htslib"
+  }
+}

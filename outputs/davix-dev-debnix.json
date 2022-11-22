@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "davix-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d86232f2cd1edae7862a109bde045df4a6f206492bd361c10ad071439720596e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "gsoap",
+    "libcurl4-openssl-dev",
+    "libdavix0v5",
+    "libgsoap-dev",
+    "libgtest-dev",
+    "libssl-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "python3:native",
+    "rapidjson-dev",
+    "uuid-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "curl",
+    "libxml2",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libcurl4-openssl-dev": "curl",
+    "libxml2-dev": "libxml2",
+    "libssl-dev": "openssl"
+  }
+}

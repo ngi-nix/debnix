@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "dcmtk-doc",
+  "nix_pkg": null,
+  "control_file_hash": "c826ef31f92f24816c50aa97eb78095d97a8bbc13f3dd2272ec0af08141853a1",
+  "deb_inputs": [
+    "adduser",
+    "cmake",
+    "dcmtk",
+    "dcmtk-data",
+    "dcmtk-doc",
+    "debhelper-compat",
+    "gettext",
+    "help2man",
+    "libdcmtk-dev",
+    "libdcmtk18",
+    "libjs-jquery",
+    "libpng-dev",
+    "libsndfile1-dev",
+    "libssl-dev",
+    "libtiff-dev",
+    "libwrap0-dev",
+    "libxml2-dev",
+    "xxd",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libpng-apng",
+    "libtiff",
+    "libxml2",
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libssl-dev": "openssl",
+    "cmake": "cmake",
+    "libtiff-dev": "libtiff",
+    "zlib1g-dev": "zlib"
+  }
+}

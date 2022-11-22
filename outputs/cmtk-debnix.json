@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "cmtk",
+  "nix_pkg": null,
+  "control_file_hash": "29a8777f12e7a528fae6f3f5f0c6b017ba1d0c3894b7ca61476b427d448d9884",
+  "deb_inputs": [
+    "bc",
+    "cmake",
+    "dc",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libcharls-dev",
+    "libdcmtk-dev",
+    "libdcmtk1-dev",
+    "libfftw3-dev",
+    "liblzma-dev",
+    "libmxml-dev",
+    "libpng-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "libtiff-dev",
+    "libtiff4-dev",
+    "libwrap0-dev",
+    "libxml2-dev",
+    "libz-dev",
+    "numdiff",
+    "sri24-atlas",
+    "xauth",
+    "xvfb",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

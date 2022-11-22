@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "ctpl",
+  "nix_pkg": null,
+  "control_file_hash": "1c943980bfda8fab4fcb16ab86268fae944ef62bb4402c05ee54f36eedac50c6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libctpl-data",
+    "libctpl-doc",
+    "libctpl2",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libtool",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-doc": "glib",
+    "libglib2.0-dev": "glib"
+  }
+}
