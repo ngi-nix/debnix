@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "ftjam",
+  "nix_pkg": null,
+  "control_file_hash": "2925c2b220b3e719c7f99bdd3d7872bed32b3c296ec738a8f453337565e178d2",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "dh-buildinfo",
+    "docbook-to-man"
+  ],
+  "nix_inputs": [
+    "bison"
+  ],
+  "map": {
+    "bison": "bison"
+  }
+}

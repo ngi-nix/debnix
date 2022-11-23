@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "freebayes",
+  "nix_pkg": null,
+  "control_file_hash": "d65a4cec30f0b37cbeea420ea9f21b3d9a50357963f80b2645903b58643b7195",
+  "deb_inputs": [
+    "bc",
+    "debhelper",
+    "debhelper-compat",
+    "libbamtools-dev",
+    "libseqlib-dev",
+    "libtabixpp-dev",
+    "libvcflib-dev",
+    "libvcflib-tools",
+    "meson",
+    "ninja-build",
+    "parallel",
+    "pkg-config",
+    "python3",
+    "samtools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "freeipmi",
+  "nix_pkg": null,
+  "control_file_hash": "5addf1f1b830d5ee51acd4f49e26e9f043d53bda141725b2bee8a6fd4461f689",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "dh-exec",
+    "freeipmi-bmc-watchdog",
+    "freeipmi-common",
+    "freeipmi-ipmidetect",
+    "freeipmi-tools",
+    "libfreeipmi17",
+    "libgcrypt20-dev",
+    "libipmiconsole2",
+    "libipmidetect0",
+    "libipmimonitoring6",
+    "libsystemd-dev",
+    "pkg-config",
+    "systemd",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "libgcrypt",
+    "libgpg-error",
+    "readline"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "firejail-profiles",
+  "nix_pkg": null,
+  "control_file_hash": "f275db44d9b5185ea25472a1133e7a09933a9a90377e3e184f85fea9810b8012",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-apparmor",
+    "firejail",
+    "firejail-profiles",
+    "gawk",
+    "iproute2",
+    "iptables",
+    "libapparmor-dev",
+    "libselinux1-dev",
+    "pkg-config",
+    "xauth",
+    "xdg-dbus-proxy",
+    "xpra",
+    "xserver-xephyr",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "libapparmor",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libapparmor-dev": "libapparmor"
+  }
+}

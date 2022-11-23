@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "foomatic-db",
+  "nix_pkg": null,
+  "control_file_hash": "89088a5eddaa6389519990ff949cea121faa0efa92b77b536eeb6e8e4df87410",
+  "deb_inputs": [
+    "cups",
+    "cups-client",
+    "cups-filters",
+    "debhelper-compat",
+    "foomatic-db-engine",
+    "foomatic-filters",
+    "ghostscript",
+    "hpijs-ppds",
+    "hplip",
+    "hplip-cups",
+    "openprinting-ppds",
+    "printer-driver-all",
+    "pyppd"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "cups",
+    "cups-filters",
+    "ghostscript-with-X",
+    "gnused",
+    "perl"
+  ],
+  "map": {
+    "cups": "cups",
+    "cups-client": "cups",
+    "cups-filters": "cups-filters"
+  }
+}
