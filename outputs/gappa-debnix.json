@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "gappa",
+  "nix_pkg": null,
+  "control_file_hash": "8300dfbf314cb43e99cab0f5c94feb5db4a9a9a3d45f460170c4007cfcfc2440",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "help2man",
+    "libboost-dev",
+    "libgmp-dev",
+    "libmpfr-dev",
+    "sphinx"
+  ],
+  "nix_inputs": [
+    "boost",
+    "gmp-with-cxx",
+    "mpfr"
+  ],
+  "map": {
+    "libmpfr-dev": "mpfr",
+    "libboost-dev": "boost"
+  }
+}

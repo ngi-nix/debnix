@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "fwupd-unsigned-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f32d9c5fe97e97defb7004f80d3fc985081c8789157194d3160815da22535db6",
+  "deb_inputs": [
+    "build-essential",
+    "debhelper",
+    "dpkg-dev",
+    "fwupd-signed",
+    "fwupd-unsigned",
+    "gnu-efi",
+    "make",
+    "meson",
+    "mingw-w64-tools"
+  ],
+  "nix_inputs": [
+    "gnu-efi",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "gnu-efi": "gnu-efi",
+    "meson": "meson"
+  }
+}
