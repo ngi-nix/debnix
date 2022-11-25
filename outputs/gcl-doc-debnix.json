@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "gcl-doc",
+  "nix_pkg": null,
+  "control_file_hash": "93e472670836a7ab91993791c257b3f69fb9e12e285e8f12b4864c767fca273e",
+  "deb_inputs": [
+    "debconf",
+    "debhelper",
+    "dpkg",
+    "emacs",
+    "emacsen",
+    "gcc-11",
+    "gcl-doc",
+    "libeditreadline-dev",
+    "libgmp-dev",
+    "libxaw7-dev",
+    "libxmu-dev",
+    "m4",
+    "po-debconf",
+    "tcl",
+    "tk8.6-dev",
+    "ucf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "binutils-wrapper",
+    "emacs",
+    "gmp",
+    "gnum4",
+    "libX11",
+    "libXaw",
+    "libXext",
+    "libXi",
+    "libXmu",
+    "libXt",
+    "mpfr",
+    "texinfo",
+    "which",
+    "xorgproto",
+    "zlib"
+  ],
+  "map": {
+    "libgmp-dev": "gmp",
+    "libxmu-dev": "libXmu",
+    "zlib1g-dev": "zlib",
+    "emacs": "emacs",
+    "libxaw7-dev": "libXaw"
+  }
+}
