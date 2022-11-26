@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "golang-github-eknkc-amber-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6c3da3b7740008e4af49cc1cd84edb6ea1c5ac7ced7c8b41992fab597e879ec3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

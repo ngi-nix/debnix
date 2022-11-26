@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "golang-github-aviau-gopass-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3cc5a8554c73b6dee85d1ce5f14f71457896f53c40957b07c933656ee9d67266",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper",
+    "dh-golang",
+    "git",
+    "gnupg",
+    "gnupg2",
+    "golang-github-mgutz-ansi-dev",
+    "golang-github-pquerna-otp-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-go",
+    "golang-golang-x-crypto-dev",
+    "tree"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

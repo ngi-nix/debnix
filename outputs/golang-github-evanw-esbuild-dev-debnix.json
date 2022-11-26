@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "golang-github-evanw-esbuild-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ba73642e6ecdfccc84fc45c2c61856b2f2e5e419495e3ee9d2df976c8512bc2a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-golang-x-sys-dev",
+    "golang-src",
+    "nodejs"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

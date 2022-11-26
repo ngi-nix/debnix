@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "golang-github-docker-notary-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b20fe129171492af6b32776b979922d3f12a82b16626f82ecfe53d3df759f7cb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-bugsnag-bugsnag-go-dev",
+    "golang-github-cloudflare-cfssl-dev",
+    "golang-github-docker-distribution-dev",
+    "golang-github-docker-go-connections-dev",
+    "golang-github-docker-go-dev",
+    "golang-github-dvsekhvalnov-jose2go-dev",
+    "golang-github-go-sql-driver-mysql-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-jinzhu-gorm-dev",
+    "golang-github-lib-pq-dev",
+    "golang-github-mattn-go-sqlite3-dev",
+    "golang-github-miekg-pkcs11-dev",
+    "golang-github-shopify-logrus-bugsnag-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sys-dev",
+    "golang-google-grpc-dev",
+    "golang-gopkg-rethinkdb-rethinkdb-go.v6-dev",
+    "golang-goprotobuf-dev",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers",
+    "libtool"
+  ],
+  "map": {}
+}

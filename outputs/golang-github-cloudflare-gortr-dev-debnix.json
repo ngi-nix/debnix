@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "golang-github-cloudflare-gortr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "bfa5fe10f6952274d22c0eef7f2e08099fc809cd7ff529907491920f83c5698d",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-prometheus-client-golang-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-logrus-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "golang-codesearch-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d2e0be2aa153a7acd5c7c1e47eb4a3de39173996dd0f6039ad2853aa83809475",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "golang-go",
+    "libparse-debcontrol-perl"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-golang", "golang-any", "golang-github-data-dog-go-sqlmock-dev", "golang-github-go-openapi-inflect-dev", "golang-github-go-sql-driver-mysql-dev", "golang-github-google-uuid-dev", "golang-github-json-iterator-go-dev", "golang-github-mattn-go-sqlite3-dev", "golang-github-mitchellh-mapstructure-dev", "golang-github-modern-go-reflect2-dev", "golang-github-olekukonko-tablewriter-dev", "golang-github-pkg-errors-dev", "golang-github-spf13-cobra-dev", "golang-github-stretchr-testify-dev", "golang-go-flags-dev", "golang-go.opencensus-dev", "golang-golang-x-sync-dev", "golang-golang-x-tools-dev", "golang-pq-dev", "golang-websocket-dev"], or 
+output: 
+[] is empty!
