@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "gmailieer",
+  "nix_pkg": null,
+  "control_file_hash": "cb8afe87f36468ca011041ee3adcfbba469f7faf448c459c002d604e74406153",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "help2man",
+    "lieer",
+    "notmuch",
+    "python3-all:any",
+    "python3-googleapi",
+    "python3-notmuch2",
+    "python3-oauth2client",
+    "python3-pytest",
+    "python3-setuptools",
+    "python3-tqdm"
+  ],
+  "nix_inputs": [
+    "google-api-python-client",
+    "notmuch",
+    "oauth2client",
+    "python3",
+    "setuptools",
+    "tqdm"
+  ],
+  "map": {
+    "notmuch": "notmuch",
+    "python3-setuptools": "setuptools",
+    "python3-tqdm": "tqdm",
+    "python3-notmuch2": "notmuch"
+  }
+}

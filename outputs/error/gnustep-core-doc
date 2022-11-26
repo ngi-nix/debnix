@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["aclock.app", "addressmanager.app", "affiche.app", "agenda.app", "batmon.app", "camera.app", "cenon.app", "charmap.app", "chess.app", "cynthiune.app", "debhelper", "dictionaryreader.app", "edenmath.app", "fontmanager.app", "ftp.app", "gnumail.app", "gnustep-base-doc", "gnustep-core-devel", "gnustep-core-doc", "gnustep-dl2", "gnustep-examples", "gnustep-gui-doc", "gnustep-icons", "gnustep-make-doc", "gomoku.app", "gorm.app", "gridlock.app", "grr.app", "gworkspace.app", "libaddresses-dev", "libaddressview-dev", "libdbuskit-dev", "libgnustep-gui-dev", "libgorm-dev", "libnetclasses-dev", "libpantomime-dev", "libperformance-dev", "libpopplerkit-dev", "libpreferencepanes-dev", "librenaissance0-dev", "librsskit-dev", "libsqlclient-dev", "libsteptalk-dev", "lusernet.app", "lynkeos.app", "mpdcon.app", "paje.app", "pikopixel.app", "plopfolio.app", "poe.app", "preview.app", "price.app", "projectcenter.app", "renaissance-doc", "steptalk", "systempreferences.app", "talksoup.app", "terminal.app", "textedit.app", "timemon.app", "viewpdf.app", "volumecontrol.app", "wmaker", "zipper.app"], or 
+output: 
+[] is empty!

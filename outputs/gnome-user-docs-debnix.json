@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "gnome-user-docs",
+  "nix_pkg": null,
+  "control_file_hash": "3145ca4b6f4e263e58e563f2a4ce76a5d8792e5583a88164fcce82cccd47c2a4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "yelp"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "itstool",
+    "libxml2",
+    "yelp-tools"
+  ],
+  "map": {}
+}

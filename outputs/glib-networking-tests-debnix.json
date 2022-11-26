@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "glib-networking-tests",
+  "nix_pkg": null,
+  "control_file_hash": "1a40ad21e17911a70ef0797e74b503b3b90c5fef8b0ac7def5e22d58f1bc411e",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-sequence-gnome",
+    "glib-networking",
+    "glib-networking-common",
+    "glib-networking-services",
+    "gsettings-desktop-schemas",
+    "gsettings-desktop-schemas-dev",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libproxy-dev",
+    "meson",
+    "python3"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "glib",
+    "gnutls",
+    "gsettings-desktop-schemas",
+    "libproxy",
+    "meson",
+    "ninja",
+    "p11-kit",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "gsettings-desktop-schemas": "gsettings-desktop-schemas",
+    "gsettings-desktop-schemas-dev": "gsettings-desktop-schemas",
+    "libglib2.0-dev": "glib",
+    "meson": "meson",
+    "libgnutls28-dev": "gnutls",
+    "libproxy-dev": "libproxy"
+  }
+}

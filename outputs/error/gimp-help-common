@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "gimp-help-common", "gimp-helpbrowser", "gnome-pkg-tools", "pkg-config", "www-browser"], or 
+output: 
+[] is empty!

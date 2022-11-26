@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "go-org",
+  "nix_pkg": null,
+  "control_file_hash": "82489b98e1070ce012b89e8f95b36ff6cd839dd3ad433d2f9524351822e4084c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-alecthomas-chroma-v2-dev",
+    "golang-github-pmezard-go-difflib-dev",
+    "golang-golang-x-net-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}
