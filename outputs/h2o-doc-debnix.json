@@ -1,0 +1,49 @@
+{
+  "pkgs_name": "h2o-doc",
+  "nix_pkg": null,
+  "control_file_hash": "f08c03e5eee6682bb55c28e4da667915454a237a16238902d281cafeeed56bb7",
+  "deb_inputs": [
+    "adduser",
+    "apache2-utils",
+    "bison",
+    "cmake",
+    "curl",
+    "debhelper-compat",
+    "libfcgi-procmanager-perl",
+    "libh2o-dev-common",
+    "libh2o-evloop0.13",
+    "libh2o0.13",
+    "libio-socket-ssl-perl",
+    "libjs-jquery",
+    "libjson-perl",
+    "libpath-tiny-perl",
+    "libscope-guard-perl",
+    "libssl-dev",
+    "libtest-exception-perl",
+    "libuv1-dev",
+    "libwslay-dev",
+    "libyaml-dev",
+    "netcat-openbsd",
+    "nghttp2-client",
+    "pkg-config",
+    "ruby",
+    "ruby-dev",
+    "starlet",
+    "wget",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libuv",
+    "ninja",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib",
+    "libuv1-dev": "libuv",
+    "cmake": "cmake"
+  }
+}

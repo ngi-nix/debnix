@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "hledger-interest",
+  "nix_pkg": null,
+  "control_file_hash": "8827a63d6b66c06d418851becd9630dbe05339a402b8b4a0d14ac919c2adad00",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "ghc",
+    "haskell-devscripts",
+    "libghc-decimal-dev",
+    "libghc-decimal-prof",
+    "libghc-hledger-lib-dev",
+    "libghc-hledger-lib-prof"
+  ],
+  "nix_inputs": [
+    "Decimal",
+    "ghc",
+    "hledger-lib"
+  ],
+  "map": {
+    "ghc": "ghc"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "hyperrogue-music",
+  "nix_pkg": null,
+  "control_file_hash": "c920dd4784acc0d65a7f05eb71c2fbe9db649c5cd867034fb42cf36dd08fcb89",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "hyperrogue",
+    "hyperrogue-music",
+    "libfontconfig-dev",
+    "libgl1-mesa-dev",
+    "libglew-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-gfx-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-ttf-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL",
+    "SDL_gfx",
+    "SDL_mixer",
+    "SDL_ttf",
+    "glew",
+    "libpng-apng"
+  ],
+  "map": {
+    "libsdl2-ttf-dev": "SDL",
+    "libglew-dev": "glew",
+    "libsdl2-dev": "SDL",
+    "libsdl2-mixer-dev": "SDL",
+    "libsdl2-gfx-dev": "SDL"
+  }
+}

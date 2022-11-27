@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "guile-git",
+  "nix_pkg": null,
+  "control_file_hash": "b0c33b2abb2c9ef93277b7054cc75226a012f08678ac5ac4ffc45ec6f2d4151e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "guile-bytestructures",
+    "libgit2-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "guile",
+    "libgit2",
+    "pkg-config-wrapper",
+    "scheme-bytestructures",
+    "texinfo"
+  ],
+  "map": {
+    "libgit2-dev": "libgit2",
+    "guile-3.0-dev": "guile",
+    "texinfo": "texinfo",
+    "guile-bytestructures": "scheme-bytestructures",
+    "guile-3.0": "guile"
+  }
+}

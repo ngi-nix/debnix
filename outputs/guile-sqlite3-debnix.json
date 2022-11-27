@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "guile-sqlite3",
+  "nix_pkg": null,
+  "control_file_hash": "3174c9d66d8676a3f21e997698ed1ea36c29330f016d74c79086cd781cf9d8d9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "libsqlite3-dev"
+  ],
+  "nix_inputs": [
+    "guile",
+    "pkg-config-wrapper",
+    "sqlite",
+    "texinfo"
+  ],
+  "map": {
+    "guile-3.0": "guile",
+    "libsqlite3-dev": "sqlite",
+    "guile-3.0-dev": "guile"
+  }
+}

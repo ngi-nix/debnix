@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "ion",
+  "nix_pkg": null,
+  "control_file_hash": "8b775d1aed9747d6f0e0d6e60663ff047f1755246d133f7ab045a57b4b491a54",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "ghostscript",
+    "groff",
+    "ion",
+    "ion-doc",
+    "libexpat1-dev",
+    "libion0",
+    "procps",
+    "psutils"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

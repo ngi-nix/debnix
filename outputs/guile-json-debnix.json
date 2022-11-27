@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "guile-json",
+  "nix_pkg": null,
+  "control_file_hash": "8bd96b613cac271612e5f338ea633b574f070ff11808242c645cd0af66d128a6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "guile-3.0",
+    "guile-3.0-dev",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "guile",
+    "pkg-config-wrapper",
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo",
+    "guile-3.0-dev": "guile",
+    "guile-3.0": "guile"
+  }
+}

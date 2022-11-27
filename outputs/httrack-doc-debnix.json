@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "httrack-doc",
+  "nix_pkg": null,
+  "control_file_hash": "2e61063166516ed37bf0ee4c81f4aca6253521ad110385323b0ee9b7937c4569",
+  "deb_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "autotools-dev",
+    "debhelper",
+    "dh-autoreconf",
+    "firefox",
+    "httrack",
+    "httrack-doc",
+    "iceape-browser",
+    "icecat",
+    "iceweasel",
+    "libssl-dev",
+    "libtool",
+    "mozilla",
+    "mozilla-firefox",
+    "squid",
+    "webhttrack",
+    "webhttrack-common",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl"
+  }
+}

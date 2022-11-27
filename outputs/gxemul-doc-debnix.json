@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "gxemul-doc",
+  "nix_pkg": null,
+  "control_file_hash": "40bf0201fb925322460285b0c6642d8e5d60d7af5c917fbbb55b044536ff2e0e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gxemul-doc",
+    "libx11-dev"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "gzip-win32",
+  "nix_pkg": null,
+  "control_file_hash": "9445aec56cd8b9c9084d1745ae6270e80d05876240a45a0ab7bf2492f4f36872",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper",
+    "dpkg",
+    "install-info",
+    "less",
+    "texinfo",
+    "wine"
+  ],
+  "nix_inputs": [
+    "xz"
+  ],
+  "map": {}
+}
