@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "golang-github-xenolf-lego-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d4a0676e8cfff3649a7ca890faffd14709660f68dea4a8f01f4304cfadc22bc9",
+  "deb_inputs": [
+    "ca-certificates",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-akamai-akamaiopen-edgegrid-golang-dev",
+    "golang-github-aws-aws-sdk-go-dev",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-cenkalti-backoff-dev",
+    "golang-github-google-go-querystring-dev",
+    "golang-github-jamesclonk-vultr-dev",
+    "golang-github-miekg-dns-dev",
+    "golang-github-nrdcg-desec-dev",
+    "golang-github-nrdcg-goinwx-dev",
+    "golang-github-ovh-go-ovh-dev",
+    "golang-github-pquerna-otp-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-github-vultr-govultr-dev",
+    "golang-github-weppos-dnsimple-go-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-oauth2-google-dev",
+    "golang-google-api-dev",
+    "golang-gopkg-square-go-jose.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

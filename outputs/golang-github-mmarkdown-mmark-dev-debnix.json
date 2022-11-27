@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "golang-github-mmarkdown-mmark-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cedd433713f67f233fff6552b1e333f0976443d0538e3929aa3919ed81a79e03",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-gomarkdown-markdown-dev",
+    "golang-github-google-go-cmp-dev",
+    "xml2rfc"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

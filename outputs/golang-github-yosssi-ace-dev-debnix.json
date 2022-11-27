@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "golang-github-yosssi-ace-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4f19c14a6df358e789352041204250a10bbb4d0fe55158c897f4f6183ed6a70d",
+  "deb_inputs": [
+    "ace",
+    "debhelper",
+    "dh-golang",
+    "golang-any",
+    "golang-github-yosssi-ace-dev",
+    "golang-github-yosssi-gohtml-dev"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

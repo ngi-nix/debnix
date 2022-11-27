@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "golang-golang.zx2c4-wireguard-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2ee69b960b5fce22f52f2f6aca52f70f981c6a2f2e5fac409c5947851c32cfa3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-go",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-golang-x-sys-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-golang", "golang-any", "golang-github-fsnotify-fsnotify-dev", "golang-github-hashicorp-hcl-dev", "golang-github-magiconair-properties-dev", "golang-github-mitchellh-mapstructure-dev", "golang-github-pelletier-go-toml-dev", "golang-github-spf13-afero-dev", "golang-github-spf13-cast-dev", "golang-github-spf13-jwalterweatherman-dev", "golang-github-spf13-pflag-dev", "golang-github-stretchr-testify-dev", "golang-github-subosito-gotenv-dev", "golang-gopkg-ini.v1-dev", "golang-gopkg-yaml.v2-dev"], or 
+output: 
+[] is empty!

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-golang", "golang-any", "golang-github-hailocab-go-hostpool-dev", "golang-github-opentracing-opentracing-go-dev", "golang-github-sirupsen-logrus-dev", "golang-github-stretchr-testify-dev", "golang-golang-x-crypto-dev", "golang-golang-x-net-dev", "golang-gopkg-check.v1-dev", "golang-goprotobuf-dev"], or 
+output: 
+[] is empty!

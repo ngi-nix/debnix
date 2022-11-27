@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "golang-github-tdewolff-minify-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f61a8bc20cbfab5ac4e3d34879b161b726c7afe67dc520f715e4c3648ec772c3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-djherbis-atime-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-matryer-try-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-github-tdewolff-parse-dev",
+    "golang-github-tdewolff-test-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

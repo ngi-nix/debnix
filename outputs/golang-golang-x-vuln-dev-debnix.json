@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "golang-golang-x-vuln-dev",
+  "nix_pkg": null,
+  "control_file_hash": "63d63e3b4f1d10fd4bf86fe60fead2baa6bf253b754a3f876aee770648dcb2a0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-golang",
+    "golang-any",
+    "golang-github-google-go-cmp-dev",
+    "golang-golang-x-exp-dev",
+    "golang-golang-x-mod-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-tools-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

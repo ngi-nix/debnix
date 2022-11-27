@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "govendor",
+  "nix_pkg": null,
+  "control_file_hash": "840981696e0aee401fddfab20b03771adb4ec9b2616c98129ab469b8e7a5bb72",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "golang-any",
+    "golang-github-bowery-prompt-dev",
+    "golang-github-dchest-safefile-dev",
+    "golang-github-google-shlex-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-tools-dev",
+    "golang-gopkg-yaml.v2-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

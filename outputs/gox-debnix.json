@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "gox",
+  "nix_pkg": null,
+  "control_file_hash": "061ca0e6f34523703b89749c3e74d6f48299484f32868dd0505fe7ae354eadf0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-mitchellh-iochan-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "golang-github-jteeuwen-go-bindata-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4a34cdf8b174847601f966724858cb46fb7f64fa9ea77c9cdd6b4675c4f378c2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "dpkg-dev",
+    "golang-go"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

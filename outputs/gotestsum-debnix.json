@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "gotestsum",
+  "nix_pkg": null,
+  "control_file_hash": "1a775445a3423ac2804cab1a16ea79433f92f04f7c5045511b226037ebdf20ea",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-github-fatih-color-dev",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-google-shlex-dev",
+    "golang-github-gotestyourself-gotest.tools-dev",
+    "golang-github-jonboulle-clockwork-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-spf13-pflag-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-tools-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

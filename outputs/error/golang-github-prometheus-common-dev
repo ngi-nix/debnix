@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-golang", "golang-any", "golang-github-aws-aws-sdk-go-dev", "golang-github-go-kit-log-dev", "golang-github-julienschmidt-httprouter-dev", "golang-github-mwitkow-go-conntrack-dev", "golang-github-prometheus-client-golang-dev", "golang-github-prometheus-client-model-dev", "golang-golang-x-net-dev", "golang-golang-x-oauth2-dev", "golang-google-protobuf-dev", "golang-gopkg-alecthomas-kingpin.v2-dev", "golang-gopkg-yaml.v2-dev", "golang-goprotobuf-dev", "golang-protobuf-extensions-dev"], or 
+output: 
+[] is empty!

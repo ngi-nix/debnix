@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "golang-github-smallstep-certificates-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1b7718a72519f4489171ce847e133dcee87f02487a49977304170b58be891578",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-aws-aws-sdk-go-dev",
+    "golang-github-go-chi-chi-dev",
+    "golang-github-go-kit-kit-dev",
+    "golang-github-go-piv-piv-go-dev",
+    "golang-github-google-uuid-dev",
+    "golang-github-masterminds-sprig-dev",
+    "golang-github-newrelic-go-agent-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-rs-xid-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-smallstep-assert-dev",
+    "golang-github-smallstep-nosql-dev",
+    "golang-github-stretchr-testify-dev",
+    "golang-github-thalesignite-crypto11-dev",
+    "golang-github-urfave-cli-dev",
+    "golang-golang-x-crypto-dev",
+    "golang-golang-x-net-dev",
+    "golang-gopkg-square-go-jose.v2-dev",
+    "golang-step-cli-utils-dev",
+    "golang-step-crypto-dev",
+    "libpcsclite-dev"
+  ],
+  "nix_inputs": [
+    "go",
+    "pcsclite",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpcsclite-dev": "pcsclite"
+  }
+}

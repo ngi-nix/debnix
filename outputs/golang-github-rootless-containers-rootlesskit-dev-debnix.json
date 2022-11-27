@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "golang-github-rootless-containers-rootlesskit-dev",
+  "nix_pkg": null,
+  "control_file_hash": "983ad9d0f5707340b6058629516206b3d1a928a4fd646a559e0dccfb52d9f711",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-gofrs-flock-dev",
+    "golang-github-gorilla-mux-dev",
+    "golang-github-gotestyourself-gotest.tools-dev",
+    "golang-github-insomniacslk-dhcp-dev",
+    "golang-github-moby-sys-dev",
+    "golang-github-sirupsen-logrus-dev",
+    "golang-github-urfave-cli-v2-dev",
+    "golang-golang-x-sys-dev",
+    "slirp4netns",
+    "uidmap"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

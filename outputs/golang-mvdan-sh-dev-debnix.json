@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "golang-mvdan-sh-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9a75f1e37667f1b879b62e7a81055fe28cfcaa65f47c9e13838bc81ef65e4a91",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-creack-pty-dev",
+    "golang-github-frankban-quicktest-dev",
+    "golang-github-google-go-cmp-dev",
+    "golang-github-google-renameio-dev",
+    "golang-github-pkg-diff-dev",
+    "golang-github-rogpeppe-go-internal-dev",
+    "golang-golang-x-sync-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-term-dev",
+    "golang-mvdan-editorconfig-dev",
+    "scdoc"
+  ],
+  "nix_inputs": [
+    "go",
+    "scdoc"
+  ],
+  "map": {
+    "scdoc": "scdoc"
+  }
+}

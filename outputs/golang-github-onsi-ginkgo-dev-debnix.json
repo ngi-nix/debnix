@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "golang-github-onsi-ginkgo-dev",
+  "nix_pkg": null,
+  "control_file_hash": "12e13938c26d06adc64bee99d23cad5cd07a72243975e71ad471b0524925ba0f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-influxdata-tail-dev",
+    "golang-github-onsi-ginkgo-dev",
+    "golang-golang-x-sys-dev",
+    "golang-golang-x-tools-dev",
+    "golang-gomega-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

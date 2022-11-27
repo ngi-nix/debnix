@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "golang-github-knqyf263-gost-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cbe0e527507c6aa69b58b5af390ec02f53b14ab8982d38c251f457676d66b211",
+  "deb_inputs": [
+    "debhelper",
+    "dh-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "golang-github-cenkalti-backoff-dev",
+    "golang-github-go-redis-redis-dev",
+    "golang-github-grokify-html-strip-tags-go-dev",
+    "golang-github-inconshreveable-log15-dev",
+    "golang-github-jinzhu-gorm-dev",
+    "golang-github-labstack-echo.v3-dev",
+    "golang-github-mattn-go-runewidth-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-parnurzeal-gorequest-dev",
+    "golang-github-pkg-errors-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-spf13-viper-dev",
+    "golang-github-tealeg-xlsx-dev",
+    "golang-gopkg-cheggaaa-pb.v1-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}
