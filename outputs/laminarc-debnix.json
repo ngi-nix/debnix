@@ -1,0 +1,41 @@
+{
+  "pkgs_name": "laminarc",
+  "nix_pkg": null,
+  "control_file_hash": "ff1d98a044e33c12a66d8d2ac951819a22de0daccc4d74f3c6c377cfa206d918",
+  "deb_inputs": [
+    "bash-completion",
+    "capnproto",
+    "cmake",
+    "daemon",
+    "debhelper-compat",
+    "dh-sysuser",
+    "laminarc",
+    "laminard",
+    "libboost-dev",
+    "libcapnp-dev",
+    "libjs-ansi-up",
+    "libjs-chart.js",
+    "libjs-vue",
+    "libsqlite3-dev",
+    "rapidjson-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "capnproto",
+    "cmake",
+    "pandoc",
+    "rapidjson",
+    "sqlite",
+    "zlib"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "cmake": "cmake",
+    "rapidjson-dev": "rapidjson",
+    "zlib1g-dev": "zlib",
+    "libsqlite3-dev": "sqlite",
+    "libcapnp-dev": "capnproto",
+    "capnproto": "capnproto"
+  }
+}

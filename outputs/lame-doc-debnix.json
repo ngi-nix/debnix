@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "lame-doc",
+  "nix_pkg": null,
+  "control_file_hash": "200cd40e68af2f9adcc11b463fcba77c7335c1b2a2f7a8d86783d037c4006ff9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "lame-doc",
+    "libmp3lame0",
+    "libncurses5-dev",
+    "libsndfile1-dev",
+    "nasm",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "nasm"
+  ],
+  "map": {
+    "nasm": "nasm"
+  }
+}

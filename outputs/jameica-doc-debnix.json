@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "jameica-doc",
+  "nix_pkg": null,
+  "control_file_hash": "f7a7cce9e4ecc0d366941aecbc026581b76e4260126d30ed15b93429334be42c",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk",
+    "dh-sequence-javahelper",
+    "jameica-h2database",
+    "libactivation-java",
+    "libbcpkix-java",
+    "libbcprov-java",
+    "libcommons-cli-java",
+    "libcommons-collections3-java",
+    "libcommons-lang-java",
+    "libcommons-logging-java",
+    "libeclipse-core-commands-java",
+    "libeclipse-core-runtime-java",
+    "libeclipse-jface-databinding-java",
+    "libeclipse-osgi-java",
+    "libeclipse-ui-forms-java",
+    "libequinox-common-java",
+    "libgeronimo-annotation-1.3-spec-java",
+    "libicu4j-java",
+    "libistack-commons-java",
+    "libjameica-datasource-java",
+    "libjameica-util-java",
+    "libjaxb-api-java",
+    "libjaxb-java",
+    "libmariadb-java",
+    "libmckoisqldb-java",
+    "libnanoxml2-java",
+    "liboro-java",
+    "libpaperclips-java",
+    "libswt-cairo-gtk-4-jni",
+    "libswtcalendar-java",
+    "libtxw2-java",
+    "velocity"
+  ],
+  "nix_inputs": [
+    "ant",
+    "glib",
+    "gtk+",
+    "libXtst",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant"
+  }
+}

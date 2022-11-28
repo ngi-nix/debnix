@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "kallisto",
+  "nix_pkg": null,
+  "control_file_hash": "6066ac0103c70f82bceacaf6a90523e9addb246ea35785ff8a6923ae24e12f2b",
+  "deb_inputs": [
+    "catch2",
+    "cmake",
+    "debhelper-compat",
+    "kallisto",
+    "libhdf5-dev",
+    "libhts-dev",
+    "snakemake"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "cmake",
+    "hdf5",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libhdf5-dev": "hdf5"
+  }
+}

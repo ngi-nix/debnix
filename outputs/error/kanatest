@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "fonts-ipafont-mincho", "fonts-japanese-mincho", "fonts-mikachan", "gettext", "libgtk2.0-dev", "libxml2-dev", "pkg-config"], or 
+output: 
+[] is empty!

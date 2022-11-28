@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "jugglinglab",
+  "nix_pkg": null,
+  "control_file_hash": "ce66919c9d72ae058f8795128429b4bc558e39d1635d9e285b8d59c903ff475f",
+  "deb_inputs": [
+    "ant",
+    "debhelper",
+    "default-jdk",
+    "dh-exec",
+    "javahelper"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk"
+  ],
+  "map": {
+    "ant": "ant"
+  }
+}

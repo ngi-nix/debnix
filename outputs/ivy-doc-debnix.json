@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "ivy-doc",
+  "nix_pkg": null,
+  "control_file_hash": "80100425dc249220be3b809e197be6616ec7e9021bf97f4caf69c1341566841b",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre",
+    "default-jre-headless",
+    "ivy-doc",
+    "java2-runtime",
+    "java2-runtime-headless",
+    "junit",
+    "libbcpg-java",
+    "libbcprov-java",
+    "libcommons-cli-java",
+    "libcommons-collections3-java",
+    "libcommons-lang-java",
+    "libcommons-vfs-java",
+    "libhttpclient-java",
+    "libjsch-agent-proxy-java",
+    "libjsch-java",
+    "liboro-java",
+    "maven-repo-helper"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

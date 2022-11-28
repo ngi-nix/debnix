@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "kde-config-telepathy-accounts", "kde-telepathy-approver", "kde-telepathy-auth-handler", "kde-telepathy-call-ui", "kde-telepathy-contact-list", "kde-telepathy-desktop-applets", "kde-telepathy-filetransfer-handler", "kde-telepathy-integration-module", "kde-telepathy-minimal", "kde-telepathy-send-file", "kde-telepathy-text-ui", "plasma-runner-telepathy-contact", "telepathy-connection-manager", "telepathy-gabble", "telepathy-haze", "telepathy-idle", "telepathy-logger", "telepathy-mission-control-5", "telepathy-rakia", "telepathy-salut"], or 
+output: 
+[] is empty!

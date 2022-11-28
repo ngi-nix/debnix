@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "kea-doc",
+  "nix_pkg": null,
+  "control_file_hash": "030339ab483d25fbaa8833592a0d0e1ece2ecbb10182da6a7870003968d59bf7",
+  "deb_inputs": [
+    "adduser",
+    "bison",
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "dh-python",
+    "docbook",
+    "docbook-xsl",
+    "elinks",
+    "flex",
+    "kea-admin",
+    "kea-common",
+    "kea-ctrl-agent",
+    "kea-dhcp-ddns-server",
+    "kea-dhcp4-server",
+    "kea-dhcp6-server",
+    "kea-doc",
+    "libboost-dev",
+    "libboost-system-dev",
+    "liblog4cplus-dev",
+    "libpq-dev",
+    "libssl-dev",
+    "lsb-base",
+    "postgresql-server-dev-all",
+    "procps",
+    "python3-dev",
+    "python3-kea-connector",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "boost",
+    "log4cplus",
+    "mariadb-connector-c",
+    "openssl",
+    "pkg-config-wrapper",
+    "python3",
+    "sphinx-rtd-theme"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "libboost-dev": "boost",
+    "python3-sphinx-rtd-theme": "sphinx-rtd-theme",
+    "python3-dev": "python3",
+    "liblog4cplus-dev": "log4cplus"
+  }
+}

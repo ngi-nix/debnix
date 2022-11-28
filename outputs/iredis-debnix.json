@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "iredis",
+  "nix_pkg": null,
+  "control_file_hash": "702cb8c4b7de8d90faee34f3d4a79f07261d4c00399a48a7d1ac0463eeaae3dc",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python3",
+    "python3-importlib-resources",
+    "python3-mistune",
+    "python3-pendulum",
+    "python3-pytzdata",
+    "python3-setuptools"
+  ],
+  "nix_inputs": [
+    "click",
+    "configobj",
+    "importlib-resources",
+    "mistune",
+    "packaging",
+    "pendulum",
+    "pexpect",
+    "prompt-toolkit",
+    "pygments",
+    "python3",
+    "redis",
+    "wcwidth"
+  ],
+  "map": {
+    "python3-mistune": "mistune",
+    "python3": "python3",
+    "python3-importlib-resources": "importlib-resources",
+    "python3-pendulum": "pendulum"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "kappanhang",
+  "nix_pkg": null,
+  "control_file_hash": "77c315c68dfbe05553224960419cc73a933f14264a118eec49b12e51d6e9cd88",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-akosmarton-papipes-dev",
+    "golang-github-fatih-color-dev",
+    "golang-github-google-goterm-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mesilliac-pulse-simple-dev",
+    "golang-github-pborman-getopt-dev",
+    "golang-go.uber-zap-dev",
+    "help2man"
+  ],
+  "nix_inputs": [
+    "go",
+    "pkg-config-wrapper",
+    "pulseaudio"
+  ],
+  "map": {}
+}

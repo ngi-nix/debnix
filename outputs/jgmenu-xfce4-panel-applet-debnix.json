@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "jgmenu-xfce4-panel-applet",
+  "nix_pkg": null,
+  "control_file_hash": "bc13089fb8bcc23a4e03e64f215dd551928b63136302ffee32f68611107366f7",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jgmenu",
+    "libcairo2-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libmenu-cache-dev",
+    "libpango1.0-dev",
+    "librsvg2-dev",
+    "libx11-dev",
+    "libxfce4panel-2.0-dev",
+    "libxml2-dev",
+    "libxrandr-dev",
+    "lxmenu-data",
+    "pkg-config",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "libXinerama",
+    "libXrandr",
+    "librsvg",
+    "libxml2",
+    "menu-cache",
+    "pango",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libmenu-cache-dev": "menu-cache",
+    "libxml2-dev": "libxml2",
+    "librsvg2-dev": "librsvg",
+    "libxrandr-dev": "libXrandr"
+  }
+}

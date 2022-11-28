@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "jing-trang-doc",
+  "nix_pkg": null,
+  "control_file_hash": "fb0dbbd1a336b47408f7a3e930c719839ced3327d3d43457b671aa0543f6bd0f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jre",
+    "java-runtime",
+    "java-wrappers",
+    "libavalon-framework-java",
+    "libbatik-java",
+    "libdtdinst-java",
+    "libisorelax-java",
+    "libjaxp1.3-java",
+    "libjing-java",
+    "libsaxonhe-java",
+    "libtrang-java",
+    "libxalan2-java",
+    "libxerces2-java",
+    "libxml-commons-resolver1.1-java",
+    "maven-repo-helper",
+    "xhtml-relaxng"
+  ],
+  "nix_inputs": [
+    "ant",
+    "openjdk-headless",
+    "saxon"
+  ],
+  "map": {}
+}

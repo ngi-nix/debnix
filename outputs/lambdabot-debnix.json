@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "lambdabot",
+  "nix_pkg": null,
+  "control_file_hash": "f6b5fe0aeb5b4cbaa0f121e1f8c163c5be27838f50f57ec6477ea0ad3574d907",
+  "deb_inputs": [
+    "aspell",
+    "cdbs",
+    "debhelper",
+    "djinn",
+    "ghc",
+    "haskell-devscripts",
+    "hoogle",
+    "hsbrainfuck",
+    "libghc-lambdabot-core-dev",
+    "libghc-lambdabot-haskell-plugins-dev",
+    "libghc-lambdabot-irc-plugins-dev",
+    "libghc-lambdabot-misc-plugins-dev",
+    "libghc-lambdabot-novelty-plugins-dev",
+    "libghc-lambdabot-reference-plugins-dev",
+    "libghc-lambdabot-social-plugins-dev",
+    "mueval",
+    "unlambda"
+  ],
+  "nix_inputs": [
+    "ghc",
+    "lambdabot-core",
+    "lambdabot-haskell-plugins",
+    "lambdabot-irc-plugins",
+    "lambdabot-misc-plugins",
+    "lambdabot-novelty-plugins",
+    "lambdabot-reference-plugins",
+    "lambdabot-social-plugins"
+  ],
+  "map": {
+    "ghc": "ghc"
+  }
+}

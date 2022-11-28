@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "klaus",
+  "nix_pkg": null,
+  "control_file_hash": "630a0c0ad2f4a0d0ff542e2750f27afaa45a1779de216f6b491b82400fc4b752",
+  "deb_inputs": [
+    "debhelper-compat",
+    "exuberant-ctags",
+    "gunicorn3",
+    "python3-chardet",
+    "python3-distutils",
+    "python3-docutils",
+    "python3-dulwich",
+    "python3-flask",
+    "python3-humanize",
+    "python3-klaus",
+    "python3-markdown",
+    "python3-pygments",
+    "python3-six",
+    "python3-werkzeug",
+    "uwsgi-plugin-python3"
+  ],
+  "nix_inputs": [
+    "dulwich",
+    "flask",
+    "httpauth",
+    "humanize",
+    "pygments",
+    "python3"
+  ],
+  "map": {
+    "python3-pygments": "pygments",
+    "python3-dulwich": "dulwich",
+    "python3-flask": "flask"
+  }
+}

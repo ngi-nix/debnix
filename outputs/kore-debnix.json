@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "kore",
+  "nix_pkg": null,
+  "control_file_hash": "be7fb00e3408431a9346a6721fddba8631997d5205743d4a7397799833965e4a",
+  "deb_inputs": [
+    "c-compiler",
+    "clang",
+    "debhelper-compat",
+    "gcc",
+    "libc-dev",
+    "libpq-dev",
+    "libssl-dev",
+    "postgresql"
+  ],
+  "nix_inputs": [
+    "curl",
+    "openssl",
+    "postgresql",
+    "yajl"
+  ],
+  "map": {
+    "postgresql": "postgresql",
+    "libssl-dev": "openssl",
+    "libpq-dev": "postgresql"
+  }
+}
