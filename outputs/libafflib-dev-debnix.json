@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libafflib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "da3fa7a23a1837ef4303529fa1f54c0129dade662e78297f18769d2d36493b91",
+  "deb_inputs": [
+    "afflib-tools",
+    "chrpath",
+    "debhelper-compat",
+    "libafflib0v5",
+    "libcurl4-openssl-dev",
+    "libexpat1-dev",
+    "libfuse-dev",
+    "libssl-dev",
+    "openssl",
+    "xmount",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "curl",
+    "expat",
+    "fuse",
+    "openssl",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libexpat1-dev": "expat",
+    "openssl": "openssl",
+    "libcurl4-openssl-dev": "curl",
+    "libfuse-dev": "fuse"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libadwaitaqt6-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cdbe9f2b481f103ac68f542be9ae93c4d5319873b65174e5443278678b55563e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libadwaitaqt1",
+    "libqt5x11extras5-dev",
+    "libx11-xcb-dev",
+    "libxcb1-dev",
+    "pkg-kde-tools",
+    "qt6-base-dev",
+    "qtbase5-dev",
+    "sassc"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libxcb",
+    "ninja",
+    "qtbase",
+    "qtx11extras"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "libxcb1-dev": "libxcb"
+  }
+}

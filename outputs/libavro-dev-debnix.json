@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libavro-dev",
+  "nix_pkg": null,
+  "control_file_hash": "931c60b9b7ed0c29175f2874f947969c6c275e8b48837d66ec666f6c6c2bac24",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libavro23",
+    "libjansson-dev",
+    "liblzma-dev",
+    "libsnappy-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "jansson",
+    "pkg-config-wrapper",
+    "snappy",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libjansson-dev": "jansson",
+    "zlib1g-dev": "zlib",
+    "libsnappy-dev": "snappy",
+    "cmake": "cmake"
+  }
+}
