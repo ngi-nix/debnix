@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libeb16-dev",
+  "nix_pkg": null,
+  "control_file_hash": "faea96d0e44910fa35c89aeb3c3cd5f04f5a21dd4d62fa18767dc41dc5e5b185",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dpkg-dev",
+    "eb-doc",
+    "eb-utils",
+    "help2man",
+    "libeb16",
+    "libeb16-dev",
+    "nkf",
+    "w3m",
+    "www-browser",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib"
+  }
+}

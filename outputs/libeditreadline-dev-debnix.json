@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libeditreadline-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0a5b548e000e81d51f6dfad7ab351b06e35da3fe0b331037a1cd3bcce784b526",
+  "deb_inputs": [
+    "bsdmainutils",
+    "debhelper-compat",
+    "groff-base",
+    "libbsd-dev",
+    "libedit-dev",
+    "libedit2",
+    "libncurses-dev",
+    "libtinfo-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libtinfo-dev": "ncurses"
+  }
+}

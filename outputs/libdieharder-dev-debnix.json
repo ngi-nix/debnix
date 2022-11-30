@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libdieharder-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7537b05d97c6b606f29c2e159ce23f03465ea3f29a902ca2851dc7271c807b6c",
+  "deb_inputs": [
+    "automake",
+    "debhelper-compat",
+    "ghostscript",
+    "libdieharder3",
+    "libgsl-dev",
+    "libtool",
+    "texlive-base",
+    "texlive-latex-base",
+    "texlive-plain-generic"
+  ],
+  "nix_inputs": [
+    "gsl"
+  ],
+  "map": {
+    "libgsl-dev": "gsl"
+  }
+}

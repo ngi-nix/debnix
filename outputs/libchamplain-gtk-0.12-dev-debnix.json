@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libchamplain-gtk-0.12-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6c565d6000ffe5461ab05177d207e9c7a97d36208fee5982405fe62aeec18fdd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-champlain-0.12",
+    "gir1.2-gtkchamplain-0.12",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libcairo2-dev",
+    "libchamplain-0.12-0",
+    "libchamplain-0.12-dev",
+    "libchamplain-doc",
+    "libchamplain-gtk-0.12-0",
+    "libclutter-1.0-dev",
+    "libclutter-1.0-doc",
+    "libclutter-gtk-1.0-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgtk-3-dev",
+    "libsoup2.4-dev",
+    "libsqlite3-dev",
+    "meson",
+    "valac"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection-wrapped",
+    "gtk+3",
+    "gtk-doc",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "sqlite",
+    "vala"
+  ],
+  "map": {
+    "libsoup2.4-dev": "libsoup",
+    "libglib2.0-dev": "glib",
+    "valac": "vala",
+    "meson": "meson",
+    "libcairo2-dev": "cairo",
+    "libsqlite3-dev": "sqlite",
+    "gtk-doc-tools": "gtk-doc"
+  }
+}

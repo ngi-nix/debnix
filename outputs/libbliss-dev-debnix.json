@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libbliss-dev",
+  "nix_pkg": null,
+  "control_file_hash": "58bd1c7e6d224db89d123eb58fe6efad48fb11eb9e7e84d83c56595bfdc1435a",
+  "deb_inputs": [
+    "bliss",
+    "debhelper-compat",
+    "help2man",
+    "libbliss-dev-common",
+    "libbliss2",
+    "libgmp-dev",
+    "libjs-jquery",
+    "libtool",
+    "pdf-viewer",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "doxygen",
+    "unzip"
+  ],
+  "map": {}
+}

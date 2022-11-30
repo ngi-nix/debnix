@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libcallaudio-doc",
+  "nix_pkg": null,
+  "control_file_hash": "ce4ec0ffbf138a165086ffc9f43ea282cae9637928231d580346b82279cb9199",
+  "deb_inputs": [
+    "callaudiod",
+    "dbus",
+    "debhelper-compat",
+    "devhelp",
+    "libasound2-dev",
+    "libcallaudio-0-1",
+    "libglib2.0-dev",
+    "libpulse-dev",
+    "meson",
+    "pipewire-pulse",
+    "pkg-config",
+    "pulseaudio"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "glib",
+    "libpulseaudio",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "meson": "meson",
+    "libasound2-dev": "alsa-lib",
+    "libglib2.0-dev": "glib"
+  }
+}

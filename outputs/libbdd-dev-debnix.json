@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libbdd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3a9bec52f90b7a9ec67d689e9c13c68c94361ea6559f8273e5efd1753ea05ae2",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libbdd0c2",
+    "libc-dev",
+    "libc6-dev",
+    "libtool",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "bison"
+  ],
+  "map": {}
+}

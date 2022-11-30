@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libdleyna-core-1.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a60805dcf6a691f337fc855fbf532fb8ea6dd129cd5d1a24d96eacdb520c2bd0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdleyna-core-1.0-5",
+    "libglib2.0-dev",
+    "libgupnp-1.2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gupnp",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgupnp-1.2-dev": "gupnp"
+  }
+}

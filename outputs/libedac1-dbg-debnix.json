@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libedac1-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "e071572ad0ca2b6d745ff4c632f465f4bc789fcb6c45f5745c6af8ef87e0fb41",
+  "deb_inputs": [
+    "cdbs",
+    "chrpath",
+    "debhelper",
+    "dmidecode",
+    "libedac1",
+    "libsysfs-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "perl",
+    "sysfsutils"
+  ],
+  "map": {
+    "libsysfs-dev": "sysfsutils"
+  }
+}

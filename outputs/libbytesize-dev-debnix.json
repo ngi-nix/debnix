@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libbytesize-dev",
+  "nix_pkg": null,
+  "control_file_hash": "df3d963f6f94d04ab0a84c83420b092b1689e04b617e64f1bfeffd6bdfaaa37e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "gettext",
+    "gtk-doc-tools",
+    "libbytesize-common",
+    "libbytesize1",
+    "libglib2.0-dev",
+    "libgmp-dev",
+    "libmpfr-dev",
+    "libpcre2-dev",
+    "libpython3-dev",
+    "python3-six",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "gettext",
+    "gmp-with-cxx",
+    "gtk-doc",
+    "libxslt",
+    "mpfr",
+    "pcre2",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "gettext": "gettext",
+    "gtk-doc-tools": "gtk-doc",
+    "libpcre2-dev": "pcre2",
+    "libmpfr-dev": "mpfr"
+  }
+}

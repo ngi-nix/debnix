@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "libcdi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c199177f99c08f672a1801322b009299f0878df269bd9df0923daf8bc4f1c3e1",
+  "deb_inputs": [
+    "automake",
+    "cfortran",
+    "debhelper-compat",
+    "dh-buildinfo",
+    "dh-sequence-fortran-mod",
+    "fortran-compiler",
+    "gfortran",
+    "libaec-dev",
+    "libcdi0",
+    "libcurl4-gnutls-dev",
+    "libcurl4-nss-dev",
+    "libcurl4-openssl-dev",
+    "libeccodes-dev",
+    "libfftw3-dev",
+    "libhdf5-dev",
+    "libhdf5-serial-dev",
+    "libmagics++-dev",
+    "libnetcdf-dev",
+    "libproj-dev",
+    "libtool",
+    "libudunits2-dev",
+    "libxml2-dev",
+    "netcdf-bin",
+    "patchelf",
+    "python3-cdo",
+    "ruby"
+  ],
+  "nix_inputs": [
+    "curl",
+    "hdf5",
+    "netcdf"
+  ],
+  "map": {
+    "netcdf-bin": "netcdf",
+    "libcurl4-nss-dev": "curl",
+    "libnetcdf-dev": "netcdf",
+    "libhdf5-dev": "hdf5",
+    "libhdf5-serial-dev": "hdf5",
+    "libcurl4-openssl-dev": "curl",
+    "libcurl4-gnutls-dev": "curl"
+  }
+}

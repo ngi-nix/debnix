@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libbiblesync-dev",
+  "nix_pkg": null,
+  "control_file_hash": "65ba84c5d20f05b7951e0b4cb44335822ee718c952b9461a9fc095d5ac9ec654",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbiblesync1.1",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper",
+    "util-linux-minimal"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

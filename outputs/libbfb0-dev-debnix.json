@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libbfb0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5b57ca43b3c49c1c4a50f183f30ae72375e8eed1892f5b9fe18559a5f302db35",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "gem2deb",
+    "libbfb-dev",
+    "libbfb0",
+    "libbluetooth-dev",
+    "libmulticobex1",
+    "libmulticobex1-dev",
+    "libobexftp0",
+    "libopenobex2-dev",
+    "perl-xs-dev",
+    "pkg-config",
+    "swig"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "cmake",
+    "openobex",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libopenobex2-dev": "openobex",
+    "cmake": "cmake",
+    "libbluetooth-dev": "bluez"
+  }
+}

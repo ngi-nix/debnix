@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libdoodle-dev",
+  "nix_pkg": null,
+  "control_file_hash": "802a0fbf1c68f9ec448ae7525a467f4c30d16707bba1a32cc23cd526d53113a5",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doodle",
+    "gamin",
+    "libdoodle1",
+    "libextractor-dev",
+    "libgamin-dev"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libextractor"
+  ],
+  "map": {
+    "libextractor-dev": "libextractor"
+  }
+}

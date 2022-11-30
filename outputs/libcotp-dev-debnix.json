@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libcotp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "818655476b18f5a4ef2095b0bda6dc4e9dd0f86a907093e28084d67095af1c67",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbaseencode-dev",
+    "libcotp12",
+    "libgcrypt20-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libbaseencode",
+    "libgcrypt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgcrypt20-dev": "libgcrypt",
+    "libbaseencode-dev": "libbaseencode",
+    "cmake": "cmake"
+  }
+}

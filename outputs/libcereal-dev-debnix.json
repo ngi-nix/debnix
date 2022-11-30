@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libcereal-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3eeee398577dc850c7ce3e7a1e729915b2dbf50812d79da37456923ada5872c7",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "libboost-serialization-dev",
+    "libboost-test-dev",
+    "rapidjson-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

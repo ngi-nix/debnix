@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libchafa-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fe94ec7f08fa381ea7ea46f44c6717f27ae653803735f42d76f60aea7a58317c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook",
+    "gtk-doc-tools",
+    "libchafa0",
+    "libmagickwand-dev",
+    "libwebp-dev",
+    "libxml2-utils"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "imagemagick",
+    "libtool",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libmagickwand-dev": "imagemagick",
+    "libxml2-utils": "libxml2"
+  }
+}

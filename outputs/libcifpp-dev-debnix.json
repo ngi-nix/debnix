@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libcifpp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cd2414077656fa092899abe89120ef7e1d1f93f76b962d92a28da787a24253b1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libboost-dev",
+    "libboost-regex-dev",
+    "libcifpp-data",
+    "libcifpp5",
+    "po-debconf",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "junit4", "libbcel-java", "libbcel-java-doc", "libcommons-lang3-java", "libjna-platform-java", "libmaven-bundle-plugin-java", "libmaven-javadoc-plugin-java", "maven-debian-helper"], or 
+output: 
+[] is empty!

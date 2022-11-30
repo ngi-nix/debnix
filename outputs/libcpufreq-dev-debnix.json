@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libcpufreq-dev",
+  "nix_pkg": null,
+  "control_file_hash": "73af168c41a474d4463958647cba5fa558610d051f7bbe93b2ed195a86cc41dd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcpufreq0",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "libtool",
+    "linux-headers"
+  ],
+  "map": {}
+}

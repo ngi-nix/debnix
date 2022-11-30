@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libbt-dev",
+  "nix_pkg": null,
+  "control_file_hash": "28ac1924f50c4e8797dfd2e67de973d8246358814bb4fd160c0bf067e818c5ac",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libbt0",
+    "libxext-dev",
+    "libxft-dev",
+    "libxt-dev",
+    "menu"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "expect",
+    "git",
+    "gnupg",
+    "gnutar",
+    "pinentry",
+    "procps",
+    "which"
+  ],
+  "map": {}
+}

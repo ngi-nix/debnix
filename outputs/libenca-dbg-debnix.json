@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libenca-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "e9d906454b1c51add61c7e953615ff08d77426daab4ce9d2f3324a140df4bf75",
+  "deb_inputs": [
+    "cstocs",
+    "debhelper",
+    "dh-autoreconf",
+    "dpkg-dev",
+    "libenca0",
+    "librecode-dev"
+  ],
+  "nix_inputs": [
+    "recode"
+  ],
+  "map": {
+    "librecode-dev": "recode"
+  }
+}

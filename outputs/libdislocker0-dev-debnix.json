@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libdislocker0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "041313e273533a711863a4c4e89342b8fc1cffd419e27cdc0e9121230690d751",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libdislocker0.7",
+    "libfuse-dev",
+    "libfuse-hurd-dev",
+    "libmbedtls-dev",
+    "ruby",
+    "ruby-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "fuse",
+    "mbedtls",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libmbedtls-dev": "mbedtls",
+    "libfuse-dev": "fuse"
+  }
+}

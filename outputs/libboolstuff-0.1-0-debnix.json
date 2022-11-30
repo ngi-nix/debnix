@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libboolstuff-0.1-0",
+  "nix_pkg": null,
+  "control_file_hash": "9a9cc4ca7f3a0e031e86a1de90bce7ca10c9a8494a573936cb4ceda6c8fec4fa",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper",
+    "dh-autoreconf",
+    "libboolstuff-0.1-0",
+    "perl",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

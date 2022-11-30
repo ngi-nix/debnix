@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libchewing3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "be8f0b84ea40d692760aac63ed506b3238b0511a918d293f6ecbb6ed6dff182b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libchewing3",
+    "libchewing3-data",
+    "libncurses-dev",
+    "libsqlite3-dev",
+    "pkg-config",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "sqlite"
+  ],
+  "map": {
+    "libsqlite3-dev": "sqlite"
+  }
+}
