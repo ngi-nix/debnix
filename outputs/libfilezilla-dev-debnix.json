@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libfilezilla-dev",
+  "nix_pkg": null,
+  "control_file_hash": "15d9d2d9782f7bcd981cff378322f2ec2b0ffc3492504c8ebc770f602ed10854",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcppunit-dev",
+    "libfilezilla-common",
+    "libfilezilla32",
+    "libgnutls28-dev",
+    "nettle-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "gettext",
+    "gnutls",
+    "libxcrypt",
+    "nettle",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgnutls28-dev": "gnutls",
+    "nettle-dev": "nettle"
+  }
+}

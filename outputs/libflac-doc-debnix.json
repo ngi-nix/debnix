@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libflac-doc",
+  "nix_pkg": null,
+  "control_file_hash": "a23386f5081106413c7ec298ece3b5b0e383654b557e362abcb1c4e813c20e5e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doc-base",
+    "libflac++10",
+    "libflac-dev",
+    "libflac12",
+    "libogg-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "doxygen",
+    "graphviz",
+    "libogg",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libogg-dev": "libogg"
+  }
+}

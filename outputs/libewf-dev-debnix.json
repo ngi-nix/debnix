@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libewf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "00f5d4ae5c7a32140b86e672a065430c00fc3918db60201bae2b555070431d77",
+  "deb_inputs": [
+    "autopoint",
+    "bison",
+    "debhelper",
+    "flex",
+    "libbfio-dev",
+    "libbz2-dev",
+    "libewf3",
+    "libfuse-dev",
+    "libssl-dev",
+    "pkg-config",
+    "python-dev",
+    "python3-dev",
+    "uuid-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "pkg-config-wrapper",
+    "util-linux-minimal",
+    "zlib"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libfam0c102",
+  "nix_pkg": null,
+  "control_file_hash": "cd48740713009115f3eceade2b178b5edda89c64aaa47197afa56e086c7c0f51",
+  "deb_inputs": [
+    "autoconf",
+    "automake1.11",
+    "cdbs",
+    "debhelper",
+    "fam",
+    "libfam0",
+    "libtool",
+    "lsb-base",
+    "portmap",
+    "update-inetd"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

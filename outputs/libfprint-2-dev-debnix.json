@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libfprint-2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3674da0adc7daf5adc729e272d5fd9025da774565f3a0c915dad4a318589278b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-fprint-2.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libcairo-dev",
+    "libfprint-2-2",
+    "libfprint-2-doc",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgudev-1.0-dev",
+    "libgusb-dev",
+    "libnss3-dev",
+    "libpixman-1-dev",
+    "meson",
+    "python3",
+    "python3-cairo",
+    "python3-gi",
+    "umockdev"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection-wrapped",
+    "gtk-doc",
+    "gusb",
+    "libgudev",
+    "meson",
+    "ninja",
+    "nss",
+    "pixman",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgusb-dev": "gusb",
+    "gtk-doc-tools": "gtk-doc",
+    "libpixman-1-dev": "pixman",
+    "libcairo-dev": "cairo",
+    "libglib2.0-dev": "glib",
+    "libgudev-1.0-dev": "libgudev",
+    "meson": "meson",
+    "libnss3-dev": "nss"
+  }
+}

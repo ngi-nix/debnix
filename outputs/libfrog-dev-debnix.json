@@ -1,0 +1,48 @@
+{
+  "pkgs_name": "libfrog-dev",
+  "nix_pkg": null,
+  "control_file_hash": "fd773ac680604c042411dfee048bced92608b4afe519e45d97e83cc3c9604d9d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "frogdata",
+    "libexttextcat-dev",
+    "libfolia-dev",
+    "libfrog2",
+    "libicu-dev",
+    "libmbt-dev",
+    "libticcutils-dev",
+    "libtimbl-dev",
+    "libtimblserver-dev",
+    "libucto-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "ucto",
+    "uctodata"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "autoconf-archive",
+    "automake",
+    "bzip2",
+    "frogdata",
+    "libfolia",
+    "libtar",
+    "libtool",
+    "libxml2",
+    "mbt",
+    "pkg-config-wrapper",
+    "ticcutils",
+    "timbl",
+    "ucto"
+  ],
+  "map": {
+    "frogdata": "frogdata",
+    "libxml2-dev": "libxml2",
+    "libucto-dev": "ucto",
+    "ucto": "ucto",
+    "libticcutils-dev": "ticcutils",
+    "libfolia-dev": "libfolia",
+    "libmbt-dev": "mbt",
+    "libtimbl-dev": "timbl"
+  }
+}

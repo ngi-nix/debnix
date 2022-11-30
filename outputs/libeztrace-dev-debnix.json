@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libeztrace-dev",
+  "nix_pkg": null,
+  "control_file_hash": "12e9748e8d051be1aa45c5d46a0c863264892d29bfe484bb02b525fd10a4638f",
+  "deb_inputs": [
+    "bc",
+    "binutils-dev",
+    "clang",
+    "cmake",
+    "debhelper-compat",
+    "gawk",
+    "gfortran",
+    "libeztrace0",
+    "libiberty-dev",
+    "libmpich-dev",
+    "libomp-dev",
+    "libotf2-trace-dev",
+    "libpapi-dev",
+    "libpomp2-dev",
+    "libstarpu-dev",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "opari2",
+    "otf2-tools",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gfortran-wrapper",
+    "libbfd",
+    "libelf",
+    "libiberty",
+    "libopcodes",
+    "zlib"
+  ],
+  "map": {
+    "libiberty-dev": "libiberty",
+    "zlib1g-dev": "zlib"
+  }
+}

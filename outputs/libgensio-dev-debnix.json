@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "libgensio-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6b012a898e74151cea7fd1a4c2e3e93095e83d8ff10a415cb279ac68b89d46fe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "libavahi-client-dev",
+    "libgensio0",
+    "libopenipmi-dev",
+    "libpam-dev",
+    "libsctp-dev",
+    "libssl-dev",
+    "libwrap0-dev",
+    "pkg-config",
+    "python3-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}
