@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libglibmm-2.68-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4d48168f4ab409422406796fa5c1c42f29ffbbb926645bca873e8568c1d2751f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "dh-sequence-gnome",
+    "doc-base",
+    "doxygen",
+    "glib-networking",
+    "graphviz",
+    "gtkmm-documentation",
+    "libglib2.0-dev",
+    "libglibmm-2.68-1",
+    "libglibmm-2.68-doc",
+    "libgtkmm-4.0-dev",
+    "libsigc++-3.0-dev",
+    "libxml-parser-perl",
+    "meson",
+    "mm-common",
+    "pkg-config",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gnum4",
+    "libsigc++",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "meson": "meson"
+  }
+}
