@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libgnuastro12",
+  "nix_pkg": null,
+  "control_file_hash": "972f27cd9c677d05f74ed240106d9af9e16d433ecf88d5d59cd24cecbb4f6c81",
+  "deb_inputs": [
+    "debhelper-compat",
+    "ghostscript",
+    "libcfitsio-dev",
+    "libgit2-dev",
+    "libgnuastro17",
+    "libgsl0-dev",
+    "libjpeg-dev",
+    "libtiff-dev",
+    "libtool-bin",
+    "wcslib-dev"
+  ],
+  "nix_inputs": [
+    "cfitsio",
+    "curl",
+    "ghostscript-with-X",
+    "gsl",
+    "libgit2",
+    "libjpeg-turbo",
+    "libtiff",
+    "libtool",
+    "lzlib",
+    "wcslib"
+  ],
+  "map": {
+    "libgsl0-dev": "gsl",
+    "libcfitsio-dev": "cfitsio",
+    "libgit2-dev": "libgit2",
+    "libtool-bin": "libtool",
+    "libjpeg-dev": "libjpeg-turbo",
+    "wcslib-dev": "wcslib",
+    "libtiff-dev": "libtiff"
+  }
+}
