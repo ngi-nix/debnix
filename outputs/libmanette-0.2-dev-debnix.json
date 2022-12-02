@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libmanette-0.2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "3a34db9ab77c2d57f7203ab6547eb1f99fec004c8785d4f08e931d003ca0722b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "dh-sequence-gnome",
+    "gir1.2-manette-0.2",
+    "libevdev-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgudev-1.0-dev",
+    "libmanette-0.2-0",
+    "meson",
+    "pkg-config",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection-wrapped",
+    "gtk-doc",
+    "libevdev",
+    "libgudev",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libevdev-dev": "libevdev",
+    "libgudev-1.0-dev": "libgudev",
+    "valac": "vala",
+    "meson": "meson",
+    "libglib2.0-dev": "glib"
+  }
+}

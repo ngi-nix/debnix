@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "liblrs-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c776f4e7bc4f37db175bfd7c401aa8183aa57ef214ddebdcd4e861882a383499",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgmp-dev",
+    "liblrs1",
+    "mpi-default-dev"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx"
+  ],
+  "map": {}
+}

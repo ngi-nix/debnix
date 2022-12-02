@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libliftoff-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4463ee2e7ca7a785d78caaecb2d986d2396f52b48c48aedb3b3c0c893d9b8be2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libdrm-dev",
+    "libliftoff0",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libdrm",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdrm-dev": "libdrm",
+    "meson": "meson"
+  }
+}

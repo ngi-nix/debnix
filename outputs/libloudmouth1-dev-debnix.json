@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libloudmouth1-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7b5b4be69240c55d283aea0f3135b5b9b584752bff760deb74158bed5334bf13",
+  "deb_inputs": [
+    "check",
+    "debhelper-compat",
+    "gtk-doc-tools",
+    "libasyncns-dev",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libidn11-dev",
+    "libkrb5-dev",
+    "libloudmouth1-0"
+  ],
+  "nix_inputs": [
+    "glib",
+    "libidn",
+    "openssl",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib",
+    "libidn11-dev": "libidn"
+  }
+}

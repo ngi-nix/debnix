@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper", "default-jdk", "default-jdk-doc", "libapache-pom-java", "libgeronimo-jms-1.1-spec-java", "libhsqldb-java", "liblog4j-extras1.2-java", "liblog4j-extras1.2-java-doc", "liblog4j1.2-java", "liblog4j1.2-java-doc", "libmaven-bundle-plugin-java", "libmaven-javadoc-plugin-java", "maven-debian-helper"], or 
+output: 
+[] is empty!

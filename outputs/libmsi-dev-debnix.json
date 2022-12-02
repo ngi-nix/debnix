@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libmsi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e7898f4ae01e8cfdd30702150e8373502118b5fb251219fd68046258d41d18b2",
+  "deb_inputs": [
+    "bats",
+    "bison",
+    "debhelper-compat",
+    "gir1.2-libmsi-1.0",
+    "gobject-introspection",
+    "libgcab-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libgsf-1-dev",
+    "libmsi0",
+    "libxml2-dev",
+    "meson",
+    "valac",
+    "wixl-data"
+  ],
+  "nix_inputs": [
+    "bison",
+    "bzip2",
+    "gcab",
+    "gettext",
+    "glib",
+    "gobject-introspection-wrapped",
+    "libgsf",
+    "meson",
+    "ninja",
+    "perl",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "valac": "vala",
+    "libglib2.0-dev": "glib",
+    "bison": "bison",
+    "libgcab-dev": "gcab",
+    "meson": "meson",
+    "libgsf-1-dev": "libgsf"
+  }
+}

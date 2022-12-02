@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "libmbim-glib-dev",
+  "nix_pkg": null,
+  "control_file_hash": "615d372539bc012520ffd96f0a02147fa764fd3deca9458e2c911829c5c793ca",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-mbim-1.0",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "help2man",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libmbim-glib-doc",
+    "libmbim-glib4",
+    "meson",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "glib",
+    "gobject-introspection-wrapped",
+    "pkg-config-wrapper",
+    "python3",
+    "systemd"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

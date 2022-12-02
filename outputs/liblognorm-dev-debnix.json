@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "liblognorm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "1e8a48d9d538f0ed067e0c5f3ddf075acf4c836fbe61480dfac9c927bbe38d14",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libestr-dev",
+    "libfastjson-dev",
+    "liblognorm-doc",
+    "liblognorm5",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "fastjson",
+    "json-c",
+    "libestr",
+    "pcre",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libestr-dev": "libestr",
+    "libfastjson-dev": "fastjson"
+  }
+}
