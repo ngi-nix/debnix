@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libiptc0",
+  "nix_pkg": null,
+  "control_file_hash": "8239e74dbea450210a64059afdc284165ee016953706f06863a70d918b4c303f",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper-compat",
+    "firewalld",
+    "flex",
+    "kmod",
+    "libip4tc-dev",
+    "libip4tc2",
+    "libip6tc-dev",
+    "libip6tc2",
+    "libmnl-dev",
+    "libnetfilter-conntrack-dev",
+    "libnetfilter-conntrack3",
+    "libnfnetlink-dev",
+    "libnftnl-dev",
+    "libtool",
+    "libxtables12",
+    "netbase",
+    "nftables"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libmnl",
+    "libnetfilter_conntrack",
+    "libnfnetlink",
+    "libnftnl",
+    "libpcap",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libmnl-dev": "libmnl",
+    "libnetfilter-conntrack3": "libnetfilter_conntrack",
+    "libnfnetlink-dev": "libnfnetlink",
+    "flex": "flex",
+    "libnetfilter-conntrack-dev": "libnetfilter_conntrack",
+    "bison": "bison",
+    "libnftnl-dev": "libnftnl"
+  }
+}

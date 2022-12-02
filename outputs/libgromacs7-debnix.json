@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "libgromacs7",
+  "nix_pkg": null,
+  "control_file_hash": "0edd18c2d70f933d7696ebe4590ba438eef55b08c8b02d74e2ca36be97658eec",
+  "deb_inputs": [
+    "bash-completion",
+    "chrpath",
+    "cmake",
+    "cpp",
+    "debhelper-compat",
+    "gromacs",
+    "gromacs-data",
+    "libblas-dev",
+    "libboost-dev",
+    "libfftw3-dev",
+    "libgromacs-dev",
+    "libgromacs7",
+    "libhwloc-dev",
+    "libjs-mathjax",
+    "liblapack-dev",
+    "libmuparser-dev",
+    "libnblib-gmx0",
+    "libx11-dev",
+    "lsb-release",
+    "mpi-default-bin",
+    "mpi-default-dev",
+    "pkg-config",
+    "pymol",
+    "sse4.2-support",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "blas",
+    "cmake",
+    "fftw-single",
+    "hwloc",
+    "lapack",
+    "perl"
+  ],
+  "map": {
+    "libblas-dev": "blas",
+    "libhwloc-dev": "hwloc",
+    "cmake": "cmake",
+    "liblapack-dev": "lapack"
+  }
+}

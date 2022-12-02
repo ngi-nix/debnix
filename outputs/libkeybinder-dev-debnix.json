@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libkeybinder-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e3535722b905a97c95b7326fbc488a544d6c0c4c255f388d801df1bdfd64e265",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "gir1.2-keybinder-0.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libgtk2.0-dev",
+    "libkeybinder0",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gnome-common",
+    "gobject-introspection-wrapped",
+    "gtk+",
+    "gtk-doc",
+    "libtool",
+    "lua",
+    "pkg-config-wrapper",
+    "pygtk",
+    "python"
+  ],
+  "map": {
+    "gtk-doc-tools": "gtk-doc",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

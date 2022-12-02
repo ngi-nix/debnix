@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "libhandy-0.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cbd974dc7620e70be071a2e9ee6bebaba30f48ecb90b8582f91a0283f81540c9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-gir",
+    "gir1.2-handy-0.0",
+    "gtk-doc-tools",
+    "libgirepository1.0-dev",
+    "libglib2.0-doc",
+    "libgnome-desktop-3-dev",
+    "libgtk-3-dev",
+    "libgtk-3-doc",
+    "libhandy-0.0-0",
+    "libxml2-utils",
+    "meson",
+    "pkg-config",
+    "valac",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "at-spi2-core",
+    "gdk-pixbuf",
+    "gi-docgen",
+    "gobject-introspection-wrapped",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "librsvg",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "meson": "meson",
+    "valac": "vala"
+  }
+}

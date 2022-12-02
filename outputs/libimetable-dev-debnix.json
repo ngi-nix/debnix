@@ -1,0 +1,33 @@
+{
+  "pkgs_name": "libimetable-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9c15e20fec63da5a5dd72461ebc1d9f93ee767cd953936c70168fd2698eeb7af",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "libboost-dev",
+    "libboost-filesystem-dev",
+    "libboost-iostreams-dev",
+    "libdouble-conversion-dev",
+    "libfcitx5utils-dev",
+    "libime-data",
+    "libime-data-language-model",
+    "libimecore0",
+    "libimepinyin0",
+    "libimetable0"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "extra-cmake-modules",
+    "fcitx5",
+    "python3"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules",
+    "libfcitx5utils-dev": "fcitx5",
+    "libboost-dev": "boost",
+    "cmake": "cmake"
+  }
+}

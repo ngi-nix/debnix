@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libinfinity-0.7-dev",
+  "nix_pkg": null,
+  "control_file_hash": "37e70757cc6e0b8d7400591808a8f0dd6dc91967f6f13a2b1b43dd7a5bd313a1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "devhelp",
+    "gir1.2-infinity-0.7",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libavahi-client-dev",
+    "libdaemon-dev",
+    "libgirepository1.0-dev",
+    "libglib2.0-doc",
+    "libgnutls28-dev",
+    "libgsasl7-dev",
+    "libgtk-3-dev",
+    "libgtk-3-doc",
+    "libinfgtk-0.7-0",
+    "libinfinity-0.7-0",
+    "libpam-dev",
+    "libxml2-dev",
+    "libxml2-doc",
+    "lynx",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "gnutls",
+    "gobject-introspection-wrapped",
+    "gsasl",
+    "gss",
+    "gtk-doc",
+    "libdaemon",
+    "libidn",
+    "libxml2",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libdaemon-dev": "libdaemon",
+    "libglib2.0-doc": "glib",
+    "libxml2-doc": "libxml2",
+    "libgsasl7-dev": "gsasl",
+    "libxml2-dev": "libxml2",
+    "gtk-doc-tools": "gtk-doc",
+    "libgnutls28-dev": "gnutls"
+  }
+}

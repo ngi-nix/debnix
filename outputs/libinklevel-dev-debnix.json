@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libinklevel-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0083d109470765827c8b9e04a286dc4e344fd5a3331f5e0c029e73c993f1beab",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libinklevel5",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "xutils-dev"
+  ],
+  "nix_inputs": [
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

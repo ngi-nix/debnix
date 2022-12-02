@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "libjs-jquery", "libjs-jquery-mousewheel", "libjs-php-date-formatter", "minify"], or 
+output: 
+[] is empty!

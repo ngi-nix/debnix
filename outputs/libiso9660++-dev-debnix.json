@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libiso9660++-dev",
+  "nix_pkg": null,
+  "control_file_hash": "76f5121a64304507f2ea19937ebc376460d73a45417e58f90a4e3923fc996fac",
+  "deb_inputs": [
+    "dctrl-tools",
+    "debhelper-compat",
+    "grep-dctrl",
+    "libcam-dev",
+    "libcdio++-dev",
+    "libcdio++1",
+    "libcdio-dev",
+    "libcdio19",
+    "libiso9660++0",
+    "libiso9660-11",
+    "libncursesw5-dev",
+    "libpopt-dev",
+    "libudf0"
+  ],
+  "nix_inputs": [
+    "help2man",
+    "libcddb",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses"
+  }
+}

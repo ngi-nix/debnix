@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libisoburn-dev",
+  "nix_pkg": null,
+  "control_file_hash": "37ed10cb32a559895d9fd38cc5839e5fbd4100686eb6f33896b1302f25f673ff",
+  "deb_inputs": [
+    "bwidget",
+    "cdck",
+    "debhelper-compat",
+    "jigit",
+    "libburn-dev",
+    "libburn4",
+    "libisoburn-doc",
+    "libisoburn1",
+    "libisofs-dev",
+    "libisofs6",
+    "libjte-dev",
+    "libreadline-dev",
+    "pkg-config",
+    "tk",
+    "xorriso",
+    "xorriso-tcltk"
+  ],
+  "nix_inputs": [
+    "acl",
+    "attr",
+    "bzip2",
+    "libcdio",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "libreadline-dev": "readline"
+  }
+}

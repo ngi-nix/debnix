@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libij-java-doc",
+  "nix_pkg": null,
+  "control_file_hash": "88b496b1c87368c2db4b2ff2e9799e5f118f86c22541c5b45562ee39c83dad28",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jre",
+    "java6-runtime",
+    "libij-java",
+    "libjs-jquery",
+    "libjs-jquery-ui",
+    "procps"
+  ],
+  "nix_inputs": [
+    "glib",
+    "unzip"
+  ],
+  "map": {}
+}

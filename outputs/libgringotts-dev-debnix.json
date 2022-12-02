@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libgringotts-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cb0704c319b22dcb803a6426385323c6d85fb0975837094dfa28f2537f8c3112",
+  "deb_inputs": [
+    "debhelper",
+    "dpkg-dev",
+    "libbz2-dev",
+    "libgringotts2",
+    "libmcrypt-dev",
+    "libmhash-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "libmcrypt",
+    "mhash",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libmcrypt-dev": "libmcrypt",
+    "libbz2-dev": "bzip2",
+    "libmhash-dev": "mhash",
+    "zlib1g-dev": "zlib"
+  }
+}
