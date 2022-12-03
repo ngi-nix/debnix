@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libneatvnc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "930552ef0f77b3a7d49f6b0cd4afb120c95a5d2b262ecd3c75cb650d4a8f5b6e",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gnutls-dev",
+    "libaml-dev",
+    "libdrm-dev",
+    "libneatvnc0",
+    "libpixman-1-dev",
+    "libturbojpeg0-dev",
+    "meson",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "aml",
+    "ffmpeg",
+    "gnutls",
+    "libdrm",
+    "libjpeg-turbo",
+    "mesa",
+    "meson",
+    "ninja",
+    "pixman",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libturbojpeg0-dev": "libjpeg-turbo",
+    "libaml-dev": "aml",
+    "gnutls-dev": "gnutls",
+    "libdrm-dev": "libdrm",
+    "libpixman-1-dev": "pixman",
+    "meson": "meson",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libnftables-dev",
+  "nix_pkg": null,
+  "control_file_hash": "608c5594b51f9871fa3bdb9609e1ad741f0d5e12f89feb59cb3bcc8bb60d0012",
+  "deb_inputs": [
+    "asciidoc-base",
+    "automake",
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xsl",
+    "firewalld",
+    "flex",
+    "libeditreadline-dev",
+    "libgmp-dev",
+    "libjansson-dev",
+    "libmnl-dev",
+    "libnftables1",
+    "libnftnl-dev",
+    "libtool",
+    "libxtables-dev",
+    "netbase",
+    "python3-all:any",
+    "python3-jsonschema"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "bison",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "flex",
+    "gmp-with-cxx",
+    "iptables",
+    "jansson",
+    "libedit",
+    "libmnl",
+    "libnftnl",
+    "libpcap",
+    "libxslt",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libeditreadline-dev": "libedit",
+    "asciidoc-base": "asciidoc",
+    "flex": "flex",
+    "libjansson-dev": "jansson",
+    "bison": "bison",
+    "libxtables-dev": "iptables",
+    "libmnl-dev": "libmnl",
+    "libnftnl-dev": "libnftnl"
+  }
+}

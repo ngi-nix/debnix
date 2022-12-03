@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libnuspell-dev",
+  "nix_pkg": null,
+  "control_file_hash": "37cf3a755779877b0381dcb293226e6f8d1954c1ec98f46054e791a69d5dbf56",
+  "deb_inputs": [
+    "catch2",
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "hunspell-en-us",
+    "libicu-dev",
+    "libnuspell5"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

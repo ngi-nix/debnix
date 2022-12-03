@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libndpi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "096ba6228a6fc4b8075868585b7588909bee3a4006af51938cdb2f138297dab2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "libgcrypt20-dev",
+    "libjson-c-dev",
+    "libndpi-bin",
+    "libndpi4.2",
+    "libpcap-dev",
+    "libwireshark-dev",
+    "pkg-config",
+    "uthash-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "json-c",
+    "libpcap",
+    "libtool",
+    "pkg-config-wrapper",
+    "which"
+  ],
+  "map": {
+    "libjson-c-dev": "json-c",
+    "libpcap-dev": "libpcap"
+  }
+}
