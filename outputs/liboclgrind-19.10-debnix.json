@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "liboclgrind-19.10",
+  "nix_pkg": null,
+  "control_file_hash": "3396f4155d16b9d96ea4d9b41e72b6b6472fbf3bfa945259296edc951252050e",
+  "deb_inputs": [
+    "clang-13",
+    "cmake",
+    "debhelper-compat",
+    "dh-exec",
+    "libclang-13-dev",
+    "libclang-common--dev",
+    "libedit-dev",
+    "liboclgrind-21.10",
+    "libreadline-dev",
+    "llvm-13-dev",
+    "opencl-c-headers",
+    "python3",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "clang",
+    "cmake",
+    "llvm",
+    "readline"
+  ],
+  "map": {
+    "clang-13": "clang",
+    "cmake": "cmake",
+    "libreadline-dev": "readline",
+    "llvm-13-dev": "llvm"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libpam-wrapper",
+  "nix_pkg": null,
+  "control_file_hash": "ab27c0c1e0548613de77ecda36daca0d8a21281f93aefdf590e0f6a7edc55177",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libpam0g-dev",
+    "libpamtest0",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "linux-pam"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

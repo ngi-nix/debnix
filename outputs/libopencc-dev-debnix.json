@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libopencc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cda549c4e80c1680db755c084244c6cc64b4389dc74f01e365283a32bfb0c5a4",
+  "deb_inputs": [
+    "cmake",
+    "darts",
+    "debhelper-compat",
+    "doxygen",
+    "googletest",
+    "libmarisa-dev",
+    "libopencc-data",
+    "libopencc-doc",
+    "libopencc1.1",
+    "libtclap-dev",
+    "pkg-kde-tools",
+    "pybind11-dev",
+    "python3:any",
+    "rapidjson-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "python3"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

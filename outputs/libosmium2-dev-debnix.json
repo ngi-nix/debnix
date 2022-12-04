@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libosmium2-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c0f6fdbd03906cd525c690146630cd1303a62c0264452ba226455dc00b2638c0",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "libboost-dev",
+    "libbz2-dev",
+    "libexpat1-dev",
+    "libgdal-dev",
+    "libgeos++-dev",
+    "liblz4-dev",
+    "libosmium2-doc",
+    "libprotozero-dev",
+    "libsparsehash-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "bzip2",
+    "cmake",
+    "expat",
+    "lz4",
+    "protozero",
+    "zlib"
+  ],
+  "map": {
+    "libboost-dev": "boost",
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib",
+    "libbz2-dev": "bzip2",
+    "libprotozero-dev": "protozero",
+    "liblz4-dev": "lz4",
+    "libexpat1-dev": "expat"
+  }
+}

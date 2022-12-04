@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libpam-shishi",
+  "nix_pkg": null,
+  "control_file_hash": "4ecfd238174904f6bdde7ca9d13c63c433f4574d46c85ed36a614acd7058c3a1",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libgcrypt-dev",
+    "libgnutls28-dev",
+    "libidn11-dev",
+    "libpam0g-dev",
+    "libshisa0",
+    "libshishi-dev",
+    "libshishi0",
+    "libtasn1-6-dev",
+    "lsb-base",
+    "shisa",
+    "shishi",
+    "shishi-common",
+    "shishi-doc",
+    "shishi-kdc",
+    "texinfo",
+    "valgrind-if-available"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libgcrypt",
+    "libgpg-error",
+    "libidn",
+    "libtasn1",
+    "linux-pam",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libgcrypt-dev": "libgcrypt",
+    "libgnutls28-dev": "gnutls",
+    "libidn11-dev": "libidn"
+  }
+}

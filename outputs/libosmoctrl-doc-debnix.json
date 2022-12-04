@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "libosmoctrl-doc",
+  "nix_pkg": null,
+  "control_file_hash": "d2c7f4d6e85bb45d384e90444ad6ce46f41da38b85669424b19847f0c8828069",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libgnutls28-dev",
+    "libjs-jquery",
+    "libmnl-dev",
+    "libosmocodec-doc",
+    "libosmocodec0",
+    "libosmocoding0",
+    "libosmocore19",
+    "libosmoctrl0",
+    "libosmogb14",
+    "libosmogsm-doc",
+    "libosmogsm18",
+    "libosmosim2",
+    "libosmovty-doc",
+    "libosmovty9",
+    "libpcsclite-dev",
+    "libsctp-dev",
+    "libtalloc-dev",
+    "libusb-1.0-0-dev",
+    "pkg-config",
+    "python3-minimal",
+    "txt2man"
+  ],
+  "nix_inputs": [
+    "gnutls",
+    "libmnl",
+    "libusb",
+    "lksctp-tools",
+    "pcsclite",
+    "pkg-config-wrapper",
+    "python3",
+    "talloc"
+  ],
+  "map": {
+    "libpcsclite-dev": "pcsclite",
+    "libtalloc-dev": "talloc",
+    "libsctp-dev": "lksctp-tools",
+    "libgnutls28-dev": "gnutls",
+    "libmnl-dev": "libmnl"
+  }
+}

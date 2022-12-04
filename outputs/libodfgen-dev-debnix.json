@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "libodfgen-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cc076e2406355f7a5c00004800947321fa633f724604882b0ed32d14a3e6071e",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "libboost-dev",
+    "libodfgen-0.1-1",
+    "librevenge-dev",
+    "libxml2-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cppunit",
+    "librevenge",
+    "libwpd",
+    "libwpg",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "librevenge-dev": "librevenge",
+    "libboost-dev": "boost"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libopencryptoki-dev",
+  "nix_pkg": null,
+  "control_file_hash": "44347c2c43b0c6da09d3a5957d5655c85c875198ddb24cc22cbc33742f310e14",
+  "deb_inputs": [
+    "adduser",
+    "autoconf",
+    "automake",
+    "bison",
+    "debhelper",
+    "dh-exec",
+    "flex",
+    "libica-dev",
+    "libitm1",
+    "libldap2-dev",
+    "libopencryptoki0",
+    "libtool",
+    "libtspi-dev",
+    "lsb-base"
+  ],
+  "nix_inputs": [
+    "bison",
+    "flex",
+    "libtool",
+    "openssl",
+    "trousers"
+  ],
+  "map": {
+    "libtool": "libtool",
+    "flex": "flex",
+    "bison": "bison",
+    "libtspi-dev": "trousers"
+  }
+}

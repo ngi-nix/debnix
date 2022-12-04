@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "libqrupdate-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b764dc10a464eb9a3a4b9a59e16bd0577ea805c5e67bac9225a80334b5ad7fbf",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gfortran",
+    "libblas-dev",
+    "liblapack-dev",
+    "libqrupdate1"
+  ],
+  "nix_inputs": [
+    "gfortran-wrapper",
+    "which"
+  ],
+  "map": {}
+}

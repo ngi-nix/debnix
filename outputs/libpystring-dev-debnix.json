@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "libpystring-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d03be26f87406883085cc0a673a9cd0e6162b922a55a7600cd3103f45a4dd0b2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libpystring0",
+    "libtool-bin"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

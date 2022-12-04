@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libpresage1-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "8ccd58cb451bb0c36c9b696dbd3697b65e25ef6ad4782567a1716539831889d9",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "libcppunit-dev",
+    "libgtk2.0-dev",
+    "libjs-jquery",
+    "libncurses-dev",
+    "libncurses5-dev",
+    "libpresage-data",
+    "libpresage-doc",
+    "libpresage1v5",
+    "libsqlite3-dev",
+    "libtinyxml-dev",
+    "pkg-config",
+    "presage"
+  ],
+  "nix_inputs": [
+    "cppunit",
+    "dbus",
+    "doxygen",
+    "fontconfig",
+    "gettext",
+    "graphviz",
+    "help2man",
+    "pkg-config-wrapper",
+    "sqlite",
+    "tinyxml"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "libcppunit-dev": "cppunit",
+    "libtinyxml-dev": "tinyxml",
+    "libsqlite3-dev": "sqlite"
+  }
+}

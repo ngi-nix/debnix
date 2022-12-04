@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libqqwing-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f70282878ab321734f0bc84a7d04ded339ee524599e0d5bf01ca8168b216ab1c",
+  "deb_inputs": [
+    "debhelper",
+    "libqqwing2v5"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "libtool",
+    "perl"
+  ],
+  "map": {}
+}

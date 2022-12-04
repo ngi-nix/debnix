@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libopendht-dev",
+  "nix_pkg": null,
+  "control_file_hash": "cbf85e1bb0f3e37c9b36071cfc36b9b33f331059ea65172ea6eea0823b1df549",
+  "deb_inputs": [
+    "adduser",
+    "cmake",
+    "debhelper",
+    "dh-exec",
+    "libargon2-0-dev",
+    "libasio-dev",
+    "libfmt-dev",
+    "libgnutls28-dev",
+    "libhttp-parser-dev",
+    "libjsoncpp-dev",
+    "libmsgpack-dev",
+    "libncurses5-dev",
+    "libreadline6-dev",
+    "librestinio-dev",
+    "libssl-dev",
+    "nettle-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "asio",
+    "cmake",
+    "gnutls",
+    "libargon2",
+    "msgpack",
+    "nettle",
+    "pkg-config-wrapper",
+    "readline"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libasio-dev": "asio",
+    "libreadline6-dev": "readline",
+    "nettle-dev": "nettle",
+    "libmsgpack-dev": "msgpack",
+    "libgnutls28-dev": "gnutls"
+  }
+}

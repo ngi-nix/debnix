@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libpugixml-dev",
+  "nix_pkg": null,
+  "control_file_hash": "770592662714e61306eefb65883d3fd8d2aab4197d2983e71a2b4cd011cd416f",
+  "deb_inputs": [
+    "cdbs",
+    "cmake",
+    "debhelper-compat",
+    "libpugixml1v5",
+    "pkg-kde-tools"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}
