@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libqxmpp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "6a8249ee3571a2a8fbe28b5b0d338bfd47540e3b8b6b7098102956426a6943a1",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "graphviz",
+    "gstreamer1.0-plugins-base",
+    "gstreamer1.0-plugins-good",
+    "gstreamer1.0-plugins-ugly",
+    "libgstreamer1.0-dev",
+    "libqxmpp-dev",
+    "libqxmpp-doc",
+    "libqxmpp3",
+    "lynx",
+    "qtbase5-dev",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gstreamer",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "gstreamer1.0-plugins-base": "gstreamer",
+    "libgstreamer1.0-dev": "gstreamer"
+  }
+}

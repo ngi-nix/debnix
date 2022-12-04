@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "librnp-dev",
+  "nix_pkg": null,
+  "control_file_hash": "aea120218000497d53b2bdd14040df4937207a7526da3d05f18fde05c016b67f",
+  "deb_inputs": [
+    "asciidoctor",
+    "cmake",
+    "debhelper-compat",
+    "gnupg",
+    "googletest",
+    "libbotan-2-dev",
+    "libbz2-dev",
+    "libjson-c-dev",
+    "librnp0",
+    "pkg-config",
+    "python3",
+    "python3-distutils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "botan",
+    "bzip2",
+    "cmake",
+    "gnupg",
+    "gtest",
+    "json-c",
+    "pkg-config-wrapper",
+    "python3",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libbotan-2-dev": "botan",
+    "gnupg": "gnupg",
+    "libbz2-dev": "bzip2",
+    "python3": "python3",
+    "libjson-c-dev": "json-c",
+    "cmake": "cmake"
+  }
+}

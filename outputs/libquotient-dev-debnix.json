@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "libquotient-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d210e211882615371229a7a5233eb390640d82fb33620d3c91540a23fb17ac31",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libquotient0.6",
+    "qtbase5-dev",
+    "qtmultimedia5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtmultimedia"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtmultimedia5-dev": "qtmultimedia"
+  }
+}

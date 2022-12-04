@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "librocm-smi-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5f661cc7f680e02441aa030f8096700d415421e3e3ec7d9cab6afa0bc0e22986",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dot2tex",
+    "doxygen",
+    "doxygen-latex",
+    "liboam1",
+    "librocm-smi64-1",
+    "python3:any"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

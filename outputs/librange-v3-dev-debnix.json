@@ -1,0 +1,13 @@
+{
+  "pkgs_name": "librange-v3-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5d6a695d5d716521c4ecfe9c71429255f91efc2ddd136a503dda7404e7f5827f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "librange-v3-doc"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {}
+}

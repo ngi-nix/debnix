@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libreiser4-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ebc6e82cbafa2bd14d1cfdce0d526333dfbbb802efb5edef9e74d121359519b8",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libaal-dev",
+    "libc-dev",
+    "libc6-dev",
+    "libedit-dev",
+    "uuid-dev"
+  ],
+  "nix_inputs": [
+    "libaal"
+  ],
+  "map": {
+    "libaal-dev": "libaal"
+  }
+}
