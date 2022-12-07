@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "librust-cargo-binutils-dev",
+  "nix_pkg": null,
+  "control_file_hash": "e08d67850a90ded0dc61ab42835991ae63ed96928cdd3b121b2b108e5aed23b9",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-anyhow-1+default-dev",
+    "librust-cargo-metadata-0.14+default-dev",
+    "librust-clap-2+default-dev",
+    "librust-regex-1+default-dev",
+    "librust-rustc-cfg-0.4+default-dev",
+    "librust-rustc-demangle-0.1+default-dev",
+    "librust-rustc-version-0.4+default-dev",
+    "librust-serde-1+default-dev",
+    "librust-toml-0.5+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}
