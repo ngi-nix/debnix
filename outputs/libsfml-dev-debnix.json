@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "libsfml-dev",
+  "nix_pkg": null,
+  "control_file_hash": "42c6b3236f8d41fce7d19fdf013e4efdb75369a6016141107c1dfe59e6f23eab",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "g++",
+    "libflac-dev",
+    "libfreetype6-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libopenal-dev",
+    "libsfml-audio2.5",
+    "libsfml-doc",
+    "libsfml-graphics2.5",
+    "libsfml-network2.5",
+    "libsfml-system2.5",
+    "libsfml-window2.5",
+    "libudev-dev",
+    "libusbhid-dev",
+    "libvorbis-dev",
+    "libx11-dev",
+    "libxrandr-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "flac",
+    "freetype",
+    "glew",
+    "libX11",
+    "libXrandr",
+    "libXrender",
+    "libjpeg-turbo",
+    "libvorbis",
+    "openal-soft",
+    "systemd",
+    "xcb-util-image"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libfreetype6-dev": "freetype",
+    "libflac-dev": "flac",
+    "libvorbis-dev": "libvorbis",
+    "libx11-dev": "libX11",
+    "libxrandr-dev": "libXrandr",
+    "libopenal-dev": "openal-soft",
+    "libudev-dev": "systemd"
+  }
+}

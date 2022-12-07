@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "libsigrokcxx-dev",
+  "nix_pkg": null,
+  "control_file_hash": "f36862b3f810815d43a5089b582df9681493d1a5bf807c5b32ce0546a27c2c90",
+  "deb_inputs": [
+    "check",
+    "debhelper",
+    "doxygen",
+    "libbluetooth-dev",
+    "libftdi1-dev",
+    "libglib2.0-dev",
+    "libglibmm-2.4-dev",
+    "libhidapi-dev",
+    "libieee1284-3-dev",
+    "libserialport-dev",
+    "libsigrok-dev",
+    "libsigrok4",
+    "libsigrokcxx4",
+    "libusb-1.0-0-dev",
+    "libzip-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "check",
+    "doxygen",
+    "glib",
+    "glibmm",
+    "hidapi",
+    "libftdi",
+    "libieee1284",
+    "libserialport",
+    "libusb",
+    "libzip",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "libzip-dev": "libzip",
+    "libftdi1-dev": "libftdi",
+    "libglibmm-2.4-dev": "glibmm",
+    "libglib2.0-dev": "glib",
+    "doxygen": "doxygen",
+    "check": "check",
+    "libhidapi-dev": "hidapi",
+    "libserialport-dev": "libserialport",
+    "libbluetooth-dev": "bluez",
+    "libieee1284-3-dev": "libieee1284"
+  }
+}

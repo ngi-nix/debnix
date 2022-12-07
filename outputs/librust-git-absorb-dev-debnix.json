@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "librust-git-absorb-dev",
+  "nix_pkg": null,
+  "control_file_hash": "9b14c1b7d96f99f86e4691aed7009ece6332f193d11ded1d3ef4f6c57c64a3de",
+  "deb_inputs": [
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-anyhow-1+default-dev",
+    "librust-clap-2+default-dev",
+    "librust-git2-0.14-dev",
+    "librust-memchr-2+default-dev",
+    "librust-slog-2+default-dev",
+    "librust-slog-async-2+default-dev",
+    "librust-slog-term-2+default-dev",
+    "libstd-rust-dev",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "librust-exa-dev",
+  "nix_pkg": null,
+  "control_file_hash": "eb8e9309fe31c6aa29bf6fcde44afbb22fc0e6d717cd20bc83f8ca5081c3184d",
+  "deb_inputs": [
+    "bash-completion",
+    "cargo:native",
+    "debhelper",
+    "dh-cargo",
+    "librust-ansi-term-0.12+default-dev",
+    "librust-datetime-0.5+format-dev",
+    "librust-datetime-0.5-dev",
+    "librust-git2-0.13-dev",
+    "librust-git2-0.14-dev",
+    "librust-glob-0.3+default-dev",
+    "librust-lazy-static-1+default-dev",
+    "librust-libc-0.2+default-dev",
+    "librust-locale-0.2+default-dev",
+    "librust-log-0.4+default-dev",
+    "librust-natord-1+default-dev",
+    "librust-num-cpus-1+default-dev",
+    "librust-number-prefix-0.4+default-dev",
+    "librust-scoped-threadpool-0.1+default-dev",
+    "librust-term-grid-0.1+default-dev",
+    "librust-term-size-0.3+default-dev",
+    "librust-unicode-width-0.1+default-dev",
+    "librust-users-0.11+default-dev",
+    "librust-zoneinfo-compiled-0.5+default-dev",
+    "libstd-rust-dev",
+    "pandoc",
+    "rustc:native"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "git-minimal",
+    "nss-cacert",
+    "pandoc",
+    "pkg-config-wrapper",
+    "rustc",
+    "zlib"
+  ],
+  "map": {
+    "libstd-rust-dev": "rustc",
+    "librust-libc-0.2+default-dev": "rustc",
+    "pandoc": "pandoc"
+  }
+}

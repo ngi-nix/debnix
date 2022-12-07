@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cargo:native", "debhelper", "dh-cargo", "librust-bitflags-1+default-dev", "librust-git2+default-dev", "librust-git2+https-dev", "librust-git2+openssl-probe-dev", "librust-git2+openssl-sys-dev", "librust-git2+ssh-dev", "librust-git2+ssh-key-from-memory-dev", "librust-git2-dev", "librust-libc-0.2+default-dev", "librust-libgit2-sys-0.13+default-dev", "librust-libgit2-sys-0.13+https-dev", "librust-libgit2-sys-0.13+ssh-dev", "librust-libgit2-sys-0.13+ssh-key-from-memory-dev", "librust-log-0.4+default-dev", "librust-openssl-probe-0.1+default-dev", "librust-openssl-sys-0.9+default-dev", "librust-url-2+default-dev", "libstd-rust-dev", "rustc:native"], or 
+output: 
+[] is empty!

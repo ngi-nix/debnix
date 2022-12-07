@@ -1,0 +1,53 @@
+{
+  "pkgs_name": "libsemanage-dev",
+  "nix_pkg": null,
+  "control_file_hash": "b3908946f6d13cfa026bdb6853542267a5dd497c29b6298f6befb5caf7a5fa12",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "dh-python",
+    "file",
+    "flex",
+    "gem2deb",
+    "libaudit-dev",
+    "libbz2-dev",
+    "libcunit1-dev",
+    "libselinux1-dev",
+    "libsemanage-common",
+    "libsemanage2",
+    "libsepol-dev",
+    "libsepol2",
+    "pkg-config",
+    "python3",
+    "python3-all-dev",
+    "python3-selinux",
+    "python3-semanage",
+    "ruby",
+    "ruby-interpreter",
+    "secilc",
+    "swig"
+  ],
+  "nix_inputs": [
+    "audit",
+    "bison",
+    "bzip2",
+    "flex",
+    "libselinux",
+    "libsepol",
+    "pkg-config-wrapper",
+    "python3",
+    "swig"
+  ],
+  "map": {
+    "libsepol2": "libsepol",
+    "swig": "swig",
+    "libsepol-dev": "libsepol",
+    "python3": "python3",
+    "libselinux1-dev": "libselinux",
+    "libbz2-dev": "bzip2",
+    "bison": "bison",
+    "flex": "flex",
+    "libaudit-dev": "audit",
+    "python3-selinux": "libselinux"
+  }
+}

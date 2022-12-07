@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "libsigrokdecode-dev",
+  "nix_pkg": null,
+  "control_file_hash": "d0b57b54943be7794b0a425b53a95de16274a0466b8c061b4e6c51c409d05b40",
+  "deb_inputs": [
+    "check",
+    "debhelper",
+    "dh-python",
+    "libglib2.0-dev",
+    "libsigrokdecode4",
+    "pkg-config",
+    "python3-dev"
+  ],
+  "nix_inputs": [
+    "check",
+    "glib",
+    "libxcrypt",
+    "pkg-config-wrapper",
+    "python3"
+  ],
+  "map": {
+    "check": "check",
+    "python3-dev": "python3",
+    "libglib2.0-dev": "glib"
+  }
+}

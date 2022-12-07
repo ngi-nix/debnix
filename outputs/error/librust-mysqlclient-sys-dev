@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cargo:native", "debhelper", "default-libmysqlclient-dev", "dh-cargo", "librust-pkg-config-0.3+default-dev", "librust-vcpkg-0.2+default-dev", "libstd-rust-dev", "rustc:native"], or 
+output: 
+[] is empty!
