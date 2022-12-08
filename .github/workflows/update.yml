@@ -53,7 +53,7 @@ jobs:
         nix run -L github:"$GITHUB_REPOSITORY" \
           --no-write-lock-file \
           -- \
-          --discover 100000 \
+          --discover 10000000 \
           --timeout 150 \
           --output ./outputs \
           --map ./outputs/maps/debnix.json
