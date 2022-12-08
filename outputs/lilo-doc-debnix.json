@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "lilo-doc",
+  "nix_pkg": null,
+  "control_file_hash": "09f776e775b9efb4a8b922c7b7e4bd0396577f5372fe0a5fb14879fbe90b2eb7",
+  "deb_inputs": [
+    "bin86",
+    "debhelper",
+    "e2fsprogs",
+    "libdevmapper-dev",
+    "po-debconf",
+    "sharutils",
+    "transfig"
+  ],
+  "nix_inputs": [
+    "dev86",
+    "sharutils"
+  ],
+  "map": {
+    "sharutils": "sharutils"
+  }
+}

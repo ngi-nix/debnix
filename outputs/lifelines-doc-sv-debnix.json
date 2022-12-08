@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "lifelines-doc-sv",
+  "nix_pkg": null,
+  "control_file_hash": "c4af62fbaf016f5b95192b20c01aa8059ff9b69797bb57f0294373bb182a8256",
+  "deb_inputs": [
+    "autoconf",
+    "autotools-dev",
+    "bison",
+    "debhelper",
+    "devscripts",
+    "dh-buildinfo",
+    "docbook-utils",
+    "dpatch",
+    "ghostscript",
+    "libncursesw5-dev",
+    "lifelines",
+    "lynx"
+  ],
+  "nix_inputs": [
+    "bison",
+    "gettext",
+    "ncurses",
+    "perl"
+  ],
+  "map": {
+    "libncursesw5-dev": "ncurses",
+    "bison": "bison"
+  }
+}

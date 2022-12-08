@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libzint2.9",
+  "nix_pkg": null,
+  "control_file_hash": "9ea120bc1be743526ae635ceecd0ed1479872d87ed0336ba9be5cadc1eb2f80c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libpng-dev",
+    "libqt5svg5-dev",
+    "libzint2.11",
+    "qtbase5-dev",
+    "qttools5-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "qtbase",
+    "qtsvg",
+    "qttools"
+  ],
+  "map": {
+    "qtbase5-dev": "qtbase",
+    "qttools5-dev": "qttools",
+    "cmake": "cmake"
+  }
+}

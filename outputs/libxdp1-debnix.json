@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libxdp1",
+  "nix_pkg": null,
+  "control_file_hash": "cf4cc0f90f3aeaec3fd742feabf2550bfa9345765cd5c549f9091ce19e3d50dc",
+  "deb_inputs": [
+    "clang",
+    "debhelper-compat",
+    "libbpf-dev",
+    "libelf-dev",
+    "libpcap-dev",
+    "libxdp1",
+    "llvm",
+    "pkg-config",
+    "xdp-tools",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "clang-wrapper",
+    "elfutils",
+    "emacs-nox",
+    "gnum4",
+    "libbpf",
+    "libpcap",
+    "llvm",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "llvm": "llvm",
+    "libbpf-dev": "libbpf",
+    "libelf-dev": "elfutils",
+    "libpcap-dev": "libpcap",
+    "zlib1g-dev": "zlib"
+  }
+}
