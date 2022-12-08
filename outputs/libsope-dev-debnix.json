@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "libsope-dev",
+  "nix_pkg": null,
+  "control_file_hash": "debdef85b52bf293c17f46d8f4f1b0eda11aa77d307d6ca11da3187c6107967f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-libmysqlclient-dev",
+    "gnustep-make",
+    "gobjc",
+    "libgnustep-base-dev",
+    "libldap2-dev",
+    "libpq-dev",
+    "libsope1",
+    "libssl-dev",
+    "libxml2-dev",
+    "pkg-config",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "gnustep-base",
+    "gnustep-make",
+    "libxml2",
+    "mariadb-connector-c",
+    "mariadb-server",
+    "openldap",
+    "openssl",
+    "postgresql"
+  ],
+  "map": {
+    "gnustep-make": "gnustep-make",
+    "libxml2-dev": "libxml2",
+    "libldap2-dev": "openldap",
+    "libpq-dev": "postgresql",
+    "libssl-dev": "openssl",
+    "libgnustep-base-dev": "gnustep-base"
+  }
+}

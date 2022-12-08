@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "libstorm-dev",
+  "nix_pkg": null,
+  "control_file_hash": "42d462ae2ec9c1f6d7f333c51a5e375f57fb6b91dc9649df3910820602cfda23",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "libbz2-dev",
+    "libstorm9",
+    "libtomcrypt-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "cmake",
+    "libtomcrypt",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libtomcrypt-dev": "libtomcrypt",
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib"
+  }
+}

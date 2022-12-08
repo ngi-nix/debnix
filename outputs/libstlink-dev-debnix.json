@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "libstlink-dev",
+  "nix_pkg": null,
+  "control_file_hash": "ef604353decf710a53a76c38abf1fd16026b5bd26cefad967f2f02883cd491c0",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libgtk-3-dev",
+    "libstlink1",
+    "libusb-1.0-0-dev",
+    "stlink-tools"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "gtk+3",
+    "libusb",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

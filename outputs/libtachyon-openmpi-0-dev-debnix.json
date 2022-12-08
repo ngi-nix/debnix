@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libtachyon-openmpi-0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a63293997e3ec07850737f2cc92ba9f85dfa65d8026154a07161d83bcb75dea8",
+  "deb_inputs": [
+    "autoconf-archive",
+    "debhelper-compat",
+    "gnulib",
+    "help2man",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libjpeg-dev",
+    "libmpich-dev",
+    "libopenmpi-dev",
+    "libpng-dev",
+    "libtachyon",
+    "libtachyon-dev",
+    "libtachyon-dev-common",
+    "libtachyon-mpich-0",
+    "libtachyon-mt-0",
+    "libtachyon-openmpi-0",
+    "libtachyon-serial-0",
+    "libtool",
+    "mpi-default-dev",
+    "pdf-viewer",
+    "pkg-config",
+    "tachyon-bin",
+    "tachyon-bin-nox",
+    "tachyon-doc"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libpng-apng"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo"
+  }
+}

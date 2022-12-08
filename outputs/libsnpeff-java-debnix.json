@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "libsnpeff-java",
+  "nix_pkg": null,
+  "control_file_hash": "ff9902dd7549a025e70476a89bc0ddc07d430274aa584c8bf51179fee54c09db",
+  "deb_inputs": [
+    "debhelper-compat",
+    "default-jdk",
+    "default-jdk-doc",
+    "default-jre",
+    "javahelper",
+    "junit5",
+    "libapfloat-java",
+    "libbiojava5-java",
+    "libbiojava5-java-doc",
+    "libcharts4j-java",
+    "libcommons-cli-java",
+    "libcommons-codec-java",
+    "libcommons-io-java",
+    "libcommons-math3-java",
+    "libdistlib-java",
+    "libfreemarker-java",
+    "libhtsjdk-java",
+    "libjaxb-api-java",
+    "libmaven-assembly-plugin-java",
+    "libmaven-javadoc-plugin-java",
+    "libsnpeff-java",
+    "libsnpeff-java-doc",
+    "libtrove3-java",
+    "libtrove3-java-doc",
+    "maven-debian-helper",
+    "vcfanno"
+  ],
+  "nix_inputs": [
+    "openjdk",
+    "unzip"
+  ],
+  "map": {}
+}

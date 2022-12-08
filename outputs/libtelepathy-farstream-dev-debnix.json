@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "libtelepathy-farstream-dev",
+  "nix_pkg": null,
+  "control_file_hash": "44287d39b570d577e8eaace341e58fe6f8bbd52adddcceb0ee5b5648d4f65174",
+  "deb_inputs": [
+    "debhelper",
+    "devhelp",
+    "dh-autoreconf",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libfarstream-0.2-dev",
+    "libglib2.0-dev",
+    "libgstreamer1.0-dev",
+    "libtelepathy-farstream3",
+    "libtelepathy-glib-dev",
+    "lynx",
+    "www-browser"
+  ],
+  "nix_inputs": [
+    "dbus-glib",
+    "farstream",
+    "pkg-config-wrapper",
+    "telepathy-glib"
+  ],
+  "map": {
+    "libfarstream-0.2-dev": "farstream",
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libtelepathy-glib-dev": "telepathy-glib"
+  }
+}

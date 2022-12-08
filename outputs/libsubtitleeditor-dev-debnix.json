@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "libsubtitleeditor-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2042e229f1f4fa822a2a768917c6259d298c324f251e3df92fd39fc2bfb8af17",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gstreamer1.0-libav",
+    "gstreamer1.0-plugins-base",
+    "gstreamer1.0-plugins-good",
+    "gstreamer1.0-x",
+    "imagemagick",
+    "intltool",
+    "iso-codes",
+    "libenchant-2-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamermm-1.0-dev",
+    "libgtkmm-3.0-dev",
+    "libsubtitleeditor0",
+    "libtool",
+    "libxml++2.6-dev"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "enchant",
+    "file",
+    "gst-libav",
+    "gst-plugins-bad",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "gst-plugins-ugly",
+    "gstreamer",
+    "gstreamermm",
+    "gtk+3",
+    "gtkmm",
+    "hicolor-icon-theme",
+    "intltool",
+    "iso-codes",
+    "libsigc++",
+    "libxml++",
+    "pkg-config-wrapper",
+    "xdg-utils"
+  ],
+  "map": {
+    "iso-codes": "iso-codes",
+    "libenchant-2-dev": "enchant",
+    "libgtkmm-3.0-dev": "gtkmm",
+    "gstreamer1.0-libav": "gstreamer",
+    "libxml++2.6-dev": "libxml++",
+    "libgstreamermm-1.0-dev": "gstreamermm",
+    "intltool": "intltool"
+  }
+}

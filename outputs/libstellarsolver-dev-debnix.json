@@ -1,0 +1,29 @@
+{
+  "pkgs_name": "libstellarsolver-dev",
+  "nix_pkg": null,
+  "control_file_hash": "2e4f84fafa7903be841b39aec4a4554744e816b8c2f131422b84115006c0d8b9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libcfitsio-dev",
+    "libgsl-dev",
+    "libstellarsolver2",
+    "pkg-config",
+    "qtbase5-dev",
+    "wcslib-dev"
+  ],
+  "nix_inputs": [
+    "cfitsio",
+    "cmake",
+    "gsl",
+    "qtbase",
+    "wcslib"
+  ],
+  "map": {
+    "libgsl-dev": "gsl",
+    "wcslib-dev": "wcslib",
+    "libcfitsio-dev": "cfitsio",
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase"
+  }
+}
