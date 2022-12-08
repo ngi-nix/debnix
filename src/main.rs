@@ -30,7 +30,6 @@ use std::{
     path::Path,
 };
 
-extern crate pretty_env_logger;
 #[macro_use]
 extern crate log;
 
@@ -39,7 +38,7 @@ use self::{cli::CliArgs, deb::read_popcon};
 use clap::Parser;
 
 fn main() -> Result<(), DebNixError> {
-    pretty_env_logger::init();
+    env_logger::init();
     let opts = CliArgs::parse();
     let state = State::from_opts(opts.clone())?;
 
