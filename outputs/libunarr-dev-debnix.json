@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "libunarr-dev",
+  "nix_pkg": null,
+  "control_file_hash": "02299d36ad830f45661e8ad6b077e3f39484ceda093eedbe0868799704fbea45",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libbz2-dev",
+    "libunarr1",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

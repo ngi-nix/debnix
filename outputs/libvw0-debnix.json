@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "libvw0",
+  "nix_pkg": null,
+  "control_file_hash": "104f756a6394842ba864ceba987e6db262a4153917d7e67b63ed318e6fe7a57d",
+  "deb_inputs": [
+    "debhelper",
+    "dh-autoreconf",
+    "help2man",
+    "html2text",
+    "libboost-program-options-dev",
+    "libboost-python-dev",
+    "libvw0",
+    "markdown",
+    "rapidjson-dev",
+    "vowpal-wabbit",
+    "vowpal-wabbit-doc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "eigen",
+    "rapidjson",
+    "spdlog",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "rapidjson-dev": "rapidjson"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libx265-doc",
+  "nix_pkg": null,
+  "control_file_hash": "371b4769992992450ed6c85489b2275a0a2725dc1499e12b0fa498d517ea0d3f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "git",
+    "libnuma-dev",
+    "libx265-199",
+    "libx265-doc",
+    "nasm"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "nasm",
+    "numactl"
+  ],
+  "map": {
+    "libnuma-dev": "numactl",
+    "nasm": "nasm",
+    "cmake": "cmake"
+  }
+}

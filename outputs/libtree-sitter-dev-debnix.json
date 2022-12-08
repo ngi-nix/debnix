@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libtree-sitter-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4097875b08772d8a366b5090eace430a702e34b1379025069ebed0d30dd24989",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libtree-sitter0"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc",
+    "which"
+  ],
+  "map": {}
+}

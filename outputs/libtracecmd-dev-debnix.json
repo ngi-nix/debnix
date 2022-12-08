@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libtracecmd-dev",
+  "nix_pkg": null,
+  "control_file_hash": "510309e5fa99abf8c2e809756d012e4d5a1701bebd24e6faff01325490cf527f",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "docbook-xsl",
+    "kernelshark",
+    "libcunit1-dev",
+    "libtracecmd1",
+    "libtraceevent-dev",
+    "libtraceevent1-plugin",
+    "libtracefs-dev",
+    "libzstd-dev",
+    "pkg-config",
+    "source-highlight",
+    "xmlto",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "libtraceevent",
+    "libtracefs",
+    "libxslt",
+    "pkg-config-wrapper",
+    "source-highlight",
+    "xmlto",
+    "zstd"
+  ],
+  "map": {
+    "source-highlight": "source-highlight",
+    "xsltproc": "libxslt",
+    "libtraceevent1-plugin": "libtraceevent",
+    "libtracefs-dev": "libtracefs",
+    "asciidoc": "asciidoc",
+    "xmlto": "xmlto",
+    "libtraceevent-dev": "libtraceevent",
+    "libzstd-dev": "zstd"
+  }
+}

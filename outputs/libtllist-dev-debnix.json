@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libtllist-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7f64e0253049cbf572d2bbdef70775c171b247b7e4757e8838d509a67b2e3a89",
+  "deb_inputs": [
+    "debhelper-compat",
+    "meson"
+  ],
+  "nix_inputs": [
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "meson": "meson"
+  }
+}

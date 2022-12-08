@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "liburweb-http0",
+  "nix_pkg": null,
+  "control_file_hash": "a5b4966c98f33f9b0333bdf7aa41f1b6bc328ef7fc4eac3347c417645efff1b5",
+  "deb_inputs": [
+    "c-compiler",
+    "curl",
+    "debhelper",
+    "default-libmysqlclient-dev",
+    "dh-autoreconf",
+    "emacsen-common",
+    "gcc",
+    "libpq-dev",
+    "libsqlite3-dev",
+    "libssl-dev",
+    "liburweb-cgi0",
+    "liburweb-fastcgi0",
+    "liburweb-http0",
+    "liburweb-static0",
+    "liburweb0",
+    "mlton",
+    "pdf-viewer",
+    "sqlite3",
+    "urweb-doc",
+    "urweb-mode",
+    "uthash-dev",
+    "xpdf"
+  ],
+  "nix_inputs": [
+    "mariadb-connector-c",
+    "mlton",
+    "openssl",
+    "postgresql",
+    "sqlite"
+  ],
+  "map": {
+    "libssl-dev": "openssl",
+    "sqlite3": "sqlite",
+    "libsqlite3-dev": "sqlite",
+    "libpq-dev": "postgresql",
+    "mlton": "mlton"
+  }
+}

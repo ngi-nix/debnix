@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "libuhttpmock-0.0-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a8367e835511ad2368e89ce739857d531633b47bd1d6eb2c8d7899e003464321",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gir1.2-uhm-0.0",
+    "gnome-pkg-tools",
+    "gobject-introspection",
+    "gtk-doc-tools",
+    "intltool",
+    "libgirepository1.0-dev",
+    "libglib2.0-dev",
+    "libglib2.0-doc",
+    "libsoup2.4-dev",
+    "libsoup2.4-doc",
+    "libuhttpmock-0.0-0",
+    "valac"
+  ],
+  "nix_inputs": [
+    "docbook-xsl-nons",
+    "glib",
+    "gobject-introspection-wrapped",
+    "gtk-doc",
+    "libsoup",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "vala"
+  ],
+  "map": {
+    "libsoup2.4-dev": "libsoup",
+    "libglib2.0-dev": "glib",
+    "libsoup2.4-doc": "libsoup",
+    "valac": "vala",
+    "gtk-doc-tools": "gtk-doc",
+    "libglib2.0-doc": "glib"
+  }
+}

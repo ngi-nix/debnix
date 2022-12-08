@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ant", "debhelper", "default-jdk", "junit4", "libactivemq-java", "libactivemq-protobuf-java", "libbuild-helper-maven-plugin-java", "libcommons-codec-java", "libcommons-codec-java-doc", "libcommons-dbcp-java", "libcommons-dbcp-java-doc", "libcommons-httpclient-java", "libcommons-logging-java", "libcommons-logging-java-doc", "libcommons-net-java", "libcommons-pool-java", "libcommons-pool-java-doc", "libgeronimo-j2ee-connector-1.5-spec-java", "libgeronimo-j2ee-management-1.1-spec-java", "libgeronimo-jms-1.1-spec-java", "libmaven-antrun-plugin-java", "libmaven-bundle-plugin-java", "libmaven-dependency-plugin-java", "libmaven-install-plugin-java", "libmaven-javadoc-plugin-java", "libservlet3.1-java", "libspring-beans-java", "libspring-context-java", "libspring-core-java", "libspring-jms-java", "libspring-transaction-java", "libuima-adapter-vinci-java", "libuima-as-java", "libuima-core-java", "libuima-cpe-java", "libuima-document-annotation-java", "libuima-tools-java", "libuima-vinci-java", "libxstream-java", "maven-debian-helper", "maven-repo-helper", "uima-doc", "uima-examples"], or 
+output: 
+[] is empty!

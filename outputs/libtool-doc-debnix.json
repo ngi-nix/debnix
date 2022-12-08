@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "libtool-doc",
+  "nix_pkg": null,
+  "control_file_hash": "800f60105c268b6c03772fb58bad26602ed58e204804e70321f411c8760af0d2",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "automaken",
+    "autotools-dev",
+    "c-compiler",
+    "cpp",
+    "debhelper-compat",
+    "file",
+    "fortran95-compiler",
+    "gcc",
+    "gcj-jdk",
+    "gfortran",
+    "gnulib",
+    "help2man",
+    "libc-dev",
+    "libc6-dev",
+    "libltdl-dev",
+    "libltdl7",
+    "libtool",
+    "libtool-doc",
+    "texinfo",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "file",
+    "gnum4",
+    "help2man",
+    "perl"
+  ],
+  "map": {
+    "help2man": "help2man",
+    "file": "file",
+    "automake": "automake",
+    "autoconf": "autoconf"
+  }
+}

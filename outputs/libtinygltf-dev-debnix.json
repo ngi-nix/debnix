@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libtinygltf-dev",
+  "nix_pkg": null,
+  "control_file_hash": "7a85717a31c6ed2320ae4b7a2e35236dc9c26df3c7c397cee07ba08ea05e6248",
+  "deb_inputs": [
+    "catch",
+    "cmake",
+    "debhelper-compat",
+    "libstb-dev",
+    "libtinygltf1d",
+    "nlohmann-json3-dev"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "libticonv-dev",
+  "nix_pkg": null,
+  "control_file_hash": "8d3cdcb4f70ccddfbd0c393e328dbe5057880ff9441461e5771564ed9b0ee5a2",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libglib2.0-dev",
+    "libticonv9",
+    "pkg-config",
+    "tfdocgen"
+  ],
+  "nix_inputs": [
+    "glib",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libglib2.0-dev": "glib"
+  }
+}

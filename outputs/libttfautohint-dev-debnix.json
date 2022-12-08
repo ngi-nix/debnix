@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "libttfautohint-dev",
+  "nix_pkg": null,
+  "control_file_hash": "4e33d2e744a8e5abd031ddb58f53740a36475962c543a2d86b6b40a95bfe537c",
+  "deb_inputs": [
+    "bison",
+    "debhelper",
+    "flex",
+    "libfreetype6-dev",
+    "libharfbuzz-dev",
+    "libttfautohint1",
+    "pkg-config",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtchooser"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "harfbuzz",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "libfreetype6-dev": "freetype",
+    "libharfbuzz-dev": "harfbuzz",
+    "qtbase5-dev": "qtbase"
+  }
+}

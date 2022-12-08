@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "libtsk-dev",
+  "nix_pkg": null,
+  "control_file_hash": "90375e7ac4d0b3f94c49a57b2bd0629deddc3f234153890674981e0bc914cf2e",
+  "deb_inputs": [
+    "autopsy",
+    "debhelper-compat",
+    "file",
+    "libafflib-dev",
+    "libdate-manip-perl",
+    "libewf-dev",
+    "libsqlite3-dev",
+    "libtsk19",
+    "libvhdi-dev",
+    "libvmdk-dev",
+    "mac-robber",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "afflib",
+    "ant",
+    "libewf",
+    "openjdk",
+    "openssl",
+    "perl",
+    "sleuthkit-deps",
+    "zlib"
+  ],
+  "map": {
+    "libewf-dev": "libewf",
+    "libafflib-dev": "afflib",
+    "zlib1g-dev": "zlib"
+  }
+}

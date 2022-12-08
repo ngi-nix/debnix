@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "libuecc-dev",
+  "nix_pkg": null,
+  "control_file_hash": "c72a26879c0c76cbdddadcd3e45a7472e0ccee75ebb6874cb2d552f924fe6e2c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libuecc0"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

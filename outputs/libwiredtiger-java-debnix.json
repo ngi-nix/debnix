@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libwiredtiger-java",
+  "nix_pkg": null,
+  "control_file_hash": "d9d5792ba64692669f547de8a2a51ea158ccec18c8939f20f55dc49665e90824",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "debhelper-compat",
+    "default-jdk",
+    "doxygen",
+    "javahelper",
+    "libleveldb-dev",
+    "liblz4-dev",
+    "libsnappy-dev",
+    "libtool",
+    "libwiredtiger0",
+    "libzstd-dev",
+    "swig",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bzip2",
+    "db",
+    "gperftools",
+    "leveldb",
+    "libtool",
+    "lz4",
+    "snappy",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "liblz4-dev": "lz4",
+    "libsnappy-dev": "snappy",
+    "autoconf": "autoconf",
+    "libtool": "libtool",
+    "automake": "automake",
+    "libleveldb-dev": "leveldb"
+  }
+}

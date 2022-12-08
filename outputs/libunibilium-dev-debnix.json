@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "libunibilium-dev",
+  "nix_pkg": null,
+  "control_file_hash": "5d69120fc3c9833955d52ec5a96157c31321e5d29985c9ff16957fd174489672",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libtool-bin",
+    "libunibilium4",
+    "perl"
+  ],
+  "nix_inputs": [
+    "libtool",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "perl": "perl",
+    "libtool-bin": "libtool"
+  }
+}

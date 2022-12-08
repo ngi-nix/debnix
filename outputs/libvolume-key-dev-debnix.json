@@ -1,0 +1,42 @@
+{
+  "pkgs_name": "libvolume-key-dev",
+  "nix_pkg": null,
+  "control_file_hash": "a6335bb4d0041237917879b25ad2821318a9f63010ae94fc82d450f49561d27d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "gnupg",
+    "libblkid-dev",
+    "libcryptsetup-dev",
+    "libglib2.0-dev",
+    "libgpgme11-dev",
+    "libnss3-dev",
+    "libnss3-tools",
+    "libvolume-key1",
+    "python3-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "cryptsetup",
+    "gettext",
+    "glib",
+    "gpgme",
+    "libtool",
+    "ncurses",
+    "nss",
+    "pkg-config-wrapper",
+    "swig",
+    "util-linux"
+  ],
+  "map": {
+    "libblkid-dev": "util-linux",
+    "libnss3-dev": "nss",
+    "libglib2.0-dev": "glib",
+    "libnss3-tools": "nss",
+    "libgpgme11-dev": "gpgme",
+    "swig": "swig",
+    "libcryptsetup-dev": "cryptsetup"
+  }
+}

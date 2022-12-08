@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "libtraceevent1-plugin",
+  "nix_pkg": null,
+  "control_file_hash": "4900767ed1bd0a4179ce990386613a38f48aa404436a0bafbef63d482f956300",
+  "deb_inputs": [
+    "asciidoc",
+    "debhelper-compat",
+    "libtraceevent1",
+    "pkg-config",
+    "source-highlight",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "asciidoc",
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "pkg-config-wrapper",
+    "xmlto"
+  ],
+  "map": {
+    "asciidoc": "asciidoc",
+    "xmlto": "xmlto"
+  }
+}

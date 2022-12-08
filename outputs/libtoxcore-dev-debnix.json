@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "libtoxcore-dev",
+  "nix_pkg": null,
+  "control_file_hash": "0c7b0a83110ee607457774887d53b5c4cef0572b37b6722203fb8e7d1d8a4bca",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libconfig-dev",
+    "libncurses5-dev",
+    "libopus-dev",
+    "libsodium-dev",
+    "libtoxcore2",
+    "libvpx-dev",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "check",
+    "cmake",
+    "libconfig",
+    "libopus",
+    "libsodium",
+    "libvpx",
+    "msgpack",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libopus-dev": "libopus",
+    "cmake": "cmake",
+    "libconfig-dev": "libconfig",
+    "libncurses5-dev": "ncurses",
+    "libvpx-dev": "libvpx",
+    "libsodium-dev": "libsodium"
+  }
+}
