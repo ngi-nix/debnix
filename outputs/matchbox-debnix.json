@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "matchbox",
+  "nix_pkg": null,
+  "control_file_hash": "d3c00975453d5113c61a2f8a457f70ddc865af91eb35c715507364a88ad5cea2",
+  "deb_inputs": [
+    "debhelper",
+    "fonts-dejavu",
+    "matchbox-common",
+    "matchbox-desktop",
+    "matchbox-keyboard",
+    "matchbox-panel",
+    "matchbox-panel-manager",
+    "matchbox-window-manager"
+  ],
+  "nix_inputs": [
+    "libmatchbox",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

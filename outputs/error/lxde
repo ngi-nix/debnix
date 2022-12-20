@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["audacious", "clipit", "connman-gtk", "copyq", "debhelper-compat", "deluge", "evince", "firefox", "firefox-esr", "galculator", "gimp", "gnome-calculator", "gnome-colors", "gnome-disk-utility", "gnome-system-tools", "gpicview", "gucharmap", "leafpad", "libreoffice", "lightdm", "lxappearance", "lxappearance-obconf", "lxde", "lxde-core", "lxde-icon-theme", "lxde-session", "lxhotkey-gtk", "lxinput", "lxlauncher", "lxmusic", "lxpanel", "lxpolkit", "lxrandr", "lxsession-edit", "lxtask", "lxterminal", "menu-xdg", "mousepad", "mplayer-gui", "network-manager-gnome", "notification-daemon", "numlockx", "package-update-indicator", "parcellite", "pcmanfm", "pdf-viewer", "pidgin", "policykit-1", "smplayer", "transmission-gtk", "usermode", "vlc", "wicd", "www-browser", "x-display-manager", "x-terminal-emulator", "xarchiver", "xfce4-power-manager", "xscreensaver", "xserver-xorg"], or 
+output: 
+[] is empty!

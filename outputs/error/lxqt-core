@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["ark", "audacious", "calibre", "clementine", "clipit", "cmst", "compton-conf", "debhelper-compat", "desktop-file-utils", "engrampa", "feathernotes", "featherpad", "firefox", "gucharmap", "hexchat", "irssi", "juffed", "lximage-qt", "lxqt", "lxqt-about", "lxqt-admin", "lxqt-branding", "lxqt-branding-debian", "lxqt-config", "lxqt-core", "lxqt-globalkeys", "lxqt-notificationd", "lxqt-openssh-askpass", "lxqt-panel", "lxqt-policykit", "lxqt-powermanagement", "lxqt-qtplugin", "lxqt-runner", "lxqt-session", "lxqt-sudo", "lxqt-system-theme", "lxqt-theme", "lxqt-themes", "mail-reader", "meteo-qt", "nomacs", "obconf-qt", "pavucontrol", "pavucontrol-qt", "pcmanfm-qt", "preload", "qlipper", "qmmp", "qpdfview", "qps", "qt5-style-kvantum", "qterminal", "qtpass", "qttranslations5-l10n", "quassel", "quassel-client", "screengrab", "sddm-theme-debian-elarun", "shutter", "smplayer", "smtube", "thunderbird", "vokoscreen", "weechat", "www-browser", "x-display-manager", "x-window-manager", "xarchiver", "xfce4-clipman", "xfwm4", "xscreensaver"], or 
+output: 
+[] is empty!

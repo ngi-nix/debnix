@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "manaplus-data",
+  "nix_pkg": null,
+  "control_file_hash": "6922965dab8108820149a96eb632c0ea23499cfe823e777c0c8707b3c4e60d5b",
+  "deb_inputs": [
+    "autopoint",
+    "debhelper-compat",
+    "fonts-dejavu-core",
+    "fonts-liberation",
+    "fonts-mplus",
+    "fonts-wqy-microhei",
+    "libcurl4-gnutls-dev",
+    "libgl1-mesa-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "libsdl2-gfx-dev",
+    "libsdl2-image-dev",
+    "libsdl2-mixer-dev",
+    "libsdl2-net-dev",
+    "libsdl2-ttf-dev",
+    "libxml2-dev",
+    "manaplus",
+    "manaplus-data",
+    "mumble",
+    "x11-utils",
+    "xdg-utils",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "SDL2_gfx",
+    "SDL2_image",
+    "SDL2_mixer",
+    "SDL2_net",
+    "SDL2_ttf",
+    "curl",
+    "libGL",
+    "libpng-apng",
+    "libxml2",
+    "physfs",
+    "pkg-config-wrapper",
+    "zlib"
+  ],
+  "map": {
+    "libxml2-dev": "libxml2",
+    "libgl1-mesa-dev": "libGL",
+    "libcurl4-gnutls-dev": "curl",
+    "zlib1g-dev": "zlib"
+  }
+}

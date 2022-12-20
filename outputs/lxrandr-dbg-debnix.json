@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "lxrandr-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "e9f1f5432706eed13789e03e317ad805db074fee97589cb36dbcb5a12e04cdf6",
+  "deb_inputs": [
+    "debhelper",
+    "docbook-xsl",
+    "intltool",
+    "libglib2.0-dev",
+    "libgtk2.0-dev",
+    "x11-xserver-utils"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "intltool",
+    "libX11",
+    "pkg-config-wrapper",
+    "xrandr"
+  ],
+  "map": {
+    "intltool": "intltool",
+    "libgtk2.0-dev": "gtk+"
+  }
+}

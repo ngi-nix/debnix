@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "malt",
+  "nix_pkg": null,
+  "control_file_hash": "7a8ebe6145872e27b075f57c87b7c8a7232ba04e2602da85b380031ccfb9a67b",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk",
+    "javahelper",
+    "libjloda-java",
+    "megan-ce"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libelf",
+    "libunwind"
+  ],
+  "map": {}
+}
