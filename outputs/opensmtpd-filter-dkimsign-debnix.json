@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "opensmtpd-filter-dkimsign",
+  "nix_pkg": null,
+  "control_file_hash": "8437133a88b426d9dfece881937e019ad6ba77b9a1a11eb5d16be6eed782e5ae",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "libopensmtpd-dev",
+    "libssl-dev",
+    "mandoc",
+    "openssl"
+  ],
+  "nix_inputs": [
+    "libopensmtpd",
+    "mandoc",
+    "openssl"
+  ],
+  "map": {
+    "libopensmtpd-dev": "libopensmtpd",
+    "libssl-dev": "openssl",
+    "mandoc": "mandoc",
+    "openssl": "openssl"
+  }
+}

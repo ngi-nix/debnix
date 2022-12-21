@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "nox",
+  "nix_pkg": null,
+  "control_file_hash": "2494176741b8ae28913f0bc00b055a63059068e986fae59094c0729950a4b9d0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-python3",
+    "python-nox-doc",
+    "python3-all",
+    "python3-argcomplete",
+    "python3-colorlog",
+    "python3-nox",
+    "python3-py",
+    "python3-pytest",
+    "python3-recommonmark",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-venv",
+    "tox"
+  ],
+  "nix_inputs": [
+    "characteristic",
+    "click",
+    "dogpile-cache",
+    "git",
+    "pbr",
+    "python3",
+    "requests",
+    "setuptools"
+  ],
+  "map": {
+    "python3-setuptools": "setuptools"
+  }
+}

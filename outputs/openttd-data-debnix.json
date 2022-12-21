@@ -1,0 +1,44 @@
+{
+  "pkgs_name": "openttd-data",
+  "nix_pkg": null,
+  "control_file_hash": "d560e97386b3e7b46273bc02847813ed458b14c08f6add56c0d5aa7a59ec4056",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dpkg-dev",
+    "grfcodec",
+    "libfluidsynth-dev",
+    "libfontconfig-dev",
+    "libfreetype6-dev",
+    "libicu-dev",
+    "liblzma-dev",
+    "liblzo2-dev",
+    "libopengl-dev",
+    "libpng-dev",
+    "libsdl2-dev",
+    "openttd-data",
+    "openttd-opengfx",
+    "openttd-openmsx",
+    "openttd-opensfx",
+    "timidity",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "Fluid",
+    "SDL2",
+    "cmake",
+    "fluidsynth",
+    "fontconfig",
+    "freetype",
+    "libpng-apng",
+    "xz",
+    "zlib"
+  ],
+  "map": {
+    "libfluidsynth-dev": "fluidsynth",
+    "libfontconfig-dev": "fontconfig",
+    "cmake": "cmake",
+    "libfreetype6-dev": "freetype",
+    "zlib1g-dev": "zlib"
+  }
+}

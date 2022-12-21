@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "omake-doc",
+  "nix_pkg": null,
+  "control_file_hash": "352588c1f88e2e67d8af13de1a28efd084a0db960f985d0111f84f34eb20251b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-ocaml",
+    "libeditreadline-dev",
+    "libncurses5-dev",
+    "ocaml-nox",
+    "omake-doc"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "ocaml"
+  ],
+  "map": {
+    "libncurses5-dev": "ncurses",
+    "ocaml-nox": "ocaml"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "opendrop-doc",
+  "nix_pkg": null,
+  "control_file_hash": "ad7ff3ef338daa58e3ae839f525954f25b7297271f879d81900ff108872ca768",
+  "deb_inputs": [
+    "cython3",
+    "debhelper-compat",
+    "gir1.2-gdkpixbuf-2.0",
+    "gir1.2-gtk-3.0",
+    "libboost-dev",
+    "libboost-test-dev",
+    "libglib2.0-dev-bin",
+    "libsundials-dev",
+    "opendrop",
+    "opendrop-doc",
+    "pybuild-plugin-pyproject",
+    "python3",
+    "python3-all-dev",
+    "python3-cairo",
+    "python3-gi",
+    "python3-gi-cairo",
+    "python3-injector",
+    "python3-matplotlib",
+    "python3-numpy",
+    "python3-opencv",
+    "python3-pytest",
+    "python3-pytest-asyncio",
+    "python3-pytest-xvfb",
+    "python3-scipy",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "python3-typing-extensions",
+    "scons",
+    "unzip",
+    "x-window-manager"
+  ],
+  "nix_inputs": [
+    "fleep",
+    "libarchive-c",
+    "pillow",
+    "python3",
+    "requests-toolbelt",
+    "setuptools",
+    "zeroconf"
+  ],
+  "map": {
+    "python3": "python3",
+    "python3-setuptools": "setuptools"
+  }
+}

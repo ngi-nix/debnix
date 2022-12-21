@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "phosh-mobile-settings",
+  "nix_pkg": null,
+  "control_file_hash": "2a6ddd7c7a9ea8f30e11d070aea32e812bdfb173e8f69e75c3f07a3d8e34423a",
+  "deb_inputs": [
+    "appstream",
+    "debhelper-compat",
+    "desktop-file-utils",
+    "feedbackd",
+    "libadwaita-1-dev",
+    "libgtk-4-dev",
+    "libsensors-dev",
+    "meson",
+    "phoc",
+    "phosh"
+  ],
+  "nix_inputs": [
+    "desktop-file-utils",
+    "feedbackd",
+    "gtk4",
+    "libadwaita",
+    "lm-sensors",
+    "meson",
+    "ninja",
+    "phoc",
+    "phosh",
+    "pkg-config-wrapper",
+    "wayland-protocols"
+  ],
+  "map": {
+    "meson": "meson",
+    "desktop-file-utils": "desktop-file-utils",
+    "feedbackd": "feedbackd",
+    "phoc": "phoc",
+    "libsensors-dev": "lm-sensors",
+    "phosh": "phosh",
+    "libgtk-4-dev": "gtk4"
+  }
+}

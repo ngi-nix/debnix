@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "papirus-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "cdd35da5ae933d608ccf42aa765d9d813370061c48007a96bab9203307b0f2fb",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gtk-update-icon-cache",
+    "hicolor-icon-theme"
+  ],
+  "nix_inputs": [
+    "breeze-icons",
+    "elementary-icon-theme",
+    "gnome-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "papirus-folders"
+  ],
+  "map": {
+    "hicolor-icon-theme": "hicolor-icon-theme"
+  }
+}

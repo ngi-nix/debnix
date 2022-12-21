@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "pebble",
+  "nix_pkg": null,
+  "control_file_hash": "b4131436759fc69f2907768acdcdf51b09146f180511b5b5ab138c874e3f1288",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-letsencrypt-challtestsrv-dev",
+    "golang-github-miekg-dns-dev",
+    "golang-gopkg-square-go-jose.v2-dev"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

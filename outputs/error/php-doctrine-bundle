@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-phpcomposer", "php-doctrine-orm", "php-doctrine-sql-formatter", "php-sqlite3", "php-symfony-console", "php-symfony-doctrine-bridge", "php-symfony-framework-bundle", "php-symfony-messenger", "php-symfony-phpunit-bridge", "php-symfony-property-info", "php-symfony-proxy-manager-bridge", "php-symfony-validator", "php-symfony-var-dumper", "php-symfony-web-profiler-bundle", "php-symfony-yaml", "phpab", "phpunit", "pkg-php-tools"], or 
+output: 
+[] is empty!

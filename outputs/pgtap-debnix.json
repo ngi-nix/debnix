@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "pgtap",
+  "nix_pkg": null,
+  "control_file_hash": "cf95b77f4d0999af7de1f6eb0ed1fa635e119d9db0502b6aa02e1d1aeb2afb1b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libtap-harness-archive-perl",
+    "libtap-parser-sourcehandler-pgtap-perl",
+    "libtest-harness-perl",
+    "libtext-multimarkdown-perl",
+    "pgtap-doc",
+    "postgresql-15",
+    "postgresql-all",
+    "postgresql-pgtap"
+  ],
+  "nix_inputs": [
+    "TAP-Parser-SourceHandler-pgTAP",
+    "perl",
+    "postgresql",
+    "which"
+  ],
+  "map": {
+    "postgresql-15": "postgresql"
+  }
+}

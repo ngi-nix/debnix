@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "numix-icon-theme-circle",
+  "nix_pkg": null,
+  "control_file_hash": "837c48c86d81c8e7a06ea15dc015535e2e5bf261ed0221c723503afc0594d03f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "numix-icon-theme"
+  ],
+  "nix_inputs": [
+    "gtk+3",
+    "hicolor-icon-theme",
+    "numix-icon-theme"
+  ],
+  "map": {
+    "numix-icon-theme": "numix-icon-theme"
+  }
+}

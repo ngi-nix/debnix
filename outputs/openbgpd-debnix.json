@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "openbgpd",
+  "nix_pkg": null,
+  "control_file_hash": "af19d2744d11d69321a0a1d80f0b4558ae164f383b0f19a38a120abf0e6f6e7d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libevent-dev",
+    "rpki-client"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "bison",
+    "gnum4",
+    "libtool"
+  ],
+  "map": {}
+}

@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "openmolcas-data",
+  "nix_pkg": null,
+  "control_file_hash": "072ed5484abda2e09b7d849b5c048ab71661bf4f32323427309cdb66026ba58c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "gfortran",
+    "libhdf5-dev",
+    "libjs-jquery",
+    "libjs-underscore",
+    "libopenblas64-openmp-dev",
+    "libxc-dev",
+    "openmolcas-data",
+    "python3",
+    "python3-lxml",
+    "python3-pyparsing",
+    "python3-six",
+    "python3-sphinx",
+    "python3-sphinxcontrib.bibtex"
+  ],
+  "nix_inputs": [
+    "armadillo",
+    "cmake",
+    "gfortran-wrapper",
+    "hdf5-cpp",
+    "libxc",
+    "openblas",
+    "perl"
+  ],
+  "map": {
+    "libopenblas64-openmp-dev": "openblas",
+    "cmake": "cmake",
+    "libxc-dev": "libxc"
+  }
+}

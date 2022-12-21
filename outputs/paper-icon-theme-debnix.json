@@ -1,0 +1,23 @@
+{
+  "pkgs_name": "paper-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "d8f8e144daee17aed919ee088d5884c5b15c1f9f26eb5f769996e893c42c653b",
+  "deb_inputs": [
+    "debhelper-compat",
+    "jdupes",
+    "meson"
+  ],
+  "nix_inputs": [
+    "adwaita-icon-theme",
+    "gnome-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "jdupes",
+    "meson",
+    "ninja"
+  ],
+  "map": {
+    "jdupes": "jdupes",
+    "meson": "meson"
+  }
+}
