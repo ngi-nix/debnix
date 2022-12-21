@@ -1,0 +1,40 @@
+{
+  "pkgs_name": "mp3splt-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "033201e6cddf8126e753e83c8aac363b0aa0f9d789cd986647393000f5d811fb",
+  "deb_inputs": [
+    "audacious",
+    "audacious-dev",
+    "debhelper",
+    "doxygen",
+    "graphviz",
+    "gstreamer1.0-plugins-good",
+    "libaudclient-dev",
+    "libdbus-glib-1-dev",
+    "libflac-dev",
+    "libgstreamer-plugins-base1.0-dev",
+    "libgstreamer1.0-dev",
+    "libgtk-3-dev",
+    "libid3tag0-dev",
+    "libltdl3-dev",
+    "libmad0-dev",
+    "libmp3splt",
+    "libogg-dev",
+    "libpcre3-dev",
+    "libvorbis-dev",
+    "mp3splt",
+    "mp3splt-gtk"
+  ],
+  "nix_inputs": [
+    "libid3tag",
+    "libmad",
+    "libmp3splt",
+    "libtool",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libid3tag0-dev": "libid3tag",
+    "libmp3splt": "libmp3splt",
+    "libmad0-dev": "libmad"
+  }
+}

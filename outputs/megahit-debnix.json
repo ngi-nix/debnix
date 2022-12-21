@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "megahit",
+  "nix_pkg": null,
+  "control_file_hash": "35228a2d53bc6cceead0bdaf06c723e091fa6742ab5419225bad0e0dfef14c35",
+  "deb_inputs": [
+    "bzip2",
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "python3-all",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "zlib"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "molly-brown",
+  "nix_pkg": null,
+  "control_file_hash": "c0a69195668f358bfb65dc064d6ac7b6edc2121519a02a3a381eb87775f0b094",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-burntsushi-toml-dev",
+    "ssl-cert"
+  ],
+  "nix_inputs": [
+    "go",
+    "govers"
+  ],
+  "map": {}
+}

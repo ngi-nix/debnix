@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "node-escape-string-regexp", "node-tape"], or 
+output: 
+[] is empty!

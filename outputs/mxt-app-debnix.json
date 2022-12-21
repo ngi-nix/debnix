@@ -1,0 +1,16 @@
+{
+  "pkgs_name": "mxt-app",
+  "nix_pkg": null,
+  "control_file_hash": "41c5767e7774d8115d3aeff6fe70db8815ec2ea02cadfaf5d61b83a5ce8ef768",
+  "deb_inputs": [
+    "debhelper",
+    "doxygen",
+    "libcmocka-dev",
+    "libusb-1.0-0-dev",
+    "pandoc"
+  ],
+  "nix_inputs": [
+    "libtool"
+  ],
+  "map": {}
+}

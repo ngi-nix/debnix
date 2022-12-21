@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "node-commondir", "node-estree-walker", "node-glob", "node-is-reference", "node-locate-character", "node-magic-string", "node-resolve", "node-rollup-plugin-json", "node-rollup-plugin-node-resolve", "node-rollup-plugin-typescript", "node-rollup-pluginutils", "node-source-map", "node-tape", "rollup"], or 
+output: 
+[] is empty!

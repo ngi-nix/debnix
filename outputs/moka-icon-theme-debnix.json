@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "moka-icon-theme",
+  "nix_pkg": null,
+  "control_file_hash": "277a66224bd87746051da6c37e8147670f22d3494475327195077159253ff248",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "faba-icon-theme",
+    "meson"
+  ],
+  "nix_inputs": [
+    "faba-icon-theme",
+    "gtk+3",
+    "hicolor-icon-theme",
+    "jdupes",
+    "meson",
+    "ninja",
+    "python3"
+  ],
+  "map": {
+    "faba-icon-theme": "faba-icon-theme",
+    "meson": "meson"
+  }
+}

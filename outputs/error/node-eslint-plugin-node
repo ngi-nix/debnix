@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["cmark-gfm", "debhelper-compat", "eslint", "mocha", "node-eslint-plugin-es", "node-eslint-utils", "node-fast-glob", "node-ignore", "node-minimatch", "node-mysticatea-eslint-plugin", "node-resolve", "node-semver", "nodejs", "perl"], or 
+output: 
+[] is empty!

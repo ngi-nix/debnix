@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "mmseqs2",
+  "nix_pkg": null,
+  "control_file_hash": "04b523ef606aeee0459a73ae28f9057efb1d22c25358840109b95b1dcc9d1b22",
+  "deb_inputs": [
+    "debhelper-compat",
+    "mmseqs2"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "perl"
+  ],
+  "map": {}
+}

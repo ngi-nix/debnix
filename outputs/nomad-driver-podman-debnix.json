@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "nomad-driver-podman",
+  "nix_pkg": null,
+  "control_file_hash": "8edbe27edb372df4bda84ca32c0b25611ee3aba304b5694ac7513143739b5561",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "nomad",
+    "podman"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["chai", "debhelper-compat", "dh-sequence-nodejs", "mocha", "node-acorn", "node-estree-walker", "node-micromatch", "node-rollup-plugin-commonjs", "node-rollup-plugin-node-resolve", "node-rollup-plugin-typescript", "node-tape", "node-types-estree", "node-types-node", "node-typescript", "rollup", "ts-node"], or 
+output: 
+[] is empty!

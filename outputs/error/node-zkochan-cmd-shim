@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "dh-sequence-nodejs", "jest", "node-is-stream", "node-is-windows", "node-memfs", "node-type-fest", "node-types-jest", "node-types-node", "node-typescript", "node-unique-string"], or 
+output: 
+[] is empty!

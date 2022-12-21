@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "minia",
+  "nix_pkg": null,
+  "control_file_hash": "5d41b34454087a56cc72cf27ed069f6ed029716138b84a96d38c5eaa5bd9b8b5",
+  "deb_inputs": [
+    "bandage",
+    "bc",
+    "cmake",
+    "debhelper-compat",
+    "libboost-dev",
+    "libgatbcore-dev",
+    "libhdf5-dev",
+    "samtools",
+    "zlib1g",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "boost",
+    "cmake",
+    "hdf5"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libboost-dev": "boost",
+    "libhdf5-dev": "hdf5"
+  }
+}

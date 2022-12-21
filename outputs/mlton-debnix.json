@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "mlton",
+  "nix_pkg": null,
+  "control_file_hash": "dd58f579a9ea1935e5c7041f60faa253e0e3e1518e0efd1e4a046bab2fea987f",
+  "deb_inputs": [
+    "debhelper-compat",
+    "gcc",
+    "libc6-dev",
+    "libgmp-dev",
+    "mlton-basis",
+    "mlton-compiler",
+    "mlton-doc",
+    "mlton-runtime-alpha-linux-gnu",
+    "mlton-runtime-native",
+    "mlton-tools"
+  ],
+  "nix_inputs": [
+    "gmp-with-cxx",
+    "mlton",
+    "which"
+  ],
+  "map": {
+    "mlton-runtime-alpha-linux-gnu": "mlton",
+    "mlton-basis": "mlton",
+    "mlton-runtime-native": "mlton",
+    "mlton-doc": "mlton",
+    "mlton-tools": "mlton",
+    "mlton-compiler": "mlton"
+  }
+}
