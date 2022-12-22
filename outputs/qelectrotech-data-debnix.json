@@ -1,0 +1,35 @@
+{
+  "pkgs_name": "qelectrotech-data",
+  "nix_pkg": null,
+  "control_file_hash": "3b174c71941b55b6dc3f26788f819870deb2282983a71ac1281dac830470aa3c",
+  "deb_inputs": [
+    "catch2",
+    "debhelper-compat",
+    "googletest",
+    "libkf5coreaddons-dev",
+    "libkf5widgetsaddons-dev",
+    "libpugixml-dev",
+    "libqt5svg5-dev",
+    "libsingleapplication-dev",
+    "libsqlite3-dev",
+    "pkgconf",
+    "qelectrotech",
+    "qelectrotech-data",
+    "qelectrotech-examples",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qttools5-dev",
+    "qttranslations5-l10n"
+  ],
+  "nix_inputs": [
+    "kcoreaddons",
+    "kwidgetsaddons",
+    "pkg-config-wrapper",
+    "qtbase"
+  ],
+  "map": {
+    "libkf5coreaddons-dev": "kcoreaddons",
+    "qtbase5-dev": "qtbase",
+    "libkf5widgetsaddons-dev": "kwidgetsaddons"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "qbs-dev",
+  "nix_pkg": null,
+  "control_file_hash": "236d3bdd0929cec47a2d3a55695adc50afb4f016d1aee84f12b3300fab423f87",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libqbscore1.24",
+    "libqbsscriptengine1.24",
+    "libqt6core5compat6-dev",
+    "libqt6opengl6-dev",
+    "pkg-kde-tools",
+    "python3-bs4",
+    "python3-lxml",
+    "qbs-common",
+    "qt6-base-dev",
+    "qt6-base-private-dev",
+    "qt6-declarative-dev",
+    "qt6-tools-dev"
+  ],
+  "nix_inputs": [
+    "qtbase",
+    "qtscript"
+  ],
+  "map": {}
+}

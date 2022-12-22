@@ -1,0 +1,24 @@
+{
+  "pkgs_name": "python3-fasttext",
+  "nix_pkg": null,
+  "control_file_hash": "d286c94e26107cc4dcddb75ee712cc863f9e09fa401535dad0040fe250a08451",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "docbook-xsl",
+    "libfasttext0",
+    "python3-all-dev",
+    "python3-numpy",
+    "python3-pybind11",
+    "python3-setuptools",
+    "quilt",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}
