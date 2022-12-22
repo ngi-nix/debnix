@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "primesieve-doc",
+  "nix_pkg": null,
+  "control_file_hash": "18bea5be423834aeaa6ff351fdc9406702c32e5708019cc9f7a2cdf765d0b9b0",
+  "deb_inputs": [
+    "asciidoc-base",
+    "cmake",
+    "debhelper-compat",
+    "libjs-jquery",
+    "libprimesieve-dev",
+    "libprimesieve-dev-common",
+    "libprimesieve11",
+    "pdf-viewer",
+    "pkg-config",
+    "primesieve-bin",
+    "primesieve-doc",
+    "www-browser",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

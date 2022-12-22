@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "powerline-doc",
+  "nix_pkg": null,
+  "control_file_hash": "90cb786eb3b89f773d72f8e4f3bbaa485628e5045e29c4e935347235162d3c2c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "fontconfig",
+    "fonts-powerline",
+    "powerline-doc",
+    "python3-all",
+    "python3-i3ipc",
+    "python3-pexpect",
+    "python3-powerline",
+    "python3-psutil",
+    "python3-setuptools",
+    "python3-sphinx",
+    "python3-sphinx-rtd-theme",
+    "vim-addon-manager"
+  ],
+  "nix_inputs": [
+    "i3ipc",
+    "psutil",
+    "pygit2",
+    "python-hglib",
+    "python3",
+    "pyuv",
+    "socat"
+  ],
+  "map": {}
+}

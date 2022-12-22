@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "pyotherside",
+  "nix_pkg": null,
+  "control_file_hash": "6619f41d3e1ff9cded3f659e4a6e46fe42caf99a5f5381135be6d0087a50143c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libqt5opengl5-dev",
+    "libqt5svg5-dev",
+    "python3-dev",
+    "python3-sphinx",
+    "python3:any",
+    "qml-module-io-thp-pyotherside",
+    "qt5-qmake",
+    "qtbase5-dev",
+    "qtdeclarative5-dev",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "ncurses",
+    "python3",
+    "qtbase",
+    "qtquickcontrols",
+    "qtsvg"
+  ],
+  "map": {
+    "python3-dev": "python3",
+    "qtbase5-dev": "qtbase"
+  }
+}

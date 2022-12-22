@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "plasma-nano",
+  "nix_pkg": null,
+  "control_file_hash": "5a58f86515751ee9d73682b78e6d6bb898b42fd9b3a78e58f4151f3b22a37dc9",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "gettext",
+    "libkf5i18n-dev",
+    "libkf5plasma-dev",
+    "libkf5wayland-dev",
+    "libkf5windowsystem-dev",
+    "pkg-kde-tools",
+    "plasma-workspace",
+    "qtbase5-dev",
+    "qtdeclarative5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules",
+    "plasma-framework"
+  ],
+  "map": {
+    "libkf5plasma-dev": "plasma-framework",
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

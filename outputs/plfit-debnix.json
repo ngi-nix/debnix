@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "plfit",
+  "nix_pkg": null,
+  "control_file_hash": "15c16d9283a60be52509bcec2793be0eac55ead8399ffe0b2d393956b9aa9d7e",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libplfit0",
+    "plfit",
+    "plfit-doc",
+    "python3-dev",
+    "swig"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

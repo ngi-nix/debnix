@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "prayer-templates-src",
+  "nix_pkg": null,
+  "control_file_hash": "277b4c1b6b7080e9313fa192c39f0fb84b37e3eab6a7a5f0ecf6ea195aeed049",
+  "deb_inputs": [
+    "adduser",
+    "aspell",
+    "debhelper",
+    "default-mta",
+    "exim4",
+    "gcc",
+    "imap-server",
+    "ispell",
+    "libc-client-dev",
+    "libc-client2007e-dev",
+    "libdb-dev",
+    "libldap2-dev",
+    "libssl-dev",
+    "libtidy-dev",
+    "logrotate",
+    "lsb-base",
+    "mail-transport-agent",
+    "make",
+    "prayer",
+    "prayer-accountd",
+    "prayer-templates-dev",
+    "prayer-templates-src",
+    "ssl-cert",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "db",
+    "html-tidy",
+    "linux-pam",
+    "openssl",
+    "perl",
+    "uw-imap",
+    "zlib"
+  ],
+  "map": {
+    "libdb-dev": "db",
+    "zlib1g-dev": "zlib",
+    "libssl-dev": "openssl",
+    "libc-client2007e-dev": "uw-imap"
+  }
+}

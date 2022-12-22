@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "devhelp", "dh-sequence-python3", "dh-sequence-sphinxdoc", "python3-all", "python3-setuptools", "python3-sphinx", "python3-sphinxcontrib.devhelp", "python3-twisted"], or 
+output: 
+[] is empty!

@@ -1,0 +1,18 @@
+{
+  "pkgs_name": "plasma-workspace-wallpapers",
+  "nix_pkg": null,
+  "control_file_hash": "77734e497bd0d998b9080fe9c53897666dc569ec06e091c41eb871b452bbd25c",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "extra-cmake-modules",
+    "pkg-kde-tools",
+    "qtbase5-dev"
+  ],
+  "nix_inputs": [
+    "extra-cmake-modules"
+  ],
+  "map": {
+    "extra-cmake-modules": "extra-cmake-modules"
+  }
+}

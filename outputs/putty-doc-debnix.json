@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "putty-doc",
+  "nix_pkg": null,
+  "control_file_hash": "dc59878b9236064ce894bab3678592055cea3662125e20448663d9f50e78d4c4",
+  "deb_inputs": [
+    "cmake",
+    "debhelper",
+    "debhelper-compat",
+    "dh-exec",
+    "dpkg-dev",
+    "putty-doc",
+    "putty-tools"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "automake",
+    "gtk+",
+    "halibut",
+    "libtool",
+    "ncurses",
+    "perl",
+    "pkg-config-wrapper"
+  ],
+  "map": {}
+}

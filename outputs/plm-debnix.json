@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "plm",
+  "nix_pkg": null,
+  "control_file_hash": "8b59de683611f6f950a49837e2affdc321e5db47044e3e115ef35de427595464",
+  "deb_inputs": [
+    "ant",
+    "debhelper-compat",
+    "default-jdk",
+    "java-wrappers",
+    "javahelper",
+    "jruby",
+    "jython",
+    "libhttpmime-java",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "gcc-wrapper",
+    "openjdk",
+    "valgrind"
+  ],
+  "map": {}
+}

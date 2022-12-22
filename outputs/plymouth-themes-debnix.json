@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "plymouth-themes",
+  "nix_pkg": null,
+  "control_file_hash": "1476bc93d2a425a82e7cbe3bb95e68df125ae6fdf924715bf7cd5c1e3a8ee8a6",
+  "deb_inputs": [
+    "debhelper-compat",
+    "desktop-base",
+    "docbook-xsl",
+    "dracut",
+    "fontconfig",
+    "fontconfig-config",
+    "fonts-cantarell",
+    "fonts-dejavu-core",
+    "gdm",
+    "init-system-helpers",
+    "initramfs-tools",
+    "libdrm-dev",
+    "libgtk-3-dev",
+    "libpango1.0-dev",
+    "libplymouth5",
+    "libpng-dev",
+    "libudev-dev",
+    "lsb-base",
+    "pkg-config",
+    "plymouth",
+    "plymouth-label",
+    "plymouth-themes",
+    "systemd",
+    "udev",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "docbook-xsl-nons",
+    "gettext",
+    "gtk+3",
+    "libdrm",
+    "libxslt",
+    "pango",
+    "pkg-config-wrapper",
+    "systemd"
+  ],
+  "map": {
+    "libudev-dev": "systemd",
+    "libdrm-dev": "libdrm",
+    "systemd": "systemd",
+    "libpango1.0-dev": "pango",
+    "xsltproc": "libxslt",
+    "udev": "systemd"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pkgs_name": "python-black-doc",
+  "nix_pkg": null,
+  "control_file_hash": "397ea43b7cb121fa87bf2e18feea821319e6b4b9fae668ea5f88095c6394c599",
+  "deb_inputs": [
+    "bash-completion",
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "dh-sequence-sphinxdoc",
+    "libjs-jquery",
+    "libjs-underscore",
+    "pybuild-plugin-pyproject",
+    "python-black-doc",
+    "python3-aiohttp",
+    "python3-all",
+    "python3-click",
+    "python3-hatch-vcs",
+    "python3-hatchling",
+    "python3-mypy-extensions",
+    "python3-pathspec",
+    "python3-pkg-resources",
+    "python3-platformdirs",
+    "python3-pytest",
+    "python3-regex",
+    "python3-setuptools",
+    "python3-setuptools-scm",
+    "python3-sphinx",
+    "python3-sphinx-copybutton",
+    "python3-sphinxcontrib.programoutput",
+    "python3-tomli",
+    "python3-typing-extensions"
+  ],
+  "nix_inputs": [
+    "aiohttp",
+    "click",
+    "hatch-fancy-pypi-readme",
+    "hatch-vcs",
+    "hatchling",
+    "mypy-extensions",
+    "parameterized",
+    "pathspec",
+    "platformdirs",
+    "python3",
+    "tomli"
+  ],
+  "map": {
+    "python3-hatchling": "hatchling",
+    "python3-platformdirs": "platformdirs",
+    "python3-hatch-vcs": "hatch-vcs"
+  }
+}

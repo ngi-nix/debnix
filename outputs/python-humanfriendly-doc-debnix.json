@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "python-humanfriendly-doc",
+  "nix_pkg": null,
+  "control_file_hash": "4b43871f597a007f25695570b5b825e27ef229fb2e2bd59804c6c6f9fca7052c",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-python",
+    "dh-sequence-python3",
+    "python3-all",
+    "python3-coloredlogs",
+    "python3-docutils",
+    "python3-humanfriendly",
+    "python3-mock",
+    "python3-setuptools",
+    "python3-sphinx"
+  ],
+  "nix_inputs": [
+    "python3"
+  ],
+  "map": {}
+}

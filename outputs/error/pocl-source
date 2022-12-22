@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["clang-", "clang-14", "clinfo", "cmake", "debhelper-compat", "gcc", "libclang-14-dev", "libclang-cpp14-dev", "libhwloc-dev", "libpocl2", "libpocl2-common", "llvm-14-dev", "ocl-icd-dev", "ocl-icd-opencl-dev", "pkg-config", "pkg-kde-tools", "pocl-opencl-icd"], or 
+output: 
+[] is empty!

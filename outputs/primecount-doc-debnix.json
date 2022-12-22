@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "primecount-doc",
+  "nix_pkg": null,
+  "control_file_hash": "b6c1f98f31480f8926fa93dc6f2a6e70399c91e5f09dc53ec4d2c12a11bfec28",
+  "deb_inputs": [
+    "asciidoc-base",
+    "cmake",
+    "debhelper-compat",
+    "libprimecount-dev",
+    "libprimecount-dev-common",
+    "libprimecount7",
+    "libprimesieve-dev",
+    "pkg-config",
+    "primecount-bin",
+    "primecount-doc",
+    "www-browser",
+    "xmlto"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "primesieve"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "libprimesieve-dev": "primesieve"
+  }
+}
