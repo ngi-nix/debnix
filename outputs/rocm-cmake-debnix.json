@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "rocm-cmake",
+  "nix_pkg": null,
+  "control_file_hash": "cd6c19fe00f37cfc5d8b405d05dfaf4c31960df014edadf1a94703bb7923f518",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "cmake"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

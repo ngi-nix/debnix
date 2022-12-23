@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["bison", "debhelper-compat", "dh-python", "file", "flex", "gem2deb", "libaudit-dev", "libbz2-dev", "libcunit1-dev", "libselinux1-dev", "libsemanage-common", "libsemanage2", "libsepol-dev", "libsepol2", "pkg-config", "python3", "python3-all-dev", "python3-selinux", "python3-semanage", "ruby", "ruby-interpreter", "secilc", "swig"], or 
+output: 
+[] is empty!

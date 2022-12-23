@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "seqkit-examples",
+  "nix_pkg": null,
+  "control_file_hash": "8a2ac56104a56fd9c3f133ab3555e542b8c743d0d3c6101f5f10f89b7c1b1070",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-golang",
+    "golang-any",
+    "golang-github-biogo-biogo-dev",
+    "golang-github-biogo-hts-dev",
+    "golang-github-bsipos-thist-dev",
+    "golang-github-cespare-xxhash-dev",
+    "golang-github-cznic-sortutil-dev",
+    "golang-github-dustin-go-humanize-dev",
+    "golang-github-fsnotify-fsnotify-dev",
+    "golang-github-iafan-cwalk-dev",
+    "golang-github-logrusorgru-aurora-dev",
+    "golang-github-mattn-go-colorable-dev",
+    "golang-github-mattn-go-isatty-dev",
+    "golang-github-mitchellh-go-homedir-dev",
+    "golang-github-op-go-logging-dev",
+    "golang-github-shenwei356-bio-dev",
+    "golang-github-shenwei356-bwt-dev",
+    "golang-github-smallfish-simpleyaml-dev",
+    "golang-github-spf13-cobra-dev",
+    "golang-github-tatsushid-go-prettytable-dev",
+    "golang-github-twotwotwo-sorts-dev",
+    "samtools"
+  ],
+  "nix_inputs": [
+    "go"
+  ],
+  "map": {}
+}

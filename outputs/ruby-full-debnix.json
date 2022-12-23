@@ -1,0 +1,37 @@
+{
+  "pkgs_name": "ruby-full",
+  "nix_pkg": null,
+  "control_file_hash": "cb227949f7bff34ff7a80857bafc924461c3678c45ba4108dc0c34a2fa1d382d",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libruby",
+    "libruby3.1",
+    "ri",
+    "ruby",
+    "ruby-dev",
+    "ruby-rubygems",
+    "ruby3.1",
+    "ruby3.1-dev",
+    "ruby3.1-doc"
+  ],
+  "nix_inputs": [
+    "autoconf",
+    "bison",
+    "gdbm",
+    "groff",
+    "libffi",
+    "libyaml",
+    "ncurses",
+    "openssl",
+    "readline",
+    "ruby",
+    "zlib"
+  ],
+  "map": {
+    "ruby3.1-doc": "ruby",
+    "ruby3.1": "ruby",
+    "libruby3.1": "ruby",
+    "ruby3.1-dev": "ruby",
+    "libruby": "ruby"
+  }
+}

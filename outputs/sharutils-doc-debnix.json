@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "sharutils-doc",
+  "nix_pkg": null,
+  "control_file_hash": "20a447f66b5277c7cf37dd4da96c319e41de9307d8080dc49ccb7b96440bbaef",
+  "deb_inputs": [
+    "bsd-mailx",
+    "debhelper-compat",
+    "mailx",
+    "sharutils-doc",
+    "texinfo"
+  ],
+  "nix_inputs": [
+    "coreutils",
+    "gettext"
+  ],
+  "map": {}
+}

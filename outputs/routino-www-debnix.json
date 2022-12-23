@@ -1,0 +1,36 @@
+{
+  "pkgs_name": "routino-www",
+  "nix_pkg": null,
+  "control_file_hash": "3514b3eeff362f5a2adc512b1f0fb59ce0e5615cc4ea55b6c94f6755370a43df",
+  "deb_inputs": [
+    "apache2",
+    "chrpath",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "docbook2x",
+    "flex",
+    "gsfonts",
+    "httpd",
+    "javascript-common",
+    "libbz2-dev",
+    "libgraphics-magick-perl",
+    "libjs-leaflet",
+    "libroutino-slim0",
+    "libroutino0",
+    "routino",
+    "routino-common",
+    "sensible-utils",
+    "xsltproc",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "bzip2",
+    "perl",
+    "zlib"
+  ],
+  "map": {
+    "libbz2-dev": "bzip2",
+    "zlib1g-dev": "zlib"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pkgs_name": "ruby-obexftp",
+  "nix_pkg": null,
+  "control_file_hash": "d17623680f5f10c2f02363914832bfd79217c367ebc761f0d8ec15b3f407ad5f",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "doxygen",
+    "fuse",
+    "gem2deb",
+    "libbfb-dev",
+    "libbfb0",
+    "libbluetooth-dev",
+    "libfuse-dev",
+    "libmulticobex1",
+    "libmulticobex1-dev",
+    "libobexftp0",
+    "libopenobex2-dev",
+    "perl-xs-dev",
+    "pkg-config",
+    "swig"
+  ],
+  "nix_inputs": [
+    "bluez",
+    "cmake",
+    "openobex",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libopenobex2-dev": "openobex",
+    "cmake": "cmake",
+    "libbluetooth-dev": "bluez"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pkgs_name": "rsass",
+  "nix_pkg": null,
+  "control_file_hash": "07e975c4f7a74390ff3160fbda10606c21d68c81dc0adf1e21b7db6ee2cbdfd0",
+  "deb_inputs": [
+    "cmark-gfm",
+    "debhelper-compat",
+    "dh-cargo",
+    "help2man",
+    "librust-arc-swap-1+default-dev",
+    "librust-clap-3+default-dev",
+    "librust-clap-3+derive-dev",
+    "librust-clap-3+wrap-help-dev",
+    "librust-fastrand-1+default-dev",
+    "librust-lazy-static-1+default-dev",
+    "librust-nom-7-dev",
+    "librust-nom-locate-4+default-dev",
+    "librust-num-bigint-0.4+std-dev",
+    "librust-num-integer-0.1+default-dev",
+    "librust-num-rational-0.4-dev",
+    "librust-num-traits-0.2+default-dev",
+    "librust-rsass+commandline-dev",
+    "librust-rsass-dev",
+    "librust-tracing-0.1+default-dev"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}
