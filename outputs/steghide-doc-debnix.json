@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "steghide-doc",
+  "nix_pkg": null,
+  "control_file_hash": "3390faf75bbc677bdd58a89e209e49f1545c90188e53be5c732eec2b6092bdf3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "doxygen",
+    "libjpeg-dev",
+    "libjs-jquery",
+    "libmcrypt-dev",
+    "libmhash-dev",
+    "libtool-bin",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libjpeg-turbo",
+    "libmcrypt",
+    "mhash",
+    "zlib"
+  ],
+  "map": {
+    "libjpeg-dev": "libjpeg-turbo",
+    "libmhash-dev": "mhash",
+    "zlib1g-dev": "zlib",
+    "libmcrypt-dev": "libmcrypt"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "svt-av1",
+  "nix_pkg": null,
+  "control_file_hash": "1291edcb0332edf0c43e27f0765ce26fa6390b5e984c97ea7e083ef984a68810",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "libsvtav1-dev",
+    "libsvtav1dec0",
+    "libsvtav1enc1",
+    "yasm"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "nasm"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

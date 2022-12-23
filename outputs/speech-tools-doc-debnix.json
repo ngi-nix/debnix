@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "speech-tools-doc",
+  "nix_pkg": null,
+  "control_file_hash": "690a47334f99ab34fd79aac30399dbfe5f7cd7b1f642206f972636c200a83495",
+  "deb_inputs": [
+    "awk",
+    "debhelper-compat",
+    "dh-exec",
+    "doc-base",
+    "doxygen",
+    "doxygen-latex",
+    "gawk",
+    "graphviz",
+    "libasound2-dev",
+    "libc6-dev",
+    "libestools2.5",
+    "libncurses-dev",
+    "libpulse-dev",
+    "speech-tools-doc",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "alsa-lib",
+    "ncurses"
+  ],
+  "map": {
+    "libncurses-dev": "ncurses",
+    "libasound2-dev": "alsa-lib"
+  }
+}

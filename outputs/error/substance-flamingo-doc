@@ -1,0 +1,5 @@
+Nothing to Match: Nothing to match, 
+input: 
+["debhelper-compat", "default-jdk", "default-jdk-doc", "gradle", "gradle-debian-helper", "libasm-java", "libflamingo-java", "libflamingo-java-doc", "libjcip-annotations-java", "liblaf-plugin-java", "liblaf-plugin-java-doc", "liblaf-widget-java", "liblaf-widget-java-doc", "libswingx-java", "libswingx-java-doc", "libswt-gtk-4-java", "libtrident-java", "libtrident-java-doc", "maven-repo-helper", "substance", "substance-doc", "substance-flamingo", "substance-flamingo-doc", "substance-swingx", "substance-swingx-doc"], or 
+output: 
+[] is empty!

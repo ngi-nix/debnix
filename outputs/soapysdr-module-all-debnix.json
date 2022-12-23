@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "soapysdr-module-all",
+  "nix_pkg": null,
+  "control_file_hash": "41f4a52622fa600fccfb37b76c592fa06e0a809dc040125fb5b4ce42e9fbca69",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "dh-python",
+    "libsoapysdr-doc",
+    "libsoapysdr0.8",
+    "python3-dev",
+    "python3-distutils",
+    "python3-numpy",
+    "soapysdr0.8-module",
+    "soapysdr0.8-module-airspy",
+    "soapysdr0.8-module-all",
+    "soapysdr0.8-module-audio",
+    "soapysdr0.8-module-bladerf",
+    "soapysdr0.8-module-hackrf",
+    "soapysdr0.8-module-lms7",
+    "soapysdr0.8-module-mirisdr",
+    "soapysdr0.8-module-osmosdr",
+    "soapysdr0.8-module-redpitaya",
+    "soapysdr0.8-module-remote",
+    "soapysdr0.8-module-rfspace",
+    "soapysdr0.8-module-rtlsdr",
+    "soapysdr0.8-module-uhd",
+    "swig"
+  ],
+  "nix_inputs": [
+    "cmake",
+    "libusb-compat",
+    "ncurses",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "cmake": "cmake"
+  }
+}

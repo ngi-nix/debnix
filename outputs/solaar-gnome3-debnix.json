@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "solaar-gnome3",
+  "nix_pkg": null,
+  "control_file_hash": "ae3d5afc05abab7cbfbfa67188018c6e0ad7d23d7796eb6f67112907a6a12dbb",
+  "deb_inputs": [
+    "adduser",
+    "debhelper-compat",
+    "dh-python",
+    "passwd",
+    "python3-dbus",
+    "solaar",
+    "udev",
+    "upower"
+  ],
+  "nix_inputs": [
+    "evdev",
+    "gdk-pixbuf",
+    "gobject-introspection-wrapped",
+    "gtk+3",
+    "libappindicator-gtk3",
+    "librsvg",
+    "psutil",
+    "pygobject",
+    "python3",
+    "pyudev",
+    "pyyaml",
+    "xlib"
+  ],
+  "map": {}
+}

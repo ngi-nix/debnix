@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "sollya-doc",
+  "nix_pkg": null,
+  "control_file_hash": "446ea0e789ab1cff9a36f4b88c58cc7c6b0b3d765876a265ebe58158d63e208a",
+  "deb_inputs": [
+    "bison",
+    "debhelper-compat",
+    "flex",
+    "gnulib",
+    "gnuplot",
+    "help2man",
+    "libfl-dev",
+    "libfplll-dev",
+    "libgmp-dev",
+    "libmpfi-dev",
+    "libmpfr-dev",
+    "libsollya-dev",
+    "libsollya8",
+    "libtool",
+    "libxml2-dev",
+    "pdf-viewer",
+    "rlwrap",
+    "sollya-doc"
+  ],
+  "nix_inputs": [
+    "fplll",
+    "gmp-with-cxx",
+    "libxml2",
+    "mpfi",
+    "mpfr"
+  ],
+  "map": {
+    "libfplll-dev": "fplll",
+    "libmpfi-dev": "mpfi",
+    "libmpfr-dev": "mpfr",
+    "libxml2-dev": "libxml2"
+  }
+}
