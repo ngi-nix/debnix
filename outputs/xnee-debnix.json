@@ -1,0 +1,38 @@
+{
+  "pkgs_name": "xnee",
+  "nix_pkg": null,
+  "control_file_hash": "8f67eb37342e50e4338246712a918d9eaccdb02decf6a3f40ce56148bb7fec50",
+  "deb_inputs": [
+    "cdbs",
+    "cnee",
+    "debhelper",
+    "dh-autoreconf",
+    "dia",
+    "ghostscript",
+    "imagemagick",
+    "libxnee0",
+    "libxtst-dev",
+    "pkg-config",
+    "texi2html",
+    "texinfo",
+    "texlive-base",
+    "texlive-extra-utils",
+    "texlive-font-utils",
+    "texlive-plain-generic",
+    "xnee-doc"
+  ],
+  "nix_inputs": [
+    "gtk+",
+    "libX11",
+    "libXext",
+    "libXi",
+    "libXtst",
+    "pkg-config-wrapper",
+    "texinfo",
+    "xorgproto"
+  ],
+  "map": {
+    "libxtst-dev": "libXtst",
+    "texinfo": "texinfo"
+  }
+}

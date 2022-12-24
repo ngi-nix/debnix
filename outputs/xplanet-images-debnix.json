@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "xplanet-images",
+  "nix_pkg": null,
+  "control_file_hash": "5dd537133ee78fa33a92e66269b122d59d5e9f40ac3618fb695994e2a4a21576",
+  "deb_inputs": [
+    "debhelper-compat",
+    "fonts-freefont-ttf",
+    "libfreetype6-dev",
+    "libgif-dev",
+    "libjpeg-dev",
+    "libnetpbm-dev",
+    "libpango1.0-dev",
+    "libpng-dev",
+    "libtiff-dev",
+    "libx11-dev",
+    "libxss-dev",
+    "libxt-dev",
+    "pkg-config",
+    "xplanet-images"
+  ],
+  "nix_inputs": [
+    "freetype",
+    "giflib",
+    "libjpeg-turbo",
+    "libpng-apng",
+    "libtiff",
+    "netpbm",
+    "pango",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libpango1.0-dev": "pango",
+    "libjpeg-dev": "libjpeg-turbo",
+    "libgif-dev": "giflib",
+    "libnetpbm-dev": "netpbm",
+    "libfreetype6-dev": "freetype",
+    "libtiff-dev": "libtiff"
+  }
+}

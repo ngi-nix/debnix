@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "wordgrinder",
+  "nix_pkg": null,
+  "control_file_hash": "c2bce3a845b2df6737dc9371a590b72da23765b0a81654456b660a028d48ace4",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "dpkg-dev",
+    "imagemagick",
+    "liblua5.3-dev",
+    "libminizip-dev",
+    "libncursesw5-dev",
+    "libxft-dev",
+    "lua-filesystem",
+    "lua-lpeg-dev",
+    "lua5.3",
+    "ninja-build",
+    "uthash-dev",
+    "wordgrinder-doc",
+    "wordgrinder-ncurses",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "libXft",
+    "lua",
+    "ncurses",
+    "ninja",
+    "pkg-config-wrapper",
+    "readline",
+    "zlib"
+  ],
+  "map": {
+    "lua5.3": "lua",
+    "liblua5.3-dev": "lua",
+    "libncursesw5-dev": "ncurses",
+    "zlib1g-dev": "zlib",
+    "libxft-dev": "libXft"
+  }
+}

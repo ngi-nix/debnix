@@ -1,0 +1,31 @@
+{
+  "pkgs_name": "xdg-dbus-proxy-tests",
+  "nix_pkg": null,
+  "control_file_hash": "09d3d93bb37a568bcce4966bccc2c43fe2457e488ccf3280a6f4286b7b2ee61c",
+  "deb_inputs": [
+    "dbus-daemon",
+    "debhelper-compat",
+    "docbook-xml",
+    "docbook-xsl",
+    "gnome-desktop-testing",
+    "libglib2.0-dev",
+    "meson",
+    "xdg-dbus-proxy",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docbook-xml",
+    "docbook-xsl-nons",
+    "glib",
+    "libxslt",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "docbook-xml": "docbook-xml",
+    "xsltproc": "libxslt",
+    "libglib2.0-dev": "glib",
+    "meson": "meson"
+  }
+}

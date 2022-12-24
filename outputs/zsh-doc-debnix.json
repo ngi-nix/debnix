@@ -1,0 +1,39 @@
+{
+  "pkgs_name": "zsh-doc",
+  "nix_pkg": null,
+  "control_file_hash": "e57b888ad1d17066b8741a992a00a50325b28b68247a769db88e329874571e56",
+  "deb_inputs": [
+    "bsdextrautils",
+    "bsdmainutils",
+    "debhelper",
+    "debhelper-compat",
+    "debianutils",
+    "dpkg-dev",
+    "groff",
+    "groff-base",
+    "libcap-dev",
+    "libelf-dev",
+    "libgdbm-dev",
+    "libncurses-dev",
+    "libpcre3-dev",
+    "zsh",
+    "zsh-common",
+    "zsh-doc"
+  ],
+  "nix_inputs": [
+    "groff",
+    "ncurses",
+    "pcre",
+    "perl",
+    "texinfo",
+    "util-linux",
+    "yodl"
+  ],
+  "map": {
+    "groff": "groff",
+    "bsdextrautils": "util-linux",
+    "groff-base": "groff",
+    "libpcre3-dev": "pcre",
+    "libncurses-dev": "ncurses"
+  }
+}

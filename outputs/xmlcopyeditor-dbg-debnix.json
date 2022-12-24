@@ -1,0 +1,47 @@
+{
+  "pkgs_name": "xmlcopyeditor-dbg",
+  "nix_pkg": null,
+  "control_file_hash": "1c5e9e0b05a280a985f02d4d9e05cc3f839e6c417b637a849f485bb637657fa0",
+  "deb_inputs": [
+    "autoconf",
+    "automake",
+    "autotools-dev",
+    "debhelper",
+    "dh-buildinfo",
+    "intltool",
+    "libaspell-dev",
+    "libboost-dev",
+    "libexpat1-dev",
+    "libpcre2-dev",
+    "libtool",
+    "libwxgtk3.2-dev",
+    "libxerces-c-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "pkg-config",
+    "quilt"
+  ],
+  "nix_inputs": [
+    "aspell",
+    "boost",
+    "expat",
+    "intltool",
+    "libxml2",
+    "libxslt",
+    "pcre2",
+    "pkg-config-wrapper",
+    "wxwidgets",
+    "xerces-c"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre2",
+    "intltool": "intltool",
+    "libexpat1-dev": "expat",
+    "libboost-dev": "boost",
+    "libxml2-dev": "libxml2",
+    "libwxgtk3.2-dev": "wxwidgets",
+    "libxslt1-dev": "libxslt",
+    "libxerces-c-dev": "xerces-c",
+    "libaspell-dev": "aspell"
+  }
+}

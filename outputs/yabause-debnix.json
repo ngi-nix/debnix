@@ -1,0 +1,46 @@
+{
+  "pkgs_name": "yabause",
+  "nix_pkg": null,
+  "control_file_hash": "ffca3370fea83ec93da29d7efb9a5fadf85d98ce3c330e1c9f01a84d7f5fe2b3",
+  "deb_inputs": [
+    "cmake",
+    "debhelper-compat",
+    "freeglut3-dev",
+    "libgl-dev",
+    "libgl1-mesa-dev",
+    "libglew-dev",
+    "libglib2.0-dev",
+    "libglu-dev",
+    "libglu1-mesa-dev",
+    "libglut-dev",
+    "libgtk2.0-dev",
+    "libgtkglext1-dev",
+    "libmini18n-dev",
+    "libopenal-dev",
+    "libqt5opengl5-dev",
+    "libsdl2-dev",
+    "pkg-config",
+    "qtbase5-dev",
+    "qtmultimedia5-dev",
+    "yabause-common",
+    "yabause-gtk",
+    "yabause-qt"
+  ],
+  "nix_inputs": [
+    "SDL2",
+    "cmake",
+    "glu",
+    "libGL",
+    "pkg-config-wrapper",
+    "qtbase",
+    "qtmultimedia"
+  ],
+  "map": {
+    "cmake": "cmake",
+    "qtbase5-dev": "qtbase",
+    "qtmultimedia5-dev": "qtmultimedia",
+    "libglu-dev": "glu",
+    "libglu1-mesa-dev": "glu",
+    "libgl-dev": "libGL"
+  }
+}

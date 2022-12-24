@@ -1,0 +1,15 @@
+{
+  "pkgs_name": "xilinx-bootgen",
+  "nix_pkg": null,
+  "control_file_hash": "a88459882c71ed27f21851ee50557dbae15dd343ded4df9e24484598a5bb97fe",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libssl-dev"
+  ],
+  "nix_inputs": [
+    "openssl"
+  ],
+  "map": {
+    "libssl-dev": "openssl"
+  }
+}

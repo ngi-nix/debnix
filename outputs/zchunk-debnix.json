@@ -1,0 +1,27 @@
+{
+  "pkgs_name": "zchunk",
+  "nix_pkg": null,
+  "control_file_hash": "9c7bd64ae6435267c349bb8208d6fb655bacc4626b055bf2dc96c84291f409c0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcurl4-openssl-dev",
+    "libzck1",
+    "libzstd-dev",
+    "meson",
+    "pkg-config",
+    "python3",
+    "wamerican"
+  ],
+  "nix_inputs": [
+    "curl",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "zstd"
+  ],
+  "map": {
+    "libzstd-dev": "zstd",
+    "libcurl4-openssl-dev": "curl",
+    "meson": "meson"
+  }
+}
