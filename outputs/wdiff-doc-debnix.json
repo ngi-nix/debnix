@@ -1,0 +1,17 @@
+{
+  "pkgs_name": "wdiff-doc",
+  "nix_pkg": null,
+  "control_file_hash": "d6c35686c1b60a2824536344a19f29b602c7283b07c7c21d6b7e375884fa7a88",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libncurses5-dev",
+    "texinfo",
+    "wdiff-doc"
+  ],
+  "nix_inputs": [
+    "texinfo"
+  ],
+  "map": {
+    "texinfo": "texinfo"
+  }
+}

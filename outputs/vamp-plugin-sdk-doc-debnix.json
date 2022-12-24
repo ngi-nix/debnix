@@ -1,0 +1,21 @@
+{
+  "pkgs_name": "vamp-plugin-sdk-doc",
+  "nix_pkg": null,
+  "control_file_hash": "5c1acbec534ebc94b0e6c44bc5d4b4ac942a022d8702083360fc4c3ca6a26ee4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "docbook-to-man",
+    "graphviz",
+    "libsndfile1-dev",
+    "libvamp-hostsdk3v5",
+    "libvamp-sdk2v5",
+    "pkg-config"
+  ],
+  "nix_inputs": [
+    "libsndfile",
+    "pkg-config-wrapper"
+  ],
+  "map": {
+    "libsndfile1-dev": "libsndfile"
+  }
+}

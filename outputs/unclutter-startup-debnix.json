@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "unclutter-startup",
+  "nix_pkg": null,
+  "control_file_hash": "9726b34019eb32854c081fe6f574e0eaeb513d1a8b2f030155b4a99c3fbe5d10",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-exec",
+    "libx11-dev",
+    "unclutter",
+    "unclutter-startup",
+    "unclutter-xfixes"
+  ],
+  "nix_inputs": [
+    "libX11"
+  ],
+  "map": {
+    "libx11-dev": "libX11"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pkgs_name": "uuagc",
+  "nix_pkg": null,
+  "control_file_hash": "5ca040e0f1f301d1ca1293f7775b303946fe5fbef921a3c51571ec695b6affce",
+  "deb_inputs": [
+    "cdbs",
+    "debhelper",
+    "dpkg-dev",
+    "ghc",
+    "haskell-devscripts",
+    "libghc-src-exts-dev",
+    "libghc-uuagc-cabal-dev",
+    "libghc-uulib-dev",
+    "uuagc"
+  ],
+  "nix_inputs": [
+    "ghc",
+    "haskell-src-exts",
+    "uuagc-cabal",
+    "uulib"
+  ],
+  "map": {
+    "ghc": "ghc",
+    "libghc-src-exts-dev": "haskell-src-exts"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pkgs_name": "vim-git-hub",
+  "nix_pkg": null,
+  "control_file_hash": "c2a1cff38dfc3808cc45945755bfb130ebb57e9832bf8fa68c9832c6fd3aa3e4",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-bash-completion",
+    "dh-sequence-vim-addon",
+    "git",
+    "python3-docutils",
+    "python3:any",
+    "vim-git-hub"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "git-minimal"
+  ],
+  "map": {}
+}

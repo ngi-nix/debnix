@@ -1,0 +1,45 @@
+{
+  "pkgs_name": "texstudio-doc",
+  "nix_pkg": null,
+  "control_file_hash": "e78aef290a0074d2a94e761e213871cfd4651cd7934f13109234ec27b0dfe47e",
+  "deb_inputs": [
+    "adwaita-qt",
+    "debhelper-compat",
+    "hunspell-dictionary",
+    "libhunspell-dev",
+    "libphonon4qt5-dev",
+    "libpoppler-cpp-dev",
+    "libpoppler-qt5-dev",
+    "libqt5svg5",
+    "libqt5svg5-dev",
+    "libqtermwidget5-1-dev",
+    "libquazip5-dev",
+    "mythes-thesaurus",
+    "pkg-config",
+    "qt5-qmake",
+    "qtdeclarative5-dev",
+    "qtscript5-dev",
+    "qttools5-dev",
+    "texlive-base",
+    "texlive-fonts-recommended",
+    "texlive-latex-base",
+    "texlive-latex-extra",
+    "texlive-latex-recommended",
+    "texstudio",
+    "texstudio-doc",
+    "texstudio-l10n",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "pkg-config-wrapper",
+    "poppler-qt5",
+    "qtbase",
+    "qtscript",
+    "qtsvg",
+    "zlib"
+  ],
+  "map": {
+    "qtscript5-dev": "qtscript",
+    "zlib1g-dev": "zlib"
+  }
+}

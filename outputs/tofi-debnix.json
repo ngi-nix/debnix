@@ -1,0 +1,43 @@
+{
+  "pkgs_name": "tofi",
+  "nix_pkg": null,
+  "control_file_hash": "0537c979b602e9a6a2c6da1c35dd7b25a28b6aba792f8874836dc702d18a710a",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libfreetype-dev",
+    "libharfbuzz-dev",
+    "libpango1.0-dev",
+    "libwayland-dev",
+    "libxkbcommon-dev",
+    "meson",
+    "ninja-build",
+    "pkgconf",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "cairo",
+    "freetype",
+    "harfbuzz",
+    "libxkbcommon",
+    "meson",
+    "ninja",
+    "pango",
+    "pkg-config-wrapper",
+    "scdoc",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "map": {
+    "libcairo2-dev": "cairo",
+    "libwayland-dev": "wayland",
+    "meson": "meson",
+    "libharfbuzz-dev": "harfbuzz",
+    "libpango1.0-dev": "pango",
+    "libfreetype-dev": "freetype",
+    "libxkbcommon-dev": "libxkbcommon",
+    "scdoc": "scdoc",
+    "wayland-protocols": "wayland-protocols"
+  }
+}

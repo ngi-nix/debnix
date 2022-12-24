@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "vim-redact-pass",
+  "nix_pkg": null,
+  "control_file_hash": "e2349273bded84dd6415e0593ae00a4b474c1319946e580704d8c777f46a6ef0",
+  "deb_inputs": [
+    "debhelper-compat",
+    "dh-sequence-elpa",
+    "dh-sequence-vim-addon",
+    "git",
+    "gnupg",
+    "libxml-simple-perl",
+    "pass",
+    "perl",
+    "python",
+    "python3",
+    "qrencode",
+    "ruby",
+    "tree",
+    "wl-clipboard",
+    "xclip"
+  ],
+  "nix_inputs": [
+    "git"
+  ],
+  "map": {
+    "git": "git"
+  }
+}

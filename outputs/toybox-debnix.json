@@ -1,0 +1,14 @@
+{
+  "pkgs_name": "toybox",
+  "nix_pkg": null,
+  "control_file_hash": "4a884ae4ec4eebea93970b5b12fede0810ef597a6cc907ee3a22268a09e721bd",
+  "deb_inputs": [
+    "debhelper-compat",
+    "help2man",
+    "locales-all"
+  ],
+  "nix_inputs": [
+    "libxcrypt"
+  ],
+  "map": {}
+}

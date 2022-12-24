@@ -1,0 +1,25 @@
+{
+  "pkgs_name": "tla-doc",
+  "nix_pkg": null,
+  "control_file_hash": "28d03c94b3409cf7c18d813341889e4e56f7057e4fc105345e351a6ecd84e637",
+  "deb_inputs": [
+    "autotools-dev",
+    "debhelper",
+    "gawk",
+    "gnupg",
+    "libexpat1-dev",
+    "openssh-client",
+    "patch",
+    "time",
+    "tla-doc"
+  ],
+  "nix_inputs": [
+    "diffutils",
+    "gnutar",
+    "patch",
+    "which"
+  ],
+  "map": {
+    "patch": "patch"
+  }
+}

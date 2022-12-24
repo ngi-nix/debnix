@@ -1,0 +1,28 @@
+{
+  "pkgs_name": "valentina-l10n",
+  "nix_pkg": null,
+  "control_file_hash": "3042495add3e243ff05fcc15dd4c2c3c983a6be6e7a589e1997b340113e356ca",
+  "deb_inputs": [
+    "chrpath",
+    "debhelper-compat",
+    "libqt5opengl5-dev",
+    "libqt5svg5-dev",
+    "libqt5xmlpatterns5-dev",
+    "librsvg2-bin",
+    "poppler-utils",
+    "qt5-image-formats-plugins",
+    "qtbase5-dev",
+    "qttools5-dev-tools",
+    "valentina-l10n",
+    "xauth",
+    "xvfb"
+  ],
+  "nix_inputs": [
+    "qtsvg",
+    "qttools",
+    "qtxmlpatterns"
+  ],
+  "map": {
+    "qttools5-dev-tools": "qttools"
+  }
+}

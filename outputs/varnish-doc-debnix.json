@@ -1,0 +1,50 @@
+{
+  "pkgs_name": "varnish-doc",
+  "nix_pkg": null,
+  "control_file_hash": "020b7897947648e4587f43f59a8c3ac1d11d6db4027f3f7a18a7dabfedb65ca9",
+  "deb_inputs": [
+    "adduser",
+    "automake",
+    "debhelper-compat",
+    "gcc",
+    "graphviz",
+    "libc-dev",
+    "libc6-dev",
+    "libc6.1-dev",
+    "libedit-dev",
+    "libjemalloc-dev",
+    "libjs-jquery",
+    "libjs-underscore",
+    "libncurses-dev",
+    "libpcre2-dev",
+    "libtool",
+    "libvarnishapi3",
+    "lsb-base",
+    "pkg-config",
+    "python3-sphinx",
+    "python3:any",
+    "varnish-doc",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "docutils",
+    "groff",
+    "jemalloc",
+    "libedit",
+    "libxslt",
+    "ncurses",
+    "pcre2",
+    "pkg-config-wrapper",
+    "python3",
+    "readline",
+    "sphinx"
+  ],
+  "map": {
+    "libpcre2-dev": "pcre2",
+    "libjemalloc-dev": "jemalloc",
+    "python3-sphinx": "sphinx",
+    "xsltproc": "libxslt",
+    "libncurses-dev": "ncurses",
+    "libedit-dev": "libedit"
+  }
+}

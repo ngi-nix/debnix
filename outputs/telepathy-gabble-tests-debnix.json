@@ -1,0 +1,51 @@
+{
+  "pkgs_name": "telepathy-gabble-tests",
+  "nix_pkg": null,
+  "control_file_hash": "4e96e24c823dae89dfadf0bf6dbb10e3e0c7f169d384310afcc10c47119815da",
+  "deb_inputs": [
+    "debhelper",
+    "dh-python",
+    "dpkg-dev",
+    "gnutls-bin",
+    "libdbus-1-dev",
+    "libdbus-glib-1-dev",
+    "libglib2.0-dev",
+    "libgnutls28-dev",
+    "libnice-dev",
+    "libsasl2-dev",
+    "libsoup2.4-dev",
+    "libsqlite3-dev",
+    "libtelepathy-glib-dev",
+    "python",
+    "python-dbus",
+    "python-gobject",
+    "python-openssl",
+    "python-twisted",
+    "telepathy-gabble",
+    "xsltproc"
+  ],
+  "nix_inputs": [
+    "dbus",
+    "dbus-glib",
+    "gnutls",
+    "libnice",
+    "libsoup",
+    "libxml2",
+    "libxslt",
+    "pkg-config-wrapper",
+    "python3",
+    "sqlite",
+    "telepathy-glib"
+  ],
+  "map": {
+    "libdbus-glib-1-dev": "dbus-glib",
+    "libdbus-1-dev": "dbus",
+    "xsltproc": "libxslt",
+    "gnutls-bin": "gnutls",
+    "libsoup2.4-dev": "libsoup",
+    "libsqlite3-dev": "sqlite",
+    "libtelepathy-glib-dev": "telepathy-glib",
+    "libnice-dev": "libnice",
+    "libgnutls28-dev": "gnutls"
+  }
+}

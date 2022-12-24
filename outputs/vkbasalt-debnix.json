@@ -1,0 +1,30 @@
+{
+  "pkgs_name": "vkbasalt",
+  "nix_pkg": null,
+  "control_file_hash": "cd57b9cbee082806ed0cd39b9fecc0d041bfbc299705be374a34e39242964805",
+  "deb_inputs": [
+    "debhelper-compat",
+    "glslang-tools",
+    "goverlay",
+    "libvulkan-dev",
+    "libx11-dev",
+    "meson",
+    "pkg-config",
+    "spirv-headers"
+  ],
+  "nix_inputs": [
+    "glslang",
+    "libX11",
+    "meson",
+    "ninja",
+    "pkg-config-wrapper",
+    "spirv-headers",
+    "vulkan-headers"
+  ],
+  "map": {
+    "meson": "meson",
+    "libx11-dev": "libX11",
+    "glslang-tools": "glslang",
+    "spirv-headers": "spirv-headers"
+  }
+}

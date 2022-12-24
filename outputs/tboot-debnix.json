@@ -1,0 +1,20 @@
+{
+  "pkgs_name": "tboot",
+  "nix_pkg": null,
+  "control_file_hash": "aa8c91a5e5e59a53040f4cc8235cc4ef37b042b0a2e6700cab632f5d0bb927ea",
+  "deb_inputs": [
+    "debhelper",
+    "debhelper-compat",
+    "libtspi-dev",
+    "zlib1g-dev"
+  ],
+  "nix_inputs": [
+    "openssl",
+    "trousers",
+    "zlib"
+  ],
+  "map": {
+    "zlib1g-dev": "zlib",
+    "libtspi-dev": "trousers"
+  }
+}

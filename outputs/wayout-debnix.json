@@ -1,0 +1,22 @@
+{
+  "pkgs_name": "wayout",
+  "nix_pkg": null,
+  "control_file_hash": "882b3c370a93ba9aac1e8d3483d8323857d7beff1b39aa81bcd376340a2f6ed3",
+  "deb_inputs": [
+    "debhelper-compat",
+    "libcairo2-dev",
+    "libpango1.0-dev",
+    "libwayland-dev",
+    "libwayland-dev:native",
+    "meson",
+    "ninja-build",
+    "scdoc",
+    "wayland-protocols"
+  ],
+  "nix_inputs": [
+    "git-minimal",
+    "nss-cacert",
+    "rustc"
+  ],
+  "map": {}
+}

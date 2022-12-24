@@ -1,0 +1,12 @@
+{
+  "pkgs_name": "tegaki-zinnia-japanese",
+  "nix_pkg": null,
+  "control_file_hash": "ea90509b2fdd3cb97f66c5f9188d695658f3e503fda2ddfeaf36ba98a7095983",
+  "deb_inputs": [
+    "debhelper-compat"
+  ],
+  "nix_inputs": [
+    "unzip"
+  ],
+  "map": {}
+}
