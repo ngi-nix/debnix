@@ -10,4 +10,4 @@ clap = { version = "4.0.29", features = ["derive"] }
 control-file = { path = "../../lib/control-file/", version = "0.1.0" }
 serde = "1.0.149"
 serde_json = "1.0.89"
-thiserror = "1.0.37"
+thiserror = "1.0.38"
