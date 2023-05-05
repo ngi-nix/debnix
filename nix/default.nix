@@ -12,6 +12,11 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
   pname = name;
   root = nixpkgs.lib.cleanSource ./..;
   src = root;
+  stdenv =
+    if pkgs.stdenv.isLinux
+    then pkgs.stdenvAdapters.useMoldLinker pkgs.stdenv
+    else pkgs.stdenv;
+
   CARGO_LOCK = "${root}/Cargo.lock";
   CARGO_TOML = "${root}/Cargo.toml";
   RUST_TOOLCHAIN = "${root}/rust-toolchain.toml";
@@ -65,10 +70,6 @@ flake-utils.lib.eachSystem (nixpkgs.lib.remove "x86_64-darwin" (nixpkgs.lib.remo
     pkgs.just
     # for sponge
     pkgs.moreutils
-
-    #alternative linker
-    pkgs.mold
-    pkgs.clang
   ];
   fmtInputs = [
     # formatting
@@ -130,6 +131,7 @@ in rec {
       name
       nativeBuildInputs
       postInstall
+      stdenv
       src
       ;
   };
@@ -142,7 +144,7 @@ in rec {
       pname = name;
       cargoDepsName = name;
       version = "0.1.0";
-      inherit src buildInputs nativeBuildInputs cargoLock;
+      inherit src buildInputs nativeBuildInputs cargoLock stdenv;
       buildPhase = ''
         cargo build --package ${name} --release
         mkdir -p $out/bin;
