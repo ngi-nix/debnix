@@ -71,7 +71,7 @@ pub(crate) fn match_libs(
         if let Some(attr_path) = NIX_ATTRIBUTES_REVERSED.get(value) {
             if let Some(attr_path) = &attr_path.attrpath {
                 value.clear();
-                value.push_str(&*attr_path.clone())
+                value.push_str(&attr_path.clone())
             }
         }
     }

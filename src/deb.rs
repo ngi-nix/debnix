@@ -22,7 +22,7 @@ pub(crate) fn debian_redirect(pkgs: &str) -> Result<String, DebNixError> {
 /// relies on a redirect from `sources.debian`.
 pub(crate) fn get_latest_version_api(pkg: &str) -> Result<String, DebNixError> {
     let debian_sources = format!("https://sources.debian.org/api/src/{}/latest/", pkg);
-    let resp = reqwest::blocking::get(&debian_sources)?;
+    let resp = reqwest::blocking::get(debian_sources)?;
     let version_path = resp.url().path();
     Ok(version_path.to_string())
 }
@@ -133,7 +133,6 @@ pub(crate) fn read_popcon(location: &str) -> Result<Vec<String>, DebNixError> {
             if !record.starts_with('#') && !record.ends_with("(Not in sid)") {
                 let name = record
                     .split(' ')
-                    .into_iter()
                     .skip(1)
                     .take(2)
                     .collect::<String>();

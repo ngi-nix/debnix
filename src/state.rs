@@ -161,7 +161,7 @@ fn drv_inputs_from_pkgs(pkgs: Vec<String>) -> Result<Vec<String>, DebNixError> {
 
 /// Reads the provided output json's and creates a single json file
 /// for easy key value lookups.
-pub fn create_output_map(location: &str) -> Result<(), DebNixError> {
+pub fn create_output_map(_location: &str) -> Result<(), DebNixError> {
     use std::io::Read;
     let mut result: HashMap<String, String> = HashMap::new();
     let outputs = Path::new("./outputs");
