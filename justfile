@@ -26,7 +26,7 @@ update-flake-dependencies:
 update-cargo-dependencies:
 	cargo update
 	git add Cargo.lock
-	git commit Cargo.lock -m "update(cargo): `Cargo.lock`"
+	git commit Cargo.lock -m "update(cargo): \`Cargo.lock\`"
 
 error:
 	export RUST_LOG=error
