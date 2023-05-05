@@ -39,11 +39,16 @@ jobs:
         # If you chose API tokens for write access OR if you have a private cache
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
+    - name: setup git
+      run: |
+        set -x
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      shell: bash
+
     - name: run updater app
       run: |
         set -x
-        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
 
         # create temporary directory for downloads
         export TMP_DIR=./tmplocal
