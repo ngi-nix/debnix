@@ -17,7 +17,7 @@ members = [
 [dependencies]
 clap = { version = "4.3.3", features = ["derive"] }
 clap_complete = "4.3.1"
-csv = "1.2.0"
+csv = "1.2.2"
 log = "0.4"
 regex = "1.8.4"
 reqwest = { version = "0.11.18", features = ["blocking", "json"] }
