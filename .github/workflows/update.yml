@@ -22,7 +22,7 @@ jobs:
         fetch-depth: 1
 
     - name: Install/Setup - NIX
-      uses: cachix/install-nix-action@v21
+      uses: cachix/install-nix-action@v22
       with:
         # install_url: https://releases.nixos.org/nix/nix-2.10.3/install
         # If you chose API tokens for write access OR if you have a private cache
