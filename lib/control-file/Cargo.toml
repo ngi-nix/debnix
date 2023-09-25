@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 debcontrol = "0.1.1"
 log = "0.4"
-regex = "1.9.3"
+regex = "1.9.5"
 thiserror = "1.0.48"
