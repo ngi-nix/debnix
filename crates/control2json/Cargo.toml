@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.5.1", features = ["derive"] }
 control-file = { path = "../../lib/control-file/", version = "0.1.0" }
-serde = "1.0.193"
+serde = "1.0.197"
 serde_json = "1.0.109"
 thiserror = "1.0.56"
