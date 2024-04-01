@@ -26,7 +26,7 @@ serde_json = "1.0.109"
 thiserror = "1.0.58"
 control-file = { path = "./lib/control-file/", version = "0.1.0" }
 lazy_static = "1.4.0"
-chrono = "0.4.35"
+chrono = "0.4.37"
 env_logger = "0.11.3"
 
 [profile.release]
